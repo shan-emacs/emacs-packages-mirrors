@@ -1,0 +1,527 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - ada-mode</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - ada-mode</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">ada-mode</h2><dl><dt>Description</dt><dd>major-mode for editing Ada sources</dd>
+<dt>Latest</dt> <dd><a href="ada-mode-6.1.0.tar">ada-mode-6.1.0.tar</a>, 2019-Mar-22, 5.95MB</dd>
+<dt>Maintainer</dt> <dd>Stephen Leake &lt;stephen_leake@stephe-leake.org></dd>
+<dt>Home page</dt> <dd><a href="http://www.nongnu.org/ada-mode/">http://www.nongnu.org/ada-mode/</a></dd>
+<dt>Browse ELPA's repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/ada-mode">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/ada-mode">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">ada-mode</span> RET</pre><h2>Full description</h2><pre>
+Emacs Ada mode version 6.1.0
+
+Ada mode provides auto-casing, fontification, navigation, and
+indentation for Ada source code files.
+
+Cross-reference information output by the compiler is used to provide
+powerful code navigation (jump to definition, find all uses, etc). By
+default, only the AdaCore GNAT compiler is supported; other compilers
+can be supported. Ada mode uses gpr_query to query compiler-generated
+cross reference information. gpr_query is provided as Ada source code
+that must be compiled and installed; see ada-mode.info section
+Installation for instructions.
+
+Ada mode will be automatically loaded when you open a file
+with a matching extension (default *.ads, *.adb).
+
+Ada mode uses project files to define large (multi-directory)
+projects, and to define casing exceptions.
+
+Ada mode uses a parser to provide fontification, navigation, and
+indentation. There are two parsers provided:
+
+- elisp, which can be slow on large files, and does not recover from
+  syntax errors.
+
+- process, which is implemented in Ada, is fast enough for reasonably
+  large files, supports partial parse for very large files (see
+  wisi-partial-parse-threshold), and recovers from almost all syntax
+  errors. The 'process' parser must be compiled; see ada-mode.info
+  section "process parser".
+
+See ada-mode.info for help on using and customizing Ada mode, and
+notes for Ada mode developers.
+
+
+</pre>
+<h2>Old versions</h2><table>
+<tr><td><a href="ada-mode-6.0.1.tar">ada-mode-6.0.1.tar</a></td><td>2018-Dec-08</td><td>6.47MB</td>
+<tr><td><a href="ada-mode-6.0.0.tar">ada-mode-6.0.0.tar</a></td><td>2018-Dec-03</td><td>43.8MB</td>
+<tr><td><a href="ada-mode-5.3.2.tar">ada-mode-5.3.2.tar</a></td><td>2018-Nov-14</td><td>1.58MB</td>
+<tr><td><a href="ada-mode-5.3.1.tar">ada-mode-5.3.1.tar</a></td><td>2017-Oct-03</td><td>1.58MB</td>
+<tr><td><a href="ada-mode-5.2.2.tar">ada-mode-5.2.2.tar</a></td><td>2017-Jul-09</td><td>1.57MB</td>
+<tr><td><a href="ada-mode-5.2.1.tar">ada-mode-5.2.1.tar</a></td><td>2016-Oct-31</td><td>1.17MB</td>
+<tr><td><a href="ada-mode-5.2.0.tar">ada-mode-5.2.0.tar</a></td><td>2016-Jul-27</td><td>1.17MB</td>
+<tr><td><a href="ada-mode-5.1.9.tar">ada-mode-5.1.9.tar</a></td><td>2016-Jan-22</td><td>1.14MB</td>
+<tr><td><a href="ada-mode-5.1.8.tar">ada-mode-5.1.8.tar</a></td><td>2015-Apr-13</td><td>1.14MB</td>
+<tr><td><a href="ada-mode-5.1.7.tar">ada-mode-5.1.7.tar</a></td><td>2014-Nov-27</td><td>1.14MB</td>
+<tr><td><a href="ada-mode-5.1.6.tar">ada-mode-5.1.6.tar</a></td><td>2014-Sep-29</td><td>1.11MB</td>
+<tr><td><a href="ada-mode-5.1.5.tar">ada-mode-5.1.5.tar</a></td><td>2014-Jul-19</td><td>1.10MB</td>
+<tr><td><a href="ada-mode-5.1.4.tar">ada-mode-5.1.4.tar</a></td><td>2014-May-27</td><td>1.03MB</td>
+<tr><td><a href="ada-mode-5.1.3.tar">ada-mode-5.1.3.tar</a></td><td>2014-Apr-20</td><td>1.02MB</td>
+<tr><td><a href="ada-mode-5.1.1.tar">ada-mode-5.1.1.tar</a></td><td>2014-Mar-15</td><td>1010kB</td>
+<tr><td><a href="ada-mode-5.1.0.tar">ada-mode-5.1.0.tar</a></td><td>2014-Mar-14</td><td>1010kB</td>
+<tr><td><a href="ada-mode-5.0.tar">ada-mode-5.0.tar</a></td><td>2013-Dec-25</td><td> 980kB</td>
+<tr><td><a href="ada-mode-5.0.1.tar">ada-mode-5.0.1.tar</a></td><td>2014-Feb-03</td><td> 990kB</td>
+</table>
+<h2>News</h2><pre>
+GNU Emacs Ada mode NEWS -- history of user-visible changes.
+
+Copyright (C) 2018 Free Software Foundation, Inc.
+See the end of the file for license conditions.
+
+Please send wisi bug reports to bug-gnu-emacs@gnu.org, with
+'ada-mode' in the subject. If possible, use M-x report-emacs-bug.
+
+
+* Ada mode 6.1.0
+21 Mar 2019
+
+** Add support for partial parsing; useful in very large files. Files
+   larger than wisi-partial-parse-threshold (default 100_001) will be
+   parsed partially. In general, partial parsing may yield incorrect
+   results for indentation; the Ada menu entry
+   "Edit | Indent lines in file" will parse the entire file and indent
+   correctly.
+
+** Better error correction in the Ada process parser; insert minimimal
+  tokens to complete a statement/declaration before or after the error
+  point.
+
+** New indent option: 'ada-indent-after-trailing-comment' If t (the
+ default), align comment lines imediately following a comment on the
+ same line as code with the preceding comment. Otherwise, ignore the
+ preceding comment.
+
+** Delete support for the GPS backend; no need, given partial parsing
+   and error correction.
+
+** Miscellaneous bug fixes.
+
+* Ada mode 6.0.1
+8 Dec 2018
+
+** Compress ada_lr1_parse_table.txt
+
+** Assign copyright in Ada files to FSF
+
+* Ada mode 6.0.0
+17 Nov 2018
+
+** Use wisi 2.0; indentation computed directly in parser actions. This
+   has a few user visible changes in indention, making it more
+   consistent. It also makes it faster, so larger files are handled
+   more smoothly.
+
+** Support wisitoken generated Ada code parser, with error correction.
+   The parser runs in a background process.
+
+** ada-fix-compiler-error can now fix errors reported by the
+   background process parser.
+
+** ada-format-paramlist repairs syntax errors in buffer text before scanning.
+
+** Display marks in fringe at location of errors detected by
+   background parser.
+
+** Colorization of type and package names is somewhat improved, but
+   requires full name resolution to get fully correct.
+
+** new user option: ada-end-name-optional, default nil. If non-nil,
+   names at ends of blocks/subprograms are optional (as in standard
+   Ada). Setting this nil matches standard AdaCore style, and
+   significantly improves error correction in the parser (it can use
+   name matching to locate errors).
+
+** new user setting: ada-process-parse-exec,
+   ada-process-parse-exec-opts, gpr-process-parse-exec,
+   gpr-process-parse-exec-opts: the executable and options to run the
+   external parser for Ada and gpr modes. Default to the executables
+   built by the build.sh script included in the ELPA package, empty
+   options.
+
+   A useful setting for -exec-opts is '("--recover-log" "&lt;log file
+   name>"); this will log every error recovery to a file, so you can
+   examine how well it is working.
+
+** new user setting: ada-parser; must be one of 'elisp, 'process.
+   Defaults to 'process if the executable named by
+   ada-process-parse-exec is found, 'elisp otherwise.
+
+** new user setting: ada-fallback; must be one of nil, 'simple or
+   'gps. Identifies fallback indentation algorithm used when parser
+   fails; 'simple is "indent to previous line", 'gps is "use the gps
+   indent engine". nil means set to 'gps if the executable named by
+   ada-gps-indent-exec is found.
+
+** new user command: ada-refresh-prj-file. Useful when the project
+   file has been edited.
+
+** Implement an xref backend for Ada, using gpr-query. See (info "(emacs) Xref").
+
+** The various "find other file" commands assume the use of the Gnu
+   ELPA package other-frame-window; they no longer provide "other
+   window" options.
+
+** ada-xref-refresh (bound to "menu | Ada | Misc | refresh cross
+   reference cache", C-c C-q) now takes a prefix arg to delete the
+   xref files first as well. Useful when compiler options or version
+   have changed.
+
+* Ada mode 5.3.1
+3 Oct 2017
+
+** Ada mode 5.2.2 should have been numbered 5.3.0, since it introduced
+   the GPS indentation backend major feature.
+
+** GNAT GPL 2017 is supported for gpr_query and ada_mode_gps_indent;
+   see ada_mode.info for installation instructions.
+
+** New Ada-mode submenu "Select Project" lists all loaded Ada-mode
+   project, making it easier to switch between them.
+
+** New Ada-mode menu entry "Delete project..." allows deleting a
+   loaded project, to reduce clutter in the new "Select Project"
+   menu.
+
+** `ada-add-log-for-current-function' (for a revision control commit)
+   will return a type name. However, `ada-which-function' will not.
+
+** New option `ada-fill-comment-adaptive', if non-nil, causes all
+   comments to be filled to the same width, rather than to the same
+   column. This looks better in deeply nested code.
+
+** When 'ada-auto-case' is nil, 'ada-case-adjust-at-point' used to do
+   nothing; it now capitalizes the word at point. This helps with some
+   alternate casing styles.
+
+** Improve handling of GPR_PROJECT_PATH in 'compilation-environment'
+   when selecting/deselection ada-mode project files.
+
+** ada-gnat-xref-all (used by ada-show-references) now preserves point
+   when appending more references.
+
+** Minor bug fixes.
+
+* Ada mode 5.2.2
+9 Jul 2017
+
+** GNAT GPL 2017 is _not_ supported for gpr_query; GNAT GPL 2016 is
+   supported.
+
+** New option ada-indent-hanging-rel-exp; if non-nil, indent hanging
+   lines relative to start of expression. Otherwise, indent relative
+   to previous line. Default nil.
+
+** xref-ada allows entering an identifier to search for without
+   completion. The search is only in the current file.
+
+** ada-show-references, ada-show-local-references now take an 'append'
+   argument, set by interactive prefix; if non-nil, preserve previous
+   output in references buffer.
+
+** Support GPS indentation engine, either as primary or backup. See
+   user guide for how to set it up; it requires compiling Ada code.
+
+** ada_mode_gps_indent patch level 001 fixes ada-gps bugs 2, 6. See
+   test/ada-gps for bug descriptions/tests.
+
+** ada-identifier-at-point properly handles adjacent operator and
+   identifier (ie +Tree).
+
+** When a 'use type' clause is inserted by the compile error
+   correction code, 'use all type' is inserted if the lanuage version
+   is 2012 (the default).
+
+** The context menu is simplified.
+
+** The 'obj_dir' project variable is supported.
+
+** ada-next-statement-keyword, ada-prev-statement-keyword are deleted;
+   use forward-sexp instead.
+
+** The license inserted by ada-skel-modified-gpl uses GPL version 3
+   language.
+
+** Several indentation bugs are fixed.
+
+** New option ada-gnat-debug-run controls echoing GNAT commands in
+   GNAT buffers.
+
+* Ada mode 5.2.1
+31 Oct 2016
+
+** A line starting with '(' is now always indented with
+   ada-indent-broken. Previously, in some cases it was indented by
+   ada-indent - 1. Since the defaults set ada-indent = 3,
+   ada-indent-broken = 2, this is transparent unless you use other
+   values.
+
+** GPR_PROJECT_PATH is set in the compilation process environment when
+   the Ada project is selected, and cleared when the project is
+   deselected. This allows selecting other Emacs projects, then
+   returning to an Ada project.
+
+** New function ada-show-local-references (bound to C-c C-l) searches
+   for references within the current file only.
+
+** New option ada-xref-full-path (default nil) if t, shows full paths
+   in cross references.
+
+** The indentation functions are significantly rewritten to make them
+   better organized and easier to understand and maintain. This
+   resulted in some minor indentation changes, mostly for consistency;
+   in particular, case expressions are indented by ada-indent-broken,
+   to match if espressions.
+
+* Ada mode 5.2.0
+26 Jul 2016
+
+** GNAT 2016 drops support for 'gnat find'; users must use gpr_query.
+
+** ada-xref-tool now defaults to gpr_query if gpr_query executable is
+   found in PATH.
+
+** source code for compiling gpr_query is installed with the Gnu ELPA
+   package; instructions for compiling and installing it are in
+   ada-mode.info.
+
+** better handling of cross-compile targets.
+
+** Allow trailing label in a sequence_of_statements:
+   loop
+      ...
+      goto Next;
+   &lt;&lt;Next>>
+   end loop;
+
+** Handle package aspects.
+
+** tested with GNAT GPL 2016.
+
+** several bug fixes
+
+* Ada mode 5.1.9
+20 Jan 2016
+
+** New option ada-indent-comment-gnat matches the GNAT style check for
+   comments in all cases (previously, there were some cases where the
+   comment indent algorithm did not match the GNAT check).
+
+** New menu command "Show source file search path"; displays
+   compilation-search-path in a buffer.
+
+** Adding missing grammar statements to allow removing parens around
+   conditional and quantified expressions.
+
+** Key binding for ada-case-create-partial-exception in ada-mode
+   changed to C-c C-M-y; this is easier to type, and matches the key
+   binding in gpr-mode.
+
+** ada-case-keyword changed to accept the symbols 'lower-case,
+   'upper-case instead of the functions downcase-word, upcase-word.
+
+** ada-case-identifier changed to accept the symbols 'mixed-case,
+   'lower-case, 'upper-case instead of the functions 'ada-mixed-case,
+   'ada-lower-case, 'ada-upper-case.
+
+** ada-fix-add-context-clause now sorts "limited with" and "private
+   with" clauses after other clauses.
+
+** ada-align now aligns '=>' in case expressions.
+
+** ada-align-paramlist now handles access function parameters:
+
+   procedure Choose
+     (X, Y, Z    :        Integer;
+      Preference : access function (A, B : Integer) return Boolean);
+
+** ada-next-statement-keyword now moves to matching close paren if on
+   open paren, ada-prev-statement-keyword moves from close paren to
+   open paren.
+
+** New hook ada-prj-parse-hook, run from ada-parse-prj-file.
+
+** GPR mode now does case adjust similar to Ada mode.
+
+** gpr parser handles nested case statements without blowing up.
+
+** gpr parser handles package renames
+
+** fix other bugs
+
+* Ada mode 5.1.8
+10 Apr 2015
+
+** requires OpenToken 6.0
+
+** ada-align handle identifiers that start with Ada keywords
+
+** functions for ada-case-identifier now take three args: start, end,
+   force-case
+
+** parsing is not required by find-other-file if the current buffer is
+   larger than wisi-size-threshold
+
+** fix misc bugs
+
+* Ada mode 5.1.7
+18 Nov 2014
+
+** add ada-find-file that prompts for a file from the current project,
+   with completion.
+
+** fix bug that prevented
+    Y : Boolean := Boolean'(if True then False);
+
+** add ada-create-select-default-prj, to simplify working with small
+   projects
+
+** Handle deleting whitespace between words, inserting whitespace in
+   the middle of a word properly.
+
+** Change ada-case-adjust to capitalize words in comments and strings
+   by default; C-u adjusts case as if code.
+
+** allow 'raise' in expressions for GNAT GPL 2014 aspects
+
+** move all except keyword face highighting to grammar; much more
+   accurate, easier to maintain, simpler, faster.
+
+** delete gnatinspect support; gpr_query is better
+
+** misc bug fixes
+
+* Ada mode 5.1.6
+28 Sep 2014
+
+** improve syntax highlighting of names after 'of', 'new', 'renames'
+
+** fix ada-format-paramlist to handle 'aliased' keyword (new in Ada
+   2012), and 'not null' without 'access'.
+
+** fix ada-find-other-file in separate bodies; now navigates to the
+   spec.
+
+** restore ada-indent-newline-indent for [return]
+
+* Ada mode 5.1.5
+12 Jul 2014
+
+** add C-c &lt;, C-c >; goto-declaration-start, -end
+
+** improve parsing speed significantly
+
+* Ada mode 5.1.4
+26 May 2014
+
+** support expression functions
+
+** beginning-of-defun-function, end-of-defun-function are now set. A
+   "defun" is a generic, package, protected, subprogram, or task spec
+   or body.
+
+** C-c C-s is now bound to ada-goto-previous-pos, which goes to the
+   first position in ada-goto-pos-ring. Most navigation functions set
+   ada-goto-pos-ring. This allows easy navigation back to the start of
+   a cross-reference chain.
+
+** xref tool error handlers no longer show the xref tool buffer; the
+   new Ada menu item 'show xref tool buffer' can be used instead.
+
+** The parser supports more deeply nested case statements.
+
+* Ada mode 5.1.3
+19 Apr 2014
+
+** more GNAT error message auto-fixes
+
+** support aspects on subprogram declarations; format same as SPARK examples.
+
+** fix bug in ada-syntax-propertize that caused query-replace to screw up
+
+** inhibit reparse due to case adjust; case adjust entire buffer is
+   now _much_ faster.
+
+** Non-ASCII characters supported in Ada mode buffers, including GNAT
+   bracket notation.
+
+* Ada mode 5.1.2
+16 Mar 2014
+
+** fix another packaging bug; forgot to add files to ELPA git!
+
+* Ada mode 5.1.1
+14 Mar 2014
+
+** require wisi-1.0.2, to fix packaging bug
+
+** gnat-find now called with -a to include read-only .ali files in the results.
+
+* Ada mode 5.1.0
+13 Mar 2014
+
+** Emacs 24.2 supported, via cl-lib in Gnu ELPA
+
+** Better handling of aspects.
+
+** 'record' is aligned with 'type' in derived types
+
+** Several minor indentation bugs have been fixed.
+
+** Added "2.2 Upgrading from previous versions" to the user guide.
+
+** ada-align now properly handles subprograms with the opening paren
+   on the same line as the preceding code and code on the same line as
+   the closing paren:
+
+    function Foo (Param_1 : Integer;
+                  Param_2 : Integer) return Integer;
+
+** When no project file is selected, the default variables are
+   consistently used instead. Previously, the default variables were
+   only used when parsing a project file.
+
+** info files are properly visible in main info menu
+
+** 'C-c ;' used to run `comment-dim', which is bound to 'M-;' in the
+   global keymap. 'C-c ;' now gives an error with a message saying
+   'use M-; instead'.
+
+* Ada mode 5.0.1
+Feb 2 2014
+
+First public release, via ELPA
+
+* Ada mode 5.0.0
+Dec 24 2013
+
+** first release in ELPA
+
+** Previous version was 4.00, in Emacs core. 5.0.1 is a complete
+   rewrite, using a generalized LALR parser that caches syntactic
+   information in text properties.
+
+</pre>
+</body>
