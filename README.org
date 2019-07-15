@@ -1,0 +1,14 @@
+* emacs-packages-mirrors
+
+Git mirror of the emacs source archives
+
+** Usage
+
+For now, since I'm not sure how to effectively upload files many files nor do I want to get in trouble for doing
+so, simply close the repository and run the rsync script yourself for package mirrors.
+
+#+BEGIN_SRC bash
+./rsync.sh
+#+END_SRC
+
+Then source the folders as a valid archives in your emacs configuration.
