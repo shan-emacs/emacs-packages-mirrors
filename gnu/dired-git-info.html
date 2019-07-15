@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - dired-git-info</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - dired-git-info</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">dired-git-info</h2><dl><dt>Description</dt><dd>Show git info in dired</dd>
+<dt>Latest</dt> <dd><a href="dired-git-info-0.2.el">dired-git-info-0.2.el</a>, 2019-Feb-21, 7.00kB</dd>
+<dt>Home page</dt> <dd><a href="https://github.com/clemera/dired-git-info">https://github.com/clemera/dired-git-info</a></dd>
+<dt>Browse ELPA's repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/?h=externals/dired-git-info">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=shortlog;h=refs/heads/externals/dired-git-info">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">dired-git-info</span> RET</pre><h2>Full description</h2><pre>
+#+BEGIN_HTML
+&lt;a href="https://elpa.gnu.org/packages/dired-git-info.html">&lt;img alt="GNU ELPA" src="https://elpa.gnu.org/favicon.png"/>&lt;/a>
+#+END_HTML
+
+* Description
+
+This Emacs packages provides a minor mode which shows git information inside
+the dired buffer:
+
+[[./images/screenshot2.png]]
+
+* Installation
+
+For manual installation, clone the repository and call:
+
+#+BEGIN_SRC elisp
+(package-install-file "/path/to/dired-git-info.el")
+#+END_SRC
+
+* Config
+
+Bind the minor mode command in dired:
+
+#+BEGIN_SRC elisp
+(with-eval-after-load 'dired
+  (define-key dired-mode-map ")" 'dired-git-info-mode))
+#+END_SRC
+
+</pre>
+<h2>Old versions</h2><table>
+<tr><td><a href="dired-git-info-0.1.el">dired-git-info-0.1.el</a></td><td>2019-Feb-20</td><td>6.80kB</td>
+</table>
+</body>

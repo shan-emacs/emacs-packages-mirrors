@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - buffer-expose</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - buffer-expose</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">buffer-expose</h2><dl><dt>Description</dt><dd>Visual buffer switching using a window grid</dd>
+<dt>Latest</dt> <dd><a href="buffer-expose-0.4.2.el">buffer-expose-0.4.2.el</a>, 2019-Apr-23, 38.5kB</dd>
+<dt>Home page</dt> <dd><a href="https://github.com/clemera/buffer-expose">https://github.com/clemera/buffer-expose</a></dd>
+<dt>Browse ELPA's repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/?h=externals/buffer-expose">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=shortlog;h=refs/heads/externals/buffer-expose">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">buffer-expose</span> RET</pre><h2>Full description</h2><pre>
+#+BEGIN_HTML
+&lt;a href="https://elpa.gnu.org/packages/buffer-expose.html">&lt;img alt="GNU ELPA" src="https://elpa.gnu.org/favicon.png"/>&lt;/a>
+#+END_HTML
+
+* Description
+
+Visual buffer switching using a window grid ([[https://github.com/abo-abo/ace-window][ace-window ]]key hints are optional):
+
+[[./images/grid-aw.png]]
+
+* Installation
+
+For manual installation, clone the repository and call:
+
+#+BEGIN_SRC elisp
+(package-install-file "/path/to/buffer-expose.el")
+#+END_SRC
+
+* Config
+
+To use the default bindings for switching buffers with buffer-expose
+use buffer-expose-mode:
+
+#+BEGIN_SRC elisp
+(buffer-expose-mode 1)
+#+END_SRC
+
+The default bindings are defined in buffer-expose-mode-map:
+
+#+BEGIN_SRC elisp
+(defvar buffer-expose-mode-map
+  (let ((map (make-sparse-keymap)))
+    (define-key map (kbd "&lt;s-tab>") 'buffer-expose)
+    (define-key map (kbd "&lt;C-tab>") 'buffer-expose-no-stars)
+    (define-key map (kbd "C-c &lt;C-tab>") 'buffer-expose-current-mode)
+    (define-key map (kbd "C-c C-m") 'buffer-expose-major-mode)
+    (define-key map (kbd "C-c C-d") 'buffer-expose-dired-buffers)
+    (define-key map (kbd "C-c C-*") 'buffer-expose-stars)
+    map)
+  "Mode map for command `buffer-expose-mode'.")
+#+END_SRC
+
+There are user options to customize which buffers are shown and you can easily
+write your own command, like this:
+
+#+BEGIN_SRC elisp
+(defun my-expose-command (&amp;optional max)
+  (interactive "P")
+  (buffer-expose-show-buffers
+    &lt;your-buffer-list> max [&lt;hide-regexes> &lt;filter-func>]))
+#+END_SRC
+
+</pre>
+<h2>Old versions</h2><table>
+<tr><td><a href="buffer-expose-0.4.el">buffer-expose-0.4.el</a></td><td>2019-Mar-04</td><td>36.2kB</td>
+<tr><td><a href="buffer-expose-0.4.1.el">buffer-expose-0.4.1.el</a></td><td>2019-Mar-24</td><td>37.2kB</td>
+<tr><td><a href="buffer-expose-0.3.el">buffer-expose-0.3.el</a></td><td>2019-Feb-28</td><td>35.1kB</td>
+<tr><td><a href="buffer-expose-0.2.el">buffer-expose-0.2.el</a></td><td>2019-Feb-26</td><td>35.0kB</td>
+<tr><td><a href="buffer-expose-0.1.el">buffer-expose-0.1.el</a></td><td>2019-Feb-25</td><td>35.0kB</td>
+</table>
+</body>

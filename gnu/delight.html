@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - delight</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - delight</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">delight</h2><dl><dt>Description</dt><dd>A dimmer switch for your lighter text.</dd>
+<dt>Latest</dt> <dd><a href="delight-1.5.el">delight-1.5.el</a>, 2016-Jul-13, 9.45kB</dd>
+<dt>Maintainer</dt> <dd>Phil Sainty &lt;psainty@orcon.net.nz></dd>
+<dt>Home page</dt> <dd><a href="https://savannah.nongnu.org/projects/delight">https://savannah.nongnu.org/projects/delight</a></dd>
+<dt>Browse ELPA's repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/delight">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/delight">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">delight</span> RET</pre><h2>Full description</h2><pre>
+Enables you to customise the mode names displayed in the mode line.
+
+For major modes, the buffer-local `mode-name' variable is modified.
+For minor modes, the associated value in `minor-mode-alist' is set.
+
+Example usage:
+
+(require 'delight)
+
+(delight 'abbrev-mode " Abv" "abbrev")
+
+(delight '((abbrev-mode " Abv" "abbrev")
+           (smart-tab-mode " \\t" "smart-tab")
+           (eldoc-mode nil "eldoc")
+           (rainbow-mode)
+           (overwrite-mode " Ov" t)
+           (emacs-lisp-mode "Elisp" :major)))
+
+The first argument is the mode symbol.
+
+The second argument is the replacement name to use in the mode line
+(or nil to hide it).
+
+The third argument is either the keyword :major for major modes or,
+for minor modes, the library which defines the mode. This is passed
+to ‘eval-after-load’ and so should be either the name (as a string)
+of the library file which defines the mode, or the feature (symbol)
+provided by that library. If this argument is nil, the mode symbol
+will be passed as the feature. If this argument is either t or 'emacs
+then it is assumed that the mode is already loaded (you can use this
+with standard minor modes that are pre-loaded by default when Emacs
+starts).
+
+To determine which library defines a mode, use e.g.: C-h f
+eldoc-mode RET. The name of the library is displayed in the first
+paragraph, with an “.el” suffix (in this example it displays
+“eldoc.el”, and therefore we could use the value “eldoc” for the
+library).
+
+Important note:
+
+Although strings are common, any mode-line construct is permitted
+as the value (for both minor and major modes); so before you
+override a value you should check the existing one, as you may
+want to replicate any structural elements in your replacement
+if it turns out not to be a simple string.
+
+For major modes, M-: mode-name
+For minor modes, M-: (cadr (assq 'MODE minor-mode-alist))
+for the minor MODE in question.
+
+Conversely, you may incorporate additional mode-line constructs in
+your replacement values, if you so wish. e.g.:
+
+(delight 'emacs-lisp-mode
+         '("Elisp" (lexical-binding ":Lex" ":Dyn"))
+         :major)
+
+See `mode-line-format' for information about mode-line constructs,
+and M-: (info "(elisp) Mode Line Format") for further details.
+
+Also bear in mind that some modes may dynamically update these
+values themselves (for instance dired-mode updates mode-name if
+you change the sorting criteria) in which cases this library may
+prove inadequate.
+</pre>
+</body>

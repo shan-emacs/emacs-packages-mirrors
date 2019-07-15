@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - debbugs</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - debbugs</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">debbugs</h2><dl><dt>Description</dt><dd>SOAP library to access debbugs servers</dd>
+<dt>Latest</dt> <dd><a href="debbugs-0.17.tar">debbugs-0.17.tar</a>, 2019-Mar-26,  330kB</dd>
+<dt>Home page</dt> <dd><a href="http://elpa.gnu.org/packages/debbugs.html">http://elpa.gnu.org/packages/debbugs.html</a></dd>
+<dt>Browse repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/debbugs">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/debbugs">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">debbugs</span> RET</pre><h2>Full description</h2><pre>
+This package lets you access the GNU Bug Tracker from within Emacs.
+
+It defines the command `M-x debbugs-gnu' for listing bugs, and the
+command `M-x debbugs-gnu-search' for bug searching.  The command
+`M-x debbugs-gnu-usertags' shows existing user tags on bugs, whilst
+the command `M-x debbugs-gnu-patches' lists bugs containing a patch.
+In order to show bugs with known numbers, `M-x debbugs-gnu-bugs' could
+be used.
+
+If you prefer the listing of bugs as TODO items of `org-mode', you
+could use the commands `M-x debbugs-org', `M-x debbugs-org-search',
+`M-x debbugs-org-patches' and `M-x debbugs-org-bugs' instead.
+
+A minor mode `debbugs-browse-mode' let you browse URLs to the GNU Bug
+Tracker as well as bug identifiers prepared for `bug-reference-mode'.
+
+All these commands are described in the Debbugs User Guide, accessible via
+(info "(debbugs-ug)")
+
+This package works by implementing basic functions to access a Debbugs
+SOAP server (see &lt;http://wiki.debian.org/DebbugsSoapInterface>).  It
+implements the SOAP functions "get_bugs", "newest_bugs", "get_status",
+"get_usertag", "get_bug_log" and "search_est".  The SOAP function
+"get_versions" is not implemented (yet).
+
+You can connect to other debbugs servers by customizing the variable
+`debbugs-port'.
+
+</pre>
+<h2>Old versions</h2><table>
+<tr><td><a href="debbugs-0.9.tar">debbugs-0.9.tar</a></td><td>2016-Jan-22</td><td> 250kB</td>
+<tr><td><a href="debbugs-0.9.7.tar">debbugs-0.9.7.tar</a></td><td>2016-Jun-22</td><td> 260kB</td>
+<tr><td><a href="debbugs-0.9.6.tar">debbugs-0.9.6.tar</a></td><td>2016-Jun-14</td><td> 260kB</td>
+<tr><td><a href="debbugs-0.9.5.tar">debbugs-0.9.5.tar</a></td><td>2016-Apr-28</td><td> 260kB</td>
+<tr><td><a href="debbugs-0.9.3.tar">debbugs-0.9.3.tar</a></td><td>2016-Apr-26</td><td> 250kB</td>
+<tr><td><a href="debbugs-0.9.2.tar">debbugs-0.9.2.tar</a></td><td>2016-Apr-13</td><td> 250kB</td>
+<tr><td><a href="debbugs-0.9.1.tar">debbugs-0.9.1.tar</a></td><td>2016-Mar-15</td><td> 250kB</td>
+<tr><td><a href="debbugs-0.8.tar">debbugs-0.8.tar</a></td><td>2015-Nov-25</td><td> 230kB</td>
+<tr><td><a href="debbugs-0.7.tar">debbugs-0.7.tar</a></td><td>2015-Apr-14</td><td> 230kB</td>
+<tr><td><a href="debbugs-0.6.tar">debbugs-0.6.tar</a></td><td>2014-Jan-28</td><td> 150kB</td>
+<tr><td><a href="debbugs-0.5.tar">debbugs-0.5.tar</a></td><td>2013-Oct-26</td><td> 150kB</td>
+<tr><td><a href="debbugs-0.4.tar">debbugs-0.4.tar</a></td><td>2012-Nov-29</td><td> 130kB</td>
+<tr><td><a href="debbugs-0.16.tar">debbugs-0.16.tar</a></td><td>2018-Oct-17</td><td> 300kB</td>
+<tr><td><a href="debbugs-0.15.tar">debbugs-0.15.tar</a></td><td>2018-Jan-17</td><td> 300kB</td>
+<tr><td><a href="debbugs-0.14.tar">debbugs-0.14.tar</a></td><td>2017-Feb-20</td><td> 300kB</td>
+<tr><td><a href="debbugs-0.13.tar">debbugs-0.13.tar</a></td><td>2017-Feb-18</td><td> 300kB</td>
+<tr><td><a href="debbugs-0.12.tar">debbugs-0.12.tar</a></td><td>2016-Oct-31</td><td> 300kB</td>
+<tr><td><a href="debbugs-0.11.tar">debbugs-0.11.tar</a></td><td>2016-Sep-24</td><td> 300kB</td>
+<tr><td><a href="debbugs-0.10.tar">debbugs-0.10.tar</a></td><td>2016-Jul-31</td><td> 290kB</td>
+</table>
+</body>
