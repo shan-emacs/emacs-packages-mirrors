@@ -2,13 +2,25 @@
 
 Git mirror of the emacs source archives
 
+NOTE: README is super WIP and messy
+
 ** Usage
 
-For now, since I'm not sure how to effectively upload files many files nor do I want to get in trouble for doing
-so, simply close the repository and run the rsync script yourself for package mirrors.
+*** Update Packages
 
 #+BEGIN_SRC bash
 ./rsync.sh
 #+END_SRC
 
 Then source the folders as a valid archives in your emacs configuration.
+
+*** Use just the Github
+
+Add this to your emacs config
+
+#+BEGIN_SRC emacs-script
+(setq package-archives
+      '(("melpa" . "https://raw.githubusercontent.com/kkhan01/emacs-packages-mirrors/master/melpa/")
+        ("org"   . "https://raw.githubusercontent.com/kkhan01/emacs-packages-mirrors/master/org/")
+        ("gnu"   . "https://raw.githubusercontent.com/kkhan01/emacs-packages-mirrors/master/gnu/")))
+#+END_SRC
