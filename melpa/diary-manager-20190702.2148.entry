@@ -1,0 +1,2 @@
+
+(diary-manager . [(20190702 2148) ((emacs (25))) "Simple personal diary" single ((:commit . "97f37cfb27ca85eec2f30c630ed356f2fd1f65e3") (:keywords "extensions") (:authors ("Radon Rosborough" . "radon.neon@gmail.com")) (:maintainer "Radon Rosborough" . "radon.neon@gmail.com") (:url . "https://github.com/raxod502/diary-manager"))])

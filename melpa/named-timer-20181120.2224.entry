@@ -1,0 +1,2 @@
+
+(named-timer . [(20181120 2224) ((emacs (24 4))) "Simplified timer management for Emacs Lisp" single ((:commit . "670b81e3eddef2e7353a4eedc9553a85306445db") (:keywords "tools") (:authors ("Ryan C. Thompson")) (:maintainer "Ryan C. Thompson") (:url . "https://github.com/DarwinAwardWinner/emacs-named-timer"))])

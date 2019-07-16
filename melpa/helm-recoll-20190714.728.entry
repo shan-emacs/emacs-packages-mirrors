@@ -1,0 +1,2 @@
+
+(helm-recoll . [(20190714 728) ((helm (1 9 9))) "helm interface for the recoll desktop search tool." single ((:commit . "270c60de4111f48e0c675cf690916621e9180ac4") (:keywords "convenience") (:authors ("Thierry Volpiatto <thierry.volpiatto at gmail.com>")) (:maintainer "Thierry Volpiatto <thierry.volpiatto at gmail.com>") (:url . "https://github.com/emacs-helm/helm-recoll"))])

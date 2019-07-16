@@ -1,0 +1,2 @@
+
+(ample-theme . [(20180207 1745) nil "Calm Dark Theme for Emacs" tar ((:commit . "536966adf882446165a1f756830028faa792c7a9") (:keywords "theme" "dark") (:authors ("Jordon Biondo" . "jordonbiondo@gmail.com")) (:maintainer "Jordon Biondo" . "jordonbiondo@gmail.com") (:url . "https://github.com/jordonbiondo/ample-theme"))])

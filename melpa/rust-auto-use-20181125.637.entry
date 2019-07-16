@@ -1,0 +1,2 @@
+
+(rust-auto-use . [(20181125 637) nil "Utility to automatically insert Rust use statements" single ((:commit . "d924505ecd954625dcb2d56dfba97111dc6a17fa") (:keywords "languages") (:authors ("Rotem Yaari" . "rotemy@MBP.local")) (:maintainer "Rotem Yaari" . "rotemy@MBP.local"))])

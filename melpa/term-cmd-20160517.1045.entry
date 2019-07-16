@@ -1,0 +1,2 @@
+
+(term-cmd . [(20160517 1045) ((emacs (24 0)) (dash (2 12 0)) (f (0 18 2))) "Send commands from programs running in term.el." tar ((:commit . "552aa58965aab9b78e46934462bafe54c0396ffb"))])

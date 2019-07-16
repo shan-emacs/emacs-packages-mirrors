@@ -1,0 +1,2 @@
+
+(jq-mode . [(20181103 1258) ((emacs (25 1))) "Edit jq scripts." tar ((:commit . "d6bbd83baf0746f22564f7ae92db44e06da6e08c") (:authors ("Bjarte Johansen <Bjarte dot Johansen at gmail dot com>")) (:maintainer "Bjarte Johansen <Bjarte dot Johansen at gmail dot com>") (:url . "https://github.com/ljos/jq-mode"))])

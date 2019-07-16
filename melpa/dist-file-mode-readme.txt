@@ -1,0 +1,6 @@
+There are sometimes files whose file name ends with `.dist'.
+(The suffix means "distributed".)
+
+For example: `phpunit.xml.dist', `phpstan.neon.dist'
+
+This command removes `.dist' from file name and choises the appropriate major mode.

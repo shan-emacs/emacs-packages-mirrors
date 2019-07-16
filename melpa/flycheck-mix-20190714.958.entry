@@ -1,0 +1,2 @@
+
+(flycheck-mix . [(20190714 958) ((flycheck (27)) (elixir-mode (1 8 0))) "Elixir mix flycheck integration" single ((:commit . "04681608e52ac660f74989a045579da75bc489f2") (:keywords "elixir" "flycheck" "mix") (:authors ("Tomasz Kowal" . "tomekowal@gmail.com")) (:maintainer "Tomasz Kowal" . "tomekowal@gmail.com") (:url . "https://github.com/tomekowal/flycheck-mix"))])

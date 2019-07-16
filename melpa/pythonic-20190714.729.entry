@@ -1,0 +1,2 @@
+
+(pythonic . [(20190714 729) ((emacs (25)) (s (1 9)) (f (0 17 2))) "Utility functions for writing pythonic emacs package." single ((:commit . "69b812c87236c4d86fed11a743867af4b91f0ad3") (:authors ("Artem Malyshev" . "proofit404@gmail.com")) (:maintainer "Artem Malyshev" . "proofit404@gmail.com") (:url . "https://github.com/proofit404/pythonic"))])

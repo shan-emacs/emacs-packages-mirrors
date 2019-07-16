@@ -1,0 +1,2 @@
+
+(urscript-mode . [(20190219 1604) ((emacs (24 4))) "major mode for editing URScript." single ((:commit . "b341f96b129ead8fb74d680cb4f546985bf110a9") (:keywords "languages") (:authors ("Guido Schmidt" . "git@guidoschmidt.cc")) (:maintainer "Guido Schmidt" . "git@guidoschmidt.cc") (:url . "https://github.com/guidoschmidt/urscript-mode"))])

@@ -1,0 +1,2 @@
+
+(sly-hello-world . [(20190701 1443) ((sly (1 0 0 -2 2))) "A template SLY contrib" tar ((:commit . "355c94235afa9f79eefff1d22e97fcfa9c31d70c") (:keywords "languages" "lisp" "sly") (:authors ("João Távora" . "joaotavora@gmail.com")) (:maintainer "João Távora" . "joaotavora@gmail.com") (:url . "https://github.com/capitaomorte/sly-hello-world"))])

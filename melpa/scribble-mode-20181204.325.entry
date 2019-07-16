@@ -1,0 +1,2 @@
+
+(scribble-mode . [(20181204 325) ((emacs (24))) "Major mode for editing Scribble documents" single ((:commit . "217945d54de5e4bb207033f2116baa28f5c5ecf2") (:keywords "convenience") (:authors ("Mario Rodas" . "marsam@users.noreply.github.com")) (:maintainer "Mario Rodas" . "marsam@users.noreply.github.com") (:url . "https://github.com/emacs-pe/scribble-mode"))])

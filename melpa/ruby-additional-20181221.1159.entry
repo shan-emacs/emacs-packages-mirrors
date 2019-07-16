@@ -1,0 +1,2 @@
+
+(ruby-additional . [(20181221 1159) ((emacs (24 3)) (ruby-mode (1 2))) "ruby-mode extensions yet to be merged into Emacs" tar ((:commit . "75bccbb384e6907df47ab69acdccb4536806c890") (:keywords "ruby" "languages") (:url . "https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/trunk/misc/"))])

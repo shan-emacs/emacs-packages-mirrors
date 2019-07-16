@@ -1,0 +1,2 @@
+
+(k8s-mode . [(20181231 741) ((emacs (24 3)) (yaml-mode (0 0 10))) "Major mode for Kubernetes configuration file" tar ((:commit . "1580ffd6ec7749ec6d069ccea95f8c926ca5db15") (:authors ("Giap Tran" . "txgvnn@gmail.com")) (:maintainer "Giap Tran" . "txgvnn@gmail.com") (:url . "https://github.com/TxGVNN/emacs-k8s-mode"))])

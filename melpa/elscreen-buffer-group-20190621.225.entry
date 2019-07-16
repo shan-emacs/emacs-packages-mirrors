@@ -1,0 +1,2 @@
+
+(elscreen-buffer-group . [(20190621 225) ((emacs (24 4)) (elscreen (0)) (cl-lib (0 5))) "elscreen buffer group" single ((:commit . "c78fc19b8a80415997b191fc08bf6768449ea12e") (:keywords "buffer") (:authors ("Jeff Gran" . "jeff@jeffgran.com") ("Author: Ryan C. Thompson")) (:maintainer "Jeff Gran" . "jeff@jeffgran.com") (:url . "https://github.com/jeffgran/elscreen-buffer-group"))])

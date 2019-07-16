@@ -1,0 +1,2 @@
+
+(multiple-cursors . [(20190317 1211) ((cl-lib (0 5))) "Multiple cursors for Emacs." tar ((:commit . "5ffb19af48bf8a76ddc9f81745be052f050bddef"))])

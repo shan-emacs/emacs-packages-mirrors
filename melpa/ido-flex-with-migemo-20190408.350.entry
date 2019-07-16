@@ -1,0 +1,2 @@
+
+(ido-flex-with-migemo . [(20190408 350) ((flx-ido (0 6 1)) (migemo (1 9 1)) (emacs (24 4))) "use ido with flex and migemo" single ((:commit . "aa93aa05947eb6c106bb9523ff3163b8574c4eac") (:keywords "matching") (:authors ("ROCKTAKEY " . "rocktakey@gmail.com")) (:maintainer "ROCKTAKEY " . "rocktakey@gmail.com") (:url . "https://github.com/ROCKTAKEY/ido-flex-with-migemo"))])

@@ -1,0 +1,2 @@
+
+(org-clock-split . [(20180909 2047) ((emacs (24))) "Split clock entries" single ((:commit . "b2f1497b62e7f4a767be02e249e4ac95d4f8f21c") (:keywords "calendar") (:authors ("Justin Taft <https://github.com/justintaft>")) (:maintainer "Justin Taft <https://github.com/justintaft>") (:url . "https://github.com/justintaft/emacs-org-clock-split"))])

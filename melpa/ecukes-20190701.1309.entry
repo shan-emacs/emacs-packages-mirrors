@@ -1,0 +1,2 @@
+
+(ecukes . [(20190701 1309) ((commander (0 6 1)) (espuds (0 2 2)) (ansi (0 3 0)) (dash (2 2 0)) (s (1 8 0)) (f (0 11 0))) "Cucumber for Emacs." tar ((:commit . "3f39a9eb4f89ff637ee9b6ab4995c8a7ef18cb49"))])

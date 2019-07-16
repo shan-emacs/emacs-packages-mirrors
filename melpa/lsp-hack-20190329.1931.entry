@@ -1,0 +1,2 @@
+
+(lsp-hack . [(20190329 1931) ((lsp-mode (20190328 2018))) "lsp-mode client for hacklang" single ((:commit . "7c3305c30bffda6fcb74d8f3b0dfecd0369713dc") (:authors ("John Allen" . "oss@porcnick.com")) (:maintainer "John Allen" . "oss@porcnick.com") (:url . "https://github.com/jra3/lsp-hack"))])

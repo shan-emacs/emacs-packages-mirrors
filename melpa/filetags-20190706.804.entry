@@ -1,0 +1,2 @@
+
+(filetags . [(20190706 804) ((emacs (24 4))) "Package to manage filetags in filename" single ((:commit . "504cb41eabded459de6990da6cddb3cb24474b39") (:keywords "convenience" "files") (:authors ("Max Beutelspacher")) (:maintainer "Max Beutelspacher") (:url . "https://github.com/DerBeutlin/filetags.el"))])

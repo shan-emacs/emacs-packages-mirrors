@@ -1,0 +1,2 @@
+
+(sesman . [(20190623 1123) ((emacs (25))) "Generic Session Manager" tar ((:commit . "e8bfb0e37940bf5f370ae300b896dd04afbc63c8") (:keywords "process") (:authors ("Vitalie Spinu")) (:maintainer "Vitalie Spinu") (:url . "https://github.com/vspinu/sesman"))])

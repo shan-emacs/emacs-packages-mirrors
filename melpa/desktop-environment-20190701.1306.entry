@@ -1,0 +1,2 @@
+
+(desktop-environment . [(20190701 1306) ((emacs (25 1))) "Helps you control your GNU/Linux computer" single ((:commit . "a3707e9fcf4371fe586e0d35a79331d1cf7309c9") (:authors ("Damien Cassou <damien@cassou.me>, Nicolas Petton" . "nicolas@petton.fr")) (:maintainer "Damien Cassou <damien@cassou.me>, Nicolas Petton" . "nicolas@petton.fr") (:url . "https://gitlab.petton.fr/DamienCassou/desktop-environment"))])

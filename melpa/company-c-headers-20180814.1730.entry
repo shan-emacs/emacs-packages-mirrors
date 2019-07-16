@@ -1,0 +1,2 @@
+
+(company-c-headers . [(20180814 1730) ((emacs (24 1)) (company (0 8))) "Company mode backend for C/C++ header files" single ((:commit . "41331192b3961c8e3a51540678e1d11eaa346f03") (:keywords "development" "company") (:authors ("Alastair Rankine" . "alastair@girtby.net")) (:maintainer "Alastair Rankine" . "alastair@girtby.net"))])

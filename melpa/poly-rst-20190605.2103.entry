@@ -1,0 +1,2 @@
+
+(poly-rst . [(20190605 2103) ((emacs (25)) (polymode (0 2))) "poly-rst-mode polymode" single ((:commit . "1a7d38e1c1d35cf64e4dad408db486a8e1931e61") (:keywords "languages" "multi-modes") (:authors ("Gustaf Waldemarson, Vitalie Spinu")) (:maintainer "Gustaf Waldemarson, Vitalie Spinu") (:url . "https://github.com/polymode/poly-rst"))])

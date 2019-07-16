@@ -1,0 +1,2 @@
+
+(magit-tbdiff . [(20190507 236) ((emacs (24 4)) (magit (2 10 0))) "Magit extension for range diffs" single ((:commit . "fcde2e718974acb2b8905b623e0eca74c58b6b0f") (:keywords "vc" "tools") (:authors ("Kyle Meyer" . "kyle@kyleam.com")) (:maintainer "Kyle Meyer" . "kyle@kyleam.com") (:url . "https://github.com/magit/magit-tbdiff"))])

@@ -1,0 +1,2 @@
+
+(ox-slimhtml . [(20181219 850) ((emacs (24)) (cl-lib (0 6))) "a minimal HTML org export backend" single ((:commit . "a5070cb2c67425aa33da8503c83361e8814a86ec") (:keywords "files") (:authors ("Elo Laszlo <hello at bald dot cat>")) (:maintainer "Elo Laszlo <hello at bald dot cat>") (:url . "http://bald.cat/slimhtml"))])

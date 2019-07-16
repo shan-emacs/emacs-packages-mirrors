@@ -1,0 +1,2 @@
+
+(multi-project . [(20190710 947) ((emacs (25))) "Find files, compile, and search for multiple projects." single ((:commit . "88e5e67fd58cfb6643f8ec28d3d432c3ba95afdd") (:keywords "convenience" "project" "management") (:authors ("Shawn Ellis" . "shawn.ellis17@gmail.com")) (:maintainer "Shawn Ellis" . "shawn.ellis17@gmail.com") (:url . "https://bitbucket.org/ellisvelo/multi-project/overview"))])

@@ -1,0 +1,2 @@
+
+(insert-kaomoji . [(20190701 1823) ((emacs (24 4))) "Easily insert kaomojis" tar ((:commit . "b144e48f02f29bb25651a63d9691e9de10f0171b") (:keywords "wp") (:authors ("Philip K." . "philip@warpmail.net")) (:maintainer "Philip K." . "philip@warpmail.net") (:url . "https://git.sr.ht/~zge/kaomoji"))])

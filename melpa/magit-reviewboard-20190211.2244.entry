@@ -1,0 +1,2 @@
+
+(magit-reviewboard . [(20190211 2244) ((emacs (25 2)) (magit (2 13 0)) (s (1 12 0)) (request (0 3 0))) "Show open Reviewboard reviews in Magit" single ((:commit . "f3d5ed914243e3930f9c06f59021305e7e43e67d") (:keywords "magit" "vc") (:authors ("Jules Tamagnan" . "jtamagnan@gmail.com")) (:maintainer "Jules Tamagnan" . "jtamagnan@gmail.com") (:url . "http://github.com/jtamagnan/magit-reviewboard"))])

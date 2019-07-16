@@ -1,0 +1,2 @@
+
+(perfect-margin . [(20190426 245) ((emacs (24 0)) (cl-lib (0 5))) "auto center windows, work with minimap and/or linum-mode" single ((:commit . "a64336810929ecf801a4b65bb722e401e2cccf09") (:keywords "convenience" "frames") (:authors ("Randall Wang" . "randall.wjz@gmail.com")) (:maintainer "Randall Wang" . "randall.wjz@gmail.com") (:url . "https://github.com/mpwang/perfect-margin"))])

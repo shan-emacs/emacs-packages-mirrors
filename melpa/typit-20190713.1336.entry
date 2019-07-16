@@ -1,0 +1,2 @@
+
+(typit . [(20190713 1336) ((emacs (24 4)) (f (0 18)) (mmt (0 1 1))) "Typing game similar to tests on 10 fast fingers" tar ((:commit . "2adb0e0df4689b5abaa89a71808ec7993ecfaf9b") (:keywords "games") (:authors ("Mark Karpov" . "markkarpov92@gmail.com")) (:maintainer "Mark Karpov" . "markkarpov92@gmail.com") (:url . "https://github.com/mrkkrp/typit"))])

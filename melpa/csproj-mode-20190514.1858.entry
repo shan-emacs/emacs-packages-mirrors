@@ -1,0 +1,2 @@
+
+(csproj-mode . [(20190514 1858) ((emacs (24))) "Work with .NET project files (csproj, vbproj)" tar ((:commit . "889334f8cd08dc79d133149b4504e0e001f5a769") (:keywords "languages" "tools") (:authors ("Omair Majid" . "omair.majid@gmail.com")) (:maintainer "Omair Majid" . "omair.majid@gmail.com") (:url . "https://github.com/omajid/csproj-mode"))])

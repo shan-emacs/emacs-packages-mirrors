@@ -1,0 +1,2 @@
+
+(impatient-mode . [(20181002 1231) ((cl-lib (0 3)) (simple-httpd (1 5 0)) (htmlize (1 40))) "Serve buffers live over HTTP" tar ((:commit . "96f6a05f8de74e19d570217fe83f0734623ddb0c") (:authors ("Brian Taylor" . "el.wubo@gmail.com")) (:maintainer "Brian Taylor" . "el.wubo@gmail.com") (:url . "https://github.com/netguy204/imp.el"))])

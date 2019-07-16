@@ -1,0 +1,2 @@
+
+(org-kindle . [(20190315 439) ((emacs (25)) (cl-lib (0 5)) (seq (2 20))) "Send org link file to ebook reader." single ((:commit . "612a2894bbbff8a6cf54709d591fee86005755de") (:keywords "org" "link" "ebook" "kindle" "epub" "mobi") (:url . "https://github.com/stardiviner/org-kindle"))])

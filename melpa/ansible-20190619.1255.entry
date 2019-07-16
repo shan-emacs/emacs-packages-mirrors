@@ -1,0 +1,2 @@
+
+(ansible . [(20190619 1255) ((s (1 9 0)) (f (0 16 2))) "Ansible minor mode" tar ((:commit . "2d35aa1280ace3cae404ea9e1231a8b26c7b9eb4") (:authors ("k1LoW (Kenichirou Oyama), <k1lowxb [at] gmail [dot] com> <k1low [at] 101000lab [dot] org>")) (:maintainer "k1LoW (Kenichirou Oyama), <k1lowxb [at] gmail [dot] com> <k1low [at] 101000lab [dot] org>") (:url . "http://101000lab.org"))])

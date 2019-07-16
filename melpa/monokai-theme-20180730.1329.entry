@@ -1,0 +1,2 @@
+
+(monokai-theme . [(20180730 1329) nil "A fruity color theme for Emacs." single ((:commit . "f4ef092129f4a35edaee0a9b2219c17e86309730") (:authors ("Kelvin Smith" . "oneKelvinSmith@gmail.com")) (:maintainer "Kelvin Smith" . "oneKelvinSmith@gmail.com") (:url . "http://github.com/oneKelvinSmith/monokai-emacs"))])

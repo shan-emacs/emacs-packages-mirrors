@@ -1,0 +1,2 @@
+
+(pycoverage . [(20190607 2004) ((emacs (24 3))) "Support for coverage stats on Python 2.X and 3" tar ((:commit . "01bd47171eefcab2e19d7cffd9a2dd3bd9bd6812") (:keywords "project" "convenience") (:authors ("matt harrison")) (:maintainer "matt harrison") (:url . "https://github.com/mattharrison/pycoverage.el"))])

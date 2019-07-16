@@ -1,0 +1,2 @@
+
+(highlight-indent-guides . [(20190108 3) ((emacs (24))) "Minor mode to highlight indentation" single ((:commit . "0b10f38c54ffc099861ce8463e16a1b07ddbb203") (:authors ("DarthFennec" . "darthfennec@derpymail.org")) (:maintainer "DarthFennec" . "darthfennec@derpymail.org") (:url . "https://github.com/DarthFennec/highlight-indent-guides"))])

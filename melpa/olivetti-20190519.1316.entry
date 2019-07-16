@@ -1,0 +1,2 @@
+
+(olivetti . [(20190519 1316) ((emacs (24 5))) "Minor mode for a nice writing environment" single ((:commit . "343bf1e9c9b31fdb608569cfa795f6176f9c91dc") (:keywords "wp" "text") (:authors ("Paul Rankin" . "hello@paulwrankin.com")) (:maintainer "Paul Rankin" . "hello@paulwrankin.com"))])

@@ -1,0 +1,2 @@
+
+(cyphejor . [(20190713 1339) ((emacs (24 4))) "Shorten major mode names using user-defined rules" single ((:commit . "f72f6a564ff32ec9af83df5c474de0374e29a266") (:keywords "mode-line" "major-mode") (:authors ("Mark Karpov" . "markkarpov92@gmail.com")) (:maintainer "Mark Karpov" . "markkarpov92@gmail.com") (:url . "https://github.com/mrkkrp/cyphejor"))])

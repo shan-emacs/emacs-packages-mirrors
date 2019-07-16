@@ -1,0 +1,2 @@
+
+(purescript-mode . [(20190522 2230) ((emacs (24)) (cl-lib (0 6))) "A PureScript editing mode" tar ((:commit . "8db1d0243c03da31adac4d7c5287407a4df6aff2"))])

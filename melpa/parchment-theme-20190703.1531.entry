@@ -1,0 +1,2 @@
+
+(parchment-theme . [(20190703 1531) ((emacs (24))) "Light theme inspired by Acme and Leuven" single ((:commit . "30eedd346175072e013b7bcf6ae1795f022fee0b") (:authors ("Alex Griffin" . "a@ajgrf.com")) (:maintainer "Alex Griffin" . "a@ajgrf.com") (:url . "https://github.com/ajgrf/parchment"))])

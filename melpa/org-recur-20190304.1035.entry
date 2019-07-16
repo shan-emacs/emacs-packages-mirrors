@@ -1,0 +1,2 @@
+
+(org-recur . [(20190304 1035) ((emacs (24)) (org (9 0))) "Recurring org-mode tasks." single ((:commit . "2a2927a5f217cab0232f0d8f26f9493ff30d26e6") (:authors ("Marcin Swieczkowski" . "marcin.swieczkowski@gmail.com")) (:maintainer "Marcin Swieczkowski" . "marcin.swieczkowski@gmail.com") (:url . "https://github.com/m-cat/org-recur"))])

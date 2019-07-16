@@ -1,0 +1,2 @@
+
+(ddskk-posframe . [(20190623 1529) ((emacs (26 1)) (posframe (0 4 3)) (ddskk (16 2 50))) "Show Henkan tooltip for ddskk via posframe" single ((:commit . "3505204b7bb96872312055bdc8ee5fb419b247e3") (:keywords "tooltip" "convenience" "posframe") (:authors ("Naoya Yamashita" . "conao3@gmail.com")) (:maintainer "Naoya Yamashita" . "conao3@gmail.com") (:url . "https://github.com/conao3/ddskk-posframe.el"))])

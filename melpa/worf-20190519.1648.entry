@@ -1,0 +1,2 @@
+
+(worf . [(20190519 1648) ((swiper (0 11 0)) (ace-link (0 1 0)) (hydra (0 13 0)) (zoutline (0 1 0))) "A warrior does not press so many keys! (in org-mode)" tar ((:commit . "00d191b347397bd7ad1f5b95cfe39fa3fce9fc91") (:keywords "lisp") (:authors ("Oleh Krehel" . "ohwoeowho@gmail.com")) (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com") (:url . "https://github.com/abo-abo/worf"))])

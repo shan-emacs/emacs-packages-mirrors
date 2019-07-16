@@ -1,0 +1,2 @@
+
+(metaweblog . [(20190212 238) ((xml-rpc (1 6 8))) "An emacs library to access metaweblog based weblogs" tar ((:commit . "ec85ea7ec97347573613a578d2e91d5f8be74bae"))])

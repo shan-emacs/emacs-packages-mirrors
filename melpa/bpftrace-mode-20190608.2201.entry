@@ -1,0 +1,2 @@
+
+(bpftrace-mode . [(20190608 2201) ((emacs (24 0))) "Major mode for editing bpftrace script files" single ((:commit . "587b39ea7a1d786df5c04796d51bf2a5a4eda0d7") (:keywords "highlight" "c") (:authors ("Jay Kamat" . "jaygkamat@gmail.com")) (:maintainer "Jay Kamat" . "jaygkamat@gmail.com") (:url . "http://gitlab.com/jgkamat/bpftrace-mode"))])

@@ -1,0 +1,2 @@
+
+(indian-ext . [(20190424 1547) ((emacs (24))) "Extension to Indian language utilities" single ((:commit . "a5450fe467393194bc2458c0d5e0a06c91bf117a") (:keywords "i18n" "tools" "wp" "indian" "devanagari" "encoding") (:authors ("Patrick McAllister" . "pma@rdorte.org")) (:maintainer "Patrick McAllister" . "pma@rdorte.org") (:url . "https://github.com/paddymcall/indian-ext"))])

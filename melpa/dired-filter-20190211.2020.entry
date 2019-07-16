@@ -1,0 +1,2 @@
+
+(dired-filter . [(20190211 2020) ((dash (2 10 0)) (dired-hacks-utils (0 0 1)) (f (0 17 0)) (cl-lib (0 3))) "Ibuffer-like filtering for dired" single ((:commit . "20631398b1927e2da36ac2dd818001db544e9f30") (:keywords "files") (:authors ("Matúš Goljer" . "matus.goljer@gmail.com")) (:maintainer "Matúš Goljer" . "matus.goljer@gmail.com"))])

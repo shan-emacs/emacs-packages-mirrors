@@ -1,0 +1,2 @@
+
+(flymake-racket . [(20180912 109) ((emacs (26 1))) "Flymake extension for Racket." single ((:commit . "d20fa60d66db3f7c2df0133814564ee5b36d2aba") (:keywords "languages" "racket" "scheme") (:maintainer "James Nguyen" . "james@jojojames.com") (:url . "https://github.com/jojojames/flymake-racket"))])

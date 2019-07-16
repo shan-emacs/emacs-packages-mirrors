@@ -1,0 +1,2 @@
+
+(quilt . [(20190304 540) ((emacs (26 0))) "Minor mode for working with files in quilt" single ((:commit . "161ce2d8ba225bccef0ea8ae4937251b8ccaa892") (:keywords "extensions") (:authors ("Matt Mackall" . "mpm@selenic.com")) (:maintainer "Jan Stranik" . "jan@stranik.org") (:url . "https://github.com/jstranik/emacs-quilt"))])

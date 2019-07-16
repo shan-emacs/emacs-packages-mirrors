@@ -1,0 +1,2 @@
+
+(toxi-theme . [(20160424 2126) ((emacs (24))) "A dark color theme by toxi" single ((:commit . "b322fc7497a53f102e74f7994da96f2974171c9b") (:authors ("Karsten Schmidt" . "info@postspectacular.com")) (:maintainer "Karsten Schmidt" . "info@postspectacular.com") (:url . "http://bitbucket.org/postspectacular/toxi-theme/"))])

@@ -1,0 +1,2 @@
+
+(japanese-holidays . [(20190317 1220) ((cl-lib (0 3))) "calendar functions for the Japanese calendar" single ((:commit . "45e70a6eaf4a555fadc58ab731d522a037a81997") (:keywords "calendar") (:authors ("Takashi Hattori" . "hattori@sfc.keio.ac.jp") ("Hiroya Murata" . "lapis-lazuli@pop06.odn.ne.jp")) (:maintainer "Takashi Hattori" . "hattori@sfc.keio.ac.jp") (:url . "https://github.com/emacs-jp/japanese-holidays"))])

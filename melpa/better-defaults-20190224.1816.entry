@@ -1,0 +1,2 @@
+
+(better-defaults . [(20190224 1816) nil "Fixing weird quirks and poor defaults" single ((:commit . "0937ac9a813632c48d114cf959768cda9676db3a") (:keywords "convenience") (:authors ("Phil Hagelberg")) (:maintainer "Phil Hagelberg") (:url . "https://github.com/technomancy/better-defaults"))])

@@ -1,0 +1,2 @@
+
+(lsp-javascript-flow . [(20181219 442) ((lsp-mode (3 0)) (emacs (25 1))) "Javascript/Flow support for lsp-mode" single ((:commit . "0a67626c383fa1ca64be3b994e5df3fe115c6f44") (:keywords "languages" "tools") (:authors ("Ozan Sener" . "hi@ozan.email")) (:maintainer "Ozan Sener" . "hi@ozan.email") (:url . "https://github.com/emacs-lsp/lsp-javascript"))])

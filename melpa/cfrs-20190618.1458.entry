@@ -1,0 +1,2 @@
+
+(cfrs . [(20190618 1458) ((emacs (25 2)) (dash (2 11 0)) (s (1 10 0)) (posframe (0 4 3))) "child-frame based read-string" single ((:commit . "de83b587affe374d1cf6e6c2d747696e6c33a817") (:authors ("Alexander Miller" . "alexanderm@web.de")) (:maintainer "Alexander Miller" . "alexanderm@web.de") (:url . "https://github.com/Alexander-Miller/cfrs"))])

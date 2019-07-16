@@ -1,0 +1,2 @@
+
+(sly-named-readtables . [(20190701 1800) ((sly (1 0 0 -2 2))) "Support named readtables in Common Lisp files" tar ((:commit . "6b37ed2201174caa86a44e8ac3350dd09e91e606") (:keywords "languages" "lisp" "sly") (:authors ("João Távora" . "joaotavora@gmail.com")) (:maintainer "João Távora" . "joaotavora@gmail.com") (:url . "https://github.com/capitaomorte/sly-named-readtables"))])

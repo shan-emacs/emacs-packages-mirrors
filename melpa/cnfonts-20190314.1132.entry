@@ -1,0 +1,2 @@
+
+(cnfonts . [(20190314 1132) ((emacs (24))) "A simple Chinese fonts config tool" tar ((:commit . "c31d13cc3c320fd5bf24bf8309c6d982a25c49ee") (:keywords "convenience" "chinese" "font") (:authors ("Feng Shu" . "tumashu@163.com")) (:maintainer "Feng Shu" . "tumashu@163.com") (:url . "https://github.com/tumashu/cnfonts"))])

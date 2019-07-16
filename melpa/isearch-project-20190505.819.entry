@@ -1,0 +1,2 @@
+
+(isearch-project . [(20190505 819) ((emacs (25)) (cl-lib (0 6))) "Incremental search through the whole project." single ((:commit . "462b8100451b947367aed2970c2669ea6d15edbd") (:authors ("Shen, Jen-Chieh" . "jcs090218@gmail.com")) (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com") (:url . "https://github.com/jcs090218/isearch-project"))])

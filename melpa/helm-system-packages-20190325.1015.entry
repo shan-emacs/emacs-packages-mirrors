@@ -1,0 +1,2 @@
+
+(helm-system-packages . [(20190325 1015) ((emacs (24 4)) (helm (2 8 7)) (seq (1 8))) "Helm UI wrapper for system package managers." tar ((:commit . "9e43d446bbf2dd00dfda1d4aef2501fb2400bb1d") (:keywords "helm" "packages") (:authors ("Pierre Neidhardt" . "mail@ambrevar.xyz")) (:maintainer "Pierre Neidhardt" . "mail@ambrevar.xyz") (:url . "https://github.com/emacs-helm/helm-system-packages"))])

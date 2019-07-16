@@ -1,0 +1,2 @@
+
+(js-comint . [(20190606 6) ((emacs (24 3))) "JavaScript interpreter in window." single ((:commit . "ab8953bdf0176b1fadd7a3bb621f848ec5dc1f0c") (:keywords "javascript" "node" "inferior-mode" "convenience") (:authors ("Paul Huff" . "paul.huff@gmail.com")) (:maintainer "Chen Bin <chenbin.sh AT gmail DOT com>") (:url . "https://github.com/redguardtoo/js-comint"))])

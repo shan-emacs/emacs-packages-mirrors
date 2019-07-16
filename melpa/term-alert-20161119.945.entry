@@ -1,0 +1,2 @@
+
+(term-alert . [(20161119 945) ((emacs (24 0)) (term-cmd (1 1)) (alert (1 1)) (f (0 18 2))) "Notifications when commands complete in term.el." tar ((:commit . "1166c39cc3fb1cb7808eb8955b7f9f6094a306cd"))])

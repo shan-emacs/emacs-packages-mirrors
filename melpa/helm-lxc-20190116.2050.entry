@@ -1,0 +1,2 @@
+
+(helm-lxc . [(20190116 2050) ((emacs (25)) (cl-lib (0 5)) (helm (2 9 4)) (lxc-tramp (0 1 0))) "Helm interface to manage LXC containers" single ((:commit . "a4e17dda329ec39a3dac5751ddcef1145b3d91c1") (:keywords "helm" "lxc" "convenience") (:authors ("montag451")) (:maintainer "montag451") (:url . "https://github.com/montag451/helm-lxc"))])

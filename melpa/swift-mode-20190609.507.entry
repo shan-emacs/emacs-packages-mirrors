@@ -1,0 +1,2 @@
+
+(swift-mode . [(20190609 507) ((emacs (24 4)) (seq (2 3))) "Major-mode for Apple's Swift programming language." tar ((:commit . "be8d7700cdbf47576d7c4e0a7e0855cce0fe9ad8") (:keywords "languages" "swift") (:url . "https://github.com/swift-emacs/swift-mode"))])

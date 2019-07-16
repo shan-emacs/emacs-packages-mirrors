@@ -1,0 +1,2 @@
+
+(sayid . [(20181223 835) ((cider (0 14 0))) "sayid nREPL middleware client" single ((:commit . "559a335926c12b37ff2928097b3e7eaefb88920d") (:authors ("Bill Piel" . "bill@billpiel.com")) (:maintainer "Bill Piel" . "bill@billpiel.com") (:url . "https://github.com/clojure-emacs/sayid"))])

@@ -1,0 +1,2 @@
+
+(shrink-whitespace . [(20181003 321) nil "Whitespace removal DWIM key" single ((:commit . "0407b89c142bd17e65edb666f35e2c6755bd0867") (:keywords "convenience") (:authors ("Jean-Christophe Petkovich" . "jcpetkovich@gmail.com")) (:maintainer "Jean-Christophe Petkovich" . "jcpetkovich@gmail.com") (:url . "https://gitlab.com/jcpetkovich/shrink-whitespace.el"))])

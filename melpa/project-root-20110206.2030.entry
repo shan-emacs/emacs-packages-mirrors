@@ -1,0 +1,2 @@
+
+(project-root . [(20110206 2030) nil "Define a project root and take actions based upon it." single ((:commit . "843ca1f4ab2bc9c25e0f7cd585ceb1f2693b23f2") (:authors ("Philip Jackson" . "phil@shellarchive.co.uk")) (:maintainer "Philip Jackson" . "phil@shellarchive.co.uk"))])

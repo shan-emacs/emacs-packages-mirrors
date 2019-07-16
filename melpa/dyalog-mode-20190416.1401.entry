@@ -1,0 +1,2 @@
+
+(dyalog-mode . [(20190416 1401) ((cl-lib (0 2)) (emacs (24))) "Major mode for editing Dyalog APL source code" tar ((:commit . "abe3de955fd6ad1ecfb235ae70a2965a5cf312eb") (:keywords "languages") (:authors ("Joakim Hårsman" . "joakim.harsman@gmail.com")) (:maintainer "Joakim Hårsman" . "joakim.harsman@gmail.com") (:url . "https://bitbucket.org/harsman/dyalog-mode/"))])

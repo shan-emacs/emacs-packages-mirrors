@@ -1,0 +1,2 @@
+
+(color-theme-sanityinc-solarized . [(20190206 59) ((cl-lib (0 6))) "A version of Ethan Schoonover's Solarized themes" tar ((:commit . "54daf1e5a0fbee6682cade1f59171daf185239e3") (:keywords "faces" "themes") (:authors ("Steve Purcell" . "steve@sanityinc.com")) (:maintainer "Steve Purcell" . "steve@sanityinc.com") (:url . "http://github.com/purcell/color-theme-sanityinc-solarized"))])

@@ -1,0 +1,2 @@
+
+(synosaurus . [(20190305 2206) ((cl-lib (0 5))) "An extensible thesaurus supporting lookup and substitution." tar ((:commit . "bc26f5c22b4d08dd09d0852435814977433c9521") (:url . "https://github.com/hpdeifel/synosaurus"))])

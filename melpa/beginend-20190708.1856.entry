@@ -1,0 +1,2 @@
+
+(beginend . [(20190708 1856) ((emacs (25 3))) "Redefine M-< and M-> for some modes" single ((:commit . "66e9fbf77fbe248e15a17bd095645a48d40560b4") (:url . "https://github.com/DamienCassou/beginend"))])

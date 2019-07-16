@@ -1,0 +1,2 @@
+
+(metamorph . [(20180930 2028) ((emacs (24 4))) "Transform your buffers with lisp" single ((:commit . "d9dc7037b7eed7b3fe85ea50e91f332e3f831514") (:keywords "metaprogramming" "wp") (:authors ("Adam Niederer" . "adam.niederer@gmail.com")) (:maintainer "Adam Niederer" . "adam.niederer@gmail.com") (:url . "http://github.com/AdamNiederer/metamorph"))])

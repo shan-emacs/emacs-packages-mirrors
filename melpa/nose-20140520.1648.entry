@@ -1,0 +1,2 @@
+
+(nose . [(20140520 1648) nil "Easy Python test running in Emacs" single ((:commit . "194d7789bf797f31ea0adc45f08beb66ae9ea98e") (:keywords "nose" "python" "testing"))])

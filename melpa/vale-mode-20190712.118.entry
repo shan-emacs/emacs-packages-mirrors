@@ -1,0 +1,2 @@
+
+(vale-mode . [(20190712 118) ((emacs (25))) "Major mode for writing Vale vaf files" single ((:commit . "04cb217bcc3fa9cfff8d348dcccb558660e7dc54") (:keywords "convenience" "languages") (:authors ("Jay Bosamiya" . "jaybosamiya@gmail.com")) (:maintainer "Jay Bosamiya" . "jaybosamiya@gmail.com") (:url . "https://github.com/jaybosamiya/vale-mode.el"))])

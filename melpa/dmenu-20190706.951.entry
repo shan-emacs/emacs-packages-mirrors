@@ -1,0 +1,2 @@
+
+(dmenu . [(20190706 951) ((cl-lib (0 5))) "simulate the dmenu command line program" single ((:commit . "93c09c04441ad96902ba2aab2bdb556f7e34a53b") (:keywords "convenience" "usability") (:authors ("DarkSun" . "lujun9972@gmail.com")) (:maintainer "DarkSun" . "lujun9972@gmail.com"))])

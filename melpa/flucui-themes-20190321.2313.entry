@@ -1,0 +1,2 @@
+
+(flucui-themes . [(20190321 2313) ((emacs (24))) "Custom theme inspired by the Flat UI palette" tar ((:commit . "921ff298da71366eca3d1e4fc410126d405d5366") (:keywords "lisp") (:authors ("MetroWind" . "chris.corsair@gmail.com")) (:maintainer "MetroWind" . "chris.corsair@gmail.com") (:url . "https://github.com/MetroWind/flucui-theme"))])

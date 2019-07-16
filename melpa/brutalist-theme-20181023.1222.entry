@@ -1,0 +1,2 @@
+
+(brutalist-theme . [(20181023 1222) nil "Brutalist theme" tar ((:commit . "8899f4f4a7faf0080977cd137e0ad7b00c40f1e8") (:authors ("Gergely Nagy")) (:maintainer "Gergely Nagy") (:url . "https://git.madhouse-project.org/algernon/brutalist-theme.el"))])

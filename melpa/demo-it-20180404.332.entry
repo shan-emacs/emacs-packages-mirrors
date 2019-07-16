@@ -1,0 +1,2 @@
+
+(demo-it . [(20180404 332) nil "Create demonstrations" tar ((:commit . "2760d2eed88ef854ce489a5f77627aa641af12bf") (:keywords "demonstration" "presentation" "test") (:authors ("Howard Abrams" . "howard.abrams@gmail.com")) (:maintainer "Howard Abrams" . "howard.abrams@gmail.com"))])

@@ -1,0 +1,2 @@
+
+(cftag-mode . [(20190614 1301) ((emacs (25))) "Emacs mode for editing tag-based CFML files" single ((:commit . "4accb2d5e188fbd0ad642e1c64c05e6633a1b375") (:authors ("Andrew Myers" . "am2605@gmail.com")) (:maintainer "Andrew Myers" . "am2605@gmail.com") (:url . "https://github.com/am2605/cftag-mode"))])
