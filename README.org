@@ -18,9 +18,9 @@ Then source the folders as a valid archives in your emacs configuration.
 
 Add this to your emacs config
 
-#+BEGIN_SRC emacs-script
-(setq package-archives
-      '(("melpa" . "https://raw.githubusercontent.com/kkhan01/emacs-packages-mirrors/master/melpa/")
-        ("org"   . "https://raw.githubusercontent.com/kkhan01/emacs-packages-mirrors/master/org/")
-        ("gnu"   . "https://raw.githubusercontent.com/kkhan01/emacs-packages-mirrors/master/gnu/")))
+#+BEGIN_SRC emacs-lisp
+  (setq package-archives
+        '(("melpa" . "https://raw.githubusercontent.com/kkhan01/emacs-packages-mirrors/master/melpa/")
+          ("org"   . "https://raw.githubusercontent.com/kkhan01/emacs-packages-mirrors/master/org/")
+          ("gnu"   . "https://raw.githubusercontent.com/kkhan01/emacs-packages-mirrors/master/gnu/")))
 #+END_SRC
