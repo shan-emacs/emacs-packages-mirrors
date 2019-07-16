@@ -1,0 +1,260 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - wisi</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - wisi</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">wisi</h2><dl><dt>Description</dt><dd>Utilities for implementing an indentation/navigation engine using a generalized LALR parser</dd>
+<dt>Latest</dt> <dd><a href="wisi-2.1.1.tar">wisi-2.1.1.tar</a>, 2019-Jul-12, 1.91&nbsp;MiB</dd>
+<dt>Maintainer</dt> <dd>Stephen Leake &lt;stephen_leake@stephe-leake.org></dd>
+<dt>Home page</dt> <dd><a href="http://stephe-leake.org/ada/wisitoken.html">http://stephe-leake.org/ada/wisitoken.html</a></dd>
+<dt>Browse ELPA's repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/wisi">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/wisi">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">wisi</span> RET</pre><h2>Full description</h2><pre>
+Emacs wisi package 2.1.1
+
+The wisi package provides utilities for using generalized LALR parsers
+(in elisp or external processes) to do indentation, fontification, and
+navigation. See ada-mode for an example of its use.
+
+It also provides wisitoken-parse_table-mode, for navigating the
+diagnostic parse tables output by wisitoken-bnf-generate.
+
+
+</pre>
+<h2>Old versions</h2><table>
+<tr><td><a href="wisi-2.1.0.tar">wisi-2.1.0.tar</a></td><td>2019-Mar-22</td><td>1.60&nbsp;MiB</td>
+<tr><td><a href="wisi-2.0.1.tar">wisi-2.0.1.tar</a></td><td>2018-Dec-08</td><td>1.55&nbsp;MiB</td>
+<tr><td><a href="wisi-2.0.0.tar">wisi-2.0.0.tar</a></td><td>2018-Dec-03</td><td>1.58&nbsp;MiB</td>
+<tr><td><a href="wisi-1.1.6.tar">wisi-1.1.6.tar</a></td><td>2017-Oct-03</td><td> 110&nbsp;KiB</td>
+<tr><td><a href="wisi-1.1.5.tar">wisi-1.1.5.tar</a></td><td>2017-Jul-09</td><td> 100&nbsp;KiB</td>
+<tr><td><a href="wisi-1.1.4.tar">wisi-1.1.4.tar</a></td><td>2016-Oct-31</td><td> 100&nbsp;KiB</td>
+<tr><td><a href="wisi-1.1.3.tar">wisi-1.1.3.tar</a></td><td>2016-Jul-27</td><td> 100&nbsp;KiB</td>
+<tr><td><a href="wisi-1.1.2.tar">wisi-1.1.2.tar</a></td><td>2016-Jan-22</td><td> 100&nbsp;KiB</td>
+<tr><td><a href="wisi-1.1.1.tar">wisi-1.1.1.tar</a></td><td>2015-Apr-13</td><td> 100&nbsp;KiB</td>
+<tr><td><a href="wisi-1.1.0.tar">wisi-1.1.0.tar</a></td><td>2014-Nov-27</td><td> 100&nbsp;KiB</td>
+<tr><td><a href="wisi-1.0.6.tar">wisi-1.0.6.tar</a></td><td>2014-Sep-29</td><td>90.0&nbsp;KiB</td>
+<tr><td><a href="wisi-1.0.5.tar">wisi-1.0.5.tar</a></td><td>2014-Jul-19</td><td>80.0&nbsp;KiB</td>
+<tr><td><a href="wisi-1.0.4.tar">wisi-1.0.4.tar</a></td><td>2014-Apr-20</td><td>80.0&nbsp;KiB</td>
+<tr><td><a href="wisi-1.0.2.tar">wisi-1.0.2.tar</a></td><td>2014-Mar-15</td><td>70.0&nbsp;KiB</td>
+<tr><td><a href="wisi-1.0.1.tar">wisi-1.0.1.tar</a></td><td>2014-Mar-14</td><td>70.0&nbsp;KiB</td>
+<tr><td><a href="wisi-1.0.tar">wisi-1.0.tar</a></td><td>2013-Dec-25</td><td>70.0&nbsp;KiB</td>
+</table>
+<h2>News</h2><pre>
+GNU Emacs wisi NEWS -- history of user-visible changes.
+
+Copyright (C) 2019 Free Software Foundation, Inc.
+See the end of the file for license conditions.
+
+Please send wisi bug reports to bug-gnu-emacs@gnu.org, with
+'wisi' in the subject. If possible, use M-x report-emacs-bug.
+
+
+* wisi
+11 Jul 2019
+
+** parser process protocol version 3
+
+** User variable wisi-mckenzie-cost-limit is deleted; set
+   wisi-mckenzie-enqueue-limit instead, it gives better results.
+
+** `wisi-show-parse-errors' now shows errors in a dedicated window, so
+   it will not be resized or reused.
+
+** New grammar action `wisi-name-action'; sets a name that will be
+   fontified. This replaces the previous 'name' navigate class.
+
+** Support 'nil' as an indent argument; useful for the first token,
+   whose indent is typically unknown. Indent functions that do not
+   accumulate now only check for "nil", not "zero or nil".
+
+** New file wisi-xref.el provides a completion table built from tokens
+   marked by the new grammar action `wisi-name-action'.
+
+** The process parser checks the parser process protocol version, to
+   ensure the elisp code matches the process code.
+
+** The process parser supports passing data to a language-specific
+   elisp function, via the `language-action-table' field of the
+   `wisi-process--parser' struct.
+
+** New user option `wisi-parse-max-parallel' to set the number of
+   parallel parsers used; Java needs more than Ada.
+
+* wisi 2.1.0
+21 Mar 2019
+
+** parser process protocol version 2
+
+** Add support for partial parsing; useful in very large files. Files
+   larger than wisi-partial-parse-threshold (default 100_001) will be
+   parsed partially.
+
+** Miscellaneous speed-ups in the Ada code; 'pragma Inline', better use of Ada tasks.
+
+** Better error correction in the Ada process parser; insert minimimal
+  tokens to complete a statement/declaration before or after the error
+  point.
+
+* wisi 2.0.1
+8 Dec 2018
+
+** parser process protocol version 1
+
+** Assign copyright in Ada files to FSF
+
+** Update user guide, include it in elpa package
+
+* wisi 2.0.0
+17 Nov 2018
+
+** Change indentation engine to compute indent directly in parser actions.
+
+** Add error correcting external process parser.
+
+** Factor out wisi-elisp-lexer.el from wisi.el, and
+   ada-wisi-elisp-parse.el from ada-wisi.el. Move elisp grammar
+   actions from wisi.el to wisi-elisp-parse.el; they are not used with
+   the process parser.
+
+** Add support for error corrections in parser; 'wisi-repair-error'
+   can apply the corrections to the buffer text.
+
+** Display marks in fringe at location of errors detected by
+   background parser.
+
+** include sources for wisitoken parser runtime, parser generator.
+
+* wisi 1.1.6
+3 Oct 2017
+
+** wisi-forward-find-cache-token - new function.
+
+** New minor-mode parse_table-mode helps navigating parse table
+   listings output by 'wisi-generate -v 1'; useful when debugging
+   grammars.
+
+* wisi 1.1.5
+9 Jul 2017
+
+** wisi-indent-fallback allows setting the indent engine to use when
+   the wisi engine fails.
+
+** wisi-comment-indent now uses comment-column for comments following
+   code on the same line.
+
+** wisi-forward-statement-keyword tolerates end of buffer, and uses
+   either cache-next or cache-end.
+
+** forward-sexp-function is set to wisi-forward-sexp, which handles
+   parens, strings, and statements.
+
+* wisi 1.1.4
+31 Oct 2016
+
+** wisi-validate-cache takes optional error-on-fail arg.
+
+* wisi 1.1.3
+26 Jul 2016
+
+** improve use of quotes in doc strings.
+
+* wisi 1.1.2
+20 Jan 2016
+
+** wisi-compile no longer requires semantic.
+
+** wisi-parse slightly faster
+
+** minor bug fixes
+
+** wisi-extend-action now takes two args (first last)
+
+** wisi-face-action-1 optional arg no-override is replaced by override-no-error.
+
+* wisi 1.1.1
+10 Apr 2015
+
+** rename wisi-font-lock-size-threshold to wisi-size-threshold, use
+   for more things in ada-mode
+
+* wisi 1.1.0
+18 Nov 2014
+
+** change wisi-forward-token to not return text; simpler, faster
+
+** remove face from wisi-cache; set font-lock-face property directly.
+
+** add support for numeric literal tokens.
+
+** change wisi-*-action to take a vector of arguments; faster for
+   external parser, catches more errors.
+
+** add wisi-font-lock-size-threshold
+
+* wisi 1.0.6
+28 Sep 2014
+
+** add face to wisi-cache
+
+** wisi-before/after-change : improve checks for invalidate-cache
+
+** wisi-motion-action takes class with each token-id
+
+** new parse actions: wisi-extend-action, wisi-face-action
+
+** new functions: wisi-goto-statement-start, -end.
+
+** fix misc bugs
+
+* wisi 1.0.5
+12 Jul 2014
+
+** wisi-parse-max-parallel-current - new variable for debugging slow parsing issues
+
+** wisi-set-end - new algorithm giving significant speedup
+
+* wisi 1.0.4
+19 Apr 2014
+
+** add support for GNAT Ada bracket hex character notation
+
+* wisi 1.0.3
+16 Mar 2014
+
+** fix another packaging bug; forgot to add files to ELPA git!
+
+* wisi 1.0.2
+14 Mar 2014
+
+** Emacs 24.2 supported, via cl-lib in Gnu ELPA
+
+* wisi 1.0.1
+
+** minor fixes for byte compiler warnings
+
+* wisi 1.0
+Feb 2 2014
+
+** first release in ELPA
+
+</pre>
+</body>

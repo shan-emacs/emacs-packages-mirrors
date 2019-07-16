@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - persist</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - persist</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">persist</h2><dl><dt>Description</dt><dd>Persist Variables between Emacs Sessions</dd>
+<dt>Latest</dt> <dd><a href="persist-0.4.tar">persist-0.4.tar</a>, 2019-Jul-08, 30.0&nbsp;KiB</dd>
+<dt>Maintainer</dt> <dd>Phillip Lord &lt;phillip.lord@russet.org.uk></dd>
+<dt>Home page</dt> <dd><a href="http://elpa.gnu.org/packages/persist.html">http://elpa.gnu.org/packages/persist.html</a></dd>
+<dt>Browse repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/?h=externals/persist">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=shortlog;h=refs/heads/externals/persist">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">persist</span> RET</pre><h2>Full description</h2><pre>
+This package provides variables which persist across sessions.
+
+The main entry point is `persist-defvar' which behaves like
+`defvar' but which persists the variables between session.  Variables
+are automatically saved when Emacs exits.
+
+Other useful functions are `persist-save' which saves the variable
+immediately, `persist-load' which loads the saved value,
+`persist-reset' which resets to the default value.
+
+Values are stored in a directory in `user-emacs-directory', using
+one file per value.  This makes it easy to delete or remove unused
+variables.
+</pre>
+<h2>Old versions</h2><table>
+<tr><td><a href="persist-0.3.tar">persist-0.3.tar</a></td><td>2019-Jul-06</td><td>30.0&nbsp;KiB</td>
+<tr><td><a href="persist-0.2.el">persist-0.2.el</a></td><td>2019-Jul-05</td><td>6.40&nbsp;KiB</td>
+<tr><td><a href="persist-0.1.el">persist-0.1.el</a></td><td>2019-Jun-29</td><td>5.31&nbsp;KiB</td>
+</table>
+</body>

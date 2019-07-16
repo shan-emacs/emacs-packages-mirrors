@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - myers</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - myers</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">myers</h2><dl><dt>Description</dt><dd>Random-access singly-linked lists</dd>
+<dt>Latest</dt> <dd><a href="myers-0.1.el">myers-0.1.el</a>, 2016-Jun-11, 6.46&nbsp;KiB</dd>
+<dt>Home page</dt> <dd><a href="http://elpa.gnu.org/packages/myers.html">http://elpa.gnu.org/packages/myers.html</a></dd>
+<dt>Browse repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/myers">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/myers">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">myers</span> RET</pre><h2>Full description</h2><pre>
+This package implements Eugene W. Myers's "stacks" which are like
+standard singly-linked lists, except that they also provide efficient
+lookup.  More specifically:
+
+cons/car/cdr are O(1), while (nthcdr N L) is O(min (N, log L))
+
+For details, see "An applicative random-access stack", Eugene W. Myers,
+1983, Information Processing Letters
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.188.9344&amp;rep=rep1&amp;type=pdf
+</pre>
+</body>

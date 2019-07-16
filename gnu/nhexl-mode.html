@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - nhexl-mode</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - nhexl-mode</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">nhexl-mode</h2><dl><dt>Description</dt><dd>Minor mode to edit files via hex-dump format</dd>
+<dt>Latest</dt> <dd><a href="nhexl-mode-1.3.el">nhexl-mode-1.3.el</a>, 2019-May-05, 51.3&nbsp;KiB</dd>
+<dt>Home page</dt> <dd><a href="http://elpa.gnu.org/packages/nhexl-mode.html">http://elpa.gnu.org/packages/nhexl-mode.html</a></dd>
+<dt>Browse repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/nhexl-mode">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/nhexl-mode">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">nhexl-mode</span> RET</pre><h2>Full description</h2><pre>
+This package implements NHexl mode, a minor mode for editing files
+in hex dump format.  The mode command is called `nhexl-mode'.
+
+This minor mode implements similar functionality to `hexl-mode',
+but using a different implementation technique, which makes it
+usable as a "plain" minor mode.  It works on any buffer, and does
+not mess with the undo log or with the major mode.
+
+It also comes with:
+
+- `nhexl-nibble-edit-mode': a "nibble editor" minor mode.
+  where the cursor pretends to advance by nibbles (4-bit) and the
+  self-insertion keys let you edit the hex digits directly.
+
+- `nhexl-overwrite-only-mode': a minor mode to try and avoid moving text.
+  In this minor mode, not only self-inserting keys overwrite existing
+  text, but commands like `yank' and `kill-region' as well.
+
+- it overrides C-u to use hexadecimal, so you can do C-u a 4 C-f
+  to advance by #xa4 characters.
+
+Even though the hex addresses and hex data displayed by this mode aren't
+actually part of the buffer's text (contrary to hexl-mode, for example,
+they're only added to the display), you can search them with Isearch,
+according to nhexl-isearch-hex-addresses and nhexl-isearch-hex-bytes.
+
+Known bugs:
+
+- When the buffer is displayed in several windows, the "cursor" in the hex
+  area only reflects one of the window-points.  Fixing this would be rather
+  painful:
+  - for every cursor, we need an extra overlay with the `window'
+    property with its own `before-string'.
+  - because that overlay won't *replace* the normal overlay (the one
+    without the `window' property), we will need to *remove* that
+    overlay (lest we get 2 before-strings) and replace it with N overlays
+    with a `window' property (for all N other windows that don't have
+    their cursor on this line).
+  FWIW, the original `hexl-mode' has the same kind of problem.
+</pre>
+<h2>Old versions</h2><table>
+<tr><td><a href="nhexl-mode-1.2.el">nhexl-mode-1.2.el</a></td><td>2018-Dec-14</td><td>50.3&nbsp;KiB</td>
+<tr><td><a href="nhexl-mode-1.1.el">nhexl-mode-1.1.el</a></td><td>2018-Dec-10</td><td>48.5&nbsp;KiB</td>
+<tr><td><a href="nhexl-mode-1.0.el">nhexl-mode-1.0.el</a></td><td>2018-Nov-07</td><td>42.1&nbsp;KiB</td>
+<tr><td><a href="nhexl-mode-0.9.el">nhexl-mode-0.9.el</a></td><td>2018-Apr-27</td><td>39.1&nbsp;KiB</td>
+<tr><td><a href="nhexl-mode-0.8.el">nhexl-mode-0.8.el</a></td><td>2018-Apr-26</td><td>37.3&nbsp;KiB</td>
+<tr><td><a href="nhexl-mode-0.7.el">nhexl-mode-0.7.el</a></td><td>2018-Apr-23</td><td>32.4&nbsp;KiB</td>
+<tr><td><a href="nhexl-mode-0.6.el">nhexl-mode-0.6.el</a></td><td>2018-Apr-19</td><td>28.7&nbsp;KiB</td>
+<tr><td><a href="nhexl-mode-0.5.el">nhexl-mode-0.5.el</a></td><td>2018-Apr-16</td><td>24.6&nbsp;KiB</td>
+<tr><td><a href="nhexl-mode-0.4.el">nhexl-mode-0.4.el</a></td><td>2018-Apr-15</td><td>21.2&nbsp;KiB</td>
+<tr><td><a href="nhexl-mode-0.3.el">nhexl-mode-0.3.el</a></td><td>2018-Apr-12</td><td>17.3&nbsp;KiB</td>
+<tr><td><a href="nhexl-mode-0.2.el">nhexl-mode-0.2.el</a></td><td>2016-Aug-08</td><td>11.0&nbsp;KiB</td>
+<tr><td><a href="nhexl-mode-0.1.el">nhexl-mode-0.1.el</a></td><td>2012-Nov-29</td><td>10.8&nbsp;KiB</td>
+</table>
+</body>

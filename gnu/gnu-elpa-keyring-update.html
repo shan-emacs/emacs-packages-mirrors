@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - gnu-elpa-keyring-update</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - gnu-elpa-keyring-update</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">gnu-elpa-keyring-update</h2><dl><dt>Description</dt><dd>Update Emacs's GPG keyring for GNU ELPA</dd>
+<dt>Latest</dt> <dd><a href="gnu-elpa-keyring-update-2019.3.tar">gnu-elpa-keyring-update-2019.3.tar</a>, 2019-Apr-30, 20.0&nbsp;KiB</dd>
+<dt>Home page</dt> <dd><a href="http://elpa.gnu.org/packages/gnu-elpa-keyring-update.html">http://elpa.gnu.org/packages/gnu-elpa-keyring-update.html</a></dd>
+<dt>Browse repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/gnu-elpa-keyring-update">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/gnu-elpa-keyring-update">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">gnu-elpa-keyring-update</span> RET</pre><h2>Full description</h2><pre>
+This package updates the GPG keys used by the ELPA package manager
+(a.k.a `package.el') to verify authenticity of packages downloaded
+from the GNU ELPA archive.
+
+Those keys have a limited validity in time (for example, the first key was
+valid until Sep 2019 only), so you need to install and keep this package up
+to date to make sure signature verification does not spuriously fail when
+installing packages.
+
+If your keys are already too old, causing signature verification errors when
+installing packages, then in order to install this package you can do the
+following:
+
+- Fetch the new key manually, e.g. with something like:
+
+      gpg --homedir ~/.emacs.d/elpa/gnupg --receive-keys 066DAFCB81E42C40
+
+- Modify the expiration date of the old key, e.g. with something like:
+
+      gpg --homedir ~/.emacs.d/elpa/gnupg \
+          --quick-set-expire 474F05837FBDEF9B 1y
+
+- temporarily disable signature verification (see variable
+  `package-check-signature').
+</pre>
+<h2>Old versions</h2><table>
+<tr><td><a href="gnu-elpa-keyring-update-2019.2.tar">gnu-elpa-keyring-update-2019.2.tar</a></td><td>2019-Apr-29</td><td>20.0&nbsp;KiB</td>
+<tr><td><a href="gnu-elpa-keyring-update-2019.1.tar">gnu-elpa-keyring-update-2019.1.tar</a></td><td>2019-Apr-25</td><td>20.0&nbsp;KiB</td>
+<tr><td><a href="gnu-elpa-keyring-update-2019.0.el">gnu-elpa-keyring-update-2019.0.el</a></td><td>2019-Apr-24</td><td>4.24&nbsp;KiB</td>
+</table>
+</body>

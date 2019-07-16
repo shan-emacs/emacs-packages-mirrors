@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - hook-helpers</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - hook-helpers</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">hook-helpers</h2><dl><dt>Description</dt><dd>Anonymous, modifiable hook functions</dd>
+<dt>Latest</dt> <dd><a href="hook-helpers-1.1.1.tar">hook-helpers-1.1.1.tar</a>, 2018-Feb-12, 80.0&nbsp;KiB</dd>
+<dt>Maintainer</dt> <dd>Ian Dunn &lt;dunni@gnu.org></dd>
+<dt>Home page</dt> <dd><a href="https://savannah.nongnu.org/projects/hook-helpers-el/">https://savannah.nongnu.org/projects/hook-helpers-el/</a></dd>
+<dt>Browse ELPA's repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/hook-helpers">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/hook-helpers">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">hook-helpers</span> RET</pre><h2>Full description</h2><pre>
+Often times, I see people define a function to be used once in a hook.  If
+they don’t do this, then it will be an anonymous function.  If the anonymous
+function is modified, then the function can’t be removed.  With a function
+outside of the `add-hook' call, it looks messy.
+
+Hook Helpers are a solution to this.  A "hook helper" is an anonymous,
+modifiable function created for the sole purpose of being attached to a hook.
+This combines the two commonly used methods mentioned above.  The functions
+don't exist, so they don't get in the way of `describe-function', but they
+can be removed or modified as needed.
+</pre>
+<h2>Old versions</h2><table>
+<tr><td><a href="hook-helpers-1.1.tar">hook-helpers-1.1.tar</a></td><td>2017-Apr-27</td><td>70.0&nbsp;KiB</td>
+</table>
+</body>

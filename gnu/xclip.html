@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - xclip</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - xclip</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">xclip</h2><dl><dt>Description</dt><dd>Copy&amp;paste GUI clipboard from text terminal</dd>
+<dt>Latest</dt> <dd><a href="xclip-1.9.el">xclip-1.9.el</a>, 2019-Jul-02, 18.3&nbsp;KiB</dd>
+<dt>Home page</dt> <dd><a href="http://elpa.gnu.org/packages/xclip.html">http://elpa.gnu.org/packages/xclip.html</a></dd>
+<dt>Browse repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/xclip">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/xclip">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">xclip</span> RET</pre><h2>Full description</h2><pre>
+This package allows Emacs to copy to and paste from the GUI clipboard
+when running in text terminal.
+
+It can use external command-line tools for that, which you may need
+to install in order for the package to work.
+More specifically, it can use the following tools:
+- Under X11: `xclip' or `xsel' (http://xclip.sourceforge.net and
+  http://www.vergenet.net/~conrad/software/xsel/ respectively).
+- MacOS: `pbpaste/pbcopy'
+- Cygwin: `getclip/putclip'
+- Under Wayland: `wl-clipboard' (https://github.com/bugaevc/wl-clipboard)
+- Termux: `termux-clipboard-get/set'
+- Emacs: It can also use Emacs's built-in GUI support to talk to the GUI.
+  This requires an Emacs built with GUI support.
+  It uses `make-frame-on-display' which has been tested to work under X11,
+  but it's not known whether it works under MacOS or Windows.
+
+To use, just add (xclip-mode 1) to your ~/.emacs or do `M-x clip-mode'
+after which the usual kill/yank commands will use the GUI selections
+according to `select-enable-clipboard/primary'.
+
+An alternative package for use under X11 is
+[Gpastel](https://gitlab.petton.fr/DamienCassou/gpastel), which uses
+[GPaste](https://github.com/Keruspe/GPaste/) rather than Xclip and hooks
+into Emacs in a different way.  AFAICT it currently only supports
+copy/pasting from an external application to Emacs and not from Emacs to
+another application (for which it relies on the default code).
+</pre>
+<h2>Old versions</h2><table>
+<tr><td><a href="xclip-1.8.el">xclip-1.8.el</a></td><td>2019-Mar-11</td><td>15.9&nbsp;KiB</td>
+<tr><td><a href="xclip-1.7.el">xclip-1.7.el</a></td><td>2018-Dec-12</td><td>15.7&nbsp;KiB</td>
+<tr><td><a href="xclip-1.6.el">xclip-1.6.el</a></td><td>2018-Dec-11</td><td>13.8&nbsp;KiB</td>
+<tr><td><a href="xclip-1.5.el">xclip-1.5.el</a></td><td>2018-Nov-19</td><td>12.9&nbsp;KiB</td>
+<tr><td><a href="xclip-1.4.el">xclip-1.4.el</a></td><td>2017-Nov-09</td><td>9.76&nbsp;KiB</td>
+<tr><td><a href="xclip-1.3.el">xclip-1.3.el</a></td><td>2013-Sep-07</td><td>6.62&nbsp;KiB</td>
+<tr><td><a href="xclip-1.2.el">xclip-1.2.el</a></td><td>2013-Sep-06</td><td>6.50&nbsp;KiB</td>
+<tr><td><a href="xclip-1.1.el">xclip-1.1.el</a></td><td>2013-Sep-05</td><td>5.48&nbsp;KiB</td>
+<tr><td><a href="xclip-1.0.el">xclip-1.0.el</a></td><td>2012-Nov-29</td><td>4.90&nbsp;KiB</td>
+</table>
+</body>

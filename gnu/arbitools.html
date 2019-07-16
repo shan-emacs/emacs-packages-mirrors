@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - arbitools</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - arbitools</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">arbitools</h2><dl><dt>Description</dt><dd>Package for chess tournaments administration</dd>
+<dt>Latest</dt> <dd><a href="arbitools-0.977.el">arbitools-0.977.el</a>, 2019-Jul-08, 67.4&nbsp;KiB</dd>
+<dt>Home page</dt> <dd><a href="http://elpa.gnu.org/packages/arbitools.html">http://elpa.gnu.org/packages/arbitools.html</a></dd>
+<dt>Browse repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/arbitools">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/arbitools">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">arbitools</span> RET</pre><h2>Full description</h2><pre>
+REQUIRES:
+---------------------------
+Some functions require the arbitools python package, written by myself
+you can install it by: "pip3 install arbitools"
+
+"pdflatex" by Han The Thanh is necessary in case you want to get pdfs.
+           It is distributed under a GPL license.
+           https://www.tug.org/applications/pdftex/
+
+"bbpPairings.exe" by Bierema Boyz Programming is necessary to do the
+                  pairings. Copy the file to an executable folder,
+                  for example /usr/bin.
+                  Find bbpPairings in
+                  https://github.com/BieremaBoyzProgramming/bbpPairings
+                  under GPL license.
+
+USAGE:
+---------------------------
+arbitools.el is an interface for the python package "arbitools",
+designed to manage chess tournament reports.  If you don't install the
+python package you can still have the syntax colouring and some native
+functions. In the future, all the functions will be translated to ELISP.
+
+FEATURES:
+----------------------------
+- Syntax colouring for the official trf FIDE files.  This facilitates
+manual edition of the files.
+
+- Updating the players ratings. - with python
+
+- Adding players to an existing file. - with python
+
+- Getting standings from a tournament file. -with python
+
+- Getting IT3 Tournament report form. - with python
+
+- Deleting a round. - Native
+
+- Insert result. - Native
+
+- Insert player. - Native
+
+- Insert bye. - Native
+
+- Get the pairing list or results of a round - Native
+
+- Get the list of the players - Native
+
+- Delete player. Adjust all rank numbers - Native
+
+- Adjust points for each player, according to results of rounds - Native
+
+- Print standings - Native
+
+- Calculate performance and ARPO (Average Rating Performance of Opponents -Native
+  ARPO calcuations are based on the ideas of Miguel Brozos, Marco A. Campo,
+  Carlos Díaz and Julio González
+  eio.usc.es/pub/julio/desempate/Performance_Recursiva.htm
+
+- Export ELO in FEDA (Spanish Chess Federation) format - with python
+
+- Do pairings - with bbpPairings.exe. In order for this to work,
+                remember to add XXR and XXCfields in the file with the number
+                of rounds of the tournament.
+
+TODO:
+---------------------------------
+
+- Write the add players from file function in ELISP.
+- Insert results from a results file created with a pairing program.
+  Add the date in the "132" line and the results in the "001" lines.
+- Add empty round. Ask for date create empty space in the players lines.
+  Add the date in the "132" line.
+- Add the rank number and the position automatically when adding players.
+- Add team.
+- Add player to team. Prompt for team and player number.
+- Generate pgn file for a round or the whole tournament.
+- Reorder the players list
+- Error handling
+- Make the interface more friendly
+You will find more information in www.dggandara.eu/arbitools.htm
+</pre>
+<h2>Old versions</h2><table>
+<tr><td><a href="arbitools-0.976.el">arbitools-0.976.el</a></td><td>2019-May-13</td><td>68.1&nbsp;KiB</td>
+<tr><td><a href="arbitools-0.975.el">arbitools-0.975.el</a></td><td>2019-May-09</td><td>67.3&nbsp;KiB</td>
+<tr><td><a href="arbitools-0.97.el">arbitools-0.97.el</a></td><td>2019-Jan-02</td><td>67.6&nbsp;KiB</td>
+<tr><td><a href="arbitools-0.95.el">arbitools-0.95.el</a></td><td>2018-Jun-22</td><td>48.9&nbsp;KiB</td>
+<tr><td><a href="arbitools-0.94.el">arbitools-0.94.el</a></td><td>2018-Jan-10</td><td>46.9&nbsp;KiB</td>
+<tr><td><a href="arbitools-0.93.el">arbitools-0.93.el</a></td><td>2017-Dec-31</td><td>40.7&nbsp;KiB</td>
+<tr><td><a href="arbitools-0.91.el">arbitools-0.91.el</a></td><td>2017-Dec-19</td><td>37.4&nbsp;KiB</td>
+<tr><td><a href="arbitools-0.71.el">arbitools-0.71.el</a></td><td>2016-May-04</td><td>33.5&nbsp;KiB</td>
+<tr><td><a href="arbitools-0.70.el">arbitools-0.70.el</a></td><td>2016-Apr-25</td><td>33.4&nbsp;KiB</td>
+<tr><td><a href="arbitools-0.55.el">arbitools-0.55.el</a></td><td>2016-Apr-09</td><td>33.1&nbsp;KiB</td>
+<tr><td><a href="arbitools-0.53.el">arbitools-0.53.el</a></td><td>2016-Mar-26</td><td>27.3&nbsp;KiB</td>
+<tr><td><a href="arbitools-0.51.el">arbitools-0.51.el</a></td><td>2016-Feb-24</td><td>8.14&nbsp;KiB</td>
+</table>
+</body>

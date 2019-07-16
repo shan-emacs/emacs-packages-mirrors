@@ -1,0 +1,175 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - gpastel</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - gpastel</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">gpastel</h2><dl><dt>Description</dt><dd>Integrates GPaste with the kill-ring</dd>
+<dt>Latest</dt> <dd><a href="gpastel-0.5.0.el">gpastel-0.5.0.el</a>, 2018-Dec-30, 7.19&nbsp;KiB</dd>
+<dt>Home page</dt> <dd><a href="https://gitlab.petton.fr/DamienCassou/desktop-environment">https://gitlab.petton.fr/DamienCassou/desktop-environment</a></dd>
+<dt>Browse ELPA's repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/?h=externals/gpastel">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=shortlog;h=refs/heads/externals/gpastel">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">gpastel</span> RET</pre><h2>Full description</h2><pre>
+* gpastel
+
+  #+BEGIN_HTML
+      &lt;p>
+        &lt;a href="https://stable.melpa.org/#/gpastel">
+          &lt;img alt="MELPA Stable" src="https://stable.melpa.org/packages/gpastel-badge.svg"/>
+        &lt;/a>
+
+        &lt;a href="https://melpa.org/#/gpastel">
+          &lt;img alt="MELPA" src="https://melpa.org/packages/gpastel-badge.svg"/>
+        &lt;/a>
+
+        &lt;a href="https://gitlab.petton.fr/DamienCassou/gpastel/commits/master">
+          &lt;img alt="pipeline status" src="https://gitlab.petton.fr/DamienCassou/gpastel/badges/master/pipeline.svg" />
+        &lt;/a>
+      &lt;/p>
+  #+END_HTML
+
+** Summary
+
+[[https://github.com/Keruspe/GPaste/][GPaste]] is a clipboard management system.  The Emacs package gpastel
+makes sure that every copied text in GPaste is also in the Emacs
+~kill-ring~.
+
+Emacs has built-in support for synchronizing the system clipboard with
+the ~kill-ring~ (see the variables ~interprogram-paste-function~ and
+~save-interprogram-paste-before-kill~).  This support is not optimal
+because it makes the ~kill-ring~ only contain the last text of
+consecutive copied texts.  In other words, a user cannot copy multiple
+pieces of text from an external application without going back to
+Emacs in between.
+
+On the contrary, gpastel supports this scenario by hooking into the
+GPaste clipboard manager.  This means that the ~kill-ring~ will
+always contain everything the user copies in external applications,
+not just the last piece of text.
+
+Additionally, when using [[https://github.com/ch11ng/exwm][EXWM]] (the Emacs X Window Manager), gpastel
+makes it possible for the user to use the ~kill-ring~ from external
+applications.
+
+** Installing
+
+Add the following to your initialization file:
+
+#+BEGIN_SRC emacs-lisp
+  (add-to-list 'load-path "~/.emacs.d/lib/gpastel/")
+#+END_SRC
+
+You also have to tell gpastel to start listening for GPaste events. If
+you are using EXWM, add ~gpastel-mode~ to
+~exwm-init-hook~. Otherwise, just add this line to your initialization file:
+
+#+BEGIN_SRC emacs-lisp
+  (gpastel-mode)
+#+END_SRC
+
+** Usage
+
+There is nothing more to do than copying text the normal way. All
+copied texts should appear in the Emacs ~kill-ring~ now.
+
+*** For EXWM users
+
+If you use EXWM and you want to access the ~kill-ring~ from any
+application (instead of the less powerful system clipboard), I
+recommend you either install and configure [[http://oremacs.com/swiper/][counsel]] or
+[[https://github.com/browse-kill-ring/browse-kill-ring][browse-kill-ring]]. Then, you can add one of the following two
+configuration snippets to your initialization file.
+
+**** For EXWM+counsel users
+
+Add the following to your initialization file:
+
+ #+BEGIN_SRC emacs-lisp
+   (exwm-input-set-key (kbd "M-y") #'my/exwm-counsel-yank-pop)
+
+   (defun my/exwm-counsel-yank-pop ()
+     "Same as `counsel-yank-pop' and paste into exwm buffer."
+     (interactive)
+     (let ((inhibit-read-only t)
+           ;; Make sure we send selected yank-pop candidate to
+           ;; clipboard:
+           (yank-pop-change-selection t))
+       (call-interactively #'counsel-yank-pop))
+     (when (derived-mode-p 'exwm-mode)
+       ;; https://github.com/ch11ng/exwm/issues/413#issuecomment-386858496
+       (exwm-input--set-focus (exwm--buffer->id (window-buffer (selected-window))))
+       (exwm-input--fake-key ?\C-v)))
+ #+END_SRC
+
+**** For EXWM+browse-kill-ring users
+
+[[https://github.com/kriyative][Ram Krishnan]] gives us the following piece of code for browse-kill-ring users:
+
+#+BEGIN_SRC emacs-lisp
+  (define-advice browse-kill-ring-insert-and-highlight
+      (:around (old-function str) exwm-paste)
+    "Paste the selection appropriately in exwm mode buffers."
+    (if (not (derived-mode-p 'exwm-mode))
+        (funcall old-function str)
+      (kill-new str)
+      (exwm-input--fake-key ?\C-v)))
+#+END_SRC
+
+** License
+
+See [[file:COPYING][COPYING]]. Copyright (c) 2018 Damien Cassou.
+
+  #+BEGIN_HTML
+  &lt;a href="https://liberapay.com/DamienCassou/donate">
+    &lt;img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg">
+  &lt;/a>
+  #+END_HTML
+
+</pre>
+<h2>Old versions</h2><table>
+<tr><td><a href="gpastel-0.4.0.el">gpastel-0.4.0.el</a></td><td>2018-Dec-23</td><td>6.05&nbsp;KiB</td>
+<tr><td><a href="gpastel-0.3.0.el">gpastel-0.3.0.el</a></td><td>2018-Dec-19</td><td>6.05&nbsp;KiB</td>
+</table>
+<h2>News</h2><pre>
+* 0.4.0
+
+- Add the global minor mode ~gpastel-mode~ (idea from Stefan
+  Monnier). Use that instead of ~gpastel-start-listening~ which may
+  soon be deprecated.
+- Upgrade Emacs requirement to at least 24.4
+
+* 0.3.0
+
+- Make ~interprogram-paste-function~ an empty lambda instead of nil:
+  It seems that some packages require this variable to reference a
+  function.
+
+* 0.2.0
+
+Initial release
+
+* COMMENT Emacs
+;; Local Variables:
+;; mode: org
+;; End:
+
+</pre>
+</body>

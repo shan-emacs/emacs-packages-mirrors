@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - stream</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - stream</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">stream</h2><dl><dt>Description</dt><dd>Implementation of streams</dd>
+<dt>Latest</dt> <dd><a href="stream-2.2.4.tar">stream-2.2.4.tar</a>, 2017-Apr-23, 50.0&nbsp;KiB</dd>
+<dt>Maintainer</dt> <dd>nicolas@petton.fr</dd>
+<dt>Home page</dt> <dd><a href="http://elpa.gnu.org/packages/stream.html">http://elpa.gnu.org/packages/stream.html</a></dd>
+<dt>Browse repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/stream">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/stream">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">stream</span> RET</pre><h2>Full description</h2><pre>
+This library provides an implementation of streams. Streams are
+implemented as delayed evaluation of cons cells.
+
+Functions defined in `seq.el' can also take a stream as input.
+
+streams could be created from any sequential input data:
+- sequences, making operation on them lazy
+- a set of 2 forms (first and rest), making it easy to represent infinite sequences
+- buffers (by character)
+- buffers (by line)
+- buffers (by page)
+- IO streams
+- orgmode table cells
+- ...
+
+All functions are prefixed with "stream-".
+All functions are tested in tests/stream-tests.el
+
+Here is an example implementation of the Fibonacci numbers
+implemented as in infinite stream:
+
+(defun fib (a b)
+ (stream-cons a (fib b (+ a b))))
+(fib 0 1)
+
+A note for developers: Please make sure to implement functions that
+process streams (build new streams out of given streams) in a way
+that no new elements in any argument stream are generated.  This is
+most likely an error since it changes the argument stream.  For
+example, a common error is to call `stream-empty-p' on an input
+stream and build the stream to return depending on the result.
+Instead, delay such tests until elements are requested from the
+resulting stream.  A way to achieve this is to wrap such tests into
+`stream-make' or `stream-delay'.  See the implementations of
+`stream-append' or `seq-drop-while' for example.
+</pre>
+<h2>Old versions</h2><table>
+<tr><td><a href="stream-2.2.3.el">stream-2.2.3.el</a></td><td>2016-Sep-24</td><td>19.4&nbsp;KiB</td>
+<tr><td><a href="stream-2.2.2.el">stream-2.2.2.el</a></td><td>2016-Sep-17</td><td>19.4&nbsp;KiB</td>
+<tr><td><a href="stream-2.2.1.el">stream-2.2.1.el</a></td><td>2016-Aug-02</td><td>17.6&nbsp;KiB</td>
+<tr><td><a href="stream-2.2.0.el">stream-2.2.0.el</a></td><td>2016-Mar-04</td><td>15.2&nbsp;KiB</td>
+<tr><td><a href="stream-2.1.0.el">stream-2.1.0.el</a></td><td>2015-Nov-12</td><td>10.5&nbsp;KiB</td>
+<tr><td><a href="stream-2.0.5.el">stream-2.0.5.el</a></td><td>2015-Nov-05</td><td>10.2&nbsp;KiB</td>
+<tr><td><a href="stream-2.0.2.el">stream-2.0.2.el</a></td><td>2015-Oct-31</td><td>9.53&nbsp;KiB</td>
+<tr><td><a href="stream-2.0.1.el">stream-2.0.1.el</a></td><td>2015-Oct-27</td><td>9.43&nbsp;KiB</td>
+<tr><td><a href="stream-1.0.1.el">stream-1.0.1.el</a></td><td>2015-Oct-26</td><td>9.23&nbsp;KiB</td>
+<tr><td><a href="stream-1.0.el">stream-1.0.el</a></td><td>2015-Oct-15</td><td>9.02&nbsp;KiB</td>
+</table>
+</body>

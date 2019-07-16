@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - vigenere</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - vigenere</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">vigenere</h2><dl><dt>Description</dt><dd>Run a vigenere cipher on a block of text ;</dd>
+<dt>Latest</dt> <dd><a href="vigenere-1.0.el">vigenere-1.0.el</a>, 2017-Sep-03, 4.87&nbsp;KiB</dd>
+<dt>Maintainer</dt> <dd>Ian Dunn &lt;dunni@gnu.org></dd>
+<dt>Home page</dt> <dd><a href="https://elpa.gnu.org/packages/vigenere.html">https://elpa.gnu.org/packages/vigenere.html</a></dd>
+<dt>Browse ELPA's repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/vigenere">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/vigenere">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">vigenere</span> RET</pre><h2>Full description</h2><pre>
+A vigenere cipher is similar to a series of shift ciphers.  A key is repeated
+through the plain text, then a shift cipher is used for each letter depending
+on the letter in the key at that position.
+
+Example:
+
+The following uses the key EMACS (because what else would my example key be?).
+
+Plain text: This is some plain text
+
+First, we repeat the key through the plain text
+
+This is some plain text
+EMAC SE MACS EMACS EMAC
+
+Then each letter in the plain text is shifted based on the key character at
+that point:
+
+This is some plain text
+EMAC SE MACS EMACS EMAC
+Xtiu aw eoow txakf xqxv
+
+The specific shift amount for each character is the 0-based offset from A.
+Therefore, A is 0, B is 1, etc.
+
+The key in our case is case-insensitive.  EMACS is Emacs is emacs is EmACs.
+
+One more note, is that this package only operates on letters, and the case of
+the original text is preserved.
+
+A vigenere cipher should not be considered cryptographically secure.  This
+package is for recreational use only, not for securing sensitive information.
+</pre>
+</body>

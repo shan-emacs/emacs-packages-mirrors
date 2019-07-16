@@ -1,0 +1,92 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - exwm</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - exwm</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">exwm</h2><dl><dt>Description</dt><dd>Emacs X Window Manager</dd>
+<dt>Latest</dt> <dd><a href="exwm-0.22.1.tar">exwm-0.22.1.tar</a>, 2019-Feb-16,  510&nbsp;KiB</dd>
+<dt>Maintainer</dt> <dd>Chris Feng &lt;chris.w.feng@gmail.com></dd>
+<dt>Home page</dt> <dd><a href="https://github.com/ch11ng/exwm">https://github.com/ch11ng/exwm</a></dd>
+<dt>Browse ELPA's repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/?h=externals/exwm">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=shortlog;h=refs/heads/externals/exwm">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">exwm</span> RET</pre><h2>Full description</h2><pre>
+Overview
+--------
+EXWM (Emacs X Window Manager) is a full-featured tiling X window manager
+for Emacs built on top of [XELB](https://github.com/ch11ng/xelb).
+It features:
++ Fully keyboard-driven operations
++ Hybrid layout modes (tiling &amp; stacking)
++ Dynamic workspace support
++ ICCCM/EWMH compliance
++ (Optional) RandR (multi-monitor) support
++ (Optional) Built-in system tray
+
+Installation &amp; configuration
+----------------------------
+Here are the minimal steps to get EXWM working:
+1. Install XELB and EXWM, and make sure they are in `load-path'.
+2. In '~/.emacs', add following lines (please modify accordingly):
+
+   (require 'exwm)
+   (require 'exwm-config)
+   (exwm-config-default)
+
+3. Link or copy the file 'xinitrc' to '~/.xinitrc'.
+4. Launch EXWM in a console (e.g. tty1) with
+
+   xinit -- vt01
+
+You should additionally hide the menu-bar, tool-bar, etc to increase the
+usable space.  Please check the wiki (https://github.com/ch11ng/exwm/wiki)
+for more detailed instructions on installation, configuration, usage, etc.
+
+References:
++ dwm (http://dwm.suckless.org/)
++ i3 wm (https://i3wm.org/)
++ Also see references within each required library.
+</pre>
+<h2>Old versions</h2><table>
+<tr><td><a href="exwm-0.22.tar">exwm-0.22.tar</a></td><td>2019-Feb-10</td><td> 510&nbsp;KiB</td>
+<tr><td><a href="exwm-0.21.tar">exwm-0.21.tar</a></td><td>2018-Dec-01</td><td> 470&nbsp;KiB</td>
+<tr><td><a href="exwm-0.20.tar">exwm-0.20.tar</a></td><td>2018-Oct-14</td><td> 460&nbsp;KiB</td>
+<tr><td><a href="exwm-0.19.tar">exwm-0.19.tar</a></td><td>2018-Jul-18</td><td> 440&nbsp;KiB</td>
+<tr><td><a href="exwm-0.18.tar">exwm-0.18.tar</a></td><td>2018-Mar-13</td><td> 430&nbsp;KiB</td>
+<tr><td><a href="exwm-0.17.tar">exwm-0.17.tar</a></td><td>2018-Feb-24</td><td> 410&nbsp;KiB</td>
+<tr><td><a href="exwm-0.16.tar">exwm-0.16.tar</a></td><td>2017-Nov-26</td><td> 480&nbsp;KiB</td>
+<tr><td><a href="exwm-0.15.tar">exwm-0.15.tar</a></td><td>2017-Aug-02</td><td> 480&nbsp;KiB</td>
+<tr><td><a href="exwm-0.14.tar">exwm-0.14.tar</a></td><td>2017-May-07</td><td> 470&nbsp;KiB</td>
+<tr><td><a href="exwm-0.13.tar">exwm-0.13.tar</a></td><td>2017-Feb-12</td><td> 470&nbsp;KiB</td>
+<tr><td><a href="exwm-0.12.tar">exwm-0.12.tar</a></td><td>2016-Nov-19</td><td> 470&nbsp;KiB</td>
+<tr><td><a href="exwm-0.11.tar">exwm-0.11.tar</a></td><td>2016-Oct-01</td><td> 460&nbsp;KiB</td>
+<tr><td><a href="exwm-0.10.tar">exwm-0.10.tar</a></td><td>2016-Aug-28</td><td> 450&nbsp;KiB</td>
+<tr><td><a href="exwm-0.9.tar">exwm-0.9.tar</a></td><td>2016-Aug-14</td><td> 380&nbsp;KiB</td>
+<tr><td><a href="exwm-0.8.tar">exwm-0.8.tar</a></td><td>2016-Jul-31</td><td> 360&nbsp;KiB</td>
+<tr><td><a href="exwm-0.7.tar">exwm-0.7.tar</a></td><td>2016-Jul-27</td><td> 350&nbsp;KiB</td>
+<tr><td><a href="exwm-0.6.tar">exwm-0.6.tar</a></td><td>2016-Jul-25</td><td> 350&nbsp;KiB</td>
+<tr><td><a href="exwm-0.5.tar">exwm-0.5.tar</a></td><td>2016-May-25</td><td> 280&nbsp;KiB</td>
+<tr><td><a href="exwm-0.4.tar">exwm-0.4.tar</a></td><td>2016-Feb-25</td><td> 260&nbsp;KiB</td>
+<tr><td><a href="exwm-0.3.tar">exwm-0.3.tar</a></td><td>2016-Feb-24</td><td> 250&nbsp;KiB</td>
+<tr><td><a href="exwm-0.2.tar">exwm-0.2.tar</a></td><td>2016-Feb-12</td><td> 220&nbsp;KiB</td>
+<tr><td><a href="exwm-0.1.tar">exwm-0.1.tar</a></td><td>2015-Nov-03</td><td> 190&nbsp;KiB</td>
+</table>
+</body>

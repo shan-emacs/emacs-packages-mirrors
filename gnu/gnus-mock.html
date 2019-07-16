@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - gnus-mock</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - gnus-mock</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">gnus-mock</h2><dl><dt>Description</dt><dd>Mock Gnus installation for testing</dd>
+<dt>Latest</dt> <dd><a href="gnus-mock-0.4.2.tar">gnus-mock-0.4.2.tar</a>, 2019-May-07,  470&nbsp;KiB</dd>
+<dt>Maintainer</dt> <dd>Eric Abrahamsen &lt;eric@ericabrahamsen.net></dd>
+<dt>Home page</dt> <dd><a href="http://elpa.gnu.org/packages/gnus-mock.html">http://elpa.gnu.org/packages/gnus-mock.html</a></dd>
+<dt>Browse repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/gnus-mock">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/gnus-mock">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">gnus-mock</span> RET</pre><h2>Full description</h2><pre>
+This module provides a reproducible Gnus installation, including
+dummy data, that can be used for Gnus development and testing.
+Call `gnus-mock-start' from your currently-running Emacs to start a
+new Emacs instance, skipping all user init (ie startup as -Q), but
+preloading a mock Gnus installation.  All normal Gnus startup
+commands will begin a session within this mock installation.
+
+The developer can also specify a different Emacs executable to
+start (for instance, when working on a Git branch checked out in a
+worktree).  This is controlled by the `gnus-mock-emacs-program'
+option.
+
+The mock session starts with some predefined servers, as well as
+some dummy mail data.  At startup, all dummy data is copied into a
+temporary directory, which is deleted at shutdown.  The environment
+can thus be loaded, tweaked, trashed, and re-loaded with impunity.
+To fully restore a clean testing environment, simply quit the Emacs
+process and restart it from the parent process by running
+`gnus-mock-start' again.  Alternately it's possible to restart "in
+place" by calling `gnus-mock-reload', though, depending on what the
+developer has gotten up to, this isn't guaranteed to completely
+restore the environment.
+
+Users have two options for adding custom configuration to the mock
+session:
+
+- `gnus-mock-gnus-file' can be set to a filename, the contents
+   of which will be appended to the .gnus.el startup file in the
+   mock session.  This code will be executed at Gnus startup.
+
+- `gnus-mock-init-file' should also be a filename, the contents
+  of which will be appended to the init.el file that is loaded when
+  the child Emacs process starts.
+
+It's possible to compose and send mail in a mock Gnus session; the
+mail will be sent using the value of `gnus-mock-sendmail-program'.
+If Python is available on the user's system, this option will be
+set to a Python program that simply accepts the outgoing mail and
+shunts it to the "incoming" mailbox of the pre-defined nnmaildir
+server.
+</pre>
+<h2>Old versions</h2><table>
+<tr><td><a href="gnus-mock-0.4.1.tar">gnus-mock-0.4.1.tar</a></td><td>2019-Apr-10</td><td> 460&nbsp;KiB</td>
+<tr><td><a href="gnus-mock-0.4.0.tar">gnus-mock-0.4.0.tar</a></td><td>2018-Dec-04</td><td> 450&nbsp;KiB</td>
+<tr><td><a href="gnus-mock-0.3.0.tar">gnus-mock-0.3.0.tar</a></td><td>2018-Nov-17</td><td> 450&nbsp;KiB</td>
+<tr><td><a href="gnus-mock-0.2.1.tar">gnus-mock-0.2.1.tar</a></td><td>2018-Nov-06</td><td> 440&nbsp;KiB</td>
+<tr><td><a href="gnus-mock-0.2.0.tar">gnus-mock-0.2.0.tar</a></td><td>2018-Nov-01</td><td> 440&nbsp;KiB</td>
+<tr><td><a href="gnus-mock-0.1.2.tar">gnus-mock-0.1.2.tar</a></td><td>2018-Oct-18</td><td> 150&nbsp;KiB</td>
+<tr><td><a href="gnus-mock-0.1.1.el">gnus-mock-0.1.1.el</a></td><td>2018-Oct-13</td><td>9.76&nbsp;KiB</td>
+</table>
+</body>

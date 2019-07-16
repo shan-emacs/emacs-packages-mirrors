@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - webfeeder</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - webfeeder</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">webfeeder</h2><dl><dt>Description</dt><dd>Build RSS and Atom webfeeds from HTML files</dd>
+<dt>Latest</dt> <dd><a href="webfeeder-1.0.0.tar">webfeeder-1.0.0.tar</a>, 2019-Mar-26,  150&nbsp;KiB</dd>
+<dt>Maintainer</dt> <dd>Pierre Neidhardt &lt;mail@ambrevar.xyz></dd>
+<dt>Home page</dt> <dd><a href="https://gitlab.com/Ambrevar/emacs-webfeeder">https://gitlab.com/Ambrevar/emacs-webfeeder</a></dd>
+<dt>Browse ELPA's repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/?h=externals/webfeeder">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=shortlog;h=refs/heads/externals/webfeeder">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">webfeeder</span> RET</pre><h2>Full description</h2><pre>
+Webfeeder is an Emacs library to generate RSS
+(https://en.wikipedia.org/wiki/RSS) and Atom
+(https://en.wikipedia.org/wiki/Atom_(Web_standard)) feeds from HTML files.
+
+Other webfeed generators have been written for Emacs, but either they are
+tied to other projects like blog generators, or they only work on Org files
+like `ox-rss'.  Since Webfeeder generates webfeeds from HTML files, it is
+more general.
+
+The various elements of the HTML input are parsed with customizable
+functions.  For instance, Webfeeder offers two functions to parse the title:
+`webfeeder-title-libxml' (using libxml if your Emacs is linked against it)
+and the less reliable `webfeeder-title-default'.  Feel free to write you own
+function and bind `webfeeder-title-function' before generating the feeds.
+
+The generated feeds should be valid on https://validator.w3.org/feed/.  If not,
+it's a bug, please report.
+
+The full list of customizable functions is documented in
+`webfeeder-html-files-to-items'.
+
+The entry point is `webfeeder-build': consult its documentation for more
+information.
+
+Example:
+
+(webfeeder-build
+  "atom.xml"
+  "./public"
+  "https://example.org/"
+  '("post1.html" "post2.html" "post3.html")
+  :title "My homepage"
+  :description "A collection of articles in Atom")
+</pre>
+</body>

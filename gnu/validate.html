@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - validate</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - validate</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">validate</h2><dl><dt>Description</dt><dd>Schema validation for Emacs-lisp</dd>
+<dt>Latest</dt> <dd><a href="validate-1.0.4.el">validate-1.0.4.el</a>, 2017-Mar-06, 10.5&nbsp;KiB</dd>
+<dt>Home page</dt> <dd><a href="http://elpa.gnu.org/packages/validate.html">http://elpa.gnu.org/packages/validate.html</a></dd>
+<dt>Browse repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/validate">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/validate">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">validate</span> RET</pre><h2>Full description</h2><pre>
+This library offers two functions that perform schema validation.
+Use this is your Elisp packages to provide very informative error
+messages when your users accidentally misconfigure a variable.
+For instance, if everything is fine, these do the same thing:
+
+  1.  (validate-variable 'cider-known-endpoints)
+  2.  cider-known-endpoints
+
+However, if the user has misconfigured this variable, option
+1. will immediately give them an informative error message, while
+option 2. won't say anything and will lead to confusing errors down
+the line.
+
+The format and language of the schemas is the same one used in the
+`:type' property of a `defcustom'.
+
+    See: (info "(elisp) Customization Types")
+
+Both functions throw a `user-error' if the value in question
+doesn't match the schema, and return the value itself if it
+matches.  The function `validate-variable' verifies whether the value of a
+custom variable matches its custom-type, while `validate-value' checks an
+arbitrary value against an arbitrary schema.
+
+Missing features: `:inline', `plist', `coding-system', `color',
+`hook', `restricted-sexp'.
+</pre>
+<h2>Old versions</h2><table>
+<tr><td><a href="validate-1.0.2.el">validate-1.0.2.el</a></td><td>2016-Nov-17</td><td>10.3&nbsp;KiB</td>
+<tr><td><a href="validate-1.0.0.el">validate-1.0.0.el</a></td><td>2016-Oct-12</td><td>10.0&nbsp;KiB</td>
+<tr><td><a href="validate-0.5.el">validate-0.5.el</a></td><td>2016-May-12</td><td>9.92&nbsp;KiB</td>
+<tr><td><a href="validate-0.4.el">validate-0.4.el</a></td><td>2016-May-10</td><td>9.47&nbsp;KiB</td>
+<tr><td><a href="validate-0.3.el">validate-0.3.el</a></td><td>2016-May-04</td><td>8.97&nbsp;KiB</td>
+</table>
+</body>

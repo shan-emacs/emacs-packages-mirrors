@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - smart-yank</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - smart-yank</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">smart-yank</h2><dl><dt>Description</dt><dd>A different approach of yank pointer handling</dd>
+<dt>Latest</dt> <dd><a href="smart-yank-0.1.1.el">smart-yank-0.1.1.el</a>, 2016-May-21, 7.05&nbsp;KiB</dd>
+<dt>Maintainer</dt> <dd>Michael Heerdegen &lt;michael_heerdegen@web.de></dd>
+<dt>Home page</dt> <dd><a href="http://elpa.gnu.org/packages/smart-yank.html">http://elpa.gnu.org/packages/smart-yank.html</a></dd>
+<dt>Browse repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/smart-yank">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/smart-yank">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">smart-yank</span> RET</pre><h2>Full description</h2><pre>
+Introduction
+============
+
+This library implements the global minor mode `smart-yank-mode'
+that changes the way Emacs handles the `kill-ring-yank-pointer' in
+a way that some people prefer over the default behavior.
+
+Normally, only a kill command resets the yank pointer.  With
+`smart-yank-mode' enabled, any command except yank commands resets
+it.
+
+In addition, when yanking any "older" element from the kill-ring
+with yank-pop (and not replacing it with a subsequent yank-pop), it
+is automatically moved to the "first position" so `yank' invoked
+later will yank this element again.
+
+Finally, `yank-pop' (normally bound to M-y) is replaced with
+`smart-yank-yank-pop' that is a bit more sophisticated:
+
+- When _not_ called after a `yank', instead of raising an error
+  like `yank-pop', yank the next-to-the-last kill.
+
+- Hit M-y twice in fast succession (delay &lt; 0.2 secs by default)
+  when you got lost.  This will remove the yanked text.  If you
+  bind a command to `smart-yank-browse-kill-ring-command', this
+  command will be called too (typically something like
+  `browse-kill-ring').
+
+
+Example: you want to manually replace some words in some buffer
+with a new word "foo".  With `smart-yank-mode' enabled, you can do
+it like this:
+
+  1. Put "foo" into the kill ring.
+  2. Move to the next word to be replaced.
+  3. M-d M-y
+  4. Back to 2, iterate.
+
+
+Setup
+=====
+
+Just enable `smart-yank-mode' and you are done.
+</pre>
+<h2>Old versions</h2><table>
+<tr><td><a href="smart-yank-0.1.el">smart-yank-0.1.el</a></td><td>2016-May-17</td><td>6.96&nbsp;KiB</td>
+</table>
+</body>

@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - filladapt</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - filladapt</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">filladapt</h2><dl><dt>Description</dt><dd>Adaptive fill</dd>
+<dt>Latest</dt> <dd><a href="filladapt-2.12.2.el">filladapt-2.12.2.el</a>, 2018-Jul-10, 29.5&nbsp;KiB</dd>
+<dt>Maintainer</dt> <dd>emacs-devel@gnu.org</dd>
+<dt>Home page</dt> <dd><a href="http://elpa.gnu.org/packages/filladapt.html">http://elpa.gnu.org/packages/filladapt.html</a></dd>
+<dt>Browse repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/filladapt">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/filladapt">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">filladapt</span> RET</pre><h2>Full description</h2><pre>
+These functions enhance the default behavior of Emacs' Auto Fill
+mode and the commands fill-paragraph, lisp-fill-paragraph,
+fill-region-as-paragraph and fill-region.
+
+The chief improvement is that the beginning of a line to be
+filled is examined and, based on information gathered, an
+appropriate value for fill-prefix is constructed.  Also the
+boundaries of the current paragraph are located.  This occurs
+only if the fill prefix is not already non-nil.
+
+The net result of this is that blurbs of text that are offset
+from left margin by asterisks, dashes, and/or spaces, numbered
+examples, included text from USENET news articles, etc.. are
+generally filled correctly with no fuss.
+
+Since this package replaces existing Emacs functions, it cannot
+be autoloaded.  Save this in a file named filladapt.el in a
+Lisp directory that Emacs knows about, byte-compile it and put
+   (require 'filladapt)
+in your .emacs file.
+
+Note that in this release Filladapt mode is a minor mode and it is
+_off_ by default.  If you want it to be on by default, use
+  (setq-default filladapt-mode t)
+
+M-x filladapt-mode toggles Filladapt mode on/off in the current
+buffer.
+
+Use
+    (add-hook 'text-mode-hook #'filladapt-mode)
+to have Filladapt always enabled in Text mode.
+
+Use
+    (add-hook 'c-mode-hook #'turn-off-filladapt-mode)
+to have Filladapt always disabled in C mode.
+
+In many cases, you can extend Filladapt by adding appropriate
+entries to the following three `defvar's.  See `postscript-comment'
+or `texinfo-comment' as a sample of what needs to be done.
+
+    filladapt-token-table
+    filladapt-token-match-table
+    filladapt-token-conversion-table
+</pre>
+<h2>Old versions</h2><table>
+<tr><td><a href="filladapt-2.12.1.el">filladapt-2.12.1.el</a></td><td>2018-Jul-04</td><td>28.6&nbsp;KiB</td>
+</table>
+</body>

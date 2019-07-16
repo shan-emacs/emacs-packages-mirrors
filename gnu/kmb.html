@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - kmb</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - kmb</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">kmb</h2><dl><dt>Description</dt><dd>Kill buffers matching a regexp w/o confirmation</dd>
+<dt>Latest</dt> <dd><a href="kmb-0.1.el">kmb-0.1.el</a>, 2017-May-31, 5.74&nbsp;KiB</dd>
+<dt>Maintainer</dt> <dd>Tino Calancha</dd>
+<dt>Home page</dt> <dd><a href="http://elpa.gnu.org/packages/kmb.html">http://elpa.gnu.org/packages/kmb.html</a></dd>
+<dt>Browse repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/kmb">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/kmb">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">kmb</span> RET</pre><h2>Full description</h2><pre>
+ This library provides the commands `kmb-kill-matching-buffers-no-ask'
+ and `kmb-delete-process-and-kill-buffer-no-ask'.  The former kills
+ buffers whose name matches a regular expression.  The latter,
+ interactively kills the current buffer and if called from Lisp,
+ then accepts a list of buffers to kill.
+ Any of these commands ask for confirmation to kill the buffers.
+ If one of the buffers is running a process, then the process is
+ deleted before kill the buffer.
+
+ This file also defines the commands `kmb-list-matching-buffers' and
+ `kmb-list-buffers-matching-content' to list the buffers whose name
+ or content match a regexp.
+
+
+ Commands defined here:
+
+  `kmb-delete-process-and-kill-buffer-no-ask',
+  `kmb-kill-matching-buffers-no-ask', `kmb-list-buffers-matching-content',
+  `kmb-list-matching-buffers'.
+
+ Non-interactive functions defined here:
+
+  `kmb--show-matches'.
+</pre>
+</body>

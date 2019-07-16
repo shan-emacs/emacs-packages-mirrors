@@ -1,0 +1,395 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - brief</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - brief</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">brief</h2><dl><dt>Description</dt><dd>Brief Editor Emulator (Brief Mode)</dd>
+<dt>Latest</dt> <dd><a href="brief-5.87.tar">brief-5.87.tar</a>, 2018-Oct-22,  360&nbsp;KiB</dd>
+<dt>Maintainer</dt> <dd>Luke Lee &lt;luke.yx.lee@gmail.com></dd>
+<dt>Home page</dt> <dd><a href="http://elpa.gnu.org/packages/brief.html">http://elpa.gnu.org/packages/brief.html</a></dd>
+<dt>Browse repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/brief">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/brief">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">brief</span> RET</pre><h2>Full description</h2><pre>
+Brief Mode / Brief Emulator / Brief Editor             -*- mode: org; -*-
+
+#+STARTUP: showall
+#+STARTUP: hidestars
+
+* Brief
+
+The Brief editor v3.1 was once very popular among programmers in the MS-DOS days.
+It was famous for its easy-to-learn.  Most of the command 'K'eys are associated
+with meaningful 'K'eywords.  Usually, it can be mastered within an hour and
+difficult to forget.
+
+For example, the first &lt;home> key bring the cursor to home (beginning) of current
+line, a consecutive second &lt;home> key to the home (beginning) of the window and a
+third &lt;home> to the home (beginning) of the file.  Similarly for the &lt;end> key.
+To paste/insert clipboard contents into current file just press &lt;insert>,... and
+so on.
+
+Personally, I've been using this key combination for over 27+ years (by the time
+Y2018 this guide was written) and have never changed, since the beginning of the
+MS-DOS Brief Editor days; the later 17+ years of the 27 are using Emacs with
+this Brief Mode.
+
+[Actually, after 17+ years of Emacs I still can't (or simply, don't need to)
+ remember the default Emacs keys except for &lt;Ctrl-g> (cancel half-entered
+ commands) and &lt;Ctrl>-x &lt;Ctrl>-c (quit Emacs, in case I don't have my Brief
+ mode at hand).]
+
+* Installation
+
+** Quick steps for non-Emacs users:
+
+  1. Install Emacs, better be Emacs version 24 above (Emacs26 recommended).
+     For Debian/Ubuntu users:
+
+     $ sudo apt install emacs -y
+
+  2. Download Brief package using emacs command line:
+
+     $ emacs --batch --eval "(progn (package-initialize) (package-refresh-contents) (package-install 'brief))"
+
+  3. Now the Brief package should be installed in "~/.emacs.d/elpa/brief-#.##"
+     (where #.## is the version number, by the time this document is written
+     it's 5.87).  You can either add this into PATH, or copy (link) the launcher
+     bash script "~/.emacs.d/elpa/brief-#.##/b" to anywhere within your PATH
+     (notice this launcher exists only after v5.87).
+
+     Now you can start Emacs brief emulator, just run the launcher:
+
+     $ b
+
+     That's it!
+     (If 'b' fail to launch, the package might not be properly installed, try
+     step 2 and 3 again, or do it like Emacs users below.)
+
+** For Emacs users, just install the ELPA brief package with menu -> "Options"
+   -> "Manage Emacs Packages", then add
+
+     (require 'brief)
+     (brief-easy-start) ;; will do (brief-mode 1)
+
+   into ~/.emacs to enable it. (For what `brief-easy-start' does please search
+   "brief-easy-start" following.)
+
+* Key Commands:
+
+** Basic editing commands are just like any other editor, cursor movement
+   using arrow up/down/left/right; page up/down; line home/end; with
+   &lt;shift> key pressed cursor movement keys mark text selection.  &lt;Enter>,
+   &lt;Backspace>, and &lt;Delete> also behaves the same as other editors;  when
+   text region is selected, &lt;Backspace> and &lt;Delete> deletes the whole
+   selection.
+
+** The first thing need to memorize about Emacs is that the cancellation
+   is usually *not* done by the &lt;Esc> key but mostly by &lt;Ctrl>-g key.
+
+** All of the &lt;Alt> command keys are easy to memorize by the meaningful
+   'K'eyword associated 'K'ey:
+
+  +|---------------------------------------------|---------------------|+
+   | *Command meaning &amp; 'K'eyword*               | *Key*               |
+  +|---------------------------------------------|---------------------|+
+   | e'X'it Emacs Brief Emulator:                | &lt;Alt>-X             |
+   |---------------------------------------------+---------------------|
+   | 'E'dit a file:                              | &lt;Alt>-E             |
+   |---------------------------------------------+---------------------|
+   | 'B'uffer list:                              | &lt;Alt>-B             |
+   |   press &lt;q> to quit buffer list             |                     |
+   |---------------------------------------------+---------------------|
+   | Go to 'home' (beginning) of line:           | &lt;Home>              |
+   | Go to 'home' (beginning) of window:         | &lt;Home> (2nd &lt;Home>) |
+   | Go to 'home' (beginning) of file:           | &lt;Home> (3rd &lt;Home>) |
+   |---------------------------------------------+---------------------|
+   | Go to 'end' of line:                        | &lt;End>               |
+   | Go to 'end' of window:                      | &lt;End> (2nd &lt;End>)   |
+   | Go to 'end' of file:                        | &lt;End> (3rd &lt;End>)   |
+   |---------------------------------------------+---------------------|
+   | 'H'elp:                                     | &lt;Alt>-H             |
+   |  press &lt;q> or &lt;Esc> to quit help system     |                     |
+   |  (For key-specific help, press "&lt;Alt>-h k", |                     |
+   |  then followed by the key command sequence. |                     |
+   |  For example: "&lt;Alt>-h k" "&lt;Home>")         |                     |
+   |---------------------------------------------+---------------------|
+   | 'G'oto line:                                | &lt;Alt>-G             |
+   |---------------------------------------------+---------------------|
+   | 'L'ine oriented text selecting:             | &lt;Alt>-L             |
+   |   followed by cursor commands               |                     |
+   |---------------------------------------------+---------------------|
+   | 'C'olumn oriented text selecting:           | &lt;Alt>-C             |
+   |   followed by cursor commands               |                     |
+   |---------------------------------------------+---------------------|
+   | Start line 'M'arking:                       | &lt;Alt>-M             |
+   |---------------------------------------------+---------------------|
+   | Copy ('+') text selection into clipboard:   | &lt;Keypad +>          |
+   |   if no text selected, copy current line    | &lt;Ctrl>-&lt;Insert>     |
+   |---------------------------------------------+---------------------|
+   | Cut ('-') text selection into clipboard:    | &lt;Keypad ->          |
+   |   if no text selected, cut current line     | &lt;Shift>-&lt;Delete>    |
+   |---------------------------------------------+---------------------|
+   | Paste clipboard texts into current line:    | &lt;Insert>            |
+   |   if text selected, replace selected        |                     |
+   |---------------------------------------------+---------------------|
+   | 'D'elete a line(s):                         | &lt;Alt>-D             |
+   |   if text selected, delete selected         |                     |
+   |---------------------------------------------+---------------------|
+   | 'K'ill till end of line:                    | &lt;Alt>-K             |
+   |---------------------------------------------+---------------------|
+   | 'R'ead a file and insert into current line: | &lt;Alt>-R             |
+   |---------------------------------------------+---------------------|
+   | 'W'rite (save) editing file:                | &lt;Alt>-W             |
+   |   if text selected, save selected region to |                     |
+   |   a file (will prompt for a file name)      |                     |
+   |---------------------------------------------+---------------------|
+   | 'O'utput as another file name:              | &lt;Alt>-O             |
+   | (save as, will prompt for a file name)      |                     |
+   |---------------------------------------------+---------------------|
+   | 'P'rint buffer/selected region:             | &lt;Alt>-P             |
+   |---------------------------------------------+---------------------|
+   | Toggle 'I'nserting/overwriting mode:        | &lt;Alt>-I             |
+   |---------------------------------------------+---------------------|
+   | 'U'ndo:                                     | &lt;Alt>-U             |
+   |                                             | &lt;Keypad *>          |
+   |---------------------------------------------+---------------------|
+   | Buffer 'F'ilename:                          | &lt;Alt>-F             |
+   |---------------------------------------------+---------------------|
+   | Jump to bookmark '0' ... '9':               | &lt;Alt>-0 .. &lt;Alt>-9  |
+   |---------------------------------------------+---------------------|
+   | Set a bookmark 'J'ump:                      | &lt;Alt>-J             |
+   |---------------------------------------------+---------------------|
+   | Switch to previous ('-') buffer:            | &lt;Alt>-&lt;->           |
+   |                                             | &lt;Alt>-&lt;_>           |
+   |---------------------------------------------+---------------------|
+   | Switch to next ('+') buffer:                | &lt;Alt>-&lt;+>           |
+   |                                             | &lt;Alt>-&lt;=>           |
+   |---------------------------------------------+---------------------|
+
+** Frequently used commands adjusted for Emacs:
+
+   |----------------------------------------------+-------------------|
+   | Cancel a command                             | &lt;Ctrl>-G          |
+   |                                              | &lt;Esc> &lt;Esc> &lt;Esc> |
+   |----------------------------------------------+-------------------|
+   | Execute Emacs extended command (the original | &lt;F10>             |
+   | Emacs M-x)                                   |                   |
+   |----------------------------------------------+-------------------|
+
+** Search (&lt;F5>) and Replace (&lt;F6>) commands:
+
+   By default the un-prefixed commands search/replace forwards. Prefixed key
+   change their meaning:
+   &lt;alt> (ALTer direction) means "backward",
+   &lt;shift> means "repeat" and
+   &lt;'C'ontrol> means "'C'urrent" or sometimes "forwards".
+
+*** Search:
+
+   |--------------------------------------------------+------------------------|
+   | Search regular expression forwards               | &lt;F5>                   |
+   | Search regular expression backwards              | &lt;Alt>-&lt;F5>             |
+   |--------------------------------------------------+------------------------|
+   | Repeat previous search in the last direction     | &lt;Shift>-&lt;F5>           |
+   | Repeat previous search forwards                  | &lt;Shift>-&lt;Control>-&lt;F5> |
+   | Repeat previous search backwards                 | &lt;Shift>-&lt;Alt>-&lt;F5>     |
+   |--------------------------------------------------+------------------------|
+   | Search current word (at cursor) forwards         | &lt;Control>-&lt;F5>         |
+   | Search current word (at cursor) backwards        | &lt;Control>-&lt;Alt>-&lt;F5>   |
+   |--------------------------------------------------+------------------------|
+   | Interactive search forwards                      | &lt;Control>-S            |
+   | Interactive search backwards                     | &lt;Alt>-S                |
+   |--------------------------------------------------+------------------------|
+
+*** Replace:
+
+   |---------------------------------------------------+------------------------|
+   | Replace regular expression forwards               | &lt;F6>                   |
+   | Replace regular expression backwards              | &lt;Alt>-&lt;F6>             |
+   |---------------------------------------------------+------------------------|
+   | Repeat previous replacement in the last direction | &lt;Shift>-&lt;F6>           |
+   | Repeat previous replacement forwards              | &lt;Shift>-&lt;Control>-&lt;F6> |
+   | Repeat previous replacement backwards             | &lt;Shift>-&lt;Alt>-&lt;F6>     |
+   |---------------------------------------------------+------------------------|
+   | Replace current word (at cursor) forwards         | &lt;Control>-&lt;F6>         |
+   | Replace current word (at cursor) backwards        | &lt;Control>-&lt;Alt>-&lt;F6>   |
+   |---------------------------------------------------+------------------------|
+
+*** Toggle search &amp; replace behavior (for current buffer):
+
+   |------------------------------------------------------+--------------------|
+   | Toggle case sensitivity (default case sensitive)     | &lt;Control>-&lt;X> &lt;F5> |
+   |------------------------------------------------------+--------------------|
+   | Toggle regular expression (default) or simple string | &lt;Control>-&lt;X> &lt;F6> |
+   |------------------------------------------------------+--------------------|
+
+** Window control commands:
+
+   All commands are relative to the current cursor location:
+
+   |----------------------------------------------------+--------------|
+   | Switch to the window the arrow points to           | &lt;F1> &lt;arrow> |
+   |----------------------------------------------------+--------------|
+   | Adjust current window size at the border the arrow | &lt;F2> &lt;arrow> |
+   | points to                                          |              |
+   |----------------------------------------------------+--------------|
+   | Split a new window in the direction that the arrow | &lt;F3> &lt;arrow> |
+   | points to                                          |              |
+   |----------------------------------------------------+--------------|
+   | Delete the window that the arrow points to         | &lt;F4> &lt;arrow> |
+   |----------------------------------------------------+--------------|
+   | Delete current window                              | &lt;Ctrl>-&lt;F4>  |
+   |----------------------------------------------------+--------------|
+
+** Keystroke macro commands:
+
+   |--------------------------------------------------------+--------------|
+   | Start/End remembering keystroke commands into a macro  | &lt;F7>         |
+   |--------------------------------------------------------+--------------|
+   | Pause recording keystroke macro                        | &lt;Shift>-&lt;F7> |
+   |--------------------------------------------------------+--------------|
+   | Playback just recorded macro                           | &lt;F8>         |
+   |--------------------------------------------------------+--------------|
+   | Load keystroke macro from a file, will prompt for a    | &lt;Alt>-&lt;F7>   |
+   | file name                                              |              |
+   |--------------------------------------------------------+--------------|
+   | Save keystroke macro to a file, will prompt for a file | &lt;Alt>-&lt;F8>   |
+   | name                                                   |              |
+   |--------------------------------------------------------+--------------|
+
+** Compilation commands:
+
+   |-------------------------------------------------------+-------------|
+   | Compile buffer, will prompt for a compilation command | &lt;Alt>-&lt;F10> |
+   |-------------------------------------------------------+-------------|
+   | Jump to the first compilation error message in the    | &lt;Ctrl>-P    |
+   | compilation buffer                                    |             |
+   |-------------------------------------------------------+-------------|
+   | Jump to the next compilation error message            | &lt;Ctrl>-N    |
+   |-------------------------------------------------------+-------------|
+
+* Emacs specific or miscellaneous extended commands:
+
+   |---------------------------------------------------+------------------------|
+   | Move backwards an expression, or matching         | &lt;Alt>-&lt;Left>           |
+   |   parenthesis backwards                           |                        |
+   | Move forwards an expression, or matching          | &lt;Alt>-&lt;Right>          |
+   |   parenthesis forwards                            |                        |
+   |---------------------------------------------------+------------------------|
+   | Move backwards a word                             | &lt;Ctrl>-&lt;Left>          |
+   | Move forwards a word                              | &lt;Ctrl>-&lt;Right>         |
+   |---------------------------------------------------+------------------------|
+   | Indent current line, or region if text selected   | &lt;Tab>                  |
+   |---------------------------------------------------+------------------------|
+   | Indent whole buffer                               | &lt;Ctrl>-&lt;Alt>-&lt;Tab>     |
+   |---------------------------------------------------+------------------------|
+   | Emacs C-x prefix                                  | &lt;Ctrl>-X               |
+   |---------------------------------------------------+------------------------|
+   | Emacs C-u universal prefix argument               | &lt;Ctrl>-U               |
+   |---------------------------------------------------+------------------------|
+   | Open menu bar                                     | &lt;Shift>-&lt;F10>          |
+   |---------------------------------------------------+------------------------|
+   | Open shell                                        | &lt;Alt>-Z                |
+   |---------------------------------------------------+------------------------|
+   | Find a file                                       | &lt;F9>                   |
+   |---------------------------------------------------+------------------------|
+   | Toggle current buffer read only                   | &lt;Alt>-&lt;F11>            |
+   |---------------------------------------------------+------------------------|
+   | Delete following word                             | &lt;Alt>-&lt;Backspace>      |
+   |---------------------------------------------------+------------------------|
+   | Delete previous word                              | &lt;Ctrl>-&lt;Backspace>     |
+   |                                                   | &lt;Shift>-&lt;Backspace>    |
+   |---------------------------------------------------+------------------------|
+   | Redo during undo: one arrow key, then do undos    | &lt;arrow> &lt;Alt>-Us       |
+   |---------------------------------------------------+------------------------|
+   | Show Brief mode version                           | &lt;Alt>-V                |
+   |---------------------------------------------------+------------------------|
+   | Scroll up one line                                | &lt;Ctrl>-E               |
+   | Scroll down one line                              | &lt;Ctrl>-D               |
+   |---------------------------------------------------+------------------------|
+   | Go to beginning of file                           | &lt;Ctrl>-&lt;PageUp>        |
+   | Go to end of file                                 | &lt;Ctrl>-&lt;PageDown>      |
+   |---------------------------------------------------+------------------------|
+   | Go to beginning of window                         | &lt;Alt>-&lt;Home>           |
+   | Go to end of window                               | &lt;Alt>-&lt;End>            |
+   |---------------------------------------------------+------------------------|
+   | Go to first line of window                        | &lt;Ctrl>-&lt;Home>          |
+   | Go to last line of window                         | &lt;Ctrl>-&lt;End>           |
+   |---------------------------------------------------+------------------------|
+   | Open a new next line and goto it, but does not    | &lt;Ctrl>-&lt;Enter>         |
+   | split current line                                |                        |
+   |---------------------------------------------------+------------------------|
+   | Recenter horizontally, this is usually used for a | &lt;Ctrl>-&lt;Shift>-L       |
+   | long line in truncation mode to scroll texts      |                        |
+   | leftwards or rightwards to left/middle/right of   |                        |
+   | current window.  It's an implementation against   |                        |
+   | Emacs default &lt;Ctrl>-L which recenter vertically  |                        |
+   | to top/middle/bottom of current window            |                        |
+   |---------------------------------------------------+------------------------|
+   | Save buffer and exit Emacs immediately            | &lt;Ctrl>-&lt;Alt>-&lt;Shift>-X |
+   |---------------------------------------------------+------------------------|
+
+
+* There are some less favored default Emacs settings which makes the editing
+  experience in Emacs quite unlike other editors, especially for programmers.
+  For example, text wrapping is by default enabled so a program line could easily
+  wrapped to next line if window size changed; text scrolling is jumppy in both
+  horizontal and vertical directions and on &lt;page up>/&lt;page down> the cursor does
+  not stay at the same position.  All these behaviors can be easily adjusted by
+  changing default settings.
+
+  With the quick launcher 'b' all these are fixed.  The &lt;page up>/&lt;page down>
+  are rewritten in Brief while function `brief-easy-start' changed other settings
+  then do `(brief-mode 1)' to enable Brief mode.
+
+  If you launch Emacs without using quick launcher 'b' or `brief-easy-start'
+  function, you may want to include those changes into your ~/.emacs init script:
+
+  ;;--------------------------------------------------------------------------;
+  (setq-default truncate-lines t)  ;; disable line wrapping                   ;
+  ;;(setq-default global-visual-line-mode t)                                  ;
+  (setq scroll-step 1              ;; set vertical scroll not jumppy          ;
+        scroll-conservatively 101)                                            ;
+  (setq hscroll-margin 1           ;; set horizontal scroll not jumppy        ;
+        hscroll-step 1)                                                       ;
+  (scroll-bar-mode -1)             ;; small border without scroll bar         ;
+  ;;--------------------------------------------------------------------------;
+
+  Or you can refer to the source code "brief.el" for function `brief-easy-start'.
+
+* For more details like Cygwin 2.x users note, please check the comments in the
+  source code "brief.el".
+
+Luke Lee
+
+</pre>
+<h2>Old versions</h2><table>
+<tr><td><a href="brief-5.86.tar">brief-5.86.tar</a></td><td>2018-Oct-20</td><td> 360&nbsp;KiB</td>
+<tr><td><a href="brief-5.86.el">brief-5.86.el</a></td><td>2018-Oct-19</td><td> 328&nbsp;KiB</td>
+<tr><td><a href="brief-5.85.el">brief-5.85.el</a></td><td>2018-Sep-07</td><td> 318&nbsp;KiB</td>
+<tr><td><a href="brief-5.84.el">brief-5.84.el</a></td><td>2018-Aug-23</td><td> 310&nbsp;KiB</td>
+<tr><td><a href="brief-5.83.el">brief-5.83.el</a></td><td>2018-Aug-21</td><td> 309&nbsp;KiB</td>
+<tr><td><a href="brief-5.82.el">brief-5.82.el</a></td><td>2018-Aug-17</td><td> 308&nbsp;KiB</td>
+<tr><td><a href="brief-5.81.el">brief-5.81.el</a></td><td>2018-Aug-16</td><td> 306&nbsp;KiB</td>
+<tr><td><a href="brief-5.80.el">brief-5.80.el</a></td><td>2018-Aug-13</td><td> 305&nbsp;KiB</td>
+</table>
+</body>

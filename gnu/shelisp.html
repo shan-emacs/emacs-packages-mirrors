@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - shelisp</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - shelisp</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">shelisp</h2><dl><dt>Description</dt><dd>execute elisp in shell</dd>
+<dt>Latest</dt> <dd><a href="shelisp-0.9.1.el">shelisp-0.9.1.el</a>, 2019-Apr-10, 8.93&nbsp;KiB</dd>
+<dt>Home page</dt> <dd><a href="http://elpa.gnu.org/packages/shelisp.html">http://elpa.gnu.org/packages/shelisp.html</a></dd>
+<dt>Browse repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/shelisp">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/shelisp">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">shelisp</span> RET</pre><h2>Full description</h2><pre>
+Comint process (likely shell-mode) can write out Emacs Lisp
+expressions and have them executed.
+
+When the shell process writes out a string of the form:
+  \e_#EMACS# elisp-expr \a
+
+Where, "elisp-expr" is a valid elisp expression.  The elisp
+expression is executed as if you had invoked the function
+within Emacs itself.  The elisp expression may include a call to
+the function `f' which will expand the filename parameter into an
+appropriate filename for Emacs using the appropriate Tramp prefix
+if necessary.
+
+This script also defines an Alist variable that creates shell
+commands and the `printf'-style format to generate the full elisp
+expression with command parameters substituted into the command.  A
+function is placed in the `shell-mode-hook' to actually create the
+shell functions and aliases to format the elisp expressions and
+embed them in an escape sequence so that they are detected and
+executed.
+
+In most usage this mode merely allows you to type "e filename"
+rather than "C-x C-f filename" which isn't much of a savings.
+However, with this mode enabled, you can write shell scripts to
+invoke Emacs Lisp functions.  But beware, the shell script will not
+wait for completion of the elisp expression, nor return anything
+back (see ToDo's below).
+
+INSTALLATION
+
+After installing this package from ELPA, you must add the following
+to your Emacs initialization script:
+
+  (add-hook 'shell-mode-hook #'shelisp-mode)
+
+TO DOs:
+
+* Provide a security feature that prompts the Emacs user to approve
+* the execution of any elisp expressions submitted thru the shelisp
+* escape sequence.
+
+* Support `term-mode' like `shell-mode'
+
+* Provide support for creation of shell commands for command shells
+  other than bash -- csh, tcsh, zsh, ksh, ash, dash, fish, mosh, sh.
+
+  Support for non-Linux shells is left as an exercise for a
+  masochistic hacker.
+
+* Implement a wait for completion facility similar to `emacsclient'
+  or the work done in `with-editor' with the "sleeping editor."
+  That is, pause the shell activity with a long sleep, until C-c
+  C-c or C-c C-k is typed in Emacs and the caller is awoken with a
+  signal.
+
+KNOWN BUGS
+
+The simplistic implementation of the shell functions will not
+properly handle filenames containing double quote characters (\")
+nor backslashes (\\).  While this is an error, it does not
+represent a significant limitation in the implementation.  The
+caller can properly add backslashes to the filename string before
+passing it to printf to generate the elisp expression.  In the end,
+the purpose is to create a valid elisp expression string.
+</pre>
+</body>

@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - nadvice</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - nadvice</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">nadvice</h2><dl><dt>Description</dt><dd>Forward compatibility for Emacs-24.4's nadvice</dd>
+<dt>Latest</dt> <dd><a href="nadvice-0.3.el">nadvice-0.3.el</a>, 2018-Sep-16, 4.16&nbsp;KiB</dd>
+<dt>Home page</dt> <dd><a href="http://elpa.gnu.org/packages/nadvice.html">http://elpa.gnu.org/packages/nadvice.html</a></dd>
+<dt>Browse repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/nadvice">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/nadvice">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">nadvice</span> RET</pre><h2>Full description</h2><pre>
+This package tries to re-implement some of nadvice.el's functionality
+on top of the old defadvice system, to help users of defadvice
+move to the new advice system without dropping support for Emacs&lt;24.4.
+
+Limitations;
+- only supports `advice-add', `advice-remove', and `advice-member-p'.
+- only handles the :before, :after, :override, and :around kinds of advice;
+- requires a named rather than anonymous function;
+- and does not support any additional properties like `name' or `depth'.
+
+It was tested on Emacs-22 and I can't see any obvious reason why it
+wouldn't work on older Emacsen.
+</pre>
+<h2>Old versions</h2><table>
+<tr><td><a href="nadvice-0.2.el">nadvice-0.2.el</a></td><td>2018-Sep-13</td><td>3.74&nbsp;KiB</td>
+<tr><td><a href="nadvice-0.1.el">nadvice-0.1.el</a></td><td>2018-Sep-12</td><td>3.35&nbsp;KiB</td>
+</table>
+</body>

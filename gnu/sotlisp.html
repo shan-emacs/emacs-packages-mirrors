@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - sotlisp</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - sotlisp</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">sotlisp</h2><dl><dt>Description</dt><dd>Write lisp at the speed of thought.</dd>
+<dt>Latest</dt> <dd><a href="sotlisp-1.6.2.el">sotlisp-1.6.2.el</a>, 2016-Oct-12, 27.1&nbsp;KiB</dd>
+<dt>Home page</dt> <dd><a href="https://github.com/Malabarba/speed-of-thought-lisp">https://github.com/Malabarba/speed-of-thought-lisp</a></dd>
+<dt>Browse ELPA's repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/sotlisp">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/sotlisp">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">sotlisp</span> RET</pre><h2>Full description</h2><pre>
+This defines a new global minor-mode `speed-of-thought-mode', which
+activates locally on any supported buffer.  Currently, only
+`emacs-lisp-mode' buffers are supported.
+
+The mode is quite simple, and is composed of two parts:
+
+Abbrevs
+
+A large number of abbrevs which expand function
+initials to their name.  A few examples:
+
+- wcb -> with-current-buffer
+- i -> insert
+- r -> require '
+- a -> and
+
+However, these are defined in a way such that they ONLY expand in a
+place where you would use a function, so hitting SPC after "(r"
+expands to "(require '", but hitting SPC after "(delete-region r"
+will NOT expand the `r', because that's obviously not a function.
+Furtheromre, "#'r" will expand to "#'require" (note how it ommits
+that extra quote, since it would be useless here).
+
+Commands
+
+It also defines 4 commands, which really fit into this "follow the
+thought-flow" way of writing.  The bindings are as follows, I
+understand these don't fully adhere to conventions, and I'd
+appreciate suggestions on better bindings.
+
+- M-RET :: Break line, and insert "()" with point in the middle.
+- C-RET :: Do `forward-up-list', then do M-RET.
+
+Hitting RET followed by a `(' was one of the most common key sequences
+for me while writing elisp, so giving it a quick-to-hit key was a
+significant improvement.
+
+- C-c f :: Find function under point.  If it is not defined, create a
+definition for it below the current function and leave point inside.
+- C-c v :: Same, but for variable.
+
+With these commands, you just write your code as you think of it.  Once
+you hit a "stop-point" of sorts in your tought flow, you hit `C-c f/v`
+on any undefined functions/variables, write their definitions, and hit
+`C-u C-SPC` to go back to the main function.
+
+Small Example
+
+With the above (assuming you use something like paredit or
+electric-pair-mode), if you write:
+
+  ( w t b M-RET i SPC text
+
+You get
+
+  (with-temp-buffer (insert text))
+</pre>
+<h2>Old versions</h2><table>
+<tr><td><a href="sotlisp-1.5.2.el">sotlisp-1.5.2.el</a></td><td>2016-Apr-02</td><td>26.3&nbsp;KiB</td>
+<tr><td><a href="sotlisp-1.5.1.el">sotlisp-1.5.1.el</a></td><td>2016-Feb-24</td><td>26.1&nbsp;KiB</td>
+<tr><td><a href="sotlisp-1.4.1.el">sotlisp-1.4.1.el</a></td><td>2015-Oct-15</td><td>25.5&nbsp;KiB</td>
+<tr><td><a href="sotlisp-1.4.el">sotlisp-1.4.el</a></td><td>2015-Sep-26</td><td>25.2&nbsp;KiB</td>
+<tr><td><a href="sotlisp-1.3.el">sotlisp-1.3.el</a></td><td>2015-Aug-22</td><td>24.8&nbsp;KiB</td>
+<tr><td><a href="sotlisp-1.2.el">sotlisp-1.2.el</a></td><td>2015-Aug-07</td><td>21.5&nbsp;KiB</td>
+<tr><td><a href="sotlisp-1.1.el">sotlisp-1.1.el</a></td><td>2015-Jun-13</td><td>20.0&nbsp;KiB</td>
+<tr><td><a href="sotlisp-1.0.el">sotlisp-1.0.el</a></td><td>2015-Jun-12</td><td>19.6&nbsp;KiB</td>
+</table>
+</body>

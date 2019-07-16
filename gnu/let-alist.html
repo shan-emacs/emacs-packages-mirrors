@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - let-alist</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - let-alist</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">let-alist</h2><dl><dt>Description</dt><dd>Easily let-bind values of an assoc-list by their names</dd>
+<dt>Latest</dt> <dd><a href="let-alist-1.0.5.el">let-alist-1.0.5.el</a>, 2017-Feb-01, 5.99&nbsp;KiB</dd>
+<dt>Home page</dt> <dd><a href="http://elpa.gnu.org/packages/let-alist.html">http://elpa.gnu.org/packages/let-alist.html</a></dd>
+<dt>Browse repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs.git/tree/lisp/emacs-lisp/let-alist.el">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs.git;a=blob;f=lisp/emacs-lisp/let-alist.el">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">let-alist</span> RET</pre><h2>Full description</h2><pre>
+This package offers a single macro, `let-alist'.  This macro takes a
+first argument (whose value must be an alist) and a body.
+
+The macro expands to a let form containing body, where each dotted
+symbol inside body is let-bound to their cdrs in the alist.  Dotted
+symbol is any symbol starting with a `.'.  Only those present in
+the body are let-bound and this search is done at compile time.
+
+For instance, the following code
+
+  (let-alist alist
+    (if (and .title .body)
+        .body
+      .site
+      .site.contents))
+
+essentially expands to
+
+  (let ((.title (cdr (assq 'title alist)))
+        (.body  (cdr (assq 'body alist)))
+        (.site  (cdr (assq 'site alist)))
+        (.site.contents (cdr (assq 'contents (cdr (assq 'site alist))))))
+    (if (and .title .body)
+        .body
+      .site
+      .site.contents))
+
+If you nest `let-alist' invocations, the inner one can't access
+the variables of the outer one. You can, however, access alists
+inside the original alist by using dots inside the symbol, as
+displayed in the example above by the `.site.contents'.
+</pre>
+<h2>Old versions</h2><table>
+<tr><td><a href="let-alist-1.0.4.el">let-alist-1.0.4.el</a></td><td>2015-Jun-12</td><td>5.52&nbsp;KiB</td>
+<tr><td><a href="let-alist-1.0.3.el">let-alist-1.0.3.el</a></td><td>2014-Dec-23</td><td>5.26&nbsp;KiB</td>
+<tr><td><a href="let-alist-1.0.2.el">let-alist-1.0.2.el</a></td><td>2014-Dec-21</td><td>5.13&nbsp;KiB</td>
+<tr><td><a href="let-alist-1.0.1.el">let-alist-1.0.1.el</a></td><td>2014-Dec-15</td><td>3.55&nbsp;KiB</td>
+<tr><td><a href="let-alist-1.0.el">let-alist-1.0.el</a></td><td>2014-Dec-11</td><td>3.40&nbsp;KiB</td>
+</table>
+</body>
