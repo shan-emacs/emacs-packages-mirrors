@@ -1,2 +1,0 @@
-
-(leaf-keywords . [(20190710 1619) ((emacs (24 4)) (leaf (3 1 0))) "Additional leaf.el keywords for external packages" single ((:commit . "13aea81ba5dff01aeabd81663922d45d3222ba6f") (:keywords "lisp" "settings") (:authors ("Naoya Yamashita" . "conao3@gmail.com")) (:maintainer "Naoya Yamashita" . "conao3@gmail.com") (:url . "https://github.com/conao3/leaf-keywords.el"))])

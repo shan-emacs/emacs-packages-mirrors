@@ -1899,8 +1899,7 @@
        ((:url . "http://elpa.gnu.org/packages/svg.html")
 	(:keywords "image")
 	(:authors
-	 ("Lars Magne Ingebrigtsen" . "larsi@gnus.org")
-	 ("Felix E. Klee" . "felix.klee@inka.de"))
+	 ("Lars Magne Ingebrigtsen" . "larsi@gnus.org"))
 	(:maintainer "Lars Magne Ingebrigtsen" . "larsi@gnus.org"))])
  (svg-clock .
 	    [(1 0)

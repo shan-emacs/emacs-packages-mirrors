@@ -380,6 +380,12 @@ pyim 的 tooltip 选词框默认使用 *双行显示* 的样式，在一些特
 
 ** Tips
 
+*** 关闭输入联想词功能 (默认开启)
+
+#+BEGIN_EXAMPLE
+(setq pyim-enable-shortcode nil)
+#+END_EXAMPLE
+
 *** 如何将个人词条相关信息导入和导出？
 
 1. 导入使用命令： pyim-import
