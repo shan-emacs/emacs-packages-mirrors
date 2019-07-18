@@ -1,0 +1,2 @@
+
+(company-tabnine . [(20190718 328) ((emacs (25)) (company (0 9 3)) (cl-lib (0 5)) (dash (2 16 0)) (s (1 12 0)) (unicode-escape (1 1))) "A company-mode backend for TabNine" single ((:commit . "6b4c74445c17692c66284300e125437b1530a94f") (:keywords "convenience") (:authors ("Tommy Xiang" . "tommyx058@gmail.com")) (:maintainer "Tommy Xiang" . "tommyx058@gmail.com") (:url . "https://github.com/TommyX12/company-tabnine/"))])

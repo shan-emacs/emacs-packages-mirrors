@@ -1,0 +1,2 @@
+
+(emacsshot . [(20190715 1808) ((emacs (24 4))) "Snapshot a frame or window from within" tar ((:commit . "1b5c080135b963c9a7f2d34230b3134a9fb3d345") (:keywords "convenience") (:authors ("Marco Wahl" . "marcowahlsoft@gmail.com")) (:maintainer "Marco Wahl") (:url . "https://github.com/marcowahl/emacsshot"))])
