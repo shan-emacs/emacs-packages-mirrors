@@ -1,0 +1,2 @@
+
+(ox-haunt . [(20190720 2352) ((emacs (24 3)) (org (9 0))) "Haunt-flavored HTML backend for the Org export engine" single ((:commit . "9d25ec4fc66fccbae23489abd4b9e8933c5b7dbd") (:keywords "convenience" "hypermedia" "wp") (:authors ("Jakob L. Kreuze" . "zerodaysfordays@sdf.lonestar.org")) (:maintainer "Jakob L. Kreuze" . "zerodaysfordays@sdf.lonestar.org") (:url . "https://git.sr.ht/~jakob/ox-haunt"))])

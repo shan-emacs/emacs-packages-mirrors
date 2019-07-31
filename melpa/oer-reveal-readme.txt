@@ -57,3 +57,9 @@ probably be the directory into which you publish your HTML code.
 I set this to "./" before exporting with `C-c C-e v b'.
 The names of generated CSS files for image grids are determined by
 `oer-reveal-css-filename-template'.
+
+Please also see "oer-reveal-publish.el" for further customizable
+variables.
+In particular, `oer-reveal-publish-babel-languages' can be used to
+activate Babel languages during HTML (and PDF) export, e.g., to
+generate figures from embedded sources (e.g., dot/graphviz or ditaa).

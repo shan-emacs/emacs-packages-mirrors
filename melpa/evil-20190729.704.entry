@@ -1,0 +1,2 @@
+
+(evil . [(20190729 704) ((emacs (24 1)) (undo-tree (0 6 3)) (goto-chg (1 6)) (cl-lib (0 5))) "Extensible Vi layer for Emacs." tar ((:commit . "874beba2cb243c325eca08fb7badff567f3c9494"))])

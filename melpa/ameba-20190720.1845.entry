@@ -1,0 +1,2 @@
+
+(ameba . [(20190720 1845) ((emacs (24 4))) "An interface to Crystal Ameba linter." single ((:commit . "8383f07d760a31a0737be9b7bdaff2f1cff67bfd") (:keywords "convenience") (:authors ("Vitalii Elenhaupt")) (:maintainer "Vitalii Elenhaupt") (:url . "https://github.com/crystal-ameba/ameba.el"))])

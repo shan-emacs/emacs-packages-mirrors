@@ -7,8 +7,11 @@ functionality work.
 
 * Install
 0. Install reveal.js: https://revealjs.com/
-1. Activate org-re-reveal-ref.
-   (a) Place this directory into your load path or install it from MELPA
+1. Install org-re-reveal and org-re-reveal-ref, either from MELPA
+   or GitLab:
+   - https://gitlab.com/oer/org-re-reveal/
+   - https://gitlab.com/oer/org-re-reveal-ref/
+   (a) Place their directories into your load path or install from MELPA
        (https://melpa.org/#/getting-started).
    (b) Load package manually ("M-x load-library" followed by
        "org-re-reveal-ref") or place "(require 'org-re-reveal-ref)" into
@@ -18,7 +21,7 @@ functionality work.
        (e.g., as sub-directory or symbolic link).
    (b) Load "README.org" (coming with org-re-reveal-ref).
    (c) Export to HTML: Key bindings depend upon version of org-re-reveal.
-       Starting with version 1.0.0, press "C-c C-e v r" (write HTML file)
+       Starting with version 1.0.0, press "C-c C-e v v" (write HTML file)
        or "C-c C-e v b" (write HTML file and open in browser)
 
 * Customizable options

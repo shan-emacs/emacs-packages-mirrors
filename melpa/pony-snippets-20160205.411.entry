@@ -1,2 +1,2 @@
 
-(pony-snippets . [(20160205 411) ((yasnippet (0 8 0))) "Yasnippets for Pony" tar ((:commit . "a6615ab0693f17fc47ec45753202010238157810") (:keywords "snippets" "pony") (:url . "https://github.com/seantallen/pony-snippets"))])
+(pony-snippets . [(20160205 411) ((yasnippet (0 8 0))) "Yasnippets for Pony" tar ((:commit . "b921bd943b528f04d4293625b28fd2d4a013a1bf") (:keywords "snippets" "pony") (:url . "https://github.com/seantallen/pony-snippets"))])

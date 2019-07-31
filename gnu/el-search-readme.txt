@@ -206,9 +206,9 @@ found in the current file or buffer, the search automatically
 switches to the next one.  Examples for search commands that start
 a multi search are `el-search-buffers' (search all live elisp mode
 buffers), `el-search-directory' (search all elisp files in a
-specified directory), `el-search-emacs-elisp-sources' and
-`el-search-dired-marked-files'.  Actually, every search is
-internally a multi search.
+specified directory), `el-search-emacs-elisp-sources',
+`el-search-dired-marked-files' and `el-search-repository'.
+Actually, every search is internally a multi search.
 
 You can pause any search by just doing something different (no
 explicit quitting needed); the state of the search is automatically

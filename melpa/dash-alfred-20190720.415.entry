@@ -1,0 +1,2 @@
+
+(dash-alfred . [(20190720 415) ((emacs (25 1))) "Search Dash documentation via Dash-Alfred-Workflow" single ((:commit . "ec8d9970fa00ee38bca798673c10cae44419541d") (:keywords "docs") (:authors ("Xu Chunyang")) (:maintainer "Xu Chunyang") (:url . "https://github.com/xuchunyang/dash-alfred.el"))])

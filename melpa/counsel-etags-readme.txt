@@ -65,4 +65,11 @@ Tips:
            (pinyinlib-build-regexp-string keyword t)
          keyword)))
 
+ - `counsel-etags-find-tag-name-function' finds tag name at point.  If it returns nil,
+   `find-tag-default' is used. `counsel-etags-word-at-point' gets word at point.
+
+ - User could append the extra content into tags file in `counsel-etags-after-update-tags-hook'.
+   The parameter of hook is full path of the tags file. `counsel-etags-tags-line' is a tool function
+   to help user
+
 See https://github.com/redguardtoo/counsel-etags/ for more tips.

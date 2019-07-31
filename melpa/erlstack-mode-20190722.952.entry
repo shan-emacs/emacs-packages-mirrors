@@ -1,0 +1,2 @@
+
+(erlstack-mode . [(20190722 952) ((emacs (25 1)) (dash (2 12 0))) "Minor mode for analysing Erlang stacktraces" single ((:commit . "b8a2027808177fb0aa74e6767a867c0e20c57d84") (:keywords "tools" "erlang") (:authors ("k32")) (:maintainer "k32") (:url . "https://github.com/k32/erlstack-mode"))])

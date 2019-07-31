@@ -48,19 +48,42 @@ Alphabet" (IPA) by setting its value to `'uk` (In fact, any value other than
     (setq bing-dict-pronunciation-style 'uk)
 
 You can also build your own vocabulary by saving all your queries and their
-results into `bing-dict-org-file` (which points to
-`~/.emacs.d/bing-dict/vocabulary.org` by default):
+results into `bing-dict-vocabulary-save` (which points to
+                                                `~/.emacs.d/var/bing-dict/vocabulary.org` by default):
 
-    (setq bing-dict-save-search-result t)
+(setq bing-dict-vocabulary-save t)
 
-By setting `bing-dict-org-file`, you can change where all the queries and
+By setting `bing-dict-vocabulary-file`, you can change where all the queries and
 results are saved:
 
-    (setq bing-dict-org-file "/path/to/your_vocabulary.org")
+(setq bing-dict-vocabulary-file "/path/to/your_vocabulary.org")
 
 screenshot:
 
 ![bing-dict-screenshot2](./screenshot2.png)
+
+Use the following configuration if you want bing-dict.el to cache all your
+queries and results:
+
+(setq bing-dict-cache-auto-save t)
+
+You can customize the value of `bing-dict-cache-file` to change the location
+where bing-dict.el stores the cache. The default value is
+`~/.emacs.d/var/bing-dict/bing-dict-save.el`.
+
+
+## Command Line Usage
+
+Add the following script to your `PATH` to look up a word from the command line:
+
+```
+#!/path/to/emacs --script
+(add-to-list 'load-path "/path/to/bing-dict.el")
+(require 'bing-dict)
+(defun main ()
+  (bing-dict-brief (format "%s" command-line-args-left) t))
+(main)
+```
 
 ## For Features Requests
 This extension aims for a quick search for a word. Currently this extension only

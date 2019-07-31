@@ -1,0 +1,2 @@
+
+(org-shoplist . [(20190730 2320) ((emacs (25))) "Eat the world" single ((:commit . "267407c9157214fb20edb882da8f5c0064a74a8d") (:keywords "extensions" "matching") (:authors ("lordnik22")) (:maintainer "lordnik22") (:url . "https://github.com/lordnik22"))])

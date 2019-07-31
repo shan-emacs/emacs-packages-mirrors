@@ -1,0 +1,2 @@
+
+(egalgo . [(20190706 1611) ((dash (2 14)) (emacs (24))) "Genetic algorithm for Emacs" single ((:commit . "d98524799f95c6c6bd972e52790e7e6b9003725c") (:keywords "data") (:authors ("ROCKTAKEY" . "rocktakey@gmail.com")) (:maintainer "ROCKTAKEY" . "rocktakey@gmail.com") (:url . "https://github.com/ROCKTAKEY/egalgo"))])

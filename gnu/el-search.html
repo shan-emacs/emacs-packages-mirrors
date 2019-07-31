@@ -23,7 +23,7 @@
 
             <div class="container">
 <h2 class="package">el-search</h2><dl><dt>Description</dt><dd>Expression based interactive search for Emacs Lisp</dd>
-<dt>Latest</dt> <dd><a href="el-search-1.12.5.tar">el-search-1.12.5.tar</a>, 2019-Apr-27,  360&nbsp;KiB</dd>
+<dt>Latest</dt> <dd><a href="el-search-1.12.6.tar">el-search-1.12.6.tar</a>, 2019-Jul-29,  370&nbsp;KiB</dd>
 <dt>Maintainer</dt> <dd>Michael Heerdegen &lt;michael_heerdegen@web.de></dd>
 <dt>Home page</dt> <dd><a href="http://elpa.gnu.org/packages/el-search.html">http://elpa.gnu.org/packages/el-search.html</a></dd>
 <dt>Browse repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/el-search">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/el-search">Gitweb</a></dd>
@@ -237,9 +237,9 @@ found in the current file or buffer, the search automatically
 switches to the next one.  Examples for search commands that start
 a multi search are `el-search-buffers' (search all live elisp mode
 buffers), `el-search-directory' (search all elisp files in a
-specified directory), `el-search-emacs-elisp-sources' and
-`el-search-dired-marked-files'.  Actually, every search is
-internally a multi search.
+specified directory), `el-search-emacs-elisp-sources',
+`el-search-dired-marked-files' and `el-search-repository'.
+Actually, every search is internally a multi search.
 
 You can pause any search by just doing something different (no
 explicit quitting needed); the state of the search is automatically
@@ -445,6 +445,7 @@ NEWS:
 NEWS are listed in the separate NEWS file.
 </pre>
 <h2>Old versions</h2><table>
+<tr><td><a href="el-search-1.12.5.tar">el-search-1.12.5.tar</a></td><td>2019-Apr-27</td><td> 360&nbsp;KiB</td>
 <tr><td><a href="el-search-1.12.4.tar">el-search-1.12.4.tar</a></td><td>2019-Apr-24</td><td> 360&nbsp;KiB</td>
 <tr><td><a href="el-search-1.11.4.tar">el-search-1.11.4.tar</a></td><td>2019-Mar-09</td><td> 350&nbsp;KiB</td>
 <tr><td><a href="el-search-1.11.3.tar">el-search-1.11.3.tar</a></td><td>2019-Feb-24</td><td> 350&nbsp;KiB</td>
@@ -529,6 +530,11 @@ NEWS are listed in the separate NEWS file.
 <h2>News</h2><pre>
 Some of the user visible news were:
 
+
+Version: 1.12.6
+
+  New command 'el-search-repository' to search the worktree or a
+  specified revision of a repository.
 
 Version: 1.12.5
 

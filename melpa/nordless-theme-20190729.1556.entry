@@ -1,0 +1,2 @@
+
+(nordless-theme . [(20190729 1556) ((colorless-themes (0 1))) "A colorless theme inspired by nord" single ((:commit . "30926ee9e8de50ae3ccc83956e048f68ed69736b") (:keywords "theme") (:authors ("Thomas Letan" . "contact@thomasletan.fr")) (:maintainer "Thomas Letan" . "contact@thomasletan.fr") (:url . "https://github.com/nordless-theme.el"))])

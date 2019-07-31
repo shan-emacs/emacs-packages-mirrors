@@ -1,3 +1,5 @@
+This package is no longer maintained.
+
 This package provides very basic support for StGit.
 
   StGit (Stacked Git) is an application that aims to provide a

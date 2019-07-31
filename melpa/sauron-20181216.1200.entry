@@ -1,2 +1,2 @@
 
-(sauron . [(20181216 1200) nil "Track (erc/org/dbus/...) events and react to them." tar ((:commit . "6a26e9df1e6a49b0ea4ccfd843a032033162a287"))])
+(sauron . [(20181216 1200) nil "Track (erc/org/dbus/...) events and react to them." tar ((:commit . "e20eb21c93492a7c9e89579409ae5a07f77aa9fd"))])

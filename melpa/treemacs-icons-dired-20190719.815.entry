@@ -1,0 +1,2 @@
+
+(treemacs-icons-dired . [(20190719 815) ((treemacs (0 0)) (emacs (25 2)) (cl-lib (0 5))) "Treemacs icons for dired" single ((:commit . "14ac8ebe196125a257a304821122c6e39ef5179f") (:authors ("Alexander Miller" . "alexanderm@web.de")) (:maintainer "Alexander Miller" . "alexanderm@web.de") (:url . "https://github.com/Alexander-Miller/treemacs"))])
