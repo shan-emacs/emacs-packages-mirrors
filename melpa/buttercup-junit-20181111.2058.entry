@@ -1,2 +1,0 @@
-
-(buttercup-junit . [(20181111 2058) ((emacs (24 3)) (buttercup (1 15))) "JUnit reporting for Buttercup" single ((:commit . "f95f91ac61137ed78b65642160bfe107f0ad8973") (:keywords "tools" "test" "unittest" "buttercup" "ci") (:authors ("Ola Nilsson" . "ola.nilsson@gmail.com")) (:maintainer "Ola Nilsson" . "ola.nilsson@gmail.com") (:url . "https://bitbucket.org/olanilsson/buttercup-junit"))])

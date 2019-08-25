@@ -1,0 +1,2 @@
+
+(ovpn-mode . [(20190811 2200) ((emacs (25)) (cl-lib (0 5))) "an openvpn management mode" single ((:commit . "dce04d9f35fd203afd098ba413595db6c2cbc051") (:keywords "comm") (:authors ("Bas Alberts" . "bas@anti.computer")) (:maintainer "Bas Alberts" . "bas@anti.computer") (:url . "https://github.com/anticomputer/ovpn-mode"))])

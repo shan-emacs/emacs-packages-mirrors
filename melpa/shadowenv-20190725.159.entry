@@ -1,2 +1,0 @@
-
-(shadowenv . [(20190725 159) ((emacs (24 3))) "Shadowenv integration." single ((:commit . "79727dfe7c402ecc8ab5da3e2cf518f50156fd3b") (:keywords "shadowenv" "tools") (:authors ("Dante Catalfamo" . "dante.catalfamo@shopify.com")) (:maintainer "Dante Catalfamo" . "dante.catalfamo@shopify.com") (:url . "https://github.com/Shopify/shadowenv.el"))])

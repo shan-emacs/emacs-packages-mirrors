@@ -1,2 +1,0 @@
-
-(dpkg-dev-el . [(20181022 8) ((debian-el (37))) "Emacs modes for debian packaging" tar ((:commit . "a80f8ac5d81720cce90cf3bc5fbb45d50b1953d7"))])

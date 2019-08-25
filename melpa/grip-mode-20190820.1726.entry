@@ -1,0 +1,2 @@
+
+(grip-mode . [(20190820 1726) ((emacs (24 4))) "Instant GitHub-flavored Markdown/Org preview using grip." single ((:commit . "7777b694751c0da754712b964052617de1740e42") (:keywords "convenience" "markdown" "preview") (:authors ("Vincent Zhang" . "seagle0128@gmail.com")) (:maintainer "Vincent Zhang" . "seagle0128@gmail.com") (:url . "https://github.com/seagle0128/doom-modeline"))])

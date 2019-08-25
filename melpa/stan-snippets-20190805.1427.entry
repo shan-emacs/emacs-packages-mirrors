@@ -1,0 +1,2 @@
+
+(stan-snippets . [(20190805 1427) ((stan-mode (9 3 0)) (yasnippet (0 8 0))) "Yasnippets for Stan" tar ((:commit . "e60fe0caecb8e84d0b8fc160a0cdf8343e33d905") (:keywords "snippets") (:authors ("Jeffrey Arnold" . "jeffrey.arnold@gmail.com")) (:maintainer "Jeffrey Arnold" . "jeffrey.arnold@gmail.com") (:url . "http://github.com/stan-dev/stan-mode"))])

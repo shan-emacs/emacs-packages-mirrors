@@ -1,2 +1,0 @@
-
-(elsa . [(20190331 1558) ((trinary (1 0 0)) (emacs (25 1)) (f (0)) (dash (2 14)) (cl-lib (0 3))) "Emacs Lisp Static Analyser" tar ((:commit . "eb88fb357e14777cf4ae71054791d1482aaeef29"))])

@@ -1,0 +1,2 @@
+
+(pickle . [(20190816 341) ((emacs (25 1)) (cl-lib (0 6 1))) "Major mode for editing cucumber gherkin files." single ((:commit . "0dab75b9f75dc2d0cf28f876cc9e2d127e6dca15") (:keywords "languages" "cucumber" "gherkin") (:authors ("Matthew Carter" . "m@ahungry.com")) (:maintainer "Matthew Carter" . "m@ahungry.com") (:url . "https://github.com/ahungry/pickle-mode"))])

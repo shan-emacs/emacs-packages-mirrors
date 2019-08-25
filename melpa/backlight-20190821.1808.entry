@@ -1,0 +1,2 @@
+
+(backlight . [(20190821 1808) ((emacs (24 3))) "backlight brightness adjustment on GNU/Linux" single ((:commit . "5a7a9b70f368fc77bac2c9c2d10dee4ad9f03987") (:keywords "hardware") (:authors ("Michael Schuldt" . "mbschuldt@gmail.com")) (:maintainer "Michael Schuldt" . "mbschuldt@gmail.com") (:url . "https://github.com/mschuldt/backlight.el"))])

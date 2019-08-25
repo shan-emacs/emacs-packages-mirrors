@@ -1,0 +1,2 @@
+
+(mpdel . [(20190825 1150) ((emacs (25 1)) (libmpdel (1 0 0)) (navigel (0 4 0))) "Play and control your MPD music" tar ((:commit . "4b27915f9ed92cafbaedbaa31229dbffd4de5f5f") (:keywords "multimedia") (:authors ("Damien Cassou" . "damien@cassou.me")) (:maintainer "Damien Cassou" . "damien@cassou.me") (:url . "https://gitlab.petton.fr/mpdel/mpdel"))])

@@ -30,13 +30,12 @@
                        <pre>M-x <span class="kw">package-install</span> RET <span class="kw">loccur</span> RET</pre><h2>Full description</h2><pre>
 Add the following to your .emacs file:
 
-(require 'loccur)
-;; defines shortcut for loccur of the current word
-(define-key global-map [(control o)] 'loccur-current)
-;; defines shortcut for the interactive loccur command
-(define-key global-map [(control meta o)] 'loccur)
-;; defines shortcut for the loccur of the previously found word
-(define-key global-map [(control shift o)] 'loccur-previous-match)
+    ;; defines shortcut for loccur of the current word
+    (define-key global-map [(control o)] 'loccur-current)
+    ;; defines shortcut for the interactive loccur command
+    (define-key global-map [(control meta o)] 'loccur)
+    ;; defines shortcut for the loccur of the previously found word
+    (define-key global-map [(control shift o)] 'loccur-previous-match)
 </pre>
 <h2>Old versions</h2><table>
 <tr><td><a href="loccur-1.2.2.el">loccur-1.2.2.el</a></td><td>2016-Jan-30</td><td>11.0&nbsp;KiB</td>

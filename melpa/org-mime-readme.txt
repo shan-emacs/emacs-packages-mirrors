@@ -13,13 +13,14 @@ encoding.
 
 `org-mime-org-subtree-htmlize' is similar to `org-mime-org-buffer-htmlize'
 but works on current subtree. It can read following subtree properties:
-MAIL_SUBJECT, MAIL_TO, MAIL_CC, and MAIL_BCC.
+MAIL_SUBJECT, MAIL_TO, MAIL_FROM, MAIL_CC, and MAIL_BCC.
 
 Here is the sample of a subtree:
 * mail one
   :PROPERTIES:
   :MAIL_SUBJECT: mail title
   :MAIL_TO: person1@gmail.com
+  :MAIL_FROM: sender@gmail.com
   :MAIL_CC: person2@gmail.com
   :MAIL_BCC: person3@gmail.com
   :END:

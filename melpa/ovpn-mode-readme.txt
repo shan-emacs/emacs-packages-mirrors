@@ -26,9 +26,9 @@ d: set the active vpn conf directory
 ~: apply a keyword filter to the current conf listing
 6: toggle ipv6 support on/off (automatically called on start of ovpn)
 x: execute an asynchronous shell command in the context of any associated namespace
-X: spawn an xterm in the context of any associated namespace
-C: spawn a google-chrome instance in the context of any associated namespace
-a: show all active vpn configurations accross all conf directories
+T: spawn a terminal in the context of any associated namespace
+B: spawn a browser in the context of any associated namespace
+a: show all active vpn configurations across all conf directories
 h: describe mode
 
 ovpn-mode will maintain state for any running configurations, so you can

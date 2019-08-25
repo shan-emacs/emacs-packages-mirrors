@@ -11,4 +11,4 @@ buffer.
 Use `0' to toggle between opening in the same window or
 `(other-window)'.
 
-The numbers 1 through 5 will cycle through the default buffer filters.
+The numbers 1 through 6 will cycle through the default buffer filters.

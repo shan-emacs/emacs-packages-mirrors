@@ -23,13 +23,13 @@
 
             <div class="container">
 <h2 class="package">ada-mode</h2><dl><dt>Description</dt><dd>major-mode for editing Ada sources</dd>
-<dt>Latest</dt> <dd><a href="ada-mode-6.1.1.tar">ada-mode-6.1.1.tar</a>, 2019-Jul-12, 6.21&nbsp;MiB</dd>
+<dt>Latest</dt> <dd><a href="ada-mode-6.2.1.tar">ada-mode-6.2.1.tar</a>, 2019-Aug-18, 5.68&nbsp;MiB</dd>
 <dt>Maintainer</dt> <dd>Stephen Leake &lt;stephen_leake@stephe-leake.org></dd>
 <dt>Home page</dt> <dd><a href="http://www.nongnu.org/ada-mode/">http://www.nongnu.org/ada-mode/</a></dd>
 <dt>Browse ELPA's repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/ada-mode">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/ada-mode">Gitweb</a></dd>
 </dl><p>To install this package, run in Emacs:</p>
                        <pre>M-x <span class="kw">package-install</span> RET <span class="kw">ada-mode</span> RET</pre><h2>Full description</h2><pre>
-Emacs Ada mode version 6.1.1
+Emacs Ada mode version 6.2.1
 
 Ada mode provides auto-casing, fontification, navigation, and
 indentation for Ada source code files.
@@ -66,6 +66,8 @@ notes for Ada mode developers.
 
 </pre>
 <h2>Old versions</h2><table>
+<tr><td><a href="ada-mode-6.2.0.tar">ada-mode-6.2.0.tar</a></td><td>2019-Aug-17</td><td>5.66&nbsp;MiB</td>
+<tr><td><a href="ada-mode-6.1.1.tar">ada-mode-6.1.1.tar</a></td><td>2019-Jul-12</td><td>6.21&nbsp;MiB</td>
 <tr><td><a href="ada-mode-6.1.0.tar">ada-mode-6.1.0.tar</a></td><td>2019-Mar-22</td><td>5.95&nbsp;MiB</td>
 <tr><td><a href="ada-mode-6.0.1.tar">ada-mode-6.0.1.tar</a></td><td>2018-Dec-08</td><td>6.47&nbsp;MiB</td>
 <tr><td><a href="ada-mode-6.0.0.tar">ada-mode-6.0.0.tar</a></td><td>2018-Dec-03</td><td>43.8&nbsp;MiB</td>
@@ -89,14 +91,42 @@ notes for Ada mode developers.
 <h2>News</h2><pre>
 GNU Emacs Ada mode NEWS -- history of user-visible changes.
 
-Copyright (C) 2018 Free Software Foundation, Inc.
-See the end of the file for license conditions.
+Copyright (C) 2019 Free Software Foundation, Inc.
 
 Please send ada-mode bug reports to bug-gnu-emacs@gnu.org, with
 'ada-mode' in the subject. If possible, use M-x report-emacs-bug.
 
 
-* Ada Mode
+* Ada Mode 6.2.1
+17 Aug 2019
+
+** fix packaging bugs
+
+* Ada Mode 6.2.0
+13 Aug 2019
+
+** parser Ada language protocol version 2
+
+** The elisp parser is deleted; only the Ada process parser is
+   supported.
+
+** New Ada menu entry "Refactor" supports converting between
+   Object.Method (...) and Method (Object, ...), and between Object
+   (Index) and Element (Object, Index). The same commands are on a
+   menu shown by `ada-refactor-menu-popup', which may be bound to a
+   keystroke or mouseclick.
+
+** Ada mode now provides a project.el backend, in ada-project.el.
+   `project-find-file' does file name completion on files in the
+   current project, using the `uniquify-files' completion style. To
+   use this backend with an existing Ada mode project file:
+
+   (setq ada-project-current (make-ada-project :ada-prj-file &lt;exising-file.prj>))
+   (add-to-list 'project-find-functions #'ada-project-current)
+
+   You may want to define other functions for project-find-functions.
+
+* Ada Mode 6.1.1
 11 Jul 2019
 
 ** parser Ada language protocol version 1

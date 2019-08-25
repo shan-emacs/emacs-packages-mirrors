@@ -21,3 +21,5 @@ Call `slime-setup' and include 'helm-slime as the arguments:
   (slime-setup '([others contribs ...] helm-slime))
 
 or simply require helm-slime in some appropriate manner.
+
+To use Helm instead of the Xref buffer, enable `global-helm-slime-mode'.

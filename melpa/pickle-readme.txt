@@ -1,6 +1,4 @@
-The dart-mode that exists doesn't properly indent, so give this a try.
-
-Much of this mode is derived from the js.el package.
+A major mode for handling Gherkin files and syntax highlighting.
 
 General Remarks:
 

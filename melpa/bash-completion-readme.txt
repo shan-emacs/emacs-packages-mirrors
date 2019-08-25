@@ -30,7 +30,7 @@ INSTALLATION
   (autoload 'bash-completion-dynamic-complete \"bash-completion\"
     \"BASH completion hook\")
   (add-hook 'shell-dynamic-complete-functions
-	'bash-completion-dynamic-complete)
+     'bash-completion-dynamic-complete)
 
   or simpler, but forces you to load this file at startup:
 

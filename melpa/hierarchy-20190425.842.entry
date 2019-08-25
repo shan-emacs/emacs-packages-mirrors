@@ -1,2 +1,2 @@
 
-(hierarchy . [(20190425 842) ((emacs (25 1))) "Library to create and display hierarchy structures" single ((:commit . "a5bc6bf2e1bbd48cc17c508043134f24abb41944") (:authors ("Damien Cassou" . "damien@cassou.me")) (:maintainer "Damien Cassou" . "damien@cassou.me") (:url . "https://github.com/DamienCassou/hierarchy"))])
+(hierarchy . [(20190425 842) ((emacs (25 1))) "Library to create and display hierarchy structures" single ((:commit . "a1d13c40102e833192c3bd6acf930013bdcbc819") (:authors ("Damien Cassou" . "damien@cassou.me")) (:maintainer "Damien Cassou" . "damien@cassou.me") (:url . "https://github.com/DamienCassou/hierarchy"))])

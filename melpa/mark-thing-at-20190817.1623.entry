@@ -1,0 +1,2 @@
+
+(mark-thing-at . [(20190817 1623) ((emacs (26)) (choice-program (0 9))) "Mark a pattern at the current point" single ((:commit . "0d2220fdc81c33a36ab5f136856f9f2f79cd01a7") (:keywords "mark" "point" "lisp") (:authors ("Paul Landes")) (:maintainer "Paul Landes") (:url . "https://github.com/plandes/mark-thing-at"))])

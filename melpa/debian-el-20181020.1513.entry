@@ -1,2 +1,2 @@
 
-(debian-el . [(20181020 1513) nil "Emacs helpers specific to Debian users" tar ((:commit . "a499822afc2154ca83edf6a605ed22c5a932fa12"))])
+(debian-el . [(20181020 1513) nil "Emacs helpers specific to Debian users" tar ((:commit . "8ff1f5d73d5d56bee65e45e9d8ac4e75aa8b8e4c"))])

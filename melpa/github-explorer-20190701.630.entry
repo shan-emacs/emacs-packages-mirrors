@@ -1,2 +1,2 @@
 
-(github-explorer . [(20190701 630) ((emacs (24 4))) "Explore a GitHub repository on the fly" single ((:commit . "6a05025663789e6daab80a5dd47c3efbe607795f") (:keywords "comm") (:authors ("Giap Tran" . "txgvnn@gmail.com")) (:maintainer "Giap Tran" . "txgvnn@gmail.com") (:url . "https://github.com/TxGVNN/github-explorer"))])
+(github-explorer . [(20190701 630) ((emacs (24 4))) "Explore a GitHub repository on the fly" single ((:commit . "e3a410dd1113bdff382a745465ea48d9b1fe860b") (:keywords "comm") (:authors ("Giap Tran" . "txgvnn@gmail.com")) (:maintainer "Giap Tran" . "txgvnn@gmail.com") (:url . "https://github.com/TxGVNN/github-explorer"))])

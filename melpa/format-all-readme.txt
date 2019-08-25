@@ -46,7 +46,7 @@ Supported languages:
 - Swift (swiftformat)
 - Terraform (terraform fmt)
 - TypeScript/TSX (prettier)
-- YAML (yq)
+- YAML (prettier)
 
 You will need to install external programs to do the formatting.
 If `format-all-buffer` can't find the right program, it will try to

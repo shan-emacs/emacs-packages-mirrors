@@ -1,0 +1,2 @@
+
+(evil-ruby-text-objects . [(20190821 1527) ((emacs (25)) (evil (1 2 0))) "Evil text objects for Ruby code" single ((:commit . "0ddc4c256a0c778fa65d75b707f20df874e5b5fa") (:keywords "languages") (:authors ("Sergio Gil" . "sgilperez@gmail.com")) (:maintainer "Sergio Gil" . "sgilperez@gmail.com") (:url . "https://github.com/porras/evil-ruby-text-objects"))])

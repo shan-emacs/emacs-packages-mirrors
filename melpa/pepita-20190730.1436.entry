@@ -1,2 +1,0 @@
-
-(pepita . [(20190730 1436) ((emacs (25)) (csv (2 1))) "Run Splunk search commands, export results to CSV/HTML/JSON" single ((:commit . "f5d133738cc436222b7e294261d85fd47b69a5f5") (:keywords "tools" "convenience" "matching") (:authors ("Sebastian Monia" . "smonia@outlook.com")) (:maintainer "Sebastian Monia" . "smonia@outlook.com") (:url . "https://github.com/sebasmonia/pepita.git"))])

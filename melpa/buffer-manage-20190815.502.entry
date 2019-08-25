@@ -1,0 +1,2 @@
+
+(buffer-manage . [(20190815 502) ((emacs (26)) (choice-program (0 5)) (dash (2 13 0))) "manage buffers" tar ((:commit . "47852b908a0d9a059e9f8cd7797229ecf6259b8c") (:keywords "interactive" "buffer" "management") (:authors ("Paul Landes")) (:maintainer "Paul Landes") (:url . "https://github.com/plandes/buffer-manage"))])

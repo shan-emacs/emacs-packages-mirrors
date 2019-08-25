@@ -1,0 +1,2 @@
+
+(kaocha-runner . [(20190819 2053) ((emacs (26)) (s (1 4 0)) (cider (0 21 0)) (parseedn (0 1 0))) "A package for running Kaocha tests via CIDER." single ((:commit . "a5aae378f86d9fea17e393bce17ab9601647cfbf") (:authors ("Magnar Sveen" . "magnars@gmail.com")) (:maintainer "Magnar Sveen" . "magnars@gmail.com") (:url . "https://github.com/magnars/kaocha-runner.el"))])

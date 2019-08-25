@@ -1,0 +1,2 @@
+
+(faff-theme . [(20190821 1918) nil "Light Emacs color theme on cornsilk3 background" single ((:commit . "c88ed079add4e2c39401dda9fdeef96ea4ddb13c") (:keywords "color" "theme") (:authors ("James Ferguson <(concat \"wjcferguson\" at-sign \"gmail.com\")>")) (:maintainer "James Ferguson <(concat \"wjcferguson\" at-sign \"gmail.com\")>") (:url . "https://github.com/WJCFerguson/emacs-faff-theme"))])

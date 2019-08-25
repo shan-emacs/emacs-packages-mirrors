@@ -1,2 +1,0 @@
-
-(choice-program . [(20190721 1854) ((emacs (26)) (cl-lib (1 0))) "parameter based program" tar ((:commit . "215e8ab6acc47f240b12bd11ab387da7f5de885d") (:keywords "exec" "execution" "parameter" "option") (:authors ("Paul Landes")) (:maintainer "Paul Landes") (:url . "https://github.com/plandes/choice-program"))])

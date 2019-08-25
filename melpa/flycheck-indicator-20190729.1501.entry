@@ -1,0 +1,2 @@
+
+(flycheck-indicator . [(20190729 1501) ((flycheck (0 15))) "A fancy mode line indicator for `flycheck-mode'" single ((:commit . "937f93afc0605c8e6c7cc56041a52b1312fff0fe") (:keywords "convenience" "language" "tools") (:authors ("Eder Elorriaga" . "gexplorer8@gmail.com")) (:maintainer "Eder Elorriaga" . "gexplorer8@gmail.com") (:url . "https://github.com/gexplorer/flycheck-indicator"))])

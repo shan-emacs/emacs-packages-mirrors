@@ -1,2 +1,0 @@
-
-(org-pivotal . [(20181216 1436) ((a (0 1 1)) (dash (2 14 1)) (dash-functional (1 2 0)) (emacs (26 1)) (request (0 3 0))) "Sync Pivotal Tracker to org buffer" tar ((:commit . "84b026741a3f06ac4979b970a04f5c9bc38b8be1") (:authors ("Huy Duong" . "qhuyduong@hotmail.com")) (:maintainer "Huy Duong" . "qhuyduong@hotmail.com") (:url . "https://github.com/org-pivotal/org-pivotal"))])

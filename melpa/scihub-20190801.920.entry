@@ -1,0 +1,2 @@
+
+(scihub . [(20190801 920) ((emacs (25))) "Sci-Hub integration" single ((:commit . "a32e8f47961d606c1315a972f2dab4d3a61945af") (:keywords "convenience") (:authors ("Mario Rodas" . "marsam@users.noreply.github.com")) (:maintainer "Mario Rodas" . "marsam@users.noreply.github.com") (:url . "https://github.com/emacs-pe/scihub.el"))])
