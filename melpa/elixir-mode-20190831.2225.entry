@@ -1,0 +1,2 @@
+
+(elixir-mode . [(20190831 2225) ((emacs (24)) (pkg-info (0 4))) "Major mode for editing Elixir files" tar ((:commit . "5c50dcedd890f14e0ede33b74ddf86607b037239") (:keywords "languages" "elixir") (:url . "https://github.com/elixir-lang/emacs-elixir"))])

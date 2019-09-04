@@ -1,0 +1,2 @@
+
+(color-theme-sanityinc-tomorrow . [(20190904 520) nil "A version of Chris Kempson's \"tomorrow\" themes" tar ((:commit . "e76b549bc71ce6710a8d0ea73930b78d78d6c2a8") (:keywords "faces" "themes") (:authors ("Steve Purcell" . "steve@sanityinc.com")) (:maintainer "Steve Purcell" . "steve@sanityinc.com") (:url . "http://github.com/purcell/color-theme-sanityinc-tomorrow"))])

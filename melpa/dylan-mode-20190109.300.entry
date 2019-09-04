@@ -1,2 +1,0 @@
-
-(dylan-mode . [(20190109 300) nil "Major mode for editing Dylan programs." tar ((:commit . "9a6ad5ff83f2dfc25ce3deee9d3ef71ed53964b5") (:authors ("Robert Stockton" . "rgs@cs.cmu.edu")) (:maintainer "Chris Page" . "cpage@opendylan.org"))])

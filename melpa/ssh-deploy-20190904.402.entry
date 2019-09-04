@@ -1,0 +1,2 @@
+
+(ssh-deploy . [(20190904 402) ((emacs (25))) "Deployment via Tramp, global or per directory." tar ((:commit . "aa93c35b77e9b8ae8e44df4f7e0b61932b3e0b15") (:keywords "tools" "convenience") (:authors ("Christian Johansson" . "christian@cvj.se")) (:maintainer "Christian Johansson" . "christian@cvj.se") (:url . "https://github.com/cjohansson/emacs-ssh-deploy"))])

@@ -1,9 +1,10 @@
 
-Hack time by typing
+Start hacking time with
 
     {M-x hack-time-mode RET}
 
-- Choose a date.  E.g. enter
+Then Choose a date.  E.g. enter
+
   - "+" for tomorrow 11:55AM.  11:55AM has been chosen as default.
   - "-1" for yesterday.  Time gets set to 11:55AM.
   - "-10 12:05" for 10 days ago at 12:05 PM"
@@ -12,11 +13,11 @@ After this action the current time is frozen to the chosen time.
 
 Watch out for 'HACK-TIME-MODE' in the modeline which indicates that
 hack-time-mode is on.
-Turn the mode off typing
+Turn the mode off with
 
     {M-x hack-time-mode RET}
 
-again.  The time is back to normal flow.
+again.  The time is back to normal.
 
 * Use cases
 

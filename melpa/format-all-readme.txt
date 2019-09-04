@@ -46,6 +46,7 @@ Supported languages:
 - Swift (swiftformat)
 - Terraform (terraform fmt)
 - TypeScript/TSX (prettier)
+- Verilog (iStyle)
 - YAML (prettier)
 
 You will need to install external programs to do the formatting.

@@ -6,22 +6,16 @@ Purpose:
  either points to a heading in org, references a folder outside of org
  or carries an url or a snippet of text.  When searching the index, the
  set of matching lines is updated with every keystroke; results are
- sorted by usage count and date, so that recently or frequently used
+ sorted by usage count and date, so that frequently or recently used
  entries appear first in the list of results.
 
  Please note, that org-index uses org-id throughout and therefore adds
  an id-property to all nodes in the index.
 
- In the addition to the index table, org-index introduces these
- supplemental concepts:
-
- - 'References' are decorated numbers (e.g. 'R237' or '--455--'); they are
-    well suited to be used outside of org, e.g. in folder names,
-    ticket systems or on printed documents.
- - 'Working set' (short: ws) is a small set of nodes for your daily work;
-    it can be managed easily and traversed very fast.  All related tasks
-    are also available through the interactive function
-    org-index-working-set, which see.
+ In the addition to the index table, org-index introduces the concept of
+ references: These are decorated numbers (e.g. 'R237' or '--455--');
+ they are well suited to be used outside of org, e.g. in folder names,
+ ticket systems or on printed documents.
 
  On first invocation org-index will assist you in creating the index
  table.

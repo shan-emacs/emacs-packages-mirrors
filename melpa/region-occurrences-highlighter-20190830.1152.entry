@@ -1,0 +1,2 @@
+
+(region-occurrences-highlighter . [(20190830 1152) ((emacs (24))) "Mark occurrences of current region (selection)." single ((:commit . "5f52084d77c22df3b57e96a7ce0dc69679088f4e") (:keywords "convenience") (:authors ("Álvaro González Sotillo" . "alvarogonzalezsotillo@gmail.com")) (:maintainer "Álvaro González Sotillo" . "alvarogonzalezsotillo@gmail.com") (:url . "https://github.com/alvarogonzalezsotillo/region-occurrences-highlighter"))])

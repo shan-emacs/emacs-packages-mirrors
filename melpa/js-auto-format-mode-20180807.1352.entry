@@ -1,2 +1,2 @@
 
-(js-auto-format-mode . [(20180807 1352) ((emacs (24))) "Minor mode for auto-formatting JavaScript code" single ((:commit . "4c184256c4ccee3451357d3277c3e1bb16de2d98") (:keywords "languages") (:authors ("Masafumi Koba" . "ybiquitous@gmail.com")) (:maintainer "Masafumi Koba" . "ybiquitous@gmail.com") (:url . "https://github.com/ybiquitous/js-auto-format-mode"))])
+(js-auto-format-mode . [(20180807 1352) ((emacs (24))) "Minor mode for auto-formatting JavaScript code" single ((:commit . "b4fec1497c76d36f7d8a2aad44983f8b6f501180") (:keywords "languages") (:authors ("Masafumi Koba" . "ybiquitous@gmail.com")) (:maintainer "Masafumi Koba" . "ybiquitous@gmail.com") (:url . "https://github.com/ybiquitous/js-auto-format-mode"))])

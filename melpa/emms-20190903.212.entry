@@ -1,0 +1,2 @@
+
+(emms . [(20190903 212) ((cl-lib (0 5))) "The Emacs Multimedia System" tar ((:commit . "b136d63c252aa9e9a09fcee561fe86c4aab92f20") (:keywords "emms" "mp3" "mpeg" "multimedia") (:authors ("Jorgen Schäfer" . "forcer@forcix.cx")) (:maintainer "Jorgen Schäfer" . "forcer@forcix.cx") (:url . "http://www.gnu.org/software/emms/"))])

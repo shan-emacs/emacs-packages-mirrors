@@ -1,0 +1,2 @@
+
+(d-mode . [(20190826 2244) ((emacs (24 3))) "D Programming Language major mode for (X)Emacs" single ((:commit . "f3843276e235c6b633ba5367f78d74fe7c04e244") (:keywords "d" "programming" "language" "emacs" "cc-mode") (:authors ("William Baxter")) (:maintainer "Russel Winder" . "russel@winder.org.uk"))])
