@@ -1,2 +1,0 @@
-
-(rspec-mode . [(20190609 1123) ((ruby-mode (1 0)) (cl-lib (0 4))) "Enhance ruby-mode for RSpec" tar ((:commit . "bc2618a71e0bbef60258cf59bad0796f469a2685") (:keywords "rspec" "ruby") (:authors ("Peter Williams, et al.")) (:maintainer "Peter Williams, et al.") (:url . "http://github.com/pezra/rspec-mode"))])

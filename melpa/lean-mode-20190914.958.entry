@@ -1,0 +1,2 @@
+
+(lean-mode . [(20190914 958) ((emacs (24 3)) (dash (2 12 0)) (dash-functional (1 2 0)) (s (1 10 0)) (f (0 19 0)) (flycheck (30))) "A major mode for the Lean language" tar ((:commit . "b5ba739f68ef731c03247bf6db2708502c8ac46c") (:keywords "languages") (:authors ("Leonardo de Moura" . "leonardo@microsoft.com") ("Soonho Kong      " . "soonhok@cs.cmu.edu") ("Gabriel Ebner    " . "gebner@gebner.org") ("Sebastian Ullrich" . "sebasti@nullri.ch")) (:maintainer "Sebastian Ullrich" . "sebasti@nullri.ch") (:url . "https://github.com/leanprover/lean-mode"))])

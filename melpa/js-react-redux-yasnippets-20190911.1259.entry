@@ -1,0 +1,2 @@
+
+(js-react-redux-yasnippets . [(20190911 1259) ((emacs (24 3)) (yasnippet (0 8 0))) "JavaScript,React,Redux yasnippets" tar ((:commit . "70785d126a28ffcb314fb4b354319418586e06b1") (:keywords "convenience" "snippets") (:authors ("sooqua")) (:maintainer "sooqua") (:url . "https://github.com/sooqua/js-react-redux-yasnippets"))])

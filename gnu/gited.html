@@ -23,7 +23,7 @@
 
             <div class="container">
 <h2 class="package">gited</h2><dl><dt>Description</dt><dd>Operate on Git branches like dired</dd>
-<dt>Latest</dt> <dd><a href="gited-0.5.4.tar">gited-0.5.4.tar</a>, 2019-Aug-09, 1.37&nbsp;MiB</dd>
+<dt>Latest</dt> <dd><a href="gited-0.6.0.tar">gited-0.6.0.tar</a>, 2019-Sep-14, 1.37&nbsp;MiB</dd>
 <dt>Maintainer</dt> <dd>Tino Calancha &lt;tino.calancha@gmail.com></dd>
 <dt>Home page</dt> <dd><a href="http://elpa.gnu.org/packages/gited.html">http://elpa.gnu.org/packages/gited.html</a></dd>
 <dt>Browse repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/gited">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/gited">Gitweb</a></dd>
@@ -83,30 +83,30 @@ Bugs/TODO
   `gited--hide-details-set', `gited--last-remote-prune',
   `gited--op', `gited--revert-commit',
   `gited--running-async-op', `gited-actual-switches',
-  `gited-after-change-hook', `gited-author-face',
-  `gited-author-idx', `gited-bisect-buf-name',
-  `gited-bisect-buffer', `gited-bisect-buffer',
-  `gited-bisect-output-name', `gited-branch-after-op',
-  `gited-branch-alist', `gited-branch-idx',
-  `gited-branch-name-face', `gited-buffer',
-  `gited-buffer-name', `gited-commit-idx',
-  `gited-commit-msg-face', `gited-current-branch',
-  `gited-current-remote-rep', `gited-date-idx',
-  `gited-date-regexp', `gited-date-time-face',
-  `gited-del-char', `gited-deletion-branch-face',
-  `gited-deletion-face', `gited-edit-commit-mode-map',
-  `gited-flag-mark-face', `gited-flag-mark-line-face',
-  `gited-header', `gited-list-format',
-  `gited-list-refs-format-command', `gited-log-buffer',
-  `gited-mark-col-size', `gited-mark-face',
-  `gited-mark-idx', `gited-marker-char',
-  `gited-mode', `gited-mode-map',
-  `gited-modified-branch', `gited-new-or-deleted-files-re',
-  `gited-op-string', `gited-original-buffer',
-  `gited-output-buffer', `gited-output-buffer-name',
-  `gited-re-mark', `gited-ref-kind',
-  `gited-section-highlight-face', `gited-toplevel-dir',
-  `gited-trunk-branch'.
+  `gited-after-change-hook', `gited-async-operation-callback',
+  `gited-author-face', `gited-author-idx',
+  `gited-bisect-buf-name', `gited-bisect-buffer',
+  `gited-bisect-buffer', `gited-bisect-output-name',
+  `gited-branch-after-op', `gited-branch-alist',
+  `gited-branch-idx', `gited-branch-name-face',
+  `gited-buffer', `gited-buffer-name',
+  `gited-commit-idx', `gited-commit-msg-face',
+  `gited-current-branch', `gited-current-remote-rep',
+  `gited-date-idx', `gited-date-regexp',
+  `gited-date-time-face', `gited-del-char',
+  `gited-deletion-branch-face', `gited-deletion-face',
+  `gited-edit-commit-mode-map', `gited-flag-mark-face',
+  `gited-flag-mark-line-face', `gited-header',
+  `gited-list-format', `gited-list-refs-format-command',
+  `gited-log-buffer', `gited-mark-col-size',
+  `gited-mark-face', `gited-mark-idx',
+  `gited-marker-char', `gited-mode',
+  `gited-mode-map', `gited-modified-branch',
+  `gited-new-or-deleted-files-re', `gited-op-string',
+  `gited-original-buffer', `gited-output-buffer',
+  `gited-output-buffer-name', `gited-re-mark',
+  `gited-ref-kind', `gited-section-highlight-face',
+  `gited-toplevel-dir', `gited-trunk-branch'.
 
  Coustom variables defined here:
 
@@ -178,15 +178,17 @@ Bugs/TODO
   `gited--check-unmerged-marked-branches', `gited--clean-previous-patches',
   `gited--col-branch-name', `gited--extract-from-commit',
   `gited--fill-branch-alist', `gited--fontify-current-row',
-  `gited--fontify-current-row-1', `gited--get-branches-from-command',
-  `gited--get-column', `gited--get-merged-branches',
-  `gited--get-patch-or-commit-buffers', `gited--get-unmerged-branches',
-  `gited--goto-column', `gited--goto-first-branch',
-  `gited--handle-new-or-delete-files', `gited--last-commit-author',
-  `gited--last-commit-date', `gited--last-commit-msg',
-  `gited--last-commit-title', `gited--list-files',
-  `gited--list-format-init', `gited--list-refs-format',
-  `gited--mark-branches-in-region',
+  `gited--fontify-current-row-1', `gited--format-time',
+  `gited--get-branch-info', `gited--get-branches-from-command',
+  `gited--get-column', `gited--get-mark-for-entry',
+  `gited--get-merged-branches', `gited--get-patch-or-commit-buffers',
+  `gited--get-unmerged-branches', `gited--goto-column',
+  `gited--goto-first-branch', `gited--handle-new-or-delete-files',
+  `gited--last-commit-author', `gited--last-commit-date',
+  `gited--last-commit-hash', `gited--last-commit-msg',
+  `gited--last-commit-title', `gited--last-trunk-commit',
+  `gited--list-files', `gited--list-format-init',
+  `gited--list-refs-format', `gited--mark-branches-in-region',
   `gited--mark-merged-or-unmerged-branches',
   `gited--mark-merged-or-unmerged-branches-spec', `gited--merged-branch-p',
   `gited--move-to-column', `gited--move-to-end-of-column',
@@ -232,6 +234,8 @@ Bugs/TODO
   `gited-status-branch-local', `gited-status-tag'.
 </pre>
 <h2>Old versions</h2><table>
+<tr><td><a href="gited-0.5.6.tar">gited-0.5.6.tar</a></td><td>2019-Sep-05</td><td>1.37&nbsp;MiB</td>
+<tr><td><a href="gited-0.5.4.tar">gited-0.5.4.tar</a></td><td>2019-Aug-09</td><td>1.37&nbsp;MiB</td>
 <tr><td><a href="gited-0.5.3.tar">gited-0.5.3.tar</a></td><td>2018-May-20</td><td>1.37&nbsp;MiB</td>
 <tr><td><a href="gited-0.5.1.tar">gited-0.5.1.tar</a></td><td>2018-May-15</td><td>1.35&nbsp;MiB</td>
 <tr><td><a href="gited-0.4.3.tar">gited-0.4.3.tar</a></td><td>2018-Apr-09</td><td>1.35&nbsp;MiB</td>

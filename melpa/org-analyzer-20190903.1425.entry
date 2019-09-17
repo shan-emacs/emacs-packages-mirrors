@@ -1,2 +1,0 @@
-
-(org-analyzer . [(20190903 1425) nil "org-analyzer is a tool that extracts time tracking data from org files." tar ((:commit . "bdad1abe174c3be702d392b3c72f684e731033b1"))])

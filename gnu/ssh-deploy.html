@@ -23,7 +23,7 @@
 
             <div class="container">
 <h2 class="package">ssh-deploy</h2><dl><dt>Description</dt><dd>Deployment via Tramp, global or per directory.</dd>
-<dt>Latest</dt> <dd><a href="ssh-deploy-3.1.tar">ssh-deploy-3.1.tar</a>, 2019-Apr-22,  170&nbsp;KiB</dd>
+<dt>Latest</dt> <dd><a href="ssh-deploy-3.1.9.tar">ssh-deploy-3.1.9.tar</a>, 2019-Sep-09,  170&nbsp;KiB</dd>
 <dt>Maintainer</dt> <dd>Christian Johansson &lt;christian@cvj.se></dd>
 <dt>Home page</dt> <dd><a href="https://github.com/cjohansson/emacs-ssh-deploy">https://github.com/cjohansson/emacs-ssh-deploy</a></dd>
 <dt>Browse ELPA's repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/?h=externals/ssh-deploy">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=shortlog;h=refs/heads/externals/ssh-deploy">Gitweb</a></dd>
@@ -131,8 +131,14 @@ Here is a list of other variables you can set globally or per directory:
 When integers are used as booleans, above zero means true, zero means false and nil means unset and fallback to global settings.
 
 Please see README.md from the same repository for more extended documentation.
+
+FIXME: This uses "path" in lots of places to mean "a complete file name
+starting from /", whereas the GNU convention is to only "file name" instead
+and keep "path" for lists of directories like load-path, exec-path.
 </pre>
 <h2>Old versions</h2><table>
+<tr><td><a href="ssh-deploy-3.1.8.tar">ssh-deploy-3.1.8.tar</a></td><td>2019-Sep-06</td><td> 170&nbsp;KiB</td>
+<tr><td><a href="ssh-deploy-3.1.tar">ssh-deploy-3.1.tar</a></td><td>2019-Apr-22</td><td> 170&nbsp;KiB</td>
 <tr><td><a href="ssh-deploy-3.0.tar">ssh-deploy-3.0.tar</a></td><td>2018-Nov-29</td><td> 150&nbsp;KiB</td>
 <tr><td><a href="ssh-deploy-2.0.tar">ssh-deploy-2.0.tar</a></td><td>2018-Oct-21</td><td> 150&nbsp;KiB</td>
 </table>

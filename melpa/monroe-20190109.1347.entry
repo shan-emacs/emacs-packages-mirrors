@@ -1,2 +1,0 @@
-
-(monroe . [(20190109 1347) nil "Yet another client for nREPL" single ((:commit . "2f472fdc09c1b36c291ddb5ed9aecc331fd7e082") (:keywords "languages" "clojure" "nrepl" "lisp") (:authors ("Sanel Zukan" . "sanelz@gmail.com")) (:maintainer "Sanel Zukan" . "sanelz@gmail.com") (:url . "http://www.github.com/sanel/monroe"))])

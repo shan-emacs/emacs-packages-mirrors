@@ -1,2 +1,0 @@
-
-(nvm . [(20190601 813) ((s (1 8 0)) (dash (2 4 0)) (f (0 14 0)) (dash-functional (2 4 0))) "Manage Node versions within Emacs" single ((:commit . "4aeb672d543ce2372dcca289719092aa4c38a6cd") (:keywords "node" "nvm") (:authors ("Johan Andersson" . "johan.rejeep@gmail.com")) (:maintainer "Johan Andersson" . "johan.rejeep@gmail.com") (:url . "http://github.com/rejeep/nvm.el"))])

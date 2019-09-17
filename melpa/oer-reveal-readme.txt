@@ -1,8 +1,14 @@
-Package `oer-reveal' bundles resources for the creation of
-reveal.js presentations as Open Educational Resources (OER) from
-Org source files.  This package builds upon `org-re-reveal' for
-export from Org mode to HTML with reveal.js.  It provides help in
-installing and configuring reveal.js and several of its plugins.
+Package `oer-reveal' bundles resources for the creation of reveal.js
+presentations as Open Educational Resources (OER) from Org source
+files.  This package defines an Org mode export backend derived from
+`org-re-reveal' for export to HTML with reveal.js.  It provides help
+in installing and configuring reveal.js and several of its plugins.
+
+As usual for Org export, use `C-c C-e' to start an export, followed
+by backend specific key bindings.  With `oer-reveal' `C-c C-e w w'
+and `C-c C-e w b' are default bindings, which can be customized with
+`oer-reveal-keys'.  (Actually, "ö" seems preferable to "w", if it
+exists on your keyboard.)
 
 Notably, `oer-reveal' simplifies one traditionally cumbersome task
 for OER creators, namely the re-use of figures under free licenses
@@ -37,7 +43,9 @@ your own configuration.
 
 Note that the file "emacs-reveal.el", hosted at
 https://gitlab.com/oer/emacs-reveal
-provides sample initialization code for oer-reveal.
+provides sample initialization code for oer-reveal, and the howto at
+https://gitlab.com/oer/emacs-reveal-howto
+offers a sample presentation using this code.
 
 * Customizable options
 Variable `oer-reveal-script-files' lists JavaScript files to load
@@ -47,14 +55,14 @@ coming with oer-reveal, you may want to assign the value of
 also happens in `oer-reveal-publish-setq-defaults'.
 
 Variable `oer-reveal-plugins' lists reveal.js plugins to be
-activated.  Remove those that you do not need.  Function
-`oer-reveal-setup-plugins' adds plugin initialization code to
-`org-re-reveal-external-plugins'.
+activated.  To configure those plugins, customize
+`oer-reveal-plugin-config', which in turn points to customizable
+variables for individual plugins.
 
 When generating image grids, `oer-reveal-export-dir' specifies
 the directory into which to generate CSS code.  This should
 probably be the directory into which you publish your HTML code.
-I set this to "./" before exporting with `C-c C-e v b'.
+I set this to "./" before exporting with `C-c C-e w b'.
 The names of generated CSS files for image grids are determined by
 `oer-reveal-css-filename-template'.
 

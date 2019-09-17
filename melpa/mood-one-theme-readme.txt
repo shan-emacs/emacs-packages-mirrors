@@ -7,7 +7,7 @@ Features offered:
 * Lightweight with no dependencies
 
 To enable custom fringe bitmaps for `diff-hl':
-(setq diff-hl-fringe-bmp-function #'mood-one-theme--diff-hl-fringe-bmp-function)
+(setq diff-hl-fringe-bmp-function #'mood-one-theme-diff-hl-fringe-bmp-function)
 
 To enable custom fringe bitmaps for `flycheck':
 (eval-after-load 'flycheck #'mood-one-theme-flycheck-fringe-bmp-enable)

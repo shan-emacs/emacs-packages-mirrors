@@ -1,2 +1,0 @@
-
-(evil-mc . [(20190321 1606) ((emacs (24 3)) (evil (1 2 13)) (cl-lib (0 5))) "Multiple cursors for evil-mode" tar ((:commit . "5205fe671803465149e578849bbbe803c23a8e4e") (:keywords "evil" "editing" "multiple-cursors" "vim" "evil-multiple-cursors" "evil-mc" "evil-mc") (:authors ("Gabriel Adomnicai" . "gabesoft@gmail.com")) (:maintainer "Gabriel Adomnicai" . "gabesoft@gmail.com") (:url . "https://github.com/gabesoft/evil-mc"))])

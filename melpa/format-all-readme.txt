@@ -34,6 +34,7 @@ Supported languages:
 - Ledger (ledger-mode)
 - Lua (lua-fmt)
 - Markdown (prettier)
+- Nix (nixfmt)
 - OCaml (ocp-indent)
 - Perl (perltidy)
 - PHP (prettier plugin-php)

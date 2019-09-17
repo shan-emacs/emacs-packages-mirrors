@@ -1,2 +1,2 @@
 
-(picolisp-mode . [(20190824 806) nil "[ Obsolete; use 'plisp-mode' instead ]" tar ((:commit . "7a487a56f22690eebe4f8b4fb628aab9cba95ab1") (:keywords "picolisp" "lisp" "programming") (:authors ("Alexis" . "flexibeast@gmail.com")) (:maintainer "Alexis" . "flexibeast@gmail.com") (:url . "https://github.com/flexibeast/picolisp-mode"))])
+(picolisp-mode . [(20190824 806) nil "[ Obsolete; use 'plisp-mode' instead ]" tar ((:commit . "1ae7af6c310d20b31b8229dc8c1eedeb47aa3311") (:keywords "picolisp" "lisp" "programming") (:authors ("Alexis" . "flexibeast@gmail.com")) (:maintainer "Alexis" . "flexibeast@gmail.com") (:url . "https://github.com/flexibeast/picolisp-mode"))])

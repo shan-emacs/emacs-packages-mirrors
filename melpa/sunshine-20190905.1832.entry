@@ -1,0 +1,2 @@
+
+(sunshine . [(20190905 1832) ((cl-lib (0 5))) "Provide weather and forecast information." single ((:commit . "5e57899b2201dd36ae7242aa13ca82efcded3b7c") (:keywords "tools" "weather") (:authors ("Aaron Bieber" . "aaron@aaronbieber.com")) (:maintainer "Aaron Bieber" . "aaron@aaronbieber.com") (:url . "https://github.com/aaronbieber/sunshine.el"))])

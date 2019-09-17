@@ -1,68 +1,86 @@
-Fountain Mode
-=============
+# Fountain Mode #
 
-Fountain Mode is a screenwriting environment for GNU Emacs using the Fountain
-markup format. For more information on the Fountain markup format, visit
-<http://fountain.io>.
+Fountain Mode is a scriptwriting program for GNU Emacs using the
+Fountain plain text markup format.
 
-Features
---------
+For more information on the fountain markup format, visit
+<https://fountain.io>.
+
+Screenshot: <https://f002.backblazeb2.com/file/pwr-share/fountain-mode.png>
+
+## Features ##
 
 - Support for Fountain 1.1 specification
-- WYSIWYG auto-align elements (display only, does not modify file contents)
-  specific to script format, e.g. screenplay, stageplay or user-defined format
-- Traditional TAB writing style for auto-upcasing character names
-  (see [Do What I Mean])
+- WYSIWYG auto-align elements (display only, does not modify file
+  contents) specific to script format, e.g. screenplay, stageplay or
+  user-defined format
+- Navigation by section, scene, character name, or page
+- 3 levels of syntax highlighting
+- Integration with outline to fold/cycle visibility of sections and
+  scenes
+- Integration with imenu (sections, scene headings, notes)
+- Intergration with auto-insert for title page metadata
+- Traditional TAB auto-completion writing style
+- Automatically add/remove character "(CONT'D)"
 - Export to plain text, HTML, LaTeX, Final Draft (FDX), or Fountain
 - Export to standalone document or snippet
-- Optionally show approximate page count (current page of total pages) in
-  mode-line
-- Include external files with `{{ include: FILENAME }}`
-- Integration with `outline` to fold/cycle visibility of sections and scenes
-  (see [Outlining])
-- Integration with `imenu` (sections, scene headings, notes)
-- Intergration with `auto-insert` for title page metadata
-- Add/remove automatic continuation string to successively speaking characters
-- Navigation by section, scene, character name, or page
+- Emphasis (bold, italic, underlined text)
+- Include external files with {{ include: FILENAME }}
 - Optionally display scene numbers in the right margin
 - Intelligent insertion of a page breaks
-- 3 levels of element syntax highlighting
-- Automatic loading for `*.fountain` files
+- Automatic loading for *.fountain files
 - Include or omit a title page
-- Emphasis (bold, italic, underlined text)
 - Toggle visibility of emphasis delimiters and syntax characters
 - Everything is customizable
 
-Check out the Nicholl Fellowship sample script exported from Fountain Mode to:
+Check out the Nicholl Fellowship sample script exported from Fountain
+Mode to the following formats:
 
-- [Plain text](https://gist.github.com/rnkn/edd4fd20e0f6ce2ca1f75e37496e38c9/raw/)
-- [HTML](https://rawgit.com/rnkn/mcqueen/master/sample/sample.html)
-- [LaTeX](https://www.sharelatex.com/project/54ed9180966959cb7fdbde8e)
-- [Final Draft](https://gist.github.com/rnkn/f56934ac723d43c5dec63952dd99dcfd/raw/)
+- plain text: <https://f002.backblazeb2.com/file/pwr-share/Nicholl_Fellowship_sample.txt>
+- HTML: <https://f002.backblazeb2.com/file/pwr-share/fountain-export.html>
+- Final Draft: <https://f002.backblazeb2.com/file/pwr-share/fountain-export.fdx>
+- LaTeX: <https://www.overleaf.com/project/54ed9180966959cb7fdbde8e>
 
-Most common features are accessible from the menu. For a full list of functions
-and key-bindings, type C-h m.
+Most common features are accessible from the menu. For a full list of
+functions and key-bindings, type C-h m.
 
-[Do What I Mean]: https://github.com/rnkn/fountain-mode/wiki/Do-What-I-Mean
-[Outlining]: https://github.com/rnkn/fountain-mode/wiki/Outlining
-
-For more, see the [Wiki](https://github.com/rnkn/fountain-mode/wiki).
-
-Requirements
-------------
+## Requirements ##
 
 - Emacs 24.5
 - LaTeX packages for PDF export: geometry fontspec titling fancyhdr
   marginnote ulem xstring oberdiek
 
-Installation
-------------
+## Installation ##
 
-Fountain Mode is now part of GNU ELPA and can be installed with `M-x
-package-install RET fountain-mode RET`.
+The latest stable release of Fountain Mode is available via
+[MELPA-stable] and can be installed with:
 
-Reporting Bugs
---------------
+    M-x package-install RET fountain-mode RET
 
-To report bugs, please use `M-x report-emacs-bug RET` or send an email to
-<bug-gnu-emacs@gnu.org>
+Alternately, download the [latest release], move this file into your
+load-path and add to your .emacs/init.el file:
+
+    (require 'fountain-mode)
+
+If you prefer the latest but perhaps unstable version, install via
+[MELPA], or clone the repository into your load-path and require as
+above:
+
+    git clone https://github.com/rnkn/fountain-mode.git
+
+Users of Debian >=10 or Ubuntu >=18.04 can install Fountain Mode with:
+
+    sudo apt install elpa-fountain-mode
+
+[melpa]: https://melpa.org/#/fountain-mode "MELPA"
+[melpa-stable]: https://stable.melpa.org/#/fountain-mode "MELPA-stable"
+[latest release]: https://github.com/rnkn/fountain-mode/releases/latest "Fountain Mode latest release"
+
+## History ##
+
+See: <https://github.com/rnkn/fountain-mode/releases>
+
+## Bugs and Feature Requests ##
+
+To report bugs either use <https://github.com/rnkn/fountain-mode/issues>
+or send an email to <help@fountain-mode.org>.

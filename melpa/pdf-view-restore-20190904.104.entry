@@ -1,2 +1,0 @@
-
-(pdf-view-restore . [(20190904 104) ((pdf-tools (0 90)) (emacs (26 0))) "Support for opening last known pdf position in pdfview mode" single ((:commit . "fec80f7a56f7d18d499b6790fe4ca0e0769bbb55") (:keywords "files" "convenience") (:authors ("Kevin Kim" . "kevinkim1991@gmail.com")) (:maintainer "Kevin Kim" . "kevinkim1991@gmail.com") (:url . "https://github.com/007kevin/pdf-view-restore"))])

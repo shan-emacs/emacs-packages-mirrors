@@ -1,0 +1,2 @@
+
+(ivy-clojuredocs . [(20190907 2053) ((edn (1 1 2)) (ivy (0 12 0)) (emacs (24 4))) "Search for help in clojuredocs.org" single ((:commit . "dd33a25f1de4339f75f05689ed60fe1b1c97f554") (:keywords "matching") (:authors ("Wanderson Ferreira" . "iagwanderson@gmail.com")) (:maintainer "Wanderson Ferreira" . "iagwanderson@gmail.com") (:url . "https://github.com/wandersoncferreira/ivy-clojuredocs"))])

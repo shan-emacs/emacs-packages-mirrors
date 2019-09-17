@@ -1,0 +1,2 @@
+
+(annalist . [(20190905 5) ((emacs (24 4)) (cl-lib (0 5))) "Record and display information such as keybindings" tar ((:commit . "8f52a365b2876f034fbf9b335786fa6bafc9ac80") (:keywords "convenience" "tools" "keybindings" "org") (:authors ("Fox Kiester" . "noct@posteo.net")) (:maintainer "Fox Kiester" . "noct@posteo.net") (:url . "https://github.com/noctuid/annalist.el"))])
