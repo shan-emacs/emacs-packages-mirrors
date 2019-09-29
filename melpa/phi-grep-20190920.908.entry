@@ -1,0 +1,2 @@
+
+(phi-grep . [(20190920 908) ((cl-lib (0 1))) "Interactively-editable recursive grep implementation in elisp" single ((:commit . "06b740e3fb20074be9bae87530f5616a122c3aca") (:authors ("zk_phi")) (:maintainer "zk_phi") (:url . "http://github.com/zk-phi/phi-grep"))])

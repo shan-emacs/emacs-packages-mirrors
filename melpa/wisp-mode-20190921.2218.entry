@@ -1,0 +1,2 @@
+
+(wisp-mode . [(20190921 2218) nil "Tools for wisp: the Whitespace-to-Lisp preprocessor" tar ((:commit . "0d2c025ac4cfd394706c07fbb60999eaf711020b") (:keywords "languages" "lisp") (:authors ("Arne Babenhauserheide" . "arne_bab@web.de")) (:maintainer "Arne Babenhauserheide" . "arne_bab@web.de"))])

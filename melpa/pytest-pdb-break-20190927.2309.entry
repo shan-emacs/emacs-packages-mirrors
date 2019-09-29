@@ -1,0 +1,2 @@
+
+(pytest-pdb-break . [(20190927 2309) ((emacs (25))) "A pytest PDB launcher" tar ((:commit . "82bf5ce16ef2b1ec77d78e93b4bd6c2d954fd233") (:keywords "languages" "tools") (:authors ("Jane Soko" . "poppyschmo@protonmail.com")) (:maintainer "Jane Soko" . "poppyschmo@protonmail.com") (:url . "https://github.com/poppyschmo/pytest-pdb-break"))])

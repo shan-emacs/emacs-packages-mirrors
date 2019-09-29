@@ -1,0 +1,2 @@
+
+(helm-fd . [(20190923 48) ((emacs (26 2)) (helm (3 3))) "Helm interface for fd command." single ((:commit . "84a2aa656473f2921e35abad62b158b3813ee944") (:keywords "fd" "find" "files" "helm" "fast") (:authors ("Romain Leroux" . "romain@leroux.dev")) (:maintainer "Romain Leroux" . "romain@leroux.dev") (:url . "https://github.com/lerouxrgd/helm-fd"))])

@@ -1,2 +1,0 @@
-
-(auto-indent-mode . [(20190917 1430) nil "Auto indent Minor mode" tar ((:commit . "e6da518d5d8c3137b4f0a437a845401e34e6f193") (:keywords "auto" "indentation") (:authors ("Matthew L. Fidler, Le Wang & Others")) (:maintainer "Matthew L. Fidler") (:url . "https://github.com/mlf176f2/auto-indent-mode.el/"))])

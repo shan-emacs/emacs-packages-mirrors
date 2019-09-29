@@ -1,2 +1,2 @@
 
-(dash-functional . [(20180107 1618) ((dash (2 0 0)) (emacs (24))) "Collection of useful combinators for Emacs Lisp" single ((:commit . "11907f4592ff1813536366d54245d3ecf6b99198") (:keywords "lisp" "functions" "combinators"))])
+(dash-functional . [(20180107 1618) ((dash (2 0 0)) (emacs (24))) "Collection of useful combinators for Emacs Lisp" single ((:commit . "a743ae3da1d5869434c6f262bbe45ef30d87cb9c") (:keywords "lisp" "functions" "combinators"))])

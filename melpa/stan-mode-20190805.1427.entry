@@ -1,2 +1,0 @@
-
-(stan-mode . [(20190805 1427) nil "Major mode for editing Stan files" tar ((:commit . "e60fe0caecb8e84d0b8fc160a0cdf8343e33d905") (:keywords "languanges") (:authors ("Jeffrey Arnold" . "jeffrey.arnold@gmail.com") ("Daniel Lee" . "bearlee@alum.mit.edu")) (:maintainer "Jeffrey Arnold" . "jeffrey.arnold@gmail.com") (:url . "http://github.com/stan-dev/stan-mode"))])

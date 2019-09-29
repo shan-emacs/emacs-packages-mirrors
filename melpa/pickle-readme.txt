@@ -1,9 +1,7 @@
 A major mode for handling Gherkin files and syntax highlighting.
 
-General Remarks:
+This mode is not coupled to an underlying Cucumber system such as feature-mode.
 
-XXX: This mode assumes that block comments are not nested inside block
-XXX: comments
+If you want a full-fledged IDE like experience, see: feature-mode (no affiliation).
 
-Exported names start with "pickle-"; private names start with
-"pickle--".
+If you just want syntax highlighting in a lightweight mode, use this.

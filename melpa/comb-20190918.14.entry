@@ -1,0 +1,2 @@
+
+(comb . [(20190918 14) ((emacs (25 1))) "Interactive grep tool for manual static analysis" tar ((:commit . "a68fd0274592e8dcca28a337c9ee913cb84efa9b") (:keywords "matching") (:authors ("Andrea Cardaci" . "cyrus.and@gmail.com")) (:maintainer "Andrea Cardaci" . "cyrus.and@gmail.com") (:url . "https://github.com/cyrus-and/comb"))])

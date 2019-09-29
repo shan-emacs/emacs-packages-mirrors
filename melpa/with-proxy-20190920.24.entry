@@ -1,0 +1,2 @@
+
+(with-proxy . [(20190920 24) ((emacs (24 4))) "Evaluate expressions with proxy" single ((:commit . "a7506af86ffc943f5d4cba712ec661125799c30b") (:keywords "comm") (:authors ("Gong Qijian" . "gongqijian@gmail.com")) (:maintainer "Gong Qijian" . "gongqijian@gmail.com") (:url . "https://github.com/twlz0ne/with-proxy.el"))])

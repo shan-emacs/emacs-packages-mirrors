@@ -1,0 +1,2 @@
+
+(diminish-buffer . [(20190921 1647) ((emacs (24 4))) "Diminish (hide) buffers from buffer-menu." single ((:commit . "e137baa5e258a7938c713253fc9cc63f8674f841") (:authors ("Shen, Jen-Chieh" . "jcs090218@gmail.com")) (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com") (:url . "https://github.com/jcs090218/diminish-buffer"))])

@@ -1,0 +1,2 @@
+
+(hercules . [(20190920 518) ((emacs (24 4)) (which-key (3 3 2))) "An auto-magical, which-key-based hydra banisher." single ((:commit . "e6fcb0df3fe877bec2d708f4d034da685d8a1081") (:keywords "convenience") (:authors ("Uros Perisic")) (:maintainer "Uros Perisic") (:url . "https://gitlab.com/jjzmajic/hercules"))])

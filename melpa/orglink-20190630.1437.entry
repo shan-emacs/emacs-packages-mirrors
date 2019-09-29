@@ -1,2 +1,0 @@
-
-(orglink . [(20190630 1437) ((emacs (24 3)) (dash (2 12 1)) (org (9 3))) "use Org Mode links in other modes" single ((:commit . "30e27843fbe916c26b4fe15948415b9c44e9d153") (:keywords "hypertext") (:authors ("Jonas Bernoulli" . "jonas@bernoul.li")) (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li") (:url . "https://github.com/tarsius/orglink"))])

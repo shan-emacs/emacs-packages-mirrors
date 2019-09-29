@@ -35,6 +35,7 @@ attribute of hyperlinks to the bibliography slide.
 Furthermore, the following variables of `org-ref' are changed by
 this package:
 - `org-ref-bib-html' is set to the empty string
+- `org-ref-bib-html-sorted' is set to t
 - `org-ref-printbibliography-cmd' is configured not to produce a
   heading (as the bibliography slide has a heading already)
 - `org-ref-ref-html' is configured to link to the bibliography

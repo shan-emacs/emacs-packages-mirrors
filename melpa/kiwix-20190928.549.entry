@@ -1,0 +1,2 @@
+
+(kiwix . [(20190928 549) ((emacs (24 4)) (cl-lib (0 5)) (request (0 3 0))) "Searching offline Wikipedia through Kiwix." single ((:commit . "6c4d80aad04aa5c0f98f559e3cd7a12542ad05cf") (:keywords "kiwix" "wikipedia") (:authors ("stardiviner" . "numbchild@gmail.com")) (:maintainer "stardiviner" . "numbchild@gmail.com") (:url . "https://github.com/stardiviner/kiwix.el"))])

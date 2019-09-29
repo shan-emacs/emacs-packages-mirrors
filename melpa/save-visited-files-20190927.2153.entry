@@ -1,0 +1,2 @@
+
+(save-visited-files . [(20190927 2153) nil "save opened files across sessions" single ((:commit . "0b61c9bd16947bd99ccd61208bd481325e8c5cba") (:authors ("Nathaniel Flath" . "nflath@gmail.com")) (:maintainer "Nathaniel Flath" . "nflath@gmail.com") (:url . "http://github.com/nflath/save-visited-files"))])

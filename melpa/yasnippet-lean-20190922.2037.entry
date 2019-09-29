@@ -1,0 +1,2 @@
+
+(yasnippet-lean . [(20190922 2037) ((yasnippet (0 8 0))) "Collection of snippets for the Lean prover" tar ((:commit . "9119be08a32286d3e8559138e8ae003856ae1c0a") (:keywords "convenience" "snippets" "leanprover") (:maintainer "Simon Hudon" . "simon.hudon@gmail.com") (:url . "https://github.com/leanprover-community/yasnippet-lean"))])

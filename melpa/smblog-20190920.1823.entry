@@ -1,0 +1,2 @@
+
+(smblog . [(20190920 1823) ((emacs (24 3))) "samba log viewer" single ((:commit . "fe866afbe19f804f80c37e077192576e4b0aad1a") (:authors ("Aurélien Aptel" . "aaptel@suse.com")) (:maintainer "Aurélien Aptel" . "aaptel@suse.com") (:url . "http://github.com/aaptel/smblog-mode"))])

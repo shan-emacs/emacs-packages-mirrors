@@ -1,2 +1,2 @@
 
-(helm-fuz . [(20190815 401) ((emacs (25 1)) (fuz (1 3 0)) (helm (3 2))) "Integrate Helm and Fuz" single ((:commit . "f4e30922952470984460d6617e35939aa97640dd") (:keywords "convenience") (:authors ("Zhu Zihao" . "all_but_last@163.com")) (:maintainer "Zhu Zihao" . "all_but_last@163.com") (:url . "https://github.com/cireu/fuz.el"))])
+(helm-fuz . [(20190815 401) ((emacs (25 1)) (fuz (1 3 0)) (helm (3 2))) "Integrate Helm and Fuz" single ((:commit . "aba5570063346cb615c61616ce145ed7daf27428") (:keywords "convenience") (:authors ("Zhu Zihao" . "all_but_last@163.com")) (:maintainer "Zhu Zihao" . "all_but_last@163.com") (:url . "https://github.com/cireu/fuz.el"))])

@@ -23,14 +23,15 @@
 
             <div class="container">
 <h2 class="package">csv-mode</h2><dl><dt>Description</dt><dd>Major mode for editing comma/char separated values</dd>
-<dt>Latest</dt> <dd><a href="csv-mode-1.7.el">csv-mode-1.7.el</a>, 2017-Dec-05, 58.4&nbsp;KiB</dd>
+<dt>Latest</dt> <dd><a href="csv-mode-1.9.el">csv-mode-1.9.el</a>, 2019-Sep-24, 69.6&nbsp;KiB</dd>
 <dt>Home page</dt> <dd><a href="http://elpa.gnu.org/packages/csv-mode.html">http://elpa.gnu.org/packages/csv-mode.html</a></dd>
 <dt>Browse repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/csv-mode">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/csv-mode">Gitweb</a></dd>
 </dl><p>To install this package, run in Emacs:</p>
                        <pre>M-x <span class="kw">package-install</span> RET <span class="kw">csv-mode</span> RET</pre><h2>Full description</h2><pre>
 This package implements CSV mode, a major mode for editing records
 in a generalized CSV (character-separated values) format.  It binds
-finds with prefix ".csv" to `csv-mode' in `auto-mode-alist'.
+files with prefix ".csv" to `csv-mode' (and ".tsv" to `tsv-mode') in
+`auto-mode-alist'.
 
 In CSV mode, the following commands are available:
 
@@ -47,10 +48,11 @@ In CSV mode, the following commands are available:
   multiple killed fields can be yanked only as a fixed group
   equivalent to a single field.
 
-- C-c C-a (`csv-align-fields') aligns fields into columns
-
-- C-c C-u (`csv-unalign-fields') undoes such alignment; separators
-  can be hidden within aligned records.
+- `csv-align-fields-mode' keeps fields visually aligned, on-the-fly.
+  Alternatively, C-c C-a (`csv-align-fields') aligns fields into columns
+  and C-c C-u (`csv-unalign-fields') undoes such alignment;
+  separators can be hidden within aligned records (controlled by
+  `csv-invisibility-default' and `csv-toggle-invisibility').
 
 - C-c C-t (`csv-transpose') interchanges rows and columns.  For
   details, see the documentation for the individual commands.
@@ -61,9 +63,10 @@ characters, specified by the value of the customizable user option
 characters (and must if they contain separator characters).  This
 implementation supports quoted fields, where the quote characters
 allowed are specified by the value of the customizable user option
-`csv-field-quotes'.  By default, the only separator is a comma and
-the only field quote is a double quote.  These user options can be
-changed ONLY by customizing them, e.g. via M-x customize-variable.
+`csv-field-quotes'.  By default, the both commas and tabs are considered
+as separators and the only field quote is a double quote.
+These user options can be changed ONLY by customizing them, e.g. via M-x
+customize-variable.
 
 CSV mode commands ignore blank lines and comment lines beginning
 with the value of the buffer local variable `csv-comment-start',
@@ -86,6 +89,8 @@ byte-compile it (recommended), and put this in your .emacs file:
   "Major mode for editing comma-separated value files." t)
 </pre>
 <h2>Old versions</h2><table>
+<tr><td><a href="csv-mode-1.8.el">csv-mode-1.8.el</a></td><td>2019-Sep-18</td><td>59.1&nbsp;KiB</td>
+<tr><td><a href="csv-mode-1.7.el">csv-mode-1.7.el</a></td><td>2017-Dec-05</td><td>58.4&nbsp;KiB</td>
 <tr><td><a href="csv-mode-1.6.el">csv-mode-1.6.el</a></td><td>2016-Apr-22</td><td>55.6&nbsp;KiB</td>
 <tr><td><a href="csv-mode-1.5.el">csv-mode-1.5.el</a></td><td>2015-Jul-09</td><td>55.0&nbsp;KiB</td>
 <tr><td><a href="csv-mode-1.4.el">csv-mode-1.4.el</a></td><td>2015-May-25</td><td>54.9&nbsp;KiB</td>

@@ -1,0 +1,2 @@
+
+(organize-imports-java . [(20190922 1520) ((emacs (24)) (f (0 20 0)) (s (1 12 0)) (cl-lib (0 6))) "Automatically organize imports in Java code." single ((:commit . "de094d6d56c85aa9820c77055b54287ae6b46d20") (:authors ("Shen, Jen-Chieh" . "jcs090218@gmail.com")) (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com") (:url . "https://github.com/jcs090218/organize-imports-java"))])

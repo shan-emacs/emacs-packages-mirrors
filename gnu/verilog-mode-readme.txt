@@ -14,7 +14,7 @@ SystemVerilog is a rapidly evolving language, and hence this mode is
 under continuous development.  Please report any issues to the issue
 tracker at
 
-   http://www.veripool.org/verilog-mode
+   https://www.veripool.org/verilog-mode
 
 Please use verilog-submit-bug-report to submit a report; type C-c
 C-b to invoke this and as a result we will have a much easier time
@@ -31,7 +31,7 @@ private copy (or even a shared copy) which overrides the system
 default.
 
 You can get step by step help in installing this file by going to
-<http://www.veripool.com/verilog-mode>
+<https://www.veripool.org/verilog-mode>
 
 The short list of installation instructions are: To set up
 automatic Verilog mode, put this file in your load path, and put

@@ -1,0 +1,2 @@
+
+(haskell-mode . [(20190926 313) ((emacs (24 4))) "A Haskell editing mode" tar ((:commit . "1bee161d3cea973d4ee3ff7acf980bf2cdeb83e2") (:keywords "haskell" "cabal" "ghc" "repl") (:url . "https://github.com/haskell/haskell-mode"))])
