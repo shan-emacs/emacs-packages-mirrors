@@ -1,2 +1,0 @@
-
-(ah . [(20190905 1422) ((emacs (25 1))) "Additional hooks" single ((:commit . "401135fd94c7f2df1ce23dbed32b4efd670689c7") (:keywords "convenience") (:authors ("Takaaki ISHIKAWA <takaxp at ieee dot org>")) (:maintainer "Takaaki ISHIKAWA <takaxp at ieee dot org>") (:url . "https://github.com/takaxp/ah"))])

@@ -1,2 +1,2 @@
 
-(julia-repl . [(20190908 1717) ((emacs (25))) "A minor mode for a Julia REPL" single ((:commit . "b8155b8a1e23e1ad740fd7bd49b5d841b1365c7d") (:keywords "languages") (:authors ("Tamas Papp" . "tkpapp@gmail.com")) (:maintainer "Tamas Papp" . "tkpapp@gmail.com") (:url . "https://github.com/tpapp/julia-repl"))])
+(julia-repl . [(20190908 1717) ((emacs (25))) "A minor mode for a Julia REPL" single ((:commit . "e3c38251cbd684188812f15aa039fb66034910b7") (:keywords "languages") (:authors ("Tamas Papp" . "tkpapp@gmail.com")) (:maintainer "Tamas Papp" . "tkpapp@gmail.com") (:url . "https://github.com/tpapp/julia-repl"))])

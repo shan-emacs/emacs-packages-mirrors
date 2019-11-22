@@ -1,0 +1,2 @@
+
+(adafruit-wisdom . [(20190714 146) ((emacs (25)) (request (0 3 1))) "Get/display adafruit.com quotes" single ((:commit . "c18c0f24ddc52d265e678798f5baca35bd58255e") (:keywords "games") (:authors ("Neil Okamoto" . "neil.okamoto+melpa@gmail.com")) (:maintainer "Neil Okamoto" . "neil.okamoto+melpa@gmail.com") (:url . "https://github.com/gonewest818/adafruit-wisdom.el"))])

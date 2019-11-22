@@ -1,0 +1,2 @@
+
+(cangjie . [(20190929 1221) ((emacs (24 4)) (s (1 12 0)) (dash (2 14 1)) (f (0 2 0))) "Retrieve cangjie code for han characters" tar ((:commit . "0a703f4d1162259d77bfb3f862d13c1b1f11a711") (:keywords "convenience" "writing") (:url . "https://github.com/kisaragi-hiu/cangjie.el"))])

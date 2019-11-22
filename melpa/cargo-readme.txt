@@ -23,3 +23,4 @@ Current supported Cargo Key Combinations:
  * C-c C-c C-a - cargo-process-add
  * C-c C-c C-D - cargo-process-rm
  * C-c C-c C-U - cargo-process-upgrade
+ * C-c C-c C-A - cargo-process-audit

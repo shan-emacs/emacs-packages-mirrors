@@ -1,0 +1,2 @@
+
+(info-rename-buffer . [(20191005 2346) ((emacs (24 3))) "Rename Info buffers to match manuals" single ((:commit . "c983ae687481f39b8fd0d4ee9d85fd82b6a4ba03") (:keywords "help") (:authors ("Bruno Félix Rezende Ribeiro" . "oitofelix@gnu.org")) (:maintainer "Bruno Félix Rezende Ribeiro" . "oitofelix@gnu.org") (:url . "https://github.com/oitofelix/info-rename-buffer"))])

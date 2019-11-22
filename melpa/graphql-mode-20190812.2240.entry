@@ -1,2 +1,0 @@
-
-(graphql-mode . [(20190812 2240) ((emacs (24 3))) "Major mode for editing GraphQL schemas" single ((:commit . "3581ad03e04b11c67d4882cbaa9ab6af71eaf78d") (:keywords "languages") (:authors ("David Vazquez Pua" . "davazp@gmail.com")) (:maintainer "David Vazquez Pua" . "davazp@gmail.com"))])

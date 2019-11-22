@@ -1,2 +1,0 @@
-
-(pmdm . [(20151109 1836) nil "poor man's desktop-mode alternative." single ((:commit . "f50a547741568cee40bdc80fa3223157a49896e4") (:authors ("Iñigo Serna" . "inigoserna@gmail.com")) (:maintainer "Iñigo Serna" . "inigoserna@gmail.com") (:url . "https://bitbucket.com/inigoserna/pmdm.el"))])

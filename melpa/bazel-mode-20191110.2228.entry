@@ -1,0 +1,2 @@
+
+(bazel-mode . [(20191110 2228) ((emacs (26))) "A major mode for editing Bazel files" single ((:commit . "7798e33cba5db14eb2c06ddcbc4e8fa361eb679c") (:keywords "languages" "bazel") (:authors ("Neri Marschik")) (:maintainer "Neri Marschik") (:url . "https://github.com/codesuki/bazel-mode"))])

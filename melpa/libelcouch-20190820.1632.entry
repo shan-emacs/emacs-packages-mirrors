@@ -1,2 +1,2 @@
 
-(libelcouch . [(20190820 1632) ((emacs (25 1)) (request (0 3 0))) "Communication with CouchDB" single ((:commit . "fd90ff7989632452434fc19a609805f7276821f3") (:keywords "tools") (:authors ("Damien Cassou" . "damien@cassou.me")) (:maintainer "Damien Cassou" . "damien@cassou.me") (:url . "https://gitlab.petton.fr/elcouch/libelcouch/"))])
+(libelcouch . [(20190820 1632) ((emacs (25 1)) (request (0 3 0))) "Communication with CouchDB" single ((:commit . "29e369df4f96c7ad95bb33292de7a44122e0b4e7") (:keywords "tools") (:authors ("Damien Cassou" . "damien@cassou.me")) (:maintainer "Damien Cassou" . "damien@cassou.me") (:url . "https://gitlab.petton.fr/elcouch/libelcouch/"))])

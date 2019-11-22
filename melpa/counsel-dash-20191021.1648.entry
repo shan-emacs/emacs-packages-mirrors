@@ -1,0 +1,2 @@
+
+(counsel-dash . [(20191021 1648) ((emacs (24 4)) (dash-docs (1 4 0)) (counsel (0 8 0)) (cl-lib (0 5))) "Browse dash docsets using Ivy" single ((:commit . "7027868d483b51d949b9f20fb8f34b122ca61520") (:keywords "dash" "ivy" "counsel") (:authors ("Nathan Kot" . "nk@nathankot.com")) (:maintainer "Nathan Kot" . "nk@nathankot.com") (:url . "https://github.com/nathankot/counsel-dash"))])

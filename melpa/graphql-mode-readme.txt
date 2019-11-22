@@ -7,5 +7,5 @@ query.  The basic functionality includes:
 Additionally, it is able to
    - Sending GraphQL queries to an end-point URL
 
-Files with the .graphql extension are automatically opened with
-this mode.
+Files with the .graphql and .gql extensions are automatically
+opened with this mode.

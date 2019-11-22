@@ -1,0 +1,2 @@
+
+(spacemacs-theme . [(20191107 1747) nil "Color theme with a dark and light versions" tar ((:commit . "02c36aac44e0352d25741ab2abc988246e91b64f") (:keywords "color" "theme") (:url . "https://github.com/nashamri/spacemacs-theme"))])

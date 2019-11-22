@@ -1,0 +1,2 @@
+
+(flycheck-stan . [(20191107 320) ((emacs (25 1)) (flycheck (0 16 0)) (stan-mode (10 0 0))) "Add Stan support for Flycheck" tar ((:commit . "711b56bce5ec6adbcabe964342d2d0adbd0fbf6a") (:keywords "c" "languages") (:authors ("Jeffrey Arnold" . "jeffrey.arnold@gmail.com") ("Kazuki Yoshida" . "kazukiyoshida@mail.harvard.edu")) (:maintainer "Kazuki Yoshida" . "kazukiyoshida@mail.harvard.edu") (:url . "https://github.com/stan-dev/stan-mode/tree/master/flycheck-stan"))])

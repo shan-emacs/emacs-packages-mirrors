@@ -148,10 +148,10 @@ pyim 支持双拼输入模式，用户可以通过变量 `pyim-default-scheme' �
 
 *** 通过 pyim 来支持 rime 所有输入法
 
-pyim 使用 emacs 动态模块：[[https://gitlab.com/liberime/liberime][liberime]]
+pyim 使用 emacs 动态模块：[[https://github.com/merrickluo/liberime][liberime]]
 来支持 rime, 设置方式：
 
-1. 安裝 liberime, 见：[[https://gitlab.com/liberime/liberime/blob/master/README.org]] 。
+1. 安裝 liberime, 见：[[https://github.com/merrickluo/liberime]] 。
 2. 创建文件： "~/.emacs.d/pyim/rime/default.custom.yaml", 内容为：
 
    #+BEGIN_EXAMPLE
@@ -175,7 +175,7 @@ pyim 使用 emacs 动态模块：[[https://gitlab.com/liberime/liberime][liberim
 3. 參考设置：
    #+BEGIN_EXAMPLE
    (use-package liberime
-     :load-path "/path/to/liberime.[so|dll]"
+     :load-path "/path/to/liberime-module/" ;liberime.so 或者 liberime.dll 所在的目录
      :config
      ;; 注意事项:
      ;; 1. 文件路径需要用 `expand-file-name' 函数处理。
@@ -192,7 +192,12 @@ pyim 使用 emacs 动态模块：[[https://gitlab.com/liberime/liberime][liberim
    #+BEGIN_EXAMPLE
    (setq pyim-default-scheme 'rime-quanpin)
    #+END_EXAMPLE
-
+5. 如果通过 rime 使用微软双拼，可以用以下设置：
+   #+BEGIN_EXAMPLE
+   (liberime-select-schema "double_pinyin_mspy")
+   (setq pyim-default-scheme 'rime-microsoft-shuangpin)
+   #+END_EXAMPLE
+   默认是用繁体中文，想要改成简体中文的话，可以参考 [[https://github.com/rime/home/wiki/CustomizationGuide#%E4%B8%80%E4%BE%8B%E5%AE%9A%E8%A3%BD%E7%B0%A1%E5%8C%96%E5%AD%97%E8%BC%B8%E5%87%BA][rime wiki]]，或者[[http://wenshanren.org/?p=1070#orgc7dbd8e][这篇博客]]
 *** 使用五笔输入
 pyim 支持五笔输入模式，用户可以通过变量 `pyim-default-scheme' 来设定：
 

@@ -1,2 +1,0 @@
-
-(dianyou . [(20190604 1215) ((emacs (24 4))) "Search and analyze mails in Gnus" single ((:commit . "46d3328998ed20b37c4b52722d52d4d579e4f5d3") (:keywords "mail") (:authors ("Chen Bin <chenbin DOT sh AT gmail DOT com>")) (:maintainer "Chen Bin <chenbin DOT sh AT gmail DOT com>") (:url . "http://github.com/redguardtoo/dianyou"))])

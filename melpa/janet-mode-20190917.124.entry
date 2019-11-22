@@ -1,2 +1,0 @@
-
-(janet-mode . [(20190917 124) ((emacs (24 3))) "Defines a major mode for Janet" single ((:commit . "349eba576455f1c8f40acaa77ef222bf6432c4e7") (:authors ("Adam Schwalm" . "adamschwalm@gmail.com")) (:maintainer "Adam Schwalm" . "adamschwalm@gmail.com") (:url . "https://github.com/ALSchwalm/janet-mode"))])

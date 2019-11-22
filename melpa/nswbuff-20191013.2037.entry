@@ -1,0 +1,2 @@
+
+(nswbuff . [(20191013 2037) ((emacs (25 1))) "Quick switching between buffers." single ((:commit . "19c04c1042fa1ff45bf923e9e50271c0bb57268d") (:keywords "extensions" "convenience") (:authors ("David Ponce" . "david@dponce.com") ("Kahlil (Kal) HODGSON" . "dorge@tpg.com.au") ("Joost Kremers" . "joostkremers@fastmail.fm")) (:maintainer "Joost Kremers" . "joostkremers@fastmail.fm") (:url . "https://github.com/joostkremers/nswbuff"))])

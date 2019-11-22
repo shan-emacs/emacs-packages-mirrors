@@ -1,0 +1,2 @@
+
+(company-try-hard . [(20191106 2105) ((emacs (24 3)) (company (0 8 0)) (dash (2 0))) "get all completions from company backends" single ((:commit . "8a417255b4da9f2e3889f6024755290dcc5884d1") (:keywords "matching") (:authors ("Wilfred Hughes" . "me@wilfred.me.uk")) (:maintainer "Wilfred Hughes" . "me@wilfred.me.uk") (:url . "https://github.com/Wilfred/company-try-hard"))])

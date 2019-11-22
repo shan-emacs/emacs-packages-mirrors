@@ -1,0 +1,2 @@
+
+(kakoune . [(20191017 1502) ((ryo-modal (0 4)) (multiple-cursors (1 4)) (expand-region (0 11 0)) (emacs (25 1))) "A simulation, but not emulation, of kakoune" tar ((:commit . "d73d14e69ea38076af50cc69f846808383ff539d") (:authors ("Joseph Morag" . "jm4157@columbia.edu")) (:maintainer "Joseph Morag" . "jm4157@columbia.edu") (:url . "https://github.com/jmorag/kakoune.el"))])

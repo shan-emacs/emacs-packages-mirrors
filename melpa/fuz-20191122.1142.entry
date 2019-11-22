@@ -1,0 +1,2 @@
+
+(fuz . [(20191122 1142) ((emacs (25 1))) "Fast and precise fuzzy scoring/matching utils" tar ((:commit . "2ad7caa56efb32862d5f1d9dd74e9101df31b928") (:keywords "lisp") (:authors ("Zhu Zihao" . "all_but_last@163.com")) (:maintainer "Zhu Zihao" . "all_but_last@163.com") (:url . "https://github.com/cireu/fuz.el"))])

@@ -1,0 +1,2 @@
+
+(todotxt-mode . [(20191017 1319) nil "Major mode for editing todo.txt files" single ((:commit . "ec94ac719e2f879c474d29e21dc84353b20258d7") (:keywords "wp" "files") (:authors ("Adolfo Villafiorita" . "adolfo.villafiorita@me.com")) (:maintainer "Adolfo Villafiorita" . "adolfo.villafiorita@me.com"))])

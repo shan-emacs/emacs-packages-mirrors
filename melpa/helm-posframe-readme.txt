@@ -6,9 +6,10 @@ to show its candidate menu.
 
 NOTE: helm-posframe requires Emacs 26
 
-** How to enable helm-posframe
+** How to enable and disable helm-posframe
    #+BEGIN_EXAMPLE
    (helm-posframe-enable)
+   (helm-posframe-disable)
    #+END_EXAMPLE
 
 ** Tips

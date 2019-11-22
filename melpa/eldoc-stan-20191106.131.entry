@@ -1,0 +1,2 @@
+
+(eldoc-stan . [(20191106 131) ((emacs (25)) (stan-mode (10 0 0))) "Eldoc support for stan functions" tar ((:commit . "711b56bce5ec6adbcabe964342d2d0adbd0fbf6a") (:keywords "help" "tools") (:authors ("Kazuki Yoshida" . "kazukiyoshida@mail.harvard.edu")) (:maintainer "Kazuki Yoshida" . "kazukiyoshida@mail.harvard.edu") (:url . "https://github.com/stan-dev/stan-mode/tree/master/eldoc-stan"))])

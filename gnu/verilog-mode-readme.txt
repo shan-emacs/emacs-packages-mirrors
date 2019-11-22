@@ -39,7 +39,7 @@ the following in code (please un comment it first!) in your
 .emacs, or in your site's site-load.el
 
   (autoload 'verilog-mode "verilog-mode" "Verilog mode" t )
-  (add-to-list 'auto-mode-alist '("\\.[ds]?vh?\\'" . verilog-mode))
+  (add-to-list 'auto-mode-alist '("\\.[ds]?va?h?\\'" . verilog-mode))
 
 Be sure to examine at the help for verilog-auto, and the other
 verilog-auto-* functions for some major coding time savers.

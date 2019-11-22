@@ -1,0 +1,2 @@
+
+(dtk . [(20191016 103) ((emacs (24 4)) (cl-lib (0 6 1)) (dash (2 12 0)) (seq (1 9)) (s (1 9))) "access SWORD content via diatheke" single ((:commit . "abf5f50fd2bd2697f0c07991ab05e0132ae7f50d") (:keywords "hypermedia") (:authors ("David Thompson")) (:maintainer "David Thompson") (:url . "https://github.com/dtk01/dtk.el"))])

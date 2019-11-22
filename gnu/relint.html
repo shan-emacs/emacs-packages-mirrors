@@ -23,7 +23,7 @@
 
             <div class="container">
 <h2 class="package">relint</h2><dl><dt>Description</dt><dd>Elisp regexp mistake finder</dd>
-<dt>Latest</dt> <dd><a href="relint-1.10.el">relint-1.10.el</a>, 2019-Aug-10, 59.3&nbsp;KiB</dd>
+<dt>Latest</dt> <dd><a href="relint-1.11.tar">relint-1.11.tar</a>, 2019-Sep-29,  140&nbsp;KiB</dd>
 <dt>Home page</dt> <dd><a href="https://github.com/mattiase/relint">https://github.com/mattiase/relint</a></dd>
 <dt>Browse ELPA's repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/?h=externals/relint">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=shortlog;h=refs/heads/externals/relint">Gitweb</a></dd>
 </dl><p>To install this package, run in Emacs:</p>
@@ -237,18 +237,19 @@ skip-syntax-backward.
     purposes, consider using other delimiters than square brackets;
     displaying the regexp 0-9 as [0-9] is very misleading.
 
-  - Invalid char 'X' in syntax string A string argument to
+  - Invalid char 'X' in syntax string
 
-    skip-syntax-forward or skip-syntax-backward contains a character
-    that doesn't indicate a syntax class. Such a string is not a
-    regexp or skip-set, but just a string of syntax codes, possibly
-    with a leading ^ for negation.
+    A string argument to skip-syntax-forward or skip-syntax-backward
+    contains a character that doesn't indicate a syntax class. Such a
+    string is not a regexp or skip-set, but just a string of syntax
+    codes, possibly with a leading ^ for negation.
 
   - Duplicated char 'X' in syntax string
 
     A string argument to skip-syntax-forward or skip-syntax-backward
-    contains a duplicated character, which is pointless and may
-    indicate a mistake.
+    contains a duplicated class, which is pointless and may indicate a
+    mistake. Note that some characters indicate the same syntax class:
+    '.' and ' ' (space) both mean the 'space' class.
 
   - Empty syntax string
 
@@ -282,6 +283,7 @@ skip-syntax-backward.
 
 </pre>
 <h2>Old versions</h2><table>
+<tr><td><a href="relint-1.10.el">relint-1.10.el</a></td><td>2019-Aug-10</td><td>59.3&nbsp;KiB</td>
 <tr><td><a href="relint-1.9.el">relint-1.9.el</a></td><td>2019-Aug-04</td><td>55.4&nbsp;KiB</td>
 <tr><td><a href="relint-1.8.el">relint-1.8.el</a></td><td>2019-May-26</td><td>46.0&nbsp;KiB</td>
 <tr><td><a href="relint-1.7.el">relint-1.7.el</a></td><td>2019-Apr-13</td><td>46.1&nbsp;KiB</td>
@@ -289,6 +291,10 @@ skip-syntax-backward.
 <tr><td><a href="relint-1.5.el">relint-1.5.el</a></td><td>2019-Mar-26</td><td>40.2&nbsp;KiB</td>
 </table>
 <h2>News</h2><pre>
+Version 1.11:
+- Improved evaluator, now handling limited local variable mutation
+- Bug fixes
+- Test suite
 Version 1.10:
 - Check arguments to `skip-syntax-forward' and `skip-syntax-backward'
 - Add error suppression mechanism

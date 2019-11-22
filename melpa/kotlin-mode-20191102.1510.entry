@@ -1,0 +1,2 @@
+
+(kotlin-mode . [(20191102 1510) ((emacs (24 3))) "Major mode for kotlin" tar ((:commit . "ab610996820b5cbdb032edbf8747661131603ab8") (:keywords "languages") (:authors ("Shodai Yokoyama" . "quantumcars@gmail.com")) (:maintainer "Shodai Yokoyama" . "quantumcars@gmail.com"))])

@@ -1,0 +1,2 @@
+
+(per-buffer-theme . [(20191101 2333) ((cl-lib (0 5))) "Change theme according to buffer name or major mode." single ((:commit . "7df4d2f4be64dbcf0bf10a2b9ac3db858fbcd9c8") (:keywords "themes") (:authors ("Iñigo Serna" . "inigoserna@gmx.com")) (:maintainer "Iñigo Serna" . "inigoserna@gmx.com") (:url . "https://hg.serna.eu/emacs/per-buffer-theme"))])

@@ -1,2 +1,0 @@
-
-(connection . [(20140718 329) nil "TCP-based client connection" single ((:commit . "6edc1d0a4156d33c3da0c1649c308b809fda46e1") (:keywords "network") (:authors ("Torsten Hilbrich" . "torsten.hilbrich@gmx.net")) (:maintainer "Torsten Hilbrich" . "torsten.hilbrich@gmx.net"))])

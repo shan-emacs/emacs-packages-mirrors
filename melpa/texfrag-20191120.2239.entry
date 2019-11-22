@@ -1,0 +1,2 @@
+
+(texfrag . [(20191120 2239) ((emacs (25)) (auctex (11 90 2))) "preview LaTeX fragments in alien major modes" single ((:commit . "04b0358ec2e47157c9adc3c99949bf62adff5bf7") (:keywords "tex" "languages" "wp") (:authors ("Tobias Zawada" . "i@tn-home.de")) (:maintainer "Tobias Zawada" . "i@tn-home.de") (:url . "https://github.com/TobiasZawada/texfrag"))])

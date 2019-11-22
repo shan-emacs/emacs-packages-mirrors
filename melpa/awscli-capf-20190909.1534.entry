@@ -1,2 +1,0 @@
-
-(awscli-capf . [(20190909 1534) ((emacs (26))) "Completion at point function for the AWS CLI" single ((:commit . "6670b4db6bd35f0ea9ede598a9c17384046f4400") (:keywords "tools" "convenience" "abbrev") (:authors ("Sebastian Monia" . "smonia@outlook.com")) (:maintainer "Sebastian Monia" . "smonia@outlook.com") (:url . "https://github.com/sebasmonia/awscli-capf.git"))])

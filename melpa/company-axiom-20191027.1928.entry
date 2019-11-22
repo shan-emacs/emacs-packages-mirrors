@@ -1,0 +1,2 @@
+
+(company-axiom . [(20191027 1928) ((emacs (24)) (company (0 9)) (axiom-environment (20171021))) "A company-mode backend for the axiom-environment system" single ((:commit . "3e7885d694efef923e7b53827d277c28bfa09320") (:keywords "axiom" "openaxiom" "fricas" "axiom-environment") (:authors ("Paul Onions" . "paul.onions@acm.org")) (:maintainer "Paul Onions" . "paul.onions@acm.org"))])

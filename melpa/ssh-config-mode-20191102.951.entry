@@ -1,0 +1,2 @@
+
+(ssh-config-mode . [(20191102 951) nil "Mode for fontification of ~/.ssh/config" tar ((:commit . "41567507479c8cba0e3d6b140faccf826017f7aa") (:keywords "ssh" "config" "emacs") (:authors ("Harley Gorrell" . "harley@panix.com")) (:maintainer "Harley Gorrell" . "harley@panix.com") (:url . "https://github.com/jhgorrell/ssh-config-mode-el"))])

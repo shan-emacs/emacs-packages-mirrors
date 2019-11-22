@@ -1,2 +1,0 @@
-
-(org-sidebar . [(20190923 2231) ((emacs (26 1)) (s (1 10 0)) (dash (2 13)) (dash-functional (1 2 0)) (org (9 0)) (org-ql (0 2)) (org-super-agenda (1 0))) "Helpful sidebar for Org buffers" single ((:commit . "12df3c76e35de3e52b59678133e452785454f96b") (:keywords "hypermedia" "outlines" "org" "agenda") (:authors ("Adam Porter" . "adam@alphapapa.net")) (:maintainer "Adam Porter" . "adam@alphapapa.net") (:url . "https://github.com/alphapapa/org-sidebar"))])

@@ -23,7 +23,8 @@
 
             <div class="container">
 <h2 class="package">csv-mode</h2><dl><dt>Description</dt><dd>Major mode for editing comma/char separated values</dd>
-<dt>Latest</dt> <dd><a href="csv-mode-1.9.el">csv-mode-1.9.el</a>, 2019-Sep-24, 69.6&nbsp;KiB</dd>
+<dt>Latest</dt> <dd><a href="csv-mode-1.10.el">csv-mode-1.10.el</a>, 2019-Oct-22, 80.2&nbsp;KiB</dd>
+<dt>Maintainer</dt> <dd>emacs-devel@gnu.org</dd>
 <dt>Home page</dt> <dd><a href="http://elpa.gnu.org/packages/csv-mode.html">http://elpa.gnu.org/packages/csv-mode.html</a></dd>
 <dt>Browse repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/csv-mode">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/csv-mode">Gitweb</a></dd>
 </dl><p>To install this package, run in Emacs:</p>
@@ -48,7 +49,9 @@ In CSV mode, the following commands are available:
   multiple killed fields can be yanked only as a fixed group
   equivalent to a single field.
 
-- `csv-align-fields-mode' keeps fields visually aligned, on-the-fly.
+- `csv-align-mode' keeps fields visually aligned, on-the-fly.
+  It truncates fields to a maximum width that can be changed per-column
+  with `csv-align-set-column-width'.
   Alternatively, C-c C-a (`csv-align-fields') aligns fields into columns
   and C-c C-u (`csv-unalign-fields') undoes such alignment;
   separators can be hidden within aligned records (controlled by
@@ -89,6 +92,7 @@ byte-compile it (recommended), and put this in your .emacs file:
   "Major mode for editing comma-separated value files." t)
 </pre>
 <h2>Old versions</h2><table>
+<tr><td><a href="csv-mode-1.9.el">csv-mode-1.9.el</a></td><td>2019-Sep-24</td><td>69.6&nbsp;KiB</td>
 <tr><td><a href="csv-mode-1.8.el">csv-mode-1.8.el</a></td><td>2019-Sep-18</td><td>59.1&nbsp;KiB</td>
 <tr><td><a href="csv-mode-1.7.el">csv-mode-1.7.el</a></td><td>2017-Dec-05</td><td>58.4&nbsp;KiB</td>
 <tr><td><a href="csv-mode-1.6.el">csv-mode-1.6.el</a></td><td>2016-Apr-22</td><td>55.6&nbsp;KiB</td>

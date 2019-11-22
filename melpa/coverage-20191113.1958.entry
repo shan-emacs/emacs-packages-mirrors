@@ -1,0 +1,2 @@
+
+(coverage . [(20191113 1958) ((ov (1 0)) (cl-lib (0 5))) "Code coverage line highlighting" single ((:commit . "6e3c6f2dcb759a76086adeeb1fdfe83e4f082482") (:keywords "coverage" "metrics" "simplecov" "ruby" "rspec") (:authors ("Kieran Trezona-le Comte" . "trezona.lecomte@gmail.com")) (:maintainer "Kieran Trezona-le Comte" . "trezona.lecomte@gmail.com") (:url . "https://github.com/trezona-lecomte/coverage"))])

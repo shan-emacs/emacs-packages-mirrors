@@ -1,0 +1,2 @@
+
+(pc-bufsw . [(20191014 848) nil "PC style quick buffer switcher" single ((:commit . "a7c7bba4b7d511eceaaa8fee34d598296402555b") (:keywords "buffer") (:authors ("Igor Bukanov" . "igor@mir2.org")) (:maintainer "Igor Bukanov" . "igor@mir2.org") (:url . "https://github.com/ibukanov/pc-bufsw"))])

@@ -41,7 +41,6 @@ otherwise:
 
     ;;; init.el --- user init file
     (setq load-prefer-newer t)
-    (add-to-list 'load-path "/path/to/dash")
     (add-to-list 'load-path "/path/to/packed")
     (add-to-list 'load-path "/path/to/auto-compile")
     (require 'auto-compile)
@@ -54,6 +53,18 @@ at the end of the very first line.  That way all user files benefit
 from the protection offered by `load-prefer-newer' and the modes
 that are defined here, otherwise `~/.emacs.d/init.el' is the only
 exception.
+
+If you are using Emacs 27 or later, then these settings should be
+placed in `early-init.el', which should never be compiled:
+
+    ;;; early-init.el --- early bird  -*- no-byte-compile: t -*-
+    (setq load-prefer-newer t)
+    (add-to-list 'load-path "/path/to/packed")
+    (add-to-list 'load-path "/path/to/auto-compile")
+    (require 'auto-compile)
+    (auto-compile-on-load-mode)
+    (auto-compile-on-save-mode)
+    ;;; early-init.el ends here
 
 Usage
 -----

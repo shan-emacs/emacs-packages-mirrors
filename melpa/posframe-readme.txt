@@ -7,7 +7,9 @@ The main advantages are:
 1. It is fast enough for daily usage :-)
 2. It works well with CJK languages.
 
-NOTE: For MacOS users, posframe needs Emacs version >= 26.0.91
+NOTE:
+1. For MacOS users, posframe needs Emacs version >= 26.0.91
+2. Posframe will be very very slow when emacs is built with --with-x-toolkit=athena.
 
 [[./snapshots/posframe-1.png]]
 

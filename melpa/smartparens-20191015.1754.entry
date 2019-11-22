@@ -1,0 +1,2 @@
+
+(smartparens . [(20191015 1754) ((dash (2 13 0)) (cl-lib (0 3))) "Automatic insertion, wrapping and paredit-like navigation with user defined pairs." tar ((:commit . "9738360eb2afb58b4c21815f9d5c793b8125f540"))])

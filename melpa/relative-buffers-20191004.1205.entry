@@ -1,0 +1,2 @@
+
+(relative-buffers . [(20191004 1205) ((cl-lib (0 5)) (dash (2 6 0)) (s (1 9 0)) (f (0 16 2))) "Emacs buffers naming convention" single ((:commit . "6064cd0b3cbd42c4a46c70fc396f05be71f42bd6") (:authors ("Artem Malyshev" . "proofit404@gmail.com")) (:maintainer "Artem Malyshev" . "proofit404@gmail.com") (:url . "https://github.com/proofit404/relative-buffers"))])

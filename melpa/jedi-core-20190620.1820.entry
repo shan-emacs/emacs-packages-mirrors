@@ -1,2 +1,0 @@
-
-(jedi-core . [(20190620 1820) ((emacs (24)) (epc (0 1 0)) (python-environment (0 0 2)) (cl-lib (0 5))) "Common code of jedi.el and company-jedi.el" tar ((:commit . "d9b53d2ca103c46686f6fb4aa92d8af403107982") (:authors ("Takafumi Arakaki <aka.tkf at gmail.com>")) (:maintainer "Takafumi Arakaki <aka.tkf at gmail.com>"))])

@@ -6,6 +6,7 @@ Features offered:
 * Anzu and multiple-cursors counter
 * Version control status indicator
 * Flycheck status indicator
+* Flymake support
 * Lightweight with no dependencies
 
 To enable mood-line:

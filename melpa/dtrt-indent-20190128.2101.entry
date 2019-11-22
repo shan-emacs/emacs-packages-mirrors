@@ -1,2 +1,0 @@
-
-(dtrt-indent . [(20190128 2101) nil "Adapt to foreign indentation offsets" tar ((:commit . "9ab9cb9d7f391fb09f61c9289c51c36374ddbcbb") (:keywords "convenience" "files" "languages" "c") (:authors ("Julian Scheid" . "julians37@googlemail.com")) (:maintainer "Reuben Thomas" . "rrt@sc3d.org"))])

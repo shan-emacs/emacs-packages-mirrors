@@ -1,2 +1,0 @@
-
-(poet-theme . [(20190127 2220) nil "A theme for prose." tar ((:commit . "d84f7b259cc9b6ff8d442cf4c38bd6c7065ff8f4") (:authors ("Kunal Bhalla" . "bhalla.kunal@gmail.com")) (:maintainer "Kunal Bhalla" . "bhalla.kunal@gmail.com") (:url . "https://github.com/kunalb/poet/"))])

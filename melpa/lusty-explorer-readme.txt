@@ -21,9 +21,13 @@ To create a new buffer with the given name, press C-x e.  To open dired at
 the current viewed directory, press C-x d.
 
 Note: lusty-explorer.el benefits greatly from byte-compilation.  To byte-
-compile this library, M-x byte-compile-file and choose lusty-explorer.el.
-(Ignore any warnings about the cl package.) Then, restart Emacs or
-M-x load-library and choose the newly generated lusty-explorer.elc file.
+compile this library:
+
+   $ emacs -Q -batch -f batch-byte-compile lusty-explorer.el
+
+(You can also do this from within Emacs, but it's best done in a clean
+session.)  Then, restart Emacs or M-x load-library and choose the newly
+generated lusty-explorer.elc file.
 
 Customization:
  --------------
@@ -37,8 +41,9 @@ To modify the keybindings, use something like:
 Respects these variables:
   completion-ignored-extensions
 
-Latest release: <http://www.emacswiki.org/cgi-bin/wiki/LustyExplorer>
 Development:    <http://github.com/sjbach/lusty-emacs>
+Further info:   <http://www.emacswiki.org/cgi-bin/wiki/LustyExplorer>
+                (Probably out-of-date)
 
 
 Contributors:
@@ -52,3 +57,6 @@ Alex Schroeder
 Sasha Kovar
 John Wiegley
 Johan Walles
+p3r7
+Nick Alcock
+Jonas Bernoulli

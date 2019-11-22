@@ -1,0 +1,2 @@
+
+(keymap-utils . [(20191105 2240) ((cl-lib (0 3))) "keymap utilities" single ((:commit . "5d3ecdaaa36afb60e5effac43052e573bee0bb28") (:keywords "convenience" "extensions") (:authors ("Jonas Bernoulli" . "jonas@bernoul.li")) (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li") (:url . "https://github.com/tarsius/keymap-utils"))])

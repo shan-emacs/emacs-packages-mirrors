@@ -1,0 +1,2 @@
+
+(prescient . [(20191025 347) ((emacs (25 1))) "Better sorting and filtering" single ((:commit . "c04cce14351c960098a0c8d4647c0d32e9e45669") (:keywords "extensions") (:authors ("Radon Rosborough" . "radon.neon@gmail.com")) (:maintainer "Radon Rosborough" . "radon.neon@gmail.com") (:url . "https://github.com/raxod502/prescient.el"))])

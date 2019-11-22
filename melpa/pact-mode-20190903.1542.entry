@@ -1,2 +1,0 @@
-
-(pact-mode . [(20190903 1542) ((emacs (24 3))) "Mode for Pact, a LISPlike smart contract language." single ((:commit . "f836c376e142b372a92900b630511fde9937a51a") (:keywords "pact" "lisp" "languages" "blockchain" "smartcontracts" "tools" "mode") (:authors ("Stuart Popejoy")) (:maintainer "Stuart Popejoy" . "stuart@kadena.io") (:url . "https://github.com/kadena-io/pact-mode"))])

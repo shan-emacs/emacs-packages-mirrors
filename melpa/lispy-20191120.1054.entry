@@ -1,0 +1,2 @@
+
+(lispy . [(20191120 1054) ((emacs (24 3)) (ace-window (0 9 0)) (iedit (0 9 9)) (counsel (0 11 0)) (hydra (0 14 0)) (zoutline (0 1 0))) "vi-like Paredit" tar ((:commit . "1705e4931e8db8e43740a4dfc9ace104a6affc4f"))])

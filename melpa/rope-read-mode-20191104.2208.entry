@@ -1,0 +1,2 @@
+
+(rope-read-mode . [(20191104 2208) ((emacs (24))) "Rearrange lines to read text smoothly" single ((:commit . "95ee549845c9b33c3652d64214488b9655026526") (:keywords "reading" "convenience" "chill") (:authors ("Marco Wahl" . "marcowahlsoft@gmail.com")) (:maintainer "Marco Wahl" . "marcowahlsoft@gmail.com") (:url . "https://github.com/marcowahl/rope-read-mode"))])

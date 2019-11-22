@@ -1,2 +1,0 @@
-
-(lms . [(20181216 2246) ((emacs (25 1))) "Squeezebox / Logitech Media Server frontend" single ((:commit . "38302acf2aa3718ce62cc4c5f1fde96feb25a2ed") (:keywords "multimedia") (:authors ("Iñigo Serna" . "inigoserna@gmail.com")) (:maintainer "Iñigo Serna" . "inigoserna@gmail.com") (:url . "https://bitbucket.com/inigoserna/lms.el"))])

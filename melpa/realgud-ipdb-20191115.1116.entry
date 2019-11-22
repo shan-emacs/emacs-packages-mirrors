@@ -1,0 +1,2 @@
+
+(realgud-ipdb . [(20191115 1116) ((realgud (1 5 0)) (load-relative (1 3 1)) (emacs (25))) "Realgud front-end to ipdb" tar ((:commit . "347090928d7866a9909208c5bbe2cb8fa7b55cd7") (:authors ("Rocky Bernstein" . "rocky@gnu.org")) (:maintainer "Rocky Bernstein" . "rocky@gnu.org") (:url . "http://github.com/rocky/realgud-ipdb"))])

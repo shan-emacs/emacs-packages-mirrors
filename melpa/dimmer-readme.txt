@@ -14,7 +14,26 @@ when buffers are dimmed.
 Usage:
 
      (require 'dimmer) ; unless installed as a package
-     (dimmer-mode)
+     (dimmer-configure-which-key)
+     (dimmer-configure-helm)
+     (dimmer-mode t)
+
+Configuration:
+
+By default dimmer excludes the minibuffer and echo areas from
+consideration, so that most packages that use the minibuffer for
+interaction will behave as users expect.
+
+`dimmer-configure-helm` is a convenience function for helm users that
+further modifies the customizations so helm buffers are not dimmed.
+
+`dimmer-configure-hydra` is a convenience function for hydra users that
+modifies the customizations so "*LV*" buffers are not dimmed.
+
+`dimmer-configure-which-key` is a convenience function for which-key
+users that modifies the customizations so which-key popups are not dimmed.
+
+Please submit pull requests with configurations for other packages!
 
 Customization:
 
@@ -22,9 +41,21 @@ Customization:
 Range is 0.0 - 1.0, and default is 0.20.  Increase value if you
 like the other buffers to be more dim.
 
-`dimmer-exclusion-regexp` can be used to specify buffers that
-should never be dimmed.  If the buffer name matches this regexp
-then `dimmer.el` will not dim that buffer.
+`dimmer-exclusion-regexp-list` can be used to specify buffers that
+should never be dimmed.  If the buffer name matches any regexp in
+this list then `dimmer.el` will not dim that buffer.
+
+`dimmer-prevent-dimming-predicates` can be used to prevent dimmer from
+altering the dimmed buffer list.  This can be used to detect cases
+where a package pops up a window temporarily, and we don't want the
+dimming to change.  If any function in this list returns a non-nil
+value, dimming state will not be changed.
+
+`dimmer-watch-frame-focus-events` controls whether dimmer will dim all
+buffers when Emacs no longer has focus in the windowing system.  This
+is enabled by default.  Some users may prefer to set this to nil, and
+have the dimmed / not dimmed buffers stay as-is even when Emacs
+doesn't have focus.
 
 `dimmer-use-colorspace` allows you to specify what color space the
 dimming calculation is performed in.  In the majority of cases you

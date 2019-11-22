@@ -12,4 +12,4 @@ The big benefit of using ripgrep instead of grep as a backend is
 speed.  Especially when searching large source code repositories
 where ripgrep really shines.
 
-See info node `(rgel)Top' for documentation or online at https://rgel.readthedocs.io."
+See info node `(rgel)Top' for documentation or online at https://rgel.readthedocs.io.

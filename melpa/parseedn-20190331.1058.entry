@@ -1,2 +1,0 @@
-
-(parseedn . [(20190331 1058) ((emacs (25)) (a (0 1 0 -3 4)) (parseclj (0 1 0))) "Clojure/EDN parser" single ((:commit . "ddf824bc1df1585867cb7f27f2dd8ca8df760569") (:keywords "lisp" "clojure" "edn" "parser") (:authors ("Arne Brasseur" . "arne@arnebrasseur.net")) (:maintainer "Arne Brasseur" . "arne@arnebrasseur.net"))])

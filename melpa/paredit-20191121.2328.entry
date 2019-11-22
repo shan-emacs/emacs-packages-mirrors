@@ -1,0 +1,2 @@
+
+(paredit . [(20191121 2328) nil "minor mode for editing parentheses" single ((:commit . "814999bb320e6d5aaa9c8ff663b1933157129571") (:keywords "lisp") (:authors ("Taylor R. Campbell" . "campbell+paredit@mumble.net")) (:maintainer "Taylor R. Campbell" . "campbell+paredit@mumble.net"))])

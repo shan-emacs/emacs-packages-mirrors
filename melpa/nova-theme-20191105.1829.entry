@@ -1,0 +1,2 @@
+
+(nova-theme . [(20191105 1829) ((emacs (24 3))) "A dark, pastel color theme" single ((:commit . "fc4ce3f420a7456a9ca4166d8d3038c10b61a53c") (:keywords "theme" "dark" "nova" "pastel" "faces") (:authors ("Muir Manders" . "muir+emacs@mnd.rs")) (:maintainer "Muir Manders" . "muir+emacs@mnd.rs") (:url . "https://github.com/muirmanders/emacs-nova-theme"))])

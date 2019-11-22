@@ -1,2 +1,0 @@
-
-(vscode-icon . [(20190610 17) ((emacs (25 1))) "Utility package to provide Vscode style icons" tar ((:commit . "14199fd1dbe0ca1da85f9917faee9fe078cb75ea") (:keywords "files" "tools") (:authors ("James Nguyen" . "james@jojojames.com")) (:maintainer "James Nguyen" . "james@jojojames.com") (:url . "https://github.com/jojojames/vscode-icon-emacs"))])

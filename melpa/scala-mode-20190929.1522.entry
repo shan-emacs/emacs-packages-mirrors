@@ -1,0 +1,2 @@
+
+(scala-mode . [(20190929 1522) nil "Major mode for editing Scala" tar ((:commit . "44772cbf1e1ade52bc5066555ff0aed68569aaec") (:keywords "languages") (:url . "https://github.com/hvesalai/emacs-scala-mode"))])

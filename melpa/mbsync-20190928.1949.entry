@@ -1,2 +1,0 @@
-
-(mbsync . [(20190928 1949) nil "run mbsync to fetch mails" single ((:commit . "8f80c267cab1acb0d5bdd5b0059f5d1790d499ff") (:authors ("Dimitri Fontaine" . "dim@tapoueh.org")) (:maintainer "Dimitri Fontaine" . "dim@tapoueh.org") (:url . "https://github.com/dimitri/mbsync-el"))])

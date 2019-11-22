@@ -1,0 +1,2 @@
+
+(lice . [(20191011 631) nil "License And Header Template" tar ((:commit . "3ff90745cd43d1cc41216a01f55f871a00692ffe") (:keywords "template" "license" "tools") (:authors ("Taiki Sugawara" . "buzz.taiki@gmail.com")) (:maintainer "Taiki Sugawara" . "buzz.taiki@gmail.com") (:url . "https://github.com/buzztaiki/lice-el"))])

@@ -1,0 +1,2 @@
+
+(sage-shell-mode . [(20191103 1040) ((cl-lib (0 6 1)) (emacs (24 4)) (let-alist (1 0 5)) (deferred (0 5 1))) "A front-end for Sage Math" tar ((:commit . "8ff9888fd84a96816512403a1b5ded93b4d4278b") (:keywords "sage" "math") (:authors ("Sho Takemori" . "stakemorii@gmail.com")) (:maintainer "Sho Takemori" . "stakemorii@gmail.com") (:url . "https://github.com/sagemath/sage-shell-mode"))])

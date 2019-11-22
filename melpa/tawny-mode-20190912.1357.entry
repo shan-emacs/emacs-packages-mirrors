@@ -1,2 +1,0 @@
-
-(tawny-mode . [(20190912 1357) ((cider (0 12)) (emacs (25))) "Ontology Editing with Tawny-OWL" single ((:commit . "217ca22fdff89a2bbe23d67afd43c06f928de826") (:authors ("Phillip Lord" . "phillip.lord@newcastle.ac.uk")) (:maintainer "Phillip Lord" . "phillip.lord@newcastle.ac.uk"))])

@@ -1,2 +1,0 @@
-
-(lognav-mode . [(20190217 1632) ((emacs (24 3))) "Navigate Log Error Messages" single ((:commit . "bec9f3eba66e1b58153f3d74ea21e6022d735791") (:keywords "log" "error" "lognav-mode" "convenience") (:authors ("Shawn Ellis" . "shawn.ellis17@gmail.com")) (:maintainer "Shawn Ellis" . "shawn.ellis17@gmail.com") (:url . "https://bitbucket.org/ellisvelo/lognav-mode"))])

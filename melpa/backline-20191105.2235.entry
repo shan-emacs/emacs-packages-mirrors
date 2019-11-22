@@ -1,0 +1,2 @@
+
+(backline . [(20191105 2235) ((emacs (25 1)) (outline-minor-faces (0 1 0))) "Preserve appearance of outline headings" single ((:commit . "619c18cab9e00d114dca033ad7a13e2be0d97d1c") (:keywords "outlines") (:authors ("Jonas Bernoulli" . "jonas@bernoul.li")) (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li") (:url . "https://github.com/tarsius/backline"))])

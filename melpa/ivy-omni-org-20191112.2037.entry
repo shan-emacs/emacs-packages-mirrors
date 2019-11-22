@@ -1,0 +1,2 @@
+
+(ivy-omni-org . [(20191112 2037) ((emacs (25 1)) (ivy (0 10)) (dash (2 12))) "Browse anything in Org mode" single ((:commit . "c93d34da3367fd15116ac24200afa3f653bf1949") (:keywords "outlines") (:authors ("Akira Komamura" . "akira.komamura@gmail.com")) (:maintainer "Akira Komamura" . "akira.komamura@gmail.com") (:url . "https://github.com/akirak/ivy-omni-org"))])

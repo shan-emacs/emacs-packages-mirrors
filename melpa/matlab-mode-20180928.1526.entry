@@ -1,2 +1,0 @@
-
-(matlab-mode . [(20180928 1526) nil "Major mode for MATLAB(R) dot-m files" tar ((:commit . "3fbca4259b2584bde08df07ba51944d7e3e2b4f4") (:url . "http://sourceforge.net/projects/matlab-emacs/") (:keywords "matlab" "programming" "language" "(X)emacs"))])

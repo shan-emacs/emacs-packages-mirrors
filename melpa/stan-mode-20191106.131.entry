@@ -1,0 +1,2 @@
+
+(stan-mode . [(20191106 131) ((emacs (24 4))) "Major mode for editing Stan files" tar ((:commit . "711b56bce5ec6adbcabe964342d2d0adbd0fbf6a") (:keywords "languages" "c") (:authors ("Jeffrey Arnold" . "jeffrey.arnold@gmail.com") ("Daniel Lee" . "bearlee@alum.mit.edu") ("Kazuki Yoshida" . "kazukiyoshida@mail.harvard.edu")) (:maintainer "Kazuki Yoshida" . "kazukiyoshida@mail.harvard.edu") (:url . "https://github.com/stan-dev/stan-mode/tree/master/stan-mode"))])

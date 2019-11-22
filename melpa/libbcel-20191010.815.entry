@@ -1,0 +1,2 @@
+
+(libbcel . [(20191010 815) ((emacs (26 1)) (request (0 3 1))) "Library to connect to basecamp 3 API" tar ((:commit . "69aea8fa1be58a394106d8a490d8aa5211f7380e") (:authors ("Damien Cassou" . "damien@cassou.me")) (:maintainer "Damien Cassou" . "damien@cassou.me") (:url . "https://gitlab.petton.fr/bcel/libbcel"))])

@@ -1,0 +1,2 @@
+
+(vmd-mode . [(20190929 735) ((emacs (24 3))) "Fast Github-flavored Markdown preview using a vmd subprocess." single ((:commit . "aa9b753601ee1ed31b4f717629179ce7a2cacba5") (:keywords "markdown" "preview" "live" "vmd") (:authors ("Blake Miller" . "blak3mill3r@gmail.com")) (:maintainer "Blake Miller" . "blak3mill3r@gmail.com") (:url . "https://github.com/blak3mill3r/vmd-mode"))])

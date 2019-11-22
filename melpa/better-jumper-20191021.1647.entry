@@ -1,0 +1,2 @@
+
+(better-jumper . [(20191021 1647) ((emacs (25 1))) "configurable jump list" single ((:commit . "3aa1a8a7662d4188633daf7d75a23e13ebdd902b") (:keywords "convenience" "jump" "history" "evil") (:authors ("Bryan Gilbert <http://github/gilbertw1>")) (:maintainer "Bryan Gilbert" . "bryan@bryan.sh") (:url . "https://github.com/gilbertw1/better-jumper"))])

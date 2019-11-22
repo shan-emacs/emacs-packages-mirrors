@@ -1,0 +1,2 @@
+
+(restclient . [(20191009 1208) nil "An interactive HTTP client for Emacs" single ((:commit . "e8ca809ace13549a1ddffb4e4aaa5d5fce750f3d") (:keywords "http") (:authors ("Pavel Kurnosov" . "pashky@gmail.com")) (:maintainer "Pavel Kurnosov" . "pashky@gmail.com"))])

@@ -18,7 +18,7 @@ All these commands are described in the Debbugs User Guide, accessible via
 (info "(debbugs-ug)")
 
 This package works by implementing basic functions to access a Debbugs
-SOAP server (see <http://wiki.debian.org/DebbugsSoapInterface>).  It
+SOAP server (see <https://wiki.debian.org/DebbugsSoapInterface>).  It
 implements the SOAP functions "get_bugs", "newest_bugs", "get_status",
 "get_usertag", "get_bug_log" and "search_est".  The SOAP function
 "get_versions" is not implemented (yet).

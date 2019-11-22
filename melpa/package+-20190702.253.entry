@@ -1,2 +1,2 @@
 
-(package+ . [(20190702 253) ((emacs (24 3))) "Extensions for the package library." single ((:commit . "2a99b8e27be1702d94ce077ecd75e1089fa18a32") (:keywords "extensions" "tools") (:authors ("Ryan Davis" . "ryand-ruby@zenspider.com")) (:maintainer "Ryan Davis" . "ryand-ruby@zenspider.com") (:url . "https://github.com/zenspider/package"))])
+(package+ . [(20190702 253) ((emacs (24 3))) "Extensions for the package library." single ((:commit . "3d108ff6af00d2fe978787217a13660af057cafc") (:keywords "extensions" "tools") (:authors ("Ryan Davis" . "ryand-ruby@zenspider.com")) (:maintainer "Ryan Davis" . "ryand-ruby@zenspider.com") (:url . "https://github.com/zenspider/package"))])

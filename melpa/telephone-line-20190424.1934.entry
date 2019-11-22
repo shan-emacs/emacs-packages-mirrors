@@ -1,2 +1,0 @@
-
-(telephone-line . [(20190424 1934) ((emacs (24 4)) (cl-lib (0 5)) (cl-generic (0 2)) (seq (1 8))) "Rewrite of Powerline" tar ((:commit . "408e05e105e8e521735221f4c98fc358e007df3b") (:keywords "mode-line") (:authors ("Daniel Bordak" . "dbordak@fastmail.fm")) (:maintainer "Daniel Bordak" . "dbordak@fastmail.fm") (:url . "https://github.com/dbordak/telephone-line"))])

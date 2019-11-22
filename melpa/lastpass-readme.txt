@@ -18,7 +18,9 @@ Such functions are:
 - `lastpass-addpass'
 - `lastpass-version'
 - `lastpass-visit-url'
-These functions can also used in elisp when configuring Emacs.
+These functions can also be used in elisp when configuring Emacs.
+
+A hook, `lastpass-logged-in-hook' is run on successful login.
 
 A lpass manager is available by running `lastpass-list-all'.
 This function will list all passwords and a major mode takes care of

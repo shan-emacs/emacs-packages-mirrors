@@ -18,7 +18,9 @@ In CSV mode, the following commands are available:
   multiple killed fields can be yanked only as a fixed group
   equivalent to a single field.
 
-- `csv-align-fields-mode' keeps fields visually aligned, on-the-fly.
+- `csv-align-mode' keeps fields visually aligned, on-the-fly.
+  It truncates fields to a maximum width that can be changed per-column
+  with `csv-align-set-column-width'.
   Alternatively, C-c C-a (`csv-align-fields') aligns fields into columns
   and C-c C-u (`csv-unalign-fields') undoes such alignment;
   separators can be hidden within aligned records (controlled by

@@ -1,2 +1,0 @@
-
-(fish-completion . [(20190904 254) nil "Add fish completion to pcomplete (shell and Eshell)" single ((:commit . "0a9a63e2cac24bfdf7dbedb5c6ab7faca23d3bfe") (:authors ("Pierre Neidhardt" . "mail@ambrevar.xyz")) (:maintainer "Pierre Neidhardt" . "mail@ambrevar.xyz") (:url . "https://gitlab.com/Ambrevar/emacs-fish-completion"))])

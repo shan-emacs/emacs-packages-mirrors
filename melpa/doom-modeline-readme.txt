@@ -16,18 +16,18 @@ The doom-modeline offers:
 - A window number segment for winum and window-numbering
 - An indicator for modal editing state, including evil, overwrite, god, ryo
   and xah-fly-keys, etc.
-- An indicator for remote host
+- An indicator for battery status
 - An indicator for current input method
 - An indicator for debug state
+- An indicator for remote host
 - An indicator for LSP state with lsp-mode or eglot
 - An indicator for github notifications
 - An indicator for unread emails with mu4e-alert
-- An indicator for irc notifications with circe
+- An indicator for irc notifications with circe, rcirc or erc.
 - An indicator for buffer position which is compatible with nyan-mode
 - An indicator for party parrot
 - An indicator for PDF page number with pdf-tools
 - An indicator for markdown/org preivews with grip
-- An indicator for battery status with fancy-battery
 - Truncated file name, file icon, buffer state and project name in buffer
   information segment, which is compatible with project, find-file-in-project
   and projectile

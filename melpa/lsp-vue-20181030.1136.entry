@@ -1,2 +1,0 @@
-
-(lsp-vue . [(20181030 1136) ((emacs (25 1)) (lsp-mode (3 0))) "Vue support for lsp-mode" single ((:commit . "85567342323943b37bb4e90376d3fae740be4aeb") (:authors ("Nikita Sivakov" . "cryptomaniac.512@gmail.com")) (:maintainer "Nikita Sivakov" . "cryptomaniac.512@gmail.com") (:url . "https://github.com/emacs-lsp/lsp-vue"))])

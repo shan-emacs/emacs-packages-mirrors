@@ -4,6 +4,10 @@ write prose within Emacs, with particular attention paid to
 org-mode and markdown-mode.  Code blocks, tables, etc are
 formatted in monospace text with the appropriate backgrounds.
 
+Theme Customizations
+- `poet-variable-headers`
+   Enable / disable different text heights for different faces.
+
 Recommended customizations for using this theme
 
 - Set up the base fonts you'd like to use in Emacs before loading Poet
@@ -14,9 +18,9 @@ Recommended customizations for using this theme
   rendering.
 
 - Enable variable pitch mode for editing text
-(add-hook 'text-mode-hook
-           (lambda ()
-            (variable-pitch-mode 1))
+    (add-hook 'text-mode-hook
+               (lambda ()
+                (variable-pitch-mode 1))
 
 - Some other modes I like to enable/disable
     (olivetti-mode 1)        ;; Centers text in the buffer

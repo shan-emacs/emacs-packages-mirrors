@@ -1,0 +1,2 @@
+
+(sql-sqlline . [(20191028 939) ((emacs (24 4))) "Adds SQLLine support to SQLi mode" single ((:commit . "990c79b7ebbf8ecb1e1161c9a942973efd8e2833") (:keywords "languages") (:authors ("Matteo Redaelli" . "matteo.redaelli@gmail.com")) (:maintainer "Matteo Redaelli" . "matteo.redaelli@gmail.com") (:url . "https://gitlab.com/matteo.redaelli/sql-sqlline"))])

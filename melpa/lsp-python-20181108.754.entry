@@ -1,2 +1,0 @@
-
-(lsp-python . [(20181108 754) ((lsp-mode (3 0))) "Python support for lsp-mode" single ((:commit . "9b67b63c4c8c53c77eda8b8081b8d458e655ba55") (:keywords "python") (:authors ("Vibhav Pant" . "vibhavp@gmail.com")) (:maintainer "Vibhav Pant" . "vibhavp@gmail.com") (:url . "https://github.com/emacs-lsp/lsp-python"))])

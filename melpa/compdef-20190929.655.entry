@@ -1,0 +1,2 @@
+
+(compdef . [(20190929 655) ((emacs (24 4))) "A local completion definer." single ((:commit . "67104a38763cc819644f711248b170a43bce151b") (:keywords "convenience") (:authors ("Uros Perisic")) (:maintainer "Uros Perisic") (:url . "https://gitlab.com/jjzmajic/compdef"))])

@@ -1,8 +1,11 @@
-You only need run "M-x vc-msg-show" and follow the hint.
+This package is an extended and actively maintained version of the
+package emacs-git-messenger.
 
-The current Version Control Software (VCS) is detected automatically.
-If you need force the VCS type (Peforce, for example),
-it's only one liner setup:
+Run "M-x vc-msg-show" and follow the hint.
+
+The Version Control Software (VCS) is detected automatically.
+
+Set up to force the VCS type (Perforce, for example),
   (setq vc-msg-force-vcs "p4")
 
 You can add hook to `vc-msg-hook',

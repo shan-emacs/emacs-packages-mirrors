@@ -1,2 +1,0 @@
-
-(slime . [(20190925 1213) ((cl-lib (0 5)) (macrostep (0 9))) "Superior Lisp Interaction Mode for Emacs" tar ((:commit . "0bd5891373adf44ab453880dc5549ef53ffc9dba") (:keywords "languages" "lisp" "slime") (:url . "https://github.com/slime/slime"))])

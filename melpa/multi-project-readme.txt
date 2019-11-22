@@ -18,6 +18,7 @@ C-xpj - Project jump              Displays a list of projects
 C-xpg - Run grep-find             Runs grep-find at project root
 C-xpl - Last project or anchor    Jumps to the last project or anchor
 C-xpp - Present project           Jumps to the current project root
+C-xpP - Present project new frame Present project in a new frame
 C-xpf - Find project files        Interactively find project files
 C-xpn - Add a new project         Prompts for new project information
 C-xpr - Go to project root        Visits the project root

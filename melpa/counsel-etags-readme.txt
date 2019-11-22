@@ -8,6 +8,12 @@ Usage:
   `counsel-etags-find-tag-at-point' to navigate.  This command will also
   run `counsel-etags-scan-code' AUTOMATICALLY if tags file is not built yet.
 
+  Run `counsel-etags-list-tag-in-current-file' to list tags in current file.
+
+  Or just use native imenu with below setup,
+     (setq imenu-create-index-function
+           'counsel-etags-imenu-default-create-index-function)
+
   `counsel-etags-scan-code' to create tags file
   `counsel-etags-grep' to grep
   `counsel-etags-grep-current-directory' to grep in current directory
@@ -43,11 +49,11 @@ Tips:
   (eval-after-load 'counsel-etags
     '(progn
        ;; counsel-etags-ignore-directories does NOT support wildcast
-       (add-to-list 'counsel-etags-ignore-directories "build_clang")
-       (add-to-list 'counsel-etags-ignore-directories "build_clang")
+       (push "build_clang" counsel-etags-ignore-directories)
+       (push "build_clang" counsel-etags-ignore-directories)
        ;; counsel-etags-ignore-filenames supports wildcast
-       (add-to-list 'counsel-etags-ignore-filenames "TAGS")
-       (add-to-list 'counsel-etags-ignore-filenames "*.json")))
+       (push "TAGS" counsel-etags-ignore-filenames)
+       (push "*.json" counsel-etags-ignore-filenames)))
 
  - Rust programming language is supported.
    The easiest setup is to use ".dir-locals.el".
@@ -66,10 +72,10 @@ Tips:
          keyword)))
 
  - `counsel-etags-find-tag-name-function' finds tag name at point.  If it returns nil,
-   `find-tag-default' is used. `counsel-etags-word-at-point' gets word at point.
+   `find-tag-default' is used.  `counsel-etags-word-at-point' gets word at point.
 
  - User could append the extra content into tags file in `counsel-etags-after-update-tags-hook'.
-   The parameter of hook is full path of the tags file. `counsel-etags-tags-line' is a tool function
+   The parameter of hook is full path of the tags file.  `counsel-etags-tags-line' is a tool function
    to help user
 
 See https://github.com/redguardtoo/counsel-etags/ for more tips.
