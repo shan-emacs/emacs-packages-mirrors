@@ -1,0 +1,2 @@
+
+(vdf-mode . [(20191122 823) ((emacs (24 3))) "Major mode for editing Valve VDF files." single ((:commit . "35f5c3531b256b6578b9878ac2ce1ed79b3c8511") (:authors ("Philipp Middendorf")) (:maintainer "Philipp Middendorf") (:url . "https://github.com/plapadoo/vdf-mode"))])

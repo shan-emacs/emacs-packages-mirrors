@@ -7,9 +7,13 @@ the command `M-x debbugs-gnu-patches' lists bugs containing a patch.
 In order to show bugs with known numbers, `M-x debbugs-gnu-bugs' could
 be used.
 
+Bugs can be marked by a local tag.  All bugs marked like this will be
+shown via `M-x debbugs-gnu-tagged'.
+
 If you prefer the listing of bugs as TODO items of `org-mode', you
 could use the commands `M-x debbugs-org', `M-x debbugs-org-search',
-`M-x debbugs-org-patches' and `M-x debbugs-org-bugs' instead.
+`M-x debbugs-org-patches', `M-x debbugs-org-bugs' and `M-x
+debbugs-org-tagged' instead.
 
 A minor mode `debbugs-browse-mode' let you browse URLs to the GNU Bug
 Tracker as well as bug identifiers prepared for `bug-reference-mode'.

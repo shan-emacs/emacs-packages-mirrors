@@ -1,2 +1,0 @@
-
-(ansible-vault . [(20191106 2317) ((emacs (24 3))) "Minor mode for editing ansible vault files" single ((:commit . "8928a90df194aa09721acbce77b1e715da5b287a") (:keywords "ansible" "ansible-vault" "tools") (:maintainer "Zachary Elliott" . "contact@zell.io") (:url . "http://github.com/zellio/ansible-vault-mode"))])

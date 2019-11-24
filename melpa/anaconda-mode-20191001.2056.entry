@@ -1,2 +1,0 @@
-
-(anaconda-mode . [(20191001 2056) ((emacs (25 1)) (pythonic (0 1 0)) (dash (2 6 0)) (s (1 9)) (f (0 16 2))) "Code navigation, documentation lookup and completion for Python" single ((:commit . "1b31c03756b989b674969bb1eb45ac809e59313b") (:authors ("Artem Malyshev" . "proofit404@gmail.com")) (:maintainer "Artem Malyshev" . "proofit404@gmail.com") (:url . "https://github.com/proofit404/anaconda-mode"))])

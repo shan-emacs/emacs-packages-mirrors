@@ -1,2 +1,0 @@
-
-(with-emacs . [(20191117 323) ((emacs (24 4))) "Evaluate Emacs Lisp expressions in a separate Emacs process" single ((:commit . "0f10ee05101b8188fdae8abe8e2b2b49cf3fda41") (:keywords "tools") (:authors ("Gong Qijian" . "gongqijian@gmail.com")) (:maintainer "Gong Qijian" . "gongqijian@gmail.com") (:url . "https://github.com/twlz0ne/with-emacs.el"))])

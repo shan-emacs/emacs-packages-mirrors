@@ -1,2 +1,0 @@
-
-(trashed . [(20191116 433) ((emacs (25 1))) "Viewing/editing system trash can" single ((:commit . "4e99b5c6088294f75c557bec10407a8786f635db") (:keywords "files" "convenience" "unix") (:authors ("Shingo Tanaka" . "shingo.fg8@gmail.com")) (:maintainer "Shingo Tanaka" . "shingo.fg8@gmail.com") (:url . "https://github.com/shingo256/trashed"))])

@@ -25,6 +25,7 @@ Supported languages:
 - Elixir (mix format)
 - Elm (elm-format)
 - Emacs Lisp (emacs)
+- Fish Shell (fish_indent)
 - Go (gofmt)
 - GraphQL (prettier)
 - Haskell (brittany)
