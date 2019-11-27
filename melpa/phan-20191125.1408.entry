@@ -1,0 +1,2 @@
+
+(phan . [(20191125 1408) ((emacs (24)) (composer (0 0 8)) (f (0 17))) "Utility functions for Phan (PHP static analizer)" single ((:commit . "2a6e1b66c2aad25fddb8b4f706a28a1aafaaa4c7") (:keywords "tools" "php") (:authors ("USAMI Kenta" . "tadsan@pixiv.com")) (:maintainer "USAMI Kenta" . "tadsan@pixiv.com") (:url . "https://github.com/emacs-php/phan.el"))])

@@ -1,0 +1,2 @@
+
+(graphviz-dot-mode . [(20191126 2016) ((emacs (25 0))) "Mode for the dot-language used by graphviz (att)." tar ((:commit . "158644714e8f35d8d2b9e5e4fbd00dbd8075a7bb") (:keywords "mode" "dot" "dot-language" "dotlanguage" "graphviz" "graphs" "att") (:maintainer "Pieter Pareit" . "pieter.pareit@gmail.com") (:url . "https://ppareit.github.io/graphviz-dot-mode/"))])

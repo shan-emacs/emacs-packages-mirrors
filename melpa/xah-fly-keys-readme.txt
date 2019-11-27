@@ -26,6 +26,7 @@ possible layout values:
 "qwerty-abnt"
 "qwertz"
 "workman"
+"norman"
 
 (xah-fly-keys 1)
 

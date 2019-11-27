@@ -1,0 +1,2 @@
+
+(tco . [(20191126 938) ((dash (1 2 0)) (emacs (24))) "tail-call optimisation for Emacs lisp" single ((:commit . "81e2ca68975f3f942278e8aeda92f95a86bd547d") (:authors ("Wilfred Hughes" . "me@wilfred.me.uk")) (:maintainer "Wilfred Hughes" . "me@wilfred.me.uk"))])

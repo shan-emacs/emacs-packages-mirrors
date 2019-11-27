@@ -1,2 +1,0 @@
-
-(bash-completion . [(20191109 1029) nil "BASH completion for the shell buffer" single ((:commit . "ac3bd404e87b097eefbf04a0b28676efa4ae13b7") (:authors ("Stephane Zermatten" . "szermatt@gmx.net")) (:maintainer "Stephane Zermatten" . "szermatt@gmx.net"))])

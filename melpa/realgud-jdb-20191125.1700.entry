@@ -1,0 +1,2 @@
+
+(realgud-jdb . [(20191125 1700) ((realgud (1 5 0)) (load-relative (1 3 1)) (emacs (25))) "Realgud front-end to Java's jdb debugger\"" tar ((:commit . "99b7f08e0fcec9e33dde8dbbe60e42cfec08bc17") (:authors ("Rocky Bernstein" . "rocky@gnu.org")) (:maintainer "Rocky Bernstein" . "rocky@gnu.org") (:url . "http://github.com/realgud/realgud-jdb"))])

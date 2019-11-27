@@ -1,0 +1,2 @@
+
+(ert-async . [(20191126 2057) ((emacs (24 1))) "Async support for ERT" single ((:commit . "45013dc13d165ac98a94ddf7445e110ff76d47f5") (:keywords "lisp" "test") (:authors ("Johan Andersson" . "johan.rejeep@gmail.com")) (:maintainer "Johan Andersson" . "johan.rejeep@gmail.com") (:url . "http://github.com/rejeep/ert-async.el"))])

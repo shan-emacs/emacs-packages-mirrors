@@ -25,6 +25,12 @@ is displayed. Here is sample code:
     (ffip-diff-mode))
   (add-hook 'vc-msg-show-code-hook 'vc-msg-show-code-setup)
 
+Git users could set `vc-msg-git-show-commit-function' to show the code of commit,
+
+  (setq vc-msg-git-show-commit-function 'magit-show-commit)
+
+If `vc-msg-git-show-commit-function' is executed, `vc-msg-show-code-hook' is ignored.
+
 Perforce is detected automatically.  You don't need any manual setup.
 But if you use Windows version of perforce CLI in Cygwin Emacs, we
 provide the variable `vc-msg-p4-file-to-url' to convert file path to

@@ -1,34 +1,3 @@
-Copyright (C) 2003, 2015, 2016, 2019 Norman Walsh
-Inspired in part by sgml-input, Copyright (C) 2001 Dave Love
-Inspired in part by http://www.tbray.org/ongoing/When/200x/2003/09/27/UniEmacs
-
-Author: Norman Walsh <ndw@nwalsh.com>
-Maintainer: Norman Walsh <ndw@nwalsh.com>
-Contributor: Mark A. Hershberger <mah@everybody.org>
-Created: 2004-07-21
-Updated: 2019-11-23
-Version: 1.20
-Keywords: utf-8 unicode xml characters
-
-This file is NOT part of GNU Emacs.
-
-This is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2, or (at your option)
-any later version.
-
-This software is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with GNU Emacs; see the file COPYING.  If not, write to the
-Free Software Foundation, Inc., 59 Temple Place - Suite 330,
-Boston, MA 02111-1307, USA.
-
-Commentary
-
 This file provides a suite of functions designed to make it easier
 to enter Unicode into Emacs. It is not, in fact, particularly XML-specific though
 it does define an 'xml input-mode and does support the ISO 8879 entity names.
@@ -61,8 +30,6 @@ Usage
 
    xmlunicode-character-insert            insert a character by unicode name
                                           (with completion)
-   xmlunicode-character-insert-helm       insert a character by unicode name
-                                          using helm (with completion)
    xmlunicode-iso8879-character-insert    insert a character by ISO entity name
                                           (with completion)
    xmlunicode-smart-double-quote          inserts an appropriate double quote
@@ -70,6 +37,9 @@ Usage
    xmlunicode-character-menu-insert       choose special character from a popup menu
    xmlunicode-character-shortcut-insert   enter a two-character shortcut for a
                                           unicode character
+
+   Helm integration is provided in `xmlunicode-helm.el`. For helm,
+   use the function `xmlunicode-character-insert-helm`.
 
    You can also create a standard Emacs menu for the character menu list
    (instead of, or in addition to, the popup). To do that:
@@ -92,6 +62,13 @@ Usage
 
 Changes
 
+v1.21 24 Nov 2019
+  Moved the helm-related functions into a separate file. Helm must be
+  setup before you can require 'xmlunicode-helm. This avoids an ugly bug
+  where (I infer) the byte compiled xmlunicode.el file did not have
+  a correct function reference for `helm-build-sync-source` so it didn't
+  work reliably.
+  I made a few small improvements to `xmlunicode-show-character-list`.
 v1.20 23 Nov 2019
   Fixed obvious typo in the name of the xmlunicode-iso8879-character-insert
   function name. (The xmlunicode prefix was repeated.)

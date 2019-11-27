@@ -1,0 +1,2 @@
+
+(xmlunicode . [(20191124 2312) nil "Unicode support for XML" tar ((:commit . "80f30becf860db4277e71e3445994fccaf35ba98") (:keywords "utf-8" "unicode" "xml" "characters") (:authors ("Norman Walsh" . "ndw@nwalsh.com")) (:maintainer "Norman Walsh" . "ndw@nwalsh.com"))])
