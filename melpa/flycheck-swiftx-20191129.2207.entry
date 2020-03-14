@@ -1,0 +1,2 @@
+
+(flycheck-swiftx . [(20191129 2207) ((emacs (26 1)) (flycheck (26)) (xcode-project (1 0))) "Flycheck: Swift backend" single ((:commit . "94ead32e879c055902e3edb78af1193f21339e5f") (:keywords "convenience" "languages" "tools") (:authors ("John Buckley" . "john@olivetoast.com")) (:maintainer "John Buckley" . "john@olivetoast.com") (:url . "https://github.com/nhojb/flycheck-swiftx"))])

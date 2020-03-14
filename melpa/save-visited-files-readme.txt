@@ -19,6 +19,9 @@ M-x save-visited-files-restore will open all files saved this way.  To turn
 off the saving of files, you need to run (turn-off-save-visited-files-mode)
 
 Changelog:
+1.6
+ * Fix bug to add hooks after loading files, otherwise it's
+   possible for your save file to be overwritten first.
 1.5
  * Fix bug where save-visited-files-restore would error if save-visited-files-location
    is nonexistent.

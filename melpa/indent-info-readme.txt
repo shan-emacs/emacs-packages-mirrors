@@ -1,3 +1,2 @@
-`indent-info' is a small Emacs minor mode that provides information
-about currently configured indentation mode as well as tab-width in the
-status bar.
+`indent-info' is a small minor mode that provides information about currently
+configured indentation style as well as tab-width in the status bar.

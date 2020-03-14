@@ -23,17 +23,18 @@
 
             <div class="container">
 <h2 class="package">wisi</h2><dl><dt>Description</dt><dd>Utilities for implementing an indentation/navigation engine using a generalized LALR parser</dd>
-<dt>Latest</dt> <dd><a href="wisi-2.2.1.tar">wisi-2.2.1.tar</a>, 2019-Aug-18, 1.98&nbsp;MiB</dd>
+<dt>Latest</dt> <dd><a href="wisi-3.0.1.tar">wisi-3.0.1.tar</a>, 2020-Jan-31, 2.06&nbsp;MiB</dd>
 <dt>Maintainer</dt> <dd>Stephen Leake &lt;stephen_leake@stephe-leake.org></dd>
 <dt>Home page</dt> <dd><a href="http://stephe-leake.org/ada/wisitoken.html">http://stephe-leake.org/ada/wisitoken.html</a></dd>
 <dt>Browse ELPA's repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/wisi">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/wisi">Gitweb</a></dd>
 </dl><p>To install this package, run in Emacs:</p>
                        <pre>M-x <span class="kw">package-install</span> RET <span class="kw">wisi</span> RET</pre><h2>Full description</h2><pre>
-Emacs wisi package 2.2.1
+Emacs wisi package 3.0.1
 
-The wisi package provides utilities for using generalized LALR parsers
-(in elisp or external processes) to do indentation, fontification, and
-navigation. See ada-mode for an example of its use.
+The wisi package provides utilities for using generalized
+error-correcting LR parsers (in external processes) to do indentation,
+fontification, and navigation; and integration with Emacs package.el.
+See ada-mode for an example of its use.
 
 It also provides wisitoken-parse_table-mode, for navigating the
 diagnostic parse tables output by wisitoken-bnf-generate.
@@ -41,6 +42,7 @@ diagnostic parse tables output by wisitoken-bnf-generate.
 
 </pre>
 <h2>Old versions</h2><table>
+<tr><td><a href="wisi-2.2.1.tar">wisi-2.2.1.tar</a></td><td>2019-Aug-18</td><td>1.98&nbsp;MiB</td>
 <tr><td><a href="wisi-2.2.0.tar">wisi-2.2.0.tar</a></td><td>2019-Aug-17</td><td>1.98&nbsp;MiB</td>
 <tr><td><a href="wisi-2.1.1.tar">wisi-2.1.1.tar</a></td><td>2019-Jul-12</td><td>1.91&nbsp;MiB</td>
 <tr><td><a href="wisi-2.1.0.tar">wisi-2.1.0.tar</a></td><td>2019-Mar-22</td><td>1.60&nbsp;MiB</td>
@@ -63,14 +65,38 @@ diagnostic parse tables output by wisitoken-bnf-generate.
 <h2>News</h2><pre>
 GNU Emacs wisi NEWS -- history of user-visible changes.
 
-Copyright (C) 2019 Free Software Foundation, Inc.
+Copyright (C) 2014 - 2020 Free Software Foundation, Inc.
 
 Please send wisi bug reports to bug-gnu-emacs@gnu.org, with
 'wisi' in the subject. If possible, use M-x report-emacs-bug.
 
 
+* wisi 3.0.1
+30 Jan 2020
+
+** fix packaging bugs
+
+** improve xref integration
+
+* wisi 3.0.0
+19 Dec 2019
+
+** parser process protocol version 5
+
+** Add project.el integration. See wisi.info for more information.
+
+** Move autocase functions from ada-mode to wisi.
+
+** Replace most ada-mode function variables with dispatching on wisi-prj.
+
+** New commands `wisi-goto-containing-statement-start', `wisi-indent-containing-statement'.
+
+** Displayed parser errors are sorted in increasing error position.
+
 * wisi 2.2.1
 17 Aug 2019
+
+** parser process protocol version 4
 
 ** fix packaging bugs
 
@@ -111,8 +137,6 @@ Please send wisi bug reports to bug-gnu-emacs@gnu.org, with
    containing token region, and the motion token chain starting at the
    first one found is included in the current right hand side motion
    token chain.
-
-** The elisp parser and lexer are deleted.
 
 ** The process parser supports a new parse command `wisi-refactor',
    which returns a new message "Edit". It is intended for performing

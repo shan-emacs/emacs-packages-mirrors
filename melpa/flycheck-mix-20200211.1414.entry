@@ -1,0 +1,2 @@
+
+(flycheck-mix . [(20200211 1414) ((flycheck (27)) (elixir-mode (1 8 0))) "Elixir mix flycheck integration DEPRECATED" single ((:commit . "d3c075f61ace6695919e90239cee6567cce09638") (:keywords "elixir" "flycheck" "mix") (:authors ("Tomasz Kowal" . "tomekowal@gmail.com")) (:maintainer "Tomasz Kowal" . "tomekowal@gmail.com") (:url . "https://github.com/tomekowal/flycheck-mix"))])

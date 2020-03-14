@@ -9,3 +9,6 @@ emacs-reveal (https://gitlab.com/oer/emacs-reveal).
 
 See file README.md for more information; examples are included
 under subdirectory "examples".
+
+Package *oer-reveal* is really meant to be used as part of
+emacs-reveal (https://gitlab.com/oer/emacs-reveal).

@@ -8,5 +8,4 @@ RDF prefixes are mapped to URIs by the alist `rdf-prefix-alist'. New
 prefixes can be defined by adding them to `rdf-prefix-alist', on the
 form (PREFIX . URI), where PREFIX and URI are both strings.
 
-The prefix list is sorted by popularity, and is pulled regularly from
-http://prefix.cc/.
+The prefix list is updated regularly from http://prefix.cc/.

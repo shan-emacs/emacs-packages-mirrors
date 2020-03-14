@@ -11,7 +11,7 @@ Allow comment inserting depth at each end of a brace
 (setq helm-css-scss-insert-close-comment-depth 2)
 If this value is t, split window appears inside the current window
 (setq helm-css-scss-split-with-multiple-windows nil)
-Split direction. 'split-window-vertically or 'split-window-horizontally
+Split direction.  'split-window-vertically or 'split-window-horizontally
 (setq helm-css-scss-split-direction 'split-window-vertically)
 
 Set local keybind map for css-mode / scss-mode
@@ -32,5 +32,5 @@ This program has two main functions
 
 (helm-css-scss-insert-close-comment &optional $depth)
   Insert inline comment like " //__ comment" at the next of
-  a close brace "}". If it's aleardy there, update it.
+  a close brace "}".  If it's aleardy there, update it.
   You can also specify a nest $depth of selector.

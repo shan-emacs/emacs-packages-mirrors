@@ -23,7 +23,7 @@
 
             <div class="container">
 <h2 class="package">dired-git-info</h2><dl><dt>Description</dt><dd>Show git info in dired</dd>
-<dt>Latest</dt> <dd><a href="dired-git-info-0.2.el">dired-git-info-0.2.el</a>, 2019-Feb-21, 7.00&nbsp;KiB</dd>
+<dt>Latest</dt> <dd><a href="dired-git-info-0.3.1.el">dired-git-info-0.3.1.el</a>, 2019-Dec-14, 7.85&nbsp;KiB</dd>
 <dt>Home page</dt> <dd><a href="https://github.com/clemera/dired-git-info">https://github.com/clemera/dired-git-info</a></dd>
 <dt>Browse ELPA's repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/?h=externals/dired-git-info">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=shortlog;h=refs/heads/externals/dired-git-info">Gitweb</a></dd>
 </dl><p>To install this package, run in Emacs:</p>
@@ -41,6 +41,12 @@ the dired buffer:
 
 * Installation
 
+** GNU ELPA
+
+This package is available on [[https://elpa.gnu.org][GNU ELPA]]. You can install it via =M-x package-install RET dired-git-info RET=
+
+** Manual
+
 For manual installation, clone the repository and call:
 
 #+BEGIN_SRC elisp
@@ -49,15 +55,38 @@ For manual installation, clone the repository and call:
 
 * Config
 
-Bind the minor mode command in dired:
+** Bind the minor mode command in dired
 
 #+BEGIN_SRC elisp
 (with-eval-after-load 'dired
   (define-key dired-mode-map ")" 'dired-git-info-mode))
 #+END_SRC
 
+** Don't hide normal Dired file info
+
+By default, toggling =dired-git-info-mode= also toggles the built-in
+=dired-hide-details-mode=, which hides file details such as ownership,
+permissions and size. This behaviour can be disabled by overriding
+=dgi-auto-hide-details-p=:
+
+#+BEGIN_SRC elisp
+(setq dgi-auto-hide-details-p nil)
+#+END_SRC
+
+** Enable automatically in every Dired buffer (if in Git repository)
+
+To enable =dired-git-info-mode= whenever you navigate to a Git repository, use
+the following (if you want to use this you have to install from source as long
+this change is not picked up by ELPA):
+#+BEGIN_SRC elisp
+(add-hook 'dired-after-readin-hook 'dired-git-info-auto-enable)
+#+END_SRC
+
+
 </pre>
 <h2>Old versions</h2><table>
+<tr><td><a href="dired-git-info-0.3.el">dired-git-info-0.3.el</a></td><td>2019-Dec-12</td><td>7.81&nbsp;KiB</td>
+<tr><td><a href="dired-git-info-0.2.el">dired-git-info-0.2.el</a></td><td>2019-Feb-21</td><td>7.00&nbsp;KiB</td>
 <tr><td><a href="dired-git-info-0.1.el">dired-git-info-0.1.el</a></td><td>2019-Feb-20</td><td>6.80&nbsp;KiB</td>
 </table>
 </body>

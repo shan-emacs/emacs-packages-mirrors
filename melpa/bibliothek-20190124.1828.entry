@@ -1,2 +1,2 @@
 
-(bibliothek . [(20190124 1828) ((emacs (24 4)) (pdf-tools (0 70)) (a (0 1 0 -3 4))) "Managing a digital library of PDFs" single ((:commit . "5f3e67448cc98fe2875115163849acae4d9e8526") (:keywords "tools") (:authors ("Göktuğ Kayaalp" . "self@gkayaalp.com")) (:maintainer "Göktuğ Kayaalp" . "self@gkayaalp.com") (:url . "https://dev.gkayaalp.com/elisp/index.html#bibliothek-el"))])
+(bibliothek . [(20190124 1828) ((emacs (24 4)) (pdf-tools (0 70)) (a (0 1 0 -3 4))) "Managing a digital library of PDFs" single ((:commit . "eab07dae119129066624e692c1c75a53b2ab10a5") (:keywords "tools") (:authors ("Göktuğ Kayaalp" . "self@gkayaalp.com")) (:maintainer "Göktuğ Kayaalp" . "self@gkayaalp.com") (:url . "https://dev.gkayaalp.com/elisp/index.html#bibliothek-el"))])

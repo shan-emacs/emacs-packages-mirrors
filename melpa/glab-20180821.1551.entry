@@ -1,2 +1,0 @@
-
-(glab . [(20180821 1551) nil "minuscule client library for the Gitlab API" single ((:commit . "d75ba1bd8843f53ae3e37b206187b3b97d9f3540") (:keywords "tools") (:authors ("Jonas Bernoulli" . "jonas@bernoul.li")) (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li") (:url . "https://github.com/magit/ghub"))])

@@ -23,77 +23,86 @@
 
             <div class="container">
 <h2 class="package">xr</h2><dl><dt>Description</dt><dd>Convert string regexp to rx notation</dd>
-<dt>Latest</dt> <dd><a href="xr-1.13.tar">xr-1.13.tar</a>, 2019-Aug-04, 90.0&nbsp;KiB</dd>
+<dt>Latest</dt> <dd><a href="xr-1.18.tar">xr-1.18.tar</a>, 2020-Mar-09,  110&nbsp;KiB</dd>
 <dt>Home page</dt> <dd><a href="https://github.com/mattiase/xr">https://github.com/mattiase/xr</a></dd>
 <dt>Browse ELPA's repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/?h=externals/xr">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=shortlog;h=refs/heads/externals/xr">Gitweb</a></dd>
 </dl><p>To install this package, run in Emacs:</p>
                        <pre>M-x <span class="kw">package-install</span> RET <span class="kw">xr</span> RET</pre><h2>Full description</h2><pre>
-#+TITLE: xr.el
+                xr -- Emacs regexp parser and analyser
+                ======================================
 
 XR converts Emacs regular expressions to the structured rx form, thus
-being an inverse of ~rx~. It can also find mistakes and questionable
+being an inverse of rx. It can also find mistakes and questionable
 constructs inside regexp strings.
 
 It can be useful for:
+
 - Migrating existing code to rx form
 - Understanding what a regexp string really means
 - Finding errors in regexp strings
 
 It can also parse and find mistakes in skip-sets, the regexp-like
-arguments to ~skip-chars-forward~ and ~skip-chars-backward~.
+arguments to skip-chars-forward and skip-chars-backward.
 
 The xr package can be used interactively or by other code as a library.
 
 * Example
 
-: (xr-pp "\\`\\(?:[^^]\\|\\^\\(?: \\*\\|\\[\\)\\)")
+  (xr-pp "\\`\\(?:[^^]\\|\\^\\(?: \\*\\|\\[\\)\\)")
 
-outputs
+  outputs
 
-: (seq bos 
-:      (or (not (any "^"))
-:          (seq "^"
-:               (or " *" "["))))
+  (seq bos 
+       (or (not (any "^"))
+           (seq "^"
+                (or " *" "["))))
 
 * Installation
 
-From [[https://elpa.gnu.org/packages/xr.html][GNU ELPA]]:
+  From GNU ELPA (https://elpa.gnu.org/packages/xr.html):
 
-: M-x package-install RET xr RET
+    M-x package-install RET xr RET
 
 * Interface
 
-Functions parsing regexp strings:
-
-| ~xr~      | convert regexp to rx                  |
-| ~xr-pp~   | convert regexp to rx and pretty-print |
-| ~xr-lint~ | find mistakes in regexp               |
-
-Functions parsing skip sets:
-
-| ~xr-skip-set~      | convert skip-set to rx                  |
-| ~xr-skip-set-pp~   | convert skip-set to rx and pretty-print |
-| ~xr-skip-set-lint~ | find mistakes in skip-set               |
-
-Utility:
-
-| ~xr-pp-rx-to-str~ | pretty-print rx expression to string |
-
+  Functions parsing regexp strings:
+  
+   xr       --  convert regexp to rx
+   xr-pp    --  convert regexp to rx and pretty-print
+   xr-lint  --  find mistakes in regexp
+  
+  Functions parsing skip sets:
+  
+   xr-skip-set       --  convert skip-set to rx
+   xr-skip-set-pp    --  convert skip-set to rx and pretty-print
+   xr-skip-set-lint  --  find mistakes in skip-set
+  
+  Utility:
+  
+   xr-pp-rx-to-str  --  pretty-print rx expression to string
+  
 * See also
 
-The [[https://elpa.gnu.org/packages/relint.html][relint]] package uses xr to find regexp mistakes in elisp code.
+  The relint package (https://elpa.gnu.org/packages/relint.html) uses xr
+  to find regexp mistakes in elisp code.
 
-The [[https://elpa.gnu.org/packages/lex.html][lex]] package, a lexical analyser generator, provides the
-~lex-parse-re~ function which translates regexps to rx, but does not
-attempt to handle all the edge cases of Elisp's regexp syntax or
-pretty-print the result.
+  The lex package (https://elpa.gnu.org/packages/lex.html), a lexical
+  analyser generator, provides the lex-parse-re function which
+  translates regexps to rx, but does not attempt to handle all the
+  edge cases of Elisp's regexp syntax or pretty-print the result.
 
-The [[https://github.com/joddie/pcre2el][pcre2el]] package, a regexp syntax converter and interactive regexp
-explainer, can also be used for translating regexps to rx. However, xr
-is more accurate for this purpose.
+  The pcre2el package (https://github.com/joddie/pcre2el), a regexp
+  syntax converter and interactive regexp explainer, can also be used
+  for translating regexps to rx. However, xr is more accurate for this
+  purpose.
 
 </pre>
 <h2>Old versions</h2><table>
+<tr><td><a href="xr-1.17.tar">xr-1.17.tar</a></td><td>2020-Mar-05</td><td> 110&nbsp;KiB</td>
+<tr><td><a href="xr-1.16.tar">xr-1.16.tar</a></td><td>2020-Mar-01</td><td> 110&nbsp;KiB</td>
+<tr><td><a href="xr-1.15.tar">xr-1.15.tar</a></td><td>2020-Jan-31</td><td>90.0&nbsp;KiB</td>
+<tr><td><a href="xr-1.14.tar">xr-1.14.tar</a></td><td>2020-Jan-23</td><td>90.0&nbsp;KiB</td>
+<tr><td><a href="xr-1.13.tar">xr-1.13.tar</a></td><td>2019-Aug-04</td><td>90.0&nbsp;KiB</td>
 <tr><td><a href="xr-1.12.tar">xr-1.12.tar</a></td><td>2019-May-26</td><td>80.0&nbsp;KiB</td>
 <tr><td><a href="xr-1.11.tar">xr-1.11.tar</a></td><td>2019-Apr-13</td><td>70.0&nbsp;KiB</td>
 <tr><td><a href="xr-1.10.tar">xr-1.10.tar</a></td><td>2019-Apr-01</td><td>70.0&nbsp;KiB</td>
@@ -108,6 +117,19 @@ is more accurate for this purpose.
 <tr><td><a href="xr-1.0.el">xr-1.0.el</a></td><td>2019-Feb-05</td><td>27.7&nbsp;KiB</td>
 </table>
 <h2>News</h2><pre>
+Version 1.18:
+- Fix test broken in Emacs 26
+Version 1.17:
+- Performance improvements
+Version 1.16:
+- Translate [^\n] into nonl
+- Better character class subset/superset analysis
+- More accurate repetition subsumption check
+- Use text quoting for messages
+Version 1.15:
+- Warn about subsuming repetitions in sequence, like [AB]+A*
+Version 1.14:
+- Warn about repetition of grouped repetition
 Version 1.13:
 - More robust pretty-printing, especially for characters
 - Generate (category CHAR) for unknown categories

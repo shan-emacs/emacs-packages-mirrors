@@ -1,2 +1,2 @@
 
-(go-autocomplete . [(20150904 240) ((auto-complete (1 4 0))) "auto-complete-mode backend for go-mode" single ((:commit . "7fb65232883f19a8305706b4b4ff32916ffbcaf5") (:keywords "languages") (:authors ("Mikhail" . "tensai@cirno.in")) (:maintainer "Mikhail" . "tensai@cirno.in"))])
+(go-autocomplete . [(20150904 240) ((auto-complete (1 4 0))) "auto-complete-mode backend for go-mode" single ((:commit . "939b4a677f2f843ea13d9dd90206d57111f0ceb9") (:keywords "languages") (:authors ("Mikhail" . "tensai@cirno.in")) (:maintainer "Mikhail" . "tensai@cirno.in"))])

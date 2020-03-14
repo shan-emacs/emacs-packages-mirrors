@@ -1,0 +1,2 @@
+
+(smog . [(20200211 528) ((emacs (24 1)) (org (8 1))) "Analyse the writing style, word use and readability of prose" single ((:commit . "0a6374493363d10826a8151d37fc461b08cc9b9a") (:keywords "tools" "style" "readability" "prose") (:authors ("nik gaffney" . "nik@fo.am")) (:maintainer "nik gaffney" . "nik@fo.am") (:url . "https://github.com/zzkt/smog"))])

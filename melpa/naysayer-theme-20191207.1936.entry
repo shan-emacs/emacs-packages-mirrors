@@ -1,0 +1,2 @@
+
+(naysayer-theme . [(20191207 1936) ((emacs (24))) "The naysayer color theme" single ((:commit . "22ac2901c7dfbc73f802f6280621fa4e2f92ff78") (:authors ("Nick Aversano" . "nickav@users.noreply.github.com")) (:maintainer "Nick Aversano" . "nickav@users.noreply.github.com") (:url . "https://github.com/nickav/naysayer-theme.el"))])

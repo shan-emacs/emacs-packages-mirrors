@@ -1,0 +1,2 @@
+
+(flycheck-posframe . [(20191214 1109) ((flycheck (0 24)) (emacs (26)) (posframe (0 3 0))) "Show flycheck error messages using posframe.el" single ((:commit . "2b3e94c2e427ec9831c513007460c5ea9e2225a3") (:authors ("Alex Murray" . "murray.alex@gmail.com")) (:maintainer "Alex Murray" . "murray.alex@gmail.com") (:url . "https://github.com/alexmurray/flycheck-posframe"))])

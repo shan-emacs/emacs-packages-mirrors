@@ -1,4 +1,4 @@
-Smart Operator mode is a minor mode which automatically inserts
+Electric spacing mode is a minor mode which automatically inserts
 surrounding spaces around operator symbols.  For example, `='
 becomes ` = ', `+=' becomes ` += '.  This is most handy for writing
 C-style source code.

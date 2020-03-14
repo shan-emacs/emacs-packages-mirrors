@@ -61,7 +61,7 @@ don't find it useful, it can be turned off by customizing
 
 ---------------------------------------------------------------------
 
-Other lisp files used by gnuplot.el
+Other Lisp files used by gnuplot.el
 
 gnuplot-gui.el (written by Bruce):
   Defines the GUI interface for setting setting arguments to
@@ -69,7 +69,7 @@ gnuplot-gui.el (written by Bruce):
 
 gnuplot-context.el (written by Jonathan, j.j.oddie@gmail.com)
   Context-sensitive completion, help lookup and eldoc
-  strings for gnuplot buffers. Should be byte-compiled before
+  strings for gnuplot buffers.  Should be byte-compiled before
   using.
 
 ---------------------------------------------------------------------
@@ -79,7 +79,7 @@ Elber, which is distributed with gnuplot itself and which dates
 back to the early 90's.  Although this mode encompasses the
 functionality of the original, the two share no code and the
 current implementation takes advantage of many features of modern
-versions of emacs and adheres (or so I intend) to the major mode
+versions of Emacs and adheres (or so I intend) to the major mode
 conventions described in the emacs-lisp reference for version 19
 and later.
 
@@ -89,7 +89,7 @@ and later.
                         ============
 
 A recent version of this file can be found at
-  http://github.com/bruceravel/gnuplot-mode/
+  https://github.com/emacsorphanage/gnuplot/
 
 To autoload gnuplot-mode on any file with gp extension, put this in
 your .emacs file
@@ -98,7 +98,7 @@ your .emacs file
 
 Something like
   (setq auto-mode-alist (append '(("\\.gp$" . gnuplot-mode))
-			           auto-mode-alist))
+                                auto-mode-alist))
 is useful for having files ending in .gp start up in gnuplot-mode.
 
 Something like
@@ -114,7 +114,7 @@ This means you must either:
   2.  Make sure info can find gnuplot.info by putting this in your
       .emacs file:
         (setenv "INFOPATH"
-	      (concat (getenv "INFOPATH") ":"
+           (concat (getenv "INFOPATH") ":"
                    (expand-file-name "/path/to/file")))
       where "/path/to/file" is the location of gnuplot.info
 

@@ -1,2 +1,0 @@
-
-(repo . [(20190326 1644) ((emacs (24 3))) "Running repo from Emacs" single ((:commit . "c53c06169dec4e556982fb06ca780ca4708dc436") (:keywords "convenience") (:authors ("Damien Merenne")) (:maintainer "Damien Merenne") (:url . "https://github.com/canatella/repo-el"))])

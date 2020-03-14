@@ -7,8 +7,7 @@ It has the following feature:
 1. It is fast enough for daily use.
 2. It works well with CJK language.
 
-*At the moment*, company-posframe can not work well with:
-1. company-quickhelp
+[[./snapshots/company-posframe.png]]
 
 ** How to use company-posframe
 
@@ -30,4 +29,8 @@ The below code let desktop.el not record the company-posframe-mode
 company-posframe.el is derived from Clément Pit-Claudel's
 company-tooltip.el, which can be found at:
 
-https://github.com/company-mode/company-mode/issues/745#issuecomment-357138511
+[[https://github.com/company-mode/company-mode/issues/745#issuecomment-357138511]]
+
+Some quickhelp functions is come from:
+
+[[https://github.com/company-mode/company-quickhelp][company-quickhelp]]

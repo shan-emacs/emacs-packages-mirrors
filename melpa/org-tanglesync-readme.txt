@@ -1,9 +1,10 @@
 Pulling external file changes to a tangled org-babel src block
-is surprisingly not an implemented feature.  This addresses that.
+is surprisingly not a well-implemented feature.  This addresses that.
 
 Any block that has :tangle <fname> will compare the block with
-that external <fname>.  When a diff is detected, 1 of 4 actions
+that external <fname>.  When a diff is detected, 1 of 5 actions
 can occur:
+
   1. External - <fname> contents will override the block contents
   2. Internal - block will keep the block contents
   3. Prompt - The user will be prompted to pull external changes
@@ -21,3 +22,11 @@ being edited (e.g. via `C-c '`) which asks the user if they
 want to pull external changes if a difference is detected.
 The user can bypass this and always pull by setting the
 `org-tanglesync-skip-user-check` custom parameter.
+
+Since v1.1, a "watch" mode has been added that does not require you
+to be within the org buffer to sync changes to the tangled blocks,
+but can now instead modify directly from the external tangled buffer
+and the changes will be synced back to the org file in the background.
+The `org-tanglesync-watch-files` needs only to be set a list of org
+files with tangled blocks, and `org-tanglesync-watch-mode` needs to
+enabled globally.

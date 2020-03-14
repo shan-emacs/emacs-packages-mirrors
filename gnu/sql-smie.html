@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - sql-smie</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - sql-smie</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">sql-smie</h2><dl><dt>Description</dt><dd></dd>
+<dd>This package has not been released yet.</dd>
+<dt>Browse repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/?h=externals/sql-smie">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=shortlog;h=refs/heads/externals/sql-smie">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">sql-smie</span> RET</pre><h2>Full description</h2><pre>
+This package provides SMIE support for SQL-mode.
+
+It is currently quite inferior to `sql-indent' at indenting SQL code because
+it only handles a tiny subset of the SQL language, so don't bother trying it
+out for that purpose unless you're interested in improving it.
+
+To make use of it, you can do something like:
+
+    (add-hook 'sql-mode-hook #'sql-smie-enable)
+
+It can be used together with `sql-indent', where `sql-indent' takes care
+of indenting and `sql-smie' is used for navigation, auto-fill, blink-paren,
+etc...
+</pre>
+</body>

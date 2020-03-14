@@ -1,0 +1,2 @@
+
+(code-stats . [(20200216 2020) ((emacs (25)) (request (0 3 0))) "Code::Stats plugin" single ((:commit . "055c9ce9c1b630d062305919cbffb9cf88fd24a8") (:authors ("Xu Chunyang" . "mail@xuchunyang.me")) (:maintainer "Xu Chunyang" . "mail@xuchunyang.me") (:url . "https://github.com/xuchunyang/code-stats-emacs"))])

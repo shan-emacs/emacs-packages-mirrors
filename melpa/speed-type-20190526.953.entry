@@ -1,2 +1,0 @@
-
-(speed-type . [(20190526 953) ((emacs (24 3)) (cl-lib (0 3))) "Practice touch and speed typing" single ((:commit . "c98f9ebd4abf96db967f9c0dff9ccfa4b7f4035b") (:keywords "games") (:authors ("Gunther Hagleitner")) (:maintainer "Julien Pagès" . "j.parkouss@gmail.com") (:url . "https://github.com/parkouss/speed-type"))])

@@ -1,0 +1,2 @@
+
+(comb . [(20200114 1325) ((emacs (25 1))) "Interactive code auditing and grep tool" tar ((:commit . "bd8e11b8593bc48f81ce01c0657d5a7977cafdf6") (:keywords "matching") (:authors ("Andrea Cardaci" . "cyrus.and@gmail.com")) (:maintainer "Andrea Cardaci" . "cyrus.and@gmail.com") (:url . "https://github.com/cyrus-and/comb"))])

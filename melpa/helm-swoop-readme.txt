@@ -1,5 +1,5 @@
 List the all lines to another buffer, which is able to squeeze
-by any words you input. At the same time, the original buffer's
+by any words you input.  At the same time, the original buffer's
 cursor is jumping line to line according to moving up and down
 the list.
 
@@ -30,7 +30,7 @@ Save buffer when helm-multi-swoop-edit complete
 If this value is t, split window inside the current window
 (setq helm-swoop-split-with-multiple-windows nil)
 
-Split direction. 'split-window-vertically or 'split-window-horizontally
+Split direction.  'split-window-vertically or 'split-window-horizontally
 (setq helm-swoop-split-direction 'split-window-vertically)
 
 If nil, you can slightly boost invoke speed in exchange for text color
@@ -59,4 +59,4 @@ Face name is `helm-swoop-line-number-face`
 
 Helm Swoop Edit
 While doing helm-swoop, press keybind [C-c C-e] to move to edit buffer.
-Edit the list and apply by [C-x C-s]. If you'd like to cancel, [C-c C-g]
+Edit the list and apply by [C-x C-s].  If you'd like to cancel, [C-c C-g]

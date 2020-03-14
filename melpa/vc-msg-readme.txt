@@ -19,7 +19,7 @@ You can add hook to `vc-msg-hook',
   (add-hook 'vc-msg-hook 'vc-msg-hook-setup)
 
 Hook `vc-msg-show-code-hook' is hook after code of certain commit
-is displayed. Here is sample code:
+is displayed.  Here is sample code:
   (defun vc-msg-show-code-setup ()
     ;; use `ffip-diff-mode' from package find-file-in-project instead of `diff-mode'
     (ffip-diff-mode))
@@ -40,3 +40,19 @@ correctly:
 
 The program provides a plugin framework so you can easily write a
 plugin to support any alien VCS.  Please use "vc-msg-git.el" as a sample.
+
+Sample configuration to integrate with Magit (https://magit.vc/),
+
+(eval-after-load 'vc-msg-git
+  '(progn
+     ;; show code of commit
+     (setq vc-msg-git-show-commit-function 'magit-show-commit)
+     ;; open file of certain revision
+     (push '("m"
+             "[m]agit-find-file"
+             (lambda ()
+               (let* ((info vc-msg-previous-commit-info)
+                      (git-dir (locate-dominating-file default-directory ".git")))
+                 (magit-find-file (plist-get info :id )
+                                  (concat git-dir (plist-get info :filename))))))
+           vc-msg-git-extra)))

@@ -1,0 +1,2 @@
+
+(pydoc . [(20200107 54) nil "functional, syntax highlighted pydoc navigation" single ((:commit . "1dfbab7800827adadb649d6e02c31dd9cd65f0d3") (:keywords "pydoc" "python") (:authors ("John Kitchin" . "jkitchin@andrew.cmu.edu")) (:maintainer "Brian J. Lopes" . "statmobile@gmail.com") (:url . "https://github.com/statmobile/pydoc"))])

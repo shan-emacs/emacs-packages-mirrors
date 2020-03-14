@@ -1,0 +1,400 @@
+#+TITLE: Modus Themes for GNU Emacs
+#+AUTHOR: Protesilaos Stavrou
+#+EMAIL: public@protesilaos.com
+
+* Overview
+  :PROPERTIES:
+  :CUSTOM_ID: h:d42d56a4-9252-4858-ac8e-3306cdd24e19
+  :END:
+
+This is a set of accessible themes for GNU Emacs.  The contrast ratio
+between foreground and background values should always be >= 7:1, which
+conforms with the WCAG AAA accessibility standard.  This is the highest
+standard of its kind.
+
+The /Modus themes/ project consists of two standalone items, one where
+dark text is cast on a light backdrop (Modus Operandi) and another where
+light text is displayed against a dark background (Modus Vivendi).
+
+*Check the [[https://gitlab.com/protesilaos/modus-themes/wikis/Screenshots][Wiki page with the screen shots]].* Also note that I demo these
+themes in [[https://protesilaos.com/code-casts][my Emacs-related screen casts]] (though older videos contain
+earlier, "alpha" versions).
+
+* Install and auto-load
+  :PROPERTIES:
+  :CUSTOM_ID: h:25c3ecd3-8025-414c-9b96-e4d6266c6fe8
+  :END:
+
+** Install the MELPA packages
+   :PROPERTIES:
+   :CUSTOM_ID: h:c3e293e8-8464-4196-aefd-184027116ded
+   :END:
+
+I maintain /Modus Operandi/ (light theme) and /Modus Vivendi/ (dark) as
+standalone packages in ELPA, MELPA, and MELPA Stable.
+
+Just run:
+
+=M-x package-install RET modus-operandi-theme RET=
+
+And/or:
+
+=M-x package-install RET modus-vivendi-theme RET=
+
+To be clear, that sequence means:
+
++ press `Meta-X'
++ type `package-install'
++ hit the Return key
++ type the name of the package
++ hit Return to confirm your choice
+
+*** With `use-package'
+    :PROPERTIES:
+    :CUSTOM_ID: h:3ab0ac39-38fb-405b-8a15-771cbd843b6d
+    :END:
+
+For a declarative approach with =use-package=, you can write something
+like this:
+
+#+BEGIN_SRC emacs-lisp
+(use-package modus-operandi-theme
+  :ensure t)
+
+(use-package modus-vivendi-theme
+  :ensure t)
+#+END_SRC
+
+** Manual installation method
+   :PROPERTIES:
+   :CUSTOM_ID: h:0317c29a-3ddb-4a0a-8ffd-16c781733ea2
+   :END:
+
+Download the files in this repository ending in =*-theme.el= and place
+them in an appropriate directory, such as =~/.emacs.d/themes/=.  To make
+sure the filesystem path of your choice is read by Emacs, insert the
+following in your initialisation file:
+
+#+BEGIN_SRC emacs-lisp
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+#+END_SRC
+
+** Load automatically
+   :PROPERTIES:
+   :CUSTOM_ID: h:ae978e05-526f-4509-a007-44a0925b8bce
+   :END:
+
+To load the theme from your Emacs initialisation file use the relevant
+snippet:
+
+#+BEGIN_SRC emacs-lisp
+(load-theme 'modus-operandi t)          ; Light theme
+(load-theme 'modus-vivendi t)           ; Dark theme
+#+END_SRC
+
+Make sure to /remove any other theme/ that is being loaded, otherwise
+you might run into unexpected issues.
+
+* Customisation options
+  :PROPERTIES:
+  :CUSTOM_ID: h:d414ca47-6dce-4905-9f2e-de1465bf23bb
+  :END:
+
+Both of the Modus themes expose some variables that allow users to tweak
+the look of the theme.  By default, all variables are deactivated,
+meaning that *you need to explicitly opt in*.
+
+This is what is available right now (use the ones appropriate to the
+theme of your choice):
+
+#+BEGIN_SRC emacs-lisp
+;; Choose to render more code constructs in slanted text (italics).  The
+;; default, shown below, is to not use italics, unless it is absolutely
+;; necessary.
+(setq modus-operandi-theme-slanted-constructs nil)
+
+(setq modus-vivendi-theme-slanted-constructs nil)
+
+;; Opt to display some additional code constructs in bold.  The default,
+;; shown below, is to use bold weight only where necessary.
+(setq modus-operandi-theme-bold-constructs nil)
+
+(setq modus-vivendi-theme-bold-constructs nil)
+
+;; Use proportionately-spaced fonts (variable-pitch) for headings.  The
+;; default is to use whatever font the user has selected, typically a
+;; monospaced typeface.
+(setq modus-operandi-theme-proportional-fonts nil)
+
+(setq modus-vivendi-theme-proportional-fonts nil)
+
+;; Whether headings should be scaled or have the same height as body
+;; text.  The default is to keep everything the same as the base size.
+(setq modus-operandi-theme-scale-headings nil)
+
+(setq modus-vivendi-theme-scale-headings nil)
+
+;; Font scale that should apply to headings.  These are the default values.
+(setq modus-operandi-theme-scale-1 1.05)
+(setq modus-operandi-theme-scale-2 1.1)
+(setq modus-operandi-theme-scale-3 1.15)
+(setq modus-operandi-theme-scale-4 1.2)
+
+(setq modus-vivendi-theme-scale-1 1.05)
+(setq modus-vivendi-theme-scale-2 1.1)
+(setq modus-vivendi-theme-scale-3 1.15)
+(setq modus-vivendi-theme-scale-4 1.2)
+#+END_SRC
+
+*NOTE* that all customisation options must be declared /before/ loading
+the theme, else they will not be parsed and have no effect.
+
+* Face coverage
+  :PROPERTIES:
+  :CUSTOM_ID: h:944a3bdf-f545-40a0-a26c-b2cec8b2b316
+  :END:
+
+This list will always be updated to reflect the current state of the
+project.  The idea is to offer an overview of the /known status/ of all
+affected face groups.
+
+** Full support
+   :PROPERTIES:
+   :CUSTOM_ID: h:5ea98392-1376-43a4-8080-2d42a5b690ef
+   :END:
+
+The items with an appended asterisk =*= tend to have lots of extensions, so
+the "full support" may not be 100% true…
+
++ ace-window
++ alert
++ all-the-icons
++ annotate
++ anzu
++ apropos
++ apt-sources-list
++ artbollocks-mode
++ auto-dim-other-buffers
++ avy
++ breakpoint (provided by built-in gdb-mi.el)
++ calendar and diary
++ calfw
++ change-log and log-view (=vc-print-log= and =vc-print-root-log=)
++ column-enforce-mode
++ company-mode*
++ company-posframe
++ compilation-mode
++ completions
++ counsel*
++ counsel-css
++ counsel-notmuch
++ counsel-org-capture-string
++ cov
++ custom (=M-x customize=)
++ dap-mode
++ dashboard (emacs-dashboard)
++ deadgrep
++ define-word
++ deft
++ diff-hl
++ diff-mode
++ dim-autoload
++ dired
++ dired-async
++ dired-git
++ dired-git-info
++ dired-narrow
++ dired-subtree
++ diredfl
++ disk-usage
++ doom-modeline
++ easy-jekyll
++ easy-kill
++ ediff
++ eldoc-box
++ elfeed
++ emms
++ enhanced-ruby-mode
++ epa
++ equake
++ erc
++ ert
++ eshell
++ evil* (evil-mode)
++ evil-goggles
++ evil-visual-mark-mode
++ eww
++ eyebrowse
++ fancy-dabbrev
++ flycheck
++ flycheck-indicator
++ flycheck-posframe
++ flymake
++ flyspell
++ focus
++ font-lock (generic syntax highlighting)
++ fountain (fountain-mode)
++ geiser
++ git
++ git-gutter (and variants)
++ git-lens
++ git-timemachine
++ gnus
++ helm*
++ helm-ls-git
++ helm-xref
++ highlight-blocks
++ hl-fill-column
++ hl-line-mode
++ hydra
++ ido-mode
++ iedit
++ imenu-list
++ info
++ info-colors
++ isearch, occur, etc.
++ ivy*
++ ivy-posframe
++ jira (org-jira)
++ js2-mode
++ jupyter
++ keycast
++ line numbers (=display-line-numbers-mode= and global variant)
++ lsp-mode
++ lsp-ui
++ magit
++ markdown-mode
++ mentor
++ messages
++ modeline
++ mood-line
++ mu4e
++ mu4e-conversation
++ neotree
++ org*
++ org-journal
++ org-noter
++ org-pomodoro
++ org-recur
++ origami
++ outline-mode
++ package (=M-x list-packages=)
++ paren-face
++ pass
++ persp-mode
++ perspective
++ powerline
++ powerline-evil
++ proced
++ prodigy
++ rainbow-blocks
++ rainbow-delimiters
++ regexp-builder (also known as =re-builder=)
++ rmail
++ ruler-mode
++ shell-script-mode
++ show-paren-mode
++ smart-mode-line
++ smartparens
++ smerge
++ speedbar
++ suggest
++ swiper
++ sx
++ telephone-line
++ term
++ transient (pop-up windows like Magit's)
++ treemacs
++ undo-tree
++ vc (built-in mode line status for version control)
++ visual-regexp
++ wgrep
++ which-function-mode
++ which-key
++ whitespace-mode
++ window-divider-mode
++ writegood-mode
++ xah-elisp-mode
++ xref
++ xterm-color (and ansi-colors)
++ ztree
+
+Plus many other miscellaneous faces that are provided by the out-of-the-box
+Emacs distribution.
+
+** Covered but not styled explicitly
+   :PROPERTIES:
+   :CUSTOM_ID: h:8ada963d-046d-4c67-becf-eee18595f902
+   :END:
+
+These do not require any extra styles because they are configured to
+inherit from some basic faces.  Please confirm.
+
++ comint
++ bongo
+
+** Help needed
+   :PROPERTIES:
+   :CUSTOM_ID: h:bcc3f6f9-7ace-4e2a-8dbb-2bf55574dae5
+   :END:
+
+These are face groups that I am aware of but do not know how to access
+or do not actively use.  I generally need to see how a face looks in its
+context before assessing its aesthetics or specific requirements.
+
+Use =M-x list-faces-display= to get these.
+
++ tty-menu
+
+Note that the themes do provide support for =org-mode=, but some of
+these interfaces have been decided based on indirect experience.  If you
+encounter anything that does not "feel right", please let me know.
+
+** Will NOT be supported
+   :PROPERTIES:
+   :CUSTOM_ID: h:46756fcc-0d85-4f77-b0e3-64f890e1c2ea
+   :END:
+
+I have thus far identified a single package that does fit into the
+overarching objective of this project: [[https://github.com/hlissner/emacs-solaire-mode][solaire]].  It basically tries to
+cast a less intense background on the main file-visiting buffers, so
+that secondary elements like sidebars can have the default (pure
+white/black) background.
+
+/I will only support this package if it ever supports the inverse
+effect/: less intense colours (but still accessible) for supportive
+interfaces and the intended styles for the content you are actually
+working on.
+
+* Contributing
+  :PROPERTIES:
+  :CUSTOM_ID: h:25ba8d6f-6604-4338-b774-bbe531d467f6
+  :END:
+
+A few tasks you can help me with, sorted from the most probable to the
+least likely:
+
++ Suggest refinements to packages that are covered.
++ Report packages not covered thus far.
++ Report bugs, inconsistencies, shortcomings.
++ Help expand the documentation of covered-but-not-styled packages.
++ Suggest refinements to the colour palette.
++ Help expand this document or any other piece of documentation.
+
+It would be great if your feedback also includes some screenshots, GIFs,
+or short videos.  Though this is not a requirement.
+
+Whatever you do, please bear in mind the overarching objective of the
+Modus themes: to keep a contrast ratio that is greater or equal to 7:1
+between background and foreground colours.  If a compromise is ever
+necessary between aesthetics and accessibility, it shall always be made
+in the interest of latter.
+
+* COPYING
+  :PROPERTIES:
+  :CUSTOM_ID: h:66652183-2fe0-46cd-b4bb-4121bad78d57
+  :END:
+
+The Modus Themes are distributed under the terms of the GNU General
+Public License version 3 or, at your choice, any later version.  See the
+COPYING file distributed in the [[https://gitlab.com/protesilaos/modus-themes][project's Git repository]].

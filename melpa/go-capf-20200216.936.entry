@@ -1,0 +1,2 @@
+
+(go-capf . [(20200216 936) ((emacs (24 4))) "Completion-at-point backend for go" single ((:commit . "9e66ce4ef4307e9f0e73e65f6bb2f287ed2c940b") (:keywords "languages" "abbrev" "convenience") (:authors ("Philip K." . "philip@warpmail.net")) (:maintainer "Philip K." . "philip@warpmail.net") (:url . "https://git.sr.ht/~zge/go-capf"))])

@@ -1,0 +1,2 @@
+
+(elm-mode . [(20200301 19) ((f (0 17)) (s (1 7 0)) (emacs (25 1)) (dash (2 13 0)) (reformatter (0 3))) "Major mode for Elm" tar ((:commit . "3f042ec430e7d915bfdca21d4f4d6201a882434b") (:authors ("Joseph Collard")) (:maintainer "Joseph Collard") (:url . "https://github.com/jcollard/elm-mode"))])

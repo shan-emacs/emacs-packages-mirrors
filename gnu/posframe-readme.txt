@@ -1,13 +1,15 @@
 * Posframe README                                :README:
-** What is posframe
-Posframe can pop a posframe at point, this *posframe* is a
-child-frame with its root window's buffer.
+** What is posframe?
+Posframe can pop up a frame at point, this *posframe* is a
+child-frame connected to its root window's buffer.
 
 The main advantages are:
 1. It is fast enough for daily usage :-)
-2. It works well with CJK language.
+2. It works well with CJK languages.
 
-NOTE: For MacOS users, posframe need Emacs (version >= 26.0.91)
+NOTE:
+1. For MacOS users, posframe needs Emacs version >= 26.0.91
+2. Posframe will be very very slow when emacs is built with --with-x-toolkit=athena.
 
 [[./snapshots/posframe-1.png]]
 
@@ -63,7 +65,7 @@ M-x posframe-hide-all
    #+BEGIN_EXAMPLE
    (posframe-delete " *my-posframe-buffer*")
    #+END_EXAMPLE
-2. Only delete posframe's frame
+2. Only delete the frame
    #+BEGIN_EXAMPLE
    (posframe-delete-frame " *my-posframe-buffer*")
    #+END_EXAMPLE
@@ -72,11 +74,11 @@ M-x posframe-hide-all
 M-x posframe-delete-all
 #+END_EXAMPLE
 
-Note: this command will delete all posframe buffers,
-suggest not run this command if you are sharing a buffer
+Note: this command will delete all posframe buffers.
+You probably shouldn't use it if you are sharing a buffer
 between posframe and other packages.
 
-*** Customizing pointer control
+*** Customizing mouse pointer control
 
 By default, posframe moves the pointer to point (0,0) in
 the frame, as a way to address an issue with mouse focus.
@@ -85,15 +87,23 @@ To disable this feature, add this to your init.el:
 (setq posframe-mouse-banish nil)
 #+END_EXAMPLE
 
-*** Set fallback argument of posframe-show
+*** Set fallback arguments of posframe-show
 
-user can set fallback values of posframe-show's arguments with the
-help of `posframe-arghandler'. the below example set fallback
+Users can set fallback values of posframe-show's arguments with the
+help of `posframe-arghandler'.  The example below sets fallback
 border-width to 10 and fallback background color to green.
 
 #+BEGIN_EXAMPLE
 (setq posframe-arghandler #'my-posframe-arghandler)
-(defun my-posframe-arghandler (posframe-buffer arg-name value)
+(defun my-posframe-arghandler (buffer-or-name arg-name value)
   (let ((info '(:internal-border-width 10 :background-color "green")))
     (or (plist-get info arg-name) value)))
 #+END_EXAMPLE
+
+*** Some packages which use posframe
+1. [[https://github.com/yanghaoxie/which-key-posframe][which-key-posframe]]
+2. [[https://github.com/conao3/ddskk-posframe.el][ddskk-posframe]]
+3. [[https://github.com/tumashu/pyim][pyim]]
+4. [[https://github.com/tumashu/ivy-posframe][ivy-posframe]]
+5. [[https://github.com/tumashu/company-posframe][company-posframe]]
+6. ...

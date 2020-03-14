@@ -2,7 +2,7 @@ Basic setup:
 
 Ensure that the installation directory is in your `load-path' (it
 is done for you if installing from melpa), and add the following
-line to your emacs init file:
+line to your Emacs init file:
 
     (require 'magma-mode)
 
@@ -13,8 +13,8 @@ file extensions, you can add the following to your init file:
     (append '(("\\.mgm$\\|\\.m$" . magma-mode))
             auto-mode-alist))
 
-Some features are available in `magma-extra.el'. They are disabled
-because they are more intrusive than the others. Feel free to
+Some features are available in `magma-extra.el'.  They are disabled
+because they are more intrusive than the others.  Feel free to
 browse the customize interface to enable some of them!
 
 Some support for `hs-minor-mode', `imenu' and `smart-parens' is
@@ -26,7 +26,7 @@ If you are using `yasnippet', you can enable some snippets for
     (require 'magma-snippets)
 
 At the moment, these snippets include basic syntactic constructs
-(if, while, for, etc.) and load (with file name completion). More
+(if, while, for, etc.) and load (with file name completion).  More
 will be added in the future.
 
 The complete documentation is available on

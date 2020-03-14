@@ -33,7 +33,7 @@ SEML is *short* and *easy to understand* for Lisp hacker.
       (p nil "text sample")))
 #+end_src
 
-More information at [[https://github.com/conao3/seml-mode][github]]
+More information at [[https://github.com/conao3/seml-mode.el][github]]
 
 Sample configuration with [[https://github.com/conao3/leaf.el][leaf.el]]
 

@@ -12,14 +12,14 @@ In particular:
 
 BUGS/TODO:
 
-* Timetags and binary blobs are not supported yet.
+* Timetags are not supported yet.
 
 Usage:
 
-Client: (setq my-client (osc-make-client "localhost" 7770))
+Client: (setq my-client (osc-make-client "127.0.0.1" 7770))
         (osc-send-message my-client "/osc/path" 1.5 1.0 5 "done")
         (delete-process my-client)
 
-Server: (setq my-server (osc-make-server "localhost" 7770
+Server: (setq my-server (osc-make-server "127.0.0.1" 7770
          (lambda (path &rest args)
            (message "OSC %s: %S" path args))))

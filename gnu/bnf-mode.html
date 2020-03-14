@@ -23,8 +23,8 @@
 
             <div class="container">
 <h2 class="package">bnf-mode</h2><dl><dt>Description</dt><dd>Major mode for editing BNF grammars.</dd>
-<dt>Latest</dt> <dd><a href="bnf-mode-0.4.2.tar">bnf-mode-0.4.2.tar</a>, 2019-May-14, 90.0&nbsp;KiB</dd>
-<dt>Maintainer</dt> <dd>Serghei Iakovlev &lt;sadhooklay@gmail.com></dd>
+<dt>Latest</dt> <dd><a href="bnf-mode-0.4.4.tar">bnf-mode-0.4.4.tar</a>, 2020-Mar-03, 80.0&nbsp;KiB</dd>
+<dt>Maintainer</dt> <dd>Serghei Iakovlev &lt;egrep@protonmail.ch></dd>
 <dt>Home page</dt> <dd><a href="https://github.com/sergeyklay/bnf-mode">https://github.com/sergeyklay/bnf-mode</a></dd>
 <dt>Browse ELPA's repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/?h=externals/bnf-mode">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=shortlog;h=refs/heads/externals/bnf-mode">Gitweb</a></dd>
 </dl><p>To install this package, run in Emacs:</p>
@@ -32,7 +32,8 @@
 * BNF Mode for GNU Emacs
 
 [[https://www.gnu.org/licenses/gpl-3.0.txt][https://img.shields.io/badge/license-GPL_3-green.svg]]
-[[https://travis-ci.com/sergeyklay/bnf-mode][https://travis-ci.com/sergeyklay/bnf-mode.svg]]
+[[https://github.com/sergeyklay/bnf-mode/actions][https://github.com/sergeyklay/bnf-mode/workflows/build/badge.svg]]
+[[https://codecov.io/gh/sergeyklay/bnf-mode][https://codecov.io/gh/sergeyklay/bnf-mode/branch/master/graph/badge.svg]]
 [[https://melpa.org/#/bnf-mode][https://melpa.org/packages/bnf-mode-badge.svg]]
 [[https://stable.melpa.org/#/bnf-mode][https://stable.melpa.org/packages/bnf-mode-badge.svg]]
 
@@ -44,9 +45,10 @@ A GNU Emacs major mode for editing BNF grammars.
 Richard Feynman
 #+end_quote
 
-Currently provides basic syntax and font-locking for BNF files. BNF notation is
+Currently provides basic syntax and font-locking for BNF files.  BNF notation is
 supported exactly form as it was first announced in the ALGOL 60 report.
-EBNF and ABNF are not supported but  in my plans for the near future.
+EBNF and ABNF are not supported but their implementation is planned in the near
+future.
 
 When developing this mode, the following documents were taken into account:
 
@@ -74,126 +76,15 @@ NOTE: The ~master~ branch will always contain the latest unstable version.
 If you wish to check older versions or formal, tagged release, please switch
 to the relevant [[https://github.com/sergeyklay/bnf-mode/tags][tag]].
 
-The best way of installing this major mode, at least for GNU Emacs 24, is to
-use the packaging system.  The following are ways to install using ELPA and
-MELPA.
+The recommended way is to use [[https://elpa.gnu.org/][ELPA]], [[https://stable.melpa.org/][MELPA Stable]] or [[https://melpa.org/][MELPA]]. If either is in your
+=package-archives=, do:
 
-*** Using ELPA or MELPA
-**** ELPA
-
-Since version 0.4.1 BNF Mode is available for installation from ELPA.
-Add ELPA to the list of repositories to access this mode:
-
-#+begin_src emacs-lisp
-(require 'package)
-(add-to-list 'package-archives
-             '("gnu" . "https://elpa.gnu.org/packages/") t)
-(package-initialize)
+#+begin_src
+M-x package-install RET bnf-mode RET
 #+end_src
 
-**** MELPA
-
-Add MELPA or MELPA Stable to the list of repositories to access this mode.
-MELPA tracks this Git repository and updates relatively soon after each commit
-or formal release.  For more detail on setting up see [[https://melpa.org/#/getting-started][MELPA Getting Started]].
-
-For those who want only formal, tagged releases use MELPA Stable:
-
-#+begin_src emacs-lisp
-(require 'package)
-(add-to-list 'package-archives
-             '("melpa-stable" . "https://stable.melpa.org/packages/") t)
-(package-initialize)
-#+end_src
-
-For those who want rolling releases as they happen use MELPA:
-
-#+begin_src emacs-lisp
-(require 'package)
-(add-to-list 'package-archives
-             '("melpa" . "https://melpa.org/packages/") t)
-(package-initialize)
-#+end_src
-
-After initializing packaging system you can install BNF Mode using preferred way:
-
-***** =package-list-packages=
-
-Use ~M-x package-refresh-contents~ and ~M-x package-list-packages~ to get to
-the package listing and install ~bnf-mode~ from there.
-
-***** Manual
-
-You can install ~bnf-mode~ manually by adding following to your init file:
-
-#+begin_src emacs-lisp
-(unless (package-installed-p 'bnf-mode)
-    (package-refresh-contents)
-    (package-install 'bnf-mode))
-#+end_src
-
-***** Cask
-
-Add following to your [[https://cask.github.io/][Cask]] file:
-
-#+begin_src emacs-lisp
-(source melpa)
-
-(depends-on "bnf-mode")
-#+end_src
-
-***** =use-package=
-
-Add following to your init file:
-
-#+begin_src emacs-lisp
-(use-package bnf-mode
-  :ensure t
-  ;; To use MELPA Stable use ":pin mepla-stable",
-  ;; to use ELPA remove ":pin" line
-  :pin melpa
-  :mode "\\.bnf\\'")
-#+end_src
-
-*** El-get
-
-If you use el-get, just create a recipe file ~bnf.rcp~:
-
-#+begin_src emacs-lisp
-(:name bnf-mode
- :website "https://github.com/sergeyklay/bnf-mode"
- :description "BNF Mode: A major mode for editing BNF grammars"
- :type github
- :pkgname "sergeyklay/bnf-mode")
-#+end_src
-
-and add it to a directory present in ~el-get-recipe-path~.
-Then, use ~M-x el-get-install &lt;RET> bnf-mode~ or add:
-
-#+begin_src emacs-lisp
-(el-get-bundle bnf-mode)
-#+end_src
-
-to your init file.
-
-*** Manual Install
-
-1. Download ~bnf-mode.el~
-2. Put the file in your Elisp common folder like ~$HOME/.emacs.d/lisp/~
-3. Then you can include like this:
-   #+begin_src emacs-lisp
-   (add-to-list 'load-path
-                (expand-file-name "lisp" user-emacs-directory))
-   #+end_src
-4. Add /either/ of the two following lines to your initialization file.
-   The first only loads BNF Mode when necessary, the 2nd always during startup
-   of GNU Emacs.
-   #+begin_src emacs-lisp
-   (autoload 'bnf-mode "bnf-mode" nil t)
-   ;; OR
-   (require 'bnf-mode)
-   #+end_src
-5. Optionally byte compile ~bnf-mode.el~ for faster startup: ~M-x byte-compile~
+To learn on how to use any other installation methods refer to relevant
+documentation.
 
 ** Usage
 
@@ -203,7 +94,16 @@ to your init file.
 |---------------------------------+----------------------------------|
 | ~bnf-mode~                      | Switches to BNF Mode.            |
 
-Any file that matches the glob ~*.bnf~ is automatically opened in ~bnf-mode~.
+By default any file that matches the glob ~*.bnf~ is automatically opened
+in ~bnf-mode~.
+
+** Customization
+
+To customize various options, use command as follows:
+
+#+begin_src
+M-x customize-group RET bnf RET
+#+end_src
 
 ** Support
 
@@ -211,23 +111,125 @@ Feel free to ask question or make suggestions in our [[https://github.com/sergey
 
 ** Changes
 
-To see what has changed in recent versions of BNF Mode, see the [[https://github.com/sergeyklay/bnf-mode/blob/master/CHANGELOG.org][CHANGELOG.org]] .
+To see what has changed in recent versions of BNF Mode see:
+https://github.com/sergeyklay/bnf-mode/blob/master/NEWS .
 
 ** External Links
 
 - [[https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form][Wikipedia: Backus–Naur form]]
-- [[https://en.wikipedia.org/wiki/Extended_Backus%25E2%2580%2593Naur_form][Wikipedia: Extended Backus–Naur form]]
-- [[https://en.wikipedia.org/wiki/Augmented_Backus%25E2%2580%2593Naur_form][Wikipedia: Augmented Backus–Naur form]]
+- [[https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form][Wikipedia: Extended Backus–Naur form]]
+- [[https://en.wikipedia.org/wiki/Augmented_Backus%E2%80%93Naur_form][Wikipedia: Augmented Backus–Naur form]]
 - [[https://www.cl.cam.ac.uk/~mgk25/iso-14977.pdf][ISO/IEC 14977: EBNF]]
 - [[https://www.ics.uci.edu/~pattis/ICS-33/lectures/ebnf.pdf][EBNF: A Notation to Describe Syntax]]
 
 ** License
 
 BNF Mode is open source software licensed under the [[https://github.com/sergeyklay/bnf-mode/blob/master/LICENSE][GNU General Public Licence version 3]].
-Copyright © 2019, Free Software Foundation, Inc.
+Copyright © 2019, 2020, Free Software Foundation, Inc.
 
 </pre>
 <h2>Old versions</h2><table>
+<tr><td><a href="bnf-mode-0.4.3.tar">bnf-mode-0.4.3.tar</a></td><td>2020-Jan-20</td><td>70.0&nbsp;KiB</td>
+<tr><td><a href="bnf-mode-0.4.2.tar">bnf-mode-0.4.2.tar</a></td><td>2019-May-14</td><td>90.0&nbsp;KiB</td>
 <tr><td><a href="bnf-mode-0.4.1.tar">bnf-mode-0.4.1.tar</a></td><td>2019-May-10</td><td>90.0&nbsp;KiB</td>
 </table>
+<h2>News</h2><pre>
+bnf-mode NEWS -- history of user-visible changes.
+
+Copyright (C) 2019, 2020 Free Software Foundation, Inc.
+See the end of the file for license conditions.
+
+This file is about changes in BNF Mode.
+
+* BNF Mode 0.4.4
+** Rework documentation and provide Info-file.
+Previous releases of BNF Mode were bundled with incorrect "dir" file
+which contained an invalid link to documentation.  This was
+resolved.  All documentation now lives in "info bnf-mode".
+
+* BNF Mode 0.4.3
+** Fixed dependency list in the Cask file.
+Dependency list was fixed by specifying `cl-lib' version as well as
+removing `rx' (`rx' is part of GNU Emacs actually).  This fixed the
+issue reported in &lt;https://github.com/sergeyklay/bnf-mode/issues/5>.
+The issue related to installation from the TAR file.
+
+** CI/CD process was moved on GitHub Actions.
+
+* BNF Mode 0.4.2
+** First release in ELPA.
+
+** Introduced ALGOL 60 comments style. Disabled by default.
+
+** Use semicolons as a comments.
+Only setting bnf-mode-algol-comments-style to non-nil will allow use
+semicolons as a regular terminal symbols.
+
+* BNF Mode 0.4.1
+** Minor fix related to build &amp; deploy BNF Mode on Travis CI.
+
+* BNF Mode 0.4.0
+** Added comment-start-skip to improve recognize comments.
+
+** Return back comment-start and comment-end.
+
+** Use more intelligent terminal syntax recognition.
+Added support of ";" character as an extra character used in terminals.
+
+** Provided ability to build installation package.
+See make help for more.
+
+* BNF Mode 0.3.2
+** First release in MELPA.
+
+** Treat ' and " as a regular symbols.
+
+** Removed no longer needed comment-* variables.
+
+** In the BNF there are no grouping brackets except angle ones.
+
+** Removed the bnf-mode-version function.
+Users can easily call describe-package or pkg-info-package-version
+interactively if they want to get this information.
+
+* BNF Mode 0.3.1
+** Fixed BNF rule name definition to follow ALGOL 60 report.
+
+* BNF Mode 0.3.0
+** Nonterminals may be preceded by an unlimited number of spaces.
+
+* BNF Mode 0.2.0
+** Comments are no longer use syntax table.
+
+** Changed comment syntax from "#" to ";" to follow RFC822#2.8.
+
+* BNF Mode 0.1.0
+** Initial stable release.
+
+
+
+----------------------------------------------------------------------
+This file is part of GNU Emacs.
+
+GNU Emacs is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+GNU Emacs is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with GNU Emacs.  If not, see &lt;https://www.gnu.org/licenses/>.
+
+
+Local variables:
+coding: utf-8
+mode: outline
+paragraph-separate: "[ 	]*$"
+end:
+
+</pre>
 </body>

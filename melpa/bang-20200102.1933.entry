@@ -1,0 +1,2 @@
+
+(bang . [(20200102 1933) ((emacs (24 1))) "A more intelligent shell-command" single ((:commit . "87589331a8f0850a46964dbdbdcc3f2191b03376") (:keywords "unix" "processes" "convenience") (:authors ("Philip K." . "philip@warpmail.net")) (:maintainer "Philip K." . "philip@warpmail.net") (:url . "https://git.sr.ht/~zge/bang"))])

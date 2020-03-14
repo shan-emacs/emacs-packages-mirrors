@@ -1,0 +1,2 @@
+
+(kubel . [(20200313 2056) ((transient (0 1 0)) (emacs (25 3)) (dash (2 17 0))) "extension for controlling Kubernetes with limited permissions" single ((:commit . "6070380824543db04c83c4adf2bb018cb3d282e1") (:keywords "kubernetes" "k8s" "tools" "processes") (:authors ("Adrien Brochard")) (:maintainer "Adrien Brochard") (:url . "https://github.com/abrochard/kubel"))])

@@ -1,0 +1,2 @@
+
+(flycheck-relint . [(20200304 152) ((emacs (26 1)) (flycheck (0 22)) (relint (1 14))) "A Flycheck checker for elisp regular expressions" single ((:commit . "f498c130408411906bda81c1023a88b1498dcf18") (:keywords "lisp") (:authors ("Steve Purcell" . "steve@sanityinc.com")) (:maintainer "Steve Purcell" . "steve@sanityinc.com") (:url . "https://github.com/purcell/flycheck-relint"))])

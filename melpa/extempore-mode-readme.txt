@@ -17,7 +17,7 @@
 
    The most important commands are
 
-     M-x `extempore-connect-or-disconnect' (C-c C-j)
+     M-x `extempore-connect' (C-c C-j)
 
      Connect the current extempore-mode buffer to a running
      Extempore process - this is necessary to begin sending code

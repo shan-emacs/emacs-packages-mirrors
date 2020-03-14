@@ -1,0 +1,2 @@
+
+(colorless-themes . [(20200221 1655) ((emacs (24 1))) "A macro to generate mostly colorless themes" single ((:commit . "a7b7c0a32b174988f40378996cd8997f73524f19") (:keywords "faces themes" "faces") (:authors ("Thomas Letan" . "contact@thomasletan.fr")) (:maintainer "Thomas Letan" . "contact@thomasletan.fr") (:url . "https://git.sr.ht/~lthms/colorless-themes.el"))])

@@ -1,2 +1,0 @@
-
-(zoom . [(20190523 1300) ((emacs (24 4))) "Fixed and automatic balanced window layout" single ((:commit . "e2aad25dfd334299a7e53df21796b8652142c5b5") (:keywords "frames") (:authors ("Andrea Cardaci" . "cyrus.and@gmail.com")) (:maintainer "Andrea Cardaci" . "cyrus.and@gmail.com") (:url . "https://github.com/cyrus-and/zoom"))])

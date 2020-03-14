@@ -42,4 +42,7 @@ The content of ".dir-locals.el":
                                   "*.log"))
                        (add-to-list 'grep-find-ignored-files v)))))))
 
-"git grep" is automatically detected for single line completion.
+"git grep" is automatically used for grepping in git repository.
+Please note "git grep" does NOT use `grep-find-ignored-directories' OR
+`grep-find-ignored-files'. You could set `eacl-git-grep-untracked' to tell
+git whether untracked files should be grepped in the repository.

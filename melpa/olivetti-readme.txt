@@ -2,8 +2,6 @@
 
 A simple Emacs minor mode for a nice writing environment.
 
-Screenshot: https://f002.backblazeb2.com/file/pwr-share/olivetti.png
-
 ## Features ##
 
 - Set a desired text body width to automatically resize window margins to
@@ -27,7 +25,7 @@ recommend writeroom-mode: https://github.com/joostkremers/writeroom-mode.
 
 ## Requirements ##
 
-- Emacs 24.5
+- Emacs 25.3
 
 ## Installation ##
 

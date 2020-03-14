@@ -1,0 +1,2 @@
+
+(metronome . [(20200309 1918) ((emacs (25 1))) "A simple metronome" single ((:commit . "ab9478da0da3aadba26c65beba938c3928c823c3") (:authors ("Jonathan Gregory <jgrg at autistici dot org>")) (:maintainer "Jonathan Gregory <jgrg at autistici dot org>") (:url . "https://gitlab.com/jagrg/metronome"))])

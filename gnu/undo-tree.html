@@ -23,7 +23,8 @@
 
             <div class="container">
 <h2 class="package">undo-tree</h2><dl><dt>Description</dt><dd>Treat undo history as a tree</dd>
-<dt>Latest</dt> <dd><a href="undo-tree-0.6.5.el">undo-tree-0.6.5.el</a>, 2013-Dec-29,  168&nbsp;KiB</dd>
+<dt>Latest</dt> <dd><a href="undo-tree-0.7.4.el">undo-tree-0.7.4.el</a>, 2020-Jan-29,  181&nbsp;KiB</dd>
+<dt>Maintainer</dt> <dd>Toby Cubitt &lt;toby-undo-tree@dr-qubit.org></dd>
 <dt>Home page</dt> <dd><a href="http://www.dr-qubit.org/emacs.php">http://www.dr-qubit.org/emacs.php</a></dd>
 <dt>Browse ELPA's repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/undo-tree">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/undo-tree">Gitweb</a></dd>
 </dl><p>To install this package, run in Emacs:</p>
@@ -412,7 +413,7 @@ undos! So to get back to the initial state you now have to rewind through
                       o  o     o     o     o     o
                       |  |\    |\    |\    |\    |
                       |  | \   | \   | \   | \   |
-                      o  o  |  |  o  o  o  |  o  o
+                      o  o  |  |  o  o  |  |  o  o
                       | /   |  |  | /   |  |  | /
                       |/    |  |  |/    |  |  |/
      (already undid   o     |  |  o&lt;.   |  |  o
@@ -588,7 +589,7 @@ you want to customize the diff display.)
 Finally, hitting "q" will quit the visualizer, leaving the parent buffer in
 whatever state you ended at. Hitting "C-q" will abort the visualizer,
 returning the parent buffer to whatever state it was originally in when the
-visualizer was .
+visualizer was invoked.
 
 
 
@@ -627,24 +628,37 @@ undos:
                       o     x  (undo the undo-in-region)
 
 
-In `undo-tree-mode', undo-in-region works similarly: when there's an active
-region, undoing only undoes changes that affect that region. However, the
-way these undos-in-region are recorded in the undo history is quite
-different. In `undo-tree-mode', undo-in-region creates a new branch in the
-undo history. The new branch consists of an undo step that undoes some of
-the changes that affect the current region, and another step that undoes
-the remaining changes needed to rejoin the previous undo history.
+In `undo-tree-mode', undo-in-region works much the same way: when there's
+an active region, undoing only undoes changes that affect that region. In
+`undo-tree-mode', redoing when there's an active region similarly only
+redoes changes that affect that region.
+
+However, the way these undo- and redo-in-region changes are recorded in the
+undo history is quite different. The good news is, you don't need to
+understand this to use undo- and redo-in-region in `undo-tree-mode' - just
+go ahead and use them! They'll probably work as you expect. But if you're
+masochistic enough to want to understand conceptually what's happening to
+the undo tree as you undo- and redo-in-region, then read on...
+
+
+Undo-in-region creates a new branch in the undo history. The new branch
+consists of an undo step that undoes some of the changes that affect the
+current region, and another step that undoes the remaining changes needed
+to rejoin the previous undo history.
 
      Previous undo history                Undo-in-region
 
               o                                o
               |                                |
               |                                |
+              |                                |
               o                                o
-              |                                |\
+              |                                |
+              |                                |
+              |                                |
+              o                                o_
               |                                | \
-              o                                o  x  (undo-in-region)
-              |                                |  |
+              |                                |  x  (undo-in-region)
               |                                |  |
               x                                o  o
 
@@ -657,48 +671,57 @@ branch is attached further up the tree:
      First undo-in-region                 Second undo-in-region
 
               o                                o
-              |                                |\
+              |                                |
+              |                                |
+              |                                |
+              o                                o_
               |                                | \
-              o                                o  x  (undo-in-region)
-              |\                               |  |
+              |                                |  x  (undo-in-region)
+              |                                |  |
+              o_                               o  |
               | \                              |  |
-              o  x                             o  o
-              |  |                             |  |
-              |  |                             |  |
-              o  o                             o  o
+		 |  x                             |  o
+		 |  |                             |  |
+		 o  o     			  o  o
 
 Redoing takes you back down the undo tree, as usual (as long as you haven't
 changed the active region after undoing-in-region, it doesn't matter if it
 is still active):
 
                       o
-			 |\
+			 |
+			 |
+			 |
+			 o_
 			 | \
-			 o  o
+			 |  o
 			 |  |
+			 o  |
 			 |  |
-			 o  o  (redo)
-			 |  |
+			 |  o  (redo)
 			 |  |
 			 o  x  (redo)
 
 
-What about redo-in-region? Obviously, this only makes sense if you have
-already undone some changes, so that there are some changes to redo!
-Redoing-in-region splits off a new branch of the undo history below your
-current location in the undo tree. This time, the new branch consists of a
-redo step that redoes some of the redo changes that affect the current
-region, followed by all the remaining redo changes.
+What about redo-in-region? Obviously, redo-in-region only makes sense if
+you have already undone some changes, so that there are some changes to
+redo! Redoing-in-region splits off a new branch of the undo history below
+your current location in the undo tree. This time, the new branch consists
+of a first redo step that redoes some of the redo changes that affect the
+current region, followed by *all* the remaining redo changes.
 
      Previous undo history                Redo-in-region
 
               o                                o
               |                                |
               |                                |
-              x                                o
-              |                                |\
+              |                                |
+              x                                o_
               |                                | \
-              o                                o  x  (redo-in-region)
+              |                                |  x  (redo-in-region)
+              |                                |  |
+              o                                o  |
+              |                                |  |
               |                                |  |
               |                                |  |
               o                                o  o
@@ -710,19 +733,19 @@ undo tree.
 
      First redo-in-region                 Second redo-in-region
 
-         o                                     o
-         |                                     |
-         |                                     |
-         o                                     o
-         |\                                    |\
-         | \                                   | \
-         o  x  (redo-in-region)                o  o
-         |  |                                  |  |
-         |  |                                  |  |
-         o  o                                  o  x  (redo-in-region)
-                                                  |
-                                                  |
-                                                  o
+              o                                 o
+              |                                 |
+              |                                 |
+              |                                 |
+              o_                                o_
+              | \                               | \
+              |  x                              |  o
+              |  |                              |  |
+              o  |                              o  |
+              |  |                              |  |
+              |  |                              |  x  (redo-in-region)
+              |  |                              |  |
+              o  o                              o  o
 
 Note that undo-in-region and redo-in-region only ever add new changes to
 the undo tree, they *never* modify existing undo history. So you can always
@@ -730,6 +753,11 @@ return to previous buffer states by switching to a previous branch of the
 tree.
 </pre>
 <h2>Old versions</h2><table>
+<tr><td><a href="undo-tree-0.7.3.el">undo-tree-0.7.3.el</a></td><td>2020-Jan-26</td><td> 181&nbsp;KiB</td>
+<tr><td><a href="undo-tree-0.7.2.el">undo-tree-0.7.2.el</a></td><td>2020-Jan-12</td><td> 181&nbsp;KiB</td>
+<tr><td><a href="undo-tree-0.7.1.el">undo-tree-0.7.1.el</a></td><td>2020-Jan-09</td><td> 181&nbsp;KiB</td>
+<tr><td><a href="undo-tree-0.7.el">undo-tree-0.7.el</a></td><td>2020-Jan-06</td><td> 178&nbsp;KiB</td>
+<tr><td><a href="undo-tree-0.6.5.el">undo-tree-0.6.5.el</a></td><td>2013-Dec-29</td><td> 168&nbsp;KiB</td>
 <tr><td><a href="undo-tree-0.6.3.el">undo-tree-0.6.3.el</a></td><td>2012-Dec-07</td><td> 164&nbsp;KiB</td>
 <tr><td><a href="undo-tree-0.5.5.el">undo-tree-0.5.5.el</a></td><td>2012-Nov-29</td><td> 145&nbsp;KiB</td>
 </table>

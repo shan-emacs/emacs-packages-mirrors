@@ -1,4 +1,4 @@
-Provides Brazilian holidays as well as for each State
+Provides Brazilian holidays as well as for each State.
 To enable holidays for the desired State, just set a non-nil value for the
 State variable.
 

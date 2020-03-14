@@ -1,0 +1,2 @@
+
+(grammarly . [(20200126 420) ((emacs (24 4)) (cl-lib (0 6)) (s (1 12 0)) (request (0 3 0)) (websocket (1 6))) "Grammarly API interface" single ((:commit . "ffff850b77ebbab827538f6ebee872b2638586bc") (:authors ("Shen, Jen-Chieh" . "jcs090218@gmail.com")) (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com") (:url . "https://github.com/jcs-elpa/grammarly"))])

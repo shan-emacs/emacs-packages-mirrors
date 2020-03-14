@@ -1,0 +1,2 @@
+
+(metrics-tracker . [(20200126 1851) ((emacs (24 4)) (seq (2 3))) "Generate diagrams of personal metrics from diary entries" single ((:commit . "4da64b60091c3d7b23c7c5fd3dba981122b0e1f7") (:keywords "calendar") (:authors ("Ian Martins" . "ianxm@jhu.edu")) (:maintainer "Ian Martins" . "ianxm@jhu.edu") (:url . "https://github.com/ianxm/emacs-tracker"))])

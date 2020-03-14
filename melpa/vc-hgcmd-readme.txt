@@ -98,7 +98,7 @@ vc-hgcmd will ask for branch name to merge.
 
 - Default pull arguments
 You can customize default hg pull command arguments.
-By default it's --update. You can change it for particular pull by invoking `vc-pull' with prefix argument.
+By default it's --update.  You can change it for particular pull by invoking `vc-pull' with prefix argument.
 
 - Branches and tags as revision completion table
 Instead of list of all revisions of file vc-hgcmd provides list of named branches and tags.

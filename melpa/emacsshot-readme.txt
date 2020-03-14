@@ -1,7 +1,4 @@
 Documentation:
-  :PROPERTIES:
-  :ID:       7351e8d6-758c-4561-a938-1f9912f19f69
-  :END:
 
 ** What
 
@@ -19,6 +16,7 @@ With =emacsshot= there are
 - =M-x emacsshot-snap-frame=
 - =M-x emacsshot-snap-window=
 - =M-x emacsshot-snap-window-include-modeline=
+- =M-x emacsshot-snap-mouse-drag=
 
 for creating a shot of Emacs.
 
@@ -32,13 +30,18 @@ There is also =M-x emacsshot-snap-window= which is for creating a
 snapshot of the current Emacs-window (i.e. the window which contains
 the active cursor.)
 
-Further there is function =emacsshot-snap-window-include-modeline=
+There is function =emacsshot-snap-window-include-modeline=
 which does the same as =emacsshot-snap-window= but also includes the
 modeline when taking the shot.
 
+There is function =emacsshot-snap-mouse-drag= which snaps the
+rectangle defined by a drag i.e. press button-1, keep pressed, move
+the mouse and release the button.
+
 The filenames are configurable.  Hint: =M-x customize-group
-emacsshot=.  Note that the file-suffix defines the image-format under
-which the file gets stored.
+emacsshot=.  Note that the file-suffix defines the image-format
+under which the file gets stored.  Note that the filenames may
+contain paths which allows some organization of the shots.
 
 It's possible to add a timestamp to the filename as postfix.  See
 =M-x customize-variable emacsshot-with-timestamp=.
@@ -54,6 +57,8 @@ Concretely the print-key could trigger the shot.  Evaluation of
 
 #+BEGIN_EXAMPLE
 (global-set-key [print] 'emacsshot-snap-frame)
+(global-set-key (kbd "C-M-S-<mouse-1>") 'emacsshot-snap-mouse-drag)
+
 #+END_EXAMPLE
 
 yields this behavior.
@@ -105,31 +110,10 @@ to your .emacs or whatever you use for Emacs intitialization.
 
 ** Development
 
-*** Lentic Literate Style
-
-This program is written in Emacs Lisp in lentic style based on the
-'lentic' package [[http://melpa.org/#/lentic][file:http://melpa.org/packages/lentic-badge.svg]].
-
-This means the that this file can be regarded just as an Emacs Lisp
-file.  But actually this file contains extra comments which allow the
-interpretation of the file as Org file.  Lentic-mode makes it easy to
-write this style.
-
-A possible initialization of lentic is this:
-
-#+BEGIN_EXAMPLE
-(global-lentic-start-mode)
-#+END_EXAMPLE
-
-Find more about lentic at
-[[http://melpa.org/#/lentic][file:http://melpa.org/packages/lentic-badge.svg]].
-
 *** Ideas, Contributions, Bugs
 
-Contributions, ideas and bug-reports are welcome.
-
-Please use the infrastructure of github for communication.  See
-https://github.com/marcowahl/emacsshot/issues.
+Contributions, ideas and bug-reports are welcome.  Contact the
+maintainer.
 
 ** Related
 
@@ -143,3 +127,4 @@ emacsshot only takes images of Emacs.
 
 | 201501071941 | New function to take snapshot of a window |
 | 201505162319 | Optionally add timestamp to save-filename |
+| 201912060235 | New function to take snapshot of a rectangle defined by a mouse-drag |

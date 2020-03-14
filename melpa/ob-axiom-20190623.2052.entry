@@ -1,2 +1,2 @@
 
-(ob-axiom . [(20190623 2052) ((emacs (24 2)) (axiom-environment (20171021))) "An org-babel backend for the axiom-environment system" single ((:commit . "3e7885d694efef923e7b53827d277c28bfa09320") (:keywords "axiom" "openaxiom" "fricas") (:authors ("Paul Onions")) (:maintainer "Paul Onions"))])
+(ob-axiom . [(20190623 2052) ((emacs (24 2)) (axiom-environment (20171021))) "An org-babel backend for the axiom-environment system" single ((:commit . "2c5384b994266008a20558db4ffe0525e66c0f5f") (:keywords "axiom" "openaxiom" "fricas") (:authors ("Paul Onions")) (:maintainer "Paul Onions"))])

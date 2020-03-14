@@ -1,0 +1,2 @@
+
+(flymake-joker . [(20200118 1937) ((emacs (26 1)) (flymake-quickdef (0 1 1))) "Add Clojure syntax checker (via Joker) to flymake" single ((:commit . "c4350eb9198fb6fe1ebfb356e3c9c37dd6b0f171") (:authors ("Mateusz Probachta" . "mateusz.probachta@gmail.com")) (:maintainer "Mateusz Probachta" . "mateusz.probachta@gmail.com") (:url . "https://github.com/beetleman/flymake-joker"))])

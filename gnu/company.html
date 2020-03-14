@@ -23,7 +23,7 @@
 
             <div class="container">
 <h2 class="package">company</h2><dl><dt>Description</dt><dd>Modular text completion framework</dd>
-<dt>Latest</dt> <dd><a href="company-0.9.10.tar">company-0.9.10.tar</a>, 2019-Apr-15,  440&nbsp;KiB</dd>
+<dt>Latest</dt> <dd><a href="company-0.9.12.tar">company-0.9.12.tar</a>, 2020-Feb-07,  350&nbsp;KiB</dd>
 <dt>Maintainer</dt> <dd>Dmitry Gutov &lt;dgutov@yandex.ru></dd>
 <dt>Home page</dt> <dd><a href="http://company-mode.github.io/">http://company-mode.github.io/</a></dd>
 <dt>Browse ELPA's repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/company">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/company">Gitweb</a></dd>
@@ -59,6 +59,8 @@ enrich gtags with dabbrev-code results (to emulate local variables).  To do
 this, add a list with both backends as an element in `company-backends'.
 </pre>
 <h2>Old versions</h2><table>
+<tr><td><a href="company-0.9.11.tar">company-0.9.11.tar</a></td><td>2020-Jan-03</td><td> 350&nbsp;KiB</td>
+<tr><td><a href="company-0.9.10.tar">company-0.9.10.tar</a></td><td>2019-Apr-15</td><td> 440&nbsp;KiB</td>
 <tr><td><a href="company-0.9.9.tar">company-0.9.9.tar</a></td><td>2018-Dec-13</td><td> 440&nbsp;KiB</td>
 <tr><td><a href="company-0.9.8.tar">company-0.9.8.tar</a></td><td>2018-Dec-09</td><td> 440&nbsp;KiB</td>
 <tr><td><a href="company-0.9.7.tar">company-0.9.7.tar</a></td><td>2018-Nov-06</td><td> 430&nbsp;KiB</td>
@@ -100,6 +102,28 @@ this, add a list with both backends as an element in `company-backends'.
 </table>
 <h2>News</h2><pre>
 # History of user-visible changes
+
+## 2020-02-07 (0.9.12)
+
+* Tooltip rendering bugfix.
+* `company-indent-or-complete-common` is better compatible with
+  `indent-for-tab-command`
+  ([comment](https://github.com/company-mode/company-mode/issues/94#issuecomment-571265393)).
+
+## 2020-01-03 (0.9.11)
+
+* New value for option `company-show-numbers` to show numbers on the left.
+* `company-gtags` has some minor fixes.
+* Face definitions have moved to a separate group: `company-faces`.
+* `company-capf`'s `:exit-function` handling has been improved
+  ([#935](https://github.com/company-mode/company-mode/issues/935)).
+* New user option `company-clang-use-compile-flags-txt`
+  ([#933](https://github.com/company-mode/company-mode/issues/933)).
+* Support for completion style specific sorting (Emacs 27 feature).
+* Snippet/template field interaction is inhibited while completion is active
+  (where by default `TAB` calls `company-complete-common`, clashing with snippet
+  map binding `TAB` to "jump to the next field"). Affects both
+  `company-template` and `yasnippet` (requires version 0.14.0).
 
 ## 2019-04-15 (0.9.10)
 
@@ -396,7 +420,7 @@ this, add a list with both backends as an element in `company-backends'.
 ## 2013-09-28 (0.6.12)
 
 * Default value of `company-begin-commands` changed to `(self-insert-command)`.
-* Futher improvement in `org-indent-mode` compatibility.
+* Further improvement in `org-indent-mode` compatibility.
 
 ## 2013-08-18 (0.6.11)
 

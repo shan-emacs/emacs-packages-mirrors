@@ -1,0 +1,2 @@
+
+(activity-watch-mode . [(20200130 805) ((emacs (25)) (projectile (0)) (request (0)) (json (0)) (cl-lib (0))) "Automatic time tracking extension." single ((:commit . "153d93eac0b9511dc00b50c2ba409c085b58602b") (:keywords "calendar" "comm") (:authors ("Gabor Torok <gabor@20y.hu>, Alan Hamlett" . "alan@wakatime.com")) (:maintainer "Paul d'Hubert" . "paul.dhubert@ya.ru") (:url . "https://github.com/pauldub/activity-watch-mode"))])

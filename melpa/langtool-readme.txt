@@ -6,22 +6,38 @@ https://languagetool.org/
 Put this file into load-path'ed directory, and byte compile it if
 desired. And put the following expression into your ~/.emacs.
 
+    (require 'langtool)
+
+## Settings (required):
+
+langtool.el have 3 types of client.
+
+1. Command line
+
+ This setting should be set, if you use rest of clients, to get full of
+ completion support. And you should be set the variables before load
+ this library.
+
     (setq langtool-language-tool-jar "/path/to/languagetool-commandline.jar")
     (require 'langtool)
 
-Alternatively, you can set the classpath where LanguageTool's jars reside:
+Alternatively, you can set the classpath where LanguageTool's jars reside
+(e.g. ArchLinux):
 
     (setq langtool-java-classpath
           "/usr/share/languagetool:/usr/share/java/languagetool/*")
     (require 'langtool)
 
-You can use HTTP server implementation which is now testing.  This
-is very fast, but has security risk if there is multiple user on a
-same host. You can set both of
-`langtool-language-tool-jar' and `langtool-language-tool-server-jar'
-the later is prior than the former.
-[Recommended] You should set `langtool-language-tool-jar' correctly
-   full of completion support like available languages.
+
+You can set a script that hold java setting (e.g. Gentoo):
+
+    (setq langtool-bin "/path/to/your/langtool")
+    (require 'langtool)
+
+2. HTTP server & client
+
+ You can use HTTP server implementation. This is very fast after listen server,
+ but has security risk if there are multiple user on a same host.
 
     (setq langtool-language-tool-server-jar "/path/to/languagetool-server.jar")
 
@@ -29,7 +45,20 @@ You can change HTTP server port number like following.
 
     (setq langtool-server-user-arguments '("-p" "8082"))
 
-These settings are optional:
+3. HTTP client
+
+If you have running HTTP LanguageTool server instance on any machine:
+
+    (setq langtool-http-server-host "localhost"
+          langtool-http-server-port 8082)
+
+Now testing although, that running instance is working under HTTPSServer or via
+general ssl support (e.g. nginx) following may be working. Again, this is now
+testing, so please open issue when the ssl/tls connection is not working.
+
+    (setq langtool-http-server-stream-type 'tls)
+
+## Optional settings
 
 * Key binding if you desired.
 

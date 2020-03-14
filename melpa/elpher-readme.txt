@@ -9,7 +9,7 @@ for GNU Emacs.  It supports:
 - direct visualisation of image files,
 - a simple bookmark management system,
 - connections using TLS encryption,
-- support for the fledgling Gemini protocol.
+- the fledgling Gemini protocol.
 
 To launch Elpher, simply use 'M-x elpher'.  This will open a start
 page containing information on key bindings and suggested starting

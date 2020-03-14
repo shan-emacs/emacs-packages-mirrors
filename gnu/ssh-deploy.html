@@ -23,7 +23,7 @@
 
             <div class="container">
 <h2 class="package">ssh-deploy</h2><dl><dt>Description</dt><dd>Deployment via Tramp, global or per directory.</dd>
-<dt>Latest</dt> <dd><a href="ssh-deploy-3.1.10.tar">ssh-deploy-3.1.10.tar</a>, 2019-Sep-17,  170&nbsp;KiB</dd>
+<dt>Latest</dt> <dd><a href="ssh-deploy-3.1.11.tar">ssh-deploy-3.1.11.tar</a>, 2020-Mar-06,  170&nbsp;KiB</dd>
 <dt>Maintainer</dt> <dd>Christian Johansson &lt;christian@cvj.se></dd>
 <dt>Home page</dt> <dd><a href="https://github.com/cjohansson/emacs-ssh-deploy">https://github.com/cjohansson/emacs-ssh-deploy</a></dd>
 <dt>Browse ELPA's repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/?h=externals/ssh-deploy">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=shortlog;h=refs/heads/externals/ssh-deploy">Gitweb</a></dd>
@@ -37,7 +37,7 @@ running custom deployment scripts via Tramp.
 For asynchronous operations it uses package '`make-thread' or if not available '`async.el'.
 
 By setting the variables (globally, per directory or per file):
-ssh-deploy-root-local,ssh-deploy-root-remote, ssh-deploy-on-explicit-save
+ssh-deploy-root-local,ssh-deploy-root-remote
 you can setup a directory for Tramp deployment.
 
 For asynchronous transfers you need to setup ~/.authinfo.gpg or key-based authorization or equivalent for automatic authentication.
@@ -84,11 +84,12 @@ Add to init-script: (ssh-deploy-add-find-file-hook)
    )
 
 
-Here is an example for SSH deployment, /Users/Chris/Web/Site1/.dir-locals.el:
+Here is an example for SSH deployment, /Users/Chris/Web/Site1/.dir-locals.el, with forced explicit uploads:
 ((nil . (
   (ssh-deploy-root-local . "/Users/Chris/Web/Site1/")
   (ssh-deploy-root-remote . "/ssh:myuser@myserver.com:/var/www/site1/")
   (ssh-deploy-on-explicit-save . 1)
+  (ssh-deploy-force-on-explicit-save . 1)
   (ssh-deploy-async . 1)
 )))
 
@@ -137,6 +138,7 @@ starting from /", whereas the GNU convention is to only "file name" instead
 and keep "path" for lists of directories like load-path, exec-path.
 </pre>
 <h2>Old versions</h2><table>
+<tr><td><a href="ssh-deploy-3.1.10.tar">ssh-deploy-3.1.10.tar</a></td><td>2019-Sep-17</td><td> 170&nbsp;KiB</td>
 <tr><td><a href="ssh-deploy-3.1.9.tar">ssh-deploy-3.1.9.tar</a></td><td>2019-Sep-09</td><td> 170&nbsp;KiB</td>
 <tr><td><a href="ssh-deploy-3.1.8.tar">ssh-deploy-3.1.8.tar</a></td><td>2019-Sep-06</td><td> 170&nbsp;KiB</td>
 <tr><td><a href="ssh-deploy-3.1.tar">ssh-deploy-3.1.tar</a></td><td>2019-Apr-22</td><td> 170&nbsp;KiB</td>

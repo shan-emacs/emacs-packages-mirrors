@@ -1,0 +1,2 @@
+
+(pronto . [(20200218 1633) ((emacs (24))) "Compilation mode for pronto stylechecks" single ((:commit . "c2a2ec718c08de1fd2e681970456786cf4eac8fe") (:keywords "processes" "tools") (:authors ("Julian Rubisch" . "julian@julianrubisch.at")) (:maintainer "Julian Rubisch" . "julian@julianrubisch.at") (:url . "https://github.com/julianrubisch/pronto.el"))])

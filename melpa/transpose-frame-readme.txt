@@ -62,20 +62,3 @@ to transpose windows arrangement in currently selected frame:
        +-------------------------+      +-----------------+-------+
 
 This program is tested on GNU Emacs 22, 23.
-
-
-Installation:
-
-First, save this file as transpose-frame.el and byte-compile in a directory
-that is listed in load-path.
-
-Put the following in your .emacs file:
-
-  (require 'transpose-frame)
-
-To swap x-direction and y-direction of windows arrangement, for example,
-just type as:
-
-  M-x transpose-frame
-
-Have fun!

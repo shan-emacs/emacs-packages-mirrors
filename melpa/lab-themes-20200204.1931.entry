@@ -1,0 +1,2 @@
+
+(lab-themes . [(20200204 1931) ((emacs (24))) "A custom theme carefully constructed in the LAB space" tar ((:commit . "2cd61072d2b4c563d961f80918fc6b1dc45f7ba4") (:keywords "lisp") (:authors ("MetroWind" . "chris.corsair@gmail.com")) (:maintainer "MetroWind" . "chris.corsair@gmail.com") (:url . "https://github.com/MetroWind/lab-theme"))])

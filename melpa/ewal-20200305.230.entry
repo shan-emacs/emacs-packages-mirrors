@@ -1,0 +1,2 @@
+
+(ewal . [(20200305 230) ((emacs (25 1))) "A pywal-based theme generator" tar ((:commit . "4ecc355dae9c7d648cd2874e01a15dfa02b9350d") (:keywords "faces") (:authors ("Uros Perisic")) (:maintainer "Uros Perisic") (:url . "https://gitlab.com/jjzmajic/ewal"))])

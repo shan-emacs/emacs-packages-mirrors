@@ -23,6 +23,7 @@ The doom-modeline offers:
 - An indicator for LSP state with lsp-mode or eglot
 - An indicator for github notifications
 - An indicator for unread emails with mu4e-alert
+- An indicator for unread emails with gnus (basically builtin)
 - An indicator for irc notifications with circe, rcirc or erc.
 - An indicator for buffer position which is compatible with nyan-mode
 - An indicator for party parrot

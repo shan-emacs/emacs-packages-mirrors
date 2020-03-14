@@ -1,1 +1,1 @@
-Folding code blocks based on indentation
+Folding code blocks based on indentation.

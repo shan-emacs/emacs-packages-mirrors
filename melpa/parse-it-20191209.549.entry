@@ -1,0 +1,2 @@
+
+(parse-it . [(20191209 549) ((emacs (25 1)) (cl-lib (0 6)) (s (1 12 0))) "Basic Parser in Emacs Lisp" tar ((:commit . "ff9f9049ac039473f0ba5d070ac0e6d89cfbf851") (:authors ("Shen, Jen-Chieh" . "jcs090218@gmail.com")) (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com") (:url . "https://github.com/jcs090218/parse-it"))])

@@ -23,7 +23,7 @@
 
             <div class="container">
 <h2 class="package">yasnippet</h2><dl><dt>Description</dt><dd>Yet another snippet extension for Emacs</dd>
-<dt>Latest</dt> <dd><a href="yasnippet-0.13.0.tar">yasnippet-0.13.0.tar</a>, 2018-May-13,  910&nbsp;KiB</dd>
+<dt>Latest</dt> <dd><a href="yasnippet-0.14.0.tar">yasnippet-0.14.0.tar</a>, 2019-Dec-23,  930&nbsp;KiB</dd>
 <dt>Maintainer</dt> <dd>Noam Postavsky &lt;npostavs@gmail.com></dd>
 <dt>Home page</dt> <dd><a href="http://github.com/joaotavora/yasnippet">http://github.com/joaotavora/yasnippet</a></dd>
 <dt>Browse ELPA's repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/yasnippet">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/yasnippet">Gitweb</a></dd>
@@ -60,6 +60,7 @@ For more information and detailed usage, refer to the project page:
 
 </pre>
 <h2>Old versions</h2><table>
+<tr><td><a href="yasnippet-0.13.0.tar">yasnippet-0.13.0.tar</a></td><td>2018-May-13</td><td> 910&nbsp;KiB</td>
 <tr><td><a href="yasnippet-0.12.2.tar">yasnippet-0.12.2.tar</a></td><td>2017-Aug-29</td><td>1.47&nbsp;MiB</td>
 <tr><td><a href="yasnippet-0.12.1.tar">yasnippet-0.12.1.tar</a></td><td>2017-Jul-24</td><td>1.47&nbsp;MiB</td>
 <tr><td><a href="yasnippet-0.12.0.tar">yasnippet-0.12.0.tar</a></td><td>2017-Jul-18</td><td>1.47&nbsp;MiB</td>
@@ -71,9 +72,83 @@ For more information and detailed usage, refer to the project page:
 <h2>News</h2><pre>
 Yasnippet NEWS -- history of user-visible changes.
 
-Copyright (C) 2017-2018 Free Software Foundation, Inc.
+Copyright (C) 2017-2019 Free Software Foundation, Inc.
 See the end of the file for license conditions.
 
+* 0.14.0 (Dec 22, 2019)
+
+** Changes
+
+*** New 'yas-auto-next' macro, automatically moves to next field.
+See Github #937.
+
+*** Yasnippet now officially requires Emacs 23 or greater.
+See Github #940.
+
+*** Snippets for 'fundamental-mode' are available in all modes.
+See Github #949, and #936.
+
+*** New function for snippets, 'yas-completing-read'.
+See Github #934.
+
+*** New function 'yas-maybe-expand-abbrev-key-filter'.
+This can be used for making conditional keybindings for snippets.
+Promoted from 'yas--maybe-expand-key-filter'.  See Github #943.
+
+*** DEL can now be used to clear fields, similar &lt;delete>.
+It is bound to the new conditional command 'yas-maybe-clear-field', which may
+be bound to other keys as well.  See Github #960 and #957.
+
+*** Snippet field movement commands may now trigger eldoc.
+See Github #952.
+
+*** New variable 'yas-keymap-disable-hook'.
+Can be used (e.g., for company-mode) to temporarily disable
+'yas-keymap' bindings, or any binding made by the new function
+'yas-filtered-definition'.  See Github #987.
+
+*** New variable 'yas-inhibit-overlay-modification-protection'.
+This allows a snippet to remain active, even if some commands make
+modifications outside the expected area (i.e., the active snippet
+field).
+
+*** 'yas-minor-mode' is no longer enabled in temp buffers.
+That is, buffers whose name starts with a space.  This setting may be
+undone by removing 'yas-temp-buffer-p' from
+'yas-dont-activate-functions'.  See Github #985.
+
+*** Accept unescaped '{', for LSP compatibility.
+See Github #979.
+
+** Fixed bugs
+
+*** 'yas-not-string-or-comment-condition' no longer relies on 'this-command'.
+This lets it work correctly with conditional key-bindings.  See Github
+#973, #991.
+
+*** Fix snippet expansion in org src buffers.
+Note that this still doesn't work in text-mode blocks.
+See Github #976, #989.
+
+*** Fix snippet insertion for keyless snippets.
+See Github #1014.
+
+*** Fix errors with company-mode completion within snippet fields.
+See Github #995.
+
+*** Fix errors with cc-mode.
+See Github #962.
+
+*** Fix problems with lsp-mode.
+**** Improve performance in overlay heavy buffers (Github #926).
+**** Fix double call of 'before/after-change-functions' (Github #966).
+
+*** Fix errors with nested snippet expansion.
+See Github #961, #1002.
+
+*** Stop yas-field-highlight-face inheriting from bogus 'quote' face.
+
+
 * 0.13.0 (May 13, 2018)
 
 ** Changes

@@ -14,8 +14,10 @@ Usage,
   - `find-directory-in-project-by-selected' uses the select region
      to find directory.  You can provide the keyword if no region
      is selected.
-  - `find-file-in-project' will start search file immediately
+  - `find-file-in-project' starts search file immediately
   - `ffip-create-project-file' creates ".dir-locals.el"
+  - `ffip-lisp-find-file-in-project' finds file in project.
+    If its parameter is not nil, it find directory.
 
 A project is found by searching up the directory tree until a file
 is found that matches `ffip-project-file'.

@@ -47,5 +47,3 @@ await done
 
 The result of the execution is outputted from the top to the bottom
 like the order written in the code.  However, asynchronously!
-
-TODO: Syntax highlight for async function

@@ -1,2 +1,0 @@
-
-(litable . [(20160922 1559) ((dash (2 6 0))) "dynamic evaluation replacement with emacs" single ((:commit . "b0278f3f8dcff424bfbdfdefb545b1fbff33206f") (:keywords "lisp") (:authors ("Matus Goljer" . "matus.goljer@gmail.com")) (:maintainer "Matus Goljer" . "matus.goljer@gmail.com"))])

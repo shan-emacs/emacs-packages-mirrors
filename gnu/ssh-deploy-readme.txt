@@ -6,7 +6,7 @@ running custom deployment scripts via Tramp.
 For asynchronous operations it uses package '`make-thread' or if not available '`async.el'.
 
 By setting the variables (globally, per directory or per file):
-ssh-deploy-root-local,ssh-deploy-root-remote, ssh-deploy-on-explicit-save
+ssh-deploy-root-local,ssh-deploy-root-remote
 you can setup a directory for Tramp deployment.
 
 For asynchronous transfers you need to setup ~/.authinfo.gpg or key-based authorization or equivalent for automatic authentication.
@@ -53,11 +53,12 @@ Add to init-script: (ssh-deploy-add-find-file-hook)
    )
 
 
-Here is an example for SSH deployment, /Users/Chris/Web/Site1/.dir-locals.el:
+Here is an example for SSH deployment, /Users/Chris/Web/Site1/.dir-locals.el, with forced explicit uploads:
 ((nil . (
   (ssh-deploy-root-local . "/Users/Chris/Web/Site1/")
   (ssh-deploy-root-remote . "/ssh:myuser@myserver.com:/var/www/site1/")
   (ssh-deploy-on-explicit-save . 1)
+  (ssh-deploy-force-on-explicit-save . 1)
   (ssh-deploy-async . 1)
 )))
 

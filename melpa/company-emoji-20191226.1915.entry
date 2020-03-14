@@ -1,0 +1,2 @@
+
+(company-emoji . [(20191226 1915) ((cl-lib (0 5)) (company (0 8 0))) "company-mode backend for emoji" tar ((:commit . "fc45b56f3e2081d794f243bce705e77d4e29fc06") (:keywords "emoji" "company") (:authors ("Alex Dunn" . "dunn.alex@gmail.com")) (:maintainer "Alex Dunn" . "dunn.alex@gmail.com") (:url . "https://github.com/dunn/company-emoji.git"))])

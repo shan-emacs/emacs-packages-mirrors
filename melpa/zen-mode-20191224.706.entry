@@ -1,0 +1,2 @@
+
+(zen-mode . [(20191224 706) ((emacs (24 3))) "A major mode for the Zen programming language" single ((:commit . "3d34bce20c1d7d35b99916672ea0dd67a96c7716") (:keywords "zen" "languages") (:authors ("Andrea Orru <andreaorru1991@gmail.com>, Andrew Kelley <superjoe30@gmail.com>, kristopher tate" . "kt@connectfree.co.jp")) (:maintainer "Andrea Orru <andreaorru1991@gmail.com>, Andrew Kelley <superjoe30@gmail.com>, kristopher tate" . "kt@connectfree.co.jp") (:url . "https://github.com/zenlang/zen-mode"))])

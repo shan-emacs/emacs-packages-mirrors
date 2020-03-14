@@ -1,0 +1,2 @@
+
+(walkman . [(20200224 1501) ((transient (0 1 0)) (org (8 3 5)) (emacs (25 3))) "Write HTTP requests in Org mode" single ((:commit . "bdc026b58dc023cf078ec5eafae3b334ac5c39ef") (:keywords "walkman" "http" "curl" "org" "comm") (:authors ("Adrien Brochard")) (:maintainer "Adrien Brochard") (:url . "https://github.com/abrochard/walkman"))])

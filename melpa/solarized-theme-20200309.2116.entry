@@ -1,0 +1,2 @@
+
+(solarized-theme . [(20200309 2116) ((emacs (24 1)) (dash (2 16))) "The Solarized color theme" tar ((:commit . "8de268144ab2171896906c8553be7763d5c45fa5") (:keywords "convenience" "themes" "solarized") (:authors ("Bozhidar Batsov" . "bozhidar@batsov.com")) (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.com") (:url . "http://github.com/bbatsov/solarized-emacs"))])
