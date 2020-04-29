@@ -1,0 +1,2 @@
+
+(bencoding . [(20200331 1102) ((emacs (25 1))) "Bencoding decoding and encoding" single ((:commit . "f0af19511831f3ade590879e7d1636387682a8e7") (:keywords "tools") (:authors ("Xu Chunyang")) (:maintainer "Xu Chunyang") (:url . "https://github.com/xuchunyang/bencoding.el"))])

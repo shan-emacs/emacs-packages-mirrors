@@ -1,0 +1,2 @@
+
+(curl-to-elisp . [(20200427 219) ((emacs (25 1))) "Convert cURL command to Emacs Lisp code" single ((:commit . "25449962e758607762b3df76fc5501cfeedbbd38") (:keywords "lisp") (:authors ("Xu Chunyang")) (:maintainer "Xu Chunyang") (:url . "https://github.com/xuchunyang/curl-to-elisp"))])

@@ -1,0 +1,2 @@
+
+(mu2tex . [(20200329 758) nil "Convert plain text molecule names and units to TeX" single ((:commit . "536a7a0db4ddbdb30a16fdd56c79b78c9b50d865") (:keywords "tex") (:authors ("Carsten Dominik" . "carsten.dominik@gmail.com")) (:maintainer "Carsten Dominik" . "carsten.dominik@gmail.com") (:url . "https://github.com/cdominik/mu2tex"))])

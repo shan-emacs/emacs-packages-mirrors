@@ -1,2 +1,0 @@
-
-(org-context . [(20200217 1006) nil "Contextual capture and agenda commands for Org-mode" single ((:commit . "f354108ecd3d33cadee05a4aec95d2df4bc61ae9") (:keywords "org" "capture" "agenda" "convenience") (:authors ("Sylvain Rousseau <thisirs at gmail dot com>")) (:maintainer "Sylvain Rousseau <thisirs at gmail dot com>") (:url . "https://github.com/thisirs/org-context"))])

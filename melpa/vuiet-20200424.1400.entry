@@ -1,0 +1,2 @@
+
+(vuiet . [(20200424 1400) ((emacs (26 1)) (lastfm (1 1)) (versuri (1 0)) (s (1 12 0)) (bind-key (2 4)) (mpv (0 1 0))) "The music player and explorer for Emacs" single ((:commit . "5da06a8acebcaf84a3581610ff24aae1b46f786b") (:keywords "multimedia") (:authors ("Mihai Olteanu" . "mihai_olteanu@fastmail.fm")) (:maintainer "Mihai Olteanu" . "mihai_olteanu@fastmail.fm") (:url . "https://github.com/mihaiolteanu/vuiet"))])

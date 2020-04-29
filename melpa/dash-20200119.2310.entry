@@ -1,2 +1,0 @@
-
-(dash . [(20200119 2310) nil "A modern list library for Emacs" tar ((:commit . "721436b04da4e2795387cb48a98ac6de37ece0fd") (:keywords "lists") (:authors ("Magnar Sveen" . "magnars@gmail.com")) (:maintainer "Magnar Sveen" . "magnars@gmail.com"))])

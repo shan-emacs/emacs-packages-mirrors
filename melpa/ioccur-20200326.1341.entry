@@ -1,0 +1,2 @@
+
+(ioccur . [(20200326 1341) ((emacs (24)) (cl-lib (0 5))) "Incremental occur" single ((:commit . "59350b2066d61444f93c8a51b16353e746486e4c") (:authors ("Thierry Volpiatto" . "thierry.volpiatto@gmail.com")) (:maintainer "Thierry Volpiatto" . "thierry.volpiatto@gmail.com") (:url . "https://github.com/thierryvolpiatto/ioccur"))])

@@ -1,2 +1,0 @@
-
-(pinboard . [(20191203 1015) ((emacs (25)) (cl-lib (0 5))) "A pinboard.in client" single ((:commit . "9351a2320f1e75896f56032959c7bcbf9d9aa560") (:keywords "hypermedia" "bookmarking" "reading" "pinboard") (:authors ("Dave Pearson" . "davep@davep.org")) (:maintainer "Dave Pearson" . "davep@davep.org") (:url . "https://github.com/davep/pinboard.el"))])

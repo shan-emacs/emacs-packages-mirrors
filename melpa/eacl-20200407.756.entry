@@ -1,0 +1,2 @@
+
+(eacl . [(20200407 756) ((emacs (24 4)) (ivy (0 9 1))) "Auto-complete lines by grepping project" single ((:commit . "47b839f305e63e119b6a554497cd4b99512e8e00") (:keywords "abbrev" "convenience" "matching") (:authors ("Chen Bin <chenbin DOT sh AT gmail DOT com>")) (:maintainer "Chen Bin <chenbin DOT sh AT gmail DOT com>") (:url . "http://github.com/redguardtoo/eacl"))])

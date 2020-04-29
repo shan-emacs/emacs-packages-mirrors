@@ -1,2 +1,0 @@
-
-(org-ref . [(20200309 1231) ((dash (2 17 0)) (htmlize (1 51)) (helm (1 5 5)) (helm-bibtex (2 0 0)) (ivy (0 13 0)) (hydra (0 15)) (key-chord (0)) (s (1 12 0)) (f (0 20 0)) (emacs (25 1)) (pdf-tools (0 9))) "citations, cross-references and bibliographies in org-mode" tar ((:commit . "e3eb9215a540ba62a0b0253d003c704b7740deeb") (:keywords "org-mode" "cite" "ref" "label") (:authors ("John Kitchin" . "jkitchin@andrew.cmu.edu")) (:maintainer "John Kitchin" . "jkitchin@andrew.cmu.edu") (:url . "https://github.com/jkitchin/org-ref"))])

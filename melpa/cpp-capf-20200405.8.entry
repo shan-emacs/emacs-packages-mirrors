@@ -1,0 +1,2 @@
+
+(cpp-capf . [(20200405 8) ((emacs (24 4))) "Completion-at-point backend for c/c++ using clang" single ((:commit . "0a4fd531e9e47369ff29d9f8583efd0bacd6bc50") (:keywords "c" "abbrev" "convenience") (:authors ("Philip K." . "philip@warpmail.net")) (:maintainer "Philip K." . "philip@warpmail.net") (:url . "https://git.sr.ht/~zge/cpp-capf"))])

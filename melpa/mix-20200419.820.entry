@@ -1,0 +1,2 @@
+
+(mix . [(20200419 820) ((emacs (25 1))) "Mix Major Mode. Build Elixir using Mix" single ((:commit . "37916fa5f7dfe448585fb83ea6253eb0f84df15f") (:keywords "tools") (:authors ("Ayrat Badykov" . "ayratin555@gmail.com")) (:maintainer "Ayrat Badykov" . "ayratin555@gmail.com") (:url . "https://github.com/ayrat555/mix.el"))])

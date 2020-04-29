@@ -1,0 +1,2 @@
+
+(use-package . [(20200322 2110) ((emacs (24 3)) (bind-key (2 4))) "A configuration macro for simplifying your .emacs" tar ((:commit . "c873d5529c9c80cb58222f22873a4f081c307cb2") (:keywords "dotemacs" "startup" "speed" "config" "package") (:authors ("John Wiegley" . "johnw@newartisans.com")) (:maintainer "John Wiegley" . "johnw@newartisans.com") (:url . "https://github.com/jwiegley/use-package"))])

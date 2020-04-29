@@ -83,3 +83,16 @@ example:
 `M-x orgalist-send-list' on "a new house" inserts the translated
 LaTeX list in-between the "BEGIN RECEIVE" and "END RECEIVE" marker
 lines.
+
+There is a known incompatibility between Yasnippet and Orgalist,
+appearing as the following message:
+
+    (error "Variable binding depth exceeds max-specpdl-size")
+
+To avoid this situation, you must activate Orgalist *before*
+Yasnippet.  You can add the following snippet in major mode hooks
+where you want both:
+
+    (yas-minor-mode -1)
+    (orgalist-mode 1)
+    (yas-minor-mode)

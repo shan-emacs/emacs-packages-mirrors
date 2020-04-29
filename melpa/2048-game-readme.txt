@@ -1,4 +1,6 @@
 This program is an implementation of 2048 for Emacs.
+Its source repository is https://hg.sr.ht/~zck/game-2048
+
 To begin playing, call `M-x 2048-game`, then use the arrow keys,
 p/n/b/f, or C-p/C-n/C-b/C-f to move the tiles around.
 

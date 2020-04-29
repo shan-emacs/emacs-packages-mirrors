@@ -1,2 +1,0 @@
-
-(gnuplot . [(20200310 536) ((emacs (24 1))) "Major-mode and interactive frontend for gnuplot" tar ((:commit . "a080f79b6f7a6ca94d11cda0d341acfc6e76d0c5") (:keywords "data" "gnuplot" "plotting") (:authors ("Jon Oddie") ("Bruce Ravel") ("Phil Type")) (:maintainer "Bruce Ravel" . "bruceravel1@gmail.com") (:url . "https://github.com/emacsorphanage/gnuplot"))])

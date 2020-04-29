@@ -1,2 +1,0 @@
-
-(ox-latex-subfigure . [(20200113 1029) ((emacs (24 4))) "Subfigure for latex export" single ((:commit . "18bcee0c89c19da847f38660946a5b9343607cfb") (:keywords "convenience" "ox" "latex" "subfigure" "org" "org-mode") (:authors ("Quang Linh LE" . "linktohack@gmail.com")) (:maintainer "Quang Linh LE" . "linktohack@gmail.com") (:url . "http://github.com/linktohack/ox-latex-subfigure"))])

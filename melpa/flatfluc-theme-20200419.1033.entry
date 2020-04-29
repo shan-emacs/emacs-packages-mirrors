@@ -1,0 +1,2 @@
+
+(flatfluc-theme . [(20200419 1033) ((emacs (26 1))) "Custom merge of flucui and flatui themes" single ((:commit . "42f93b2ffb651901d6bad7eb5587790298dda371") (:keywords "lisp") (:authors ("Sébastien Le Maguer" . "lemagues@tcd.ie")) (:maintainer "Sébastien Le Maguer" . "lemagues@tcd.ie") (:url . "https://github.com/seblemaguer/flatfluc-theme"))])

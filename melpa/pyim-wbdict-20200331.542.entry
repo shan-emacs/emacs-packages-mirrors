@@ -1,0 +1,2 @@
+
+(pyim-wbdict . [(20200331 542) ((pyim (1 0))) "Some wubi dicts for pyim" tar ((:commit . "daa223e2603a5ef3e6c8e33575d8f4e4604a8d3c") (:keywords "convenience" "chinese" "pinyin" "input-method" "complete") (:authors ("Feng Shu" . "tumashu@163.com")) (:maintainer "Feng Shu" . "tumashu@163.com") (:url . "https://github.com/tumashu/pyim-wbdict"))])

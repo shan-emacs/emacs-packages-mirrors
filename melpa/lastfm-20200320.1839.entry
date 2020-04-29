@@ -1,0 +1,2 @@
+
+(lastfm . [(20200320 1839) ((emacs (26 1)) (request (0 3 0)) (anaphora (1 0 4)) (memoize (1 1)) (elquery (0 1 0)) (s (1 12 0))) "Last.fm API for Emacs Lisp" single ((:commit . "54636059512adec0176950e8fce3b9bf7423619d") (:keywords "multimedia" "api") (:authors ("Mihai Olteanu" . "mihai_olteanu@fastmail.fm")) (:maintainer "Mihai Olteanu" . "mihai_olteanu@fastmail.fm") (:url . "https://github.com/mihaiolteanu/lastfm.el/"))])

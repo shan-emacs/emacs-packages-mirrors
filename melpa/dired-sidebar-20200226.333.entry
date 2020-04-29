@@ -1,2 +1,0 @@
-
-(dired-sidebar . [(20200226 333) ((emacs (25 1)) (dired-subtree (0 0 1))) "Tree browser leveraging dired" single ((:commit . "5f88a4570eae9645be06ff22542f110aeb70dd7d") (:keywords "dired" "files" "tools") (:authors ("James Nguyen" . "james@jojojames.com")) (:maintainer "James Nguyen" . "james@jojojames.com") (:url . "https://github.com/jojojames/dired-sidebar"))])

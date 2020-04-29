@@ -1,2 +1,0 @@
-
-(esup . [(20200130 2034) ((cl-lib (0 5)) (emacs (25))) "the Emacs StartUp Profiler (ESUP)" tar ((:commit . "4e5bf7d265c3b1484017fc0fd0ad50d2403c2bbe") (:keywords "convenience" "processes") (:authors ("Joe Schafer" . "joe@jschaf.com")) (:maintainer "Serghei Iakovlev" . "egrep@protonmail.ch") (:url . "http://github.com/jschaf/esup"))])

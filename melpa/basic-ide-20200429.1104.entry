@@ -1,0 +1,2 @@
+
+(basic-ide . [(20200429 1104) ((emacs (25)) (basic-mode (0 4 2)) (company (0 9 12)) (flycheck (0 22)) (dash (2 12 0)) (f (0 17 0))) "BASIC IDE c64" single ((:commit . "0f75c944239960445f1e9c8a0b5f7a5b4d37ff89") (:keywords "languages" "basic") (:authors ("Fermin MF" . "fmfs@posteo.net")) (:maintainer "Fermin MF" . "fmfs@posteo.net") (:url . "https://gitlab.com/sasanidas/emacs-c64-basic-ide"))])

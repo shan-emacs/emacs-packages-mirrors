@@ -14,7 +14,7 @@ To set the display method, use:
 
   (setq highlight-indent-guides-method METHOD)
 
-Where METHOD is either 'fill, 'column, or 'character.
+Where METHOD is either 'fill, 'column, 'character, or 'bitmap.
 
 To change the character used for drawing guide lines with the 'character
 method, use:

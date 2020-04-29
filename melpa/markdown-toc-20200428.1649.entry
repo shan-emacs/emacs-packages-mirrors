@@ -1,0 +1,2 @@
+
+(markdown-toc . [(20200428 1649) ((s (1 9 0)) (dash (2 11 0)) (markdown-mode (2 1))) "A simple TOC generator for markdown file" tar ((:commit . "eda9650a1bf0015e52e9678bd92b0a8beb1d7d71"))])

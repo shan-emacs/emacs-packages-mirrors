@@ -1,0 +1,2 @@
+
+(lsp-julia . [(20200408 1412) ((emacs (25 1)) (lsp-mode (6 0)) (julia-mode (0 3))) "Julia support for lsp-mode" tar ((:commit . "9f158a290168149fd301a1c1c2016600106ad5be") (:keywords "languages" "tools") (:authors ("Martin Wolke" . "vibhavp@gmail.com") ("Adam Beckmeyer" . "adam_git@thebeckmeyers.xyz") ("Guido Kraemer" . "gdkrmr@users.noreply.github.com")) (:maintainer "Adam Beckmeyer" . "adam_git@thebeckmeyers.xyz") (:url . "https://github.com/non-Jedi/lsp-julia"))])

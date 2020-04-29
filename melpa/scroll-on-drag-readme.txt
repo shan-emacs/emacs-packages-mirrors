@@ -1,4 +1,4 @@
-Interactive scrolling which can be cancelled by pressing escape.
+Interactive scrolling which can be canceled by pressing escape.
 
 Usage
 

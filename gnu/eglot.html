@@ -23,7 +23,7 @@
 
             <div class="container">
 <h2 class="package">eglot</h2><dl><dt>Description</dt><dd>Client for Language Server Protocol (LSP) servers</dd>
-<dt>Latest</dt> <dd><a href="eglot-1.5.tar">eglot-1.5.tar</a>, 2019-Oct-20,  640&nbsp;KiB</dd>
+<dt>Latest</dt> <dd><a href="eglot-1.6.tar">eglot-1.6.tar</a>, 2020-Apr-16,  650&nbsp;KiB</dd>
 <dt>Maintainer</dt> <dd>João Távora &lt;joaotavora@gmail.com></dd>
 <dt>Home page</dt> <dd><a href="https://github.com/joaotavora/eglot">https://github.com/joaotavora/eglot</a></dd>
 <dt>Browse ELPA's repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/?h=externals/eglot">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=shortlog;h=refs/heads/externals/eglot">Gitweb</a></dd>
@@ -59,6 +59,7 @@ To attempt to start an eglot session automatically everytime a
 foo-mode buffer is visited.
 </pre>
 <h2>Old versions</h2><table>
+<tr><td><a href="eglot-1.5.tar">eglot-1.5.tar</a></td><td>2019-Oct-20</td><td> 640&nbsp;KiB</td>
 <tr><td><a href="eglot-1.4.tar">eglot-1.4.tar</a></td><td>2019-Jan-05</td><td> 610&nbsp;KiB</td>
 <tr><td><a href="eglot-1.3.tar">eglot-1.3.tar</a></td><td>2018-Dec-10</td><td> 600&nbsp;KiB</td>
 <tr><td><a href="eglot-1.2.tar">eglot-1.2.tar</a></td><td>2018-Nov-23</td><td> 580&nbsp;KiB</td>
@@ -76,6 +77,21 @@ foo-mode buffer is visited.
 <tr><td><a href="eglot-0.1.tar">eglot-0.1.tar</a></td><td>2018-May-15</td><td> 170&nbsp;KiB</td>
 </table>
 <h2>News</h2><pre>
+# 1.6 (16/20/2020)
+
+##### Column offset calculation is now LSP-conform ([#361][github#361])
+
+It seems the majority of servers now comply with the language server
+specification when it comes to handling non-ASCII texts.  Therefore
+the default values of `eglot-move-to-column-function` and
+`eglot-current-column-function` have been changed.  The documentations
+of these variables help to restore the old behavior.
+
+##### Support workspace/configuration requests ([#326][github#326])
+
+Also a new section "Per-project server configuration" in the README.md
+should answer some faq's in this regard.
+
 # 1.5 (20/10/2019)
 
 Thanks a lot to Felicián Németh, Ingo Lohmar, and everyone else who
@@ -275,6 +291,8 @@ and now said bunch of references-->
 [github#313]: https://github.com/joaotavora/eglot/issues/313
 [github#316]: https://github.com/joaotavora/eglot/issues/316
 [github#324]: https://github.com/joaotavora/eglot/issues/324
+[github#326]: https://github.com/joaotavora/eglot/issues/326
+[github#361]: https://github.com/joaotavora/eglot/issues/361
 
 </pre>
 </body>

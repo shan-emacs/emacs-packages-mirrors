@@ -1,2 +1,0 @@
-
-(poetry . [(20200112 2309) ((transient (0 1 0)) (pyvenv (1 2)) (emacs (25 1))) "Interface to Poetry" single ((:commit . "01da45f478c8ace3dea5088746873ac2d7c23dbb") (:keywords "python" "tools") (:authors ("Gaby Launay" . "gaby.launay@protonmail.com")) (:maintainer "Gaby Launay" . "gaby.launay@protonmail.com") (:url . "https://github.com/galaunay/poetry.el"))])

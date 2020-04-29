@@ -4,7 +4,7 @@ using external programs such as "sqlformat" and "pg_format".
 Install the "sqlparse" (Python) package to get "sqlformat", or
 "pgformatter" to get "pg_format".
 
-Customise the `sqlformat-command' variable as desired. For example,
+Customise the `sqlformat-command' variable as desired.  For example,
 to use "pgformatter" (i.e., the `pg_format` command) with
 two-character indent and no statement grouping,
 

@@ -8,10 +8,6 @@ the full history, running [keyboard-quit] (typically C-g).
 lets you continue redoing for functionality not typically
 accessible with regular undo/redo.
 
-
-Usage
-
-Bind the keys
-(global-unset-key (kbd "C-z"))
-(global-set-key (kbd "C-z")   'undo-fu-only-undo)
-(global-set-key (kbd "C-S-z") 'undo-fu-only-redo)
+If you prefer [keyboard-quit] not interfere with undo behavior
+You may optionally set `undo-fu-ignore-keyboard-quit' & explicitly
+call `undo-fu-disable-checkpoint'.

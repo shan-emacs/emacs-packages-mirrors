@@ -1,1 +1,1 @@
-See README.md.
+Global minor mode for entering Emacs commands without modifier keys.

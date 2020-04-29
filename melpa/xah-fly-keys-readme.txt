@@ -12,21 +12,24 @@ put the following in your emacs init file:
 
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 (require 'xah-fly-keys)
-(xah-fly-keys-set-layout "qwerty") ; required
+(xah-fly-keys-set-layout 'qwerty) ; required
 
 possible layout values:
 
-"azerty"
-"azerty-be"
-"colemak"
-"colemak-mod-dh"
-"dvorak"
-"programer-dvorak"
-"qwerty"
-"qwerty-abnt"
-"qwertz"
-"workman"
-"norman"
+'azerty
+'azerty-be
+'colemak
+'colemak-mod-dh
+'dvorak
+'programer-dvorak
+'qwerty
+'qwerty-abnt
+'qwerty-no (qwerty Norwegian)
+'qwertz
+'workman
+'norman
+
+For backward compatibility, strings with the above names are also accepted.
 
 (xah-fly-keys 1)
 

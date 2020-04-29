@@ -1,2 +1,0 @@
-
-(gif-screencast . [(20200207 1358) ((emacs (25 1))) "One-frame-per-action GIF recording" single ((:commit . "dce0f3bb71ab8761a689c7382864a20198874b8e") (:keywords "multimedia" "screencast") (:authors ("Pierre Neidhardt" . "mail@ambrevar.xyz")) (:maintainer "Pierre Neidhardt" . "mail@ambrevar.xyz") (:url . "https://gitlab.com/ambrevar/emacs-gif-screencast"))])

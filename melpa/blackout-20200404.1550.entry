@@ -1,0 +1,2 @@
+
+(blackout . [(20200404 1550) ((emacs (26))) "Better mode lighter overriding" single ((:commit . "af37650d99bb5ae3ab05577a5bf99d5ff26b1e66") (:keywords "extensions") (:authors ("Radon Rosborough" . "radon.neon@gmail.com")) (:maintainer "Radon Rosborough" . "radon.neon@gmail.com") (:url . "https://github.com/raxod502/blackout"))])

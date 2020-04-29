@@ -1,0 +1,2 @@
+
+(fstar-mode . [(20200424 2235) ((emacs (24 3)) (dash (2 11)) (company (0 8 12)) (quick-peek (1 0)) (yasnippet (0 11 0)) (flycheck (30 0)) (company-quickhelp (2 2 0))) "Support for F* programming" tar ((:commit . "d8b586518f32d4acde049852d81902670d1ee277") (:keywords "convenience" "languages") (:authors ("Clément Pit-Claudel" . "clement.pitclaudel@live.com")) (:maintainer "Clément Pit-Claudel" . "clement.pitclaudel@live.com") (:url . "https://github.com/FStarLang/fstar-mode.el"))])

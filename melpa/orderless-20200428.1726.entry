@@ -1,0 +1,2 @@
+
+(orderless . [(20200428 1726) ((emacs (24 4))) "Completion style for matching regexps in any order" single ((:commit . "e16fc5ddb1b5399d544f545e30cd602cde3d896f") (:keywords "extensions") (:authors ("Omar Antolín Camarena" . "omar@matem.unam.mx")) (:maintainer "Omar Antolín Camarena" . "omar@matem.unam.mx") (:url . "https://github.com/oantolin/orderless"))])

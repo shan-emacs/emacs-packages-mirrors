@@ -1,2 +1,2 @@
 
-(solidity-flycheck . [(20200113 1721) ((flycheck (32 -4)) (solidity-mode (0 1 9))) "Flycheck integration for solidity emacs mode" single ((:commit . "b190993dcb8376e80fb1d9b71f3ed6170bd2a341") (:keywords "languages" "solidity" "flycheck") (:authors ("Lefteris Karapetsas " . "lefteris@refu.co")) (:maintainer "Lefteris Karapetsas " . "lefteris@refu.co"))])
+(solidity-flycheck . [(20200113 1721) ((flycheck (32 -4)) (solidity-mode (0 1 9))) "Flycheck integration for solidity emacs mode" single ((:commit . "022b3159832384a7dcdc2168809e698600826047") (:keywords "languages" "solidity" "flycheck") (:authors ("Lefteris Karapetsas " . "lefteris@refu.co")) (:maintainer "Lefteris Karapetsas " . "lefteris@refu.co"))])

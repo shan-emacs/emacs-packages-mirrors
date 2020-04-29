@@ -1,0 +1,2 @@
+
+(auto-virtualenvwrapper . [(20200416 1128) ((cl-lib (0 6)) (s (1 10 0)) (virtualenvwrapper (0))) "Lightweight auto activate python virtualenvs" single ((:commit . "f33e8c40e53c247ee6a4fd90af8805a9806735a1") (:keywords "python" "virtualenv" "tools") (:authors ("Marcwebbie" . "marcwebbie@gmail.com") ("Robert Zaremba" . "robert-zaremba@scale-it.pl")) (:maintainer "Marcwebbie" . "marcwebbie@gmail.com"))])

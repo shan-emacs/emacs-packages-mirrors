@@ -1,2 +1,0 @@
-
-(overcast-theme . [(20190326 1646) ((emacs (24))) "A dark but vibrant color theme for Emacs" single ((:commit . "afb8098ad2234a65ec614f4028f7cf2555134f46") (:keywords "theme") (:authors ("Mohammed Ismail Ansari" . "team.terminal@gmail.com")) (:maintainer "Mohammed Ismail Ansari" . "team.terminal@gmail.com") (:url . "http://ismail.teamfluxion.com"))])

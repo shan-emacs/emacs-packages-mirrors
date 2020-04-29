@@ -1,0 +1,2 @@
+
+(bang . [(20200427 1628) ((emacs (24 1))) "A sam-like shell-command" single ((:commit . "2e3ec17d8335dcfd8d0db953eb673e0c8ad6b373") (:keywords "unix" "processes" "convenience") (:authors ("Philip K." . "philip@warpmail.net")) (:maintainer "Philip K." . "philip@warpmail.net") (:url . "https://git.sr.ht/~zge/bang"))])

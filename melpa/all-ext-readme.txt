@@ -13,7 +13,7 @@ Call M-x all from anything/helm:
 Multiple-cursors in *All*:
   - Press C-c C-m sets one cursor to all lines in *All* buffer.
   - If you use helm-swoop, set multiple cursors at the first match!
-    - Otherwise, they are at the beginning of line. (limitation)
+    - Otherwise, they are at the beginning of line.  (limitation)
 
 *All* is undo-able!
 
@@ -22,10 +22,11 @@ Installation:
 Put all-ext.el to your load-path.
 The load-path is usually ~/elisp/.
 It's set in your ~/.emacs like this:
-(add-to-list 'load-path (expand-file-name "~/elisp"))
+
+  (add-to-list 'load-path (expand-file-name "~/elisp"))
 
 And the following to your ~/.emacs startup file.
 
-(require 'all-ext)
+  (require 'all-ext)
 
 No need more.

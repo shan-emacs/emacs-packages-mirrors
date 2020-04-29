@@ -1,0 +1,2 @@
+
+(mu4e-maildirs-extension . [(20200410 820) ((dash (0 0 0))) "Show mu4e maildirs summary in mu4e-main-view" single ((:commit . "36b1f3a561af173eccc7bebf10ee060af44ed6e7") (:authors ("Andreu Gil Pàmies" . "agpchil@gmail.com")) (:maintainer "Andreu Gil Pàmies" . "agpchil@gmail.com") (:url . "http://github.com/agpchil/mu4e-maildirs-extension"))])

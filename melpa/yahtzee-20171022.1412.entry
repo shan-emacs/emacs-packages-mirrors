@@ -1,2 +1,2 @@
 
-(yahtzee . [(20171022 1412) ((emacs (24 3))) "The yahtzee game" single ((:commit . "db84dbb30ed39079d34d5eba01cc67af6f7d92de") (:keywords "games") (:authors ("Dimitar Dimitrov" . "mail.mitko@gmail.com")) (:maintainer "Dimitar Dimitrov" . "mail.mitko@gmail.com") (:url . "https://github.com/drdv/yahtzee"))])
+(yahtzee . [(20171022 1412) ((emacs (24 3))) "The yahtzee game" single ((:commit . "b1ac95f7bc05deb3247a787cc456e474534e0927") (:keywords "games") (:authors ("Dimitar Dimitrov" . "mail.mitko@gmail.com")) (:maintainer "Dimitar Dimitrov" . "mail.mitko@gmail.com") (:url . "https://github.com/drdv/yahtzee"))])

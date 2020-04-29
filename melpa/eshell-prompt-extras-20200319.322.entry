@@ -1,0 +1,2 @@
+
+(eshell-prompt-extras . [(20200319 322) ((emacs (25))) "Display extra information for your eshell prompt." single ((:commit . "1801b3aeccf1363f138fe01ee99d892d10fc2a07") (:keywords "eshell" "prompt") (:authors ("zwild" . "judezhao@outlook.com")) (:maintainer "Chunyang Xu" . "mail@xuchunyang.me") (:url . "https://github.com/zwild/eshell-prompt-extras"))])

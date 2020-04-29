@@ -1,3 +1,2 @@
-This package provides a major mode for editing GDScript files.
-GDScript is the scripting language used by the game engine Godot
-<https://godotengine.org>
+Adds support for the GDScript programming language from the Godot game
+engine. This is a domain-specific language dedicated to game programming.

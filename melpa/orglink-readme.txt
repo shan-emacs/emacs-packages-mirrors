@@ -13,8 +13,3 @@ To use enable `global-orglink-mode' and customize
   man:info
   <info:man>
   https://github.com/tarsius/orglink
-  TODO support Emacs Lisp xref links like (in) `help-mode'.
-  TODO support footnote.el links (only)
-
-If you like this you might also like `orgstruct-mode', [[https://github.com/tj64/outshine][outshine]],
-[[https://github.com/tarsius/hl-todo][hl-todo]], and [[https://github.com/tarsius/org-elisp-help][org-elisp-help]].

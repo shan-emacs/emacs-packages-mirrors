@@ -10,7 +10,9 @@ for which individual language support must be added one-by-one.
 
 Install
 
-Requires htmlize; available at https://github.com/hniksic/emacs-htmlize
+Requires htmlize; available at
+https://github.com/hniksic/emacs-htmlize.  If htmlize is not
+installed, by default it will fall back to Emacs's own htmlfontify.
 
 Open the file and run `package-install-from-buffer', or put it on your
 `load-path' and add these to your config:

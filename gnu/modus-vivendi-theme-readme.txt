@@ -25,7 +25,7 @@ earlier, "alpha" versions).
   :CUSTOM_ID: h:25c3ecd3-8025-414c-9b96-e4d6266c6fe8
   :END:
 
-** Install the MELPA packages
+** Install the packages
    :PROPERTIES:
    :CUSTOM_ID: h:c3e293e8-8464-4196-aefd-184027116ded
    :END:
@@ -144,6 +144,22 @@ theme of your choice):
 (setq modus-vivendi-theme-scale-2 1.1)
 (setq modus-vivendi-theme-scale-3 1.15)
 (setq modus-vivendi-theme-scale-4 1.2)
+
+;; Make the fringes visible.  This renders them in a different
+;; background than the main buffer.
+(setq modus-operandi-theme-visible-fringes nil)
+
+(setq modus-vivendi-theme-visible-fringes nil)
+
+;; Use a distinct background for Org's source blocks and extend their
+;; headings until the edge of the window (the "extend" part is for Emacs
+;; versions >= 27, whereas before they would extend anyhow).  The
+;; default is to use the same background as the rest of the buffer,
+;; while beginning and end lines do not extend to the end of the window
+;; (again, the extend is for Emacs 27 or higher).
+(setq modus-operandi-theme-distinct-org-blocks nil)
+
+(setq modus-vivendi-theme-distinct-org-blocks nil)
 #+END_SRC
 
 *NOTE* that all customisation options must be declared /before/ loading
@@ -174,12 +190,17 @@ the "full support" may not be 100% true…
 + apropos
 + apt-sources-list
 + artbollocks-mode
++ auctex and TeX
 + auto-dim-other-buffers
 + avy
++ bm
 + breakpoint (provided by built-in gdb-mi.el)
++ buffer-expose
 + calendar and diary
 + calfw
++ centaur-tabs
 + change-log and log-view (=vc-print-log= and =vc-print-root-log=)
++ cider
 + column-enforce-mode
 + company-mode*
 + company-posframe
@@ -208,11 +229,14 @@ the "full support" may not be 100% true…
 + diredfl
 + disk-usage
 + doom-modeline
++ dynamic-ruler
 + easy-jekyll
 + easy-kill
++ ebdb
 + ediff
 + eldoc-box
 + elfeed
++ elfeed-score
 + emms
 + enhanced-ruby-mode
 + epa
@@ -231,7 +255,11 @@ the "full support" may not be 100% true…
 + flycheck-posframe
 + flymake
 + flyspell
++ flyspell-correct
++ freeze-it
++ frog-menu
 + focus
++ fold-this
 + font-lock (generic syntax highlighting)
 + fountain (fountain-mode)
 + geiser
@@ -239,46 +267,65 @@ the "full support" may not be 100% true…
 + git-gutter (and variants)
 + git-lens
 + git-timemachine
++ git-walktree
 + gnus
-+ helm*
++ helm* (also see [[#h:e4408911-e186-4825-bd4f-4d0ea55cd6d6][section below on Helm's grep-related functions]])
 + helm-ls-git
++ helm-switch-shell
 + helm-xref
 + highlight-blocks
++ highlight-defined
++ highlight-escape-sequences (=hes-mode=)
++ highlight-numbers
++ highlight-thing
 + hl-fill-column
 + hl-line-mode
++ hl-todo
 + hydra
 + ido-mode
 + iedit
 + imenu-list
 + info
 + info-colors
++ interaction-log
++ ioccur
 + isearch, occur, etc.
 + ivy*
 + ivy-posframe
 + jira (org-jira)
 + js2-mode
++ julia
 + jupyter
++ kaocha-runner
 + keycast
 + line numbers (=display-line-numbers-mode= and global variant)
 + lsp-mode
 + lsp-ui
 + magit
 + markdown-mode
++ markup-faces (=adoc-mode=)
 + mentor
 + messages
 + modeline
 + mood-line
 + mu4e
 + mu4e-conversation
++ multiple-cursors
 + neotree
++ num3-mode
 + org*
 + org-journal
 + org-noter
 + org-pomodoro
 + org-recur
++ org-roam
++ org-superstar
++ org-treescope
 + origami
 + outline-mode
++ outline-minor-faces
 + package (=M-x list-packages=)
++ paradox
 + paren-face
 + pass
 + persp-mode
@@ -288,26 +335,40 @@ the "full support" may not be 100% true…
 + proced
 + prodigy
 + rainbow-blocks
++ rainbow-identifiers
 + rainbow-delimiters
 + regexp-builder (also known as =re-builder=)
++ rg (rg.el)
++ ripgrep
 + rmail
 + ruler-mode
++ sallet
++ selectrum
++ sesman
 + shell-script-mode
 + show-paren-mode
++ side-notes
++ skewer-mode
 + smart-mode-line
 + smartparens
 + smerge
 + speedbar
++ stripes
 + suggest
 + swiper
 + sx
++ symbol-overlay
++ syslog-mode
 + telephone-line
 + term
 + transient (pop-up windows like Magit's)
 + treemacs
 + undo-tree
 + vc (built-in mode line status for version control)
++ vc-annotate (=C-x v g=)
 + visual-regexp
++ volatile-highlights
++ web-mode
 + wgrep
 + which-function-mode
 + which-key
@@ -317,6 +378,7 @@ the "full support" may not be 100% true…
 + xah-elisp-mode
 + xref
 + xterm-color (and ansi-colors)
++ yaml-mode
 + ztree
 
 Plus many other miscellaneous faces that are provided by the out-of-the-box
@@ -332,6 +394,7 @@ inherit from some basic faces.  Please confirm.
 
 + comint
 + bongo
++ edit-indirect
 
 ** Help needed
    :PROPERTIES:
@@ -366,6 +429,58 @@ effect/: less intense colours (but still accessible) for supportive
 interfaces and the intended styles for the content you are actually
 working on.
 
+** Note for HELM users of grep or grep-like functions
+   :PROPERTIES:
+   :CUSTOM_ID: h:e4408911-e186-4825-bd4f-4d0ea55cd6d6
+   :END:
+
+There is one face from the Helm package that is meant to highlight the
+matches of a grep or grep-like command (=ag= or =ripgrep=).  It is
+=helm-grep-match=.  However, this face can only apply when the user does
+not pass =--color=always= as a command-line option for their command.
+
+Here is the docstring for that face, which is defined in the
+=helm-grep.el= library (view a library with =M-x find-library=).
+
+#+begin_quote
+Face used to highlight grep matches. Have no effect when grep backend
+use "--color="
+#+end_quote
+
+The user must either remove =--color= from the flags passed to the grep
+function, or explicitly use =--color=never= (or equivalent).  Helm
+provides user-facing customisation options for controlling the grep
+function's parameters, such as =helm-grep-default-command= and
+=helm-grep-git-grep-command=.
+
+When =--color=always= is in effect, the grep output will use red text in
+bold letter forms to present the matching part in the list of
+candidates.  *That style still meets the contrast ratio target of >= 7:1*
+(accessibility standard WCAG AAA), because it draws the reference to
+ANSI colour number 1 (red) from the already-supported array of
+=ansi-color-names-vector=.
+
+I presented [[https://gitlab.com/protesilaos/modus-themes/-/issues/21#note_302748582][some screen shots of this in issue 21]].
+
+** Note on VC-ANNOTATE-BACKGROUND-MODE
+   :PROPERTIES:
+   :CUSTOM_ID: h:5b5d4420-50cc-4d53-a9f8-825cba6b68f1
+   :END:
+
+Due to the unique way =vc-annotate= (=C-x v g=) applies colours, support for
+its background mode (=vc-annotate-background-mode=) is disabled at the
+theme level.
+
+Normally, such a drastic measure should not belong in a theme: assuming
+the user's preferences is bad practice.  However, it has been deemed
+necessary in the interest of preserving colour contrast accessibility
+while still supporting a useful built-in tool.
+
+If there actually is a way to avoid such a course of action, without
+prejudice to the accessibility standard of this project, then please
+report as much (or contribute as per the information in the [[#h:25ba8d6f-6604-4338-b774-bbe531d467f6][Contributing]]
+section).
+
 * Contributing
   :PROPERTIES:
   :CUSTOM_ID: h:25ba8d6f-6604-4338-b774-bbe531d467f6
@@ -388,7 +503,36 @@ Whatever you do, please bear in mind the overarching objective of the
 Modus themes: to keep a contrast ratio that is greater or equal to 7:1
 between background and foreground colours.  If a compromise is ever
 necessary between aesthetics and accessibility, it shall always be made
-in the interest of latter.
+in the interest of the latter.
+
+** Code contributions require copyright assignment to the FSF
+   :PROPERTIES:
+   :CUSTOM_ID: h:d3fb2fc7-6c34-4e68-b2d6-6048849b0319
+   :END:
+
+I accept code contributions as well (send merge requests!).  But for any
+major contribution (more than 15 lines, or so), you need to make a
+copyright assignment to the Free Software Foundation.  This is necessary
+because the themes are distributed through the official GNU ELPA
+repository and the FSF must be in a position to enforce the GNU General
+Public License.
+
+Copyright assignment /is a simple process/ that I had to follow as well.
+Check the [[https://git.savannah.gnu.org/cgit/gnulib.git/tree/doc/Copyright/request-assign.future][request form]].  You must send an email to the address mentioned
+in the form and then wait for the FSF to send you a legal agreement.
+Sign the document and file it back to them.  This should all happen via
+email and take about a week.
+
+I encourage you to go through this process.  You only need to do it
+once.  It will allow you to make contributions to Emacs in general.
+
+* Meta
+  :PROPERTIES:
+  :CUSTOM_ID: h:4c338a51-509e-42c0-8820-1f5014fb477b
+  :END:
+
+If you interested in the principles that govern the development of this
+project, read my article [[https://protesilaos.com/codelog/2020-03-17-design-modus-themes-emacs/][On the design of the Modus themes]] (2020-03-17).
 
 * COPYING
   :PROPERTIES:

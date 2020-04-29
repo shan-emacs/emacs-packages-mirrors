@@ -8,9 +8,8 @@ when new tags file is created.
 Usage:
   Step 1, insert below code into your configuration,
 
-  (eval-after-load 'company
-    '(progn
-       (company-ctags-auto-setup)))
+  (with-eval-after-load 'company
+     (company-ctags-auto-setup))
 
   Step 2, Use Ctags to create tags file and enjoy.
 

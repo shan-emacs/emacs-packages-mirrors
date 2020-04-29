@@ -1,0 +1,2 @@
+
+(flycheck-pest . [(20200317 1503) ((emacs (26 3)) (flycheck (31)) (pest-mode (0 1))) "Flycheck integration for Pest -" single ((:commit . "4ae88a9c81d499bbe99978ff0216b645fed70023") (:keywords "convenience" "flycheck") (:authors ("Naoya Yamashita" . "conao3@gmail.com")) (:maintainer "Naoya Yamashita" . "conao3@gmail.com") (:url . "https://github.com/ksqsf/pest-mode"))])

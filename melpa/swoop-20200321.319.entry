@@ -1,0 +1,2 @@
+
+(swoop . [(20200321 319) ((emacs (24 3)) (ht (2 0)) (pcre2el (1 5)) (async (1 1))) "Peculiar buffer navigation" tar ((:commit . "7f6f20d0f32b76b7ce5b1459afa44c1ab700f8bb") (:keywords "tools" "swoop" "inner" "buffer" "search" "navigation") (:authors ("Shingo Fukuyama - http://fukuyama.co")) (:maintainer "Shingo Fukuyama - http://fukuyama.co") (:url . "https://github.com/ShingoFukuyama/emacs-swoop"))])

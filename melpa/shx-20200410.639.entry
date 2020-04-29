@@ -1,0 +1,2 @@
+
+(shx . [(20200410 639) ((emacs (24 4))) "Extras for the comint-mode shell" single ((:commit . "e5b4bae0a1a9bb8a762da40397a04efdd0b2b397") (:keywords "terminals" "processes" "comint" "shell" "repl") (:url . "https://github.com/riscy/shx-for-emacs"))])

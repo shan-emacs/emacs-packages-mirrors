@@ -1,0 +1,2 @@
+
+(js2-mode . [(20200427 33) ((emacs (24 1)) (cl-lib (0 5))) "Improved JavaScript editing mode" tar ((:commit . "515d876c6ae45a61cf67a7bd5723fe4c9e518756") (:keywords "languages" "javascript") (:authors ("Steve Yegge" . "steve.yegge@gmail.com") ("mooz" . "stillpedant@gmail.com") ("Dmitry Gutov" . "dgutov@yandex.ru")) (:maintainer "Steve Yegge" . "steve.yegge@gmail.com") (:url . "https://github.com/mooz/js2-mode/"))])

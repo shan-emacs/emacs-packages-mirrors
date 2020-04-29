@@ -23,7 +23,7 @@
 
             <div class="container">
 <h2 class="package">orgalist</h2><dl><dt>Description</dt><dd>Manage Org-like lists in non-Org buffers</dd>
-<dt>Latest</dt> <dd><a href="orgalist-1.11.el">orgalist-1.11.el</a>, 2020-Jan-02, 54.7&nbsp;KiB</dd>
+<dt>Latest</dt> <dd><a href="orgalist-1.12.el">orgalist-1.12.el</a>, 2020-Apr-09, 54.6&nbsp;KiB</dd>
 <dt>Maintainer</dt> <dd>Nicolas Goaziou &lt;mail@nicolasgoaziou.fr></dd>
 <dt>Home page</dt> <dd><a href="http://elpa.gnu.org/packages/orgalist.html">http://elpa.gnu.org/packages/orgalist.html</a></dd>
 <dt>Browse repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/?h=externals/orgalist">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=shortlog;h=refs/heads/externals/orgalist">Gitweb</a></dd>
@@ -114,8 +114,22 @@ example:
 `M-x orgalist-send-list' on "a new house" inserts the translated
 LaTeX list in-between the "BEGIN RECEIVE" and "END RECEIVE" marker
 lines.
+
+There is a known incompatibility between Yasnippet and Orgalist,
+appearing as the following message:
+
+    (error "Variable binding depth exceeds max-specpdl-size")
+
+To avoid this situation, you must activate Orgalist *before*
+Yasnippet.  You can add the following snippet in major mode hooks
+where you want both:
+
+    (yas-minor-mode -1)
+    (orgalist-mode 1)
+    (yas-minor-mode)
 </pre>
 <h2>Old versions</h2><table>
+<tr><td><a href="orgalist-1.11.el">orgalist-1.11.el</a></td><td>2020-Jan-02</td><td>54.7&nbsp;KiB</td>
 <tr><td><a href="orgalist-1.10.el">orgalist-1.10.el</a></td><td>2019-Dec-31</td><td>54.3&nbsp;KiB</td>
 <tr><td><a href="orgalist-1.9.el">orgalist-1.9.el</a></td><td>2018-Sep-15</td><td>53.9&nbsp;KiB</td>
 <tr><td><a href="orgalist-1.8.el">orgalist-1.8.el</a></td><td>2018-Jun-13</td><td>51.3&nbsp;KiB</td>

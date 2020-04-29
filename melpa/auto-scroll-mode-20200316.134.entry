@@ -1,0 +1,2 @@
+
+(auto-scroll-mode . [(20200316 134) ((emacs (25)) (cl-lib (0 6 1))) "Auto scroll buffer" single ((:commit . "a23669a8747e71ca5b1003b923f7a3d3834740e3") (:keywords "wp") (:url . "https://github.com/stardiviner/auto-scroll-mode"))])

@@ -1,2 +1,0 @@
-
-(ruby-electric . [(20191217 1214) nil "Minor mode for electrically editing ruby code" single ((:commit . "ea9571ce3af546fdb1234274c8b1a147109b4869") (:keywords "languages" "ruby") (:maintainer "Akinori MUSHA" . "knu@iDaemons.org") (:url . "https://github.com/knu/ruby-electric.el"))])

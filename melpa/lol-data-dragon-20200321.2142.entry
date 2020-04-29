@@ -1,0 +1,2 @@
+
+(lol-data-dragon . [(20200321 2142) ((emacs (25 1))) "Browse Champions of League of Legends on Data Dragon" single ((:commit . "6f53bb3971daad60bd0529d1e3889d5f9fedf235") (:keywords "games" "hypermedia") (:authors ("Xu Chunyang")) (:maintainer "Xu Chunyang") (:url . "https://github.com/xuchunyang/lol-data-dragon.el"))])

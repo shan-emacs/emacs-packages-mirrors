@@ -1,0 +1,2 @@
+
+(wallpaper . [(20200408 1353) ((emacs (25 1))) "Setting the wallpaper" single ((:commit . "9fb5be9c2f7279f7ef2860eefd416359b9026ba3") (:keywords "unix" "wallpaper" "extensions") (:authors ("Farlado" . "farlado@sdf.org")) (:maintainer "Farlado" . "farlado@sdf.org") (:url . "https://github.com/farlado/emacs-wallpaper"))])

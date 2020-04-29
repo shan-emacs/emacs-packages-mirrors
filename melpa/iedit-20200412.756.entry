@@ -1,0 +1,2 @@
+
+(iedit . [(20200412 756) nil "Edit multiple regions in the same way simultaneously." tar ((:commit . "0fb3d380866664c3ab543acede606d343c257406") (:keywords "occurrence" "region" "simultaneous" "refactoring") (:authors ("Victor Ren" . "victorhge@gmail.com")) (:maintainer "Victor Ren" . "victorhge@gmail.com") (:url . "https://www.emacswiki.org/emacs/Iedit"))])

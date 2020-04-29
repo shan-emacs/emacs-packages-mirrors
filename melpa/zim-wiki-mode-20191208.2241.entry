@@ -1,2 +1,0 @@
-
-(zim-wiki-mode . [(20191208 2241) ((emacs (25)) (helm-ag (0 58)) (helm-projectile (0 14 0)) (dokuwiki-mode (0 1 1)) (link-hint (0 1)) (pretty-hydra (0 2 2))) "Zim Desktop Wiki edit mode" single ((:commit . "030fb78600a6782f8746fe547b979bcc9a24f0ed") (:keywords "outlines") (:authors ("Will Foran" . "willforan+zim-wiki-mode@gmail.com")) (:maintainer "Will Foran" . "willforan+zim-wiki-mode@gmail.com") (:url . "https://github.com/WillForan/zim-wiki-mode"))])

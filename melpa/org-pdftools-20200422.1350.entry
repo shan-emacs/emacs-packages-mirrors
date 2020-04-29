@@ -1,0 +1,2 @@
+
+(org-pdftools . [(20200422 1350) ((emacs (26 1)) (org (9 3 6)) (pdf-tools (0 8)) (org-noter (1 4 1))) "Support for links to documents in pdfview mode" single ((:commit . "8cc15bb8014ed1f047eecc0abd8bf447f86c0505") (:keywords "convenience") (:authors ("Alexander Fu Xi" . "fuxialexander@gmail.com")) (:maintainer "Alexander Fu Xi" . "fuxialexnader@gmail.com") (:url . "https://github.com/fuxialexander/org-pdftools"))])

@@ -1,0 +1,2 @@
+
+(clojure-mode . [(20200419 559) ((emacs (25 1))) "Major mode for Clojure code" single ((:commit . "da9f1ec717dac1194404b4a4562dba6bd9a4ee3a") (:keywords "languages" "clojure" "clojurescript" "lisp") (:url . "http://github.com/clojure-emacs/clojure-mode"))])
