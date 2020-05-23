@@ -16,9 +16,22 @@ The /Modus themes/ project consists of two standalone items, one where
 dark text is cast on a light backdrop (Modus Operandi) and another where
 light text is displayed against a dark background (Modus Vivendi).
 
-*Check the [[https://gitlab.com/protesilaos/modus-themes/wikis/Screenshots][Wiki page with the screen shots]].* Also note that I demo these
-themes in [[https://protesilaos.com/code-casts][my Emacs-related screen casts]] (though older videos contain
-earlier, "alpha" versions).
+The themes are *highly customisable* and can be made to look much
+different than their default austere aesthetic.  Make sure to read the
+section on the [[#h:d414ca47-6dce-4905-9f2e-de1465bf23bb][customisation options]].
+
+** Links with demo content
+   :PROPERTIES:
+   :CUSTOM_ID: h:3b1b8ad9-f08f-4329-b9ee-d817b610708f
+   :END:
+
+Check the [[https://gitlab.com/protesilaos/modus-themes/wikis/Screenshots][Wiki page with the screen shots]].  There are lots of scenaria
+on display that draw attention to details and important aspects in the
+design of the themes.  They also showcase the numerous customisation
+options.
+
+Also note that I use these themes in [[https://protesilaos.com/code-casts][my Emacs-related screen casts]]
+(although older videos contain earlier, "alpha" versions).
 
 * Install and auto-load
   :PROPERTIES:
@@ -49,13 +62,17 @@ To be clear, that sequence means:
 + type the name of the package
 + hit Return to confirm your choice
 
+*Remember to refresh your package lists* (=M-x package-refresh-contents= or
+=M-x list-packages=), in case Emacs complains that a package is no longer
+available.
+
 *** With `use-package'
     :PROPERTIES:
     :CUSTOM_ID: h:3ab0ac39-38fb-405b-8a15-771cbd843b6d
     :END:
 
 For a declarative approach with =use-package=, you can write something
-like this:
+like this (also see [[#h:d414ca47-6dce-4905-9f2e-de1465bf23bb][the customisation options]] for how to expand this):
 
 #+BEGIN_SRC emacs-lisp
 (use-package modus-operandi-theme
@@ -100,70 +117,247 @@ you might run into unexpected issues.
   :CUSTOM_ID: h:d414ca47-6dce-4905-9f2e-de1465bf23bb
   :END:
 
-Both of the Modus themes expose some variables that allow users to tweak
-the look of the theme.  By default, all variables are deactivated,
-meaning that *you need to explicitly opt in*.
+Both of the Modus themes expose variables that allow users to tweak how
+certain styles are configured.  Check the [[https://gitlab.com/protesilaos/modus-themes/wikis/Screenshots][Wiki with the screen shots]] to
+see how these will change things.
 
-This is what is available right now (use the ones appropriate to the
-theme of your choice):
+By default, all variables are deactivated (=nil=), meaning that *you need
+to explicitly opt in* like this:
 
-#+BEGIN_SRC emacs-lisp
-;; Choose to render more code constructs in slanted text (italics).  The
-;; default, shown below, is to not use italics, unless it is absolutely
-;; necessary.
-(setq modus-operandi-theme-slanted-constructs nil)
+#+begin_src emacs-lisp
+(setq CUSTOMISATION-OPTION-NAME t)
 
-(setq modus-vivendi-theme-slanted-constructs nil)
+;; example with "rainbow" headings for Modus Operandi:
+(setq modus-operandi-theme-rainbow-headings t)
+#+end_src
 
-;; Opt to display some additional code constructs in bold.  The default,
-;; shown below, is to use bold weight only where necessary.
-(setq modus-operandi-theme-bold-constructs nil)
+Put the point (cursor) exactly to the right of the closing parenthesis
+and use =C-x C-e= to evaluate each =setq= form individually, or the entire
+expression that holds it (e.g. a function or =use-package= declaration).
 
-(setq modus-vivendi-theme-bold-constructs nil)
+All customisation *options must be declared before loading the theme*,
+else they will not be parsed and have no immediate effect.  To [re-]load
+a theme, you can evaluate either of these:
 
-;; Use proportionately-spaced fonts (variable-pitch) for headings.  The
-;; default is to use whatever font the user has selected, typically a
-;; monospaced typeface.
-(setq modus-operandi-theme-proportional-fonts nil)
+#+begin_src emacs-lisp
+(load-theme 'modus-operandi t)
+(load-theme 'modus-vivendi t)
+#+end_src
 
-(setq modus-vivendi-theme-proportional-fonts nil)
+Consult the section below with the [[#h:0e3b8a62-8d72-4439-be2d-cb12ed98f4cb][complete example configuration]] for a
+fully fledged =use-package= declaration.
 
-;; Whether headings should be scaled or have the same height as body
-;; text.  The default is to keep everything the same as the base size.
-(setq modus-operandi-theme-scale-headings nil)
+** Option for distinct Org source blocks
+   :PROPERTIES:
+   :CUSTOM_ID: h:ca57a3af-6f79-4530-88c0-e35eda9d3bf7
+   :END:
 
-(setq modus-vivendi-theme-scale-headings nil)
++ =modus-operandi-theme-distinct-org-blocks=
++ =modus-vivendi-theme-distinct-org-blocks=
 
-;; Font scale that should apply to headings.  These are the default values.
-(setq modus-operandi-theme-scale-1 1.05)
-(setq modus-operandi-theme-scale-2 1.1)
-(setq modus-operandi-theme-scale-3 1.15)
-(setq modus-operandi-theme-scale-4 1.2)
+Use a distinct background for Org's source blocks and extend their
+headings until the edge of the window (the "extend" part is for Emacs
+versions >= 27, whereas before they would extend regardless).  The
+default is to use the same background as the rest of the buffer for the
+contents of the block, while beginning and end lines do not extend to
+the end of the window (again, the "extend" is for Emacs 27 or higher).
 
-(setq modus-vivendi-theme-scale-1 1.05)
-(setq modus-vivendi-theme-scale-2 1.1)
-(setq modus-vivendi-theme-scale-3 1.15)
-(setq modus-vivendi-theme-scale-4 1.2)
+** Option for colourful "rainbow" headings
+   :PROPERTIES:
+   :CUSTOM_ID: h:1be42afb-bcd2-4425-b956-0ba93eb960c2
+   :END:
 
-;; Make the fringes visible.  This renders them in a different
-;; background than the main buffer.
-(setq modus-operandi-theme-visible-fringes nil)
++ =modus-operandi-theme-rainbow-headings=
++ =modus-vivendi-theme-rainbow-headings=
 
-(setq modus-vivendi-theme-visible-fringes nil)
+Apply more saturated colours to headings in =org-mode= and =outline-mode=
+while retaining all other heading properties (such as a bold weight and
+the optional scaled height ---see relevant customisation toggle).  The
+colours follow the rainbow's spectrum.  In Org headings, some additional
+tweaks are made to adapt keywords (like "TODO") to the more vivid
+presentation.  The default uses a more frugal aesthetic for headings,
+letting their bold typography and the nuances between the various
+heading levels provide the elements of differentiation.
 
-;; Use a distinct background for Org's source blocks and extend their
-;; headings until the edge of the window (the "extend" part is for Emacs
-;; versions >= 27, whereas before they would extend anyhow).  The
-;; default is to use the same background as the rest of the buffer,
-;; while beginning and end lines do not extend to the end of the window
-;; (again, the extend is for Emacs 27 or higher).
-(setq modus-operandi-theme-distinct-org-blocks nil)
+** Option for sectioned headings
+   :PROPERTIES:
+   :CUSTOM_ID: h:c1c9a380-7a05-4c0d-b714-2acac88f10ad
+   :END:
 
-(setq modus-vivendi-theme-distinct-org-blocks nil)
-#+END_SRC
++ =modus-operandi-theme-section-headings=
++ =modus-vivendi-theme-section-headings=
 
-*NOTE* that all customisation options must be declared /before/ loading
-the theme, else they will not be parsed and have no effect.
+The default is to use only a subtle foreground and a bold weight for
+headings, while no boxes or {under,over}-line effects are present.
+
+Uses a background colour and an overline to mark section headings in
+=org-mode= and =outline-mode=.  These attributes are applied in addition to
+the existing foreground colour and the bold weight and can, therefore,
+be combined with the "rainbow" headings option (as well as all the other
+options pertaining to headings).  For Org several additional faces are
+configured accordingly, such as TODO keywords which gain a box style.
+
+** Option for scaled headings
+   :PROPERTIES:
+   :CUSTOM_ID: h:db0275ea-11c2-47c9-82a9-10b65d8df0f8
+   :END:
+
++ =modus-operandi-theme-scale-headings=
++ =modus-vivendi-theme-scale-headings=
+
+Make headings larger in size relative to the main text.  This is
+noticeable in modes like Org.  The default is to use the same size for
+headers and body copy.
+
+In addition to toggles for enabling scaled headings, users can also
+specify the exact multiplier relative to the base font size.  These are
+the variables in their default sizes, from the smallest to the largest
+(the numbers are very conservative, but you are free to increase them a
+bit, such as =1.2=, =1.4=, =1.6=, =1.8=):
+
+#+begin_src emacs-lisp
+(setq modus-operandi-theme-scale-1 1.05
+      modus-operandi-theme-scale-2 1.1
+      modus-operandi-theme-scale-3 1.15
+      modus-operandi-theme-scale-4 1.2)
+
+(setq modus-vivendi-theme-scale-1 1.05
+      modus-vivendi-theme-scale-2 1.1
+      modus-vivendi-theme-scale-3 1.15
+      modus-vivendi-theme-scale-4 1.2)
+#+end_src
+
+Note that in Org, scaling only increases the size of the heading, but
+not of keywords that are added to it, like "TODO".  This is outside the
+control of the themes and I am not aware of any way to make such
+keywords scale accordingly.
+
+** Option for visible fringes
+   :PROPERTIES:
+   :CUSTOM_ID: h:d989f116-7559-40bc-bf94-ef508d480960
+   :END:
+
++ =modus-operandi-theme-visible-fringe=
++ =modus-vivendi-theme-visible-fringe=
+
+When enabled, this will render the fringes in a subtle background
+colour.  The default is to use the same colour as that of the main
+background, meaning that the fringes are not obvious though they still
+occupy the space given to them by =fringe-mode=.
+
+** Option for more slanted constructs
+   :PROPERTIES:
+   :CUSTOM_ID: h:cb327797-b303-47c5-8171-4587a911ccc2
+   :END:
+
++ =modus-operandi-theme-slanted-constructs=
++ =modus-vivendi-theme-slanted-constructs=
+
+Choose to render more faces in slanted text (italics).  This typically
+affects documentation strings and code comments.  The default is to not
+use italics unless it is absolutely necessary.
+
+** Option for more bold constructs
+   :PROPERTIES:
+   :CUSTOM_ID: h:9a77e814-5eca-488f-9a67-119a95c2d28a
+   :END:
+
++ =modus-operandi-theme-bold-constructs=
++ =modus-vivendi-theme-bold-constructs=
+
+Display several constructs in bold weight.  This concerns keywords and
+other important aspects of code syntax.  It also affects certain mode
+line indicators.  The default is to only use a bold weight when it is
+necessary.
+
+** Option for three-dimensional focused mode line
+   :PROPERTIES:
+   :CUSTOM_ID: h:ce155208-fdd6-4ada-9e0c-54aab7e2aff8
+   :END:
+
++ =modus-operandi-theme-3d-modeline=
++ =modus-vivendi-theme-3d-modeline=
+
+Use a three-dimensional, "released button" effect for the focused
+window's mode line.  When enabled, this option will also affect the
+styles of any inactive mode lines, making them less intense overall in
+order to accommodate the added element of depth.  The default is to
+present the mode lines as rectangles with a border around them and with
+the active one having more intense colours than any inactive ones.
+
+** Option for subtle diffs
+   :PROPERTIES:
+   :CUSTOM_ID: h:e3933a53-cbd9-4e44-958a-1d6d133f0816
+   :END:
+
++ =modus-operandi-theme-subtle-diff=
++ =modus-vivendi-theme-subtle-diff=
+
+Display =diff-mode=, =ediff=, =smerge-mode=, =magit= diff buffers with fewer
+and/or less intense background colours or, where possible, with no
+background colours applied to the presentation of the added and removed
+lines.  Concerning =magit=, an extra set of tweaks are introduced for the
+effect of highlighting the current diff hunk, so as to remain consistent
+with the overall experience of that mode.  The default is to use
+colour-coded backgrounds for line-wise highlights.  "Refined" changes
+(word-wise highlights) always use a background value which is,
+nonetheless, more subtle with this option than with its default
+equivalent.
+
+** Option for proportional fonts
+   :PROPERTIES:
+   :CUSTOM_ID: h:33023fa6-6482-45d4-9b5e-3c73c945718f
+   :END:
+
++ =modus-operandi-theme-proportional-fonts=
++ =modus-vivendi-theme-proportional-fonts=
+
+Choose to apply a proportionately-spaced font to some faces.  Currently
+this only affects headings (e.g. in Org).  Contributions on how to make
+the use of proportional fonts more useful are highly appreciated (see
+[[#h:25ba8d6f-6604-4338-b774-bbe531d467f6][section on contributing]]).  The default is to use whatever the default
+typeface is, typically a monospaced family.
+
+** Complete example configuration
+   :PROPERTIES:
+   :CUSTOM_ID: h:0e3b8a62-8d72-4439-be2d-cb12ed98f4cb
+   :END:
+
+This is a complete =use-package= declaration with Modus Operandi as an
+example.  You can modify it to your preferences.  Here we enable all
+variables /before/ loading the theme.  You can also see a different form
+of =setq= that sets the value of multiple variables at once: use one =setq=
+expression for each variable, if in doubt.
+
+Do not forget to =M-x package-refresh-contents= to get your package list
+up-to-date, else the initial download may fail due to a newer version
+being available.
+
+#+begin_src emacs-lisp
+(use-package modus-operandi-theme
+  :ensure t
+  :init
+  (setq modus-operandi-theme-slanted-constructs t
+        modus-operandi-theme-bold-constructs t
+        modus-operandi-theme-visible-fringes t
+        modus-operandi-theme-3d-modeline t
+        modus-operandi-theme-subtle-diffs t
+        modus-operandi-theme-distinct-org-blocks t
+        modus-operandi-theme-proportional-fonts t
+        modus-operandi-theme-rainbow-headings t
+        modus-operandi-theme-section-headings t
+        modus-operandi-theme-scale-headings t
+        modus-operandi-theme-scale-1 1.05
+        modus-operandi-theme-scale-2 1.1
+        modus-operandi-theme-scale-3 1.15
+        modus-operandi-theme-scale-4 1.2)
+  :config
+  (load-theme 'modus-operandi t))
+#+end_src
+
+Need more ideas?  Check the [[https://protesilaos.com/dotemacs/#h:b7444e76-75d4-4ae6-a9d6-96ff9408efe6][Modus themes section of my dotemacs]] (though
+do not try to interpret the values of the variables, as I always test
+different combinations and scenaria).
 
 * Face coverage
   :PROPERTIES:
@@ -183,6 +377,7 @@ The items with an appended asterisk =*= tend to have lots of extensions, so
 the "full support" may not be 100% true…
 
 + ace-window
++ ag
 + alert
 + all-the-icons
 + annotate
@@ -201,6 +396,7 @@ the "full support" may not be 100% true…
 + centaur-tabs
 + change-log and log-view (=vc-print-log= and =vc-print-root-log=)
 + cider
++ color-rg
 + column-enforce-mode
 + company-mode*
 + company-posframe
@@ -211,10 +407,13 @@ the "full support" may not be 100% true…
 + counsel-notmuch
 + counsel-org-capture-string
 + cov
++ csv-mode
++ ctrlf
 + custom (=M-x customize=)
 + dap-mode
 + dashboard (emacs-dashboard)
 + deadgrep
++ debbugs
 + define-word
 + deft
 + diff-hl
@@ -234,6 +433,7 @@ the "full support" may not be 100% true…
 + easy-kill
 + ebdb
 + ediff
++ eglot
 + eldoc-box
 + elfeed
 + elfeed-score
@@ -256,11 +456,13 @@ the "full support" may not be 100% true…
 + flymake
 + flyspell
 + flyspell-correct
++ flx
 + freeze-it
 + frog-menu
 + focus
 + fold-this
 + font-lock (generic syntax highlighting)
++ forge
 + fountain (fountain-mode)
 + geiser
 + git
@@ -273,17 +475,23 @@ the "full support" may not be 100% true…
 + helm-ls-git
 + helm-switch-shell
 + helm-xref
++ helpful
 + highlight-blocks
 + highlight-defined
 + highlight-escape-sequences (=hes-mode=)
 + highlight-numbers
++ highlight-symbol
 + highlight-thing
 + hl-fill-column
 + hl-line-mode
 + hl-todo
 + hydra
++ ibuffer
++ icomplete
++ icomplete-vertical
 + ido-mode
 + iedit
++ iflipb
 + imenu-list
 + info
 + info-colors
@@ -302,6 +510,8 @@ the "full support" may not be 100% true…
 + lsp-mode
 + lsp-ui
 + magit
++ magit-imerge
++ man
 + markdown-mode
 + markup-faces (=adoc-mode=)
 + mentor
@@ -312,7 +522,9 @@ the "full support" may not be 100% true…
 + mu4e-conversation
 + multiple-cursors
 + neotree
++ no-emoji
 + num3-mode
++ orderless
 + org*
 + org-journal
 + org-noter
@@ -325,11 +537,16 @@ the "full support" may not be 100% true…
 + outline-mode
 + outline-minor-faces
 + package (=M-x list-packages=)
++ page-break-lines
 + paradox
 + paren-face
++ parrot
 + pass
 + persp-mode
 + perspective
++ phi-grep
++ phi-search
++ pomidor
 + powerline
 + powerline-evil
 + proced
@@ -337,6 +554,7 @@ the "full support" may not be 100% true…
 + rainbow-blocks
 + rainbow-identifiers
 + rainbow-delimiters
++ rcirc
 + regexp-builder (also known as =re-builder=)
 + rg (rg.el)
 + ripgrep
@@ -353,28 +571,40 @@ the "full support" may not be 100% true…
 + smartparens
 + smerge
 + speedbar
++ spell-fu
 + stripes
 + suggest
++ switch-window
 + swiper
++ swoop
 + sx
 + symbol-overlay
 + syslog-mode
 + telephone-line
 + term
++ tomatinho
 + transient (pop-up windows like Magit's)
++ trashed
 + treemacs
++ tuareg
 + undo-tree
 + vc (built-in mode line status for version control)
 + vc-annotate (=C-x v g=)
++ vimish-fold
++ visible-mark
 + visual-regexp
 + volatile-highlights
++ vterm
++ wcheck-mode
 + web-mode
 + wgrep
 + which-function-mode
 + which-key
 + whitespace-mode
 + window-divider-mode
++ winum
 + writegood-mode
++ woman
 + xah-elisp-mode
 + xref
 + xterm-color (and ansi-colors)
@@ -428,6 +658,67 @@ white/black) background.
 effect/: less intense colours (but still accessible) for supportive
 interfaces and the intended styles for the content you are actually
 working on.
+
+** Note about colour-coded ORG source blocks
+   :PROPERTIES:
+   :CUSTOM_ID: h:9ef7e899-63f4-4eb1-958c-1a1dd999fa35
+   :END:
+
+It is possible to apply unique coloured backgrounds to Org's source
+blocks on a per-language basis.  The customisation option is
+=org-src-block-faces=.
+
+Because this is an inherently subjective choice, it is impossible to
+reach a consensus of what colour should be assigned to each language.
+Furthermore, there are so many languages to choose from, making it
+impractical to apply a unique background to each of them without adding
+disproportionate complexity to the themes.
+
+The least we could do is provide a set of background values that have
+been tested with all colours that highlight code syntax.
+
+These approved colour variants are as follows:
+
+| Background | Modus Operandi | Modus Vivendi |
+|------------+----------------+---------------|
+| red        | #fef2f2        | #180505       |
+| yellow     | #fcf6f1        | #18140a       |
+| magenta    | #fff4fc        | #160616       |
+| green      | #f4faf4        | #061206       |
+| blue       | #f4f4ff        | #070722       |
+| cyan       | #f0f6fa        | #091620       |
+
+The differences between those colour values are subtle, but quite
+noticeable when applied to large, contiguous areas (such as code
+blocks).
+
+Pick the one you wish to use for your language of choice.  Here is an
+example:
+
+#+begin_src emacs-lisp
+;; Modus Operandi
+(setq org-src-block-faces '(("emacs-lisp" (:background "#fef2f2"))
+                            ("python" (:background "#f4f4ff"))))
+
+;; Modus Vivendi
+(setq org-src-block-faces '(("emacs-lisp" (:background "#180505"))
+                            ("python" (:background "#070722"))))
+#+end_src
+
+For versions of Emacs >= 27, also add the =:extend t= property, like this:
+
+#+begin_src emacs-lisp
+;; Modus Operandi
+(setq org-src-block-faces '(("emacs-lisp" (:background "#fef2f2" :extend t))
+                            ("python" (:background "#f4f4ff" :extend t))))
+
+;; Modus Vivendi
+(setq org-src-block-faces '(("emacs-lisp" (:background "#180505" :extend t))
+                            ("python" (:background "#070722" :extend t))))
+#+end_src
+
+Feel free to contribute any concrete proposals on how to improve support
+for this at the theme level (see [[#h:25ba8d6f-6604-4338-b774-bbe531d467f6][the "Contributing" section]]).
 
 ** Note for HELM users of grep or grep-like functions
    :PROPERTIES:
@@ -511,11 +802,11 @@ in the interest of the latter.
    :END:
 
 I accept code contributions as well (send merge requests!).  But for any
-major contribution (more than 15 lines, or so), you need to make a
-copyright assignment to the Free Software Foundation.  This is necessary
-because the themes are distributed through the official GNU ELPA
-repository and the FSF must be in a position to enforce the GNU General
-Public License.
+major contribution (more than 15 lines, or so, in aggregate), you need
+to make a copyright assignment to the Free Software Foundation.  This is
+necessary because the themes are distributed through the official GNU
+ELPA repository and the FSF must be in a position to enforce the GNU
+General Public License.
 
 Copyright assignment /is a simple process/ that I had to follow as well.
 Check the [[https://git.savannah.gnu.org/cgit/gnulib.git/tree/doc/Copyright/request-assign.future][request form]].  You must send an email to the address mentioned

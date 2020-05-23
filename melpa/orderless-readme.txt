@@ -21,6 +21,6 @@ Each component can match in any one of several matching styles:
 literally, as a regexp, as an initialism, in the flex style, or as
 word prefixes.  It is easy to add new styles: they are functions
 from strings to strings that map a component to a regexp to match
-against.  The variable `orderless-component-matching-styles' lists
-the matching styles to be used for components, by default it allows
+against.  The variable `orderless-matching-styles' lists the
+matching styles to be used for components, by default it allows
 regexp and initialism matching.

@@ -1,0 +1,2 @@
+
+(jammer . [(20200506 1247) nil "Punish yourself for using Emacs inefficiently" single ((:commit . "76e006dddd491aecccfcb06939db56f9f7daa56d") (:keywords "games") (:authors ("Vasilij Schneidermann" . "mail@vasilij.de")) (:maintainer "Vasilij Schneidermann" . "mail@vasilij.de") (:url . "https://depp.brause.cc/jammer"))])

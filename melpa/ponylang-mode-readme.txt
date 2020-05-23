@@ -1,9 +1,9 @@
 Description:
 
-This is a language mode for the Pony actor language
+This is a major mode for the Pony programming language
 
 For more details, see the project page at
-https://github.com/seantallen/ponylang-mode
+https://github.com/ponylang/ponylang-mode
 
 Installation:
 

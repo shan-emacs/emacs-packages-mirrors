@@ -1,2 +1,2 @@
 
-(restclient-helm . [(20170314 1554) ((restclient (0)) (helm (1 9 4))) "helm interface for restclient.el" single ((:commit . "e8ca809ace13549a1ddffb4e4aaa5d5fce750f3d") (:keywords "http" "helm") (:authors ("Pavel Kurnosov" . "pashky@gmail.com")) (:maintainer "Pavel Kurnosov" . "pashky@gmail.com"))])
+(restclient-helm . [(20170314 1554) ((restclient (0)) (helm (1 9 4))) "helm interface for restclient.el" single ((:commit . "ac8aad6c6b9e9d918062fa3c89c22c2f4ec48bc3") (:keywords "http" "helm") (:authors ("Pavel Kurnosov" . "pashky@gmail.com")) (:maintainer "Pavel Kurnosov" . "pashky@gmail.com"))])

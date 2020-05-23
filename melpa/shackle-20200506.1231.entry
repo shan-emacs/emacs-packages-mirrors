@@ -1,0 +1,2 @@
+
+(shackle . [(20200506 1231) ((cl-lib (0 5))) "Enforce rules for popups" single ((:commit . "4b81514191dd182a28a3e5b2fe3069264b6835fe") (:keywords "convenience") (:authors ("Vasilij Schneidermann" . "mail@vasilij.de")) (:maintainer "Vasilij Schneidermann" . "mail@vasilij.de") (:url . "https://depp.brause.cc/shackle"))])

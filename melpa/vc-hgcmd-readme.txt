@@ -33,7 +33,7 @@ STATE-CHANGING FUNCTIONS
 - mark-resolved (files)                         OK
 - find-admin-dir (file)                         NO is this .hg dir?
 HISTORY FUNCTIONS
-* print-log (files buffer &optional shortlog start-revision limit)  OK but graph log if shortlog
+* print-log (files buffer &optional shortlog start-revision limit)  OK
 * log-outgoing (backend remote-location)        OK
 * log-incoming (backend remote-location)        OK
 - log-search (buffer pattern)                   OK

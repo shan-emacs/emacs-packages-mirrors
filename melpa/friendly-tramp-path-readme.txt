@@ -1,5 +1,3 @@
- -----------
-
 More friendly (permissive) TRAMP path constructions for us humans.
 
 Provides function `friendly-tramp-path-disect` that is a drop-in replacement

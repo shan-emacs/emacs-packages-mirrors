@@ -1,7 +1,8 @@
  Setup:
   "Ctags" (Universal Ctags is recommended) should exist.
   "GNU Find" is used if it's installed but it's optional.
-  Or else, customize `counsel-etags-update-tags-backend' to generate tags file
+  Or else, customize `counsel-etags-update-tags-backend' to generate tags file.
+  Please note etags bundled with Emacs is not supported any more.
 
 Usage:
 
@@ -14,6 +15,9 @@ Usage:
      (setq imenu-create-index-function
            'counsel-etags-imenu-default-create-index-function)
 
+  Use `counsel-etags-imenu-excluded-names' to exclude tags by name.
+  Use `counsel-etags-imenu-excluded-types' to exclude tags by type
+
   `counsel-etags-scan-code' to create tags file
   `counsel-etags-grep' to grep
   `counsel-etags-grep-current-directory' to grep in current directory
@@ -21,8 +25,12 @@ Usage:
   `counsel-etags-find-tag' to two steps tag matching use regular expression and filter
   `counsel-etags-list-tag' to list all tags
   `counsel-etags-update-tags-force' to update current tags file by force
+  `counsel-etags-ignore-config-file' specifies paths of ignore configuration files
+  (".gitignore", ".hgignore", etc).  Path is either absolute or relative to the tags file.
+
 
 Tips:
+
 - Add below code into "~/.emacs" to AUTOMATICALLY update tags file:
 
   ;; Don't ask before reloading updated tags files

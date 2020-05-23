@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - prefixed-core</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - prefixed-core</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">prefixed-core</h2><dl><dt>Description</dt><dd></dd>
+<dd>This package has not been released yet.</dd>
+<dt>Browse repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/?h=externals/prefixed-core">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=shortlog;h=refs/heads/externals/prefixed-core">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">prefixed-core</span> RET</pre><h2>Full description</h2><pre>
+This library provids new names for old functions.
+
+Many core Lisp functions do not abide by the "package prefix convention"
+that Elisp packages are expected to follow, and instead use a naming
+that makes for names that sound closer to "plain English", typically
+using the form "VERB-NOUN" to focus on what the function does rather
+then what it operates on.
+
+In this library, we try to group functions based on their "subject"
+and make them share a common prefix.
+
+While this may seem like a futile and impossible endeavor (many functions
+can arguably be reasonably placed in several different groups), I think it
+can be sufficiently useful, that it is worth trying to get a bit closer to
+this impossible goal.
+
+Some of the expected benefits are:
+- Making some functionality more discoverable
+- Helping to write code using prefix-based completion.
+- Better match the tradition followed in pretty much all programming
+  languages (including Elisp, for non-core functions).
+</pre>
+</body>

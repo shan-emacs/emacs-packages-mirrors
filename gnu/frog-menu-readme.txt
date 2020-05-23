@@ -74,3 +74,46 @@ of (command . word) to be used by `flyspell-do-correct'."
 Afterwards calling =M-x flyspell-correct-wrapper= will prompt you with a
 =frog-menu=.
 
+And here is yet another example I use to navigate the menubar:
+
+#+begin_src elisp
+(require 'tmm)
+
+(defun tmm-init-km-list+ (menu)
+  (setq tmm-km-list nil)
+  (map-keymap (lambda (k v) (tmm-get-keymap (cons k v))) menu)
+  (setq tmm-km-list (nreverse tmm-km-list))
+  ;; filter unenabled items
+  (setq tmm-km-list
+        (cl-remove-if
+         (lambda (item)
+           (eq (cddr item) 'ignore)) tmm-km-list)))
+
+(defun frog-tmm-prompt (menu &optional entry)
+  "Adapted from `counsel-tmm-prompt'."
+  (let (out
+        choice
+        chosen-string)
+    (setq tmm-km-list (tmm-init-km-list+ menu))
+    (setq out (or entry (frog-menu-read "Menu: " (mapcar #'car tmm-km-list))))
+    (setq choice (cdr (assoc out tmm-km-list)))
+    (setq chosen-string (car choice))
+    (setq choice (cdr choice))
+    (cond ((keymapp choice)
+           (frog-tmm-prompt choice))
+          ((and choice chosen-string)
+           (setq last-command-event chosen-string)
+           (call-interactively choice)))))
+
+(defun frog-tmm (&optional entry)
+  "Adapted from `counsel-tmm'."
+  (interactive)
+  (run-hooks 'menu-bar-update-hook)
+  (setq tmm-table-undef nil)
+  (frog-tmm-prompt (tmm-get-keybind [menu-bar]) entry))
+
+(defun frog-tmm-mode ()
+  "Adapted from `counsel-tmm'."
+  (interactive)
+  (frog-tmm mode-name))
+#+end_src

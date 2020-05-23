@@ -1,16 +1,26 @@
-Add Swift support to Flycheck using Swift compiler frontend.
+A Swift backend for Flycheck with support for Xcode projects.
 
 Features:
 
-- Apple Swift 5 support.
-- Integration with Xcode projects.
-- The `xcrun` command support (only on macOS)
+- Apple Swift 5
 
-Usage:
+- Xcode projects
+  Flycheck-swiftx can parse Xcode projects and use the build settings for the project.
+  This means that complex projects, which may include various dependencies, can be
+  typechecked automatically with swiftc.
 
-See README.md
+- For non-Xcode projects provide your own configuration via `flycheck-swiftx-build-options` and `flycheck-swiftx-sources`.
 
-Debug:
+- `xcrun` command support (only on macOS)
 
-In flycheck.el:flycheck-start-command-checker, add:
-(when (equal checker 'swiftx) (message "%s %s" checker command))
+Installation:
+
+In your `init.el`
+
+(with-eval-after-load 'flycheck
+  (require 'flycheck-swiftx))
+
+or with `use-package`:
+
+(use-package flycheck-swiftx
+ :after flycheck)

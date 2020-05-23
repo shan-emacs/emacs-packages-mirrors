@@ -1,0 +1,2 @@
+
+(beeminder . [(20200518 1252) ((org (7))) "Emacs interface for Beeminder" tar ((:commit . "8526e3be252132005233cda52c7769d3c18ba796") (:keywords "beeminder") (:authors ("Phil Newton" . "phil@sodaware.net")) (:maintainer "Phil Newton" . "phil@sodaware.net") (:url . "http://www.philnewton.net/code/beeminder-el/"))])

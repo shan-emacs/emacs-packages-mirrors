@@ -1,5 +1,5 @@
-Elpher aims to provide a practical and friendly gopher client
-for GNU Emacs.  It supports:
+Elpher aims to provide a practical and friendly gopher and gemini
+client for GNU Emacs.  It supports:
 
 - intuitive keyboard and mouse-driven browsing,
 - out-of-the-box compatibility with evil-mode,
@@ -8,8 +8,9 @@ for GNU Emacs.  It supports:
 - pleasant and configurable colouring of Gopher directories,
 - direct visualisation of image files,
 - a simple bookmark management system,
-- connections using TLS encryption,
-- the fledgling Gemini protocol.
+- gopher connections using TLS encryption,
+- the fledgling Gemini protocol,
+- the greybeard Finger protocol.
 
 To launch Elpher, simply use 'M-x elpher'.  This will open a start
 page containing information on key bindings and suggested starting

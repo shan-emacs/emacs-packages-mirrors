@@ -1,2 +1,0 @@
-
-(space-theming . [(20200415 810) ((emacs (24))) "Easilly override theme faces" single ((:commit . "0a41a892180451d51095516e8ee2c9042be009c1") (:keywords "faces") (:url . "https://github.com/p3r7/space-theming"))])

@@ -1,2 +1,2 @@
 
-(magit-popup . [(20200306 223) ((emacs (24 4)) (dash (2 13 0))) "Define prefix-infix-suffix command combos" tar ((:commit . "f316a085b9f66804692554df46c0f4f536a45b78") (:keywords "bindings") (:authors ("Jonas Bernoulli" . "jonas@bernoul.li")) (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li") (:url . "https://github.com/magit/magit-popup"))])
+(magit-popup . [(20200306 223) ((emacs (24 4)) (dash (2 13 0))) "Define prefix-infix-suffix command combos" tar ((:commit . "b8e886c4f2242d6c58f84d4549af712e86360db1") (:keywords "bindings") (:authors ("Jonas Bernoulli" . "jonas@bernoul.li")) (:maintainer "Jonas Bernoulli" . "jonas@bernoul.li") (:url . "https://github.com/magit/magit-popup"))])

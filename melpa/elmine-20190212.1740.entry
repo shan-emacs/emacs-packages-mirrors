@@ -1,2 +1,0 @@
-
-(elmine . [(20190212 1740) ((s (1 10 0))) "Redmine API access via elisp." single ((:commit . "2f020e41940b182deeca39786a3092a2d68b5eb7") (:keywords "tools") (:authors ("Arthur Andersen" . "leoc.git@gmail.com")) (:maintainer "Arthur Andersen" . "leoc.git@gmail.com") (:url . "http://github.com/leoc/elmine"))])

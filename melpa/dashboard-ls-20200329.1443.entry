@@ -1,2 +1,0 @@
-
-(dashboard-ls . [(20200329 1443) ((emacs (24 3)) (dashboard (1 2 5)) (f (0 20 0)) (s (1 12 0))) "Display files/directories in current directory on Dashboard" single ((:commit . "9026fd157f94b023a7b660a418b66ad638b14272") (:authors ("Shen, Jen-Chieh" . "jcs090218@gmail.com")) (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com") (:url . "https://github.com/jcs090218/dashboard-ls"))])

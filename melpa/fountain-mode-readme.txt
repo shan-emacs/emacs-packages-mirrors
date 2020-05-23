@@ -33,29 +33,45 @@ functions and key-bindings, type C-h m.
 ## Exporting ##
 
 Earlier versions of Fountain Mode had export functionality, but this was
-never very good and there are several external tools available that better
-handle exporting:
+not very good and is better handled via interfacing with external shell
+tools, such as:
 
 - [afterwriting](https://github.com/ifrost/afterwriting-labs/blob/master/docs/clients.md) (JavaScript)
 - [Wrap](https://github.com/Wraparound/wrap) (Go)
 - [screenplain](https://github.com/vilcans/screenplain) (Python 2)
 - [Textplay](https://github.com/olivertaylor/Textplay) (Ruby, requires PrinceXML for PDF)
 
+The option fountain-export-command-profiles provides some shell
+commands to interface with these tools, but you are encouraged to edit
+or completely replace these to suit your own needs. The format is simple
+while still allowing for a lot of flexibility.
+
 ## Installation ##
 
 The latest stable release of Fountain Mode is available via
-[MELPA-stable] and can be installed with:
+[MELPA-stable]. First, add MELPA-stable to your package archives:
 
-    M-x package-install RET fountain-mode RET
+    M-x customize-option RET package-archives RET
 
-Alternately, download the [latest release], move this file into your
-load-path and add to your init.el file:
+Insert an entry named melpa-stable with the URL https://stable.melpa.org/packages/.
+
+You can then find the latest stable version of fountain-mode in the
+list returned by:
+
+    M-x list-packages RET
+
+If you prefer the latest but perhaps unstable version, do the above
+using [MELPA].
+
+## Advanced Installation ##
+
+Download the [latest release], move this file into your load-path and
+add to your init.el file:
 
     (require 'fountain-mode)
 
-If you prefer the latest but perhaps unstable version, install via
-[MELPA], or clone the repository into your load-path and require as
-above:
+If you wish to contribute to or alter Fountain Mode's code, clone the
+repository into your load-path and require as above:
 
     git clone https://github.com/rnkn/fountain-mode.git
 

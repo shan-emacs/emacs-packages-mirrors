@@ -1,2 +1,2 @@
 
-(toggle . [(20180316 3) ((cl-lib (0 5))) "quickly open corresponding file (eg test vs impl)." single ((:commit . "97e74ae74a15338d386027379139e3bf27acf2f2") (:keywords "files" "extensions" "convenience") (:authors ("Ryan Davis" . "ryand-ruby@zenspider.com")) (:maintainer "Ryan Davis" . "ryand-ruby@zenspider.com"))])
+(toggle . [(20180316 3) ((cl-lib (0 5))) "quickly open corresponding file (eg test vs impl)." single ((:commit . "eb3ec136f9dcc871eb7372dd7cd1445fa8407a60") (:keywords "files" "extensions" "convenience") (:authors ("Ryan Davis" . "ryand-ruby@zenspider.com")) (:maintainer "Ryan Davis" . "ryand-ruby@zenspider.com"))])

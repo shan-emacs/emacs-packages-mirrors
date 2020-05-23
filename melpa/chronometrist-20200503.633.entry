@@ -1,0 +1,2 @@
+
+(chronometrist . [(20200503 633) ((emacs (25 1)) (dash (2 16 0)) (seq (2 20)) (s (1 12 0))) "A time tracker with a nice interface" tar ((:commit . "16f2ca86540001b40725c4099d04154aab0a6ba5") (:keywords "calendar") (:authors ("contrapunctus" . "xmpp:contrapunctus@jabber.fr")) (:maintainer "contrapunctus" . "xmpp:contrapunctus@jabber.fr") (:url . "https://framagit.org/contrapunctus/chronometrist"))])

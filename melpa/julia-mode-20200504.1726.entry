@@ -1,0 +1,2 @@
+
+(julia-mode . [(20200504 1726) ((emacs (24 3))) "Major mode for editing Julia source code" tar ((:commit . "839726af374991223ffe56f7e7d10bef81033d09") (:keywords "languages") (:url . "https://github.com/JuliaEditorSupport/julia-emacs"))])

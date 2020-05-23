@@ -36,6 +36,7 @@ skip-syntax-backward.
 
     which returns a list of diagnostics.
 
+
 * Installation
 
   From GNU ELPA (https://elpa.gnu.org/packages/relint.html):
@@ -44,6 +45,7 @@ skip-syntax-backward.
 
   Relint requires the package xr (https://elpa.gnu.org/packages/xr.html);
   it will be installed automatically.
+
 
 * What the diagnostics mean
 
@@ -69,11 +71,17 @@ skip-syntax-backward.
     in order to include a literal backslash.
   
   - Repetition of repetition
+  - Repetition of option
+  - Optional repetition
+  - Optional option
   
     A repetition construct is applied to an expression that is already
-    repeated, such as a*+ (? counts as repetition here). Such
-    expressions can be written with a single repetition and often
-    indicate a different mistake, such as missing backslashes.
+    repeated, such as a*+ or \(x?\)?. These expressions can be written
+    with a single repetition and often indicate a different mistake,
+    perhaps a missing backslash.
+
+    When a repetition construct is ? or ??, it is termed 'option'
+    instead; the principle is the same.
 
   - Reversed range 'Y-X' matches nothing
 
@@ -122,6 +130,45 @@ skip-syntax-backward.
     so the a* could be removed without changing the meaning of the
     regexp.
 
+  - First/last item in repetition subsumes last/first item (wrapped)
+
+    The first and last items in a repeated sequence, being effectively
+    adjacent, match a superset or subset of each other, which makes
+    for an unexpected inefficiency. For example, \(?:a*c[ab]+\)* can
+    be seen as a*c[ab]+a*c[ab]+... where the [ab]+a* in the middle is
+    a slow way of writing [ab]+ which is made worse by the outer
+    repetition. The general remedy is to move the subsumed item out of
+    the repeated sequence, resulting in a*\(?:c[ab]+\)* in the example
+    above.
+
+  - End-of-line anchor followed by non-newline
+  - Non-newline followed by line-start anchor
+
+    A pattern that does not match a newline occurs right after an
+    end-of-line anchor ($) or before a line-start anchor (^).
+    This combination can never match.
+
+  - End-of-text anchor followed by non-empty pattern
+
+    A pattern that only matches a non-empty string occurs right after
+    an end-of-text anchor (\'). This combination can never match.
+
+  - Use \` instead of ^ in file-matching regexp
+  - Use \' instead of $ in file-matching regexp
+
+    In a regexp used for matching a file name, newlines are usually
+    not relevant. Line-start and line-end anchors should therefore
+    probably be replaced with string-start and string-end,
+    respectively. Otherwise, the regexp may fail for file names that
+    do contain newlines.
+
+  - Possibly unescaped '.' in file-matching regexp
+
+    In a regexp used for matching a file name, a naked dot is usually
+    more likely to be a mistake (missing escaping backslash) than an
+    actual intent to match any character except newline, since literal
+    dots are very common in file name patterns.
+
   - Uncounted repetition
 
     The construct A\{,\} repeats A zero or more times which was
@@ -145,12 +192,14 @@ skip-syntax-backward.
     intended as part of a range.
 
   - Repetition of zero-width assertion
+  - Optional zero-width assertion
 
     A repetition operator was applied to a zero-width assertion, like
     ^ or \<, which is completely pointless. The error may be a missing
     escaping backslash.
 
   - Repetition of expression matching an empty string
+  - Optional expression matching an empty string
 
     A repetition operator was applied to a sub-expression that could
     match the empty string; this is not necessarily wrong, but such
@@ -245,6 +294,7 @@ skip-syntax-backward.
     A string argument to skip-syntax-forward or skip-syntax-backward
     is empty or "^", neither of which makes sense.
 
+
 * Suppressing diagnostics
 
   While relint has been designed to avoid false positives, there may
@@ -254,18 +304,41 @@ skip-syntax-backward.
 
   To suppress such diagnostics, add a comment on the form
 
-    ;; relint suppression: MESSAGE
+    ;; relint suppression: REGEXP
 
-  on the line before the code where the error occurred. MESSAGE is a
-  substring of the message to be suppressed. Multiple suppression
+  on the line before the code where the error occurred. REGEXP
+  matches the message to be suppressed. Multiple suppression
   comment lines can precede a line of code to eliminate several
   complaints on the same line.
 
+
+* How it works
+
+  Relint uses a combination of ad-hoc rules to locate regexps:
+
+  - Arguments to standard functions taking regexps as arguments,
+    such as re-search-forward, or to user-defined functions
+    whose arguments have regexp-sounding names (like 'regexp')
+
+  - Values of variables believed to be a regexp from their name
+    (ending in '-regexp', for instance), from their doc string,
+    or from their type (for defcustom forms)
+
+  - Assignment to certain standard variables, such as page-delimiter
+
+  It will then try to evaluate expressions statically as far as
+  possible, to arrive at strings which can be analysed. The regexp
+  analysis is done by the xr library.
+
+  This means that if relint complains about something that isn't
+  actually a regexp, some names in your code may be misleading.
+
+
 * Bugs
 
-  The recognition of regexps is done by ad-hoc rules; the simplistic
-  method employed means that many errors will go undetected.
+  The simplistic method employed means that many errors will go
+  undetected, but false warnings are usually rare.
 
-  Still, if you believe that a flawed regexp could have been
-  discovered but wasn't, please report it as a bug. Reports of false
-  positives and crashes are of course equally welcome.
+  If you believe that an error could have been discovered but wasn't,
+  or that an unwarranted complaint could be avoided, please report it
+  as a bug.

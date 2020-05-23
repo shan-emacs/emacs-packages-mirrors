@@ -29,7 +29,7 @@ For a full restart take a look at `restart-emacs' package.
 Installation:
 
 (use-package iqa
-  ;; use this if your config is generated from org file
+  ;; use this if your config is generated from an org file
   ;; :custom
   ;; (iqa-user-init-file (concat user-emacs-directory "README.org") "Edit README.org by default.")
   :config

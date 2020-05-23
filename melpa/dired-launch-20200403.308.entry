@@ -1,2 +1,0 @@
-
-(dired-launch . [(20200403 308) nil "Use dired as a launcher" single ((:commit . "6e5d26ca859f7af624351ba2af6b1be83982053b") (:keywords "dired" "launch") (:authors ("David Thompson")) (:maintainer "David Thompson") (:url . "https://github.com/thomp/dired-launch"))])

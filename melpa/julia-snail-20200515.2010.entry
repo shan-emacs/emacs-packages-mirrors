@@ -1,0 +1,2 @@
+
+(julia-snail . [(20200515 2010) ((emacs (26 2)) (cl-lib (0 5)) (dash (2 16 0)) (julia-mode (0 3)) (s (1 12 0)) (parsec (0 1 3)) (spinner (1 7 3)) (vterm (0 0 1))) "Julia Snail" tar ((:commit . "c9aff5ffe6df951dd5343f05d6e4170203a7032a") (:url . "https://github.com/gcv/julia-snail"))])

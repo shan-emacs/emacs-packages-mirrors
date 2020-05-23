@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - xref</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - xref</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">xref</h2><dl><dt>Description</dt><dd>Cross-referencing commands</dd>
+<dt>Latest</dt> <dd><a href="xref-1.0.1.el">xref-1.0.1.el</a>, 2020-May-15, 54.4&nbsp;KiB</dd>
+<dt>Home page</dt> <dd><a href="http://elpa.gnu.org/packages/xref.html">http://elpa.gnu.org/packages/xref.html</a></dd>
+<dt>Browse repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs.git/tree/lisp/progmodes/xref.el">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs.git;a=blob;f=lisp/progmodes/xref.el">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">xref</span> RET</pre><h2>Full description</h2><pre>
+NOTE: The xref API is still experimental and can change in major,
+backward-incompatible ways.  Everyone is encouraged to try it, and
+report to us any problems or use cases we hadn't anticipated, by
+sending an email to emacs-devel, or `M-x report-emacs-bug'.
+
+This file provides a somewhat generic infrastructure for cross
+referencing commands, in particular "find-definition".
+
+Some part of the functionality must be implemented in a language
+dependent way and that's done by defining an xref backend.
+
+That consists of a constructor function, which should return a
+backend value, and a set of implementations for the generic
+functions:
+
+`xref-backend-identifier-at-point',
+`xref-backend-identifier-completion-table',
+`xref-backend-definitions', `xref-backend-references',
+`xref-backend-apropos', which see.
+
+A major mode would normally use `add-hook' to add the backend
+constructor to `xref-backend-functions'.
+
+The last three methods operate with "xref" and "location" values.
+
+One would usually call `make-xref' and `xref-make-file-location',
+`xref-make-buffer-location' or `xref-make-bogus-location' to create
+them.  More generally, a location must be an instance of an EIEIO
+class inheriting from `xref-location' and implementing
+`xref-location-group' and `xref-location-marker'.
+
+There's a special kind of xrefs we call "match xrefs", which
+correspond to search results.  For these values,
+`xref-match-length' must be defined, and `xref-location-marker'
+must return the beginning of the match.
+
+Each identifier must be represented as a string.  Implementers can
+use string properties to store additional information about the
+identifier, but they should keep in mind that values returned from
+`xref-backend-identifier-completion-table' should still be
+distinct, because the user can't see the properties when making the
+choice.
+
+See the etags and elisp-mode implementations for full examples.
+</pre>
+</body>

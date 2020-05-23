@@ -1,2 +1,0 @@
-
-(monokai-pro-theme . [(20200318 830) nil "A simple theme based on the Monokai Pro Sublime color schemes" single ((:commit . "90f34d48baad78a86f60eb3fae902c545bb82505") (:authors ("Kaleb Elwert" . "kaleb@coded.io")) (:maintainer "Kaleb Elwert" . "kaleb@coded.io") (:url . "https://github.com/belak/emacs-monokai-pro-theme"))])

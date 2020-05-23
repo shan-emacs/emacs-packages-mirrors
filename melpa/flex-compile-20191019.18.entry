@@ -1,2 +1,0 @@
-
-(flex-compile . [(20191019 18) ((emacs (26)) (dash (2 13 0)) (buffer-manage (0 8))) "Run, evaluate and compile for a many languages and modes." tar ((:commit . "df113f0b25ef73c5a246330ef9fa69ab936df174") (:keywords "compilation" "integration" "processes") (:authors ("Paul Landes")) (:maintainer "Paul Landes") (:url . "https://github.com/plandes/flex-compile"))])

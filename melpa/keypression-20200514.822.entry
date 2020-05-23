@@ -1,0 +1,2 @@
+
+(keypression . [(20200514 822) ((emacs (26 3))) "Keystroke visualizer" single ((:commit . "1e00bbdb451fd88bde9917526fd0b13b2a1bd26c") (:keywords "key" "screencast" "tools") (:authors ("chuntaro" . "chuntaro@sakura-games.jp")) (:maintainer "chuntaro" . "chuntaro@sakura-games.jp") (:url . "https://github.com/chuntaro/emacs-keypression"))])

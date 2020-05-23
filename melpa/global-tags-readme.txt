@@ -7,3 +7,9 @@ for xref
 (add-to-list 'xref-backend-functions 'global-tags-xref-backend)
 for project.el
 (add-to-list 'project-find-functions 'global-tags-try-project-root)
+to update database after save
+(add-hook 'c++-mode-hook (lambda ()
+                           (add-hook 'after-save-hook
+                                     #'global-tags-update-database-with-buffer
+                                     nil
+                                     t)))

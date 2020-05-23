@@ -6,8 +6,6 @@ switches, and then run jest using one of the actions.
 - jest (run all tests)
 - jest-file (current file)
 - jest-file-dwim (‘do what i mean’ for current file)
-- jest-function (current function)
-- jest-function-dwim (‘do what i mean’ for current function)
 - jest-last-failed (rerun previous failures)
 - jest-repeat (repeat last invocation)
 

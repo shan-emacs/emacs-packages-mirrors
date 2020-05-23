@@ -1,2 +1,0 @@
-
-(dr-racket-like-unicode . [(20161021 1211) ((emacs (24 1))) "DrRacket-style unicode input" single ((:commit . "a69e364532fffa451d1f12ade8fadb9cdbd8318c") (:keywords "i18n" "tools") (:authors ("David Christiansen" . "david@davidchristiansen.dk")) (:maintainer "David Christiansen" . "david@davidchristiansen.dk"))])

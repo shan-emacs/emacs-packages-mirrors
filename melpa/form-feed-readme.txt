@@ -6,5 +6,4 @@ it for Emacs Lisp files for instance:
 
     (add-hook 'emacs-lisp-mode-hook 'form-feed-mode)
 
-See the README for more info:
-https://github.com/wasamasa/form-feed
+See the README for more info: https://depp.brause.cc/form-feed

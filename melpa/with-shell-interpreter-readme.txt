@@ -1,5 +1,3 @@
- -----------
-
 Helper macro for Emacs shell command APIs, making implicit argument as explicit keyword arguments.
 Provides macro `with-shell-interpreter'.
 

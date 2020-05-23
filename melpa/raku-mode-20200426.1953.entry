@@ -1,2 +1,0 @@
-
-(raku-mode . [(20200426 1953) ((emacs (24 4)) (pkg-info (0 1))) "Major mode for editing Raku code" tar ((:commit . "44529c097f98723067f852c6496d91257978c1e2") (:keywords "languages") (:authors ("Hinrik Örn Sigurðsson" . "hinrik.sig@gmail.com")) (:maintainer "Hinrik Örn Sigurðsson" . "hinrik.sig@gmail.com") (:url . "https://github.com/hinrik/perl6-mode"))])

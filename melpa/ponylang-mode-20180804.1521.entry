@@ -1,2 +1,0 @@
-
-(ponylang-mode . [(20180804 1521) ((dash (2 10 0))) "Major mode for Pony code" single ((:commit . "ea98ba541b4a439accc126f17120c5425f741b67") (:keywords "languages" "programming") (:url . "https://github.com/seantallen/ponylang-mode"))])

@@ -1,0 +1,2 @@
+
+(rivet-mode . [(20200514 1617) ((emacs (24)) (web-mode (16))) "A minor mode for editing Apache Rivet files" single ((:commit . "9f2e6c4f777dbe306b715ab42663a6fc82a7e431") (:authors ("Jade Michael Thornton")) (:maintainer "Jade Michael Thornton") (:url . "https://gitlab.com/thornjad/rivet-mode"))])

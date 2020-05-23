@@ -1,1 +1,1 @@
-Emacs integration for PureScript's psc-ide tool
+Emacs integration for PureScript's IDE server

@@ -23,7 +23,7 @@
 
             <div class="container">
 <h2 class="package">xr</h2><dl><dt>Description</dt><dd>Convert string regexp to rx notation</dd>
-<dt>Latest</dt> <dd><a href="xr-1.18.tar">xr-1.18.tar</a>, 2020-Mar-09,  110&nbsp;KiB</dd>
+<dt>Latest</dt> <dd><a href="xr-1.19.tar">xr-1.19.tar</a>, 2020-May-03,  120&nbsp;KiB</dd>
 <dt>Home page</dt> <dd><a href="https://github.com/mattiase/xr">https://github.com/mattiase/xr</a></dd>
 <dt>Browse ELPA's repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/?h=externals/xr">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=shortlog;h=refs/heads/externals/xr">Gitweb</a></dd>
 </dl><p>To install this package, run in Emacs:</p>
@@ -98,6 +98,7 @@ The xr package can be used interactively or by other code as a library.
 
 </pre>
 <h2>Old versions</h2><table>
+<tr><td><a href="xr-1.18.tar">xr-1.18.tar</a></td><td>2020-Mar-09</td><td> 110&nbsp;KiB</td>
 <tr><td><a href="xr-1.17.tar">xr-1.17.tar</a></td><td>2020-Mar-05</td><td> 110&nbsp;KiB</td>
 <tr><td><a href="xr-1.16.tar">xr-1.16.tar</a></td><td>2020-Mar-01</td><td> 110&nbsp;KiB</td>
 <tr><td><a href="xr-1.15.tar">xr-1.15.tar</a></td><td>2020-Jan-31</td><td>90.0&nbsp;KiB</td>
@@ -117,6 +118,11 @@ The xr package can be used interactively or by other code as a library.
 <tr><td><a href="xr-1.0.el">xr-1.0.el</a></td><td>2019-Feb-05</td><td>27.7&nbsp;KiB</td>
 </table>
 <h2>News</h2><pre>
+Version 1.19:
+- Added filename-specific checks; new PURPOSE argument to `xr-lint'
+- Warn about wrapped subsumption, like \(A*C[AB]*\)+
+- Improved scope and accuracy of all subsumption checks
+- Warn about anchors in conflict with other expressions, like \(A$\)B
 Version 1.18:
 - Fix test broken in Emacs 26
 Version 1.17:

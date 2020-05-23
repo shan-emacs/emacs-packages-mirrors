@@ -10,6 +10,12 @@ The following variables are available for customization (see more via
 - Var `lua-indent-string-contents':
   set to `t` if you like to have contents of multiline strings to be
   indented like comments
+- Var `lua-indent-nested-block-content-align':
+  set to `nil' to stop aligning the content of nested blocks with the
+  open parenthesis
+- Var `lua-indent-close-paren-align':
+  set to `t' to align close parenthesis with the open parenthesis,
+  rather than with the beginning of the line
 - Var `lua-mode-hook':
   list of functions to execute when lua-mode is initialized
 - Var `lua-documentation-url':

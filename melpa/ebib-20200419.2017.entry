@@ -1,2 +1,0 @@
-
-(ebib . [(20200419 2017) ((parsebib (2 3)) (emacs (25 1))) "a BibTeX database manager" tar ((:commit . "87920ab793e6e854903eb101b80a0746f588dab6") (:keywords "text" "bibtex") (:authors ("Joost Kremers" . "joostkremers@fastmail.fm")) (:maintainer "Joost Kremers" . "joostkremers@fastmail.fm") (:url . "http://joostkremers.github.io/ebib/"))])

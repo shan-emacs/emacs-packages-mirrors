@@ -1,2 +1,2 @@
 
-(treemacs-magit . [(20200421 1426) ((emacs (25 2)) (treemacs (0 0)) (pfuture (1 3)) (magit (2 90 0))) "Magit integration for treemacs" single ((:commit . "78bdd7af13545bd0142d45aef1868e10cfb7ceb8") (:authors ("Alexander Miller" . "alexanderm@web.de")) (:maintainer "Alexander Miller" . "alexanderm@web.de") (:url . "https://github.com/Alexander-Miller/treemacs"))])
+(treemacs-magit . [(20200421 1426) ((emacs (25 2)) (treemacs (0 0)) (pfuture (1 3)) (magit (2 90 0))) "Magit integration for treemacs" single ((:commit . "1935108f683ac446e3d0add9467bc1adc4f744e7") (:authors ("Alexander Miller" . "alexanderm@web.de")) (:maintainer "Alexander Miller" . "alexanderm@web.de") (:url . "https://github.com/Alexander-Miller/treemacs"))])

@@ -1,2 +1,0 @@
-
-(soria-theme . [(20200429 941) ((emacs (25 1))) "A xoria256 theme with some colors from openSUSE" single ((:commit . "789f0a3474e6ad6c11e07f2c61d5994b2375bdba") (:keywords "faces") (:authors ("Miquel Sabaté Solà" . "mikisabate@gmail.com")) (:maintainer "Miquel Sabaté Solà" . "mikisabate@gmail.com") (:url . "https://github.com/mssola/soria"))])

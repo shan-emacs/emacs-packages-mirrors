@@ -37,8 +37,11 @@ overridden by `org-mime-export-options' when it is non-nil.
 
 Quick start:
 Write a message in message-mode, make sure the mail body follows
-org format. Before sending mail, run `M-x org-mime-htmlize' to convert the
-body to html, then send the mail as usual.
+org format. Run `org-mime-edit-mail-in-org-mode' to edit mail
+in a special edit with `org-mode'.
+Run `org-mime-htmlize' to convert the plain text mail to html mail.
+Run `org-mime-revert-to-plain-text-mail' if you want to restore to
+plain text mail.
 
 Setup (OPTIONAL):
 You might want to bind this to a key with something like the

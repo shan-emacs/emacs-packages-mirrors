@@ -1,4 +1,4 @@
-Emacs wisi package 3.0.1
+Emacs wisi package 3.1.0
 
 The wisi package provides utilities for using generalized
 error-correcting LR parsers (in external processes) to do indentation,

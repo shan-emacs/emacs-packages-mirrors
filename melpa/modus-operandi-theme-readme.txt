@@ -22,6 +22,7 @@ are disabled by default:
     modus-operandi-theme-distinct-org-blocks
     modus-operandi-theme-3d-modeline
     modus-operandi-theme-subtle-diffs
+    modus-operandi-theme-override-colors-alist
 
 The default scale is as follows (it can be customised as well):
 
@@ -29,6 +30,7 @@ The default scale is as follows (it can be customised as well):
     modus-operandi-theme-scale-2 1.1
     modus-operandi-theme-scale-3 1.15
     modus-operandi-theme-scale-4 1.2
+    modus-operandi-theme-scale-5 1.3
 
 What follows is the list of explicitly supported packages or face
 groups (there are implicitly supported packages as well, which
@@ -55,6 +57,7 @@ notify me of any missing package or change you would like to see.
     centaur-tabs
     change-log and log-view (`vc-print-log' and `vc-print-root-log')
     cider
+    circe
     color-rg
     column-enforce-mode
     company-mode
@@ -101,6 +104,7 @@ notify me of any missing package or change you would like to see.
     epa
     equake
     erc
+    eros
     ert
     eshell
     evil (evil-mode)
@@ -145,12 +149,14 @@ notify me of any missing package or change you would like to see.
     hl-line-mode
     hl-todo
     hydra
+    hyperlist
     ibuffer
     icomplete
     ido-mode
     iedit
     iflipb
     imenu-list
+    indium
     info
     info-colors
     interaction-log
@@ -174,6 +180,7 @@ notify me of any missing package or change you would like to see.
     markup-faces (`adoc-mode')
     mentor
     messages
+    minimap
     modeline
     mood-line
     mu4e
@@ -250,6 +257,7 @@ notify me of any missing package or change you would like to see.
     undo-tree
     vc (built-in mode line status for version control)
     vc-annotate (C-x v g)
+    vdiff
     vimish-fold
     visible-mark
     visual-regexp
@@ -269,4 +277,5 @@ notify me of any missing package or change you would like to see.
     xref
     xterm-color (and ansi-colors)
     yaml-mode
+    yasnippet
     ztree

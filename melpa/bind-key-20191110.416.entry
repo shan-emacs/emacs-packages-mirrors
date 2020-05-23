@@ -1,2 +1,2 @@
 
-(bind-key . [(20191110 416) nil "A simple way to manage personal keybindings" single ((:commit . "c873d5529c9c80cb58222f22873a4f081c307cb2") (:keywords "keys" "keybinding" "config" "dotemacs") (:authors ("John Wiegley" . "johnw@newartisans.com")) (:maintainer "John Wiegley" . "johnw@newartisans.com") (:url . "https://github.com/jwiegley/use-package"))])
+(bind-key . [(20191110 416) nil "A simple way to manage personal keybindings" single ((:commit . "d2640fec376a8458a669e7526e63e5870d875118") (:keywords "keys" "keybinding" "config" "dotemacs") (:authors ("John Wiegley" . "johnw@newartisans.com")) (:maintainer "John Wiegley" . "johnw@newartisans.com") (:url . "https://github.com/jwiegley/use-package"))])
