@@ -5,6 +5,7 @@
 ;; Author: Samuel W. Flint <swflint@flintfam.org>
 ;; Version: 0.5
 ;; Package-Version: 20170822.1438
+;; Package-Commit: 71391dc61063fee77ad174f3b2ca25c60b41009e
 ;; Keywords: convenience, extensions
 ;; URL: https://git.flintfam.org/swf-projects/emacs-i3
 ;; License: GNU General Public License version 3, or (at your option) any later version

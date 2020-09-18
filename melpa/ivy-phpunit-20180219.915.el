@@ -5,6 +5,7 @@
 ;; Author: 12pt
 ;; URL: https://github.com/12pt/ivy-phpunit
 ;; Package-Version: 20180219.915
+;; Package-Commit: ffedb0138d36564e8e36a28fd9bc71ea8944681f
 ;; Version: 0.0.1
 ;; Keywords: convenience tools ivy phpunit php
 ;; Package-Requires: ((ivy "0.10.0") (phpunit "0.7.0") (emacs "25"))

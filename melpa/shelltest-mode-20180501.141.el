@@ -5,6 +5,7 @@
 ;; Author: Dustin Fechner <dfe@rtrn.io>
 ;; URL: https://github.com/rtrn/shelltest-mode
 ;; Package-Version: 20180501.141
+;; Package-Commit: 5fea8c9394380e822971a171905b6b5ab9be812d
 ;; Version: 1.1
 ;; Created: 21 Dec 2014
 ;; Keywords: languages

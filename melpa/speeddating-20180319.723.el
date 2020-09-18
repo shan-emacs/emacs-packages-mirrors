@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/xuchunyang/emacs-speeddating
 ;; Package-Requires: ((emacs "25"))
 ;; Package-Version: 20180319.723
+;; Package-Commit: df69db0560f19636a66a74f3d88c793bbb18b21e
 ;; Compatibility: GNU Emacs 25
 ;; Keywords: date time
 ;; Created: Thu, 15 Mar 2018 15:17:39 +0800

@@ -6,6 +6,7 @@
 ;;         TAKAGI Kentaro <kentaro0910_at_gmail.com>
 ;; Version: 0.1
 ;; Package-Version: 20141212.1317
+;; Package-Commit: 43193960774069369ac6964bbf7c026900206fa8
 ;; Package-Requires: ((helm "1.5.9"))
 ;; Keywords: helm, git
 

@@ -3,6 +3,7 @@
 ;;; Author: Jason Milkins <jasonm23@gmail.com>
 ;;; Url: https://github.com/jasonm23/emacs-purple-haze-theme
 ;; Package-Version: 20141015.229
+;; Package-Commit: 3e245cbef7cd09e6b3ee124963e372a04e9a6485
 ;;; Version: 20140829.0951
 ;;; Package-Requires: ((emacs "24.0"))
 ;;

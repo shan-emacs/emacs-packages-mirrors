@@ -5,6 +5,7 @@
 ;; Author: J Irving <j@lollyshouse.ca>
 ;; URL: http://github.com/j0ni/phoenix-dark-mono
 ;; Package-Version: 20170729.1406
+;; Package-Commit: a54f515d162148bcb38676980bc2316adb3d7b8b
 ;; Version: 2
 
 ;; This file is free software; you can redistribute it and/or modify

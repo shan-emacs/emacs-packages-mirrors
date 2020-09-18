@@ -7,6 +7,7 @@
 ;; Created: 18 Nov 2010
 ;; Version: 0.1
 ;; Package-Version: 20101118.2124
+;; Package-Commit: bc3d2fd5c35580bf1b8af43b12484c95a343b4b5
 ;; Keywords: tools closure javascript lint flymake
 ;; Url: https://github.com/r0man/closure-lint-mode
 

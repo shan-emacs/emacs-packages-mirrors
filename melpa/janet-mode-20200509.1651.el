@@ -5,6 +5,7 @@
 ;; Author: Adam Schwalm <adamschwalm@gmail.com>
 ;; Version: 0.1.0
 ;; Package-Version: 20200509.1651
+;; Package-Commit: 2f5bcabcb6953e1ed1926ba6a2328c453e8b4ac7
 ;; URL: https://github.com/ALSchwalm/janet-mode
 ;; Package-Requires: ((emacs "24.3"))
 

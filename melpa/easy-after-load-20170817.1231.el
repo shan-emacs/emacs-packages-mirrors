@@ -5,6 +5,7 @@
 ;; Author: Kyle Hargraves
 ;; URL: https://github.com/pd/easy-after-load
 ;; Package-Version: 20170817.1231
+;; Package-Commit: 29e20145da49ac9ea40463c552130777408040de
 ;; Version: 0.1
 
 ;; This file is not part of GNU Emacs.

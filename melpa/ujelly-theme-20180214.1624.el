@@ -3,6 +3,7 @@
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
 ;; Package-Version: 20180214.1624
+;; Package-Commit: bf724ce7806a738d2043544061e5f9bbfc56e674
 ;; Version: 1.2.9
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.

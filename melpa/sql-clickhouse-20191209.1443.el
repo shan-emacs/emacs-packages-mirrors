@@ -2,6 +2,7 @@
 
 ;; Copyright (c) 2018 Robert Schwarz
 ;; Package-Requires: ((emacs "24"))
+;; Package-Commit: 8403a4a5d332dbb6459b7fbce6ea95c36d390a5b
 ;; Package-Version: 20191209.1443
 ;; Package-X-Original-Version: 0.1
 ;; Author: Robert Schwarz <mail@rschwarz.net>

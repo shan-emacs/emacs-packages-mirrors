@@ -5,6 +5,7 @@
 ;; Author: Junpeng Qiu <qjpchmail@gmail.com>
 ;; Package-Requires: ((evil "1.2.12") (pinyinlib "0.1.0"))
 ;; Package-Version: 20160514.2041
+;; Package-Commit: 04e277946d658f1a73c68dcbbadea9c21097a31c
 ;; Keywords: extensions
 
 ;; This program is free software; you can redistribute it and/or modify

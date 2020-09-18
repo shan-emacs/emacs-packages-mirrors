@@ -4,6 +4,7 @@
 ;; Author: yynozk <yynozk@gmail.com>
 ;; URL: https://github.com/yynozk/helm-z
 ;; Package-Version: 20171204.325
+;; Package-Commit: 37212220bebea8b9c238cb1bbacd8332b7f26c03
 ;; Version: 0.1
 ;; Package-Requires: ((helm "1.0"))
 

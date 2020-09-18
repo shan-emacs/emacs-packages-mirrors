@@ -3,6 +3,7 @@
 ;; Author: MaxSt
 ;; Version: 0.0.2
 ;; Package-Version: 20191114.1339
+;; Package-Commit: b8427b5c87948a183e2dd2b8920a54fbaae2738b
 ;; Package-Requires: ((emacs "24"))
 ;; URL: https://github.com/challenger-deep-theme/emacs
 

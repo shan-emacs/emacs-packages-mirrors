@@ -6,6 +6,7 @@
 ;; Created: 02 October 2003
 ;; URL: https://gitlab.com/stepnem/stripes-el
 ;; Package-Version: 20200330.2022
+;; Package-Commit: 7b1d501f44b697a0514ef6759fd126d65867f18d
 ;; Keywords: convenience faces
 ;; License: public domain
 ;; Version: 0.3.1.1

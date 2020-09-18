@@ -6,6 +6,7 @@
 ;; Created: Wed Jun 10 12:56:06 CST 2015
 ;; Version: 0.2
 ;; Package-Version: 20171106.400
+;; Package-Commit: de2abbf7ca13609587325bacd4a1ed4376b5c927
 ;; URL: https://github.com/xuchunyang/helm-fuzzy-find
 ;; Package-Requires: ((emacs "24.1") (helm "1.7.0"))
 ;; Keywords: helm fuzzy find file

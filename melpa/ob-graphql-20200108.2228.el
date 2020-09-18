@@ -5,6 +5,7 @@
 ;; Author: Jeremy Dormitzer <jeremy.dormitzer@gmail.com>
 ;; Version: 1.1
 ;; Package-Version: 20200108.2228
+;; Package-Commit: ced37c6761d69e1ff206ff0ebd633f0e4fd2ac54
 ;; Package-Requires: ((emacs "24.4") (graphql-mode "20191024.1221") (request "0.3.2"))
 ;; URL: https://github.com/jdormit/ob-graphql
 

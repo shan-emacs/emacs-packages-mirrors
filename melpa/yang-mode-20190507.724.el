@@ -18,6 +18,7 @@
 ;; Author: Martin Bjorklund <mbj4668@gmail.com>
 ;; Version: 0.9.9
 ;; Package-Version: 20190507.724
+;; Package-Commit: 4b4ab4d4a79d37d6c31c6ea7cccbc425e0b1eded
 
 ;;; Commentary:
 

@@ -5,6 +5,7 @@
 ;; Author: Scott Barnett <scott.n.barnett@gmail.com>
 ;; URL: https://github.com/ScottyB/edebug-x
 ;; Package-Version: 20130616.625
+;; Package-Commit: a2c2c42553d3bcbd5ac11898554865acbed1bc46
 ;; Keywords: extensions
 ;; Version: 1.2
 

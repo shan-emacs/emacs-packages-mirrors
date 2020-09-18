@@ -9,6 +9,7 @@
 ;; Created: 1 Dec 2008
 ;; Version: 1.5
 ;; Package-Version: 20160112.729
+;; Package-Commit: e8fd7643cccf2b6ea4170f0c5f1f87d007e7fa00
 ;; Package-Requires: ((http-post-simple "0") (cl-lib "0.5"))
 ;; Keywords: tumblr
 

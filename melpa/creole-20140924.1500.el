@@ -7,6 +7,7 @@
 ;; Created: 27th October 2011
 ;; Version: 1.0.6
 ;; Package-Version: 20140924.1500
+;; Package-Commit: 7d5cffe93857f6c75ca09ac79c0e47b8d4410e53
 ;; Package-requires: ((noflet "0.0.3")(kv "0.0.17"))
 ;; Keywords: lisp, creole, wiki
 

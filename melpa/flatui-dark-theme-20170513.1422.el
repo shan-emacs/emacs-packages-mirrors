@@ -5,6 +5,7 @@
 ;; Author: Andrew Phillips <theasp@gmail.com>
 ;; Keywords: color theme dark flatui faces
 ;; Package-Version: 20170513.1422
+;; Package-Commit: 5b959a9f743f891e4660b1b432086417947872ea
 ;; URL: https://github.com/theasp/flatui-dark-theme
 ;; Package-Requires: ((emacs "24"))
 

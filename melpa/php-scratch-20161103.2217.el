@@ -6,6 +6,7 @@
 
 ;; Package-Requires: ((emacs "24.3") (s "1.11.0") (php-mode "1.17.0"))
 ;; Package-Version: 20161103.2217
+;; Package-Commit: 3aa66d1d53b84b779374edff7a7e6b5f2cd7575d
 
 ;; This program is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

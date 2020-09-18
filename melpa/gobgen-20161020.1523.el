@@ -5,6 +5,7 @@
 ;; Author: Gergely Polonkai <gergely@polonkai.eu>
 ;; Keywords: gobject, glib, gtk, helper, utilities
 ;; Package-Version: 20161020.1523
+;; Package-Commit: ed2c2b0d217deae293096f3cf14aa492791ddd4f
 ;; Version: 0.0.1
 ;; Package-Requires: ((emacs "24.4"))
 

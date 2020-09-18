@@ -6,6 +6,7 @@
 ;; Homepage: http://github.com/rolandwalker/font-utils
 ;; URL: http://raw.githubusercontent.com/rolandwalker/font-utils/master/font-utils.el
 ;; Package-Version: 20150806.1751
+;; Package-Commit: 9192d3f8ee6a4e75f34c3fed10378674cc2b11d3
 ;; Version: 0.7.8
 ;; Last-Updated:  6 Aug 2015
 ;; EmacsWiki: FontUtils

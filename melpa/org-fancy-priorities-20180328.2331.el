@@ -6,6 +6,7 @@
 ;; Created: 5 Feb 2018
 ;; Version: 1.1
 ;; Package-Version: 20180328.2331
+;; Package-Commit: 819bb993b71e7253cefef7047306ab4e0f9d0a86
 ;; Keywords: convenience faces outlines
 ;; Homepage: https://github.com/harrybournis/org-fancy-priorities
 ;;

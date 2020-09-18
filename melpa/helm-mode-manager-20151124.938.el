@@ -5,6 +5,7 @@
 ;; Author: istib
 ;; URL: https://github.com/istib/helm-mode-manager
 ;; Package-Version: 20151124.938
+;; Package-Commit: 5d9c3ca4f8205d07ff4e03c4c3e88f596751c1fc
 ;; Version: 0.1
 ;; Package-Requires: ((helm "1.5.3"))
 ;; Keywords:

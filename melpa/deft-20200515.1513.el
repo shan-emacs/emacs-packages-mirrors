@@ -28,6 +28,7 @@
 
 ;;; Version: 0.8
 ;; Package-Version: 20200515.1513
+;; Package-Commit: fca9ea05ef4fdac825e2ad3921baa7042f6b82c8
 ;;; Author: Jason R. Blevins <jrblevin@xbeta.org>
 ;;; Keywords: plain text, notes, Simplenote, Notational Velocity
 ;;; URL: https://jblevins.org/projects/deft/

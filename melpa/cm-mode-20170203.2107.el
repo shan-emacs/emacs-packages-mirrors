@@ -7,6 +7,7 @@
 ;; Created: 14 Feb 2013
 ;; Version: 1.6
 ;; Package-Version: 20170203.2107
+;; Package-Commit: 276d49c859822265070ae5dfbb403fd7d8d06436
 ;; Keywords: text, markdown
 ;; Package-Requires: ((cl-lib "0.5"))
 

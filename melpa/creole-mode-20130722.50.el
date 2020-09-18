@@ -6,6 +6,7 @@
 ;; Maintainer: Nic Ferrier <nferrier@ferrier.me.uk>
 ;; Keywords: hypermedia, wp
 ;; Package-Version: 20130722.50
+;; Package-Commit: b5e79b2ec5f19fb5aacf689b5febc3e0b61515c4
 ;; Version: 0.0.5
 ;; URL: https://github.com/nicferrier/creole-mode
 

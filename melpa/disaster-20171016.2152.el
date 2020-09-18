@@ -6,6 +6,7 @@
 ;; Created: 2013-03-02
 ;; Version: 0.1
 ;; Package-Version: 20171016.2152
+;; Package-Commit: 10a785facc60d89d78e0d5177985ab1af1741bb4
 ;; Keywords: tools
 ;; URL: https://github.com/jart/disaster
 

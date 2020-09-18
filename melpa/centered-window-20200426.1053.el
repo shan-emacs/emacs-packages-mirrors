@@ -3,6 +3,7 @@
 ;; Author: Anler Hernández Peral <inbox+emacs@anler.me>
 ;; Version: 1.4.0
 ;; Package-Version: 20200426.1053
+;; Package-Commit: f50859941ab5c7cbeaee410f2d38716252b552ac
 ;; Contributors:
 ;;    Mickael Kerjean <https://github.com/mickael-kerjean>
 ;;    Pierre Lecocq   <https://github.com/pierre-lecocq>

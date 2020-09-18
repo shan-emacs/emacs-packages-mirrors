@@ -3,6 +3,7 @@
 ;; Author: Sebastian Nagel<sebastian.nagel@ncoding.at>
 ;; Maintainer: tastytea <tastytea@tastytea.de>
 ;; URL: https://github.com/ch1bo/flycheck-clang-tidy
+;; Package-Commit: 2ae5542960785604a2974548f89e10407e2ccfc1
 ;; Keywords: convenience languages tools
 ;; Package-Version: 20191030.814
 ;; Package-X-Original-Version: 0.3.0

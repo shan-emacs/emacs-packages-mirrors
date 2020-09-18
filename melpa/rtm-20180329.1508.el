@@ -8,6 +8,7 @@
 ;; Created: Oct 18 2009
 ;; Version: 0.1
 ;; Package-Version: 20180329.1508
+;; Package-Commit: 3e3d09387cb84801343ecca8fb02e82f213e7bbe
 ;; Package-Requires: ((cl-lib "1.0"))
 ;; Keywords: remember the milk productivity todo
 ;; URL: https://github.com/pmiddend/emacs-rtm

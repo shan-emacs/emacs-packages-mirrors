@@ -3,6 +3,7 @@
 ;; Author: Frank Fischer <frank-fischer at shadow-soft.de>
 ;; Keywords: tex, wp
 ;; Package-Version: 20190316.2215
+;; Package-Commit: f15ed781b1fb38bf3e46c481dd602c3999920b99
 ;; Version: 1.4.0
 ;; URL: http://hub.darcs.net/lyro/tex-smart-umlauts
 

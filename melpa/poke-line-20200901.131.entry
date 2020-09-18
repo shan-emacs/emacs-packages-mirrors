@@ -1,0 +1,2 @@
+
+(poke-line . [(20200901 131) ((emacs (24 3))) "Minor mode to show position in a buffer using a Pokemon" tar ((:commit . "b002693c6cb3ac681de4b6049f90fdd1c685aaad") (:keywords "pokemon" "fun" "mode-line" "mouse") (:authors ("Ryan Miller" . "ryan@devopsmachine.com")) (:maintainer "Ryan Miller" . "ryan@devopsmachine.com") (:url . "https://github.com/RyanMillerC/poke-line/"))])

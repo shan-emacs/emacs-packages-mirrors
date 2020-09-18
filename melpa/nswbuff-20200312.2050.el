@@ -10,6 +10,7 @@
 ;; Maintainer: Joost Kremers <joostkremers@fastmail.fm>
 ;; Created: 18 May 2017
 ;; Keywords: extensions convenience
+;; Package-Commit: a601855cc96e303e38051d0d1af3402721dbb969
 ;; Package-Version: 20200312.2050
 ;; Package-X-Original-Version: 1.1
 ;; Package-Requires: ((emacs "25.1"))

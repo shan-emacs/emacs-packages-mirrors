@@ -5,6 +5,7 @@
 ;; Author: Jim Myhrberg <contact@jimeh.me>
 ;; Version: 0.1.1
 ;; Package-Version: 20130419.2129
+;; Package-Commit: bb9f9d4ef7f7872a388ec4eee1253069adcadb6f
 ;; Keywords: themes
 ;; URL: https://github.com/jimeh/birds-of-paradise-plus-theme.el
 ;;

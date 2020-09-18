@@ -5,6 +5,7 @@
 ;; Author: Rudi Schlatte <rudi@constantly.at>
 ;; URL: https://github.com/abstools/abs-mode
 ;; Package-Version: 20200220.1701
+;; Package-Commit: 2db38537e9c481c38477997467bc98ee00607d7a
 ;; Version: 1.5
 ;; Package-Requires: ((emacs "25") (erlang "0") (maude-mode "0") (flymake "0.3"))
 ;; Keywords: languages

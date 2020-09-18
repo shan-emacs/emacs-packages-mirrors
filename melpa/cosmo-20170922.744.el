@@ -6,6 +6,7 @@
 ;; Created: 22 April 2017
 ;; Version: 0.1
 ;; Package-Version: 20170922.744
+;; Package-Commit: dd83b09a49a2843606b28279b674b2207040b36b
 ;; Package-Requires: ((emacs "24.4"))
 ;; Keywords: tools
 ;; URL: https://gitlab.com/montanari/cosmo-el

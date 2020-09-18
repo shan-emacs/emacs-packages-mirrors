@@ -5,6 +5,7 @@
 ;; Author: Nicolas Petton <petton.nicolas@gmail.com>
 ;; Keywords: js2-refactor discover
 ;; Package-Version: 20140129.1552
+;; Package-Commit: 3812abf61f39f3e73a9f3daefa6fed4f21a429ba
 ;; Package: discover-js2-refactor
 ;; Package-Requires: ((js2-refactor "20131221.501") (discover "20140103.1339"))
 

@@ -3,6 +3,7 @@
 ;; Author: Kata <lightquake@amateurtopologist.com
 ;; Keywords: wp, languages, comm
 ;; Package-Version: 20131208.724
+;; Package-Commit: 7362b955e556a3d007fa06945a27e5b99349527d
 ;; URL: https://github.com/lightquake/hamlet-mode
 ;; Version: 0.1
 ;; Package-Requires: ((cl-lib "0.3") (dash "2.3.0") (s "1.7.0"))

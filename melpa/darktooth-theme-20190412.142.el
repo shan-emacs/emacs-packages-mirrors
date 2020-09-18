@@ -5,6 +5,7 @@
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
 ;; Package-Version: 20190412.142
+;; Package-Commit: 5cc7fbfb08d2f1a33b85eac92b6450407b915119
 ;; Version: 0.3.10
 
 ;; Package-Requires: ((autothemer "0.2"))

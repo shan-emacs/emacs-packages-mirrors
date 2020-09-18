@@ -6,6 +6,7 @@
 ;; Created: 2016-05-05
 ;; Version: 0.1
 ;; Package-Version: 20200211.721
+;; Package-Commit: f8a4ef0be086f97e7fb631df7060f29cc4025b98
 ;; Keywords: convenience, quiet, distraction, network, detachment, offline
 ;; URL: https://github.com/zzkt/quiet
 

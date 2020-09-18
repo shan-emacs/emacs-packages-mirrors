@@ -66,6 +66,7 @@
 ;; Author: Yauhen Makei <yauhen.makei@gmail.com>
 ;; Version: 1.0.0
 ;; Package-Version: 20190102.1343
+;; Package-Commit: 35a18273e19edc3b4c761030ffbd11116483b83e
 ;; URL: http://bitbucket.org/EugeneMakei/belarus-holidays.el
 
 ;;; Code:

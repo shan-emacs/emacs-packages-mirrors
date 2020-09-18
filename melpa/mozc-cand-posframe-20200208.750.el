@@ -3,6 +3,7 @@
 ;; Author: Akira Komamura <akira.komamura@gmail.com>
 ;; Version: 0.1
 ;; Package-Version: 20200208.750
+;; Package-Commit: 1d07d5055381008ccbb29b97315d140e09a7ee95
 ;; Package-Requires: ((emacs "26.1") (posframe "0.5.0") (mozc "20180101.800") (s "1.12"))
 ;; Keywords: i18n, tooltip
 ;; URL: https://github.com/akirak/mozc-posframe

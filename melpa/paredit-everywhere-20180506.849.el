@@ -5,6 +5,7 @@
 ;; Author: Steve Purcell <steve@sanityinc.com>
 ;; Keywords: languages, convenience
 ;; Package-Version: 20180506.849
+;; Package-Commit: f04c522e6b088a11255a95cb1e6a08198b4d6537
 ;; Version: DEV
 ;; Package-Requires: ((paredit "22"))
 

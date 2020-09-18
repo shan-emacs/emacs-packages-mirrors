@@ -7,6 +7,7 @@
 ;; Created: 2001-01-23
 ;; Version: 1.5
 ;; Package-Version: 20151122.1610
+;; Package-Commit: d04d8fa814b5d3644efaeb28f25520ada69acbbd
 ;; CVS ID: $Id: wwtime.el,v 1.1 2002/10/07 13:04:49 ndw Exp $
 ;; Keywords: time
 

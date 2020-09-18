@@ -5,6 +5,7 @@
 ;; Author: Nic Ferrier <nferrier@ferrier.me.uk>
 ;; Keywords: frames
 ;; Package-Version: 20131017.2132
+;; Package-Commit: f2dbf5d2513b2bc45f2085370a55c1754b6025da
 ;; URL: http://github.com/nicferrier/emacs-framesize
 ;; Package-Requires: ((key-chord "0.5.20080915"))
 ;; Version: 0.0.5

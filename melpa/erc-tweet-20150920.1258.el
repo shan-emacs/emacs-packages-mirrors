@@ -5,6 +5,7 @@
 ;; Author: Raimon Grau <raimonster@gmail.com>
 ;; Version: 0.9
 ;; Package-Version: 20150920.1258
+;; Package-Commit: 91fed61e139fa788d66a7358f0d50acc896414b8
 ;; Keywords: extensions
 
 ;; This program is free software; you can redistribute it and/or modify

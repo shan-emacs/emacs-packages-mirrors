@@ -5,6 +5,7 @@
 ;; Author: Syohei YOSHIDA <syohex@gmail.com>
 ;; URL: https://github.com/syohex/emacs-helm-open-github
 ;; Package-Version: 20170220.159
+;; Package-Commit: 2f03d97552a1233db7694116d5f80ecde7612756
 ;; Version: 0.15
 ;; Package-Requires: ((emacs "24.4") (helm-core "1.7.7") (gh "0.8.2"))
 

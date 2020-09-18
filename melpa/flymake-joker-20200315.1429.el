@@ -6,6 +6,7 @@
 ;; Created: 12 February 2019
 ;; Version: 0.0.2
 ;; Package-Version: 20200315.1429
+;; Package-Commit: fc132beedac9e6f415b72e578e77318fd13af9ee
 ;; Package-Requires: ((emacs "26.1") (flymake-quickdef "0.1.1"))
 ;; URL: https://github.com/beetleman/flymake-joker
 

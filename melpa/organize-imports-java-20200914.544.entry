@@ -1,0 +1,2 @@
+
+(organize-imports-java . [(20200914 544) ((emacs (25 1)) (f (0 20 0)) (s (1 12 0)) (dash (2 14 1))) "Automatically organize imports in Java code" tar ((:commit . "fcccc23b9c96127ac9b8ca0014b6c80acea83946") (:authors ("Shen, Jen-Chieh" . "jcs090218@gmail.com")) (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com") (:url . "https://github.com/jcs-elpa/organize-imports-java"))])

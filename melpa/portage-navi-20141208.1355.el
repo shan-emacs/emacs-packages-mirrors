@@ -5,6 +5,7 @@
 ;; Author:  <m.sakurai at kiwanami.net>
 ;; Keywords: tools, gentoo
 ;; Package-Version: 20141208.1355
+;; Package-Commit: 8016c3e99fe6cef101d479a3d69185796b22ca2f
 ;; Package-Requires: ((concurrent "0.3.1") (ctable "0.1.2"))
 ;; URL: https://github.com/kiwanami/emacs-portage-navi
 

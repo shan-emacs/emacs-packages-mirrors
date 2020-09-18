@@ -3,6 +3,7 @@
 ;; Author: Martin Haesler
 ;; URL: http://github.com/mswift42/soft-morning-theme
 ;; Package-Version: 20150918.2041
+;; Package-Commit: c0f9c70c97ef2be2a093cf839c4bfe27740a111c
 ;; Version: 0.2
 
 ;; Emacs24 theme with a light background.

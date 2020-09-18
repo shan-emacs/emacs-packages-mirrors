@@ -5,6 +5,7 @@
 ;; Author: Christopher Wellons <mosquitopsu@gmail.com>
 ;; URL: https://github.com/skeeto/elisp-fakespace
 ;; Package-Version: 20120818.6
+;; Package-Commit: d1bd1f4b14b2690d7a67f9a52622ec51ed84813a
 ;; Version: 1.0
 
 ;;; Commentary:

@@ -12,6 +12,7 @@
 ;; Maintainer (1.2-1.3): Simon Michael <simon@joyful.com>
 ;; Version: 1.3
 ;; Package-Version: 20190316.2215
+;; Package-Commit: 6a8b690539d133c5e3d17cb23fe4365fbb6fb493
 ;; Location: http://joyful.com/repos/darcsum
 ;; Keywords: completion convenience tools vc
 

@@ -6,6 +6,7 @@
 
 ;; Keywords: lisp, highlight, convenience
 ;; Package-Version: 20140311.1041
+;; Package-Commit: 3a24b7d4bca13e87c987a4ddd212da914ff59191
 ;; Package-Requires: ((highlight "0.0.0") (smartparens "0.0.0") (thingatpt "0.0.0"))
 
 ;; This program is free software; you can redistribute it and/or modify

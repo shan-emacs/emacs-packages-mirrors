@@ -6,6 +6,7 @@
 ;; Created: 2 Jul 2016
 ;; Version: 0.0.1
 ;; Package-Version: 20180914.815
+;; Package-Commit: 429773a3c551691a463ecfddd634b8bae2f48503
 ;; Keywords: convinience
 ;; Homepage: https://github.com/cs14095/ciel.el
 ;; Package-Requires: ((emacs "24"))

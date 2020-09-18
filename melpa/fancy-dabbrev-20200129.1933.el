@@ -5,6 +5,7 @@
 ;; Author: Joel Rosdahl <joel@rosdahl.net>
 ;; Version: 1.1
 ;; Package-Version: 20200129.1933
+;; Package-Commit: 158e1e54055cafe5da9122a59519e8b3ed1057cf
 ;; License: BSD-3-clause
 ;; Package-Requires: ((emacs "24") (popup "0.5.3"))
 ;; URL: https://github.com/jrosdahl/fancy-dabbrev

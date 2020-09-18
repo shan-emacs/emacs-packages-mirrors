@@ -6,6 +6,7 @@
 ;; Package: ivy-purpose
 ;; Version: 0.1
 ;; Package-Version: 20160724.1003
+;; Package-Commit: 0495f2f3aed64d7e0028125e76a9a68f8fc4107e
 ;; Homepage: https://github.com/bmag/ivy-purpose
 ;; Package-Requires: ((emacs "24") (ivy "0.8") (window-purpose "1.5"))
 

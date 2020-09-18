@@ -5,6 +5,7 @@
 ;; Author: Philip Woods <elzairthesorcerer@gmail.com>
 ;; Version: 0.8
 ;; Package-Version: 20141120.2031
+;; Package-Commit: e09e5dd37bc92289fa2f7dc44aed51a7b5e04bb0
 ;; Keywords: reminder, calendar
 ;; URL: https://gitlab.com/elzair/punctuality-logger
 

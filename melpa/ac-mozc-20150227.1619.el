@@ -5,6 +5,7 @@
 ;; Author: igjit <igjit1@gmail.com>
 ;; URL: https://github.com/igjit/ac-mozc
 ;; Package-Version: 20150227.1619
+;; Package-Commit: 4c6c8be4701010d9362184437c0f783e0335c631
 ;; Version: 0.0.4
 ;; Package-Requires: ((cl-lib "0.5") (auto-complete "1.4") (mozc "0"))
 

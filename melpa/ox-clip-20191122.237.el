@@ -5,6 +5,7 @@
 ;; Author: John Kitchin <jkitchin@andrew.cmu.edu>
 ;; URL: https://github.com/jkitchin/ox-clip
 ;; Package-Version: 20191122.237
+;; Package-Commit: f5eac28734ea33d0b7a3dbe10b777907a91cf9f9
 ;; Version: 0.3
 ;; Keywords: org-mode
 ;; Package-Requires: ((org "8.2") (htmlize "0"))

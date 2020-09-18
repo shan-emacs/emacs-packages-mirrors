@@ -5,6 +5,7 @@
 ;; Author: Oleksandr Manzyuk <manzyuk@gmail.com>
 ;; Version: 0.1
 ;; Package-Version: 20131117.1711
+;; Package-Commit: 6fe401c7f996bcbc2f685e7971324c6f5e5eaf15
 ;; Keywords: comm convenience processes
 ;; Package-Requires: ((bert "0.1"))
 

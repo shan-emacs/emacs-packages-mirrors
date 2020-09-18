@@ -5,6 +5,7 @@
 ;; Author: Leo Liu <sdl.web@gmail.com>
 ;; Version: 0.9.4
 ;; Package-Version: 20181114.2330
+;; Package-Commit: 2a6309d98aa6b71df6bbbcdf15cab3187c521a6b
 ;; Package-Type: simple
 ;; Package-Requires: ((emacs "24") (cl-lib "0.5"))
 ;; Keywords: killing, convenience

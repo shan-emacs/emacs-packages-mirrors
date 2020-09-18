@@ -5,6 +5,7 @@
 ;; Author: Uriel G Maldonado <uriel781@gmail.com>
 ;; Keywords: color theme smyx
 ;; Package-Version: 20141127.828
+;; Package-Commit: 6263f6b401bbabaed388c8efcfc0be2e58c51401
 ;; Version: 0.10
 
 ;; This file is free software; you can redistribute it and/or modify

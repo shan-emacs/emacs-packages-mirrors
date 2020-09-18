@@ -5,6 +5,7 @@
 ;; Author: Andrey Fainer <fandrey@gmx.com>
 ;; Version: 1.2
 ;; Package-Version: 20160419.2109
+;; Package-Commit: 5437b4221b64b238c273a651d4792c577dba6d45
 ;; Keywords: files
 ;; URL: https://github.com/afainer/arview
 ;; Compatibility: Emacs24, Emacs23

@@ -4,6 +4,7 @@
 
 ;; Version: 1.0
 ;; Package-Version: 20190728.1325
+;; Package-Commit: db69114ff1af8bf48b5a222242e3a8dd6e101e67
 ;; Package-Requires: ((emacs "24.3") (helm "1.5") (bbdb "3.1.2"))
 ;; URL: https://github.com/emacs-helm/helm-bbdb
 

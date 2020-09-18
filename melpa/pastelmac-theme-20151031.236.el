@@ -3,6 +3,7 @@
 ;; Author: Brian Mastenbrook <brian@mastenbrook.net>
 ;; Keywords: themes
 ;; Package-Version: 20151031.236
+;; Package-Commit: bead21741e3f46f6506e8aef4469d4240a819389
 ;; URL: https://github.com/bmastenbrook/pastelmac-theme-el
 ;; Version: 1.0
 ;; Package-Requires: ((emacs "24.1"))

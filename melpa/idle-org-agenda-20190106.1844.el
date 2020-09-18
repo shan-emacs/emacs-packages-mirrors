@@ -8,6 +8,7 @@
 ;; Modified: 24 Dec 2018
 ;; Version: 1.0
 ;; Package-Version: 20190106.1844
+;; Package-Commit: 8e6052fc4923c30132052d67d794b76c92851c20
 ;; Keywords: org, org-mode, org-agenda, calendar
 ;; URL: https://github.com/enisozgen/idle-org-agenda
 

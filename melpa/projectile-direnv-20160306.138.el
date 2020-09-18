@@ -5,6 +5,7 @@
 ;; Author: Christian Romney <crommney@pointslope.com>
 ;; URL: https://github.com/christianromney/projectile-direnv
 ;; Package-Version: 20160306.138
+;; Package-Commit: d5d29e5228f840b7a25358a2fd50353ef2dc9b16
 ;; Keywords: convenience
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "24") (s "1.11.0") (dash "2.12.0") (projectile "0.13.0"))

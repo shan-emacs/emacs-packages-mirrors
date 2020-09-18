@@ -6,6 +6,7 @@
 ;; Created: 9 Mar 2012
 ;; Version: 1.0
 ;; Package-Version: 20190802.1308
+;; Package-Commit: 442637194d48a7105b7747b8d98772f5899f9e21
 ;; Keywords: pastebin lodgeit
 ;; X-URL: https://github.com/ionrock/lodgeit-el
 

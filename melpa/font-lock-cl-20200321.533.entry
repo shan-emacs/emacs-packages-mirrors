@@ -1,2 +1,0 @@
-
-(font-lock-cl . [(20200321 533) ((emacs (24 5))) "Pretty Common Lisp font locking" single ((:commit . "9f82d31f9f0fb06bbc2ce18e21e79d1eabbe6c5e") (:keywords "lisp" "wp" "files" "convenience") (:authors ("Yue Daian")) (:maintainer "Spenser Truex" . "web@spensertruex.com") (:url . "https://github.com/font-lock-cl/font-lock-cl"))])

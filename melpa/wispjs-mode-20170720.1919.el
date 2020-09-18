@@ -8,6 +8,7 @@
 ;; Author: Kris Jenkins
 ;; URL: https://github.com/krisajenkins/wispjs-mode
 ;; Package-Version: 20170720.1919
+;; Package-Commit: 60f9f5fd9d1556e2d008939f67eb1b1d0f325fa8
 ;; Created: 18th April 2013
 ;; Version: 0.2.0
 ;; Package-Requires: ((clojure-mode "0"))

@@ -5,6 +5,7 @@
 ;; Author: Oleh Krehel <ohwoeowho@gmail.com>
 ;; URL: https://github.com/abo-abo/elf-mode
 ;; Package-Version: 20161009.748
+;; Package-Commit: cd280d683cd3341d8bb31af6db7e3b74a133e6ab
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "24.3"))
 ;; Keywords: matching

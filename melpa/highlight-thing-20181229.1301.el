@@ -5,6 +5,7 @@
 ;; Author: Felix Geller <fgeller@gmail.com>
 ;; Keywords: highlight thing symbol
 ;; Package-Version: 20181229.1301
+;; Package-Commit: 561d08a26f78f18d405d4f371f1c813db094e2f3
 ;; URL: https://github.com/fgeller/highlight-thing.el
 
 ;; This file is not part of GNU Emacs.

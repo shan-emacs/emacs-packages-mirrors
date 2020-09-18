@@ -5,6 +5,7 @@
 ;; Author: DarkSun <lujun9972@gmail.com>
 ;; Created: 2015-12-27
 ;; Version: 0.2
+;; Package-Commit: 8ba7ecd7ac624f33b3e2395f477bbff4f1ec4efe
 ;; Package-Version: 20180625.619
 ;; Package-X-Original-Version: 20160905.2215
 ;; Keywords: convenience, eww, org

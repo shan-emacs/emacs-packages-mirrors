@@ -5,6 +5,7 @@
 ;; Author: Morten Slot Kristensen <msk AT nullpointer DOT dk>
 ;; Keywords: describe value help
 ;; Package-Version: 20151101.55
+;; Package-Commit: 40618345a37831804b29589849a785ef5aa5ac24
 ;; URL: https://github.com/netromdk/describe-number
 ;; Version: 0.3.1
 ;; Package-Requires: ((yabin "1.1"))

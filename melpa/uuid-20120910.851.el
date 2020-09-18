@@ -6,6 +6,7 @@
 ;; Maintainer: Nic Ferrier <nferrier@ferrier.me.uk>
 ;; Keywords: lisp
 ;; Package-Version: 20120910.851
+;; Package-Commit: 1519bfeb0e31602b840bc8dd35d7c7e732c159fe
 ;; Created: 5th September 2008
 ;; Version: 0.0.3
 

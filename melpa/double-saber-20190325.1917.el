@@ -3,6 +3,7 @@
 ;; Author: Daniel Ting <deep.paren.12@gmail.com>
 ;; URL: https://github.com/dp12/double-saber.git
 ;; Package-Version: 20190325.1917
+;; Package-Commit: b61df3561ea9bed1848cf69b6bb53f7fdf6916dc
 ;; Version: 0.0.3
 ;; Package-Requires: ((emacs "24.4"))
 ;; Keywords: double-saber, narrow, delete, sort, tools, convenience, matching

@@ -4,6 +4,7 @@
 ;; Created 28 November 2015
 ;; Version: 0.1.2
 ;; Package-Version: 20160803.1557
+;; Package-Commit: aae4b8cb22fd6c24d2c9e3962c7e8e9dac6d9825
 ;; Package-Requires: ()
 
 ;; Keywords: ghq

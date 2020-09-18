@@ -8,6 +8,7 @@
 ;; Adapted-By: Hasan Veldstra
 ;; Version: 1.0
 ;; Package-Version: 20160801.1911
+;; Package-Commit: 4d0c73b7dcbde8b483d4f3a75c49c74d2fe3ca45
 ;; URL: https://github.com/hassy/http-twiddle/blob/master/http-twiddle.el
 ;; Keywords: HTTP, REST, SOAP
 

@@ -5,6 +5,7 @@
 ;; Author: ZHOU Feng <zf.pascal@gmail.com>
 ;; URL: http://github.com/zweifisch/foreman-mode
 ;; Package-Version: 20170725.1422
+;; Package-Commit: 22b3bb13134b617870ed1e888af739f4818be929
 ;; Keywords: foreman
 ;; Version: 0.0.1
 ;; Created: 17th Apr 2015

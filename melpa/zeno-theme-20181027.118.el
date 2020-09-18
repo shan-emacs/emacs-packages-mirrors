@@ -5,6 +5,7 @@
 ;; Author: Bharat Joshi <jbharat@outlook.com>
 ;; Maintainer: Bharat Joshi <jbharat@outlook.com>
 ;; URL: https://github.com/jbharat/zeno-theme
+;; Package-Commit: 0914c4a5b1b9499e7f1ca5699b1c3ea2f4be3f1a
 ;; Package-Version: 20181027.118
 ;; Package-X-Original-Version: 20180211.1557
 ;; Created: 22th July 2017

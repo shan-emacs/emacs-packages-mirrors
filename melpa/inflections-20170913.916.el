@@ -5,6 +5,7 @@
 ;; Author: Dmitry Galinsky, Howard Yeh
 ;; URL: https://github.com/eschulte/jump.el
 ;; Package-Version: 20170913.916
+;; Package-Commit: e4f1372cf22e811faca52fc86bdd5d817498a4d8
 ;; Package-Requires: ((cl-lib "0.5") (emacs "24"))
 ;; Version: 1.1
 ;; Created: 2007-11-02

@@ -1,2 +1,0 @@
-
-(org-time-budgets . [(20151111 801) ((alert (0 5 10)) (cl-lib (0 5))) "Define time budgets and display clocked time." single ((:commit . "1e81ea29af1ccc7b4ddb42fe4e3fbfc0adf891b0") (:authors ("Arthur Leonard Andersen" . "leoc.git@gmail.com")) (:maintainer "Arthur Leonard Andersen" . "leoc.git@gmail.com"))])

@@ -6,6 +6,7 @@
 ;; Created:  2 Feb 1998
 ;; Version:  0.2
 ;; Package-Version: 20200226.47
+;; Package-Commit: 675df47193accaf30ca44e142523b2b3bb122979
 ;; Keywords: bison-mode, yacc-mode
 
 ;; This program is free software; you can redistribute it and/or modify

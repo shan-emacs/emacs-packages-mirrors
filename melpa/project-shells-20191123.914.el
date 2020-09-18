@@ -5,6 +5,7 @@
 ;; Author: "Huang, Ying" <huang.ying.caritas@gmail.com>
 ;; Maintainer: "Huang, Ying" <huang.ying.caritas@gmail.com>
 ;; URL: https://github.com/hying-caritas/project-shells
+;; Package-Commit: 5aea9ee0de93f2568afb3f18bb7b43a9715a9a2d
 ;; Version: 20170311
 ;; Package-Version: 20191123.914
 ;; Package-X-Original-Version: 20171107.851

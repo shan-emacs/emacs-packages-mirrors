@@ -5,6 +5,7 @@
 ;; Author: Henrik Nyman <h@nyymanni.com>
 ;; URL: https://github.com/nyyManni/jiralib2
 ;; Package-Version: 20200520.2031
+;; Package-Commit: c21c4e759eff549dbda11099f2f680b78d7f5a01
 ;; Keywords: comm, jira, rest, api
 ;; Version: 1.0
 ;; Package-Requires: ((emacs "25") (request "0.3") (dash "2.14.1"))

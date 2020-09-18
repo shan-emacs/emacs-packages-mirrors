@@ -2,6 +2,7 @@
 ;; Author: Nick Parker
 ;; Version: 1.0.0
 ;; Package-Version: 20120312.2025
+;; Package-Commit: 64e44c98e41ebbe3b827d54280e3b9615787daaa
 ;; 
 ;; Ported theme to Emacs 24 color theme Nick Parker <nickp@developernotes.com>
 ;; original from Will Farrington <wcfarrington@gmail.com>

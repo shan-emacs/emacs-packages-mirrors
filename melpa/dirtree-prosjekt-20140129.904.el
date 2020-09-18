@@ -4,6 +4,7 @@
 ;; Author: Austin Bingham <austin.bingham@gmail.com>
 ;; Version: 0.1
 ;; Package-Version: 20140129.904
+;; Package-Commit: a864a8be5842223043702395f311e3350c28e9db
 ;; URL: https://github.com/abingham/prosjekt
 ;; Package-Requires: ((prosjekt "0.3") (dirtree "0.01"))
 

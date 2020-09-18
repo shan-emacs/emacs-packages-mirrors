@@ -7,6 +7,7 @@
 ;; Created: 12 Aug 2015
 ;; Version: 0.1.4
 ;; Package-Version: 20160202.1924
+;; Package-Commit: 37a20e4c56c6058abf186ad4013c155e695e876f
 
 ;; Homepage: http://github.com/blorbx/evil-quickscope
 ;; Keywords: faces, emulation, vim, evil

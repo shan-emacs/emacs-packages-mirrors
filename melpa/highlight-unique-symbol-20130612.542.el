@@ -5,6 +5,7 @@
 ;; Author: hitode909 <hitode909@gmail.com>
 ;; Version: 0.1
 ;; Package-Version: 20130612.542
+;; Package-Commit: 4141bf86a94e30d94d9af9c29d40b16886226e1c
 ;; URL: https://github.com/hitode909/emacs-highlight-unique-symbol
 ;; Package-Requires: ((deferred "0.3.2"))
 

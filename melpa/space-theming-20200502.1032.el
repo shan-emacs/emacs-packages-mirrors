@@ -4,6 +4,7 @@
 ;;
 ;; Version: 0.1.0
 ;; Package-Version: 20200502.1032
+;; Package-Commit: 31dca6954df643255175f7df68a86892aa3c71a7
 ;; Keywords: faces
 ;; URL: https://github.com/p3r7/space-theming
 ;; Package-Requires: ((emacs "24"))

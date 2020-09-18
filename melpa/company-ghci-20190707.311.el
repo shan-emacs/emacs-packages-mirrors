@@ -2,6 +2,7 @@
 
 ;; Author: Hector Orellana <hofm92@gmail.com>
 ;; Package-Requires: ((company "0.8.11") (haskell-mode "13"))
+;; Package-Commit: a1d25652583ab4666c5a78cac18cd8039776b50d
 ;; Package-Version: 20190707.311
 ;; Package-X-Original-Version: 0.03
 

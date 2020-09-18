@@ -1,0 +1,2 @@
+
+(vala-mode . [(20200909 2058) nil "Vala mode derived mode" single ((:commit . "6eeae8a631697ff087123ee43e313ff01015bdef") (:keywords "vala" "languages" "oop") (:authors ("2005 Dylan R. E. Moonfire") ("       2008 Étienne BERSAC")) (:maintainer "Étienne BERSAC" . "bersace03@laposte.net"))])

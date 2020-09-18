@@ -1,2 +1,0 @@
-
-(angular-mode . [(20200510 1729) nil "Major mode for Angular.js" tar ((:commit . "b24020768217f16b1b86aa236e9729b3d40e17b3") (:keywords "languages" "javascript") (:authors ("Rudolf Olah")) (:maintainer "Rudolf Olah") (:url . "https://github.com/rudolfolah/angularjs-mode"))])

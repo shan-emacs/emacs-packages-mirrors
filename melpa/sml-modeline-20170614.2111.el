@@ -4,6 +4,7 @@
 ;; Created: 2010-03-16 Tue
 ;; Version: 0.5
 ;; Package-Version: 20170614.2111
+;; Package-Commit: d2f9f70174c4cf68c67eb3bb8088235735e34d9a
 ;; Last-Updated: 2010-03-18 Thu
 ;; URL: http://bazaar.launchpad.net/~nxhtml/nxhtml/main/annotate/head%3A/util/sml-modeline.el
 ;; Keywords:

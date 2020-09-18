@@ -7,6 +7,7 @@
 ;; Created: April 13, 2016
 ;; Version: 0.0.9
 ;; Package-Version: 20170830.1929
+;; Package-Commit: db62a2d148482317794727982576494596365a55
 ;; Keywords: Euslisp, euslisp, GitHub
 ;; URL: https://github.com/iory/euslisp-mode
 ;; Package-Requires: ((emacs "24.3") (s "1.9") (exec-path-from-shell "0") (helm-ag "0.58"))

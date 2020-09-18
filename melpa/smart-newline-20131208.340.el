@@ -5,6 +5,7 @@
 ;; Author: Satoshi Namai
 ;; Version: 0.0.1
 ;; Package-Version: 20131208.340
+;; Package-Commit: 0553a9e4be7188352de1a28f2eddfd28e7436f94
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

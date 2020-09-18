@@ -6,6 +6,7 @@
 ;; Created: 18 Jun 2013
 ;; Keywords: convenience
 ;; Package-Version: 20191002.1133
+;; Package-Commit: 1bdb99e433acd38685f05408562746cfbf2bc820
 ;; Version: 0.1
 ;; URL: https://github.com/remvee/alsamixer-el
 

@@ -7,6 +7,7 @@
 ;; Author: jamiecollinson <jamiecollinson@gmail.com>
 ;; Version: 0.1
 ;; Package-Version: 20181128.1738
+;; Package-Commit: 60aa47c7a930377807da0d601351ad91e8ca446a
 ;; Package-Requires: ((emacs "24"))
 ;; URL: https://github.com/jamiecollinson/emacs-panda-theme
 

@@ -6,6 +6,7 @@
 ;; Contributors: Joe Snikeris, Mike Fisher, Göktuğ Kayaalp
 ;; URL: https://github.com/hadronzoo/theme-changer
 ;; Package-Version: 20171221.1927
+;; Package-Commit: 61945695a30d678e6a5d47cbe7c8aff59a8c30ea
 ;; Created: 20 Jun 2011
 ;; Version: 2.1.0
 ;; Keywords: color-theme, deftheme, solar, sunrise, sunset

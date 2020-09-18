@@ -5,6 +5,7 @@
 ;; Author: Zhang Kai Yu <yeannylam@gmail.com>
 ;; Keywords: tab, editing
 ;; Package-Version: 20151006.130
+;; Package-Commit: 1c3fec1826d2891177ea78e4e7cce1dc67e83e51
 ;; Package-Requires: ((dash "2.10") (emacs "24.4"))
 
 ;; This program is free software; you can redistribute it and/or modify

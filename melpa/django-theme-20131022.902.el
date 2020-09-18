@@ -5,6 +5,7 @@
 ;; Author: Andrzej Sliwa
 ;; URL: http://github/anrzejsliwa/django-theme
 ;; Package-Version: 20131022.902
+;; Package-Commit: 86c8142b3eb1addd94a43aa6f1d98dab06401af0
 ;; Version: 1.4.0
 ;;
 ;; This file is free software: you can redistribute it and/or modify

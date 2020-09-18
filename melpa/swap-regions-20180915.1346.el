@@ -5,6 +5,7 @@
 ;; Author: Xu Chunyang <mail@xuchunyang.me>
 ;; Keywords: convenience
 ;; Package-Version: 20180915.1346
+;; Package-Commit: f4fd9880cf690e003fcde88dcf2b46adbbbb03cd
 ;; Homepage: https://github.com/xuchunyang/swap-regions.el
 ;; Package-Requires: ((emacs "24.3"))
 ;; Version: 0

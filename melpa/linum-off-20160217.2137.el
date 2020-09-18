@@ -7,6 +7,7 @@
 ;; Created: Mon Sep 20 08:50:07 2010 (-0500)
 ;; Version: 0.1
 ;; Package-Version: 20160217.2137
+;; Package-Commit: 116e66ac259b183e0763b85616888316ab196822
 ;; Last-Updated: Wed Jul 27 01:45:27 2011 (+0900)
 ;;           By: Nos
 ;;     Update #: 43

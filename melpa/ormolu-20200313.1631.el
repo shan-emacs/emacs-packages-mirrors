@@ -4,6 +4,7 @@
 ;; Maintainer: Vasiliy Yorkin
 ;; Version: 0.2.0-snapshot
 ;; Package-Version: 20200313.1631
+;; Package-Commit: 3141f9b65f8a68b4cbd6df4e08c64d98ce3aa3c9
 ;; URL: https://github.com/vyorkin/ormolu.el
 ;; Keywords: files, tools
 ;; Package-Requires: ((emacs "24") (reformatter "0.4"))

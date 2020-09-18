@@ -4,6 +4,7 @@
 
 ;; Version: 0.1
 ;; Package-Version: 20200120.2253
+;; Package-Commit: 1a2c3a4c3e4196f2b5dbb145b01b4bc435a93a96
 ;; Author: Paul Landes
 ;; Maintainer: Paul Landes
 ;; Keywords: markdown changelog files

@@ -4,6 +4,7 @@
 ;; Author: Jay Kamat <jaygkamat@gmail.com>
 ;; Version: 0.3.0
 ;; Package-Version: 20180608.605
+;; Package-Commit: 1692b9003d2c3de403251ec452c6ce43ec819c84
 ;; Keywords: alda, highlight
 ;; URL: http://gitlab.com/jgkamat/alda-mode
 ;; Package-Requires: ((emacs "24.0"))

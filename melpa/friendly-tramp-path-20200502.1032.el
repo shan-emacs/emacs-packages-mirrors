@@ -4,6 +4,7 @@
 ;;
 ;; Version: 0.1.0
 ;; Package-Version: 20200502.1032
+;; Package-Commit: be572b8953b9e5a3a35c30bb64c2936d3e9802ba
 ;; URL: https://github.com/p3r7/prf-tramp
 ;; Package-Requires: ((cl-lib "0.6.1"))
 ;;

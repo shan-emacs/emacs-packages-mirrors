@@ -6,6 +6,7 @@
 ;; Maintainer: Alex Bennée <alex@bennee.com>
 ;; Version: 0.3
 ;; Package-Version: 20130614.1025
+;; Package-Commit: a11b61effa90bd0abc876d12573674d36fc17f0c
 ;; URL: https://github.com/stsquad/emacs-mark-tools
 
 ;; This file is not part of GNU Emacs.

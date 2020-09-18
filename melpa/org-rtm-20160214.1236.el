@@ -4,6 +4,7 @@
 ;; Created: 15 Jan 2016
 ;; Version: 0.1
 ;; Package-Version: 20160214.1236
+;; Package-Commit: adc42ad1fbe92ab447ccc9553780f4456f2508d2
 ;; Package-Requires: ((rtm "0.1"))
 ;; Keywords: outlines, data
 ;; Homepage: https://github.com/pmiddend/org-rtm

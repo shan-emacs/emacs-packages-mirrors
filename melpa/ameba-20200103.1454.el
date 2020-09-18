@@ -4,6 +4,7 @@
 ;; Author: Vitalii Elenhaupt
 ;; URL: https://github.com/crystal-ameba/ameba.el
 ;; Package-Version: 20200103.1454
+;; Package-Commit: 0c4925ae0e998818326adcb47ed27ddf9761c7dc
 ;; Keywords: convenience
 ;; Version: 0
 ;; Package-Requires: ((emacs "24.4"))

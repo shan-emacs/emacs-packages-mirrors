@@ -6,6 +6,7 @@
 ;; Created: Wed Apr 13 01:00:05 2016
 ;; Keywords: dictionary, hypermedia
 ;; Package-Version: 20200201.55
+;; Package-Commit: 475e2a92795dbed1aa3b1c5eba2c6c779cac4508
 ;; Package-Requires: ((emacs "24") (cl-lib "0.5"))
 ;; Version: 0.4.10
 (defconst multitran-version "0.4.10")

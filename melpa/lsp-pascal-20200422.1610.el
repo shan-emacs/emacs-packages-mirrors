@@ -5,6 +5,7 @@
 ;; Author: Arjan Adriaanse <arjan@adriaan.se>
 ;; Version: 0.1
 ;; Package-Version: 20200422.1610
+;; Package-Commit: b132bdf66748e4abe0d4140f6d061b1ccd56082a
 ;; Package-Requires: ((emacs "24.4") (lsp-mode "6.3"))
 ;; Keywords: languages, tools
 ;; URL: https://github.com/arjanadriaanse/lsp-pascal

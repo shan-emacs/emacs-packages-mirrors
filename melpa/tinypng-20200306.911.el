@@ -7,6 +7,7 @@
 ;; Created: 2019-06-10T11:46:05+08:00
 ;; Package-Requires: ((emacs "25.1"))
 ;; Package-Version: 20200306.911
+;; Package-Commit: f7632e073ce13ef5ce30ae5584cb482a8bb9ffff
 ;; Version: 0
 ;; Keywords: multimedia
 

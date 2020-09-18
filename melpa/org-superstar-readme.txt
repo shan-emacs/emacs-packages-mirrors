@@ -9,7 +9,11 @@
     from vision
   + applying a custom face to the header bullet
   + applying a custom face to the leading bullets
-  + using double-bullets for inline tasks (see org-inlinetask.el)
+  + making inline tasks (see org-inlinetask.el) more fancy by:
+    - using double-bullets for inline tasks
+    - applying a custom face to the marker star of inline tasks
+    - using a special bullet for the marker star
+    - introducing an independent face for marker stars
   + (optional) using special bullets for TODO keywords
 * Prettifying org plain list bullets by:
   + replacing each bullet type (*, + and -) with UTF-8 bullets
@@ -21,7 +25,7 @@ popular package "org-bullets", created by sabof.  It was made with
 the goal of inheriting features the author liked about org-bullets
 while being able to introduce compatibility-breaking changes to it.
 It is largely rewritten, to the point of almost no function being
-identical to it's org-bullets counterpart.
+identical to its org-bullets counterpart.
 
 This package is versioned using (the author's understanding of)
 semantic versioning: "<major>.<minor>.<patch>".

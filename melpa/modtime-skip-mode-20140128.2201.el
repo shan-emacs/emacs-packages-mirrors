@@ -6,6 +6,7 @@
 ;; Created: Tue Jul 23 21:05:04 2013 (-0400)
 ;; Version: 0.9.2
 ;; Package-Version: 20140128.2201
+;; Package-Commit: c0e49523aa26b2263a8693691ac775988015f592
 ;; Last-Updated: Tue Jan 28 16:57:36 2014 (-0500)
 ;;           By: jordon.biondo
 ;;     Update #: 3

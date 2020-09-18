@@ -5,6 +5,7 @@
 ;; Author: Mark A. Hershberger <mah@everybody.org>
 ;; Version: 0.0.1
 ;; Package-Version: 20160822.58
+;; Package-Commit: eb198656f63cb8679fb0e3a8248782df071a0f3c
 ;; Created: 2016-08-13
 ;; URL: http://github.com/hexmode/holiday-pascha-etc
 ;; Last Modified: <2016-08-21 20:57:06 mah>

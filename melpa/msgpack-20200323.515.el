@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/xuchunyang/msgpack.el
 ;; Package-Requires: ((emacs "25.1"))
 ;; Package-Version: 20200323.515
+;; Package-Commit: 90e3086f259549b1667a3c5b9aa2d70aaeaa4d3d
 ;; Keywords: lisp
 ;; Version: 0
 

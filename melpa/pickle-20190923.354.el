@@ -6,6 +6,7 @@
 ;; Maintainer: Matthew Carter <m@ahungry.com>
 ;; URL: https://github.com/ahungry/pickle-mode
 ;; Package-Version: 20190923.354
+;; Package-Commit: 3a0a717f2a24827667f34bc53830a3b81cd57460
 ;; Version: 0.0.3
 ;; Date: 2018-02-15
 ;; Keywords: ahungry languages cucumber gherkin

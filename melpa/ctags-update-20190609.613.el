@@ -3,6 +3,7 @@
 ;; Created: 2011-10-16 13:17
 ;; Version: 1.1
 ;; Package-Version: 20190609.613
+;; Package-Commit: 67faf248b92388442958a069263c62a345425a1b
 ;; Author: Joseph(纪秀峰)  jixiuf@gmail.com
 ;; Keywords: exuberant-ctags etags
 ;; URL: https://github.com/jixiuf/ctags-update

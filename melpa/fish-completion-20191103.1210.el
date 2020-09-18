@@ -6,6 +6,7 @@
 ;; Homepage: https://gitlab.com/Ambrevar/emacs-fish-completion
 ;; Version: 1.2
 ;; Package-Version: 20191103.1210
+;; Package-Commit: 10384881817b5ae38cf6197a077a663420090d2c
 ;; Package-Requires: ((emacs "25.1"))
 
 ;; This file is free software; you can redistribute it and/or modify

@@ -3,6 +3,7 @@
 ;; Author: Philip K. <philip@warpmail.net>
 ;; Version: 0.3.1
 ;; Package-Version: 20200521.1352
+;; Package-Commit: 16581d94a1e32677091f3721506a48177cc49e68
 ;; Keywords: comm
 ;; Package-Requires: ((emacs "24.1"))
 ;; URL: https://git.sr.ht/~zge/nullpointer-emacs

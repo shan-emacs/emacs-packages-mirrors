@@ -6,6 +6,7 @@
 ;; Created: 8 May 2016
 ;; Version: 0.3.0
 ;; Package-Version: 20190528.1832
+;; Package-Commit: 4b1a2cd2b3eaea2393d3696a36da8f42e386c23d
 ;; Package-Requires: ((emacs "24.3") (cl-lib "0.5") (popup "0.5") (ordinal "0.0.1"))
 ;; Keywords: mouse menu rightclick
 ;; Homepage: https://github.com/zonuexe/right-click-context

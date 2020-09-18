@@ -22,6 +22,7 @@
 ;; Author: Nick Anderson <nick@cmdln.org>
 ;; Keywords: tools, convenience
 ;; Package-Version: 20191011.1721
+;; Package-Commit: 195ba4694a0ec18d3fb89342e8e0988b382a5b1a
 ;; URL: https://github.com/nickanderson/ob-cfengine3
 ;; Version: 0.0.7
 

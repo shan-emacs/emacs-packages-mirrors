@@ -10,6 +10,7 @@
 ;; Author: John Foerch <jjfoerch@earthlink.net>
 ;; Keywords: marking color faces
 ;; Package-Version: 20150624.450
+;; Package-Commit: a584db9bc88953b23a9648b3e14ade90767207f8
 ;; URL: https://gitlab.com/iankelling/visible-mark
 ;; Created: 2008-02-21
 

@@ -6,6 +6,7 @@
 ;; Package-Version: 20180131.434
 ;; Package-X-Original-Version: 0.0.1
 ;; Package-Requires: ((emacs "24.4") (helm "1.9.2") (with-editor "2.5.0"))
+;; Package-Commit: 96f5cd3ee3412539c2f8d145201f47c4f8e53b4f
 ;; Keywords: convenience
 
 ;; This program is free software; you can redistribute it and/or modify

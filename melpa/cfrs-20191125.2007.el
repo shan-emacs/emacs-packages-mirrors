@@ -4,6 +4,7 @@
 
 ;; Author: Alexander Miller <alexanderm@web.de>
 ;; Package-Requires: ((emacs "25.2") (dash "2.11.0") (s "1.10.0") (posframe "0.4.3"))
+;; Package-Commit: fc5effdc25a926eada4936e5506dcccdf3902137
 ;; Package-Version: 20191125.2007
 ;; Package-X-Original-Version: 1.3.1
 ;; Homepage: https://github.com/Alexander-Miller/cfrs

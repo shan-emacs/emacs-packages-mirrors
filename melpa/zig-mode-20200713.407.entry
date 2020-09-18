@@ -1,0 +1,2 @@
+
+(zig-mode . [(20200713 407) ((emacs (24 3))) "A major mode for the Zig programming language" single ((:commit . "d88580913586b8749ed0ac3ae228e825a68f9412") (:keywords "zig" "languages") (:authors ("Andrea Orru <andreaorru1991@gmail.com>, Andrew Kelley" . "superjoe30@gmail.com")) (:maintainer "Andrea Orru <andreaorru1991@gmail.com>, Andrew Kelley" . "superjoe30@gmail.com") (:url . "https://github.com/zig-lang/zig-mode"))])

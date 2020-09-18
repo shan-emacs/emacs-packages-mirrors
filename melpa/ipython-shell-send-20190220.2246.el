@@ -5,6 +5,7 @@
 ;; Author: Jack Kamm <jackkamm@gmail.com>
 ;; Version: 1.1.1
 ;; Package-Version: 20190220.2246
+;; Package-Commit: 0faed86faff02a361f23ce5fc923d0e9b09bb2da
 ;; Package-Requires: ((emacs "24"))
 ;; Keywords: tools, processes
 ;; URL: https://github.com/jackkamm/ipython-shell-send-el

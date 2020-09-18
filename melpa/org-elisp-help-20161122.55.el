@@ -5,6 +5,7 @@
 ;; Author: Jonas Bernoulli <jonas@bernoul.li>
 ;; Package-Requires: ((cl-lib "0.5") (org "9.0"))
 ;; Package-Version: 20161122.55
+;; Package-Commit: 3e33ab1a2933dd7f2782ef91d667a37f12d633ab
 ;; Homepage: https://github.com/tarsius/org-elisp-help
 ;; Keywords: org, remember, lisp
 

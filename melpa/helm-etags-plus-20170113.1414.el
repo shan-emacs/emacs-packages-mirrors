@@ -4,6 +4,7 @@
 ;; Last Updated: 纪秀峰 2014-07-27 16:56:24
 ;; Version: 1.1
 ;; Package-Version: 20170113.1414
+;; Package-Commit: 704f0991ee4a2298b01c33aafc224eef322e15e3
 ;; Author: 纪秀峰(Joseph) <jixiuf@gmail.com>
 ;; Copyright (C) 2015, 纪秀峰(Joseph), all rights reserved.
 ;; URL       :https://github.com/jixiuf/helm-etags-plus

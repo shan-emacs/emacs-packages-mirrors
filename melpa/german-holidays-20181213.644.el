@@ -3,6 +3,7 @@
 ;; Author: Sebastian Christ <rudolfo.christ@gmail.com>
 ;; URL: https://github.com/rudolfochrist/german-holidays
 ;; Package-Version: 20181213.644
+;; Package-Commit: a8462dffccaf2b665f2032e646b5370e993a386a
 ;; Version: 0.2.1
 
 ;; This file is not part of GNU Emacs

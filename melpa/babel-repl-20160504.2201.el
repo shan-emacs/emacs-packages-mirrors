@@ -5,6 +5,7 @@
 ;; Author: Hung Phan
 ;; Version: See `babel-repl-version'
 ;; Package-Version: 20160504.2201
+;; Package-Commit: e619c16e349a1ee7bd0ee0d7f3650d33bff73fc3
 ;; URL: https://github.com/hung-phan/babel-repl/
 ;; Package-Requires: ((emacs "24"))
 ;; Keywords: babel, javascript, es6

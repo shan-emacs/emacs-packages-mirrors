@@ -6,6 +6,7 @@
 ;; Package: helm-spotify-plus
 ;; Package-Requires: ((emacs "24.4") (helm "2.0.0") (multi "2.0.1"))
 ;; Package-Version: 20190913.2236
+;; Package-Commit: c3922ec368250965e483876cde5880d88a40a71b
 ;; Version: 0.1
 
 ;; This file is not part of GNU Emacs.

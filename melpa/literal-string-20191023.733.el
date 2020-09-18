@@ -4,6 +4,7 @@
 
 ;; Author: Joost Diepenmaat <joost@zeekat.nl>
 ;; Keywords: lisp, tools, docs
+;; Package-Commit: afffa86e626798ee9f9188ea3be2d5ee6ad17c39
 ;; URL: https://github.com/joodie/literal-string-mode/
 ;; Package-Requires: ((emacs "25") (edit-indirect "0.1.5"))
 ;; Package-Version: 20191023.733

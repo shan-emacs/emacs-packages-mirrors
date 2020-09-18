@@ -6,6 +6,7 @@
 ;; Maintainer: Andrew Kirkpatrick <ubermonk@gmail.com>
 ;; URL:        https://github.com/spacebat/lexbind-mode
 ;; Package-Version: 20141027.1429
+;; Package-Commit: fa0a6848c1cfd3fbf45db43dc2deef16377d887d
 ;; Created:    08 Mar 2013
 ;; Keywords:   convenience, lisp
 ;; Version:    0.9

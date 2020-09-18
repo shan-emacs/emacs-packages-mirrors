@@ -5,6 +5,7 @@
 ;; Author: Daniel Phan <daniel.phan36@gmail.com>
 ;; Version: 0.0.1
 ;; Package-Version: 20200113.405
+;; Package-Commit: ed5a98644a9cf321de213b50df6473de9f3a71ed
 ;; Package-Requires: ((emacs "25.1") (evil "1.2.13"))
 ;; Homepage: https://github.com/mamapanda/evil-owl
 ;; Keywords: emulations, evil, visual

@@ -7,6 +7,7 @@
 ;; Created: :2013-06-05
 ;; Version: 0.2
 ;; Package-Version: 20151001.1524
+;; Package-Commit: 9655ac340d1ccc5f3d1c0f7c49be8dd3556d4d0d
 ;; Keywords: convenience, helm, org
 ;; URL: https://github.com/emacs-jp/helm-orgcard
 ;; Package-Requires: ((helm-core "1.7.7"))

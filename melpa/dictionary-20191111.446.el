@@ -3,6 +3,7 @@
 ;; Author: Torsten Hilbrich <torsten.hilbrich@gmx.net>
 ;; Keywords: interface, dictionary
 ;; Package-Version: 20191111.446
+;; Package-Commit: 46ee5d9ba15cac7282ed73c8b4c272a969c6159e
 ;; Version: 1.11
 ;; Package-Requires: ((connection "1.11") (link "1.11"))
 

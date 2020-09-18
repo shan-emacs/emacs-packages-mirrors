@@ -6,6 +6,7 @@
 ;; Author: rubikitch <rubikitch@ruby-lang.org>
 ;; Keywords: lisp, convenience
 ;; Package-Version: 20160916.454
+;; Package-Commit: 8681e74ddb8481789c5dbb3cafabb327db4c4484
 ;; URL: http://www.emacswiki.org/cgi-bin/wiki/download/auto-async-byte-compile.el
 
 ;; This file is free software; you can redistribute it and/or modify

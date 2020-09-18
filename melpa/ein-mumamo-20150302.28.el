@@ -8,6 +8,7 @@
 ;; Package-Version: 20150302.28
 ;; Package-X-Original-Version: 0.1.0
 ;; Package-Requires: ((ein "0.4"))
+;; Package-Commit: 028fefec499598add1a87b92ed991891f38f0c7b
 
 ;; This file is NOT part of GNU Emacs.
 

@@ -6,6 +6,7 @@
 ;; Maintainer: Matus Goljer <matus.goljer@gmail.com>
 ;; Keywords: utility
 ;; Package-Version: 20130923.1817
+;; Package-Commit: 261b3597b23cdd40e5c14262a5687bcc6c1d0901
 ;; Version: 1.0
 ;; Created: 19th Sep 2013
 

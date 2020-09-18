@@ -5,6 +5,7 @@
 ;; Author: Akira Komamura <akira.komamura@gmail.com>
 ;; Version: 0.1.0
 ;; Package-Version: 20181124.439
+;; Package-Commit: 1f5a6355aa3bdb00b9b0bc93db29c17f0d6701e3
 ;; Package-Requires: ((emacs "25.1") (helm "2.7.0"))
 ;; Keywords: maint tools
 ;; URL: https://github.com/akirak/helm-tail

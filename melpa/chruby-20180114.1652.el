@@ -5,6 +5,7 @@
 ;; Author: Arne Brasseur <arne@arnebrasseur.net>
 ;; URL: https://github.com/plexus/chruby.el
 ;; Package-Version: 20180114.1652
+;; Package-Commit: 42bc6d521f832eca8e2ba210f30d03ad5529788f
 ;; Version: 1.0
 ;; Created: 5 March 2013
 ;; Keywords: languages

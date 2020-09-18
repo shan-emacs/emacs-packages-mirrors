@@ -11,6 +11,7 @@
 ;; Homepage: http://github.com/aspiers/smooth-scrolling/
 ;; Version: 2.0.0
 ;; Package-Version: 20161002.1949
+;; Package-Commit: 2462c13640aa4c75ab3ddad443fedc29acf68f84
 ;; Keywords: convenience
 ;; GitHub: http://github.com/aspiers/smooth-scrolling/
 

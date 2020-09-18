@@ -7,6 +7,7 @@
 ;; Created: 1 Apr 2014
 ;; Version: 1.1
 ;; Package-Version: 20180122.49
+;; Package-Commit: dbc2e0fe9e8ae65e494011044d905ae79b3cee3e
 ;; Package-Requires: ((pcsv "1.3.3") (dash "2.5.0") (bbdb "20140412.1949"))
 ;; Keywords: csv, util, bbdb
 ;; Homepage: https://gitlab.com/iankelling/bbdb-csv-import

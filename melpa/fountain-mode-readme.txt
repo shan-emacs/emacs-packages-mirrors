@@ -5,6 +5,8 @@ Fountain plain text markup format.
 
 For more information on the Fountain format, visit <https://fountain.io>.
 
+Community screenshots: <https://github.com/rnkn/fountain-mode/issues/114>
+
 ## Features ##
 
 - Support for Fountain 1.1 specification
@@ -15,11 +17,13 @@ For more information on the Fountain format, visit <https://fountain.io>.
 - Navigation by section, scene, character name, or page
 - Integration with outline to fold/cycle visibility of sections and
   scenes
+- Integration with electric-pair-mode to insert emphasis delimiters
+  with single key (i.e. * or _)
 - Integration with imenu (sections, scene headings, notes)
 - Intergration with auto-insert for title page metadata
 - Automatically add/remove character (CONT'D)
-- Toggle visibility of emphasis delimiters and syntax characters
-- 3 levels of syntax highlighting
+- Toggle syntax highlighting of each element
+- Toggle visibility of emphasis and syntax markup
 - Optionally display scene numbers in the right margin
 - Intelligent insertion of a page breaks
 
@@ -38,7 +42,7 @@ tools, such as:
 
 - [afterwriting](https://github.com/ifrost/afterwriting-labs/blob/master/docs/clients.md) (JavaScript)
 - [Wrap](https://github.com/Wraparound/wrap) (Go)
-- [screenplain](https://github.com/vilcans/screenplain) (Python 2)
+- [screenplain](https://github.com/vilcans/screenplain) (Python 3)
 - [Textplay](https://github.com/olivertaylor/Textplay) (Ruby, requires PrinceXML for PDF)
 
 The option fountain-export-command-profiles provides some shell

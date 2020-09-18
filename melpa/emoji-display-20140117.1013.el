@@ -5,6 +5,7 @@
 ;; Author: Kazuhiro Ito <kzhr@d1.dion.ne.jp>
 ;; URL: https://github.com/ikazuhiro/emoji-display
 ;; Package-Version: 20140117.1013
+;; Package-Commit: bb4217f6400151a9cfa6d4524b8427f01feb5193
 ;; Keywords: emoji
 
 ;; This program is free software; you can redistribute it and/or modify

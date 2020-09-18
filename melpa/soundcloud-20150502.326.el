@@ -8,6 +8,7 @@
 ;; Package: soundcloud
 ;; Version: 20150501
 ;; Package-Version: 20150502.326
+;; Package-Commit: f998d4276ea90258909c698f6a5a51fccb667c08
 ;; Package-Requires: ((emms "20131016") (json "1.2") (deferred "0.3.1") (string-utils "0.3.2") (request "20140316.417") (request-deferred "20130526.1015"))
 ;; Keywords: soundcloud music audio
 

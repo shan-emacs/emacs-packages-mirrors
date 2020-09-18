@@ -5,6 +5,7 @@
 ;; Author: Maxime Tréca <maxime@gmail.com>
 ;; Version: 1.0
 ;; Package-Version: 20200413.2242
+;; Package-Commit: fb041d0d8d4ae2840ddcfb1bd56fefe687da8c52
 ;; Package-Requires: ((autothemer "0.2"))
 ;; URL: http://github.com/vxid/emacs-theme-sorcery
 

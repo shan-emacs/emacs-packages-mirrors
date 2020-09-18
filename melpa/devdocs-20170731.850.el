@@ -5,6 +5,7 @@
 ;; Author: Chunyang Xu <xuchunyang.me@gmail.com>
 ;; URL: https://github.com/xuchunyang/DevDocs.el
 ;; Package-Version: 20170731.850
+;; Package-Commit: a2d51e824f0cc48a9dd611cc740bc8b86143e611
 ;; Version: 0.02
 
 ;; This program is free software; you can redistribute it and/or modify

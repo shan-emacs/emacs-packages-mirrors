@@ -3,6 +3,7 @@
 ;;          Gaurav Giri github.com/grvgr
 ;;; Url: https://github.com/jasonm23/emacs-bubbleberry-theme
 ;; Package-Version: 20141017.944
+;; Package-Commit: 22e9adf4586414024e4592972022ec297321b320
 ;;; Version: 0.1.2
 ;;; Package-Requires: ((emacs "24.1"))
 ;;;

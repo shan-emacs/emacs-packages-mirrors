@@ -5,6 +5,7 @@
 
 ;; Version: 3.13
 ;; Package-Version: 20170731.1907
+;; Package-Commit: d0410c7d805c9aaf51a1bcefaaef092bed5824c4
 ;; Released: 2014-09-27
 ;; Author: Mikael Sjödin (mic@docs.uu.se)
 ;;         Klaus Berndl  <berndl@sdm.de>

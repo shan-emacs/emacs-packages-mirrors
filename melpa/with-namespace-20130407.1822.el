@@ -5,6 +5,7 @@
 ;; Author: Wilfred Hughes <me@wilfred.me.uk>
 ;; Version: 1.1
 ;; Package-Version: 20130407.1822
+;; Package-Commit: 8ac52da3a09cf46087720e30cf730d00f140cde6
 ;; Keywords: namespaces
 ;; Package-Requires: ((dash "1.1.0") (loop "1.1"))
 

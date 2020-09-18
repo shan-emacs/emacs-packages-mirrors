@@ -7,6 +7,7 @@
 ;; Author: Nathaniel Flath <flat0103@gmail.com>
 ;; URL: http://github.com/nflath/c-eldoc
 ;; Package-Version: 20181109.439
+;; Package-Commit: e35c0e40f71c25804919f6c01fd27e95c2e2adb7
 ;; Version: 0.7
 
 ;; This file is NOT a part of GNU Emacs

@@ -6,6 +6,7 @@
 ;; Maintainer: Simen Heggestøyl <simenheg@gmail.com>
 ;; Version: 1.12
 ;; Package-Version: 20200216.914
+;; Package-Commit: 825af2c584fbad9e67c2c08e29040776fa647fe0
 ;; Keywords: convenience, abbrev
 ;; Homepage: https://github.com/simenheg/rdf-prefix
 

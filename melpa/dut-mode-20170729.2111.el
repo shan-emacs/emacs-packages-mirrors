@@ -7,6 +7,7 @@
 ;; Author: The dut-mode Authors
 ;; Version: 1.0
 ;; Package-Version: 20170729.2111
+;; Package-Commit: 9235c7acaa6690942e9de8b7acd1e4be0c859dc1
 ;; Keywords: languages gut
 ;; URL: https://github.com/dut-lang/dut-mode
 ;; Package-Requires: ((emacs "24"))

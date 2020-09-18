@@ -9,6 +9,7 @@
 ;; Created: 2014-11-24
 ;; Version: 0.1
 ;; Package-Version: 20141124.1013
+;; Package-Commit: 872134704bd25c13a4c59552433da4c6881b5230
 ;; Keywords: convenience, 
 ;; URL: https://github.com/myuhe/tinysegmenter.el
 ;; Package-Requires: ((cl-lib "0.5"))

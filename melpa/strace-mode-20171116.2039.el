@@ -5,6 +5,7 @@
 ;; Author: Preston Moore (prestonkmoore@gmail.com)
 ;; Version: 0.0.2
 ;; Package-Version: 20171116.2039
+;; Package-Commit: 2901baa968d5180ab985ac40ca22cc20914d01f5
 ;; Keywords: languages
 
 ;; This file is not part of GNU Emacs.

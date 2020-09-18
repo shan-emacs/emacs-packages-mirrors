@@ -5,6 +5,7 @@
 ;; Author: Grant Rettke <gcr@wisdomandwonder.com>
 ;; Version: 1.0
 ;; Package-Version: 20160813.206
+;; Package-Commit: 5299cb064ba71baa3e331b8560bf8dd38cbbc4ed
 ;; Package-Requires: ((cl-lib "0.5"))
 ;; Maintainer: <gcr@wisdomandwonder.com>
 ;; Keywords: Unicode, Double Struck, Blackboard Bold, Math, Mathematical

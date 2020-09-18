@@ -5,6 +5,7 @@
 ;; Author: Marian Schubert <marian.schubert@gmail.com>
 ;; URL: http://github.com/maio/eink-emacs
 ;; Package-Version: 20190219.858
+;; Package-Commit: 326b07523dcb076d6209cdbc7fdbb73df296dbdb
 ;; Version: 1.0
 
 ;; This program is free software; you can redistribute it and/or modify

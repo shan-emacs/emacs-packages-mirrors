@@ -3,6 +3,7 @@
 ;; Author: quanwei9958@126.com
 ;; Version: 0.0.4
 ;; Package-Version: 20161031.509
+;; Package-Commit: 180d15af7b5dfaab4ee1954cca2fdc797932f9de
 ;; Package-Requires: ((web-beautify "0.3.1") (web-mode "14.0.27"))
 
 ;; This program is free software; you can redistribute it and/or modify

@@ -3,6 +3,7 @@
 ;; Author: Igor Shymko <igor.shimko@gmail.com>
 ;; Version: 0.6
 ;; Package-Version: 20170326.1040
+;; Package-Commit: c5e2e69adbd3a630e4cb750965a1aee8c10c1f09
 ;; Package-Requires: ((dash "2.12.1") (popup "0.5.3") (flx-ido "0.6.1"))
 ;; Keywords: popup, imenu
 ;; URL: https://github.com/ancane/popup-imenu

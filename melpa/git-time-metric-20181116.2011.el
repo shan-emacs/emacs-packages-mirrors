@@ -7,6 +7,7 @@
 ;; Author: Anton Sivolapov <anton.sivolapov@gmail.com>
 ;; Version: 1.0
 ;; Package-Version: 20181116.2011
+;; Package-Commit: 287108ed1d6885dc795eb3bad4476aa08c626186
 ;; Package-Requires: ()
 ;; Keywords: tools, gtm, productivity, time
 ;; URL: https://github.com/c301/gtm-emacs-plugin

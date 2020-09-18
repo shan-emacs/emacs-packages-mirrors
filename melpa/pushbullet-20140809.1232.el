@@ -5,6 +5,7 @@
 ;; Author: Abhishek L <abhishek.lekshmanan@gmail.com>
 ;; URL: http://www.github.com/theanalyst/revolver
 ;; Package-Version: 20140809.1232
+;; Package-Commit: 73c59a0f1dc04875b3e5a2c8afbc26c32128e445
 ;; Version: 0.5.2
 ;; Package-Requires:((grapnel "0.5.2") (json "1.2"))
 ;; Keywords: convenience

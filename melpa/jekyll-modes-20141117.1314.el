@@ -5,6 +5,7 @@
 ;; Author: Fredrik Appelberg <fredrik@milgrim.local>
 ;; Keywords: docs
 ;; Package-Version: 20141117.1314
+;; Package-Commit: 7cb10b50fd2883e3f7b10fdfd98f19f2f0b2381c
 ;; URL: https://github.com/fred-o/jekyll-modes
 ;; Version: 0.0.1
 ;; Package-Requires: ((polymode "0.2"))

@@ -5,6 +5,7 @@
 ;; Author: Lucas Werkmeister <mail@lucaswerkmeister.de>
 ;; URL: https://github.com/lucaswerkmeister/ceylon-mode
 ;; Package-Version: 20180606.1324
+;; Package-Commit: 948515672bc596dc118e8e3ede3ede5ec6a3c95a
 ;; Keywords: languages ceylon
 ;; Version: 0.2
 ;; Package-Requires: ((emacs "25"))

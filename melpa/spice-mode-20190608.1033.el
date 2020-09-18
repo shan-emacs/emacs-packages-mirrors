@@ -6,6 +6,7 @@
 ;;         Carlin J. Vieri, MIT AI Lab <cvieri@ai.mit.edu> 1994
 ;; Keywords: spice, spice2g6, spice3, eldo, hspice, layla, mondriaan, fasthenry, CDL, spectre compatibility, netlist editing
 ;; Package-Version: 20190608.1033
+;; Package-Commit: e5e0644f03f9696f56dd69e2b6979da7f30ed600
 ;; Package-Requires: ((emacs "24.3"))
 ;; Filename: spice-mode.el
 ;; Version: 1.2.25

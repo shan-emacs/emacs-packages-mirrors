@@ -5,6 +5,7 @@
 ;; Author: Georg Brandl <georg@python.org>
 ;; Version: 0.1
 ;; Package-Version: 20141123.2120
+;; Package-Commit: 4b0152d606360c70204fb4c27f68de79ca885386
 ;;
 ;; This file is NOT part of GNU Emacs.
 ;;

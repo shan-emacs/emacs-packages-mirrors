@@ -4,6 +4,7 @@
 ;; Author: Ulas Tuerkmen <ulas.tuerkmen at gmail dot com>
 ;; URL: http://github.com/afroisalreadyinu/abl-mode
 ;; Package-Version: 20190403.904
+;; Package-Commit: 44b7d946bc3a693f5a931c4a62c0a67d42e8d4dc
 ;; Version: 0.9.2
 ;;
 ;; Copyright (C) 2011 Ulas Tuerkmen

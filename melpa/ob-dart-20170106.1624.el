@@ -5,6 +5,7 @@
 ;; Author: Milan Zimmermann
 ;; Keywords: literate programming, reproducible research, emacs, org, babel, dart
 ;; Package-Version: 20170106.1624
+;; Package-Commit: 04d63b922a5469506560ca0c00678e57131e0269
 ;; Homepage: http://github.org/mzimmerm/ob-dart
 
 ;; This is free software: you can redistribute it and/or modify

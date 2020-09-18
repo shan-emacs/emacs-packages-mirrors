@@ -6,6 +6,7 @@
 ;; X-URL: https://github.com/thierryvolpiatto/ioccur
 ;; Version: 2.4
 ;; Package-Version: 20200326.1341
+;; Package-Commit: 59350b2066d61444f93c8a51b16353e746486e4c
 ;; Package-Requires: ((emacs "24") (cl-lib "0.5"))
 
 ;; This program is free software; you can redistribute it and/or

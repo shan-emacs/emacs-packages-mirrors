@@ -5,6 +5,7 @@
 ;; Author: Adam Schwalm <adamschwalm@gmail.com>
 ;; Version: 0.2.0
 ;; Package-Version: 20190927.1514
+;; Package-Commit: ddfade51001571c2399f78bcc509e0aa8eb752a4
 ;; URL: https://github.com/ALSchwalm/flycheck-nim
 ;; Package-Requires: ((dash "2.4.0") (flycheck "0.20"))
 

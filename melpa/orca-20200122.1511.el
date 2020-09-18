@@ -5,6 +5,7 @@
 ;; Author: Oleh Krehel <ohwoeowho@gmail.com>
 ;; URL: https://github.com/abo-abo/orca
 ;; Package-Version: 20200122.1511
+;; Package-Commit: 654f185861ed4fedfe1394db48a83639a0be57f6
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "24.3"))
 ;; Keywords: org, convenience

@@ -4,6 +4,7 @@
 ;; Author: Andrew Fort (@andaru)
 ;; Version: 0.0.1
 ;; Package-Version: 20180312.1831
+;; Package-Commit: 47881fc42ef0163c47064b72b5d6dbef4f83d778
 ;; Package-Requires: ((yang-mode "0.9.4") (flycheck "0.18"))
 
 ;;; License:

@@ -5,6 +5,7 @@
 ;; Author: Raphaël Cauderlier
 ;; Version: 0.1
 ;; Package-Version: 20171103.1212
+;; Package-Commit: 3dbff5646355f39d57a3ec514f560a6b0082a1cd
 ;; License: CeCILL-B
 ;; Package-Requires: ((flycheck "0.19") (dedukti-mode "0.1"))
 ;; Keywords: convenience languages tools flycheck dedukti

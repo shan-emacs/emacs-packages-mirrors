@@ -4,6 +4,7 @@
 ;; Package-Version: 20170809.1830
 ;; Package-X-Original-Version: 0.0.1
 ;; Package-Requires: ((cl-lib "0.5"))
+;; Package-Commit: bf1642cb93f0a898804dc13fd9408d2964403bd2
 ;; Keywords: literate programming, reproducible research
 
 ;; This program is free software; you can redistribute it and/or modify

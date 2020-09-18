@@ -5,6 +5,7 @@
 ;; Author: Oleh Krehel <ohwoeowho@gmail.com>
 ;; URL: https://github.com/abo-abo/centimacro
 ;; Package-Version: 20140306.1427
+;; Package-Commit: 1b97a9b558ed9c49d5da1bfbf29b2506575c2742
 ;; Version: 0.1
 ;; Keywords: macros
 

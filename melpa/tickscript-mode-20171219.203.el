@@ -4,6 +4,7 @@
 ;; Homepage: https://github.com/msherry/tickscript-mode
 ;; Version: 0.4.1
 ;; Package-Version: 20171219.203
+;; Package-Commit: f0579f38ff14954df5002ce30ae6d4a2c978d461
 ;; Author: Marc Sherry <msherry@gmail.com>
 ;; Keywords: languages
 ;; Package-Requires: ((emacs "24.1"))

@@ -5,6 +5,7 @@
 ;; Author: Jorgen Schaefer <contact@jorgenschaefer.de>
 ;; URL: http://github.com/jorgenschaefer/pyvenv
 ;; Package-Version: 20191202.1039
+;; Package-Commit: 861998b6d157ae73b829f02a5a6c8a9118310831
 ;; Version: 1.21
 ;; Keywords: Python, Virtualenv, Tools
 

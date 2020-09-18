@@ -11,6 +11,7 @@
 ;; Created: 4 Jan 2015
 ;; Version: 0.4.2
 ;; Package-Version: 20191215.1240
+;; Package-Commit: d1246557e2c9c685b0ee4ec0e58237431b846096
 ;; Keywords: reading, convenience, chill
 ;; URL: https://github.com/marcowahl/rope-read-mode
 ;; Package-Requires: ((emacs "24"))

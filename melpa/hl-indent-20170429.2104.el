@@ -5,6 +5,7 @@
 ;; Author: Kirill Ignatiev <github.com/ikirill>
 ;; Version: 0.1
 ;; Package-Version: 20170429.2104
+;; Package-Commit: bdb2e0177a7c8b29af26998e688b856adc6ded93
 ;; Keywords: convenience, faces
 ;; URL: https://github.com/ikirill/hl-indent
 ;; Package-Requires: ((emacs "24") (cl-lib "0.5"))

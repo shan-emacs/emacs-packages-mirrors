@@ -5,6 +5,7 @@
 ;; Author: Greg Chapple <info@gregchapple.com>
 ;; URL: http://github.com/gregchapple/flatland-emacs
 ;; Package-Version: 20171113.1521
+;; Package-Commit: a98a6f19ad4dff0fa3fad1ea487b7d0ef634a19a
 ;; Version: 0.1.2
 
 ;; This program is free software; you can redistribute it and/or modify

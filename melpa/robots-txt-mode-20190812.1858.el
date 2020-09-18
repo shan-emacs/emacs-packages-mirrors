@@ -6,6 +6,7 @@
 ;; Created: 9 Mar 2016
 ;; Version: 0.0.9
 ;; Package-Version: 20190812.1858
+;; Package-Commit: 8bf67285a25a6756607354d184e36583f2847e7d
 ;; Keywords: languages, comm, web
 ;; URL: https://github.com/emacs-php/robots-txt-mode
 

@@ -3,6 +3,7 @@
 ;; Author: Christian 'crshd' Brassat <christian.brassat@gmail.com>
 ;; Version: 0.1.2
 ;; Package-Version: 20131201.730
+;; Package-Commit: 3f2793afcbbc32f320e572453166f9354ecc6d06
 ;; URL: https://github.com/crshd/fetch.el
 
 ;; COPYRIGHT (C) 2013, Christian Brassat

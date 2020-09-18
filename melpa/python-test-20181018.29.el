@@ -5,6 +5,7 @@
 ;; Author: Mario Rodas <marsam@users.noreply.github.com>
 ;; URL: https://github.com/emacs-pe/python-test.el
 ;; Package-Version: 20181018.29
+;; Package-Commit: f899975b133539e19ba822e4b0bfd1a28572967e
 ;; Keywords: convenience, tools, processes
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "25.1"))

@@ -4,6 +4,7 @@
 ;; Author: Carsten Dominik <carsten.dominik@gmail.com>
 ;; Version: 1.3
 ;; Package-Version: 20200512.704
+;; Package-Commit: 4b84cdac955cb36a8c44a2be48f3310252e3d3ad
 ;; Keywords: tex
 ;; URL: https://github.com/cdominik/mu2tex
 

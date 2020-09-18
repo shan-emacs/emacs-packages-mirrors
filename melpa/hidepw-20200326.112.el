@@ -4,6 +4,7 @@
 ;; Package-Version: 20200326.112
 ;; Package-X-Original-Version: 0.3.0
 ;; Keywords: hide, hidden, password, faces
+;; Package-Commit: 73f099da79d73fe4087472df3469d8b9b20a59f2
 ;; URL: https://github.com/jekor/hidepw
 
 ;; Copyright (C) 2014, 2020 Chris Forno

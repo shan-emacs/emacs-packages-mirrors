@@ -5,6 +5,7 @@
 ;; Author: martin haesler
 ;; Version: 0.1
 ;; Package-Version: 20180823.1544
+;; Package-Commit: 2cd0043ae6d046f812a95bb26398ea23141beccc
 ;; Package-Requires: ((emacs "24"))
 ;; Created with ThemeCreator, https://github.com/mswift42/themecreator.
 

@@ -12,6 +12,7 @@
 ;; Created: Mon Jan  9 22:41:43 2012 (+0800)
 ;; Version: 0.1
 ;; Package-Version: 20180601.1348
+;; Package-Commit: 1e31a3c687f2b3c71bbfab881c6d75915534bb9e
 ;;           By: Le Wang
 ;; URL: https://github.com/lewang/jump-char
 ;; Keywords:

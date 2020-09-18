@@ -6,6 +6,7 @@
 ;; Created:			11 October 2014
 ;; Version:                     0.1
 ;; Package-Version: 20141012.717
+;; Package-Commit: e46dd31327a3f92f77b013b4c9b1e5fdd0e5c73d
 ;; Url:                         https://github.com/joddie/osx-clipboard-mode
 
 ;; This file is NOT part of GNU Emacs.

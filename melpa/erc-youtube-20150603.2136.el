@@ -5,6 +5,7 @@
 ;; Author: Raimon Grau Cuscó <raimonster@gmail.com>
 ;; Version: 0.1
 ;; Package-Version: 20150603.2136
+;; Package-Commit: 97054ba8475b442e2aa81e5a291f668b7f28697f
 ;; Keywords: multimedia
 
 ;; This program is free software; you can redistribute it and/or modify

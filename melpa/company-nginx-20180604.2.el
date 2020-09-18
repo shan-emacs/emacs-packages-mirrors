@@ -2,6 +2,7 @@
 
 ;; Authors: stardiviner <numbchild@gmail.com>
 ;; Package-Requires: ((emacs "24"))
+;; Package-Commit: 3074a5d322562f36867ef67bffeb25f1c0d8aca9
 ;; Package-Version: 20180604.2
 ;; Package-X-Original-Version: 0.1
 ;; Keywords: company nginx

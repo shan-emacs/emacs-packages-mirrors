@@ -4,6 +4,7 @@
 
 ;; Version: 0.1.1
 ;; Package-Version: 20181226.226
+;; Package-Commit: a6ca6d27c07f6a0807abfb5b8f8865f1d17f54aa
 ;; URL: https://github.com/yqrashawn/evil-ex-shell-command
 ;; Package-Requires: ((emacs "24.4") (evil "1.1.0"))
 ;; Author: Rashawn Zhang <namy.19@gmail.com>

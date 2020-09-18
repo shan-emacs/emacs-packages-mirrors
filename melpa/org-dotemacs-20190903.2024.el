@@ -8,6 +8,7 @@
 ;; Created: 2013-04-27 20:19:18
 ;; Version: 0.4
 ;; Package-Version: 20190903.2024
+;; Package-Commit: ee59739c2d59151fe7d7d3034e87c7691120a5be
 ;; Last-Updated: 2018-07-28 22:22:18
 ;;           By: Joe Bloggs
 ;; URL: https://github.com/vapniks/org-dotemacs

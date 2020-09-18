@@ -5,6 +5,7 @@
 ;; Author: Juan-Leon Lahoz <juanleon1@gmail.com>
 ;; Keywords: occur, search, convenience
 ;; Package-Version: 20130610.1343
+;; Package-Commit: 352f5fab207d8a1d3dd048073ff127a83e97c82b
 ;; Version: 0.1.1
 
 ;; This file is free software; you can redistribute it and/or modify

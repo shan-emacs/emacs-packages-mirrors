@@ -2,6 +2,7 @@
 
 ;; Author: Aaron Bieber <aaron@aaronbieber.com>
 ;; Version: 0.1
+;; Package-Commit: 88256223539edcfe57017778a997a474c9c022f6
 ;; Package-Version: 20200306.1711
 ;; Package-X-Original-Version: 20181029.1654
 ;; Package-X-Original-Version: 20150620.1320

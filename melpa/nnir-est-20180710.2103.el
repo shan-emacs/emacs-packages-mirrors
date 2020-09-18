@@ -6,6 +6,7 @@
 ;; Created: 2014-02-01
 ;; Version: 1.180705
 ;; Package-Version: 20180710.2103
+;; Package-Commit: 6d0d5c8e33f4e4ccbc22350324c0990d2676fb5a
 ;; Keywords: mail
 ;; Human-Keywords: gnus nnir
 ;; URL: https://github.com/kawabata/nnir-est

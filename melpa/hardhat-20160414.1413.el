@@ -6,6 +6,7 @@
 ;; Homepage: http://github.com/rolandwalker/hardhat
 ;; URL: http://raw.githubusercontent.com/rolandwalker/hardhat/master/hardhat.el
 ;; Package-Version: 20160414.1413
+;; Package-Commit: 9038a49ab55cd4c502cf7f07ed0d1b9b6bc3626e
 ;; Version: 0.4.6
 ;; Last-Updated: 14 Apr 2016
 ;; EmacsWiki: Hardhat

@@ -5,6 +5,7 @@
 ;; Author: William Stevenson <yhvh2000@gmail.com>
 ;; Version: 0.1
 ;; Package-Version: 20150426.1249
+;; Package-Commit: 43e7d49325b17a3217a6ffb4a9daf75c5ff4e6f8
 ;; Keywords: multimedia
 ;; Package-Requires: ((dash "2.10.0"))
 

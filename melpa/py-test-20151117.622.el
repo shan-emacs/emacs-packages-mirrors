@@ -5,6 +5,7 @@
 ;; Author: Bogdan Paul Popa <popa.bogdanp@gmail.com>
 ;; Version: 0.6.1
 ;; Package-Version: 20151117.622
+;; Package-Commit: 3b2a0bdaacb54df6f2bee8317423e5c0d159d5cf
 ;; Package-Requires: ((dash "2.9.0") (f "0.17") (emacs "24.4"))
 ;; Keywords: python testing py.test
 ;; URL: https://github.com/Bogdanp/py-test.el

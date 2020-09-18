@@ -13,6 +13,7 @@
 ;; Created: Mon Jan 10 22:22:32 2011 (+0800)
 ;; Version: 0.7
 ;; Package-Version: 20121113.1300
+;; Package-Commit: 00634eca420cc48657b81e40e599ff8548083985
 ;; Last-Updated: Tue Nov 13 20:57:37 2012 (+0800)
 ;;           By: Le Wang
 ;;     Update #: 478

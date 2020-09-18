@@ -3,6 +3,7 @@
 ;; Author: Bryan Gilbert <gilbertw1@gmail.com>
 ;; Keywords: themes
 ;; Package-Version: 20161014.1625
+;; Package-Commit: c7f8e665d53bb48fb72f95f706710d53d24bd407
 ;; X-URL: http://github.com/gilbertw1/sourcerer-emacs
 ;; URL:  http://github.com/gilbertw1/sourcerer-emacs
 ;; Version: {{VERSION}}

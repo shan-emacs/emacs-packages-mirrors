@@ -6,6 +6,7 @@
 ;; Created: 2015-12-22
 ;; Version: 0.1
 ;; Package-Version: 20160529.2259
+;; Package-Commit: 1be6c54e3095761b6b64bf749faae3dfce94e72a
 ;; Keywords: convenience, usability, buffers
 ;; Package-Requires: ((cl-lib "0.5"))
 

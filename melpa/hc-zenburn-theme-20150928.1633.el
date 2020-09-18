@@ -5,6 +5,7 @@
 ;; Author: Nantas Nardelli <nantas.nardelli@gmail.com>
 ;; URL: https:github.com/edran/hc-zenburn-emacs
 ;; Package-Version: 20150928.1633
+;; Package-Commit: fd0024a5191cdce204d91c8f1db99ba31640f6e9
 ;; Version 2.1
 
 ;; This program is free software; you can redistribute it and/or modify

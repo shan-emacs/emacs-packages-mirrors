@@ -2,6 +2,7 @@
 ;;; Author: Jason Milkins <jasonm23@gmail.com>
 ;;; Url: https://github.com/jasonm23/emacs-soothe-theme
 ;; Package-Version: 20141027.1441
+;; Package-Commit: 0786fe70c6c1b4ddcfb932fdc6862b9611cfc09b
 ;;; Version: 20141027.2233
 ;;; Package-Requires: ((emacs "24.1"))
 ;;;

@@ -5,6 +5,7 @@
 ;; Author: Antono Vasiljev <antono.vasiljev@gmail.com>
 ;; URL: https://github.com/antono/evil-rails
 ;; Package-Version: 20190512.1517
+;; Package-Commit: b0f1c5de6720714febeb76c4b569b71bb891938c
 ;; Contributors:
 ;; - Joshua Mendoza <joshua.mdza@gmail.com>
 ;; - Josh Black <raskchanky@gmail.com>

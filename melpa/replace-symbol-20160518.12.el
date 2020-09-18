@@ -3,6 +3,7 @@
 ;; Author: Brian Mastenbrook <brian@mastenbrook.net>
 ;; Version: 1.1
 ;; Package-Version: 20160518.12
+;; Package-Commit: baf949e528aee1881f455f9c84e67718bedcb3f6
 ;; URL: https://github.com/bmastenbrook/replace-symbol-el
 
 ;;; Commentary:

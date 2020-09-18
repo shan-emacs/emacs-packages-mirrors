@@ -1,4 +1,4 @@
-Emacs info version of Ada Reference Manual 2012 TC1
+Emacs info version of Ada Reference Manual 2012 TC1 and 202x draft 25.
 
 Italics in syntax element names are indicated by <>.
 

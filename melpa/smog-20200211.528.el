@@ -6,6 +6,7 @@
 ;; Created: 2020-02-02
 ;; Version: 0.1
 ;; Package-Version: 20200211.528
+;; Package-Commit: 531957d7356f623b026aa45923e536421f682c1a
 ;; Package-Requires: ((emacs "24.1") (org "8.1"))
 ;; Keywords: tools, style, readability, prose
 ;; URL: https://github.com/zzkt/smog

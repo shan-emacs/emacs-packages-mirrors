@@ -5,6 +5,7 @@
 ;; Author: Jack Morrison <jackmorrison1@gmail.com>
 ;; Keywords: c, languages
 ;; Package-Version: 20151214.321
+;; Package-Commit: 9ae9eacfdba3559b5456342d0d03296290df8ff5
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

@@ -3,6 +3,7 @@
 ;; Author: Fanael Linithien <fanael4@gmail.com>
 ;; URL: https://github.com/Fanael/package-safe-delete
 ;; Package-Version: 20150116.1607
+;; Package-Commit: 138171e4fc03c0ef05a8260cbb5cd2e114c1c194
 ;; Version: 0.1.7
 ;; Package-Requires: ((emacs "24") (epl "0.7-cvs"))
 

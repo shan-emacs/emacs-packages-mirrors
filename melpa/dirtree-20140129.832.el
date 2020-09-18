@@ -6,6 +6,7 @@
 ;; Maintainer: Ye Wenbin <wenbinye@gmail.com>
 ;; Package-Requires: ((tree-mode "1.1.1.1") (windata "0"))
 ;; Package-Version: 20140129.832
+;; Package-Commit: ba55f1e716e386fdd37cb8e7f48616e405dc7251
 ;; Created: 09 Jan 2010
 ;; Version: 0.01
 ;; Keywords

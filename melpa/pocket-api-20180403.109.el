@@ -6,6 +6,7 @@
 ;; Created: 2016-05-23
 ;; Version: 0.1
 ;; Package-Version: 20180403.109
+;; Package-Commit: 3eb9430b9db90bc02e736e433eb86389f7655189
 ;; Keywords: convenience, pocket
 ;; Package-Requires: ((emacs "24.4") (request "0.2"))
 ;; URL: https://github.com/lujun9972/pocket-api.el

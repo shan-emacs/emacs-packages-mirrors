@@ -5,6 +5,7 @@
 ;; Author: Junpeng Qiu <qjpchmail@gmail.com>
 ;; Package-Requires: ((emacs "24"))
 ;; Package-Version: 20171031.2054
+;; Package-Commit: c5d362169819ee8b8e8954145daee7e260c54921
 ;; Keywords: extensions
 
 ;; This program is free software; you can redistribute it and/or modify

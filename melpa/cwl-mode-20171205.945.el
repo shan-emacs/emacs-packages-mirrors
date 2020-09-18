@@ -4,6 +4,7 @@
 
 ;; Version: 0.2.2
 ;; Package-Version: 20171205.945
+;; Package-Commit: bdeb9c0734126f940db80bfb8b1dc735dab671c7
 ;; Author: Tomoya Tanjo <ttanjo@gmail.com>
 ;; URL: https://github.com/tom-tan/cwl-mode
 ;; Package-Requires: ((yaml-mode "0.0.13") (emacs "24.4"))

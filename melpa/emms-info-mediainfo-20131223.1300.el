@@ -5,6 +5,7 @@
 ;; Author: Fabián Ezequiel Gallina <fgallina@gnu.org>
 ;; Version: 0.1.0
 ;; Package-Version: 20131223.1300
+;; Package-Commit: bce16eae9eacd38719fea62a9755225a888da59d
 ;; Keywords: multimedia, processes
 ;; Package-Requires: ((emms "0"))
 

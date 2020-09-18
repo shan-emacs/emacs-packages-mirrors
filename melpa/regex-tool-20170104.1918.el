@@ -7,6 +7,7 @@
 ;; Modified: 17 Nov 2007
 ;; Version: 1.2
 ;; Package-Version: 20170104.1918
+;; Package-Commit: 0b4a0111143c88ef94bec56624cb2e00c1a054e6
 ;; Keywords: regex languages programming development
 ;; X-URL: http://www.newartisans.com/
 

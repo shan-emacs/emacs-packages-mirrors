@@ -3,6 +3,7 @@
 ;; Author: kuanyui <azazabc123@gmail.com>
 ;; Package-Requires: ((emacs "24.3") (cl-lib "0.5"))
 ;; Package-Version: 20160619.1645
+;; Package-Commit: 668ad41e71f374f8c32c8d0532f3d8485b355d35
 ;; X-URL: http://github.com/kuanyui/ta.el
 ;; Version: 1.0
 ;; Keywords: tools

@@ -6,6 +6,7 @@
 ;; Author: rubikitch <rubikitch@ruby-lang.org>
 ;; Keywords: processes, convenience
 ;; Package-Version: 20100505.839
+;; Package-Commit: ee371a81f2d2bf5a308344078329ca1e9b5ed38c
 ;; URL: http://www.emacswiki.org/cgi-bin/wiki/download/shell-history.el
 
 ;; This file is free software; you can redistribute it and/or modify

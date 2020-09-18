@@ -6,6 +6,7 @@
 ;; https://github.com/mswift42/greymatters-theme.git
 ;; Version: 0.1
 ;; Package-Version: 20150621.1123
+;; Package-Commit: a7220a8c6cf18ccae2b76946b6f01188a7c9d5d1
 ;; Package-Requires: ((emacs "24"))
 ;; Created with emacs-theme-generator, https://github.com/mswift42/theme-creator.
 

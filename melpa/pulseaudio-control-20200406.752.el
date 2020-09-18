@@ -8,6 +8,7 @@
 ;; Maintainer: Alexis <flexibeast@gmail.com>
 ;; Created: 2017-08-23
 ;; URL: https://github.com/flexibeast/pulseaudio-control
+;; Package-Commit: a931533140547510decdc368f39b2d2b97ca725f
 ;; Keywords: multimedia, hardware, sound, PulseAudio
 ;; Version: 0.1
 ;; Package-Version: 20200406.752

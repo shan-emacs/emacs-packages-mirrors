@@ -1,2 +1,0 @@
-
-(org-multi-wiki . [(20200419 1833) ((emacs (26 1)) (dash (2 12)) (s (1 12)) (org-ql (0 4)) (org (9 3))) "Multiple wikis based on Org mode" single ((:commit . "666b16624e2fc67729efdac2e52ec6238115a14b") (:keywords "org" "outlines" "files") (:authors ("Akira Komamura" . "akira.komamura@gmail.com")) (:maintainer "Akira Komamura" . "akira.komamura@gmail.com") (:url . "https://github.com/akirak/org-multi-wiki"))])

@@ -5,6 +5,7 @@
 ;; Author: Micah Duke
 ;; URL: <https://github.com/madhat2r/madhat2r-theme>
 ;; Package-Version: 20170203.30
+;; Package-Commit: 6b387f09de055cfcc15d74981cd4f32f8f9a7323
 ;;
 ;; Version: 0.1
 ;; Keywords: color, theme

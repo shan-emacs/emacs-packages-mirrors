@@ -6,6 +6,7 @@
 ;; Created: 2015-11-03
 ;; Version: 0.1
 ;; Package-Version: 20160426.1220
+;; Package-Commit: 616435a5270274f4c7b698697674dbb2039049a4
 ;; Keywords: lisp, game
 
 ;; This file is NOT part of GNU Emacs.

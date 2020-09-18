@@ -4,6 +4,7 @@
 ;; Created: 24 Apr 2013
 ;; Version: 0.5
 ;; Package-Version: 20171121.859
+;; Package-Commit: f638ff0c922af862f5211779f2311a27fde428eb
 ;; Keywords: convenience, files
 
 ;; Copyright 2013, 2017 Paweł Kraśnicki

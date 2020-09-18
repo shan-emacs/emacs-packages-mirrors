@@ -3,6 +3,7 @@
 ;; Author: Jack Killilea <jaaacckz1@gmail.com>
 ;; URL: https://github.com/xjackk/carolines-theme
 ;; Package-Version: 20160318.520
+;; Package-Commit: 222fd483db304509f9e422dc82883d808e023ceb
 ;; Version: 0.0.1
 ;; Package-Requires: ((emacs "24"))
 

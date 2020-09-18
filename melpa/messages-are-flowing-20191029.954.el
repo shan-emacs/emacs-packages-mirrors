@@ -5,6 +5,7 @@
 ;; Author: Magnus Henoch <magnus.henoch@gmail.com>
 ;; Keywords: mail
 ;; Package-Version: 20191029.954
+;; Package-Commit: d582a564a63b7b90764ffc5c618bc5300225d0ab
 ;; Version: 0.1
 
 ;; This program is free software; you can redistribute it and/or modify

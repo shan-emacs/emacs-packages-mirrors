@@ -4,6 +4,7 @@
 ;; Homepage: https://github.com/kootenvp/flymake-solidity
 ;; Package-Requires: ((flymake-easy "0.10"))
 ;; Package-Version: 20170805.644
+;; Package-Commit: 48bfe9525f764d8a68cc0270905dbf45bfd00bb8
 
 ;; License: AGPL3 or later
 

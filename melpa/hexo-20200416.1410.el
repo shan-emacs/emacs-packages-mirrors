@@ -3,6 +3,7 @@
 ;; Author: Ono Hiroko (kuanyui) <azazabc123@gmail.com>
 ;; Keywords: tools, hexo
 ;; Package-Version: 20200416.1410
+;; Package-Commit: d600b6c2d51959f1331c8abf3953365544322afa
 ;; Package-Requires: ((emacs "24.3"))
 ;; X-URL: https://github.com/kuanyui/hexo.el
 ;; Version: {{VERSION}}

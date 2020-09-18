@@ -6,6 +6,7 @@
 ;; https://github.com/mswift42/warm-night-theme.git
 ;; Version: 0.1
 ;; Package-Version: 20161101.1428
+;; Package-Commit: 020f084d23409b5035150508ba6e57c2509edd64
 ;; Package-Requires: ((emacs "24"))
 ;; Created with emacs-theme-generator, https://github.com/mswift42/theme-creator.
 

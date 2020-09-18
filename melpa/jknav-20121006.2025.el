@@ -6,6 +6,7 @@
 ;; Maintainer: Aaron Culich <aculich@gmail.com>
 ;; Version: 0.0.1
 ;; Package-Version: 20121006.2025
+;; Package-Commit: 861245715c728503dad6573278fdd75c271dbf8b
 ;; Created: 7 Jul 2012
 ;; Keywords: keyboard navigation
 

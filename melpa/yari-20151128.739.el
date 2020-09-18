@@ -7,6 +7,7 @@
 ;; Created: 24 Apr 2010
 ;; Version: 0.8
 ;; Package-Version: 20151128.739
+;; Package-Commit: a2cb9656ee5dfe1fc2ee3854f3079a1c8e85dbe9
 ;; Keywords: tools
 
 ;; This program is free software; you can redistribute it and/or modify

@@ -7,6 +7,7 @@
 ;; Time-stamp: <2019-11-22 17:40:18 st>
 ;; Version: 6.6
 ;; Package-Version: 20200131.1335
+;; Package-Commit: bb4e8a223c8aac5ec9268d1cfcf1a9ea9b3d8a49
 ;; Package-Requires: ((emacs "24.3"))
 ;; Keywords: languages, tools, GAMS
 ;; URL: http://shirotakeda.org/en/gams/gams-mode/

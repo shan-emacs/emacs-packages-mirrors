@@ -4,6 +4,7 @@
 ;; Created: 2010-8-12
 ;; Version: 2.0
 ;; Package-Version: 20180525.1343
+;; Package-Commit: b71757ec337e226909fb0422f0224e31acc71733
 ;; Last-Updated: 2015-03-25
 ;; URL: http://github.com/bnbeckwith/writegood-mode
 ;; Keywords: writing weasel-words grammar

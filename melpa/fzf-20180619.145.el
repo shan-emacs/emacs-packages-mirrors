@@ -4,6 +4,7 @@
 ;; Author: Bailey Ling
 ;; URL: https://github.com/bling/fzf.el
 ;; Package-Version: 20180619.145
+;; Package-Commit: 521d18933cb586337c4e34281bdc71ac07202c98
 ;; Filename: fzf.el
 ;; Description: A front-end for fzf
 ;; Created: 2015-09-18

@@ -5,6 +5,7 @@
 ;; Author: Cayetano Santos
 ;; Keywords:  convenience, languages, vhdl
 ;; Package-Version: 20200330.1819
+;; Package-Commit: b5d1eec90bb43ba10178219245afbddb6601e85b
 ;; Filename: vhdl-tools.el
 ;; Description: Utilities for navigating vhdl sources.
 ;; Homepage: https://gitlab.com/emacs-elisp/vhdl-tools/-/wikis/home

@@ -5,6 +5,7 @@
 ;; Author: Oleh Krehel <ohwoeowho@gmail.com>
 ;; URL: https://github.com/abo-abo/ido-occasional
 ;; Package-Version: 20150214.1248
+;; Package-Commit: d405f1795e1e0c63be411ee2825184738d29c33a
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "24.1"))
 ;; Keywords: completion

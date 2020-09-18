@@ -5,6 +5,7 @@
 ;; Author: Yasuyuki Oka <yasuyk@gmail.com>
 ;; Version: DEV
 ;; Package-Version: 20131015.1558
+;; Package-Commit: 88f24876ee3b759978d4614a758280b5d512d543
 ;; URL: https://github.com/yasuyk/ac-emmet
 ;; Package-Requires: ((emmet-mode "1.0.2") (auto-complete "1.4"))
 ;; Keywords: completion, convenience, emmet

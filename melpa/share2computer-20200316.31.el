@@ -6,6 +6,7 @@
 ;; Author: Feng Shu <tumashu@163.com>
 ;; URL: https://github.com/tumashu/share2computer
 ;; Package-Version: 20200316.31
+;; Package-Commit: 15da47625a800e3310b8dc714bd4e41e32966d6a
 ;; Keywords: convenience, comm
 ;; Version: 0.0.1
 ;; Package-Requires: ((emacs "25.1"))

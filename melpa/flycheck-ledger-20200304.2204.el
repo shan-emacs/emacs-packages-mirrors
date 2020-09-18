@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/purcell/flycheck-ledger
 ;; Version: DEV
 ;; Package-Version: 20200304.2204
+;; Package-Commit: 628e25ba66604946085571652a94a54f4d1ad96f
 ;; Keywords: convenience languages tools
 ;; Package-Requires: ((emacs "24.1") (flycheck "0.15"))
 

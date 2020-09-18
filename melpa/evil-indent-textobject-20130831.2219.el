@@ -5,6 +5,7 @@
 ;; Created: 2013-08-31
 ;; Version: 0.2
 ;; Package-Version: 20130831.2219
+;; Package-Commit: 70a1154a531b7cfdbb9a31d6922482791e20a3a7
 ;; Keywords: convenience evil
 ;; URL: http://github.com/cofi/evil-indent-textobject
 ;; Package-Requires: ((evil "0"))

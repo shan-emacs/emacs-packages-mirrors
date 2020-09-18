@@ -5,6 +5,7 @@
 ;; Author: Anders Lindgren
 ;; Keywords: faces, tools
 ;; Package-Version: 20170208.2008
+;; Package-Commit: 6e096458416888a4f63cca0d6bc5965a052753c8
 ;; Version: 0.0.3
 ;; URL: https://github.com/Lindydancer/font-lock-profiler
 ;; Package-Requires: ((emacs "24.3"))

@@ -5,6 +5,7 @@
 ;; Author: Tim Visher <tim.visher@gmail.com>
 ;; Keywords: convenience
 ;; Package-Version: 20170818.1251
+;; Package-Commit: 69dd6125a41d8b55f4b6ba61daa4d1aa1f716fa8
 ;; Package-Requires: ((emacs "24") (sequences "0.1.0"))
 ;; Version: 1.0.1
 

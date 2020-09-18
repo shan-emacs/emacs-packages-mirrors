@@ -6,6 +6,7 @@
 ;; Homepage: https://gitlab.com/fommil/emacs-prettify-greek
 ;; Keywords: faces
 ;; Package-Version: 20160603.908
+;; Package-Commit: 698d07a6ffe85f6fb53f3bfec4f49380c25cfd90
 
 ;;; Commentary:
 ;;

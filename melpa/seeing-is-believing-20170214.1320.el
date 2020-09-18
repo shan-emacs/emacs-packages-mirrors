@@ -5,6 +5,7 @@
 ;; Author: John Cinnamond
 ;; Version: 1.2.0
 ;; Package-Version: 20170214.1320
+;; Package-Commit: fbbe246c0fda87bb26227bb826eebadb418a220f
 
 ;;; Commentary:
 ;;

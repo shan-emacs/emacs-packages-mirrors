@@ -7,6 +7,7 @@
 
 ;; Package-Requires: ((emacs "25.3"))
 ;; Package-Version: 20200514.1946
+;; Package-Commit: f6bebfe6fe51b728ebd013b7084becad23cabad3
 
 ;; This file is not part of GNU Emacs.
 

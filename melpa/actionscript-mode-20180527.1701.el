@@ -5,6 +5,7 @@
 ;; Author: Austin Haas
 ;; Keywords: language modes
 ;; Package-Version: 20180527.1701
+;; Package-Commit: 65abd58e198458a8e46748c5962c41d80d60c4ea
 
 ;; Tabbing stolen from: Aemon Cannon, http://github.com/aemoncannon/as3-mode/tree/master/as3-mode.el
 ;; Copyright (C) 2007 Aemon Cannon

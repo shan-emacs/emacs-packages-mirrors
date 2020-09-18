@@ -4,6 +4,7 @@
 
 ;; Author: Sebastian Wiesner <swiesner@lunaryorn.com>
 ;; URL: https://github.com/lunaryorn/fancy-battery.el
+;; Package-Commit: 9b88ae77a01aa3edc529840338bcb2db7f445822
 ;; Keywords: convenience tools hardware
 ;; Package-Version: 20150101.1204
 ;; Package-X-Original-Version: 0.3-cvs

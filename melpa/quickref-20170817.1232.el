@@ -5,6 +5,7 @@
 ;; Author: Kyle Hargraves
 ;; URL: https://github.com/pd/quickref.el
 ;; Package-Version: 20170817.1232
+;; Package-Commit: f368c8b8219bb90498c5ab84e26f00eedaa234cf
 ;; Version: 0.2
 ;; Package-Requires: ((dash "1.0.3") (s "1.0.0"))
 

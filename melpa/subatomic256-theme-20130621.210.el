@@ -6,6 +6,7 @@
 ;; Modified by: Chris Corbyn <chris@w3style.co.uk>
 ;; URL: https://github.com/cryon/subatomic256
 ;; Package-Version: 20130621.210
+;; Package-Commit: 326177d6f99cd2b1d30df695e67ee3bc441cd96f
 ;; Version: 1.3
 
 ;; This file is free software: you can redistribute it and/or modify

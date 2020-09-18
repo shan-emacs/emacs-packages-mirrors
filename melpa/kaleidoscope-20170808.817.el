@@ -5,6 +5,7 @@
 ;; Author: Gergely Nagy
 ;; URL: https://github.com/algernon/kaleidoscope.el
 ;; Package-Version: 20170808.817
+;; Package-Commit: 52b5be3277f65cb5ca657973e9bd7f914b996356
 ;; Version: 0.1.0
 ;; Package-Requires: ((s "1.11.0"))
 ;;

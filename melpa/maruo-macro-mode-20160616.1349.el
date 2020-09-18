@@ -6,6 +6,7 @@
 ;; Created: 4 May 2016
 ;; Keywords: programming editor macro
 ;; Package-Version: 20160616.1349
+;; Package-Commit: 8fc9a38ad051eafa8eb94038711acc52c5d1d8d5
 ;; Package-Requires: ((emacs "24.3"))
 
 ;; This file is NOT part of GNU Emacs.

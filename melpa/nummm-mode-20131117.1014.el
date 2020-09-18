@@ -7,6 +7,7 @@
 ;; Filename: nummm-mode.el
 ;; Version: 0.1
 ;; Package-Version: 20131117.1014
+;; Package-Commit: 81951e12032274543c5f7a585b29bd93961e94e4
 ;; Author: Andreu Gil <agpchil@gmail.com>
 ;; Created: 02-06-2013
 ;; Description: Display the number of minor modes instead of their names in Emacs mode-line.

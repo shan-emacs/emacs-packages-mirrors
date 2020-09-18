@@ -6,6 +6,7 @@
 
 ;; Author: caffo
 ;; Version: 0.1
+;; Package-Commit: 36df566aa8225e303f6c9d90c00740dd678a415e
 ;; Package-Version: 20181015.1230
 ;; Package-X-Original-Version: 0
 ;; Package-Requires: ((emacs "24"))

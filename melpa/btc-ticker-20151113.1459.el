@@ -5,6 +5,7 @@
 ;; Author: Jorge Niedbalski R. <jnr@metaklass.org>
 ;; Version: 0.1
 ;; Package-Version: 20151113.1459
+;; Package-Commit: 845235b545f070d0812cd1654cbaa4997565824f
 ;; Package-Requires: ((json "1.2") (request "0.2.0"))
 ;; Keywords: news
 

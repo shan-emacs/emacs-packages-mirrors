@@ -1,2 +1,0 @@
-
-(fit-text-scale . [(20200315 2120) ((emacs (25 1))) "Fit text by scaling" single ((:commit . "387acab18f9f4064c051771cf666b8550718dc27") (:keywords "convenience") (:authors ("Marco Wahl" . "marcowahlsoft@gmail.com")) (:maintainer "Marco Wahl" . "marcowahlsoft@gmail.com") (:url . "https://gitlab.com/marcowahl/fit-text-scale"))])

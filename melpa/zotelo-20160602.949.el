@@ -7,6 +7,7 @@
 ;; Created: Oct 2 2011
 ;; Version: 1.3.9000
 ;; Package-Version: 20160602.949
+;; Package-Commit: d9dc089b9adfcc70a63f2a84269a12eb7cb4c748
 ;; URL: https://github.com/vitoshka/zotelo
 ;; Keywords: zotero, emacs, reftex, bibtex, MozRepl, bibliography manager
 ;; Package-Requires: ((cl-lib "0.5"))

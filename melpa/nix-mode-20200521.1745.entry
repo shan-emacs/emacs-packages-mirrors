@@ -1,2 +1,0 @@
-
-(nix-mode . [(20200521 1745) ((emacs (25))) "Major mode for editing .nix files" tar ((:commit . "71fda1db41160e03b181ea00086a869ae93546e1") (:keywords "nix" "languages" "tools" "unix") (:maintainer "Matthew Bauer" . "mjbauer95@gmail.com") (:url . "https://github.com/NixOS/nix-mode"))])

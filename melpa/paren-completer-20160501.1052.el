@@ -5,6 +5,7 @@
 ;; Author: Matthew Bregg
 ;; Mantainer: Matthew Bregg
 ;; Keywords: convenience
+;; Package-Commit: 74183a8e13fa1266271bdcbcb4bfb29a4f915f0a
 ;; Package-Version: 20160501.1052
 ;; Package-X-Original-Version: 20150711.1523
 ;; URL: https://github.com/MatthewBregg/paren-completer

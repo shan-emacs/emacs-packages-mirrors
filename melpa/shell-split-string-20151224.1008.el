@@ -3,6 +3,7 @@
 ;; Author: 10sr <8.slashes+el [at] gmail [dot] com>
 ;; URL: https://github.com/10sr/shell-split-string-el
 ;; Package-Version: 20151224.1008
+;; Package-Commit: 19f6f999c33cc66a4c91bacdcc3697c25d97bf5a
 ;; Version: 0.1
 ;; Package-Requires: ()
 ;; Keywords: utility library shell string

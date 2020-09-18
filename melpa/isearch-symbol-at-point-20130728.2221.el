@@ -5,6 +5,7 @@
 ;; Author: atom smith
 ;; URL: https://github.com/re5et/isearch-symbol-at-point
 ;; Package-Version: 20130728.2221
+;; Package-Commit: 51a1029bec1ec414885f9edb7e5947603dffdab2
 ;; Created: 30 May 2013
 ;; Keywords: isearch
 

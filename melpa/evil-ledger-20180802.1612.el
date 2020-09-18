@@ -5,6 +5,7 @@
 ;; Author: Aaron Jacobs <atheriel@gmail.com>
 ;; URL: https://github.com/atheriel/evil-ledger
 ;; Package-Version: 20180802.1612
+;; Package-Commit: 7a9f9f5d39c42fffdba8004f8982642351f2b233
 ;; Keywords: convenience evil languages ledger vim-emulation
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24.4") (evil "1.2.12") (ledger-mode "0"))

@@ -5,6 +5,7 @@
 ;; Author: Markus Triska <markus.triska@gmx.at>
 ;; Keywords: convenience
 ;; Package-Version: 20100210.1552
+;; Package-Commit: e3a02c1784d81b5a1d2477338d049af581ed19f8
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

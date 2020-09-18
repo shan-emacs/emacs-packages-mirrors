@@ -7,6 +7,7 @@
 ;; Created: 29 Mar 2008
 ;; Version: 0.01
 ;; Package-Version: 20090830.1040
+;; Package-Commit: 930da302809a4257e8d69425455b29e1cc91949b
 ;; Keywords: help
 
 ;; This program is free software; you can redistribute it and/or modify

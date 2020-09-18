@@ -6,6 +6,7 @@
 ;; Author: David Engster <deng@randomsample.de>
 ;; Keywords: calendar, caldav
 ;; Package-Version: 20200510.2030
+;; Package-Commit: 8569941a0a5a9393ba51afc8923fd7b77b73fa7a
 ;; Package-Requires: ((org "7"))
 ;;
 ;; This file is not part of GNU Emacs.

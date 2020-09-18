@@ -1,0 +1,2 @@
+
+(multi-vterm . [(20200614 548) ((emacs (26 3)) (vterm (0 0)) (projectile (1 2 0))) "Like multi-term.el but for vterm" single ((:commit . "723658c162d483acc07fccf2dd8ae5b8582616f7") (:keywords "terminals" "processes") (:url . "https://github.com/suonlight/multi-libvterm"))])

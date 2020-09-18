@@ -4,6 +4,7 @@
 ;; Maintainer: Gabriel Saldana <gsaldana@gmail.com>
 ;; Version: 1.0
 ;; Package-Version: 20120331.820
+;; Package-Commit: 1f6cf0bdd27c5eb3508989c5095427781f858eca
 ;; Keywords: timer tea-time
 
 ;; Copyright (C) 2011-2012 Gabriel Saldana <gsaldana@gmail.com>

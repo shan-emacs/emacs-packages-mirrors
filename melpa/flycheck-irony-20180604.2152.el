@@ -5,6 +5,7 @@
 ;; Author: Guillaume Papin <guillaume.papin@epitech.eu>
 ;; Keywords: convenience, tools, c
 ;; Package-Version: 20180604.2152
+;; Package-Commit: 42dbecd4a865cabeb301193bb4d660e26ae3befe
 ;; Version: 0.1.0
 ;; URL: https://github.com/Sarcasm/flycheck-irony/
 ;; Package-Requires: ((emacs "24.1") (flycheck "0.22") (irony "0.2.0"))

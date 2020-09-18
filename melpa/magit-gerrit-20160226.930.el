@@ -5,6 +5,7 @@
 ;; Author: Brian Fransioli <assem@terranpro.org>
 ;; URL: https://github.com/terranpro/magit-gerrit
 ;; Package-Version: 20160226.930
+;; Package-Commit: ece6f369694aca17f3ac166ed2801b432acfe20d
 ;; Package-Requires: ((magit "2.3.1"))
 ;;
 ;; This program is free software; you can redistribute it and/or

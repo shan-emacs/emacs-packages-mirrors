@@ -19,6 +19,7 @@
 ;; Author: IGARASHI Masanao <syoux2@gmail.com>
 ;; Keywords: org, nikola
 ;; Package-Version: 20151114.1116
+;; Package-Commit: 5bcbc1a38f6619f62294194f13ca0cd4ca14dd48
 ;; Version: 0.1
 ;; URL: https://github.com/masayuko/ox-nikola
 ;; Package-Requires: ((emacs "24.4") (org "8.2.4") (ox-rst "0.2"))

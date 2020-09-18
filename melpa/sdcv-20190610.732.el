@@ -7,6 +7,7 @@
 ;; Created: 2009-02-05 22:04:02
 ;; Version: 1.5.2
 ;; Package-Version: 20190610.732
+;; Package-Commit: 943ae3e90cc9a0a88a37cc710acd7424fd4defc4
 ;; Last-Updated: 2009-04-04 09:11:00
 ;;           By: Andy Stewart
 ;; URL: http://www.emacswiki.org/emacs/download/sdcv.el

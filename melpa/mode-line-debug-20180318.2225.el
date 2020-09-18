@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/tarsius/mode-line-debug
 ;; Keywords: convenience, lisp
 ;; Package-Version: 20180318.2225
+;; Package-Commit: a0fcc394b07d2414bd6f722da10f1c7567333f6b
 
 ;; This file is not part of GNU Emacs.
 

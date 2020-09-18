@@ -5,6 +5,7 @@
 ;; Author: J Irving <j@lollyshouse.ca>
 ;; URL: http://github.com/j0ni/phoenix-dark-pink
 ;; Package-Version: 20190821.48
+;; Package-Commit: ddd98a45775be105984ec598384e68df3d3e8046
 ;; Version: 3
 
 ;; This file is free software; you can redistribute it and/or modify

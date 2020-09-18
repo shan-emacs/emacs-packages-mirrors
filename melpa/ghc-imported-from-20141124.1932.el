@@ -6,6 +6,7 @@
 ;; Maintainer: David Raymond Christiansen <david@davidchristiansen.dk>
 ;; Keywords: languages
 ;; Package-Version: 20141124.1932
+;; Package-Commit: fcff08628a19f5d26151564659218cc677779b79
 ;; Package-Requires: ((emacs "24.1"))
 ;; Version: 0.1.2
 

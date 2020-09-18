@@ -3,6 +3,7 @@
 ;; Author: Martin Haesler
 ;; URL: http://github.com/mswift42/sunny-day-theme
 ;; Package-Version: 20140413.2125
+;; Package-Commit: 420e0a6eb33fcc9b75c2c9e88ab60a975d782a00
 ;; Version: 0.2
 
 ;; Emacs24 theme with a light-yellow background.

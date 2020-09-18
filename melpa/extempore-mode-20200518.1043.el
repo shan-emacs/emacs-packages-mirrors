@@ -2,6 +2,7 @@
 ;; Author: Ben Swift <ben@benswift.me>
 ;; Keywords: Extempore
 ;; Package-Version: 20200518.1043
+;; Package-Commit: 7d0ca861e6b483be1f4a08e63c5ade9cd07b4799
 ;; Version: 1.0
 ;; Keywords: lisp, extempore
 ;; URL: http://github.com/extemporelang/extempore-emacs-mode

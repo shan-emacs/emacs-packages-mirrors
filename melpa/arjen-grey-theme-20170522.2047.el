@@ -5,6 +5,7 @@
 ;; Maintainer: Arjen Wiersma <arjen@wiersma.org>
 ;; Url: https://github.com/credmp/arjen-grey
 ;; Package-Version: 20170522.2047
+;; Package-Commit: 4cd0be72b65d42390e2105cfdaa408a1ead8d8d1
 ;; Keywords: faces
 ;; Version: 20150731
 

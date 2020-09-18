@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/pjones/passmm
 ;; Package-Requires: ((emacs "24.4") (password-store "0"))
 ;; Package-Version: 20181130.1612
+;; Package-Commit: b25a92048c788a8477cc5ffe14c0c4a4df19d79a
 ;; Version: 0.4.1
 ;;
 ;; This file is not part of GNU Emacs.

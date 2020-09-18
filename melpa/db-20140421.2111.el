@@ -6,6 +6,7 @@
 ;; Maintainer: Nic Ferrier <nferrier@ferrier.me.uk>
 ;; Keywords: data, lisp
 ;; Package-Version: 20140421.2111
+;; Package-Commit: b3a423fb8e72f9013009cbe033d654df2ce31438
 ;; Created: 23rd September 2012
 ;; Package-Requires: ((kv "0.0.11"))
 ;; Version: 0.0.6

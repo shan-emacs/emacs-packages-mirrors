@@ -1,2 +1,0 @@
-
-(hl-fill-column . [(20200404 306) ((names (0 5)) (emacs (24))) "Highlight fill column." single ((:commit . "43cb3c35a92c912b7205b8a36f1ad0ec0a5b4a22") (:keywords "fill column" "faces") (:url . "https://github.com/laishulu/hl-fill-column"))])

@@ -5,6 +5,7 @@
 ;; Author: Leandro Facchinetti <me@leafac.com>
 ;; Version: 0.0.1
 ;; Package-Version: 20180227.1810
+;; Package-Commit: 4b30a36e71182553a02e4dd415369290d98ec03a
 ;; Keywords: password
 ;; URL: https://git.leafac.com/org-password-manager
 ;; Package-Requires: ((org "8.2.10") (s "1.9.0") (dash "2.13.0"))

@@ -6,6 +6,7 @@
 ;; Created: 2015-06-02
 ;; Version: 1.0.1
 ;; Package-Version: 20160118.2018
+;; Package-Commit: b6ab2a28e64ef06f281ec74cfe3114e450644dfa
 ;; Keywords: find-file
 ;; Package-Requires: ((cl-lib "0.5") (emacs "24"))
 ;; URL: https://github.com/fourier/cff

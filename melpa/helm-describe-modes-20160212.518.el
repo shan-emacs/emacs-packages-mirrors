@@ -5,6 +5,7 @@
 ;; Author: Tianxiang Xiong <tianxiang.xiong@gmail.com>
 ;; Package-Requires: ((helm "1.9") (cl-lib "0.5") (emacs "24.1"))
 ;; Package-Version: 20160212.518
+;; Package-Commit: 11fb36af119b784539d31c6160002de1957408aa
 ;; Keywords: docs, convenience
 ;; URL: https://github.com/emacs-helm/helm-describe-modes
 ;; Version: 1.0.0

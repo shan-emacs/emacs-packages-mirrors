@@ -5,6 +5,7 @@
 ;; Author: montag451
 ;; URL: https://github.com/montag451/helm-lxc
 ;; Package-Version: 20200323.816
+;; Package-Commit: 37fe2d7ed97967edf59a3b68b1434910516ae24f
 ;; Keywords: helm, lxc, convenience
 ;; Version: 0.2.0
 ;; Package-Requires: ((emacs "25") (cl-lib "0.5") (helm "2.9.4") (lxc-tramp "0.2.0"))

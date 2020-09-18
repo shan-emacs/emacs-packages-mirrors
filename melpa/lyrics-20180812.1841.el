@@ -5,6 +5,7 @@
 ;; Author: Mario Rodas <marsam@users.noreply.github.com>
 ;; URL: https://github.com/emacs-pe/lyrics.el
 ;; Package-Version: 20180812.1841
+;; Package-Commit: d0b920be634a5be81ad49418cfaada0f0a57d6cd
 ;; Keywords: convenience
 ;; Version: 0.0.1
 ;; Package-Requires: ((emacs "25.1") (seq "2.15"))

@@ -1,5 +1,6 @@
 ;;; look-mode.el --- quick file viewer for image and text file browsing
 ;; Package-Version: 20190212.2346
+;; Package-Commit: d686e4cfafeac24e07e3efdb9763472f78d878f4
 
 ;;; Copyright (C) 2008,2009,2019 Peter H. Mao
 

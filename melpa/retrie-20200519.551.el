@@ -7,6 +7,7 @@
 ;; Created: 2020/05/16
 ;; Version: 0.0.1
 ;; Package-Version: 20200519.551
+;; Package-Commit: 976d6f01a3e214917f16b82e750d825cb9bfcc59
 ;; Keywords: files, languages, tools
 ;; URL: https://github.com/Ailrun/emacs-retrie
 ;; Package-Requires: ((emacs "24.5"))

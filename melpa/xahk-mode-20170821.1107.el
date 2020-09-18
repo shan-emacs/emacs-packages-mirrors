@@ -5,6 +5,7 @@
 ;; Author: Xah Lee ( http://xahlee.info/ )
 ;; Version: 1.4.1
 ;; Package-Version: 20170821.1107
+;; Package-Commit: 02012b20603c00e3b2ef32159a690ed1e05d12c3
 ;; Created: 09 Jan 2010
 ;; Package-Requires: ((emacs "24.1"))
 ;; Keywords: languages

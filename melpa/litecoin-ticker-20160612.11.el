@@ -4,6 +4,7 @@
 ;;
 ;; Author: Zhe Lei
 ;; Version: 0.2
+;; Package-Commit: 3d8047c736e4ee0b8638953f8cc63eaefad34106
 ;; Package-Version: 20160612.11
 ;; Package-X-Original-Version: 20160513
 ;; Package-Requires: ((json "1.2"))

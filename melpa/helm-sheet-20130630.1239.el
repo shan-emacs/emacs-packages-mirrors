@@ -5,6 +5,7 @@
 ;; Author: Yasuyuki Oka <yasuyk@gmail.com>
 ;; Version: DEV
 ;; Package-Version: 20130630.1239
+;; Package-Commit: d360b68d0ddb09aa1854e7b2f3cb39caeee26463
 ;; URL: https://github.com/yasuyk/helm-sheet
 ;; Package-Requires: ((helm "1.0"))
 ;; Keywords: helm sheet

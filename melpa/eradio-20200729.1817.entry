@@ -1,0 +1,2 @@
+
+(eradio . [(20200729 1817) ((emacs (24 1))) "A radio player frontend for vlc" single ((:commit . "30ce432f3e2fc6d5d4836d9b5e87f3612dcf51b6") (:authors ("Olav Fosse" . "fosseolav@gmail.com")) (:maintainer "Olav Fosse" . "fosseolav@gmail.com") (:url . "https://github.com/olav35/eradio"))])

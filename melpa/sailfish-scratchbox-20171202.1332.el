@@ -5,6 +5,7 @@
 ;; Author: V. V. Polevoy <fx@thefx.co>
 ;; Version: 1.2.2
 ;; Package-Version: 20171202.1332
+;; Package-Commit: 65c6b04abadd2cdeb4cc2dc2a8b96b06e0f27ed8
 ;; Keywords: sb2, mb2, building, scratchbox, sailfish
 ;; URL: https://github.com/vityafx/sailfish-scratchbox.el
 ;; License: MIT

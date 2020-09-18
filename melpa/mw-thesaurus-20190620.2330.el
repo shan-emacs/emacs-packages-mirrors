@@ -3,6 +3,7 @@
 ;; Author: Ag Ibragimov
 ;; URL: https://github.com/agzam/mw-thesaurus.el
 ;; Package-Version: 20190620.2330
+;; Package-Commit: 8327bae11588bcad5d73dcfbeb5e8d10f623d6b6
 ;; Created: Nov-2017
 ;; Keywords: wp, matching
 ;; License: GPL v3

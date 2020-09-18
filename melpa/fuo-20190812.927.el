@@ -5,6 +5,7 @@
 ;; Author: cosven <yinshaowen241@gmail.com>
 ;; URL: http://github.com/cosven/emacs-fuo
 ;; Package-Version: 20190812.927
+;; Package-Commit: 0e4122f94a336a50c02bc96652d25ac3d74bedeb
 ;; Package-Requires: ((emacs "24.4"))
 ;; Version: 1.0beta
 ;; Keywords: feeluown, multimedia, unix

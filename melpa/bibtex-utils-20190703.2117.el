@@ -8,6 +8,7 @@
 ;; Author: Tyler Smith <tyler@plantarum.ca>
 ;; Version: 0.3
 ;; Package-Version: 20190703.2117
+;; Package-Commit: 26a8f0909b6adbf545a2b5e57ce7f779bf7a65af
 ;; Keywords: bibtex
 ;; URL: https://github.com/plantarum/bibtex-utils
 

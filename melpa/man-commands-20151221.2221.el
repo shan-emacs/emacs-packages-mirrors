@@ -5,6 +5,7 @@
 ;; Author: Nathaniel Flath <nflath@gmail.com>
 ;; URL: http://github.com/nflath/man-commands
 ;; Package-Version: 20151221.2221
+;; Package-Commit: f4ba0c3790855d7544dff92d470d212f24de1d9d
 ;; Version: 1.1
 ;; Package-Requires: ((cl-lib "0.5"))
 

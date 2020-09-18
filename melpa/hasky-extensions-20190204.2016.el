@@ -5,6 +5,7 @@
 ;; Author: Mark Karpov <markkarpov92@gmail.com>
 ;; URL: https://github.com/hasky-mode/hasky-extensions
 ;; Package-Version: 20190204.2016
+;; Package-Commit: 4a0d1d9beb3be8ff4a1857eb920c916734dcc8e1
 ;; Version: 0.2.0
 ;; Package-Requires: ((emacs "24.4") (avy-menu "0.2"))
 ;; Keywords: programming

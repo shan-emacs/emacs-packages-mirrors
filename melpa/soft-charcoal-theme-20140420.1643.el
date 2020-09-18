@@ -2,6 +2,7 @@
 ;; Author: Martin Haesler
 ;; URL: http://github.com/mswift42/soft-charcoal-theme
 ;; Package-Version: 20140420.1643
+;; Package-Commit: 5607ab977fae6638e78b1495e02da8955c9ba19f
 ;; Version: 0.2
 
 ;; dark theme with a charcoal bg and soft colors

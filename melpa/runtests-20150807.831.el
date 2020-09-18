@@ -5,6 +5,7 @@
 ;; Author: Sune Simonsen <sune@we-knowhow.dk>
 ;; URL: https://github.com/sunesimonsen/emacs-runtests
 ;; Package-Version: 20150807.831
+;; Package-Commit: ed90249f24cc48290018df48b9b9b7172440be3e
 ;; Keywords: test
 ;; Version: 1.0.0
 ;;

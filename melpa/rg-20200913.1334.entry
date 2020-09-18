@@ -1,0 +1,2 @@
+
+(rg . [(20200913 1334) ((emacs (25 1)) (transient (0 1 0)) (wgrep (2 1 10))) "A search tool based on ripgrep" tar ((:commit . "7326691e9c761a80f64d00c0848925c6e25c53c0") (:keywords "matching" "tools") (:authors ("David Landell" . "david.landell@sunnyhill.email") ("Roland McGrath" . "roland@gnu.org")) (:maintainer "David Landell" . "david.landell@sunnyhill.email") (:url . "https://github.com/dajva/rg.el"))])

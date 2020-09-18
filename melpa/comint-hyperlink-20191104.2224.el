@@ -6,6 +6,7 @@
 ;; Created: 15 Aug 2019
 ;; Keywords: comint, shell, processes, hypermedia, terminals
 ;; Package-Version: 20191104.2224
+;; Package-Commit: a7878825788ff6b9d6b8a5adf0214a028bad895e
 ;; Version: 0.1.6
 ;; Homepage: https://github.com/matthewbauer/comint-hyperlink
 ;; Package-Requires: ((emacs "24.3"))

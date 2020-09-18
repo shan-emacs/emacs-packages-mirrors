@@ -5,6 +5,7 @@
 ;; Author: Christopher R. Genovese <genovese@cmu.edu>
 ;; Maintainer: Christopher R. Genovese <genovese@cmu.edu>
 ;; Keywords: R, S, ESS, convenience
+;; Package-Commit: 746cf9e78c3b86cbbf78d69c335a8a4ff3da79d6
 ;; URL: https://github.com/genovese/ess-smart-equals
 ;; Version: 0.3.1
 ;; Package-Version: 20190204.449

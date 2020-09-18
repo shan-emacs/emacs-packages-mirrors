@@ -3,6 +3,7 @@
 ;;; Author: Javier "PuercoPop" Olaechea <pirata@gmail.com>
 ;;; URL: http://github.com/PuercoPop/password-vault
 ;; Package-Version: 20160126.1820
+;; Package-Commit: dc56e6c2f5da66f1ab63736cecf08fb2c6c2b30f
 ;;; Version: 20131104
 ;;; Keywords: password, productivity
 ;;; Package-Requires: ((cl-lib "0.2") (emacs "24"))

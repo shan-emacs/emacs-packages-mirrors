@@ -5,6 +5,7 @@
 ;; Author: J.A <jer.github@gmail.com>
 ;; Keywords: processes
 ;; Package-Version: 20160403.646
+;; Package-Commit: 72fcd867cfa332fdb82f732925cf8977e690af78
 ;; Version: 1.0
 
 ;; This program is free software; you can redistribute it and/or modify

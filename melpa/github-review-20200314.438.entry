@@ -1,2 +1,0 @@
-
-(github-review . [(20200314 438) ((emacs (25)) (s (1 12 0)) (ghub (2 0)) (dash (2 11 0)) (deferred (0 5 1))) "GitHub based code review" single ((:commit . "50c6bcc7cf4d7193577b3f74eea4dd72f2b7795b") (:keywords "git" "tools" "vc" "github") (:authors ("Laurent Charignon" . "l.charignon@gmail.com")) (:maintainer "Laurent Charignon" . "l.charignon@gmail.com") (:url . "https://github.com/charignon/github-review"))])

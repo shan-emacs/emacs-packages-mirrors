@@ -6,6 +6,7 @@
 ;; Maintainer: Feng Shu <tumashu@163.com>
 ;; URL: https://github.com/tumashu/helm-posframe
 ;; Package-Version: 20200512.1146
+;; Package-Commit: b107e64eedef6292c49d590f30d320c29b64190b
 ;; Version: 0.1.0
 ;; Keywords: abbrev, convenience, matching, helm
 ;; Package-Requires: ((emacs "26.0")(posframe "0.1.0")(helm "0.1"))

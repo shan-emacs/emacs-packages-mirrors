@@ -3,6 +3,7 @@
 ;; Author: James Atwood <jatwood@cs.umass.edu>
 ;; Package-Requires: ((cl-lib "0.5"))
 ;; Package-Version: 20160211.2222
+;; Package-Commit: eb7efb0cccc127c414f6a64db11454869d9c10a8
 
 ;; This file is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

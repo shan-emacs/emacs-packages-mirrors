@@ -6,6 +6,7 @@
 ;; Created: 2016-4-22
 ;; Version: 0.1
 ;; Package-Version: 20160425.1250
+;; Package-Commit: 076b81d7a53f75b0a59b0ef3448f35570567054c
 ;; Keywords: convenience, region
 ;; Package-Requires: ((emacs "24.4"))
 ;; URL: https://github.com/lujun9972/sendto.el

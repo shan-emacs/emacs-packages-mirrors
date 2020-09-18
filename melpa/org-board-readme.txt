@@ -29,7 +29,8 @@ Variables defined here:
   `org-board-agent-header-alist', `org-board-archive-date-format',
   `org-board-default-browser', `org-board-domain-regexp-alist',
   `org-board-log-wget-invocation', `org-board-wget-program',
-  `org-board-wget-show-buffer', `org-board-wget-switches'.
+  `org-board-wget-show-buffer', `org-board-wget-switches',
+  `org-board-make-relative'.
 
 Keymap defined here:
 
@@ -140,6 +141,9 @@ Documentation:
  manual for details on the possible values of this string).  For an
  example use of `org-board-after-archive-functions', see the
  "Example usage" section below.
+
+ `org-board-make-relative' (default nil) makes the stored link in
+ mode to be relative to the org file holding it.
 
 * Known limitations
 

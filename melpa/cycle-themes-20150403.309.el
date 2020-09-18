@@ -5,6 +5,7 @@
 ;; Authors: Katherine Whitlock <toroidalcode@gmail.com>
 ;; URL: http://github.com/toroidal-code/cycle-themes.el
 ;; Package-Version: 20150403.309
+;; Package-Commit: 6e125d11fdbc6b78fc9f219eb2609a5e29815898
 ;; Version: 1.0
 ;; Package-Requires: ((cl-lib "0.5"))
 ;; Keywords: Themes, Utility, Global Minor Mode

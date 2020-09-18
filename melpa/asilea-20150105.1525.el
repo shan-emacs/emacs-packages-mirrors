@@ -2,6 +2,7 @@
 
 ;; Author: Fanael Linithien <fanael4@gmail.com>
 ;; URL: https://github.com/Fanael/asilea
+;; Package-Commit: 2aab1cc63b64ef08d12e84fd7ba5c94065f6039f
 ;; Package-Version: 20150105.1525
 ;; Package-X-Original-Version: 0.2.1
 ;; Package-Requires: ((emacs "24") (cl-lib "0.5"))

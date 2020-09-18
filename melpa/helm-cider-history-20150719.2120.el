@@ -5,6 +5,7 @@
 ;; Author: Andreas Klein <git@kungi.org>
 ;; URL: https://github.com/Kungi/helm-cider-history
 ;; Package-Version: 20150719.2120
+;; Package-Commit: c391fcb2e162a02001605a0b9449783575a831fd
 ;; Created: 19.07.2015
 ;; Keywords: convenience
 ;; Version: 0.0.1

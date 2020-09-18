@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/matthewbauer/nix-haskell
 ;; Keywords: nix, haskell, languages, processes
 ;; Package-Version: 20190615.135
+;; Package-Commit: 68efbcbf949a706ecca6409506968ed2ef928a20
 ;; Version: 0.0.3
 ;; Package-Requires: ((emacs "25") (haskell-mode "16.0") (nix-mode "1.3.0"))
 

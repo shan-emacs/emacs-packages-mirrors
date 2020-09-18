@@ -4,6 +4,7 @@
 
 ;; Author: Philip Arvidsson <philip@philiparvidsson.com>
 ;; URL: https://github.com/philiparvidsson/GitHub-Theme-for-Emacs
+;; Package-Commit: a7e7b8e5e9c122138e79e837caf9b7299e748d44
 ;; Package-Version: 20171109.1251
 ;; Package-X-Original-Version: 20170624.2230
 ;; Version: 2.1

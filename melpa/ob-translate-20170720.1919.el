@@ -6,6 +6,7 @@
 ;; Maintainer: Kris Jenkins <krisajenkins@gmail.com>
 ;; Keywords: org babel translate translation
 ;; Package-Version: 20170720.1919
+;; Package-Commit: 9d9054a51bafd5a29a8135964069b4fa3a80b169
 ;; URL: https://github.com/krisajenkins/ob-translate
 ;; Created: 16th July 2013
 ;; Version: 0.1.3

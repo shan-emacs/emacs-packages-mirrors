@@ -4,6 +4,7 @@
 
 ;; Author: Augusto Stoffel
 ;; URL: https://github.com/astoff/unicode-math-input.el
+;; Package-Commit: ba45edbfb8fa453e29c4c6c73af60f06637951d6
 ;; Package-Version: 20190813.1436
 ;; Package-X-Original-Version: 0.1
 ;; Package-Requires: ((emacs "25"))

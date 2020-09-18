@@ -5,6 +5,7 @@
 ;; Author: Hiroaki Otsu <ootsuhiroaki@gmail.com>
 ;; Keywords: convenience, git, github
 ;; Package-Version: 20170401.1249
+;; Package-Commit: ef2cf9202dc2128e5efdb613bfde9276a8cd95ad
 ;; URL: https://github.com/aki2o/emacs-bts-github
 ;; Version: 0.0.5
 ;; Package-Requires: ((bts "0.0.1") (gh "0.8.2"))

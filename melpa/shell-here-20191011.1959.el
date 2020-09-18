@@ -5,6 +5,7 @@
 ;; Author: Ian Eure <ian.eure@gmail.com>
 ;; Version: 1.3
 ;; Package-Version: 20191011.1959
+;; Package-Commit: 88b80deb1337a97b403b20fc467fa2d579b3bfd5
 ;; Keywords: unix, tools, processes
 
 ;; This program is free software; you can redistribute it and/or modify

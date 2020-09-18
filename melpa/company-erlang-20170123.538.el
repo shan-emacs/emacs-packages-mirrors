@@ -6,6 +6,7 @@
 ;; Author: Sergey Kostyaev <feo.me@ya.ru>
 ;; Version: 1.0.0
 ;; Package-Version: 20170123.538
+;; Package-Commit: bc0524a16f17b66c7397690e4ca0e004f09ea6c5
 ;; Package-Requires: ((emacs "24.4") (ivy-erlang-complete "0.1") (company "0.9.2"))
 ;; Keywords: tools
 ;; 

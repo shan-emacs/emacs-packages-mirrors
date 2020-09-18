@@ -5,6 +5,7 @@
 ;; Author: Akiha Senda <senda.akiha@gmail.com>
 ;; URL: https://github.com/senda-akiha/flymake-google-cpplint/
 ;; Package-Version: 20140205.1325
+;; Package-Commit: 426e56ae1278d7a078c368e9d495003825ada0bd
 ;; Created: 02 February 2014
 ;; Version: 1.0.0
 ;; Keywords: flymake, C, C++

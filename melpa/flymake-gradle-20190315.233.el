@@ -6,6 +6,7 @@
 ;; Maintainer: James Nguyen <james@jojojames.com>
 ;; URL: https://github.com/jojojames/flymake-gradle
 ;; Package-Version: 20190315.233
+;; Package-Commit: dbedd29b78d4828ef57d4de20867be5df3eaab99
 ;; Version: 1.0
 ;; Package-Requires: ((emacs "26.1"))
 ;; Keywords: languages gradle

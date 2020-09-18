@@ -5,6 +5,7 @@
 ;; Author: Aaron Jensen <aaronjensen@gmail.com>
 ;; URL: https://github.com/aaronjensen/flycheck-credo
 ;; Package-Version: 20170526.1545
+;; Package-Commit: e88f11ead53805c361ec7706e44c3dfee1daa19f
 ;; Version: 0.1.0
 ;; Package-Requires: ((flycheck "29"))
 

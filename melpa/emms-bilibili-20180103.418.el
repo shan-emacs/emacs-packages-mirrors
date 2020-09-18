@@ -3,6 +3,7 @@
 ;; Authors: Tristan <huangtc@outlook.com>
 ;; Maintainers: stardiviner <numbchild@gmail.com>
 ;; Package-Requires: ((emacs "25") (cl-lib "0.5"))
+;; Package-Commit: 294bca3dfc42fe3a55fb326ab39bc0fcfc8c5090
 ;; Package-Version: 20180103.418
 ;; Package-X-Original-Version: 0.1
 ;; Keywords: emms bilibili

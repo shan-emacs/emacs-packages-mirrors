@@ -6,6 +6,7 @@
 ;; Author: rubikitch <rubikitch@ruby-lang.org>
 ;; Keywords: lisp, convenience
 ;; Package-Version: 20170926.23
+;; Package-Commit: 7ad077b4ee91ce8a42f84eeddb9fc7ea4eac7814
 ;; URL: http://www.emacswiki.org/cgi-bin/wiki/download/lispxmp.el
 
 ;; This file is free software; you can redistribute it and/or modify

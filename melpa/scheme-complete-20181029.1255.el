@@ -3,6 +3,7 @@
 ;;; Author: Alex Shinn
 ;;; Version: 0.9.8
 ;; Package-Version: 20181029.1255
+;; Package-Commit: b86ee41d48664839181498313f4f3dc2fef17d6f
 
 ;;; This code is written by Alex Shinn and placed in the Public
 ;;; Domain.  All warranties are disclaimed.

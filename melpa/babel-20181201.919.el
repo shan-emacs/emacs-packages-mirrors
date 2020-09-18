@@ -5,6 +5,7 @@
 ;;         Eric Marsden <emarsden@laas.fr>
 ;; URL: http://github.com/juergenhoetzel/babel
 ;; Package-Version: 20181201.919
+;; Package-Commit: c25dedb5c7f2465b122102f02cd9845668818c20
 ;; Version: 1.4
 ;; Keywords: translation, web
 

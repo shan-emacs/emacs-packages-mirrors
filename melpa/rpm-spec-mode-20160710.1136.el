@@ -5,6 +5,7 @@
 ;; Author:   Stig Bjørlykke, <stig@bjorlykke.org>
 ;; Keywords: unix, languages
 ;; Package-Version: 20160710.1136
+;; Package-Commit: c1c38050c48ea330c7cea632b8785d66daeefb2b
 ;; Version:  0.16
 
 ;; This file is part of XEmacs.

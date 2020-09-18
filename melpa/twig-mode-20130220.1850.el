@@ -5,6 +5,7 @@
 ;; Author: Bojan Matic aka moljac024
 ;; Version: 0.1
 ;; Package-Version: 20130220.1850
+;; Package-Commit: 2849f273a4855d3314a9c0cc84134f5b28ad5ea6
 
 ;; This program is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

@@ -5,6 +5,7 @@
 ;; Author: Nicolas Lamirault <nicolas.lamirault@gmail.com>
 ;; Version: 0.2.0
 ;; Package-Version: 20200421.1423
+;; Package-Commit: cdddba2d183146c340915003f1b5d09d13712c22
 ;; Keywords : sift ack pt ag grep search
 ;; Homepage: https://github.com/nlamirault/sift.el
 

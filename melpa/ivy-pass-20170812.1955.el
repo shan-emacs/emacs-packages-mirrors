@@ -3,6 +3,7 @@
 ;; Author: ecraven
 ;; URL: https://github.com/ecraven/ivy-pass/
 ;; Package-Version: 20170812.1955
+;; Package-Commit: 5b523de1151f2109fdd6a8114d0af12eef83d3c5
 ;; Package-Requires: ((emacs "24") (ivy "0.8.0") (password-store "1.6.5"))
 ;; Version: 0.1
 ;; Keywords: pass, password, convenience, data

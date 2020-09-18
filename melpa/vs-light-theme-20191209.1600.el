@@ -5,6 +5,7 @@
 ;; Author: Jen-Chieh Shen
 ;; URL: https://github.com/jcs090218/vs-light-theme
 ;; Package-Version: 20191209.1600
+;; Package-Commit: 5c11a73bfc5f3873490ed0ba88eed44e4707e455
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24.1"))
 ;; Created with emacs-theme-generator, https://github.com/mswift42/theme-creator.

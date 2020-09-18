@@ -5,6 +5,7 @@
 ;; Author: Thierry Volpiatto <thierry.volpiatto@gmail.com>
 ;; Version: 1.0
 ;; Package-Version: 20170709.914
+;; Package-Commit: b8212866939dc4a1e1dc23ad572407b688e130e3
 ;; Keywords: files, convenience
 ;; URL: https://github.com/emacs-helm/helm-elscreen
 ;; Package-Requires: ((helm "2.8.0") (elscreen "0") (cl-lib "0.5") (emacs "24.1"))

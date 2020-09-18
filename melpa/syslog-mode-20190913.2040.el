@@ -7,6 +7,7 @@
 ;; Created: 2003-03-17 18:50:12 Harley Gorrell
 ;; URL: https://github.com/vapniks/syslog-mode
 ;; Package-Version: 20190913.2040
+;; Package-Commit: 18f441bf57dd70cdd48a71f1f4566ab35facdb35
 ;; Keywords: unix
 ;; Compatibility: GNU Emacs 24.3.1
 ;; Package-Requires:  ((hide-lines "20130623") (ov "20150311"))

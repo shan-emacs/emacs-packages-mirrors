@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/xuchunyang/helm-osx-app
 ;; Package-Requires: ((emacs "25.1") (helm-core "3.0"))
 ;; Package-Version: 20190717.958
+;; Package-Commit: 634ed5d721a20af265825a018e9df3ee6640daee
 ;; Created: 2019/7/7 深夜
 ;; Version: 1.0
 

@@ -5,6 +5,7 @@
 ;; Author: PythonNut <pythonnut@pythonnut.com>
 ;; Keywords: convenience, ivy
 ;; Package-Version: 20190111.313
+;; Package-Commit: ac1bea7d99dd6965c72fabeb72d5fdc38c5380a4
 ;; Version: 20170111
 ;; URL: https://github.com/PythonNut/historian.el
 ;; Package-Requires: ((emacs "24.4") (historian "20170111") (ivy "0.8.0") (flx "0.6.1"))

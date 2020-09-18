@@ -5,6 +5,7 @@
 ;; Author: Syohei YOSHIDA <syohex@gmail.com> and contributors
 ;; URL: https://github.com/nonsequitur/git-gutter-plus
 ;; Package-Version: 20151204.1723
+;; Package-Commit: b7726997806d9a2da9fe84ff00ecf21d62b6f975
 ;; Version: 0.4
 
 ;; This program is free software; you can redistribute it and/or modify

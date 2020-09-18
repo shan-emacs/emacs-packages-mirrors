@@ -5,6 +5,7 @@
 ;; Author: Jérémy Compostella <jeremy.compostella@gmail.com>
 ;; Created: October 2017
 ;; Keywords: extensions mail pdf grep
+;; Package-Commit: 1576fc98754d3bdaa40573a037a80f1973110756
 ;; Homepage: https://github.com/jeremy-compostella/pdfgrep
 ;; Package-Version: 20200306.209
 ;; Package-X-Original-Version: 1.4

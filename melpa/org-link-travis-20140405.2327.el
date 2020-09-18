@@ -5,6 +5,7 @@
 ;; Author: Hiroaki Otsu <ootsuhiroaki@gmail.com>
 ;; Keywords: org
 ;; Package-Version: 20140405.2327
+;; Package-Commit: 596615ad8373d9090bd4138da683524f0ad0bda5
 ;; URL: https://github.com/aki2o/org-link-travis
 ;; Version: 0.0.1
 ;; Package-Requires: ((org "7"))

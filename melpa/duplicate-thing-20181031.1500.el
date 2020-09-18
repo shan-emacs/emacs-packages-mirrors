@@ -5,6 +5,7 @@
 ;; Author: ongaeshi
 ;; Keywords: convenience command duplicate line selection
 ;; Package-Version: 20181031.1500
+;; Package-Commit: 9d8fd05e3e5caa35d3f2a0c0032c92f0c0908e21
 ;; URL: https://github.com/ongaeshi/duplicate-thing
 ;; Version: 0.2
 

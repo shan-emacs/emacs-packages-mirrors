@@ -6,6 +6,7 @@
 ;;         Michael Brand
 ;; Version: 1.1
 ;; Package-Version: 20200411.711
+;; Package-Commit: 59618630205fc8c0fcc74fb34c4581d9712a5181
 ;; Keywords: org, table, ascii, plot
 
 ;; orgtbl-ascii-plot is free software: you can redistribute it and/or modify

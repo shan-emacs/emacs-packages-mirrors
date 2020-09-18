@@ -6,6 +6,7 @@
 ;; Maintainer: Benaiah Mischenko <benaiah@mischenko.com>
 ;; URL: http://github.com/benaiah/seethru
 ;; Package-Version: 20150218.1829
+;; Package-Commit: d87e231f99313bea75b1e69e48c0f32968c82060
 ;; Created: 11th November 2014
 ;; Version: 0.3
 ;; Keywords: lisp, tools, alpha, transparency

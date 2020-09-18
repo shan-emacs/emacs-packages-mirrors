@@ -5,6 +5,7 @@
 ;; Author: Fritz Stelzer <brotzeitmacher@gmail.com>
 ;; URL: https://github.com/brotzeitmacher/arch-packer
 ;; Package-Version: 20170730.1321
+;; Package-Commit: 940e96f7d357c6570b675a0f942181c787f1bfd7
 ;; Version: 0.3
 ;; Package-Requires: ((emacs "25.1") (s "1.11.0") (async "1.9.2") (dash "2.12.0"))
 

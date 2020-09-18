@@ -4,6 +4,7 @@
 ;; Author: Skye Shaw <skye.shaw@gmail.com>
 ;; Version: 0.0.3 (unreleased)
 ;; Package-Version: 20190807.1231
+;; Package-Commit: 1a1d2473aa62f2fdda47d8bfeb9fe352d2579b48
 ;; Keywords: mode-line, ci, circleci, travis-ci
 ;; Package-Requires: ((cl-lib "0.5"))
 ;; URL: http://github.com/sshaw/build-status

@@ -5,6 +5,7 @@
 ;; Author: Yuta Yamada <cokesboy"at"gmail.com>
 ;; URL: https://github.com/yuutayamada/bpe
 ;; Package-Version: 20141228.2205
+;; Package-Commit: 7b5b25f83506e6c9f4075d3803fa32404943a189
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "24.1"))
 ;; Keywords: Blogger, blog

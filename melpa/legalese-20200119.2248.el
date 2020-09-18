@@ -4,6 +4,7 @@
 
 ;; Version: 1.0
 ;; Package-Version: 20200119.2248
+;; Package-Commit: e465471d2d5a62d35073d93e0f8d40387a82e302
 ;; Author: Jorgen Schaefer <forcer@forcix.cx>
 ;; URL: https://github.com/jorgenschaefer/legalese
 ;; Keywords: convenience

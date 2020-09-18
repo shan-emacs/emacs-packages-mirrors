@@ -4,6 +4,7 @@
 
 ;; URL: https://github.com/heikkil/org-dropbox
 ;; Package-Version: 20150114.509
+;; Package-Commit: 75dab6d6f0438a7a8a18ccf3a5d55f50bf531f6e
 ;; Author: Heikki Lehvaslaiho <heikki.lehvaslaiho@gmail.com>
 ;; Version: 20141219
 ;; Package-Requires: ((dash "2.2") (names "20150000") (emacs "24"))

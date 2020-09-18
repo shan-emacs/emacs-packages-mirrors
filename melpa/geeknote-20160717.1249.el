@@ -5,6 +5,7 @@
 ;; Author: Evan Dale Aromin
 ;; Modifications: David A. Shamma
 ;; Version: 0.3
+;; Package-Commit: 8ed607c76864afcc9c338972ab093caf4501cbf8
 ;; Package-Version: 20160717.1249
 ;; Package-X-Original-Version: 20150223.815
 ;; Keywords: evernote, geeknote, note, emacs-evernote, evernote-mode

@@ -6,6 +6,7 @@
 ;; Created: 2019/04/20
 ;; Version: 0.4.1
 ;; Package-Version: 20200210.1543
+;; Package-Commit: 9f99bec56f87e53deb9f33b364eda77677a17eb9
 ;; Package-Requires: ((emacs "24.4"))
 ;; URL: https://github.com/twlz0ne/with-emacs.el
 ;; Keywords: tools

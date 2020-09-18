@@ -5,6 +5,7 @@
 ;; Author: Ranjit Jhala <jhala@cs.ucsd.edu>
 ;; URL: https://github.com/ucsd-progsys/liquidhaskell/flycheck-liquid.el
 ;; Package-Version: 20170412.2326
+;; Package-Commit: c27252ac24d77f4b6eec76a4ba9cd61761a3fba9
 ;; Keywords: convenience languages tools
 ;; Package-Requires: ((flycheck "0.15"))
 ;; Version: 0.0.1

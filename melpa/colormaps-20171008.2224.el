@@ -5,6 +5,7 @@
 ;; Author: Abhinav Tushar <lepisma@fastmail.com>
 ;; Version: 0.1.2
 ;; Package-Version: 20171008.2224
+;; Package-Commit: 19fbb64a6288d505b9cf45c9b5a3eed0bfb135e2
 ;; Package-Requires: ((emacs "25"))
 ;; Keywords: tools
 ;; URL: https://github.com/lepisma/colormaps.el

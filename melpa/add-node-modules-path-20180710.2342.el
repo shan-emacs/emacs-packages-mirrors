@@ -7,6 +7,7 @@
 ;; Author: Neri Marschik <marschik_neri@cyberagent.co.jp>
 ;; Version: 1.0
 ;; Package-Version: 20180710.2342
+;; Package-Commit: f31e69ccb681f882aebb806ce6e9478e3ac39708
 ;; Package-Requires: ()
 ;; Keywords: javascript, node, node_modules, eslint
 ;; URL: https://github.com/codesuki/add-node-modules-path

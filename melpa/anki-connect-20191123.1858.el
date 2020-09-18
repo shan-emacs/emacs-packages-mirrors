@@ -5,6 +5,7 @@
 ;; Author: DarkSun <lujun9972@gmail.com>
 ;; Keywords: lisp, anki
 ;; Package-Version: 20191123.1858
+;; Package-Commit: 1324f0c248aa2c6e73d6cf93fad6119d699f7dae
 ;; Package: anki-connect
 ;; Version: 1.0
 ;; Package-Requires: ((emacs "24.3"))

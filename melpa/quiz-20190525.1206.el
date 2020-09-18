@@ -4,6 +4,7 @@
 ;; Author: Dave Pearson <davep@davep.org>
 ;; Version: 1.5
 ;; Package-Version: 20190525.1206
+;; Package-Commit: 570bf53926d89282cdb9653bd5aa8fe968f92bbd
 ;; Keywords: games, trivia, quiz
 ;; URL: https://github.com/davep/quiz.el
 ;; Package-Requires: ((cl-lib "0.5") (emacs "25"))

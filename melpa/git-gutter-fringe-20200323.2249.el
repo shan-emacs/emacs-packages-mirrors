@@ -6,6 +6,7 @@
 ;; Maintainer: Neil Okamoto <neil.okamoto+melpa@gmail.com>
 ;; URL: https://github.com/emacsorphanage/git-gutter-fringe
 ;; Package-Version: 20200323.2249
+;; Package-Commit: da19a474137876b29b5658ee7e9ae366f2b65c1d
 ;; Version: 0.23
 ;; Package-Requires: ((git-gutter "0.88") (fringe-helper "0.1.1") (cl-lib "0.5") (emacs "24"))
 

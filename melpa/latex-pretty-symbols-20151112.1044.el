@@ -6,6 +6,7 @@
 ;;         Pål Drange
 ;; Created: 10. July 2011
 ;; Version: 1.0
+;; Package-Commit: 83d5888147bb734a94dfd4847a11e975a7d86ba8
 ;; Package-Version: 20151112.1044
 ;; Package-X-Original-Version: 20150409.240
 ;; Keywords: convenience, display

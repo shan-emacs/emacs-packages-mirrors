@@ -1,2 +1,0 @@
-
-(orgtbl-aggregate . [(20200522 2012) nil "Create an aggregated Org table from another one" tar ((:commit . "7f97d7b573c693e958ad0d70d89d4cd8f94129a8") (:keywords "org" "table" "aggregation" "filtering"))])

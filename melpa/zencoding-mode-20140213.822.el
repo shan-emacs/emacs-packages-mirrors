@@ -4,6 +4,7 @@
 
 ;; Version: 0.5.1
 ;; Package-Version: 20140213.822
+;; Package-Commit: 58e42af182c98cb9941d27cd042d227fbf4e146c
 ;; Author: Chris Done <chrisdone@gmail.com>
 ;; URL: https://github.com/rooney/zencoding
 ;; Last-Updated: 2011-12-31 Sat

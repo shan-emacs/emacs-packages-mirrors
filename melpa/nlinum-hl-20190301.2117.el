@@ -8,6 +8,7 @@
 ;; Modified: March 01, 2019
 ;; Version: 1.0.6
 ;; Package-Version: 20190301.2117
+;; Package-Commit: dc6b365a58e06c7d637a76a31c71a40b20da8b56
 ;; Keywords: nlinum highlight current line faces
 ;; Homepage: https://github.com/hlissner/emacs-nlinum-hl
 ;; Package-Requires: ((emacs "24.4") (nlinum "1.7") (cl-lib "0.5"))

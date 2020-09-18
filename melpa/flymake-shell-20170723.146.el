@@ -4,6 +4,7 @@
 
 ;; Author: Steve Purcell <steve@sanityinc.com>
 ;; URL: https://github.com/purcell/flymake-shell
+;; Package-Commit: a16cf453056b9849cc7c912bb127fb0b08fc6dab
 ;; Package-Version: 20170723.146
 ;; Package-X-Original-Version: 0
 ;; Package-Requires: ((flymake-easy "0.1"))

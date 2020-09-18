@@ -15,6 +15,7 @@
 ;; Author: Daniel McClanahan <danieldmcclanahan@gmail.com>
 ;; Version: 0.2
 ;; Package-Version: 20180630.1022
+;; Package-Commit: 0a8c58e9e6708abe4ef7e415bc1e0472318bb1b0
 ;; Package-Requires: ((emacs "24") (cl-lib "0.5") (dash "2.13.0") (thrift "0.9.3"))
 ;; Keywords: scrooge, thrift
 

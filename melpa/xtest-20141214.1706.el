@@ -6,6 +6,7 @@
 ;; Maintainer: Mustafa Shameem
 ;; URL: https://github.com/promethial/xtest
 ;; Package-Version: 20141214.1706
+;; Package-Commit: 2c2bdf32667506dd9ddf6eb311832add616bdf1c
 ;; Created: November 2, 2014
 ;; Version: 1.1.0
 ;; Keywords: testing, ERT

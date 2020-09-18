@@ -5,6 +5,7 @@
 ;; Author: David Raymond Christiansen <david@davidchristiansen.dk>
 ;; Keywords: outlines
 ;; Package-Version: 20150109.519
+;; Package-Commit: b215adbac4873f56fbab65772062f0f5be8058a1
 ;; Package-Requires: ((emacs "24") (cl-lib "0.5"))
 ;; Version: 0.1.0
 ;; This program is free software; you can redistribute it and/or modify

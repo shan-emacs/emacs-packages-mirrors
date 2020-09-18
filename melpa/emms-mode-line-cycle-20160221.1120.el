@@ -4,6 +4,7 @@
 
 ;; Keywords: emms, mode-line
 ;; Package-Version: 20160221.1120
+;; Package-Commit: 2c2f395e484a1d345050ddd61ff5fab71a92a6bc
 ;; Version: 0.2.5
 ;; Package-Requires: ((emacs "24") (emms "4.0"))
 ;; Author: momomo5717

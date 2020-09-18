@@ -5,6 +5,7 @@
 ;; Author: Artur Malabarba <emacs@endlessparentheses.com>
 ;; URL: https://github.com/Malabarba/speed-of-thought-lisp
 ;; Package-Version: 20190211.2026
+;; Package-Commit: ed2356a325c7a4a88ec1bd31381c8666e8997e97
 ;; Keywords: convenience, lisp
 ;; Package-Requires: ((emacs "24.1"))
 ;; Version: 1.6.2

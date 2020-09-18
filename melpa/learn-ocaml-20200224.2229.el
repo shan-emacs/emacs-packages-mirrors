@@ -5,6 +5,7 @@
 ;; Authors: (see the AUTHORS file distributed along the sources)
 ;; URL: https://github.com/pfitaxel/learn-ocaml.el
 ;; Package-Version: 20200224.2229
+;; Package-Commit: 86505672be0aabc9fa1048bc453ab2fc855b27e1
 ;; Package-Requires: ((emacs "25.1"))
 ;; Version: 1.0.0-git
 

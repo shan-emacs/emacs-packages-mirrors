@@ -5,6 +5,7 @@
 ;; Author: Jacob Mitchell <jmitchell@member.fsf.org>
 ;; URL: https://github.com/jmitchell/bnfc-mode
 ;; Package-Version: 20160605.1927
+;; Package-Commit: 1b58df1dd0cb9b81900632fb2843a03b94f56fdb
 ;; Keywords: languages, tools
 ;; Version: 0.4
 ;; Package-Requires: ((emacs "24.3"))

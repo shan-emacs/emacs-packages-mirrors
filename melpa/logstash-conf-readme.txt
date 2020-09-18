@@ -1,3 +1,2 @@
-`conf-mode' offers adequate highlighting for Logstash configuration
-files, but does not indent them correctly. This file defines a
-simple `logstash-conf-mode' that both highlights and indents.
+Basic syntax highlighting and indentation for Logtash configuration
+files. Does a better job than `conf-unix-mode', at least.

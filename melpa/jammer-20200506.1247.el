@@ -5,6 +5,7 @@
 ;; Author: Vasilij Schneidermann <mail@vasilij.de>
 ;; URL: https://depp.brause.cc/jammer
 ;; Package-Version: 20200506.1247
+;; Package-Commit: 76e006dddd491aecccfcb06939db56f9f7daa56d
 ;; Version: 0.1.2
 ;; Keywords: games
 

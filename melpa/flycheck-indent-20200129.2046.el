@@ -5,6 +5,7 @@
 ;; Author: Naoya Yamashita <conao3@gmail.com>
 ;; Version: 1.0.0
 ;; Package-Version: 20200129.2046
+;; Package-Commit: c55f4ded11e8e50a96f43675a071354a8fb501c3
 ;; Keywords: tools
 ;; Package-Requires: ((emacs "25.1") (indent-lint "1.0.0") (flycheck "31"))
 ;; URL: https://github.com/conao3/indent-lint.el

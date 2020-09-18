@@ -5,6 +5,7 @@
 ;; Author: Uros Perisic
 ;; URL: https://gitlab.com/jjzmajic/hercules
 ;; Package-Version: 20200420.747
+;; Package-Commit: 557da39878d0637395fdded91243b340c37eff7b
 
 ;; Version: 0.3
 ;; Keywords: convenience

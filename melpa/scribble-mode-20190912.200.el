@@ -5,6 +5,7 @@
 ;; Author: Mario Rodas <marsam@users.noreply.github.com>
 ;; URL: https://github.com/emacs-pe/scribble-mode
 ;; Package-Version: 20190912.200
+;; Package-Commit: 5c3ea3cc9bbad585476eee41ea76dc056c2012bb
 ;; Keywords: convenience
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24"))

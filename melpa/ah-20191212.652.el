@@ -5,6 +5,7 @@
 ;; Author: Takaaki ISHIKAWA <takaxp at ieee dot org>
 ;; Keywords: convenience
 ;; Package-Version: 20191212.652
+;; Package-Commit: 3ca848bcf1fc4c18b4a5329d1439c5effb7dcb97
 ;; Version: 0.9.1
 ;; Maintainer: Takaaki ISHIKAWA <takaxp at ieee dot org>
 ;; URL: https://github.com/takaxp/ah

@@ -5,6 +5,7 @@
 ;; Author:  Jason Duncan <jasond496@msn.com>
 ;; Version: 0.0.1
 ;; Package-Version: 20190202.1354
+;; Package-Commit: 7675c138e9df8fe2c626e7ba9bbb8b6717671a41
 ;; URL: https://github.com/functionreturnfunction/dashboard-project-status
 ;; Package-Requires: ((emacs "24") (git "0.1.1") (dashboard "1.2.5"))
 

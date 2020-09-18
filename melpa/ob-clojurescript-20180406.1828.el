@@ -5,6 +5,7 @@
 ;; Created: 10 March 2018
 ;; Keywords: literate programming, reproducible research
 ;; Package-Version: 20180406.1828
+;; Package-Commit: 17ee1558aa94c7b0246fd03f684884122806cfe7
 ;; Homepage: https://gitlab.com/statonjr/ob-clojurescript
 ;; Package-Requires: ((emacs "24.4") (org "9.0"))
 

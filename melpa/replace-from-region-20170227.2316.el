@@ -9,6 +9,7 @@
 ;; Created: 2013-01-28 14:49:07
 ;; Version: 0.2
 ;; Package-Version: 20170227.2316
+;; Package-Commit: dc9318b9b2822da7b00ecc34d1dc965c8f96c9bb
 ;; URL: http://www.emacswiki.org/emacs/download/replace-from-region.el
 ;; Keywords: replace, search, region
 ;; Compatibility: GNU Emacs 24.2.2, 25.1

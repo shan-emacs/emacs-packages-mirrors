@@ -5,6 +5,7 @@
 ;; Author: Mehmet Tekman
 ;; URL: https://github.com/mtekman/org-tanglesync.el
 ;; Package-Version: 20200127.1616
+;; Package-Commit: af83a73ae542d5cb3c9d433cbf2ce1d4f4259117
 ;; Keywords: outlines
 ;; Package-Requires: ((emacs "24.4"))
 ;; Version: 1.1

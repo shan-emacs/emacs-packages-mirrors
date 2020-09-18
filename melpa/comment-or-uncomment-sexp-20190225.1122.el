@@ -5,6 +5,7 @@
 ;; Author: Artur Malabarba <artur@endlessparentheses.com>
 ;; Version: 1.0.0
 ;; Package-Version: 20190225.1122
+;; Package-Commit: bec730d3fc1e6c17ff1339eb134af16c034a4d95
 ;; Homepage: https://github.com/Malabarba/comment-or-uncomment-sexp
 ;; Keywords: convenience
 ;; Package-Requires: ((emacs "24"))

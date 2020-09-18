@@ -6,6 +6,7 @@
 ;; Maintainer: Herwig Hochleitner <herwig@bendlas.net>
 ;; Version: 1.0.0
 ;; Package-Version: 20190607.1949
+;; Package-Commit: a069b69018b96d284ce7553cd63350a88ea3679c
 ;; Keywords: processes, unix
 ;; URL: http://github.com/webnf/semaphore.el
 ;; Package-Requires: ((emacs "26"))

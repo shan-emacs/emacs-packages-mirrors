@@ -5,6 +5,7 @@
 ;; Author: Petter Storvik
 ;; URL: https://github.com/storvik/emacs-lastpass
 ;; Package-Version: 20200320.2117
+;; Package-Commit: ac472f844bd1e109c62479253cbc40bb5e50ed8f
 ;; Version: 0.2.0
 ;; Created: 2017-02-17
 ;; Package-Requires: ((emacs "24.4") (seq "1.9") (cl-lib "0.5"))

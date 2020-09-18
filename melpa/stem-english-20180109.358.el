@@ -6,6 +6,7 @@
 ;; Description: routines for stemming English word
 ;; Package-Requires: ((emacs "24.3"))
 ;; Package-Version: 20180109.358
+;; Package-Commit: c9fc4c6ed6bf82382e479dae80912f4ae17d31f4
 ;; Keywords: text
 ;; Human-Keywords: stemming
 ;; Version: 2.140226

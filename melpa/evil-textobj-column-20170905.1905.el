@@ -3,6 +3,7 @@
 ;; Author: Fox Kiester <noct@openmailbox.org>
 ;; URL: https://github.com/noctuid/evil-textobj-column
 ;; Package-Version: 20170905.1905
+;; Package-Commit: 835d7036d0bc9a6e44fc9b7c54ccf2a7c01428cd
 ;; Created: October 7, 2015
 ;; Keywords: evil, column, text-object
 ;; Package-Requires: ((names "0.5") (emacs "24") (evil "0"))

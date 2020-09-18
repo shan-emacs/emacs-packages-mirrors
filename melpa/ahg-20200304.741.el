@@ -5,6 +5,7 @@
 ;; Author: Alberto Griggio <agriggio@users.sourceforge.net>
 ;; URL: https://bitbucket.org/agriggio/ahg
 ;; Package-Version: 20200304.741
+;; Package-Commit: 0ece48646ef7a8c813005934cc13f984b9998707
 ;; Version: 1.0.0
 
 ;; This program is free software: you can redistribute it and/or modify

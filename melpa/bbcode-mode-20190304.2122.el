@@ -7,6 +7,7 @@
 ;; Maintainer: Lassi Kortela <lassi@lassi.io>
 ;; URL: https://github.com/lassik/emacs-bbcode-mode
 ;; Package-Version: 20190304.2122
+;; Package-Commit: e16619c80ea21154b4a4ccc2e13d0077e97c9caf
 ;; Version: 2.3.0
 ;; Package-Requires: ((emacs "24") (cl-lib "0.5"))
 ;; Keywords: bbcode languages

@@ -7,6 +7,7 @@
 ;; Maintainer: Titus von der Malsburg <malsburg@posteo.de>
 ;; URL: https://github.com/emacs-helm/helm-dictionary
 ;; Package-Version: 20200406.1632
+;; Package-Commit: 1dfec049c7851754a5967329a60e9e9a9f805423
 ;; Version: 1.0.0
 ;; Package-Requires: ((helm "1.5.5"))
 

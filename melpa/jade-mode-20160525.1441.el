@@ -2,6 +2,7 @@
 ;;;
 ;;; URL: https://github.com/brianc/jade-mode
 ;; Package-Version: 20160525.1441
+;; Package-Commit: 4dbde92542fc7ad61df38776980905a4721d642e
 ;;; Author: Brian M. Carlson and other contributors
 ;;; inspired by http://xahlee.org/emacs/elisp_syntax_coloring.html
 (require 'font-lock)

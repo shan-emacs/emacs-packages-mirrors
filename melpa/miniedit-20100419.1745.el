@@ -8,6 +8,7 @@
 ;;            Christoph Conrad <christoph.conrad@gmx.de>
 ;; Version: 2.0
 ;; Package-Version: 20100419.1745
+;; Package-Commit: e12bf659c3eb92dd8a4cb77642dc0865c54667a3
 ;; Author's homepage: http://www.gnufans.net/~deego/DeegoWiki/DeepakGoel.html
 ;; For latest version:
 

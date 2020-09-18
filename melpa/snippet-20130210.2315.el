@@ -4,6 +4,7 @@
 
 ;; Version: 0.2
 ;; Package-Version: 20130210.2315
+;; Package-Commit: 11d00dd803874b93836f2010b08bd2c97b0f3c63
 ;; Author: Pete Kazmier
 
 ;; This file is not part of GNU Emacs, but it is distributed under

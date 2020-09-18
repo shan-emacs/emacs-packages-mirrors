@@ -5,6 +5,7 @@
 ;; Author: Julien Blanchard <julien@sideburns.eu>
 ;; URL: http://github.com/julienXX/
 ;; Package-Version: 20140115.1024
+;; Package-Commit: a3dacb935845e4a20031212bbd82b2170f68d2a8
 ;; Keywords: erc terminal-notifier nick
 ;; Created: 08 May 2013
 ;; Version: 0.1

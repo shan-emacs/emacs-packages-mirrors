@@ -6,6 +6,7 @@
 ;; Maintainer: Zachary Elliott <contact@zell.io>
 ;; URL: http://github.com/zellio/org-themis
 ;; Package-Version: 20160122.404
+;; Package-Commit: 78aadbbe22b1993be5c4accd0d3f91a4e85c9a3c
 ;; Created: 2015-11-20
 ;; Version: 0.4.1
 ;; Keywords: org-mode, elisp, project

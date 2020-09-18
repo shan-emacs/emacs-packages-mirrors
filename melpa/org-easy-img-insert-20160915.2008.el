@@ -5,6 +5,7 @@
 ;; Author: Tashrif Sanil <tashrifsanil@kloke-source.com>
 ;; URL: https://github.com/tashrifsanil/org-easy-img-insert
 ;; Package-Version: 20160915.2008
+;; Package-Commit: 9f8aaa7f68ff1f0d8d7b1e9b618abb15002f971e
 ;; Version: 2.0
 ;; Keywords: convenience, hypermedia, files
 ;; Package-Requires: ((emacs "24.4"))

@@ -5,6 +5,7 @@
 ;; Author: Charlie McMackin <charlie.mac@gmail.com>
 ;; URL: https://github.com/cmack/emacs-planet-theme
 ;; Package-Version: 20161031.217
+;; Package-Commit: b0a310ff36565fe22224c407cf59569986698a32
 ;; Keywords: themes
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24"))

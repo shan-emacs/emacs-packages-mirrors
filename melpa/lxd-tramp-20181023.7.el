@@ -5,6 +5,7 @@
 ;; Author: Yc.S <onixie@gmail.com>
 ;; URL: https://github.com/onixie/lxd-tramp.git
 ;; Package-Version: 20181023.7
+;; Package-Commit: f335c76245f62b02cf67a9376eca6f3863c8a75a
 ;; Keywords: lxd, lxc, convenience
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24.4") (cl-lib "0.6"))

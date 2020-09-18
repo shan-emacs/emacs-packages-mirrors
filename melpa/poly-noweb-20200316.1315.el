@@ -5,6 +5,7 @@
 ;; Copyright (C) 2013-2018 Vitalie Spinu
 ;; Version: 0.2.2
 ;; Package-Version: 20200316.1315
+;; Package-Commit: 3b0cd36ca9a707e8a09337a3468fa85d81fc461c
 ;; Package-Requires: ((emacs "25") (polymode "0.2.2"))
 ;; URL: https://github.com/polymode/poly-noweb
 ;; Keywords: languages, multi-modes

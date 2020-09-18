@@ -5,6 +5,7 @@
 ;; Author: Natalie Weizenbaum <nweiz@google.com>
 ;; Version: 0.0.3
 ;; Package-Version: 20150509.316
+;; Package-Commit: 014438271e0ef27333dfcd599cb247f12a20d870
 
 ;;; Commentary:
 

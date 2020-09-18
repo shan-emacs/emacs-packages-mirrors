@@ -2,6 +2,7 @@
 
 ;; Version: 0.0.1
 ;; Package-Version: 20151120.2255
+;; Package-Commit: 163dc01d59e9880b4dc188d4e1ad84d6c0c852e1
 ;; Author: Zephyr Pellerin <zephyr.pellerin@gmail.com>
 ;; Homepage: https://github.com/zv/z3-mode
 ;; Keywords: z3 yices mathsat smt beaver

@@ -8,6 +8,7 @@
 ;; Homepage: https://github.com/pauldub/activity-watch-mode
 ;; Keywords: calendar, comm
 ;; Package-Version: 20200416.637
+;; Package-Commit: 9d591c5ec9a2b2c7b55a754dd37c7434b2ef9fdc
 ;; Package-Requires: ((emacs "25") (request "0") (json "0") (cl-lib "0"))
 ;; Version: 1.0.2
 

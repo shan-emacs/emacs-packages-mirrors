@@ -4,6 +4,7 @@
 
 ;; Author: Jorge Araya Navarro <elcorreo@deshackra.com>
 ;; Keywords: convenience
+;; Package-Commit: 59faa6c4232ae183cea93237301acad8c0763997
 ;; Package-Requires: ((emacs "24.3"))
 ;; Package-Version: 20170521.1840
 ;; Package-X-Original-Version: 0.2.2

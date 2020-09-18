@@ -5,6 +5,7 @@
 ;; Author: Junpeng Qiu <qjpchmail@gmail.com>
 ;; Package-Requires: ((emacs "24.4") (embrace "0.1.0") (evil-surround "0"))
 ;; Package-Version: 20160519.1829
+;; Package-Commit: 4379adea032b25e359d01a36301b4a5afdd0d1b7
 ;; Keywords: extensions
 
 ;; This program is free software; you can redistribute it and/or modify

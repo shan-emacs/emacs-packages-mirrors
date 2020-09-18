@@ -5,6 +5,7 @@
 ;; Created: Sun Aug 17 11:34:34 2014 (-0700)
 ;; Version: 0.2
 ;; Package-Version: 20140818.1457
+;; Package-Commit: 0050d85b2175095aa5ecf580a2fe43c069b0eef3
 ;; Package-Requires: ()
 ;; URL: https://github.com/DarwinAwardWinner/emacs-system-specific-settings
 ;; Keywords: configuration

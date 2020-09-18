@@ -4,6 +4,7 @@
 ;; Copyright (C) 2018 Gustaf Waldemarson, Vitalie Spinu
 ;; Version: 0.2.2
 ;; Package-Version: 20200316.1315
+;; Package-Commit: 8530f56fbdce01bcf4004839ff54e4156282c2b5
 ;; Package-Requires: ((emacs "25") (polymode "0.2.2"))
 ;; URL: https://github.com/polymode/poly-rst
 ;; Keywords: languages, multi-modes

@@ -2,6 +2,7 @@
 
 ;; Author: Adam Olsen <arolsen@gmail.com>
 ;; URL: <https://github.com/synic/jbeans-emacs>
+;; Package-Commit: 3caa95998d8492a2ca6c17971de499ca15609871
 ;; Version: 1.3
 ;; Package-Requires: ((emacs "24"))
 ;; Based On: ujelly by Mark Tran

@@ -3,6 +3,7 @@
 ;; Author: INA Lintaro <tarao.gnn at gmail.com>
 ;; URL: http://github.com/tarao/key-intercept-el
 ;; Package-Version: 20140211.749
+;; Package-Commit: d9a60edb4ce893f2d3d94f242164fdcc62d43cf2
 ;; Version: 0.1
 ;; Keywords: keyboard
 

@@ -5,6 +5,7 @@
 ;; Author: Xu Ma <magicdirac@gmail.com>
 ;; URL: https://github.com/magicdirac/avy-flycheck
 ;; Package-Version: 20160720.1500
+;; Package-Commit: 5522f3bbbed1801d9278ed696ec0cbba38352985
 ;; keywords: tools, convenience, avy, flycheck
 ;; Version: 0.0.1-cvs
 ;; Package-Requires: ((emacs "24.1") (flycheck "0.14") (seq "1.11") (avy "0.4.0"))

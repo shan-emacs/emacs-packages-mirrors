@@ -10,6 +10,7 @@
 ;; Maintainer: Phillip Lord <p.lord@russet.org.uk>
 ;; Keywords: minor mode, cursor colour, column width
 ;; Package-Version: 20170925.1613
+;; Package-Commit: ce9ef4675485a7bea381077866368ef875226b10
 
 ;; COPYRIGHT NOTICE
 ;;

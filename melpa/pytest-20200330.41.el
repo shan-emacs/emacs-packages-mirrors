@@ -6,6 +6,7 @@
 
 ;; Version: 0.2.1
 ;; Package-Version: 20200330.41
+;; Package-Commit: 6934047242db79b1c53e9fe3e0734cc9719ed1c4
 ;; Keywords: pytest python testing
 ;; URL: https://github.com/ionrock/pytest-el
 ;; Package-Requires: ((s "1.9.0"))

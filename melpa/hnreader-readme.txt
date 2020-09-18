@@ -14,7 +14,7 @@ hnreader-show: Load show page.
 hnreader-newest: Load new link page.
 hnreader-more: Load more.
 hnreader-back: Go back to previous page.
-hnreader-read-item: read an HN item url such as https://news.ycombinator.com/item?id=1
+hnreader-comment: read an HN item url such as https://news.ycombinator.com/item?id=1
 
 Customization
 hnreader-history-max: max number history items to remember.

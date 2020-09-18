@@ -5,6 +5,7 @@
 ;; Author: Kostafey <kostafey@gmail.com>
 ;; URL: https://github.com/kostafey/temporary-persistent
 ;; Package-Version: 20200201.1719
+;; Package-Commit: 0080879b0257d350aeba1c4d6901613d7dc534de
 ;; Keywords: temp, buffers, notes
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24.3") (names "20151201.0") (dash "2.12.1") (s "1.10.0"))

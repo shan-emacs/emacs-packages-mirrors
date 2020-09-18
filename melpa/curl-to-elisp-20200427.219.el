@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/xuchunyang/curl-to-elisp
 ;; Package-Requires: ((emacs "25.1"))
 ;; Package-Version: 20200427.219
+;; Package-Commit: 25449962e758607762b3df76fc5501cfeedbbd38
 ;; Keywords: lisp
 ;; Version: 0
 

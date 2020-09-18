@@ -6,6 +6,7 @@
 ;; Author: Matthew K. Junker <junker@alum.mit.edu>
 ;; Version: 20130521
 ;; Package-Version: 20130524.1143
+;; Package-Commit: e326899d9ed8217c7a4ea6cfdc4dd7aea61d6c1b
 ;; Keywords: extensions, convenience, local
 
 ;; This file is free software; you can redistribute it and/or modify

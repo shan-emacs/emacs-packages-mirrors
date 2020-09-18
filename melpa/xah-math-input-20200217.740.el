@@ -5,6 +5,7 @@
 ;; Author: Xah Lee ( http://xahlee.info/ )
 ;; Version: 2.7.20200216233900
 ;; Package-Version: 20200217.740
+;; Package-Commit: c1e72c4578a134e9aa3ec9ef425038d8c16fba94
 ;; Created: 08 Dec 2010
 ;; Package-Requires: ((emacs "24.1"))
 ;; Keywords: abbrev, convenience, unicode, math, LaTex

@@ -4,6 +4,7 @@
 ;; Author: Vibhav Pant <vibhavp@gmail.com>
 ;; Version: 1.0
 ;; Package-Version: 20190409.516
+;; Package-Commit: 056294014f37a1004958ec17ebd6748deed63502
 ;; Package-Requires: ((go-mode "0") (cl-lib "0.5"))
 ;; Keywords: go, golang, completion
 ;; URL: https://github.com/vibhavp/go-complete

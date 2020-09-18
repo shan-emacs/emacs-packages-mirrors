@@ -6,6 +6,7 @@
 ;; Maintainer: (concat "erjoalgo" "@" "gmail" ".com")
 ;; Keywords: keymap, template, snippet
 ;; Package-Version: 20190319.41
+;; Package-Commit: a14d0c21cc30d33b57481f535f2a838d65b2032f
 ;; Created: 16 Sep 2018
 ;; Package-Requires: ((cl-lib "0.3"))
 ;; URL: http://github.com/erjoalgo/emacs-buttons

@@ -5,6 +5,7 @@
 ;; Author: Juan Edi
 ;; Version: 0.0.1
 ;; Package-Version: 20190105.1923
+;; Package-Commit: a31d567a64d86d36e3675347abd696824a731e0c
 ;; URL: https://github.com/juanedi/elm-test-runner
 ;; Package-Requires: ((emacs "24.4"))
 

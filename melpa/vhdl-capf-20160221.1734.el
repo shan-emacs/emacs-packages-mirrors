@@ -5,6 +5,7 @@
 ;; Author: sh-ow <sh-ow@users.noreply.github.com>
 ;; URL: https://github.com/sh-ow/vhdl-capf
 ;; Package-Version: 20160221.1734
+;; Package-Commit: 290abe217050f33532bc9ccb04f894123402f414
 ;; Version: 0.1
 ;; Keywords: convenience, usability, vhdl, completion
 

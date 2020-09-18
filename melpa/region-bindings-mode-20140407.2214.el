@@ -4,6 +4,7 @@
 ;; Author: Fabián E. Gallina <fabian@anue.biz>
 
 ;; URL: https://github.com/fgallina/region-bindings-mode
+;; Package-Commit: 3fa5dbdbd7c000bebff6d9d14a4be326ec24b6fc
 ;; Created: Oct 2012
 ;; Package-Version: 20140407.2214
 ;; Package-X-Original-Version: 1.0

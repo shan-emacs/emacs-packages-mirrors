@@ -6,6 +6,7 @@
 ;; Created: 20 January 2017
 ;; Version: 0.1
 ;; Package-Version: 20190808.630
+;; Package-Commit: 5104ee9a3fdb7f0a0a3d3bcfd8dd3c45a9929310
 ;; Package-Requires: ((flycheck "0.20"))
 
 ;;; Commentary:

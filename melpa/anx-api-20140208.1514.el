@@ -5,6 +5,7 @@
 ;; Author: Rich Loveland
 ;; Version: 0.1
 ;; Package-Version: 20140208.1514
+;; Package-Commit: b2411ebc966ac32c3ffc61bc22bf183834df0fa0
 ;; Keywords: Convenience, JSON, REST, API, AppNexus
 
 ;; This file is NOT part of GNU Emacs.

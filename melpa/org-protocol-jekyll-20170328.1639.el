@@ -5,6 +5,7 @@
 ;; Author: Vladimir S. Ivanov <ivvl82@gmail.com>
 ;; Version: 0.1
 ;; Package-Version: 20170328.1639
+;; Package-Commit: dec064a42d6dfe81dfde7ba59ece5ca103ac6334
 ;; Package-Requires: ((cl-lib "0.5"))
 
 ;; This file is not part of GNU Emacs.

@@ -1,0 +1,2 @@
+
+(feed-discovery . [(20200714 1118) ((emacs (25 1)) (dash (2 16 0))) "Discover feed url by RSS/Atom autodiscovery" single ((:commit . "47692787326a14c06dab6815bb18caced59a5bf0") (:authors ("Hiroki YAMAKAWA" . "s06139@gmail.com")) (:maintainer "Hiroki YAMAKAWA" . "s06139@gmail.com") (:url . "https://github.com/HKey/feed-discovery"))])

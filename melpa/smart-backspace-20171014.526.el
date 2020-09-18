@@ -5,6 +5,7 @@
 ;; Author: Takeshi Tsukamoto <t.t.itm.0403@gmail.com>
 ;; URL: https://github.com/itome/smart-backspace
 ;; Package-Version: 20171014.526
+;; Package-Commit: a10ec44ff325ec8c4c98b1a6e44e89e60a9aa4ac
 ;; Created: 20171012
 ;; Version: 0.1.0
 ;; Status: experimental

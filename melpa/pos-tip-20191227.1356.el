@@ -6,6 +6,7 @@
 ;; Maintainer: S. Irie
 ;; Keywords: Tooltip
 ;; Package-Version: 20191227.1356
+;; Package-Commit: 179cc126b363f72ca12fab1e0dc462ce0ee79742
 
 (defconst pos-tip-version "0.4.6")
 

@@ -3,6 +3,7 @@
 ;; Author: Masahiro Hayashi <mhayashi1120@gmail.com>
 ;; Keywords: extensions, data, tools
 ;; Package-Version: 20150621.44
+;; Package-Commit: 299b742faa0bc4448e0d5fe9cb98ab1eb93b8dcc
 ;; URL: https://github.com/mhayashi1120/Emacs-rectplus
 ;; Emacs: GNU Emacs 22 or later
 ;; Version: 1.0.10

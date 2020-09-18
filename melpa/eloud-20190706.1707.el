@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/smythp/eloud
 ;; Keywords: extensions
 ;; Package-Version: 20190706.1707
+;; Package-Commit: b8f4af1f652268d73281de91fb333b5984970847
 ;; Package-Requires: ((emacs "24.4"))
 
 

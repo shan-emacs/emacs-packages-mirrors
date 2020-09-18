@@ -44,51 +44,29 @@ shell mode or a shell command minibuffer, such as the one started
 for M-x `compile'. Note that the first completion is slow, as emacs
 launches a new bash process.
 
-You'll get better results if you turn on programmable bash completion.
-On Ubuntu, this means running:
-  sudo apt-get install bash-completion
-and then adding this to your .bashrc:
+Naturally, you'll get better results if you turn on programmable
+bash completion in your shell. Depending on how your system is set
+up, this might requires calling:
   . /etc/bash_completion
+from your ~/.bashrc.
 
-Right after enabling programmable bash completion, and whenever you
-make changes to you .bashrc, call `bash-completion-reset' to make
-sure bash completion takes your new settings into account.
+When called from a bash shell buffer,
+`bash-completion-dynamic-complete' communicates with the current shell
+to reproduce, as closely as possible the normal bash auto-completion,
+available on full terminals.
 
-Loading /etc/bash_completion often takes time, and is not necessary
-in shell mode, since completion is done by a separate process, not
-the process shell-mode process.
+When called from non-shell buffers, such as the prompt of M-x
+compile, `bash-completion-dynamic-complete' creates a separate bash
+process just for doing completion. Such processes have the
+environment variable EMACS_BASH_COMPLETE set to t, to help
+distinguish them from normal shell processes.
 
-To turn off bash completion when running from emacs but keep it on
-for processes started by bash-completion.el, add this to your .bashrc:
-if [[ ( -z "$INSIDE_EMACS" || "$EMACS_BASH_COMPLETE" = "t" ) &&\
-     -f /etc/bash_completion ]]; then
-  . /etc/bash_completion
-fi
-
-Emacs sets the environment variable INSIDE_EMACS to the processes
-started from it. Processes started by bash-completion.el have
-the environment variable EMACS_BASH_COMPLETE set to t.
-
-CAVEATS
-
-Using a separate process for doing the completion has several
-important disadvantages:
-- bash completion is slower than standard emacs completion
-- the first completion can take a long time, since a new bash process
-  needs to be started and initialized
-- the separate process is not aware of any changes made to bash
-  in the current buffer.
-  In a standard terminal, you could do:
-    $ alias myalias=ls
-    $ myal<TAB>
-  and bash would propose the new alias.
-  Bash-completion.el cannot do that, as it is not aware of anything
-  configured in the current shell. To make bash-completion.el aware
-  of a new alias, you need to add it to .bashrc and restart the
-  completion process using `bash-completion-reset'.
+See the documentation of the function
+`bash-completion-dynamic-complete-nocomint' to do bash completion
+from other buffers or completion engines.
 
 COMPATIBILITY
 
-bash-completion.el is known to work with Bash 3 and 4, on Emacs,
-starting with version 24.1, under Linux and OSX. It does not work
+bash-completion.el is known to work with Bash 3, 4 and 5, on Emacs,
+starting with version 24.3, under Linux and OSX. It does not work
 on XEmacs.

@@ -5,6 +5,7 @@
 ;; Author: Tomoya Tanjo <ttanjo@gmail.com>
 ;; URL: https://github.com/tom-tan/hlinum-mode/
 ;; Package-Version: 20180422.412
+;; Package-Commit: 5646d9c0b9e7598b20b2004eab5439fdc6dbeda5
 ;; Package-Requires: ((cl-lib "0.2"))
 ;; Keywords: convenience, extensions
 

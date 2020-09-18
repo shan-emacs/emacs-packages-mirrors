@@ -4,6 +4,7 @@
 ;;
 ;; Version: 1.0.0
 ;; Package-Version: 20200504.402
+;; Package-Commit: d2514bb9707f66dda0d60f40f465e79914c50946
 ;; Author: Jared Gorski, <jaredgorski6@gmail.com>
 ;; URL: https://github.com/jaredgorski/nothing.el
 ;; Package-Requires: ((emacs "24.1"))

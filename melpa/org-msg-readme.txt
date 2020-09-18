@@ -22,7 +22,7 @@ text is read-only because OrgMsg does not support modification of
 the original content.
 
 OrgMsg has a mechanism to support different Mail User Agents
-(message, mu4e, ...).  Each function which depends on the Mail User
+(message, mu4e, notmuch ...).  Each function which depends on the Mail User
 Agent calls the `org-msg-mua-call' which is an indirection to the
 OrgMsg Mail User Agent specific function.
 

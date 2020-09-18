@@ -6,6 +6,7 @@
 ;; Created: 2015-10-25
 ;; Version: 1.0
 ;; Package-Version: 20170705.1451
+;; Package-Commit: 736fd3d05fb67f707cca1a7ce24e3ee7ca5e9567
 ;; Keywords: gregorio,chant
 ;; URL: https://jsrjenkins.github.io/gregorio-mode/
 

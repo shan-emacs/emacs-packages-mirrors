@@ -19,6 +19,7 @@
 ;; Author: Pierre Lecocq
 ;; URL: https://github.com/pierre-lecocq/cycle-resize
 ;; Package-Version: 20160521.1557
+;; Package-Commit: 7d255d6fe85f12c967a0f7fcfcf18633be194c88
 ;; Version: 1.0 (stable)
 
 ;;; Commentary:

@@ -8,6 +8,7 @@
 ;; Created: 2014-11-24
 ;; Version: 0.1
 ;; Package-Version: 20141230.119
+;; Package-Commit: d25a265930430d080329789fb253d786c01dfa24
 ;; Keywords: convenience, auto-complete
 ;; URL: https://github.com/myuhe/ac-skk.el
 ;; Package-Requires: ((auto-complete "1.3.1")(ddskk "16.0.50")(tinysegmenter "0")(cl-lib "0.5"))

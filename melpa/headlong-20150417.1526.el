@@ -5,6 +5,7 @@
 ;; Author: Oleh Krehel <ohwoeowho@gmail.com>
 ;; URL: https://github.com/abo-abo/headlong
 ;; Package-Version: 20150417.1526
+;; Package-Commit: f6830f87f236eee88263cb6976125f72422abe72
 ;; Version: 0.1.0
 ;; Keywords: completion
 

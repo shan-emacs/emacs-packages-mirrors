@@ -5,6 +5,7 @@
 ;; Author: Samuel W. Flint <swflint@flintfam.org>
 ;; Version: 1.2
 ;; Package-Version: 20170818.2103
+;; Package-Commit: bbe3ac8df3c532a72da4552615af960b8a577588
 ;; Package-Requires: ((cl-lib "0.5"))
 ;; Keywords: notifications
 ;; URL: http://github.com/swflint/pushover.el

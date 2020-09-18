@@ -6,6 +6,7 @@
 ;; Author: Rob Myers <rob@robmyers.org>, Sacha Chua <sacha@sachachua.com>
 ;; URL: https://github.com/sachac/artbollocks-mode
 ;; Package-Version: 20170524.422
+;; Package-Commit: 33a41ca4f8206f57e5498a526d3b0ea18d08bb93
 ;; Version: 1.1.2
 ;;
 ;; Based on fic-mode.el

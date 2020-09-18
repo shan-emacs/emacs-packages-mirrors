@@ -6,6 +6,7 @@
 ;; Created: 2015-12-20
 ;; Version: 1.160120
 ;; Package-Version: 20160120.1334
+;; Package-Commit: 2ba4f1a87c69c4712124ebf12c1f3ea171e1af36
 ;; Package-Requires: ((emacs "24.3"))
 ;; Keywords: games
 ;; URL: https://github.com/kawabata/zone-rainbow

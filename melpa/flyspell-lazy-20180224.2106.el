@@ -6,6 +6,7 @@
 ;; Homepage: http://github.com/rolandwalker/flyspell-lazy
 ;; URL: http://raw.githubusercontent.com/rolandwalker/flyspell-lazy/master/flyspell-lazy.el
 ;; Package-Version: 20180224.2106
+;; Package-Commit: 3ebf68cc9eb10c972a2de8d7861cbabbbce69570
 ;; Version: 0.6.10
 ;; Last-Updated: 22 Dec 2014
 ;; EmacsWiki: FlyspellLazy

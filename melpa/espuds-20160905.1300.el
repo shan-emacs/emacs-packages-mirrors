@@ -6,6 +6,7 @@
 ;; Maintainer: Johan Andersson <johan.rejeep@gmail.com>
 ;; Version: 0.3.3
 ;; Package-Version: 20160905.1300
+;; Package-Commit: 78fc53feaf77a98d63894cd410faee2a18107b00
 ;; Keywords: test
 ;; Package-Requires: ((s "1.7.0") (dash "2.2.0") (f "0.12.1"))
 ;; URL: http://github.com/ecukes/espuds

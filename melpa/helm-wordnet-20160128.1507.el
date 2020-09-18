@@ -5,6 +5,7 @@
 ;; Author: Raghav Kumar Gautam <rgautam@apache.com>
 ;; URL: https://github.com/raghavgautam/helm-wordnet
 ;; Package-Version: 20160128.1507
+;; Package-Commit: a36dbc6fcb570b812870bc1e190f203e0a0042fc
 ;; Keywords: Dictionary, WordNet, Emacs, Elisp, Helm
 ;; Package-Requires: ((emacs "24") (helm "1.7.0") (cl-lib "0.5"))
 

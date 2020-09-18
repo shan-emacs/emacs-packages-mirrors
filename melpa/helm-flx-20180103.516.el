@@ -5,6 +5,7 @@
 ;; Author: PythonNut <pythonnut@pythonnut.com>
 ;; Keywords: convenience, helm, fuzzy, flx
 ;; Package-Version: 20180103.516
+;; Package-Commit: 6640fac5cb16bee73c95b8ed1248a4e5e113690e
 ;; Version: 20151013
 ;; URL: https://github.com/PythonNut/helm-flx
 ;; Package-Requires: ((emacs "24.4") (helm "1.7.9") (flx "0.5"))

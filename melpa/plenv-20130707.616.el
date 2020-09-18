@@ -5,6 +5,7 @@
 ;; Author: Kenta Sato <karupa@cpan.org>
 ;; Version: 0.32
 ;; Package-Version: 20130707.616
+;; Package-Commit: ee937d0f3a1a7ba2d035f45be896d3ed8fefaee2
 ;; Keywords: Emacs, Perl
 
 ;; This program is free software; you can redistribute it and/or modify

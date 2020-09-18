@@ -5,6 +5,7 @@
 ;; Author: Hao Deng(denghao8888@gmail.com)
 ;; URL: https://github.com/co-dh/pydoc_utils
 ;; Package-Version: 20171018.2042
+;; Package-Commit: 1d8ff8ca3b9d69453cde423b1887fbb490a95c9e
 ;; Keywords: completion, matching
 ;; Package-Requires: ((emacs "24.3") (ivy "0.9.1"))
 ;; Version: 1.0.0

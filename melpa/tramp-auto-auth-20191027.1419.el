@@ -5,6 +5,7 @@
 ;; Author: Bruno Félix Rezende Ribeiro <oitofelix@gnu.org>
 ;; Keywords: comm, processes
 ;; Package-Version: 20191027.1419
+;; Package-Commit: f15a12dfab651aff60f4a9d70f868030a12344ac
 ;; Package: tramp-auto-auth
 ;; Homepage: https://github.com/oitofelix/tramp-auto-auth
 ;; Version: 20191027.1117

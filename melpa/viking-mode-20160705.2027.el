@@ -21,6 +21,7 @@
 
 ;; Version: 0.08
 ;; Package-Version: 20160705.2027
+;; Package-Commit: c76aa265d13ad91d6890d242e142d05e31f0340b
 ;; Author: T.v.Dein <tlinden@cpan.org>
 ;; Keywords: kill delete
 ;; URL: https://github.com/tlinden/viking-mode

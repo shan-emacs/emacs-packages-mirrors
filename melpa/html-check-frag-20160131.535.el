@@ -5,6 +5,7 @@
 ;; Author: Tobias.Zawada <i@tn-home.de>
 ;; Package-Requires: ((emacs "24.3"))
 ;; Package-Version: 20160131.535
+;; Package-Commit: feb89765eafd69dfcf07afeebded8985dc456e7c
 
 ;; This file is not part of GNU Emacs.
 

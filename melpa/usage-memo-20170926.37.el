@@ -7,6 +7,7 @@
 ;; Author: rubikitch <rubikitch@ruby-lang.org>
 ;; Keywords: convenience, languages, lisp, help, tools, docs
 ;; Package-Version: 20170926.37
+;; Package-Commit: 88e15a9942a3e0a6e36e9c3e51e3edb746067b1a
 ;; URL:http://www.emacswiki.org/cgi-bin/wiki/download/usage-memo.el
 
 ;; This file is free software; you can redistribute it and/or modify

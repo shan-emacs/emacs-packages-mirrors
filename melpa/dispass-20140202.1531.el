@@ -6,6 +6,7 @@
 ;; Created: Jun 8, 2012
 ;; Version: 1.1.2
 ;; Package-Version: 20140202.1531
+;; Package-Commit: b6e8f89040ebaaf0e7609b04bc27a8979f0ae861
 ;; Keywords: processes
 ;; URL: http://projects.ryuslash.org/dispass.el/
 ;; Package-Requires: ((dash "1.0.0"))

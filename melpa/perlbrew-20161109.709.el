@@ -5,6 +5,7 @@
 ;; Author: Kentaro Kuribayashi <kentarok@gmail.com>
 ;; Version: 0.3
 ;; Package-Version: 20161109.709
+;; Package-Commit: 3a3406c3307c92aa30f9400d430925c434a3b6f0
 ;; Keywords: Emacs, Perl
 
 ;; This program is free software; you can redistribute it and/or modify

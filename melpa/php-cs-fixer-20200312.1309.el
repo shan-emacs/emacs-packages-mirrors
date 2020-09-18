@@ -9,6 +9,7 @@
 ;; Source: Some pieces of code are copied from go-mode.el https://github.com/dominikh/go-mode.el
 ;; Version: 1.0Beta1
 ;; Package-Version: 20200312.1309
+;; Package-Commit: 95eace9bc0ace128d5166e303c76df2b778c4ddb
 ;; Keywords: languages php
 ;; Package-Requires: ((cl-lib "0.5"))
 ;; URL: https://github.com/OVYA/php-cs-fixer

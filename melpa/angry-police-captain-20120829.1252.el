@@ -5,6 +5,7 @@
 ;; Author: Rolando Pereira <rolando_pereira@sapo.pt>
 ;; Keywords: games, web, fun
 ;; Package-Version: 20120829.1252
+;; Package-Commit: d11931c5cb63368dcc4a48797962428cca6d3e9d
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

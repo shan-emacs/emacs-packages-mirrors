@@ -4,6 +4,7 @@
 ;; Maintainer: myuhe
 ;; URL: https://github.com/myuhe/e2wm-R.el
 ;; Package-Version: 20151230.926
+;; Package-Commit: 4350601ee1a96bf89777b3f09f1b79b88e2e6e4d
 ;; Version: 0.4
 ;; Created: 2011-03-15
 ;; Keywords: convenience, e2wm

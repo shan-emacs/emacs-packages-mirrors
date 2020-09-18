@@ -6,6 +6,7 @@
 ;; Maintainer: Iain Nicol
 ;; URL: https://gitlab.com/iain/hamburger-menu-mode
 ;; Package-Version: 20160825.2031
+;; Package-Commit: 3568159c693c30bed7f61580e4f3b6241253ad4e
 ;; Version: 1.0.5
 ;; Keywords: hamburger, menu
 ;; Package-Requires: ((emacs "24.5"))

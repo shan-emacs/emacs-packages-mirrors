@@ -3,6 +3,7 @@
 ;; Maintainer: Adam Porter <adam@alphapapa.net>
 ;; Version: 2.1-pre
 ;; Package-Version: 20190720.2002
+;; Package-Commit: ef0f86f4b893b30be8bcf8b43a5ec357a6c70f07
 ;; URL: https://github.com/alphapapa/outorg
 ;; Package-Requires: ((emacs "24.4"))
 

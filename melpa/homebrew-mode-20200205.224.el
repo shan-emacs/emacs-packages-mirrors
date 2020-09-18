@@ -5,6 +5,7 @@
 ;; Author: Alex Dunn <dunn.alex@gmail.com>
 ;; URL: https://github.com/dunn/homebrew-mode
 ;; Package-Version: 20200205.224
+;; Package-Commit: 8c04b040656dc99719efd7663c10f26f74df4a47
 ;; Version: 2.0.0
 ;; Package-Requires: ((emacs "24.4") (inf-ruby "2.4.0") (dash "1.2.0"))
 ;; Keywords: homebrew brew ruby

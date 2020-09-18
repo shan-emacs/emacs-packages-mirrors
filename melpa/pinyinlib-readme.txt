@@ -39,13 +39,13 @@ https://stable.melpa.org/#/pinyinlib
 
   `pinyinlib-build-regexp-char' converts a letter to a regular
   expression containing all the Chinese characters whose pinyins start
-  with the letter.  It accepts four parameters:
+  with the letter.  It accepts five parameters:
   ,----
-  | char &optional no-punc-p tranditional-p only-chinese-p
+  | char &optional no-punc-p tranditional-p only-chinese-p mixed-p
   `----
 
   The first parameter `char' is the letter to be converted.  The latter
-  three parameters are optional.
+  four parameters are optional.
   - If `no-punc-p' is `t': it will not convert English punctuations to
     Chinese punctuations.
 
@@ -54,6 +54,10 @@ https://stable.melpa.org/#/pinyinlib
 
   - If `only-chinese-p' is `t': the resulting regular expression doesn't
     contain the English letter `char'.
+
+  - If `mixed-p' is `t': the resulting regular expression will mix
+    traditional and simplified Chinese characters. This parameter will take
+    precedence over `traditional-p'.
 
   When converting English punctuactions to Chinese/English punctuations,
   it uses the following table:

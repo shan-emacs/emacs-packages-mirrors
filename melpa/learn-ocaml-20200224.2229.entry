@@ -1,2 +1,2 @@
 
-(learn-ocaml . [(20200224 2229) ((emacs (25 1))) "Emacs frontend for learn-ocaml" single ((:commit . "e3424b3ae3f7d85ef020d030c2fa58df86ed8955") (:url . "https://github.com/pfitaxel/learn-ocaml.el"))])
+(learn-ocaml . [(20200224 2229) ((emacs (25 1))) "Emacs frontend for learn-ocaml" single ((:commit . "86505672be0aabc9fa1048bc453ab2fc855b27e1") (:url . "https://github.com/pfitaxel/learn-ocaml.el"))])

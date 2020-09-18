@@ -5,6 +5,7 @@
 ;; Author: Christopher Wellons <mosquitopsu@gmail.com>
 ;; URL: https://github.com/skeeto/rdp
 ;; Package-Version: 20120929.154
+;; Package-Commit: b620192afada04aec33b38cc130fef0765f41ca9
 ;; Version: 1.0
 
 ;;; Commentary:

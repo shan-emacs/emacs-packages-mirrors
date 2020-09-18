@@ -5,6 +5,7 @@
 ;; Author: Emanuel Evans <mail@emanuel.industries>
 ;; Version: 0.0.1
 ;; Package-Version: 20150810.440
+;; Package-Commit: 3f68cbcce04f59eb8e83af109164731ec0454be0
 ;; Package-Requires: ((go-mode "1.3.1") (emacs "24"))
 ;; Keywords: languages go
 

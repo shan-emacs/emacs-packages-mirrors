@@ -1,0 +1,2 @@
+
+(clojure-essential-ref-nov . [(20200719 608) ((emacs (24)) (dash (2 16 0)) (nov (0 3 1)) (clojure-essential-ref (0 1 0))) "Cider-doc to \"Clojure, The Essential Reference\" (EPUB)" single ((:commit . "3787300a2f6100d1a20b1259b488256f3a840fa6") (:url . "https://github.com/p3r7/clojure-essential-ref"))])

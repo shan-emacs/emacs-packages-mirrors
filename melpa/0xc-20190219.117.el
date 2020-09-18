@@ -5,6 +5,7 @@
 ;; Author: Adam Niederer <adam.niederer@gmail.com>
 ;; URL: http://github.com/AdamNiederer/0xc
 ;; Package-Version: 20190219.117
+;; Package-Commit: 167e93ce863381a58988655927042514d984ad49
 ;; Version: 0.1
 ;; Keywords: base conversion
 ;; Package-Requires: ((emacs "24.4") (s "1.11.0"))

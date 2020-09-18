@@ -4,6 +4,7 @@
 ;;         Robert Zaremba <robert.marek.zaremba@wp.eu>
 ;; Version: 2013.03.14
 ;; Package-Version: 20150714.733
+;; Package-Commit: ae83761aa908c1a50ff34af04f00dcc46bca2ce9
 ;; Keywords: Go flymake
 ;; URL: https://github.com/robert-zaremba/flymake-go
 ;;

@@ -5,6 +5,7 @@
 ;; Author: Xah Lee ( http://xahlee.info/ )
 ;; Version: 2.3.20180507194855
 ;; Package-Version: 20180508.249
+;; Package-Commit: 4d845cfbce32d45befd7c454e3476c3ce40d2b43
 ;; Created: 17 Aug 2010
 ;; Package-Requires: ((emacs "24.1"))
 ;; Keywords: lisp, tools, find replace

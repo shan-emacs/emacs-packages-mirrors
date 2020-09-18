@@ -5,6 +5,7 @@
 ;; Author: Charles L.G. Comstock <dgtized@gmail.com>
 ;; Version: 0.1
 ;; Package-Version: 20151227.256
+;; Package-Commit: b7ca30b05905047be2e55199a6475f8d98ce318b
 ;; Packages-Requires: ((emacs "24.1"))
 ;; Keywords: processes, unix
 

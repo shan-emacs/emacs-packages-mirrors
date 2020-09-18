@@ -6,6 +6,7 @@
 ;; Author: Daniel Szmulewicz <daniel.szmulewicz@gmail.com>
 ;; Keywords: clojurescript
 ;; Package-Version: 20140915.2110
+;; Package-Commit: cdc0c2912321f8438b0f3449ba8aca50ec150bba
 ;; Created: 14th September 2014
 ;; Version: 0.5.20140916
 

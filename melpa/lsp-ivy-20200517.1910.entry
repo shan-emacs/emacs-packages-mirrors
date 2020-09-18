@@ -1,2 +1,0 @@
-
-(lsp-ivy . [(20200517 1910) ((emacs (25 1)) (dash (2 14 1)) (lsp-mode (6 2 1)) (ivy (0 13 0))) "LSP ivy integration" single ((:commit . "dce58b5509271bbedb53ba9d0278dcb563a43977") (:keywords "languages" "debug") (:url . "https://github.com/emacs-lsp/lsp-ivy"))])

@@ -5,6 +5,7 @@
 ;; Author: Magnus Henoch <magnus.henoch@gmail.com>
 ;; Keywords: comm
 ;; Package-Version: 20180715.1959
+;; Package-Commit: 714387d5a5cf34d8d8cd96bdb1f9cb8ded823ff7
 ;; Version: 0.2
 ;; Package-Requires: ((emacs "24.3"))
 ;; URL: https://github.com/legoscia/srv.el

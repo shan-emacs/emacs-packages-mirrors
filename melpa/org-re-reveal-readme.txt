@@ -17,12 +17,16 @@ Quickstart:
    (c) Export to HTML: Press "C-c C-e v v" (write HTML file) or
        "C-c C-e v b" (write HTML file and open in browser)
 See "Readme.org" for introduction, details, and features added to
-org-reveal.
+org-reveal:
+https://gitlab.com/oer/org-re-reveal/-/blob/master/Readme.org
+The Readme is also available as reveal.js presentation that is
+generated with org-re-reveal in a CI/CD infrastructure on GitLab:
+https://oer.gitlab.io/org-re-reveal/Readme.html
 
 Note that emacs-reveal offers a project that embeds org-re-reveal,
 reveal.js, and various reveal.js plugins:
 https://gitlab.com/oer/emacs-reveal
-Its howto, generated from Org source file in GitLab CI environment:
+Its howto, generated from Org source file with emacs-reveal:
 https://oer.gitlab.io/emacs-reveal-howto/howto.html
 
 The package org-re-reveal grew out of a forked version of org-reveal

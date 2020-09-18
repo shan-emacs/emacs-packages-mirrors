@@ -6,6 +6,7 @@
 ;; Homepage: http://github.com/rolandwalker/nav-flash
 ;; URL: http://raw.githubusercontent.com/rolandwalker/nav-flash/master/nav-flash.el
 ;; Package-Version: 20191204.1427
+;; Package-Commit: dbb91216637e0a1e8bfd59aa883c75d45db70daf
 ;; Version: 1.1.0
 ;; Last-Updated: 25 Oct 2013
 ;; EmacsWiki: NavFlash

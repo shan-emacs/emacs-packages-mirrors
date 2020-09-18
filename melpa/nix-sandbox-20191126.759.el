@@ -6,6 +6,7 @@
 ;; Package-Version: 20191126.759
 ;; Package-X-Original-Version: 0.1
 ;; Package-Requires: ((dash "2.12.1") (s "1.10.0"))
+;; Package-Commit: 977b9a505ffc8b33b70ec7742f90e469b3168297
 ;; Homepage: https://github.com/travisbhartwell/nix-emacs
 
 ;; This file is not part of GNU Emacs.

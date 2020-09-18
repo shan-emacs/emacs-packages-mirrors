@@ -5,6 +5,7 @@
 ;; Author: Yasuyuki Oka <yasuyk@gmail.com>
 ;; Version: 0.3.0-snapshot
 ;; Package-Version: 20161103.153
+;; Package-Commit: e42c563936c205ceedb930a687c11b4bb56447bc
 ;; URL: https://github.com/yasuyk/helm-go-package
 ;; Package-Requires: ((emacs "24.4") (helm-core "2.2.1") (go-mode "1.4.0") (deferred "0.4.0"))
 

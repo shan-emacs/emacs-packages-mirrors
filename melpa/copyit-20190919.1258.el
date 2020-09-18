@@ -6,6 +6,7 @@
 ;; Created: 6 Jun 2016
 ;; Version: 0.1.0
 ;; Package-Version: 20190919.1258
+;; Package-Commit: c4f2c28e5b6270e8e3364341619f1154bb4e682e
 ;; Keywords: convenience yank clipboard
 ;; Homepage: https://github.com/zonuexe/emacs-copyit
 ;; Package-Requires: ((emacs "24.3") (s "1.9.0"))

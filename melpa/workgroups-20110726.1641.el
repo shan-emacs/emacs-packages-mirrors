@@ -7,6 +7,7 @@
 ;; Created:  2010-07-22
 ;; Version:  0.2.0
 ;; Package-Version: 20110726.1641
+;; Package-Commit: 9572b3492ee09054dc329f64ed846c962b395e39
 ;; Keywords: session management window-configuration persistence
 
 ;; This program is free software; you can redistribute it and/or

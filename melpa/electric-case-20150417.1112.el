@@ -18,6 +18,7 @@
 
 ;; Version: 2.2.2
 ;; Package-Version: 20150417.1112
+;; Package-Commit: bac64e772107e3dc721a9819f63b9ebdc28a81f7
 ;; Author: zk_phi
 ;; URL: http://hins11.yu-yake.com/
 

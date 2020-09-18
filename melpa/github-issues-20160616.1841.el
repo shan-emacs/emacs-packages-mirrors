@@ -6,6 +6,7 @@
 ;; Created: April 19, 2012
 ;; Version: 0.0.1
 ;; Package-Version: 20160616.1841
+;; Package-Commit: 816f7712b0eb05bffec0add3507302862d2629c4
 ;; Keywords: GitHub Issues
 ;; Package-Requires: ((emacs "24"))
 ;; URL: http://inkel.github.com/github-issues.el/

@@ -9,6 +9,7 @@
 ;; Modified: 2013-09-30
 ;; Version: 1.0
 ;; Package-Version: 20140115.1556
+;; Package-Commit: b180b3be7a74ae4799a14e7e4bc2fe10e3ff7a15
 ;; Keywords: tools
 ;; Package-Requires: ((emacs "24"))
 ;; URL: https://github.com/kawabata/emacs-display-theme/

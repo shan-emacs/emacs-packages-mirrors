@@ -5,6 +5,7 @@
 ;; Author: Thomas Winant <dewinant@gmail.com>
 ;; URL: https://github.com/mrBliss/helm-rhythmbox
 ;; Package-Version: 20160524.1158
+;; Package-Commit: c92e1ded34ddd4e62e7e9a558259c232e05193fa
 ;; Version: 0.1
 ;; Package-Requires: ((helm "1.5.0") (cl-lib "0.5"))
 ;; Created: Mar 13 2015

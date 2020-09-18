@@ -4,6 +4,7 @@
 
 ;; URL: https://github.com/symfrog/clojure-quick-repls
 ;; Package-Version: 20150814.736
+;; Package-Commit: 730311dd3ac4e0aceb0204f818b422017873467f
 ;; Keywords: languages, clojure, cider, clojurescript
 ;; Version: 0.2.0-cvs
 ;; Package-Requires: ((cider "0.8.1") (dash "2.9.0"))

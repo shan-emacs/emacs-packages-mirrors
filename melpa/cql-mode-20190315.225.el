@@ -5,6 +5,7 @@
 ;; Author: Yuki Inoue <inouetakahiroki at gmail.com>
 ;; Version: 0.0.2
 ;; Package-Version: 20190315.225
+;; Package-Commit: d400c046850d3cf404778b2c47d6be4ff84ca04b
 ;; Keywords: cql, cassandra
 ;; Package-Requires: ((emacs "24"))
 ;; URL: https://github.com/Yuki-Inoue/cql-mode

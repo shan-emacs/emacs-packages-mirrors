@@ -4,6 +4,7 @@
 
 ;; Author: David Nolen
 ;; Keywords: literate programming, reproducible research
+;; Package-Commit: 958165c92b6cff6cada5c85c8ae5887806b8451b
 ;; Homepage: http://orgmode.org
 ;; Package-Version: 20130829.1843
 ;; Package-X-Original-Version: 0.02

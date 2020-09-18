@@ -6,6 +6,7 @@
 ;; Created: 2019-01-19
 ;; Version: 0.2
 ;; Package-Version: 20200211.621
+;; Package-Commit: ba73259e35b4649884ba56542d3a55f43bd3b80b
 ;; Package-Requires: ((emacs "24.1") (enlive "0.0.1") (s "1.12.0"))
 ;; Keywords: tools, Latour Litany, alien phenomenology, ontography, metaphorism, carpentry
 ;; URL: https://github.com/zzkt/litanizer

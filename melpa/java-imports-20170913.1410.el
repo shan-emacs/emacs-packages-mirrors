@@ -5,6 +5,7 @@
 ;; Author: Lee Hinman <lee@writequit.org>
 ;; URL: http://www.github.com/dakrone/emacs-java-imports
 ;; Package-Version: 20170913.1410
+;; Package-Commit: e96ff44ed48b362ab6227b8b802b84d84f78bcaa
 ;; Version: 0.1.1
 ;; Keywords: java
 ;; Package-Requires: ((emacs "24.4") (s "1.10.0") (pcache "0.3.2"))

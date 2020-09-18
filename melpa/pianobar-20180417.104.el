@@ -1,5 +1,6 @@
 ;;; pianobar.el --- thin wrapper for Pianobar, a Pandora Radio client
 ;; Package-Version: 20180417.104
+;; Package-Commit: 3154c4cb7401017fd441fcd6a7a0b669a4406882
 
 ;; Copyright (c) 2011, Aaron Griffith
 ;; This file is licensed under the GNU GPL -- see below.

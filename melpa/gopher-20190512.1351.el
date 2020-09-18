@@ -18,6 +18,7 @@
 ;; Author: Matthew Snyder <matthew.c.snyder@gmail.com>
 ;;         and the gopher.el authors (see AUTHORS.org)
 ;; URL: http://github.com/ardekantur/gopher.el
+;; Package-Commit: 6f4accac226698b22e8388e41ad5723b12553dde
 ;; Package-Version: 20190512.1351
 ;; Package-X-Original-Version: 20190211.1742
 ;; Package-Requires: ((emacs "24.4") (w3m "0"))

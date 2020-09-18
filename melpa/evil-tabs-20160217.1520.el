@@ -5,6 +5,7 @@
 ;; Maintainer: Kris Jenkins <krisajenkins@gmail.com>
 ;; Keywords: evil tab tabs vim
 ;; Package-Version: 20160217.1520
+;; Package-Commit: 53d3314a810017b6056ab6796aef671f5ea1c063
 ;; URL: https://github.com/krisajenkins/evil-tabs
 ;; Created: 30th September 2013
 ;; Version: 0.1.0

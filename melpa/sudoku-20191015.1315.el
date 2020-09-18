@@ -6,6 +6,7 @@
 ;; Created: Thu Oct 29 21:55:35 2009
 ;; Keywords: games
 ;; Package-Version: 20191015.1315
+;; Package-Commit: b1924fd244a5fa284de9d67b66fbd69164b37318
 ;; Package-Requires: ((emacs "24.4"))
 ;; Version: 1.4
 

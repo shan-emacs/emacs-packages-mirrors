@@ -4,6 +4,7 @@
 ;; SPDX-License-Identifier: ISC
 ;; Author: Lassi Kortela <lassi@lassi.io>
 ;; URL: https://github.com/lispunion/emacs-lisp-local
+;; Package-Commit: ff745a937f79df51cac0209b3cc3c35ce1d1fc61
 ;; Package-Requires: ((emacs "24.3") (cl-lib "0.5"))
 ;; Package-Version: 20200409.1330
 ;; Package-X-Original-Version: 0.1.0

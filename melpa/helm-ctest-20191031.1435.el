@@ -5,6 +5,7 @@
 ;; Author: Dan LaManna <me@danlamanna.com>
 ;; Version: 1.0
 ;; Package-Version: 20191031.1435
+;; Package-Commit: 2a29cfb4ec583da247fa2ae7bac88790b1223e40
 ;; Keywords: helm,ctest
 ;; Package-Requires: ((s "1.9.0") (dash "2.11.0") (helm-core "1.7.4"))
 

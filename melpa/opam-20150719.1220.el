@@ -5,6 +5,7 @@
 ;; Author: Sebastian Wiesner <swiesner@lunaryorn.com>
 ;; URL: https://github.com/lunaryorn/opam.el
 ;; Package-Version: 20150719.1220
+;; Package-Commit: 4d589de5765728f56af7078fae328b6792de8600
 ;; Keywords: convenience
 ;; Version: 0.1-cvs
 ;; Package-Requires: ((emacs "24.1"))

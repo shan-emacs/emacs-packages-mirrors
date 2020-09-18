@@ -3,6 +3,7 @@
 ;; Author: Christian Brassat
 ;; URL: https://github.com/crshd/mynt-mode
 ;; Package-Version: 20150512.2049
+;; Package-Commit: 23d4489167bfa899634548cb41ed32fdeb3600c9
 ;; Version: 0.2.1
 ;; Created: 2015-03-12
 ;; Keywords: convenience

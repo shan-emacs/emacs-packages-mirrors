@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/fuxialexander/org-pdftools
 ;; Version: 1.0
 ;; Package-Version: 20200422.1350
+;; Package-Commit: 8cc15bb8014ed1f047eecc0abd8bf447f86c0505
 ;; Keywords: convenience
 ;; Package-Requires: ((emacs "26.1") (org "9.3.6") (pdf-tools "0.8") (org-noter "1.4.1"))
 

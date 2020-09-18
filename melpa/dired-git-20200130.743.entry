@@ -1,2 +1,0 @@
-
-(dired-git . [(20200130 743) ((emacs (26 1)) (async-await (1 0)) (async (1 9 4)) (all-the-icons (2 2 0)) (ppp (1 0 0))) "Git integration for dired" single ((:commit . "11938721f7202aa784cc493027e3a0ec2c0d39b5") (:keywords "tools") (:authors ("Naoya Yamashita" . "conao3@gmail.com")) (:maintainer "Naoya Yamashita" . "conao3@gmail.com") (:url . "https://github.com/conao3/dired-git.el"))])

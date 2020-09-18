@@ -5,6 +5,7 @@
 ;; Author: ainame
 ;; URL: https://github.com/ainame/cursor-test.el
 ;; Package-Version: 20131207.1732
+;; Package-Commit: e09956e048b88fd2ee8dd90b5678baed8b04d31b
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "24"))
 

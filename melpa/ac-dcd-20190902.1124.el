@@ -2,6 +2,7 @@
 
 ;; Author:  <atila.neves@gmail.com>
 ;; Version: 0.6
+;; Package-Commit: d378d33c7bedc6c108eda7f674bd0aa1d8664857
 ;; Package-Version: 20190902.1124
 ;; Package-X-Original-Version: 20170323.1301
 ;; Package-Requires: ((auto-complete "1.3.1") (flycheck-dmd-dub "0.7"))

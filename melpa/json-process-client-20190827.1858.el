@@ -6,6 +6,7 @@
 ;;         Damien Cassou <damien@cassou.me>,
 ;; Version: 0.2.0
 ;; Package-Version: 20190827.1858
+;; Package-Commit: 422606a7bf08d13646e3db4f6c2bddb69bd61dec
 ;; Package-Requires: ((emacs "25.1"))
 ;; Url: https://gitlab.petton.fr/nico/json-process-client
 

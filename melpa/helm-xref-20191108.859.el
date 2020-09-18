@@ -5,6 +5,7 @@
 ;; Author: Fritz Stelzer <brotzeitmacher@gmail.com>
 ;; URL: https://github.com/brotzeit/helm-xref
 ;; Package-Version: 20191108.859
+;; Package-Commit: 6b4a8bd91f5eaf82f51bd31b03f6587387fe6983
 ;; Version: 0.5
 ;; Package-Requires: ((emacs "25.1") (helm "1.9.4"))
 

@@ -12,6 +12,7 @@
 ;; Author: Peter Vasil <mail@petervasil.net>
 ;; Version: 1.3.0
 ;; Package-Version: 20171022.2302
+;; Package-Commit: 448aba82970c98322629eaf2746e73be6c30c98e
 ;; Keywords: languages, snippets
 ;; URL: https://github.com/ptrv/processing2-emacs
 ;;

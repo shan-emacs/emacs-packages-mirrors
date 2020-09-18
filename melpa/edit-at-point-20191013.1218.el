@@ -4,6 +4,7 @@
 ;; License: MIT
 ;; URL: http://github.com/enoson/edit-at-point.el
 ;; Package-Version: 20191013.1218
+;; Package-Commit: 28c85a65c9c61f2aff50bc5e93f61cde26a5d9c0
 ;; Version: 1.1
 
 ;;; Commentary:

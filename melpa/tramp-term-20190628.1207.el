@@ -5,6 +5,7 @@
 ;; Author: Randy Morris <randy.morris@archlinux.us>
 ;; Version: 0.5
 ;; Package-Version: 20190628.1207
+;; Package-Commit: fdc3d5a29ca9549db462cd66d8f5d97026a1200f
 ;; Keywords: tramp, ssh
 ;; URL: https://github.com/randymorris/tramp-term.el
 

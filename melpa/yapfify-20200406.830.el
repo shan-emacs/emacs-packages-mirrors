@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/JorisE/yapfify
 ;; Version: 0.0.9
 ;; Package-Version: 20200406.830
+;; Package-Commit: 3df4e8ce65f55fd69479b3417525ce83a2b00b45
 ;; Package-Requires: ()
 
 ;; This file is free software; you can redistribute it and/or modify

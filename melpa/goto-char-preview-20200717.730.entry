@@ -1,0 +1,2 @@
+
+(goto-char-preview . [(20200717 730) ((emacs (24 3))) "Preview character when executing `goto-char` command" single ((:commit . "11fb6b8c77c6191f839f86afc8c8ca3341919058") (:authors ("Shen, Jen-Chieh" . "jcs090218@gmail.com")) (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com") (:url . "https://github.com/jcs-elpa/goto-char-preview"))])

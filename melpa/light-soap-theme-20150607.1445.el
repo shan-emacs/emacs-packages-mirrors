@@ -4,6 +4,7 @@
 ;; https://github.com/mswift42/light-soap-theme
 ;; Version: 0.1
 ;; Package-Version: 20150607.1445
+;; Package-Commit: 76a787bd40c6b567ae68ced7f5d9f9f10725e00d
 ;; Package-Requires: ((emacs "24"))
 ;; Created with emacs-theme-generator, https://github.com/mswift42/theme-creator.
 ;; Copyright (C) 2014 , martin haesler

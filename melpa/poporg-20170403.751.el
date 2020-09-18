@@ -8,6 +8,7 @@
 ;; Maintainer: Joseph Rabinoff <rabinoff@post.harvard.edu>
 ;; Keywords: outlines, tools
 ;; Package-Version: 20170403.751
+;; Package-Commit: 2c58d68c81ecca4140bf179f19ed153ec804b65a
 ;; URL: https://github.com/QBobWatson/poporg
 
 ;; This program is free software: you can redistribute it and/or modify it under

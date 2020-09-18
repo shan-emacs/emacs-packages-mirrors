@@ -7,6 +7,7 @@
 ;;         Caspar Florian Ebeling <florian.ebeling@gmail.com>
 ;; URL: https://github.com/ruby-test-mode/ruby-test-mode
 ;; Package-Version: 20200521.907
+;; Package-Commit: 5bb6b7b7ba0a4c91ba2e029853215e76e5df7772
 ;; Maintainer: Roman Scherer <roman.scherer@burningswell.com>
 ;; Created: 09.02.08
 ;; Version: 1.7

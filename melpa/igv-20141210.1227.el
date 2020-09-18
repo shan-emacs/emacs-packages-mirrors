@@ -4,6 +4,7 @@
 ;; Author: Stefano Barbi <stefanobarbi@gmail.com>
 ;; Version: 0.1
 ;; Package-Version: 20141210.1227
+;; Package-Commit: 47ac6ceede252f451348a2c696398c0cb5279555
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

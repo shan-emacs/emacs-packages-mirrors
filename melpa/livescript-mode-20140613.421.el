@@ -5,6 +5,7 @@
 ;; Author  : Hisamatsu Yasuyuki <yas@null.net>
 ;; URL     : https://github.com/yhisamatsu/livescript-mode
 ;; Package-Version: 20140613.421
+;; Package-Commit: 90a918d9686e256e6d4d439cc20f24dad8d3b804
 ;; Keywords: languages livescript
 ;; Version : 0.0.3
 

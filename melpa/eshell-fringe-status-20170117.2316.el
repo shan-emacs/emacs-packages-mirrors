@@ -5,6 +5,7 @@
 ;; Author: Tom Willemse <tom@ryuslash.org>
 ;; Keywords:
 ;; Package-Version: 20170117.2316
+;; Package-Commit: adc6997c68e39c0d52a2af1b2fd5cf2057783797
 ;; Version: 1.0.0
 ;; URL: http://projects.ryuslash.org/eshell-fringe-status/
 

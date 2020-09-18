@@ -8,6 +8,7 @@
 ;; Maintainer: Sam Graham <libflymake-emacs BLAHBLAH illusori.co.uk>
 ;; URL: https://github.com/illusori/emacs-flymake-cursor
 ;; Package-Version: 20120322.1757
+;; Package-Commit: ecc539082c3fc9e91bba33d72c26989217411593
 ;; origin: http://paste.lisp.org/display/60617,1/raw
 ;; Version: 1.0.2
 ;; Keywords: languages mode flymake

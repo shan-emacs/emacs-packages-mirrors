@@ -5,6 +5,7 @@
 ;; Author: Dewdrops <v_v_4474@126.com>
 ;; URL: https://github.com/Dewdrops/visual-ascii-mode
 ;; Package-Version: 20150129.1046
+;; Package-Commit: 99285a099a17472ddd9f1b4f74e9d092dd8c5947
 ;; Version: 0.1
 ;; Keywords: presentation
 ;; Package-Requires:

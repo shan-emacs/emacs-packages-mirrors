@@ -5,6 +5,7 @@
 ;; Author: "Huang, Ying" <huang.ying.caritas@gmail.com>
 ;; Maintainer: "Huang, Ying" <huang.ying.caritas@gmail.com>
 ;; URL: https://github.com/hying-caritas/comint-intercept
+;; Package-Commit: 3c9a6125e450435b79ab5e6466f830e57c5e0a30
 ;; Version: 20170317
 ;; Package-Version: 20200106.454
 ;; Package-X-Original-Version: 20170317

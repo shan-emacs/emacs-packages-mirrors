@@ -5,6 +5,7 @@
 ;; Author: Jaguaraquem A. Reinaldo <jaguar.adler@gmail.com>
 ;; Version: 2.1.0
 ;; Package-Version: 20191211.330
+;; Package-Commit: 13a480f03eb3729e6f203ce77dfd4de5e1203a3d
 ;; URL: https://github.com/jadler/brazilian-holidays
 ;; Keywords: calendar holidays brazilian
 ;; Package-Requires: ((emacs "26"))

@@ -24,6 +24,7 @@
 ;; Author: Ric Lister
 ;; URL: http://github.com/rlister/emacs-haste-client
 ;; Package-Version: 20141030.2034
+;; Package-Commit: 22d05aacc3296ab50a7361222ab139fb4d447c25
 ;; Version: 1.1
 ;; Package-Requires: ((json "1.2"))
 

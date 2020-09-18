@@ -7,6 +7,7 @@
 ;; Package-Version: 20190819.2042
 ;; Package-X-Original-Version: 0.2
 ;; Keywords: tools, language, convenience
+;; Package-Commit: da75c155da327c7a7aedb80f5cfe409984787049
 
 ;; Special Thanks: The emacswiki users, the #emacs@freenode.net citizens
 ;;                 and Marcus Tullius Cicero

@@ -5,6 +5,7 @@
 ;; Author: Uros Perisic
 ;; URL: https://gitlab.com/jjzmajic/compdef
 ;; Package-Version: 20200304.611
+;; Package-Commit: 30fb5846ed851efee641ce8c5d8879ad36cd7ac6
 ;;
 ;; Version: 0.2
 ;; Keywords: convenience

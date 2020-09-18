@@ -1,1 +1,1 @@
-Simplify extended unit test framework
+Simplify extended unit test framework.

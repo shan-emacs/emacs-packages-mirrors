@@ -4,6 +4,7 @@
 ;;    xuchunyang <xuchunyang56@gmail.com>
 ;; URL: https://github.com/Sliim/helm-github-stars
 ;; Package-Version: 20190428.1047
+;; Package-Commit: c891690218b0d8b957ea6cb45b1b6cffd15a6950
 ;; Version: 1.3.7
 ;; Package-Requires: ((helm "1.6.8") (emacs "24.4"))
 ;; Keywords: helm github stars

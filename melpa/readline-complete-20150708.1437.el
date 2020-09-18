@@ -6,6 +6,7 @@
 ;; Author: Christopher Monsanto <chris@monsan.to>
 ;; Version: 1.0
 ;; Package-Version: 20150708.1437
+;; Package-Commit: 30c020c37b2741160cc37e656e13c85d826a0ebf
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

@@ -5,6 +5,7 @@
 ;; Author: Farlado <farlado@sdf.org>
 ;; URL: https://github.com/farlado/emacs-wallpaper
 ;; Package-Version: 20200408.1353
+;; Package-Commit: 9fb5be9c2f7279f7ef2860eefd416359b9026ba3
 ;; Keywords: unix, wallpaper, extensions
 ;; Version: 1.1.3
 ;; Package-Requires: ((emacs "25.1"))

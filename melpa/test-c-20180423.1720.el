@@ -5,6 +5,7 @@
 ;; Author: Aurélien Aptel <aurelien.aptel@gmail.com>
 ;; URL: http://github.com/aaptel/test-c
 ;; Package-Version: 20180423.1720
+;; Package-Commit: 761a576f62c7021ba941f178f153c51289df1553
 ;; Version: 1.0
 ;; Package-Requires: ((emacs "24.3"))
 

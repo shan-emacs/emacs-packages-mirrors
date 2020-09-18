@@ -5,6 +5,7 @@
 ;; Author: Sergey Kostyaev <feo.me@ya.ru>
 ;; Keywords: languages
 ;; Package-Version: 20171023.358
+;; Package-Commit: 44c202ac97e728e93a35cee028a0ea8dd6e4292c
 ;; Url: https://github.com/s-kostyaev/go-gen-test
 ;; Version: 1.0.0
 ;; Package-Requires: ((emacs "24.3") (s "1.12"))

@@ -21,6 +21,7 @@
 
 ;; Version: 1.0
 ;; Package-Version: 20190201.320
+;; Package-Commit: bdf9280899b5efab6d55ffd96bad716c5f8e75bc
 ;; Author: Adrien Brochard
 ;; Keywords: kubernetes helm k8s tools processes
 ;; URL: https://github.com/abrochard/kubernetes-helm

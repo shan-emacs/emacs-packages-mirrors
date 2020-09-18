@@ -4,6 +4,7 @@
 ;; Authors : Yushi Wang <dot_wangyushi@yeah.net>
 ;; URL : http://github.com/m00nlight/minizinc-mode
 ;; Package-Version: 20180201.1450
+;; Package-Commit: 2512521ba7f8e263a06db88df663fc6b3cca7e16
 ;; Keywords : languages minizinc
 ;; Version : 0.0.2
 ;; Package-Requires : ((emacs "24.1"))

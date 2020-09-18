@@ -5,6 +5,7 @@
 ;; Author: Brian Jiang <brianjcj@gmail.com>
 ;; Keywords: completion, convenience
 ;; Package-Version: 20140409.752
+;; Package-Commit: a195db1d0593b4fb97efe50885e12aa6764d998c
 ;; URL: https://github.com/brianjcj/auto-complete-clang
 ;; Version: 0.1i
 ;; Package-Requires: ((auto-complete "1.3.1"))

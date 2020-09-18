@@ -5,6 +5,7 @@
 ;; Author: Gergely Polonkai <gergely@polonkai.eu>
 ;; Keywords: terminals
 ;; Package-Version: 20181119.951
+;; Package-Commit: 47c414285c2f5971f3be52aaf0a4066ea6989238
 ;; Version: 1.0
 ;; Package-Requires: ((emacs "24.4"))
 ;; URL: https://github.com/gergelypolonkai/alert-termux

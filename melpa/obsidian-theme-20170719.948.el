@@ -2,6 +2,7 @@
 ;; Author: martin haesler
 ;; URL: http://github.com/mswift42/obsidian-theme
 ;; Package-Version: 20170719.948
+;; Package-Commit: f45efb2ebe9942466c1db6abbe2d0e6847b785ea
 ;;; Version: 0.1
 
 ;; original eclipse theme by Morinar

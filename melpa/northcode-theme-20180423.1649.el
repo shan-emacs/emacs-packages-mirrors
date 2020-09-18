@@ -9,6 +9,7 @@
 ;; Project: northcode-theme
 ;; Version: 0.1
 ;; Package-Version: 20180423.1649
+;; Package-Commit: 4d3750461ba25ec45321318b5f1af4e8fdf16147
 ;; URL: https://github.com/Northcode/northcode-theme.el
 ;; Author: Andreas Larsen <andreas@northcode.no>
 ;; Package-Requires: ((emacs "24"))

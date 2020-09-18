@@ -7,6 +7,7 @@
 ;; Maintainer: bruno cuconato <bcclaro+emacs@gmail.com>
 ;; URL: https://github.com/GrammaticalFramework/gf-emacs-mode
 ;; Package-Version: 20181028.1542
+;; Package-Commit: 30b3127f229e0db522c7752f6957ca01b2ea2821
 ;; Version: 1.1.2
 ;; Package-Requires: ((s "1.0") (ht "2.0"))
 ;; Keywords: languages

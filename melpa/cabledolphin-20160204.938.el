@@ -5,6 +5,7 @@
 ;; Author: Magnus Henoch <magnus.henoch@gmail.com>
 ;; Keywords: comm
 ;; Package-Version: 20160204.938
+;; Package-Commit: fffc192cafa61558e924323d6da8166fe5f2a6f9
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24.4") (seq "1.0"))
 

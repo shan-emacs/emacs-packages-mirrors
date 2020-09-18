@@ -5,6 +5,7 @@
 ;; Author:  mooz <stillpedant@gmail.com>
 ;; Version: 0.0.5
 ;; Package-Version: 20151011.157
+;; Package-Commit: 4dd2ba267ecdeac845a7cbb3147294ee7daa25f4
 ;; Keywords: matching, convenience
 
 ;; This program is free software; you can redistribute it and/or modify

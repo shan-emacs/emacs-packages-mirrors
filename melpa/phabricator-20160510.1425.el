@@ -3,6 +3,7 @@
 ;; Author: Andrew Tulloch
 ;; URL: https://github.com/ajtulloch/phabricator.el
 ;; Package-Version: 20160510.1425
+;; Package-Commit: d09d6f059aea92d3b11c68664a5e80c901182ab8
 ;; Version: 0.1
 ;; Created: 2014-09-11
 ;; Keywords: phabricator, arcanist, diffusion

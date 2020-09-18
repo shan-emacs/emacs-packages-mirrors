@@ -6,6 +6,7 @@
 
 ;; Version: 20140202.001
 ;; Package-Version: 20171025.1430
+;; Package-Commit: 589a97412138145bea70e0450eeddeb7f138d538
 
 ;;; Documentation:
 ;;

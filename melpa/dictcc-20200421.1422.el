@@ -6,6 +6,7 @@
 ;; Author: Marten Lienen <marten.lienen@gmail.com>
 ;; Version: 1.0.2
 ;; Package-Version: 20200421.1422
+;; Package-Commit: 3950011197ba81f27cc82b4e6075c9100945f936
 ;; Keywords: convenience
 ;; Package-Requires: ((emacs "24.4") (cl-lib "0.5") (ivy "0.10.0"))
 

@@ -1,4 +1,5 @@
 ;;; lively.el --- interactively updating text
+;; Package-Commit: 348675828c6a81bfa1ac311ca465aad813542c1b
 
 ;; Copyright 2009 Luke Gorrie <luke@bup.co.nz>
 

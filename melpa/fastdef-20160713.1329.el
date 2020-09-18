@@ -4,6 +4,7 @@
 ;;
 ;; Version: 0.2.0
 ;; Package-Version: 20160713.1329
+;; Package-Commit: 0696f41dc150d35ce31fe8d2ea74f4173818bb55
 ;; Keywords: terminology org-mode markdown
 ;; Author: Chen Bin <chenin DOT sh AT gmail DOT com>
 ;; URL: http://github.com/redguardtoo/fastdef

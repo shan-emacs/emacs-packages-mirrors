@@ -1,0 +1,1 @@
+Searcher in pure elisp

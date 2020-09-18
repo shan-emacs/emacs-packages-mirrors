@@ -6,6 +6,7 @@
 ;; Author: Danie Roux <danie@danieroux.com>
 ;; URL: https://github.com/danieroux/pinboard-api-el
 ;; Package-Version: 20140324.1148
+;; Package-Commit: b7b5214d0c35178f8dca08cf22d6ef3c21f0fce4
 ;; Keywords: pinboard, WWW
 ;; Version: 0.1
 

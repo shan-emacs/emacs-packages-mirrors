@@ -48,8 +48,8 @@ When in command mode:
 【f】 (or Dvorak 【u】) activates insertion mode.
 【Space】 is a leader key. For example, 【SPACE r】 (Dvorak 【SPACE p】) calls query-replace. Press 【SPACE C-h】 to see the full list.
 【Space Space】 also activates insertion mode.
-【Space Enter】 calls execute-extended-command.
-【a】 calls execute-extended-command or smex or helm or counsel (if they are installed).
+【Space Enter】 calls execute-extended-command or alternative.
+【a】 calls execute-extended-command or alternative.
 
 The leader key sequence basically replace ALL emacs commands that starts with C-x key.
 

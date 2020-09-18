@@ -5,6 +5,7 @@
 ;; Author: Sebastian Christ <rudolfo.christ@gmail.com>
 ;; URL: https://github.com/rudolfochrist/zel
 ;; Package-Version: 20171014.832
+;; Package-Commit: 9dae2d212224d1deae1f62561fa8e4d689fd09f2
 ;; Version: 0.1.3-pre
 ;; Package-Requires: ((emacs "25") (frecency "0.1"))
 ;; Keywords: convenience, files, matching

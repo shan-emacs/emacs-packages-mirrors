@@ -9,6 +9,7 @@
 ;;             Peter Barabas <peter.barabas+disk@gmail.com> (2008)
 ;; Version: 1.0.1
 ;; Package-Version: 20171116.731
+;; Package-Commit: 283e54e3be7d08f959076240b2ab324e25632137
 ;; Keywords: convenience
 ;; URL: http://www.emacswiki.org/emacs/DiskKey
 

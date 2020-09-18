@@ -5,6 +5,7 @@
 ;; Author: Ruin0x11 <ipickering2@gmail.com>
 ;; Keywords: languages processes tools
 ;; Package-Version: 20180831.2051
+;; Package-Commit: cf30f0ac63bd0140e758840b8ab070e8313697b2
 ;; Package-Requires: ((emacs "25.1") (lsp-mode "4.1"))
 ;; Version: 0.1
 ;; URL: https://github.com/Ruin0x11/lsp-intellij

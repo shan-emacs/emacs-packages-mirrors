@@ -5,6 +5,7 @@
 ;; Author: Akira Tamamori <tamamori5917@gmail.com>
 ;; URL: https://github.com/tam17aki
 ;; Package-Version: 20160610.2
+;; Package-Commit: 72cf18a1a1f843db9bb5d58301739ea9ccb1655b
 ;; Version: 0.1.8
 ;; Package-Requires: ((helm "1.0"))
 

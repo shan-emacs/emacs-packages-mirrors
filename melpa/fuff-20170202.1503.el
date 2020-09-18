@@ -5,6 +5,7 @@
 ;; Author: Joel Moberg
 ;; URL: https://github.com/joelmo/fuff
 ;; Package-Version: 20170202.1503
+;; Package-Commit: 278e849913df87bd8756c59382282d87474802c3
 ;; Version: 0.1
 ;; Package-Requires: ((seq "2.3"))
 ;; Keywords: files, project, convenience

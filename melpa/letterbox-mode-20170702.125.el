@@ -3,6 +3,7 @@
 ;; Author: Fernando Leboran <f.leboran@gmail.com>
 ;; URL: http://github.com/pacha64/letterbox-mode
 ;; Package-Version: 20170702.125
+;; Package-Commit: 88c67a51d67216d569a28e8423200883fde096dd
 ;; Version: 0.3
 ;; Keywords: password, convenience
 ;; URL: http://www.github.com/pacha64/letterbox-mode

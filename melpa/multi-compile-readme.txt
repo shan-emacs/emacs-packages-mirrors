@@ -45,6 +45,8 @@ You can use different backends for the menu:
 or
 (setq multi-compile-completion-system 'helm)
 or
+(setq multi-compile-completion-system 'ivy)
+or
 (setq multi-compile-completion-system 'default)
 
 Usage

@@ -17,6 +17,7 @@
 
 ;; Author: Dmitry Moskowski
 ;; Keywords: tools, convenience
+;; Package-Commit: 272fafcf3bc37f9de41b11beb6a33e0dbf0a1909
 ;; Package-Version: 20190720.1858
 ;; Package-X-Original-Version: 20170501.112
 ;; Homepage: https://github.com/corpix/ob-blockdiag.el

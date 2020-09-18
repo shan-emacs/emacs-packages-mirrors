@@ -3,6 +3,7 @@
 ;; Author: Andrew Kirilenko <andrew.kirilenko.main@gmail.com>
 ;; URL: http://github.com/iced/go-gopath/
 ;; Package-Version: 20160705.1034
+;; Package-Commit: 5172fc53f21edbf9347d5ee7d1d745da1ec88a15
 ;; Package-Requires: ((cl-lib "0.5"))
 
 ;;; License

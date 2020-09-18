@@ -5,6 +5,7 @@
 ;; Author: Ozan Sener <ozan@ozansener.com>
 ;; Keywords: emms, soundcloud
 ;; Package-Version: 20131221.1145
+;; Package-Commit: 87e5cbf9609d1f26c24dc834fdeb78b33d453c2b
 ;; URL: http://github.com/osener/emms-soundcloud
 ;; Version: 0.1
 ;; Package-Requires: ((emms "20131016") (json "1.2"))

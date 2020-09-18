@@ -7,6 +7,7 @@
 ;; Created: November 18, 2018
 ;; Version: 0.3-git
 ;; Package-Version: 20181204.858
+;; Package-Commit: 976ad0664c3f44bfa11cb9b8787ddfb094d0a666
 ;; Package-Requires: ((emacs "25") (loop "1.3"))
 ;; Keywords: languages
 ;; URL: https://github.com/Schnouki/caddyfile-mode/

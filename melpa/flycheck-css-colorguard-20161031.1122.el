@@ -4,6 +4,7 @@
 
 ;; Author: Saša Jovanić <info@simplify.ba>
 ;; URL: https://github.com/Simplify/flycheck-css-colorguard/
+;; Package-Commit: ae94fa0396acd99f9ec36d9572459df793f37fe8
 ;; Keywords: flycheck, CSS, Colorguard
 ;; Version: 0.20.1
 ;; Package-Version: 20161031.1122

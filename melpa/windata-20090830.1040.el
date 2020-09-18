@@ -5,6 +5,7 @@
 ;; Author: wenbinye@gmail.com
 ;; Version: $Id: windata.el,v 0.0 2007/12/13 00:32:15 ywb Exp $
 ;; Package-Version: 20090830.1040
+;; Package-Commit: a723fc446ceaec23d5f29ecc8245d94c99d91625
 ;; Keywords: convenience, frames
 ;; 
 ;; This file is part of PDE (Perl Development Environment).

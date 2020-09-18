@@ -1,0 +1,2 @@
+
+(jenkinsfile-mode . [(20200725 2325) ((emacs (24)) (groovy-mode (2 0))) "Major mode for editing Jenkins declarative pipeline syntax" single ((:commit . "00d259ff9b870d234540e00e1d7c83cccdb063b8") (:url . "https://github.com/john2x/jenkinsfile-mode"))])

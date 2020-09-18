@@ -1,2 +1,0 @@
-
-(jenkins . [(20200115 2133) ((dash (2 12)) (emacs (24 3)) (json (1 4))) "Minimalistic Jenkins client for Emacs" single ((:commit . "29e27a685ec971b518251ce0e66a0b67d78ea395") (:keywords "jenkins" "convenience") (:authors ("Rustem Muslimov" . "r.muslimov@gmail.com")) (:maintainer "Rustem Muslimov" . "r.muslimov@gmail.com"))])

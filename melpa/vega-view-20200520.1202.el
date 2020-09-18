@@ -5,6 +5,7 @@
 ;; Author: Jack Rusher <jack@appliedscience.studio>
 ;; URL: https://www.github.com/applied-science/emacs-vega-view
 ;; Package-Version: 20200520.1202
+;; Package-Commit: b0160c883f53ce069c0b4498880474c158ac7245
 ;; Created: 20200330
 ;; Version: 1.0
 ;; Keywords: multimedia

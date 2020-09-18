@@ -5,6 +5,7 @@
 ;; Author: Steve Purcell <steve@sanityinc.com>
 ;; Author: Drew Adams
 ;; Keywords: faces
+;; Package-Commit: cd052dfef602fe79d8dfbcf9f06e6da74412218b
 ;; URL: https://github.com/purcell/diredfl
 ;; Package-Requires: ((emacs "24"))
 ;; Package-Version: 20191227.2028

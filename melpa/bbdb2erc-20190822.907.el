@@ -5,6 +5,7 @@
 ;; Author: Kevin Brubeck Unhammer <unhammer@fsfe.org>
 ;; Version: 0.1.5
 ;; Package-Version: 20190822.907
+;; Package-Commit: 40b89e961762af3e7ade3a1844a9fbcd4084ac65
 ;; Package-Requires: ((bbdb "3.0"))
 ;; Keywords: IRC, contacts, chat, client, Internet
 

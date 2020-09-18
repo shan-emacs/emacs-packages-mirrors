@@ -4,6 +4,7 @@
 ;; Author: Kouhei Yanagita <yanagi@shakenbu.org>
 ;; URL: https://github.com/kyanagi/scratch-ext-el
 ;; Package-Version: 20140104.516
+;; Package-Commit: 388c53cddd0466b451264894667ed64a6947ad67
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the MIT License.

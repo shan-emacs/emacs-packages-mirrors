@@ -1,5 +1,6 @@
 ;;; paren-face.el --- a face for parentheses in lisp modes  -*- lexical-binding: t -*-
 ;; Package-Version: 20200103.1238
+;; Package-Commit: eb4a51b8ef455e0914108105e7c0008d675457cc
 
 ;; Copyright (C) 2013-2020  Jonas Bernoulli
 

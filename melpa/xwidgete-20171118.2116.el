@@ -8,6 +8,7 @@
 ;; Maintainer: Tu, Do Hoang
 ;; Version: 0.3
 ;; Package-Version: 20171118.2116
+;; Package-Commit: e4e8410fe32176df85b46234717824519443fb04
 ;; Package-Requires: ((emacs "25"))
 ;; URL: https://github.com/tuhdo/xwidgete
 ;; Doc URL:

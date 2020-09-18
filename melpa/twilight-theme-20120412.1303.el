@@ -1,6 +1,7 @@
 ;;; twilight-theme.el --- Twilight theme for GNU Emacs 24 (deftheme)
 ;; Version: 1.0.0
 ;; Package-Version: 20120412.1303
+;; Package-Commit: 77c4741cb3dcf16e53d06d6c2ffdc660c40afb5b
 ;; Author: Nick Parker <nickp@developernotes.com>
 ;;
 ;; Defines a colour scheme resembling that of the original TextMate Twilight colour theme.

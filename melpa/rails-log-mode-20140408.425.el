@@ -5,6 +5,7 @@
 ;; Author: Anantha kumaran <ananthakumaran@gmail.com>
 ;; Version: 0.1
 ;; Package-Version: 20140408.425
+;; Package-Commit: ff440003ad7d47cb0ac3300f2a632f4cfd36a446
 ;; Keywords: Rails, log
 
 ;; This program is free software: you can redistribute it and/or

@@ -1,2 +1,0 @@
-
-(xwwp . [(20200413 757) ((emacs (26 1))) "Enhance xwidget webkit browser" tar ((:commit . "dcf6f9430dd9745e5f2705c0f42e013fab961c0e") (:keywords "convenience") (:authors ("Damien Merenne")) (:maintainer "Damien Merenne") (:url . "https://github.com/canatella/xwwp"))])

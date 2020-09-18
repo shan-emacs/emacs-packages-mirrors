@@ -9,6 +9,7 @@
 ;; Modified: July 30, 2018
 ;; Version: 1.5.0
 ;; Package-Version: 20180801.1319
+;; Package-Commit: a5b68d7a59975770b56ee8f6e66fa4f703a72ffe
 ;; Keywords: languages, faces
 ;; Homepage: https://github.com/lammps/lammps/tree/master/tools/emacs
 ;; Package-Requires: ((emacs "24.4"))

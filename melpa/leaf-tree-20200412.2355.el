@@ -5,6 +5,7 @@
 ;; Author: Naoya Yamashita <conao3@gmail.com>
 ;; Version: 1.0.0
 ;; Package-Version: 20200412.2355
+;; Package-Commit: 22f6c116cf1465c28d4a35d8a4587a8b614be175
 ;; Keywords: convenience leaf
 ;; Package-Requires: ((emacs "25.1") (imenu-list "0.8"))
 ;; URL: https://github.com/conao3/leaf-tree.el

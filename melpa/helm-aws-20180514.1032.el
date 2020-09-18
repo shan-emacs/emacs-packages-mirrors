@@ -5,6 +5,7 @@
 ;; Author: istib
 ;; URL: https://github.com/istib/helm-aws
 ;; Package-Version: 20180514.1032
+;; Package-Commit: b36c744b3f00f458635a91d1f5158fccbb5baef6
 ;; Version: 20141205.1
 ;; X-Original-Version: 0.2
 ;; Package-Requires: ((helm "1.5.3")(cl-lib "0.5")(s "1.9.0"))

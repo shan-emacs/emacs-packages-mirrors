@@ -6,6 +6,7 @@
 ;; Created: 19 Oct 2017
 ;; Version: 0.0.1
 ;; Package-Version: 20180301.502
+;; Package-Commit: 56f71a17d455581c10d48f6dbb31d9e2126227bf
 ;; Keywords: tools php
 ;; Package-Requires: ((emacs "24.3") (cl-lib "0.5") (f "0.17"))
 ;; URL: https://github.com/emacs-php/jetbrains.el

@@ -5,6 +5,7 @@
 ;; Author: Tejas Bubane <tejasbubane@gmail.com>
 ;; URL: https://github.com/tejasbubane/emacs-git-io
 ;; Package-Version: 20180317.1752
+;; Package-Commit: 48753acba73b48b997bb678fb5e2a938ae63b5d6
 ;; Keywords: convenience files
 ;; Version: 0.1.1
 ;; Package-Requires: ((emacs "24.4"))

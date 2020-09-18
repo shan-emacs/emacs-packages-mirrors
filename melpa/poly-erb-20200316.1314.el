@@ -5,6 +5,7 @@
 ;; Copyright (C) 2018
 ;; Version: 0.2.2
 ;; Package-Version: 20200316.1314
+;; Package-Commit: 56c744b8d87d8cbe0aba2696d4e8525afc4aa0e8
 ;; Package-Requires: ((emacs "25") (polymode "0.2.2"))
 ;; URL: https://github.com/polymode/poly-erb
 ;; Keywords: emacs

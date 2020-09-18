@@ -5,6 +5,7 @@
 ;; Author: David Raymond Christiansen <david@davidchristiansen.dk>
 ;; Keywords: docs, multimedia
 ;; Package-Version: 20180907.1647
+;; Package-Commit: 97f16a9ee4e6ff3e0f9291eaead772c66e3e12ae
 ;; Package-Requires: ((emacs "24") (cl-lib "0.5") (narrowed-page-navigation "0.1"))
 ;; Version: 0.2.1
 

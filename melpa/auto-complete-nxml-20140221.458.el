@@ -5,6 +5,7 @@
 ;; Author: Hiroaki Otsu <ootsuhiroaki@gmail.com>
 ;; Keywords: completion, html, xml
 ;; Package-Version: 20140221.458
+;; Package-Commit: ac7b09a23e45f9bd02affb31847263de4180163a
 ;; URL: https://github.com/aki2o/auto-complete-nxml
 ;; Package-Requires: ((auto-complete "1.4"))
 ;; Version: 0.5.0

@@ -18,6 +18,7 @@
 ;; Author: Christophe Rhodes <christophe@rhodes.io>
 ;; URL: https://github.com/csrhodes/tj3-mode
 ;; Package-Version: 20180519.1228
+;; Package-Commit: 1d98eb23f1606392f34ef1b80517cfc940fb9950
 
 ;;; Commentary:
 

@@ -5,6 +5,7 @@
 ;; Author: Hiroaki Otsu <ootsuhiroaki@gmail.com>
 ;; Keywords: convenience
 ;; Package-Version: 20151109.1333
+;; Package-Commit: df42d58a36447697f93b56e69f5e700b2baef1f9
 ;; URL: https://github.com/aki2o/emacs-bts
 ;; Version: 0.1.0
 ;; Package-Requires: ((widget-mvc "0.0.2") (log4e "0.3.0") (yaxception "0.3.3") (dash "2.9.0") (s "1.9.0") (pos-tip "0.4.5"))

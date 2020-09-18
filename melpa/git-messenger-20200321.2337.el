@@ -6,6 +6,7 @@
 ;; Maintainer: Neil Okamoto
 ;; URL: https://github.com/emacsorphanage/git-messenger
 ;; Package-Version: 20200321.2337
+;; Package-Commit: 2d64e62e33be9f881ebb019afc183caac9c62eda
 ;; Version: 0.18
 ;; Package-Requires: ((emacs "24.3") (popup "0.5.3"))
 

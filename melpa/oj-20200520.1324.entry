@@ -1,2 +1,0 @@
-
-(oj . [(20200520 1324) ((emacs (26 1)) (quickrun (2 2))) "Competitive programming tools client for AtCoder, Codeforces" single ((:commit . "e18ee8d02d834a6c31a21726c458202a78dc0b71") (:keywords "convenience") (:authors ("Naoya Yamashita" . "conao3@gmail.com")) (:maintainer "Naoya Yamashita" . "conao3@gmail.com") (:url . "https://github.com/conao3/oj.el"))])

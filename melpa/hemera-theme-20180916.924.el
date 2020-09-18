@@ -5,6 +5,7 @@
 ;; Author: Guido Schmidt
 ;; Maintainer: Guido Schmidt <guido.schmidt.2912@gmail.com>
 ;; URL: https://github.com/GuidoSchmidt/emacs-hemera-theme
+;; Package-Commit: b67c902b210b37b00cac68726822404543147ba8
 ;; Package-Version: 20180916.924
 ;; Package-X-Original-Version: 20170910.1303
 ;; Version: 0.1

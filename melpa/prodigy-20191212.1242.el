@@ -6,6 +6,7 @@
 ;; Maintainer: Johan Andersson <johan.rejeep@gmail.com>
 ;; Version: 0.7.0
 ;; Package-Version: 20191212.1242
+;; Package-Commit: 6ae71f27b09b172f03fb55b9eeef001206baacd3
 ;; URL: http://github.com/rejeep/prodigy.el
 ;; Package-Requires: ((s "1.8.0") (dash "2.4.0") (f "0.14.0") (emacs "24"))
 

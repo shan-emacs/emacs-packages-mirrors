@@ -6,6 +6,7 @@
 ;; Maintainer: Titus von der Malsburg <malsburg@posteo.de>
 ;; URL: https://github.com/tmalsburg/tango-plus-theme
 ;; Package-Version: 20200423.804
+;; Package-Commit: 1e9484bb392bb0aad2be159505c502320f8d0a5c
 ;; Version: 2.0.0
 
 ;; This program is free software; you can redistribute it and/or modify

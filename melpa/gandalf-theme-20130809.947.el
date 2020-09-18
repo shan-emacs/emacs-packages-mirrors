@@ -5,6 +5,7 @@
 ;; Author: Peter Vasil <mail@petervasil.net>
 ;; Keywords: color theme
 ;; Package-Version: 20130809.947
+;; Package-Commit: 4e472fc851431458537d458d09c1f5895e338536
 ;; Version: 0.1
 
 ;; This program is free software; you can redistribute it and/or modify

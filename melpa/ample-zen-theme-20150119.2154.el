@@ -5,6 +5,7 @@
 ;; Author: Michael Wall
 ;; Version: 0.3
 ;; Package-Version: 20150119.2154
+;; Package-Commit: b277bb7abd4b6624e8d59f02474b79af50a007bd
 ;; URL: https://github.com/mjwall/ample-zen
 ;; Keywords: theme, dark, emacs 24
 

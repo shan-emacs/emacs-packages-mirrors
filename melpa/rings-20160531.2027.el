@@ -5,6 +5,7 @@
 ;; Author: Konrad Scorciapino
 ;; Keywords: utilities, productivity
 ;; Package-Version: 20160531.2027
+;; Package-Commit: 3590b222eb80652cbd27866f066bd3571d86edfc
 ;; URL: http://github.com/konr/rings
 ;; Version: 1.0.1
 

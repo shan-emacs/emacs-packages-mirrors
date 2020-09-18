@@ -5,6 +5,7 @@
 ;; Author:: drymer <drymer [ AT ] autistici.org>
 ;; Package-Requires: ((async "1.5") (emacs "24.3"))
 ;; Package-Version: 20170703.2021
+;; Package-Commit: 964715ac30943c9d6976999cad208dc60d09def0
 ;; Version: 0.1
 
 ;; Keywords:: nikola

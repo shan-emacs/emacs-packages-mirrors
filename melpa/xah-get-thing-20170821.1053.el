@@ -5,6 +5,7 @@
 ;; Author: Xah Lee ( http://xahlee.info/ )
 ;; Version: 2.1.20170820
 ;; Package-Version: 20170821.1053
+;; Package-Commit: e3ef069ea9fea3a092689d45c94c6211b51d0ea4
 ;; Created: 22 May 2015
 ;; Package-Requires: ((emacs "24.1"))
 ;; Keywords: extensions, lisp, tools

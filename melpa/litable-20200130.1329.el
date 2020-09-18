@@ -6,6 +6,7 @@
 ;; Maintainer: Matus Goljer <matus.goljer@gmail.com>
 ;; Keywords: lisp
 ;; Package-Version: 20200130.1329
+;; Package-Commit: 02247ca284cbc79f3afb783d62ed092bfc5b8d83
 ;; Version: 0.0.20140306
 ;; Created: 8th April 2013
 ;; Package-requires: ((dash "2.6.0"))

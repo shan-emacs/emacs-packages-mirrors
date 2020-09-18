@@ -5,6 +5,7 @@
 ;; Author: Takashi Masuda <masutaka.net@gmail.com>
 ;; URL: https://github.com/masutaka/emacs-helm-hatena-bookmark
 ;; Package-Version: 20190609.1455
+;; Package-Commit: 10b8bfbd7fc4c3f503b2bc01f0c062dac128059e
 ;; Version: 2.4.2
 ;; Package-Requires: ((emacs "24") (helm "2.8.2"))
 

@@ -4,6 +4,7 @@
 ;; Author: David Thompson
 ;; Version: 0.1
 ;; Package-Version: 20190202.1634
+;; Package-Commit: ebc6a4a1cc56c01d2bb882e4a40934a6a1f4e9ca
 ;; Keywords:
 ;; Homepage: https://github.com/thomp/noaa
 ;; URL: https://github.com/thomp/noaa

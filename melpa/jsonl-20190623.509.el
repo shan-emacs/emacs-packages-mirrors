@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/ebpa/jsonl.el
 ;; Keywords: tools
 ;; Package-Version: 20190623.509
+;; Package-Commit: 3dd0b7bb2b4bce9f9de7367941f0cc78f82049c9
 ;; Package-Requires: ((emacs "25"))
 ;; Version: 0.0.1
 

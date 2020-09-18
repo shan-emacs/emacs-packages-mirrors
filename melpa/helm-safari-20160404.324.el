@@ -5,6 +5,7 @@
 ;; Author: Chunyang Xu <xuchunyang56@gmail.com>
 ;; URL: https://github.com/xuchunyang/helm-safari
 ;; Package-Version: 20160404.324
+;; Package-Commit: 664c7f4488829228eed7e90cd53002e14bec555b
 ;; Package-Requires: ((helm "1.9.1") (emacs "24"))
 ;; Version: 0.1
 ;; Keywords: tools

@@ -5,6 +5,7 @@
 ;; Author: James Nguyen <james@jojojames.com>
 ;; Maintainer: James Nguyen <james@jojojames.com>
 ;; URL: https://github.com/jojojames/hg-histedit
+;; Package-Commit: 2448d00bc390fed3e53091d968ec1222c8e7e35b
 ;; Package-Requires: ((emacs "25.1") (with-editor "2.8.3"))
 ;; Package-Version: 20190707.11
 ;; Package-X-Original-Version: 20190609

@@ -5,6 +5,7 @@
 ;; Author: Jonathan Rockway <jon@jrock.us>
 ;; Keywords: convenience
 ;; Package-Version: 20110508.731
+;; Package-Commit: d326319c05ddb8280885b31f9094040c1b365876
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

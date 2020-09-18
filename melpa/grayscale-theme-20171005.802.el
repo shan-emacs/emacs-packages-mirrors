@@ -6,6 +6,7 @@
 ;; Maintainer: Kaleb Elwert <belak@coded.io>
 ;; Version: 0.1
 ;; Package-Version: 20171005.802
+;; Package-Commit: 53ad50e10e68f2f076ebfc96e10ecef7a932d38d
 ;; URL: https://github.com/belak/emacs-grayscale-theme
 ;; Keywords: lisp
 

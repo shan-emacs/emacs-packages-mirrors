@@ -7,6 +7,7 @@
 ;; Created: Tue May 10 2016
 ;; Version: 0.2
 ;; Package-Version: 20160706.1931
+;; Package-Commit: 5b2ce6783b02805bcac1107a149bfba3852cd9d5
 ;; Package-Requires: ()
 ;; Last-Updated: Tue May 12 2016
 ;;           By: Benaiah Mischenko

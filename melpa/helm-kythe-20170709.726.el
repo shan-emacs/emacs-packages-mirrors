@@ -6,6 +6,7 @@
 ;; Package-Version: 20170709.726
 ;; Package-X-Original-Version: 20170708.1
 ;; Version: 0.0.1
+;; Package-Commit: eabbef4948f8ec7c7b2fac498e9145dfdb10ca82
 ;; URL: https://github.com/MaskRay/emacs-helm-kythe
 ;; Package-Requires: ((emacs "25") (dash "2.12.0") (helm "2.0"))
 

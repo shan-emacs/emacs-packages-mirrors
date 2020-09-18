@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/Wilfred/company-try-hard
 ;; Version: 0.1
 ;; Package-Version: 20200417.1603
+;; Package-Commit: 2b41136b5ed6e02032d99bcdb0599ecf00394fa5
 ;; Keywords: matching
 ;; Package-Requires: ((emacs "24.3") (company "0.8.0") (dash "2.0"))
 

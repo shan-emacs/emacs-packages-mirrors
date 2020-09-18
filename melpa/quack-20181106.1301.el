@@ -1,5 +1,6 @@
 ;;; quack.el --- enhanced support for editing and running Scheme code
 ;; Package-Version: 20181106.1301
+;; Package-Commit: 2146805ce2b5a9b155d73929986f11e713787e26
 
 (defconst quack-copyright    "Copyright (C) 2002-2012, 2016, 2018 Neil Van Dyke")
 (defconst quack-copyright-2  "Portions Copyright (C) Free Software Foundation")

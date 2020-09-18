@@ -1,2 +1,2 @@
 
-(request . [(20200517 1305) ((emacs (24 4))) "Compatible layer for URL request in Emacs" single ((:commit . "912525c772984c6af0fd84acd6699ee43d91037a") (:authors ("Takafumi Arakaki <aka.tkf at gmail.com>")) (:maintainer "Takafumi Arakaki <aka.tkf at gmail.com>") (:url . "https://github.com/tkf/emacs-request"))])
+(request . [(20200517 1305) ((emacs (24 4))) "Compatible layer for URL request in Emacs" single ((:commit . "d02d1347ffdf138cffd380cbeac62ac8732036ef") (:authors ("Takafumi Arakaki <aka.tkf at gmail.com>")) (:maintainer "Takafumi Arakaki <aka.tkf at gmail.com>") (:url . "https://github.com/tkf/emacs-request"))])

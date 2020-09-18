@@ -7,6 +7,7 @@
 ;; Created: March 13, 2013
 ;; Version: 0.2
 ;; Package-Version: 20150119.1621
+;; Package-Commit: 6a620444d59b438f42383b48cd4c19c03105dba6
 ;; Package-Requires: ((xml-rpc "1.6.8"))
 ;; Keywords: Trac, wiki, tickets
 

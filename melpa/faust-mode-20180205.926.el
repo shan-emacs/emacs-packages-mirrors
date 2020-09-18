@@ -9,6 +9,7 @@
 ;; Maintainer: Juan A. Romero <rukano@gmail.com>
 ;; Keywords: languages, faust
 ;; Package-Version: 20180205.926
+;; Package-Commit: 7c31b22bdbfd2f8c16ec117d2975d56dd61ac15c
 ;; Version: 0.2
 ;; URL: https://github.com/rukano/emacs-faust-mode
 ;; License: GPLv3

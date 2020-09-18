@@ -5,6 +5,7 @@
 ;; Author: Salmane Bah <salmane.bah@u-bordeaux.fr>
 ;; Keywords: c, opencl
 ;; Package-Version: 20190615.1957
+;; Package-Commit: 55cb49c8243e6420961d719faced035bc547c1ef
 ;; URL: https://github.com/salmanebah/opencl-mode
 ;; Version: 1.0
 

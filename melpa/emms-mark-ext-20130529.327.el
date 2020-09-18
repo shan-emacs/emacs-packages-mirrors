@@ -8,6 +8,7 @@
 ;; Created: 2010
 ;; Version: 0.3
 ;; Package-Version: 20130529.327
+;; Package-Commit: ec68129e3e9e469e5bf160c6a1b7030e322f3541
 ;; Last-Updated: 2013-05-28 03:20:06
 ;;           By: Joe Bloggs
 ;; URL: https://github.com/vapniks/emms-mark-ext

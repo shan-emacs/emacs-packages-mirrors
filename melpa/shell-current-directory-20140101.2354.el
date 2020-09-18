@@ -5,6 +5,7 @@
 ;; Author: Daniel Polani
 ;; Version: 0.1
 ;; Package-Version: 20140101.2354
+;; Package-Commit: bf843771bf9a4aa05e054ade799eb8862f3be89a
 ;; Keywords: shell, comint
 
 ;; This file is not (yet) part of GNU Emacs.

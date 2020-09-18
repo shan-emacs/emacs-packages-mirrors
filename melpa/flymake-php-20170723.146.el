@@ -4,6 +4,7 @@
 
 ;; Author: Steve Purcell <steve@sanityinc.com>
 ;; URL: https://github.com/purcell/flymake-php
+;; Package-Commit: c045d01e002ba5e09b05f40e25bf5068d02126bc
 ;; Package-Version: 20170723.146
 ;; Package-X-Original-Version: 0
 ;; Package-Requires: ((flymake-easy "0.1"))

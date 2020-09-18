@@ -5,6 +5,7 @@
 ;; Author: Aaron Jensen <aaronjensen@gmail.com>
 ;; URL: https://github.com/aaronjensen/flycheck-dialyxir
 ;; Package-Version: 20170515.1525
+;; Package-Commit: adfb73374cb2bee75724822972f405f2ec371199
 ;; Version: 0.1.0
 ;; Package-Requires: ((flycheck "29"))
 

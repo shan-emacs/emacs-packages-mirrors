@@ -6,6 +6,7 @@
 ;; Maintainer: Alex Murray <murray.alex@gmail.com>
 ;; URL: https://github.com/alexmurray/flycheck-flawfinder
 ;; Package-Version: 20170116.327
+;; Package-Commit: 7d964d38023b088adf3ffc2fddeead81f4491a45
 ;; Version: 0.1
 ;; Package-Requires: ((flycheck "0.24") (emacs "24.4"))
 

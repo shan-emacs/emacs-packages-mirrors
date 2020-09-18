@@ -1,0 +1,2 @@
+
+(snakemake-mode . [(20200720 349) ((emacs (24 5)) (cl-lib (0 5)) (magit-popup (2 4 0))) "Major mode for editing Snakemake files" tar ((:commit . "44b88fc2aff7c970c2699de2d8615d81092342f6") (:keywords "tools") (:authors ("Kyle Meyer" . "kyle@kyleam.com")) (:maintainer "Kyle Meyer" . "kyle@kyleam.com") (:url . "https://git.kyleam.com/snakemake-mode/about"))])

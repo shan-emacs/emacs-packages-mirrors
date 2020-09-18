@@ -1,0 +1,2 @@
+
+(s3ed . [(20200720 1313) ((emacs (25 1)) (dash (2 17 0)) (s (1 12 0))) "Tramp-like access to s3" tar ((:commit . "3e3b962d3848e6cc8ce9dc491b2e29e915a5c351") (:keywords "s3" "tools") (:authors ("Matt Usifer" . "mattusifer@gmail.com")) (:maintainer "Matt Usifer" . "mattusifer@gmail.com") (:url . "https://github.com/mattusifer/s3ed"))])

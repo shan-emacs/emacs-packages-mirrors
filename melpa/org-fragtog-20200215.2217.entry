@@ -1,2 +1,0 @@
-
-(org-fragtog . [(20200215 2217) ((emacs (24 3)) (org (9 3 2))) "Auto-toggle org fragments" single ((:commit . "8eca8084cc025c43ce2677b38ed4919218dd9ad9") (:authors ("Benjamin Levy" . "blevy@protonmail.com")) (:maintainer "Benjamin Levy" . "blevy@protonmail.com") (:url . "https://github.com/io12/org-fragtog"))])

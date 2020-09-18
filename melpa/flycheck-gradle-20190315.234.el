@@ -6,6 +6,7 @@
 ;; Maintainer: James Nguyen <james@jojojames.com>
 ;; URL: https://github.com/jojojames/flycheck-gradle
 ;; Package-Version: 20190315.234
+;; Package-Commit: 1ca08bbc343362a923cbdc2010f66e41655e92ab
 ;; Version: 1.0
 ;; Package-Requires: ((emacs "25.1") (flycheck "0.25"))
 ;; Keywords: languages gradle

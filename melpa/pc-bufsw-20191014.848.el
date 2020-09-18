@@ -26,6 +26,7 @@
 ;; Author: Igor Bukanov <igor@mir2.org>
 ;; Version: 3.2
 ;; Package-Version: 20191014.848
+;; Package-Commit: a7c7bba4b7d511eceaaa8fee34d598296402555b
 ;; Keywords: buffer
 ;; URL: https://github.com/ibukanov/pc-bufsw
 

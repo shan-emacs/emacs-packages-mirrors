@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/xuchunyang/github-stars.el
 ;; Package-Requires: ((emacs "25.1") (ghub "2.0.0"))
 ;; Package-Version: 20190517.1319
+;; Package-Commit: a9f25ab2487c886f5d50d26693d49856bd51383b
 ;; Keywords: tools
 ;; Created: Tue, 27 Mar 2018 20:59:43 +0800
 ;; Version: 0.1

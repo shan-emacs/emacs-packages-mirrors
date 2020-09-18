@@ -6,6 +6,7 @@
 ;; Author: Chunyang Xu <mail@xuchunyang.me>
 ;; URL: https://github.com/emacs-helm/helm-notmuch
 ;; Package-Version: 20190320.1048
+;; Package-Commit: 97a01497e079a7b6505987e9feba6b603bbec288
 ;; Keywords: mail
 ;; Version: 1.2
 ;; Package-Requires: ((helm "1.9.3") (notmuch "0.21"))

@@ -5,6 +5,7 @@
 ;; Author: Kevin W. van Rooijen <kevin.van.rooijen@attichacker.com>
 ;; Keywords: convenience, matching, tools
 ;; Package-Version: 20190807.625
+;; Package-Commit: abc5bee424780ad2de5520f8fefbf8e120c0d9ed
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

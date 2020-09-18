@@ -5,6 +5,7 @@
 ;; Author: Patrick Brinich-Langlois <pbrinichlanglois@gmail.com>
 ;; Version: 2.0.0
 ;; Package-Version: 20200326.2359
+;; Package-Commit: 981bdcb1a48c6d9139493abe7e25fabe126e43c3
 ;; URL: https://github.com/patbl/colemak-evil
 ;; Package-Requires: ((evil "20170323.1140"))
 

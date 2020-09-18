@@ -3,6 +3,7 @@
 ;; Author: myuhe <yuhei.maeda_at_gmail.com>
 ;; URL: https://github.com/myuhe/org-wunderlist.el
 ;; Package-Version: 20191017.1917
+;; Package-Commit: 1a084bb49be4b5a1066db9cd9b7da2f8efab293f
 ;; Version: 0.1
 ;; Maintainer: myuhe
 ;; Copyright (C) :2015 myuhe all rights reserved.

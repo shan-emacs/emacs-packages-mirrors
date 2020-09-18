@@ -5,6 +5,7 @@
 ;; Author: Ivan Malison <IvanMalison@gmail.com>
 ;; Keywords: github search clone api gh magit vc tools
 ;; Package-Version: 20190624.436
+;; Package-Commit: b73efaf19491010522b09db35bb0f1bad1620e63
 ;; URL: https://github.com/IvanMalison/github-search
 ;; Version: 0.0.1
 ;; Package-Requires: ((magit "0.8.1") (gh "1.0.0"))

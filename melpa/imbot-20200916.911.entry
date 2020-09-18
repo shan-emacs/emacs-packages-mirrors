@@ -1,0 +1,2 @@
+
+(imbot . [(20200916 911) ((emacs (25 1))) "Automatic system input method switcher" single ((:commit . "2cf671ccf9e7fa79fb35982d86bc42b53cca0714") (:keywords "convenience") (:url . "https://github.com/QiangF/imbot"))])

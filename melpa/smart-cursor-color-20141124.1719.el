@@ -7,6 +7,7 @@
 ;; Created: Thu Oct 31 21:33:34 2013 (+0900)
 ;; Version: 0.0.6
 ;; Package-Version: 20141124.1719
+;; Package-Commit: 1d190f49ca77734b55ac58f1b6276e42ada967b0
 ;; Package-Requires: ()
 ;; Last-Updated: Tue Apr 29 22:35:48 2014 (+0900)
 ;;           By: 7696122

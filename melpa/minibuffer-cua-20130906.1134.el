@@ -28,6 +28,7 @@
 ;; Author: Akinori MUSHA <knu@iDaemons.org>
 ;; URL: https://github.com/knu/minibuffer-cua.el
 ;; Package-Version: 20130906.1134
+;; Package-Commit: adc4979a64f8b36e05960e9afa0746dfa9e2e4c7
 ;; Created: 5 Sep 2013
 ;; Version: 1.0.0.20130906
 ;; Keywords: completion, editing

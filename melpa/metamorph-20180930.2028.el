@@ -5,6 +5,7 @@
 ;; Author: Adam Niederer <adam.niederer@gmail.com>
 ;; URL: http://github.com/AdamNiederer/metamorph
 ;; Package-Version: 20180930.2028
+;; Package-Commit: d9dc7037b7eed7b3fe85ea50e91f332e3f831514
 ;; Version: 0.1
 ;; Keywords: metaprogramming wp
 ;; Package-Requires: ((emacs "24.4"))

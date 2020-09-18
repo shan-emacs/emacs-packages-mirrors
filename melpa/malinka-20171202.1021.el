@@ -6,6 +6,7 @@
 ;; Author: Lefteris Karapetsas <lefteris@refu.co>
 ;; URL: https://github.com/LefterisJP/malinka
 ;; Package-Version: 20171202.1021
+;; Package-Commit: d4aa517c7a9022eae16c758c7efdb3a0403542d7
 ;; Keywords: c c++ project-management
 ;; Version: 0.3.2
 ;; Package-Requires: ((s "1.9.0") (dash "2.4.0") (f "0.11.0") (cl-lib "0.3") (rtags "0.0") (projectile "0.11.0"))

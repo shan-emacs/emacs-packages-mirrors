@@ -3,6 +3,7 @@
 ;; Author: Tom Schutzer-Weissmann
 ;; Keywords: comm, data, processes, hypermedia
 ;; Package-Version: 20170715.940
+;; Package-Commit: f53697fca278c741051aeb668b00466b5e0fd3fe
 
 ;; This program is free software; you can redistribute it and/or
 ;; modify it under the terms of the GNU General Public License as

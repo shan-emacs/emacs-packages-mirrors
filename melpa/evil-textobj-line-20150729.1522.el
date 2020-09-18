@@ -5,6 +5,7 @@
 ;; Author: Syohei YOSHIDA <syohex@gmail.com>
 ;; URL: https://github.com/syohex/emacs-evil-textobj-line
 ;; Package-Version: 20150729.1522
+;; Package-Commit: 3d401b6831bdbeec967ec8e64177a8950251e812
 ;; Version: 0.01
 ;; Package-Requires: ((evil "1.0.0"))
 

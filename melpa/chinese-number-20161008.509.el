@@ -6,6 +6,7 @@
 ;; Author: zhcosin<zhcosin@163.com>
 ;; URL: https://github.com/zhcosin/chinese-number
 ;; Package-Version: 20161008.509
+;; Package-Commit: 7311c2a0c5eea5f016a90d733dfe75144c302fb2
 ;; Created: 2016-09-21
 
 ;;; License:

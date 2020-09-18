@@ -6,6 +6,7 @@
 ;; Maintainer: Adam Alpern <adam.alpern@gmail.com>
 ;; URL: http://github.com/aalpern/emacs-color-theme-green-phosphor
 ;; Package-Version: 20150515.1447
+;; Package-Commit: fa42f598626adfdc5450e5c380fa2d5df6110f28
 ;; Keywords: color, theme
 ;; Version: 1.0.0
 ;;

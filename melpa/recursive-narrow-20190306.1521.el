@@ -5,6 +5,7 @@
 ;; Author: Nathaniel Flath <flat0103@gmail.com>
 ;; URL: http://github.com/nflath/recursive-narrow
 ;; Package-Version: 20190306.1521
+;; Package-Commit: 5e3e2067d5a148d7e64e64e0355d3b6860e4c259
 ;; Version: 20140811.1546
 ;; X-Original-Version: 20140801.1400
 ;; X-Original-Version: 1.3

@@ -12,17 +12,23 @@ as part of the ongoing development process.
 The theme provides the following customisation options, all of which
 are disabled by default:
 
-    modus-vivendi-theme-slanted-constructs
-    modus-vivendi-theme-bold-constructs
-    modus-vivendi-theme-proportional-fonts
-    modus-vivendi-theme-rainbow-headings
-    modus-vivendi-theme-section-headings
-    modus-vivendi-theme-scale-headings
-    modus-vivendi-theme-visible-fringes
-    modus-vivendi-theme-distinct-org-blocks
-    modus-vivendi-theme-3d-modeline
-    modus-vivendi-theme-subtle-diffs
-    modus-vivendi-theme-override-colors-alist
+    modus-vivendi-theme-slanted-constructs             (boolean)
+    modus-vivendi-theme-bold-constructs                (boolean)
+    modus-vivendi-theme-variable-pitch-headings        (boolean)
+    modus-vivendi-theme-no-mixed-fonts                 (boolean)
+    modus-vivendi-theme-headings                       (alist)
+    modus-vivendi-theme-scale-headings                 (boolean)
+    modus-vivendi-theme-fringes                        (choice)
+    modus-vivendi-theme-org-blocks                     (choice)
+    modus-vivendi-theme-prompts                        (choice)
+    modus-vivendi-theme-mode-line                      (choice)
+    modus-vivendi-theme-diffs                          (choice)
+    modus-vivendi-theme-faint-syntax                   (boolean)
+    modus-vivendi-theme-intense-hl-line                (boolean)
+    modus-vivendi-theme-intense-paren-match            (boolean)
+    modus-vivendi-theme-no-link-underline              (boolean)
+    modus-vivendi-theme-completions                    (choice)
+    modus-vivendi-theme-override-colors-alist          (alist)
 
 The default scale is as follows (it can be customised as well):
 
@@ -49,8 +55,12 @@ notify me of any missing package or change you would like to see.
     auctex and TeX
     auto-dim-other-buffers
     avy
-    breakpoint (provided by built-in gdb-mi.el)
+    awesome-tray
+    binder
     bm
+    bongo
+    boon
+    breakpoint (provided by built-in gdb-mi.el)
     buffer-expose
     calendar and diary
     calfw
@@ -69,6 +79,7 @@ notify me of any missing package or change you would like to see.
     counsel-notmuch
     counsel-org-capture-string
     cov
+    cperl-mode
     csv-mode
     ctrlf
     custom (M-x customize)
@@ -78,6 +89,7 @@ notify me of any missing package or change you would like to see.
     debbugs
     define-word
     deft
+    dictionary
     diff-hl
     diff-mode
     dim-autoload
@@ -96,6 +108,8 @@ notify me of any missing package or change you would like to see.
     ebdb
     ediff
     eglot
+    el-search
+    eldoc
     eldoc-box
     elfeed
     elfeed-score
@@ -107,6 +121,10 @@ notify me of any missing package or change you would like to see.
     eros
     ert
     eshell
+    eshell-fringe-status
+    eshell-git-prompt
+    eshell-prompt-extras (epe)
+    eshell-syntax-highlighting
     evil (evil-mode)
     evil-goggles
     evil-visual-mark-mode
@@ -128,12 +146,14 @@ notify me of any missing package or change you would like to see.
     forge
     fountain (fountain-mode)
     geiser
-    git
+    git-commit
     git-gutter (and variants)
     git-lens
+    git-rebase
     git-timemachine
     git-walktree
     gnus
+    golden-ratio-scroll-screen
     helm
     helm-ls-git
     helm-switch-shell
@@ -142,9 +162,12 @@ notify me of any missing package or change you would like to see.
     highlight-blocks
     highlight-defined
     highlight-escape-sequences (`hes-mode')
+    highlight-indentation
     highlight-numbers
     highlight-symbol
+    highlight-tail
     highlight-thing
+    hl-defined
     hl-fill-column
     hl-line-mode
     hl-todo
@@ -165,6 +188,7 @@ notify me of any missing package or change you would like to see.
     ivy
     ivy-posframe
     jira (org-jira)
+    journalctl-mode
     js2-mode
     julia
     jupyter
@@ -180,6 +204,7 @@ notify me of any missing package or change you would like to see.
     markup-faces (`adoc-mode')
     mentor
     messages
+    minibuffer-line
     minimap
     modeline
     mood-line
@@ -188,7 +213,10 @@ notify me of any missing package or change you would like to see.
     multiple-cursors
     neotree
     no-emoji
+    notmuch
     num3-mode
+    nxml-mode
+    objed
     orderless
     org
     org-journal
@@ -197,6 +225,7 @@ notify me of any missing package or change you would like to see.
     org-recur
     org-roam
     org-superstar
+    org-table-sticky-header
     org-treescope
     origami
     outline-mode
@@ -211,11 +240,13 @@ notify me of any missing package or change you would like to see.
     perspective
     phi-grep
     phi-search
+    pkgbuild-mode
     pomidor
     powerline
     powerline-evil
     proced
     prodigy
+    racket-mode
     rainbow-blocks
     rainbow-identifiers
     rainbow-delimiters
@@ -227,6 +258,7 @@ notify me of any missing package or change you would like to see.
     ruler-mode
     sallet
     selectrum
+    semantic
     sesman
     shell-script-mode
     show-paren-mode
@@ -235,6 +267,7 @@ notify me of any missing package or change you would like to see.
     smart-mode-line
     smartparens
     smerge
+    spaceline
     speedbar
     spell-fu
     stripes
@@ -247,12 +280,14 @@ notify me of any missing package or change you would like to see.
     tab-bar-mode
     tab-line-mode
     syslog-mode
-    trashed
+    table (built-in table.el)
     telephone-line
     term
     tomatinho
     transient (pop-up windows like Magit's)
+    trashed
     treemacs
+    tty-menu
     tuareg
     undo-tree
     vc (built-in mode line status for version control)

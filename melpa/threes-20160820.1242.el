@@ -5,6 +5,7 @@
 ;; Author: Chunyang Xu <xuchunyang.me@gmail.com>
 ;; Package-Requires: ((emacs "24") (seq "1.11"))
 ;; Package-Version: 20160820.1242
+;; Package-Commit: 6981acb30b856c77cba6aba63fefbf102cbdfbb2
 ;; Keywords: games
 ;; URL: https://github.com/xuchunyang/threes.el
 

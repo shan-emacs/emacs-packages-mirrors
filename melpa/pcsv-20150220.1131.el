@@ -3,6 +3,7 @@
 ;; Author: Masahiro Hayashi <mhayashi1120@gmail.com>
 ;; Keywords: data
 ;; Package-Version: 20150220.1131
+;; Package-Commit: 798e0933f8d0818beb17aebf3b1056bbf74e03d0
 ;; URL: https://github.com/mhayashi1120/Emacs-pcsv/raw/master/pcsv.el
 ;; Emacs: GNU Emacs 21 or later
 ;; Version: 1.3.7

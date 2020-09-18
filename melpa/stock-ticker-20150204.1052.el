@@ -5,6 +5,7 @@
 ;; Author: Gunther Hagleitner
 ;; Version: 0.1
 ;; Package-Version: 20150204.1052
+;; Package-Commit: f2e564142c9de84232839a5b01979cf95b04d6a9
 ;; Keywords: comms
 ;; URL: https://github.com/hagleitn/stock-ticker
 ;; Package-Requires: ((s "1.9.0") (request "0.2.0"))

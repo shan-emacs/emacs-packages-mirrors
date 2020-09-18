@@ -9,6 +9,7 @@
 ;; Created: 27 Jan 2006
 ;; Keywords: docs
 ;; Package-Version: 20190316.2201
+;; Package-Commit: c37d2412ba92aad647bcf5aeb151e620e8069f8d
 
 ;; This program is free software; you can redistribute it and/or
 ;; modify it under the terms of the GNU General Public License as

@@ -6,6 +6,7 @@
 ;; Maintainer: Conor Nash <conor@nashcobusinessservicesllc.com>
 ;; Version: 1.4
 ;; Package-Version: 20180227.557
+;; Package-Commit: 3c414b9d6b278911c95c5b8b71819e6af6f8a02a
 
 ;; This file is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

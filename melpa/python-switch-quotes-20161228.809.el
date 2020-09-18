@@ -5,6 +5,7 @@
 ;;; Maintainer: Vladimir Lagunov <lagunov.vladimir@gmail.com>
 ;;; URL: https://github.com/werehuman/python-switch-quotes
 ;; Package-Version: 20161228.809
+;; Package-Commit: 93f1e9b40e061a6cea480139e8b1362b6404abd0
 ;;; Version: 1.0.1
 ;;; Keywords: python tools convenience
 ;;; Package-Requires: ((emacs "24.3"))

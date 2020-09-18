@@ -5,6 +5,7 @@
 ;; Author: Aaron Jensen <aaronjensen@gmail.com>
 ;; URL: https://github.com/aaronjensen/company-flow
 ;; Package-Version: 20180225.2159
+;; Package-Commit: 76ef585c70d2a3206c2eadf24ba61e59124c3a16
 ;; Version: 0.1.0
 ;; Package-Requires: ((company "0.8.0") (dash "2.13.0"))
 

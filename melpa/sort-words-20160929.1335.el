@@ -7,6 +7,7 @@
 ;; Created: 2016-09-07
 ;; Version: 0.0.5
 ;; Package-Version: 20160929.1335
+;; Package-Commit: 7b6e108f80237363faf7ec28b2c58dec270b8601
 ;; Homepage: http://github.org/dotemacs/sort-words.el
 ;; Keywords: tools
 

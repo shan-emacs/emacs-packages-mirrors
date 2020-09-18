@@ -5,6 +5,7 @@
 ;; Author: Nathaniel Flath <nflath@gmail.com>
 ;; URL: http://github.com/nflath/save-visited-files
 ;; Package-Version: 20200212.414
+;; Package-Commit: 8203a05a322324ec17b14437c8dfb38efdb53241
 ;; Version: 1.6
 
 ;;; Commentary:

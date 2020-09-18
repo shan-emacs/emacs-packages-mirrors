@@ -7,6 +7,7 @@
 ;; Copyleft (Ↄ) 2013, Joe Bloggs, all rites reversed.
 ;; Created: 2010
 ;; Version: 20151220.2009
+;; Package-Commit: fee97b1b3faa83edaea00fbc5ad3cbca5e791a55
 ;; Package-Version: 20151220.2013
 ;; Package-X-Original-Version: 20130513.1152
 ;; Last-Updated: Sun Dec 20 20:09:34 2015

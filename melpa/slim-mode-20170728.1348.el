@@ -9,6 +9,7 @@
 ;; Author: Bozhidar Batsov
 ;; URL: http://github.com/slim-template/emacs-slim
 ;; Package-Version: 20170728.1348
+;; Package-Commit: 3636d18ab1c8b316eea71c4732eb44743e2ded87
 ;; Version: 1.1
 ;; Keywords: markup, language
 

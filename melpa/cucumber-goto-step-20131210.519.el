@@ -5,6 +5,7 @@
 ;;; Homepage: http://orthogonal.me
 ;;; Version: 0.0.1
 ;; Package-Version: 20131210.519
+;; Package-Commit: f2713ffb26ebe1b757d1f2ea80e900b55e5895aa
 ;;; Package-Requires: ((pcre2el "1.5"))
 ;;; URL: https://github.com/gstamp/cucumber-goto-step
 

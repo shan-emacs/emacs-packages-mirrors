@@ -4,6 +4,7 @@
 ;; Author: Russell Black (killdash9@github)
 ;; Keywords: convenience
 ;; Package-Version: 20191025.1737
+;; Package-Commit: 70c787b981caeef8c5f8012b170eb7b9f167cd13
 ;; URL: https://github.com/killdash9/better-shell
 ;; Created: 1st Mar 2016
 ;; Version: 1.2.1

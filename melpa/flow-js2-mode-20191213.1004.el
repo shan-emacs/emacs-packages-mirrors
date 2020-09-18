@@ -7,6 +7,7 @@
 ;; Maintainer: Matúš Goljer <matus.goljer@gmail.com>
 ;; Version: 0.1.0
 ;; Package-Version: 20191213.1004
+;; Package-Commit: 7520bdda70287e8d57b3f41033b1e0ca59a3be95
 ;; Created: 28th May 2017
 ;; Package-requires: ((flow-minor-mode "0") (js2-mode "0") (emacs "25.1"))
 ;; Keywords: languages, extensions

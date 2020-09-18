@@ -6,6 +6,7 @@
 ;; Package-Version: 20190124.2336
 ;; Package-X-Original-Version: 20180605.1
 ;; Package-Requires: ((emacs "25"))
+;; Package-Commit: 65d7caf5d926599a5007eb7bc279215908aa5252
 ;; URL: https://git.korewanetadesu.com/pelican-mode.git
 ;; Keywords: convenience, editing
 ;;

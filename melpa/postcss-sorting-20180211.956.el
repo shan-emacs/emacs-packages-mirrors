@@ -5,6 +5,7 @@
 ;; Author: Peiwen Lu <hi@peiwen.lu>
 ;; Version: 0.0.2
 ;; Package-Version: 20180211.956
+;; Package-Commit: deb0c935d2904c11a965758a9aee5a0e905f21fc
 ;; Package-Requires: ((emacs "24"))
 ;; URL: https://github.com/P233/postcss-sorting.el
 

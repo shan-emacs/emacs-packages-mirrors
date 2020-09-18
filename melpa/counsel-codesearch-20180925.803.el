@@ -5,6 +5,7 @@
 ;; Author: Austin Bingham <austin.bingham@gmail.com>
 ;; Version: 1.0.0
 ;; Package-Version: 20180925.803
+;; Package-Commit: b7989fad3e06f301c31d5e896c42b6cc549a0e0c
 ;; Keywords: tools
 ;; URL: https://github.com/abingham/emacs-counsel-codesearch
 ;; Package-Requires: ((codesearch "1") (counsel "0.10.0") (emacs "24") (ivy "0.10.0"))

@@ -5,6 +5,7 @@
 
 ;; Author: Allard Hendriksen
 ;; Keywords: literate programming, interactive shell, tmux
+;; Package-Commit: 3687ed7b874bdfe14617f5d14492887cb0836a85
 ;; URL: https://github.com/ahendriksen/ob-tmux
 ;; Version: 0.1.5
 ;; Package-Version: 20190708.1202

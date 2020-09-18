@@ -5,6 +5,7 @@
 ;; Author: Akiha Senda <senda.akiha@gmail.com>
 ;; URL: https://github.com/senda-akiha/flymake-cppcheck/
 ;; Package-Version: 20140415.1257
+;; Package-Commit: 7eac8c7b9c74ebb5e600686f1f3891767dc87bb2
 ;; Created: 13 January 2014
 ;; Version: 1.0.0
 ;; Keywords: flymake, cppcheck, C, C++

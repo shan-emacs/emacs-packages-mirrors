@@ -7,6 +7,7 @@
 ;;
 ;; Version: 1.4
 ;; Package-Version: 20150211.1749
+;; Package-Commit: 81f6b73fea8f397807781a1b51568397af21a6ef
 
 ;; This file is not part of Emacs
 

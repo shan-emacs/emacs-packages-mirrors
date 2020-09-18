@@ -5,6 +5,7 @@
 ;; Author: Dante Catalfamo
 ;; Version: 0.5.2
 ;; Package-Version: 20190720.2138
+;; Package-Commit: 9630dfac9549779711dbe89e621f516bb4b3a354
 ;; Package-Requires: ((emacs "25"))
 ;; URL: https://github.com/dantecatalfamo/ejson-mode
 ;; Keywords: convenience, languages, tools

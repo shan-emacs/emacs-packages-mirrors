@@ -5,6 +5,7 @@
 ;;; Author: Eric Crosson <eric.s.crosson@utexas.edu>
 ;; Version: 1.0.0
 ;; Package-Version: 20181110.151
+;; Package-Commit: f7892d373e30df0b2e8d2191e4ddb2064a92dd3c
 ;; Keywords: extensions
 ;; Package-Requires: ((emacs "24"))
 ;; URL: https://github.com/ericcrosson/pine-script-mode

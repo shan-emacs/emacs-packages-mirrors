@@ -5,6 +5,7 @@
 ;; Author: KOBAYASHI Shigeru <shigeru.kb[at]gmail.com>
 ;; Version: 0.3.3
 ;; Package-Version: 20160226.1545
+;; Package-Commit: ac23be40c81a360988ab803d365f1510733f6db4
 ;; Created: 2008-12-15
 ;; Keywords: language,lisp,newlisp
 ;; URL: https://github.com/kosh04/newlisp-mode

@@ -3,6 +3,7 @@
 ;; Author: ncaq <ncaq@ncaq.net>
 ;; Version: 0.0.0
 ;; Package-Version: 20180205.556
+;; Package-Commit: 84bbac534cb114d8d11b86790435b65d36e99e68
 ;; Package-Requires: ((emacs "24.4"))
 ;; URL: https://github.com/ncaq/recentf-remove-sudo-tramp-prefix
 

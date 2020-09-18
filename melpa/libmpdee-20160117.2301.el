@@ -6,6 +6,7 @@
 ;; Created: 	10 May 2004
 ;; Version: 	2.1
 ;; Package-Version: 20160117.2301
+;; Package-Commit: a6ca3b7d6687f3ba60996b9b5044ad1d3b228290
 ;; Keywords:	music, mpd
 
 ;; This file is *NOT* part of GNU Emacs

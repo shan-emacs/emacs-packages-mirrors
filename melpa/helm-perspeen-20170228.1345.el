@@ -5,6 +5,7 @@
 ;; Author: Yoshinobu Fujimoto
 ;; Version: 0.1.2
 ;; Package-Version: 20170228.1345
+;; Package-Commit: 7fe2922d85608bfa9e18269fc44181428b8849ff
 ;; URL: https://github.com/jimo1001/helm-perspeen
 ;; Created: 2017-01-30
 ;; Package-Requires: ((perspeen "0.1.0") (helm "2.5.0"))

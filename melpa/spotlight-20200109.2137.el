@@ -5,6 +5,7 @@
 ;; Author: Ben Maughan <benmaughan@gmail.com>
 ;; URL: http://www.pragmaticemacs.com
 ;; Package-Version: 20200109.2137
+;; Package-Commit: ea71f4fd380c51e50c47bb25855af4f40e4d8da0
 ;; Version: 0.2.0
 ;; Package-Requires: ((emacs "24.1") (swiper "0.6.0") (counsel "0.6.0"))
 ;; Keywords: search, external

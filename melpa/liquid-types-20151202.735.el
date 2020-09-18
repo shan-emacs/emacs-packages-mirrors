@@ -5,6 +5,7 @@
 ;; Author: Ranjit Jhala <jhala@cs.ucsd.edu>
 ;; Version: 0.0.2
 ;; Package-Version: 20151202.735
+;; Package-Commit: cc4bacbbf204ef9cf0756f78dfebee2c6ae14d7b
 ;; Package-Requires: ((flycheck "0.13") (dash "1.2") (emacs "24.1") (popup "0.5.2") (pos-tip "0.5.0") (flycheck-liquidhs "0.0.1") (button-lock "1.0.2"))
 ;;; License:
 ;; This program is free software: you can redistribute it and/or modify

@@ -2,6 +2,7 @@
 
 ;;; Version: 1.5.0
 ;; Package-Version: 20191129.1558
+;; Package-Commit: 6e2d376f84ddf9af593072954c97e9c82ab85331
 
 ;;; Author: Dan Orzechowski
 ;;; Contributor: Terje Larsen

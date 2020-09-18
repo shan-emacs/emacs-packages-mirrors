@@ -5,6 +5,7 @@
 ;; Author: W.Yahia
 ;; Version: 0.1-pre
 ;; Package-Version: 20190124.654
+;; Package-Commit: 32382057b3e4b8a02ec5ac3190dbe4b93d058741
 ;; Package-Requires: ((emacs "24.4") (request "0.3.0"))
 ;; URL: https://github.com/wailo/emacs-poet
 

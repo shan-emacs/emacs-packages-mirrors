@@ -41,21 +41,22 @@ The following is colored:
 * Comments and quoted strings.
 
 
-Installation:
-
-Place the file in a directory in Emacs' load path.
-
-Add the following lines to a suitable init file, like ~/.emacs, to
-enable this package:
-
-(autoload 'cmake-font-lock-activate "cmake-font-lock" nil t)
-(add-hook 'cmake-mode-hook 'cmake-font-lock-activate)
+Background:
 
 This package is designed to be used together with a major mode for
 editing CMake files. Once such package is `cmake-mode.el'
-distributed by Kitware, however this package is not dependent upon
-or associated with any specific CMake major mode. (Note that the
-Kitware package contains rudimentary syntax coloring support.)
+distributed by Kitware.  However this package is not dependent upon
+or associated with any specific CMake major mode.  (Note that the
+Kitware package contains rudimentary syntax coloring support, this
+package replaces that part of the major mode.)
+
+Installation:
+
+Install this package with Emacs' package manager.
+
+When installed, this package is automatically activated when using
+CMake mode, or any other mode in the list `cmake-font-lock-modes'.
+Set this variable to nil to disable automatic initialization.
 
 Customizing:
 

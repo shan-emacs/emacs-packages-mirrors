@@ -5,6 +5,7 @@
 ;; Author: Junpeng Qiu <qjpchmail@gmail.com>
 ;; URL: https://github.com/cute-jumper/ace-flyspell
 ;; Package-Version: 20170309.509
+;; Package-Commit: 538d4f8508d305262ba0228dfe7c819fb65b53c9
 ;; Version: 0.1.2
 ;; Package-Requires: ((avy "0.4.0"))
 ;; Keywords: extensions

@@ -21,6 +21,7 @@
 ;; Keywords	    : files
 ;; Package-Requires : ((emacs "25.1"))
 ;; Package-Version: 20170314.2039
+;; Package-Commit: b715f643ec805b3b8aca334595e6589320f04a49
 ;; URL		    : https://github.com/mattiasb/dired-hide-dotfiles
 ;; Doc URL	    : TBA
 

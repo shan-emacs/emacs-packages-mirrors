@@ -1,2 +1,0 @@
-
-(xwwp-follow-link-ivy . [(20200331 800) ((emacs (26 1)) (xwwp (0 1))) "Link navigation in `xwidget-webkit' sessions using `ivy'" single ((:commit . "dcf6f9430dd9745e5f2705c0f42e013fab961c0e") (:keywords "convenience") (:authors ("Damien Merenne")) (:maintainer "Damien Merenne") (:url . "https://github.com/canatella/xwwp"))])

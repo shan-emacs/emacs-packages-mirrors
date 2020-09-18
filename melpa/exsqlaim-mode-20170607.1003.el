@@ -3,6 +3,7 @@
 ;; Author: Ahmad Nazir Raja <ahmadnazir@gmail.com>
 ;; Version: 0.0.1
 ;; Package-Version: 20170607.1003
+;; Package-Commit: a2e0a62ec8b87193d8eaa695774bfd689324b06c
 ;; Package-Requires: ((s "1.10.0"))
 ;; URL: https://github.com/ahmadnazir/exsqlaim-mode
 

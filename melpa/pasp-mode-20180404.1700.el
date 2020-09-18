@@ -5,6 +5,7 @@
 ;; Author: Henrik Jürges <juerges.henrik@gmail.com>
 ;; URL: https://github.com/santifa/pasp-mode
 ;; Package-Version: 20180404.1700
+;; Package-Commit: 59385eb0e8ebcfc8c11dd811fb145d4b0fa3cc92
 ;; Version: 0.1.0
 ;; Package-requires: ((emacs "24.3"))
 ;; Keywords: asp, pasp, Answer Set Programs, Potassco Answer Set Programs, Major mode, languages

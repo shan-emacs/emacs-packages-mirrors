@@ -4,6 +4,7 @@
 
 ;; Author: Peter <craven@gmx.net>
 ;; URL: https://github.com/ecraven/no-emoji
+;; Package-Commit: ebceeab50dbfe4d60235180a57633745dbc18c77
 ;; Package-Version: 20180515.1837
 ;; Package-X-Original-Version: 20180515
 ;; Package-Requires: ((emacs "24"))

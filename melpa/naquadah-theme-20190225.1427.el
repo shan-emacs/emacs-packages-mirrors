@@ -1,5 +1,6 @@
 ;;; naquadah-theme.el --- A theme based on Tango color set
 ;; Package-Version: 20190225.1427
+;; Package-Commit: 430c3b7bd51922cb616b3f60301f4e2604816ed8
 
 ;; Copyright (C) 2011-2012 Free Software Foundation, Inc
 

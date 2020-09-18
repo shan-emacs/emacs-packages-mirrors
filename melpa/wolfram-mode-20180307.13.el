@@ -4,6 +4,7 @@
 ;; Description: Wolfram Language (Mathematica) editing and inferior Mode
 ;; Package-Requires: ((emacs "24.3"))
 ;; Package-Version: 20180307.13
+;; Package-Commit: be680190cac6ccf579dbce107deaae495928d1b3
 ;; Author: Daichi Mochihashi <daichi at cslab.kecl.ntt.co.jp>
 ;; Modified by: Taichi Kawabata <kawabata.taichi_at_gmail.com>
 ;; Modified by: Tomas Skrivan <skrivantomas_at_seznam.cz.cz>

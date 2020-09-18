@@ -4,6 +4,7 @@
 
 ;; Version: 1.0.1
 ;; Package-Version: 20161130.536
+;; Package-Commit: cd3a6b3af3015ee58ef30cb7c81c79ebe5fc867b
 ;; Author: Hiroshi Saito <monodie@gmail.com>
 ;; URL: https://github.com/saidie/helm-rdefs
 ;; Package-Requires: ((emacs "24") (helm "1.6.4"))

@@ -4,6 +4,7 @@
 ;; Copyright (C) 2020  Neil Okamoto
 ;; Keywords: hardware
 ;; Package-Version: 20200308.2324
+;; Package-Commit: 83ab28e64bc067016b5344dffe93e380e9807e9c
 ;; Package-Requires: ((request-deferred "0.3.2") (deferred "0.5.1") (emacs "25.1"))
 ;; URL: https://github.com/gonewest818/geolocation.el
 ;; Version: 0.2.0

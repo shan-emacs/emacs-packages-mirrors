@@ -20,6 +20,7 @@
 ;; Created: 18 June 2016
 ;; Version: 2.1
 ;; Package-Version: 20170910.1501
+;; Package-Commit: 96e7553e50e6bf7b58aac50f52c9b0b8edb41c56
 ;; URL: https://github.com/NOBUTOKA/niconama.el
 
 ;; Keywords: comm

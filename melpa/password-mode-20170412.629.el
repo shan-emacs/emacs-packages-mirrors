@@ -5,6 +5,7 @@
 ;; Author: Jürgen Hötzel <juergen@archlinux.org>
 ;; Keywords: docs password passphrase
 ;; Package-Version: 20170412.629
+;; Package-Commit: ed764a4ec1011526457c71b7c37fa9a659a866ab
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

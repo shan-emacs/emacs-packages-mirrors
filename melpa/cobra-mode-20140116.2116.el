@@ -5,6 +5,7 @@
 ;; Author: Taylor "Nekroze" Lawson
 ;; Keywords: languages
 ;; Package-Version: 20140116.2116
+;; Package-Commit: acd6e53f6286af5176471d01f25257e5ddb6dd01
 ;; URL: http://github.com/Nekroze/cobra-mode
 ;; Version: 1.0.1
 

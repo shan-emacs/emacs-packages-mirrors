@@ -2,6 +2,7 @@
 
 ;; Version: 0.1
 ;; Package-Version: 20190503.1843
+;; Package-Commit: 13b6fca62ea6574d230516fddf359a61f6558ecd
 ;; Keywords: languages, soar
 ;; URL: https://github.com/adeschamps/soar-mode
 

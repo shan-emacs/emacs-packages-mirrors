@@ -4,6 +4,7 @@
 ;; Authors: Seth Mason
 ;; Keywords: io languages
 ;; Package-Version: 20140128.1934
+;; Package-Commit: 6dd2bac3fd87484bb7d97e135b06c29d70b444b6
 ;; URL: https://github.com/slackorama/io-emacs
 
 ;; This file is NOT part of GNU Emacs.

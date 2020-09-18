@@ -25,6 +25,7 @@
 ;; Author: Nick Spain <nicholas.spain96@gmail.com>
 ;; Version: 1.5.9
 ;; Package-Version: 20170302.1112
+;; Package-Commit: 0129786aeee50d7bb0020d9fc2b7508875d403e8
 ;; Keywords: C, Makefile, compilation, convenience
 ;; URL: https://github.com/nick96/basic-c-compile
 ;; Package-Requires: ((cl-lib "0.5") (f "0.19.0"))

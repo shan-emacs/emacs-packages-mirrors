@@ -6,6 +6,7 @@
 ;; Created: 29 Oct 2018
 ;; Version: 1.1
 ;; Package-Version: 20181208.2229
+;; Package-Commit: 34538affb3f341b3c56a875bb094ddb2b859a8ef
 ;; Keywords: tools, unix
 ;; Homepage: https://github.com/arouanet/path-helper
 ;; Package-Requires: ((emacs "24"))

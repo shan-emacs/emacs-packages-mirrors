@@ -5,6 +5,7 @@
 ;; Author: Damien Cassou <damien.cassou@gmail.com>
 ;; Url: https://github.com/DamienCassou/dired-imenu
 ;; Package-Version: 20140109.1610
+;; Package-Commit: 610e21fe0988c85931d34894d3eee2442c79ab0a
 ;; GIT: https://github.com/DamienCassou/dired-imenu
 ;; Version: 0.5
 ;; Created: 9 Jan 2014

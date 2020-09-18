@@ -8,6 +8,7 @@
 ;;         Raimon Grau Cuscó <raimonster@gmail.com>
 ;; Version: 0.9
 ;; Package-Version: 20180522.1424
+;; Package-Commit: 82fb3871f02e24b1e880770b9a3d187aab43d0f0
 ;; Keywords: multimedia
 
 ;; This program is free software; you can redistribute it and/or modify

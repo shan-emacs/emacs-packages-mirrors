@@ -1,0 +1,1 @@
+Make window/frame transparent.

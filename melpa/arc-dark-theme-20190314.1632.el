@@ -5,6 +5,7 @@
 ;; Author: Christopher Fraser <cfraz89@gmail.com>
 ;; Version: 0.1.0
 ;; Package-Version: 20190314.1632
+;; Package-Commit: ee17dcca35dd0304145efc468b3f25af6907a59d
 ;; Keywords:faces, theme
 ;; Package-Requires: ((emacs "24"))
 ;; URL: https://github.com/cfraz89/arc-dark-theme

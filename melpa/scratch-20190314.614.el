@@ -3,6 +3,7 @@
 ;; Author: Ian Eure <ian.eure@gmail.com>
 ;; Version: 1.3
 ;; Package-Version: 20190314.614
+;; Package-Commit: 4813d82b39a451f2a6d5b730cd7ec49a9bdabcca
 ;; Package-Requires: ((emacs "25.1"))
 ;; URL: https://github.com/ieure/scratch-el
 ;; Keywords: convenience, tools, files

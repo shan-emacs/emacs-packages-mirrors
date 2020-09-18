@@ -6,6 +6,7 @@
 ;; Created: 09 Nov 2015
 ;; Version: 1.0
 ;; Package-Version: 20181223.842
+;; Package-Commit: 6c1c08f5be83822c0b762872ab25e3dbee96f333
 ;; Package-Requires: ()
 ;; Keywords: fortune cowsay scratch startup
 ;; Homepage: https://github.com/andschwa/fortune-cookie

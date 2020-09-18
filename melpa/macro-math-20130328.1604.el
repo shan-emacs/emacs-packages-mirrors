@@ -5,6 +5,7 @@
 ;; Author: Nikolaj Schumacher <bugs * nschum de>
 ;; Version: 1.0
 ;; Package-Version: 20130328.1604
+;; Package-Commit: 216e59371e9ee39c34117ba79b9acd78bb415750
 ;; Keywords: convenience
 ;; URL: http://nschum.de/src/emacs/macro-math/
 ;; Compatibility: GNU Emacs 21.x, GNU Emacs 22.x, GNU Emacs 23.x

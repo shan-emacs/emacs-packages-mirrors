@@ -6,6 +6,7 @@
 ;; Created: 9 Jan 2014
 ;; Version: 0.4.1
 ;; Package-Version: 20140625.1150
+;; Package-Commit: 5ca1383ca9228bca82120b238bdc119f302b75c0
 ;; URL: https://github.com/alezost/make-color.el
 ;; Keywords: color
 

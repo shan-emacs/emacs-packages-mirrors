@@ -6,6 +6,7 @@
 ;; Created: 6 Jun 2016
 ;; Version: 0.0.1
 ;; Package-Version: 20161128.1157
+;; Package-Commit: 198d262d09e30448f1672338b0b5a81cf75e1eaa
 ;; Keywords: hypermedia documentation markup converter
 ;; Homepage: https://github.com/zonuexe/pandoc.el
 ;; Package-Requires: ((emacs "24.4"))

@@ -6,6 +6,7 @@
 ;; Author: rubikitch <rubikitch@ruby-lang.org>
 ;; Keywords: git, tools, convenience
 ;; Package-Version: 20170126.1214
+;; Package-Commit: 485c732130686c2f28a026e385366006435394b9
 ;; URL: http://www.emacswiki.org/cgi-bin/wiki/download/git-dwim.el
 
 ;; This file is free software; you can redistribute it and/or modify

@@ -6,6 +6,7 @@
 ;; Maintainer: Sylvain Rousseau <thisirs at gmail dot com>
 ;; URL: https://github.com/thisirs/find-temp-file.git
 ;; Package-Version: 20200117.2254
+;; Package-Commit: 2bfcdba0d6a8a0e6faa080cb04ff0f7ed06491ba
 ;; Keywords: convenience
 
 ;; This program is free software; you can redistribute it and/or modify

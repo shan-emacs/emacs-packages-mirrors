@@ -5,6 +5,7 @@
 ;; Author: Jackson Ray Hamilton <jackson@jacksonrayhamilton.com>
 ;; Version: 0.0.0
 ;; Package-Version: 20161218.747
+;; Package-Commit: 3a8e979d6cc83aabcb3dda3f5f31a6422532efba
 ;; Keywords: convenience faces tools
 ;; Package-Requires: ((emacs "24.3") (context-coloring "8.1.0") (tern "0.0.1"))
 ;; URL: https://github.com/jacksonrayhamilton/tern-context-coloring

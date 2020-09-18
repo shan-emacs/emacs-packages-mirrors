@@ -5,6 +5,7 @@
 ;; Author: Ignacy Moryc
 ;; URL: https://github.com/ignacy/idle-highlight-in-visible-buffers
 ;; Package-Version: 20181027.1531
+;; Package-Commit: 8d8de309d5bd4b035c01bf7f0cfc6e079c79d898
 ;; Version: 0.0.1
 ;; Keywords: convenience
 

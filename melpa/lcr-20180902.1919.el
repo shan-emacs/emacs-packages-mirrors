@@ -6,6 +6,7 @@
 ;; Maintainer: Jean-Philippe Bernardy <jeanphilippe.bernardy@gmail.com>
 ;; URL: https://github.com/jyp/lcr
 ;; Package-Version: 20180902.1919
+;; Package-Commit: c14f40692292d59156c7632dbdd2867c086aa75f
 ;; Created: January 2018
 ;; Version: 1.1
 ;; Keywords: tools

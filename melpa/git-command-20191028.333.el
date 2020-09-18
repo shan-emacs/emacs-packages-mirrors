@@ -3,6 +3,7 @@
 ;; Author: 10sr <8slashes+el [at] gmail [dot] com>
 ;; URL: https://github.com/10sr/git-command-el
 ;; Package-Version: 20191028.333
+;; Package-Commit: a773d40da39dfb1c6ecf2b0758aa370ddea8f06d
 ;; Version: 0.2.0
 ;; Package-Requires: ((term-run "0.1.4") (with-editor "2.3.1"))
 ;; Keywords: utility git

@@ -6,6 +6,7 @@
 ;; Maintainer: James Nguyen <james@jojojames.com>
 ;; URL: https://github.com/jojojames/flymake-ktlint
 ;; Package-Version: 20180831.346
+;; Package-Commit: 56aab6f2d22061999050783dbc3166cdb456d0bb
 ;; Version: 1.0
 ;; Package-Requires: ((emacs "26.1"))
 ;; Keywords: languages ktlint

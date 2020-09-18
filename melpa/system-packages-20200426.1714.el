@@ -6,6 +6,7 @@
 ;; Maintainer: J. Alexander Branham <alex.branham@gmail.com>
 ;; URL: https://gitlab.com/jabranham/system-packages
 ;; Package-Version: 20200426.1714
+;; Package-Commit: 92c58d98bc7282df9fd6f24436a105f5f518cde9
 ;; Package-Requires: ((emacs "24.3"))
 ;; Version: 1.0.11
 

@@ -5,6 +5,7 @@
 ;; Author: Friedrich Paetzke <paetzke@fastmail.fm>
 ;; URL: http://paetzke.me/project/py-isort.el
 ;; Package-Version: 20160925.1018
+;; Package-Commit: e67306f459c47c53a65604e4eea88a3914596560
 ;; Version: 2016.1
 
 ;;; Commentary:

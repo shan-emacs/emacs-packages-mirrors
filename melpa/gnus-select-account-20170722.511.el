@@ -8,6 +8,7 @@
 ;; Homepage: https://github.com/tumashu/gnus-select-account
 ;; Keywords: convenience
 ;; Package-Version: 20170722.511
+;; Package-Commit: ddc8c135eeaf90f5b6692a033af2badae36e68ce
 ;; Version: 0.10
 
 ;; This program is free software; you can redistribute it and/or modify

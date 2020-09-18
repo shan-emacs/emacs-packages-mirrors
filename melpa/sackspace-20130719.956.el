@@ -5,6 +5,7 @@
 ;; Created: 2010/08/01
 ;; Version: 0.8.2
 ;; Package-Version: 20130719.956
+;; Package-Commit: fd0480eaaf6d3d11fd30ac5feb2da2f4f7572708
 
 ;; Keywords: delete convenience
 

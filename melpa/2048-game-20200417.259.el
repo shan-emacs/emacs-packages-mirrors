@@ -5,6 +5,7 @@
 ;; Author: Zachary Kanfer <zkanfer@gmail.com>
 ;; Version: 2014.03.27
 ;; Package-Version: 20200417.259
+;; Package-Commit: aad4a590ea91f9a3256233b9b345e9159c6993f2
 ;; URL: https://hg.sr.ht/~zck/game-2048
 
 ;; This file is not part of GNU Emacs

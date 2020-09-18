@@ -5,6 +5,7 @@
 ;; Author: Xu Chunyang <mail@xuchunyang.me>
 ;; URL: https://github.com/xuchunyang/grab-x-link
 ;; Package-Version: 20191113.848
+;; Package-Commit: d898db46e4864118359fdedfe915e180de3fe290
 ;; Package-Requires: ((emacs "24") (cl-lib "0.5"))
 ;; Keywords: hyperlink
 ;; Version: 0.5

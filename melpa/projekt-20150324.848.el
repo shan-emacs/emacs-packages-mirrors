@@ -3,6 +3,7 @@
 ;; Author: Engelke Eschner <tekai@gmx.li>
 ;; Version: 0.1
 ;; Package-Version: 20150324.848
+;; Package-Commit: a65e554e5d8b0def08c5d06f3fe34fec40bebd83
 ;; Package-Requires: ((emacs "24"))
 ;; Created: 2013-04-04
 

@@ -3,6 +3,7 @@
 ;; Author: Thomas Luquet <thomas@luquet.net>
 ;; Keywords: multimedia, playerctl, music
 ;; Package-Version: 20180301.1354
+;; Package-Commit: 3eee541423c2e5eb9f23a26fa9aa88c9c5a19ad1
 ;; URL: https://github.com/thomasluquet/playerctl.el
 ;; Version: 0.0.2
 ;;

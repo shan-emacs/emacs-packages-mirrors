@@ -5,6 +5,7 @@
 ;; Author: Volodymyr Yevtushenko <voloyev@vivaldi.net>
 ;; Keywords: themes
 ;; Package-Version: 20200115.2146
+;; Package-Commit: f3ad07d60c966ef34cb11026eaba053e114bb8f1
 ;; URL: https://github.com/voloyev/sexy-monochrome-theme
 ;; Version: 3.0
 

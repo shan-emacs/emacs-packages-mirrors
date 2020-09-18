@@ -6,6 +6,7 @@
 ;; Created: 22 Jan 2016
 ;; Version: 0.0.5
 ;; Package-Version: 20190709.106
+;; Package-Commit: 21250984ad8137aa3440ac12e52475ef03f19fcb
 ;; Package-Requires: ((emacs "24.3") (s "1.9.0") (f "0.17") (php-runtime "0.2"))
 ;; Keywords: processes php
 ;; URL: https://github.com/zonuexe/psysh.el

@@ -3,6 +3,7 @@
 ;; Author: Philippe Vaucher <philippe.vaucher@gmail.com>
 ;; URL: https://github.com/Silex/hookify
 ;; Package-Version: 20141216.2209
+;; Package-Commit: 21baae7393b07257de5796402fde0ca72fb00d77
 ;; Keywords: hook, convenience
 ;; Version: 0.2.1
 ;; Package-Requires: ((s "1.9.0") (dash "1.5.0"))

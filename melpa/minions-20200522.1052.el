@@ -7,6 +7,7 @@
 
 ;; Package-Requires: ((emacs "25.2") (dash "2.13.0"))
 ;; Package-Version: 20200522.1052
+;; Package-Commit: 36d39bd25ae58d1359d17f99142520339bea5974
 
 ;; This file is not part of GNU Emacs.
 

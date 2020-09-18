@@ -6,6 +6,7 @@
 ;; https://github.com/mswift42/white-sand-theme.git
 ;; Version: 0.1
 ;; Package-Version: 20151117.1648
+;; Package-Commit: 97621edd69267dd143760d94393db2c2558c9ea4
 ;; Package-Requires: ((emacs "24"))
 ;; Created with emacs-theme-generator, https://github.com/mswift42/theme-creator.
 

@@ -5,6 +5,7 @@
 ;; Author: Fabián E. Gallina <fabian@anue.biz>
 ;; URL: https://github.com/fgallina/python-django.el
 ;; Package-Version: 20150822.404
+;; Package-Commit: fc54ad74f0309670359b939f64d0f1fff68aeac4
 ;; Version: 0.1
 ;; Maintainer: FSF
 ;; Created: Jul 2011

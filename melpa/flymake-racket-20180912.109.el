@@ -6,6 +6,7 @@
 ;; Maintainer: James Nguyen <james@jojojames.com>
 ;; URL: https://github.com/jojojames/flymake-racket
 ;; Package-Version: 20180912.109
+;; Package-Commit: d20fa60d66db3f7c2df0133814564ee5b36d2aba
 ;; Version: 1.0
 ;; Package-Requires: ((emacs "26.1"))
 ;; Keywords: languages racket scheme

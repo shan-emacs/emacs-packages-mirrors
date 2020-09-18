@@ -8,6 +8,7 @@
 ;; Created:  March 1997
 ;; Keywords: frames tools
 ;; Package-Version: 20180530.18
+;; Package-Commit: f2d072bd446b73e93b127523f19ea82b99b9267f
 
 (defconst winring-version "5.1"
   "The winring version number.")

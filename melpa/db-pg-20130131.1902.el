@@ -4,6 +4,7 @@
 ;; Author: Nic Ferrier <nic@ferrier.me.uk>
 ;; Version: 0.0.3
 ;; Package-Version: 20130131.1902
+;; Package-Commit: 7d5ab86b74b05fe003b3b434d4835f37f3f3eded
 ;; Keywords: data comm database postgresql
 ;; Created: 23 December 2012
 ;; Package-Requires: ((pg "0.12")(db "0.0.6"))

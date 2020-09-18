@@ -7,6 +7,7 @@
 
 ;; Package-Requires: ((emacs "24.3") (helm "1.7.0"))
 ;; Package-Version: 20160605.2145
+;; Package-Commit: 8798dcf3583b863df5b9dea7fe3b0179ba1c35bc
 
 ;; Keywords: convenience helm fuzzy
 ;; Homepage: http://github.com/EphramPerdition/helm-fuzzier

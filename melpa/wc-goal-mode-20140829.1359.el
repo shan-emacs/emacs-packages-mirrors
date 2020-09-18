@@ -4,6 +4,7 @@
 ;; Created: 2010-6-19
 ;; Version: 2.1
 ;; Package-Version: 20140829.1359
+;; Package-Commit: bf21ab9c5a449bcc20dd207a4915dcec218d2699
 ;; Last-Updated: 2014-08-28
 ;; URL: https://github.com/bnbeckwith/wc-goal-mode
 ;; Keywords:

@@ -4,6 +4,7 @@
 ;; Created: 2018-12-26T22:56:51+08:00
 ;; URL: https://github.com/zwild/ob-ammonite
 ;; Package-Version: 20190813.59
+;; Package-Commit: 39937dff395e70aff76a4224fa49cf2ec6c57cca
 ;; Package-Requires: ((s "1.12.0") (ammonite-term-repl "0.1") (xterm-color "1.7"))
 ;; Version: 0.2
 ;; Keywords: tools, ammnite, org-mode, scala, org-babel

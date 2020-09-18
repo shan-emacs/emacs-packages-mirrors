@@ -5,6 +5,7 @@
 ;; Author: Austin Bingham <austin.bingham@gmail.com>
 ;; Keywords: convenience outlines
 ;; Package-Version: 20200401.1208
+;; Package-Commit: 81d373633b40628cc3a6b6fb534fd7730076bcdb
 ;; URL: https://github.com/abingham/outline-toc.el
 ;; Version: 0.1
 

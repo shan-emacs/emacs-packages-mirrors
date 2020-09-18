@@ -1,2 +1,0 @@
-
-(wakatime-mode . [(20180920 702) nil "Automatic time tracking extension for WakaTime" single ((:commit . "2531cb58287770883ba534d20b3288955c4d6ef3") (:keywords "calendar" "comm") (:authors ("Gabor Torok" . "gabor@20y.hu")) (:maintainer "Alan Hamlett" . "alan@wakatime.com"))])

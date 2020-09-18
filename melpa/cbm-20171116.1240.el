@@ -5,6 +5,7 @@
 ;; Author: Lukas Fürmetz <fuermetz@mailbox.org>
 ;; URL: http://github.com/akermu/cbm.el
 ;; Package-Version: 20171116.1240
+;; Package-Commit: 5b41c936ba9f6d170309a85ffebc9939c1050b31
 ;; Package-Requires: ((cl-lib "0.5"))
 ;; Version: 0.3
 ;; Keywords: buffers

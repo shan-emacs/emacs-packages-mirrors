@@ -1,0 +1,2 @@
+
+(sqlite3 . [(20200916 132) ((emacs (25 1))) "Direct access to the core SQLite3 API" tar ((:commit . "95abc25cc67d652ce2ba79907224e581aef62e93") (:keywords "comm" "data" "sql") (:authors ("Y. N. Lo" . "gordonynlo@yahoo.com")) (:maintainer "Y. N. Lo" . "gordonynlo@yahoo.com") (:url . "https://github.com/pekingduck/emacs-sqlite3-api"))])

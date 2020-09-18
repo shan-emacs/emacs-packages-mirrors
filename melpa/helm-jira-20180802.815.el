@@ -3,6 +3,7 @@
 ;; Author: Roman Decker <roman dot decker at gmail dot com>
 ;; URL: https://github.com/DeX3/helm-jira
 ;; Package-Version: 20180802.815
+;; Package-Commit: 75d6ed5bd7a041fa8c1adb21cbbbe57b5a7c7cc7
 ;; Created: July 19, 2018
 ;; Keywords: tools, helm, jira, bitbucket, stash
 ;; Package-Requires: ((emacs "25") (cl-lib "0.5") (helm "1.9.9"))

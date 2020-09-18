@@ -5,6 +5,7 @@
 ;; Author: Lars Tveito <larstvei@ifi.uio.no>
 ;; URL: http://github.com/larstvei/Focus
 ;; Package-Version: 20191209.2210
+;; Package-Commit: 5f3f20e7f22fb9fd7c48abce8bd38061d97e4bc0
 ;; Created: 11th May 2015
 ;; Version: 1.0.0
 ;; Package-Requires: ((emacs "24.3") (cl-lib "0.5"))

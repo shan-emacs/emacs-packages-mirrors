@@ -6,6 +6,7 @@
 ;; Created: 2016-01-06
 ;; Version: 0.1
 ;; Package-Version: 20160426.1219
+;; Package-Commit: 85d559e7889d8f5b98b8794b79426ae25ec3caa5
 ;; Keywords: convenience, config
 ;; Package-Requires: ((emacs "24.4"))
 ;; URL: https://github.com/lujun9972/el-config-parser

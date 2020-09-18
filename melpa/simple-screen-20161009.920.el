@@ -3,6 +3,7 @@
 ;; Description: Simple screen configuration manager.
 ;; URL: https://github.com/wachikun/simple-screen
 ;; Package-Version: 20161009.920
+;; Package-Commit: 596e3a451d9af24730ab31a8fe15c91a4264d09d
 ;; Author: Tadashi Watanabe <wac@umiushi.org>
 ;; Maintainer: Tadashi Watanabe <wac@umiushi.org>
 ;; Copyright (C) 2012,2013 Tadashi Watanabe <wac@umiushi.org>

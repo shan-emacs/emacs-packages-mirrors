@@ -4,6 +4,7 @@
 ;; Author   : Andrey Kotlarski <m00naticus@gmail.com>
 ;; URL      : https://github.com/m00natic/rase/
 ;; Package-Version: 20120928.2045
+;; Package-Commit: 59b5f7e8102570b65040e8d55781c7ea28de7338
 ;; Version  : 1.1
 ;; Keywords : solar, sunrise, sunset, midday, midnight
 

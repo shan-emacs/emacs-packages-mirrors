@@ -4,6 +4,7 @@
 
 ;; Version: 0.0.4
 ;; Package-Version: 20180608.1407
+;; Package-Commit: fbeb0c5e741a6f462520884b744d43a9acbe1d34
 ;; Package-Requires: ((helm "1.9.8") (emacs "24.4"))
 
 ;; This program is free software; you can redistribute it and/or modify

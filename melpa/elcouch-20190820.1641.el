@@ -5,6 +5,7 @@
 ;; Author: Damien Cassou <damien@cassou.me>
 ;; Url: https://gitlab.petton.fr/DamienCassou/elcouch
 ;; Package-Version: 20190820.1641
+;; Package-Commit: 8e1b7ddec91ae863c3951776a0fcbfead8ca7a80
 ;; Package-requires: ((emacs "25.1") (json-mode "1.0.0") (libelcouch "0.9.0") (navigel "0.3.0"))
 ;; Version: 0.3.0
 ;; Keywords: data, tools

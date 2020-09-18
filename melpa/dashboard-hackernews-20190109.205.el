@@ -5,6 +5,7 @@
 ;; Author:  Hayato KAJIYAMA <kaji1216@gmail.com>
 ;; URL: https://github.com/hyakt/emacs-dashboard-hackernews
 ;; Package-Version: 20190109.205
+;; Package-Commit: b71814716d8f78181b9d1990f06072460de0797e
 ;; Version: 0.0.1
 ;; Package-Requires: ((emacs "24") (dashboard "1.2.5") (request "0.3.0"))
 

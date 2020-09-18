@@ -7,6 +7,7 @@
 ;; Time-stamp: <2018-04-23 18:24:30 st>
 ;; Version: 1.1
 ;; Package-Version: 20180423.926
+;; Package-Commit: 66d04ff36033f54205c19bc1d893e926d4dbf02e
 ;; Keywords: languages, tools, gams-mode, auto-complete
 ;; URL: https://github.com/ShiroTakeda/gams-ac
 ;; Package-Requires: ((emacs "24") (auto-complete "1.0") (gams-mode "4.0"))

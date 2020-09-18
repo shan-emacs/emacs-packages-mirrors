@@ -5,6 +5,7 @@
 ;; Author: Leandro López (inkel) <inkel.ar@gmail.com>
 ;; URL: http://inkel.github.com/mote-mode/
 ;; Package-Version: 20160123.29
+;; Package-Commit: 666c6641addbd3b337a7aa01fd2742ded2f41b83
 ;; Version: 1.0.0
 ;; Package-Requires: ((ruby-mode "1.1"))
 ;;

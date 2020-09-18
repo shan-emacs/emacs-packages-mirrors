@@ -4,6 +4,7 @@
 ;; Copyright (C) 2015 Pierre Lecocq
 ;; Version: 0.6
 ;; Package-Version: 20170919.1134
+;; Package-Commit: d3df185fce78aefa689fded8e56a654f0fde4ac0
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

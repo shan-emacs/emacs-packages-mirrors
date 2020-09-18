@@ -6,6 +6,7 @@
 ;; Maintainer: Phillip Lord <phillip.lord@newcastle.ac.uk>
 ;; Keywords: paredit
 ;; Package-Version: 20160128.1733
+;; Package-Commit: cc0ae85bd819f9ebfa4f2a419ab3b2d70e39c9c8
 ;; Version: 1.0
 ;; Package-Requires: ((paredit "25"))
 

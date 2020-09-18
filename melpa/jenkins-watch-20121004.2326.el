@@ -5,6 +5,7 @@
 ;; Author: Andrew Taylor <ataylor@redtoad.ca>
 ;; URL: https://github.com/ataylor284/jenkins-watch
 ;; Package-Version: 20121004.2326
+;; Package-Commit: 37b84dfbd98240a57ff798e1ff8bc7dba2913577
 ;; Version: 1.2
 
 ;; This file is free software; you can redistribute it and/or modify

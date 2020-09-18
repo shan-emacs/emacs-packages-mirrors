@@ -6,6 +6,7 @@
 ;; Maintainer: rubikitch <rubikitch@ruby-lang.org>
 ;; URL: http://www.emacswiki.org/cgi-bin/wiki/download/archive-region.el
 ;; Package-Version: 20200316.1425
+;; Package-Commit: 53cd2d96ea7c33f320353982b36854f25c900c2e
 ;; Keywords: languages
 ;; Version: 0.1
 ;; URL: https://github.com/rubikitch/archive-region

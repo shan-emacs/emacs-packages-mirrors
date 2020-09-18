@@ -5,6 +5,7 @@
 ;; Author: Grant Rettke <gcr@wisdomandwonder.com>
 ;; Version: 1.0
 ;; Package-Version: 20160815.227
+;; Package-Commit: 514baf5546aed12a0d9fa0fe66e87cdcc7843b08
 ;; Package-Requires: ((cl-lib "0.5"))
 ;; Maintainer: <gcr@wisdomandwonder.com>
 ;; Keywords: Unicode, Fraktur, Math, Mathematical

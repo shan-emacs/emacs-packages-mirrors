@@ -5,6 +5,7 @@
 ;; Author: Bas Alberts <bas@anti.computer>
 ;; URL: https://github.com/anticomputer/ovpn-mode
 ;; Package-Version: 20200509.236
+;; Package-Commit: 3fb9b09506f06cfc7678a93b5401f49d2bf538bc
 
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "25") (cl-lib "0.5"))

@@ -5,6 +5,7 @@
 ;; Author: Aliaksey Kandratsenka <alk@tut.by>
 ;; Keywords: 
 ;; Package-Version: 20100124.1028
+;; Package-Commit: ac89ab8b7691a165ef3007cb84417125cfc0632e
 
 ;; This file is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

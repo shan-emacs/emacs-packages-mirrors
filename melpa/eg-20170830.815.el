@@ -4,6 +4,7 @@
 ;; Author: Dave Pearson <davep@davep.org>
 ;; Version: 1.1
 ;; Package-Version: 20170830.815
+;; Package-Commit: 1c7f1613d2aaae728ef540305f6ba030616f86bd
 ;; Keywords: docs
 ;; URL: https://github.com/davep/eg.el
 ;; Package-Requires: ((cl-lib "0.5") (emacs "24.3"))

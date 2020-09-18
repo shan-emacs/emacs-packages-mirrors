@@ -1,5 +1,6 @@
 ;;; pastebin.el --- A simple interface to the www.pastebin.com webservice
 ;; Package-Version: 20101125.2002
+;; Package-Commit: 8e9a829298ce0f747ab80758aa26caeb2af6cb30
 
 ;;; Copyright (C) 2008 by Nic Ferrier <nic@ferrier.me.uk>
 ;;; Copyright (C) 2010 by Ivan Korotkov <twee@tweedle-dee.org>

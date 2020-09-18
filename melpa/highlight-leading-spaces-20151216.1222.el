@@ -5,6 +5,7 @@
 ;; Author: Thomas Winant <dewinant@gmail.com>
 ;; URL: https://github.com/mrBliss/highlight-leading-spaces
 ;; Package-Version: 20151216.1222
+;; Package-Commit: 840db19d863dd97993fd9f893f5be501627b6354
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24.4"))
 ;; Created: Dec 14 2015

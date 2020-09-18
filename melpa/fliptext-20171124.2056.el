@@ -7,6 +7,7 @@
 ;; Created: 2007-09-16
 ;; Keywords: games i18n
 ;; Package-Version: 20171124.2056
+;; Package-Commit: fd821f645ffebae6ae3894afa7ba7fc06f91afc6
 
 ;; Version: 0.1
 ;; Last-Updated: 2007-12-09

@@ -4,6 +4,7 @@
 
 ;; Version: 0.1.0
 ;; Package-Version: 20180903.612
+;; Package-Commit: ed8fbbe23a8a268d9dcbf1a6132e928ba2c655c5
 ;; URL: https://github.com/yqrashawn/evil-ex-fasd
 ;; Package-Requires: ((emacs "24.4") (evil "1.1.0") (fasd "0"))
 ;; Author: Rashawn Zhang <namy.19@gmail.com>

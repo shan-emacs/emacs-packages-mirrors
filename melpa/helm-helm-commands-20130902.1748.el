@@ -8,6 +8,7 @@
 ;; Created: 2013-09-02 15:25:22
 ;; Version: 0.2
 ;; Package-Version: 20130902.1748
+;; Package-Commit: 3a05aa19c976501343ad9ae630a36810921a85f6
 ;; Last-Updated: 2013-09-02 15:25:22
 ;;           By: Joe Bloggs
 ;; URL: https://github.com/vapniks/helm-helm-commands

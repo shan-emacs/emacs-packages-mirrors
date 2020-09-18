@@ -5,6 +5,7 @@
 ;; Author: Lesley Lai <lesley@lesleylai.info>
 ;; Version: 0.1.0
 ;; Package-Version: 20200203.1436
+;; Package-Commit: c56d792d5ab01743e1350e0a7a8a89bb3d2e0c4f
 ;; Package-Requires: ((emacs "24.3"))
 ;; Keywords: theme light faces
 ;; URL: https://github.com/LesleyLai/emacs-qtcreator-theme

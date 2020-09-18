@@ -2,6 +2,7 @@
 
 ;; URL: https://github.com/luismbo/wn-mode
 ;; Package-Version: 20151110.552
+;; Package-Commit: f05c3151523e529af5a0a3fa8c948b61fb369f6e
 ;; Author: Anonymous
 ;; Maintainer: Luís Oliveira <luismbo@gmail.com>
 ;; Package-Requires: ((emacs "24"))

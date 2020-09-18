@@ -7,6 +7,7 @@
 ;; Created: 15 Jul 2005
 ;; Version: 1.6.4
 ;; Package-Version: 20160411.1138
+;; Package-Commit: 6832a1c1f68bf6249c3fd6672ea8e27dc7a5c79e
 ;; Keywords: files
 ;; Homepage: https://github.com/theBlackDragon/fvwm-mode
 ;;

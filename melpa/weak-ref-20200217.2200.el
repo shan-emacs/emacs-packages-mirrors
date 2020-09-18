@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/skeeto/elisp-weak-ref
 ;; Package-Requires: ((emacs "24.3"))
 ;; Package-Version: 20200217.2200
+;; Package-Commit: 24e8c37da6465e65ce9f866267bd3fa53c8899c6
 ;; Version: 2.0
 
 ;;; Commentary:

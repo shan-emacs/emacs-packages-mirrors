@@ -6,6 +6,7 @@
 ;; Maintainer: Alex Murray <murray.alex@gmail.com>
 ;; URL: https://github.com/alexmurray/flycheck-coverity
 ;; Package-Version: 20170704.59
+;; Package-Commit: cb211e3dd50413a5042eb20175be518214591c9d
 ;; Version: 0.2
 ;; Package-Requires: ((flycheck "0.24") (dash "2.12.0") (emacs "24.4"))
 

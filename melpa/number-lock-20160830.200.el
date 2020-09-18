@@ -5,6 +5,7 @@
 ;; Author: Liu233w <wwwlsmcom@outlook.com>
 ;; URL: https://github.com/Liu233w/number-lock.el
 ;; Package-Version: 20160830.200
+;; Package-Commit: 74417b1238953bf485961a0dd7d20f5c36ae25ea
 ;; Keywords: convenience
 
 ;; This file is NOT part of GNU Emacs.

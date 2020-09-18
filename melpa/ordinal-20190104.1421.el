@@ -6,6 +6,7 @@
 ;; Created: 4 Jan 2019
 ;; Version: 0.0.1
 ;; Package-Version: 20190104.1421
+;; Package-Commit: 75af95abbac3e30c4dd804411cb3e867c741a747
 ;; Package-Requires: ((emacs "24") (cl-lib "0.5"))
 ;; Keywords: lisp
 ;; Homepage: https://github.com/zonuexe/ordinal.el

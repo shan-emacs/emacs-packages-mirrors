@@ -6,6 +6,7 @@
 ;; Author: Paul Sexton <eeeickythump@gmail.com>
 ;; Version: 2.7.0
 ;; Package-Version: 20200412.1812
+;; Package-Commit: 35c1ce349949cc213f3076799211210f49431850
 ;; Package-Requires: ((emacs "25.3") (seq "2.14") (org "9.3") (persist "0.3"))
 ;; Keywords: games, outlines, multimedia
 

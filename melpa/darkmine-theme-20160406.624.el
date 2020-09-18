@@ -4,6 +4,7 @@
 ;; Author: Pierre Lecocq <pierre.lecocq@gmail.com>
 ;; URL: https://github.com/pierre-lecocq/darkmine-theme
 ;; Package-Version: 20160406.624
+;; Package-Commit: 7f7e82ca03bcad52911fa41fb3e204e32d6ee63e
 ;; Version: 0.5
 
 ;; Permission is hereby granted, free of charge, to any person obtaining

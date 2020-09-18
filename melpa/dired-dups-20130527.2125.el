@@ -8,6 +8,7 @@
 ;; Created: 2013-05-12 01:30:22
 ;; Version: 0.3
 ;; Package-Version: 20130527.2125
+;; Package-Commit: 694ad128c822c59348ced16c4a0c1356d43da47a
 ;; Last-Updated: 2013-05-12 01:30:22
 ;;           By: Joe Bloggs
 ;; URL: https://github.com/vapniks/dired-dups

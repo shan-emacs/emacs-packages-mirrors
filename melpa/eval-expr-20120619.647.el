@@ -8,6 +8,7 @@
 ;; Maintainer: friedman@splode.com
 ;; Keywords: lisp, extensions
 ;; Package-Version: 20120619.647
+;; Package-Commit: a0e69e83de41df8dbccefc1962ab4f02206a3328
 ;; Created: 1998-07-30
 
 ;; $Id: eval-expr.el,v 1.7 2000/03/13 11:13:19 friedman Exp $

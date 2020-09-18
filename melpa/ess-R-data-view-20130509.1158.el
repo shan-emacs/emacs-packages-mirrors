@@ -4,6 +4,7 @@
 ;; Maintainer: myuhe
 ;; URL: https://github.com/myuhe/ess-R-data-view.el
 ;; Package-Version: 20130509.1158
+;; Package-Commit: d6e98d3ae1e2a2ea39a56eebcdb73e99d29562e9
 ;; Version: 0.1
 ;; Created: 2013-05-09
 ;; Keywords: convenience

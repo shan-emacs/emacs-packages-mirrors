@@ -5,6 +5,7 @@
 ;; Author: steckerhalter
 ;; Package-Requires: ((helm "0"))
 ;; Package-Version: 20180606.520
+;; Package-Commit: 48e91a73d5f48c39d7a219022a24440cff548e1a
 ;; URL: https://framagit.org/steckerhalter/helm-google
 ;; Keywords: helm google search browse searx
 

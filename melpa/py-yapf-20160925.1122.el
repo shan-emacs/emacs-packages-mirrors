@@ -5,6 +5,7 @@
 ;; Author: Friedrich Paetzke <f.paetzke@gmail.com>
 ;; URL: https://github.com/paetzke/py-yapf.el
 ;; Package-Version: 20160925.1122
+;; Package-Commit: a878304202ad827a1f3de3dce1badd9ca8731146
 ;; Version: 2016.1
 
 ;;; Commentary:

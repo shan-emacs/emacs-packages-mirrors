@@ -11,6 +11,7 @@
 ;; Maintainer: John SJ Anderson <john@genehack.org>
 ;; Keywords: extensions
 ;; Package-Version: 20200416.2228
+;; Package-Commit: 67bf4f93f8afca61a3dc4f6c7a34b0b8ca9ede21
 ;; Created: 2009-05-24
 ;; URL: http://github.com/genehack/smart-tab/tree/master
 ;; Version: 0.6

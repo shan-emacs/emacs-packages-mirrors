@@ -5,6 +5,7 @@
 ;; Author: Marcio Giaxa <i@mgxm.me>
 ;; Keywords: tools, files
 ;; Package-Version: 20190911.300
+;; Package-Commit: 5747f96fb4fdb8711546b3313df9412177eb3c1a
 ;; Homepage: https://github.com/mgxm/ob-svgbob
 ;; Version:  0.0.1
 ;; Package-Requires: ((emacs "24"))

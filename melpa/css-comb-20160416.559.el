@@ -5,6 +5,7 @@
 ;; Author: Charanjit Singh <ckhabra@gmail.com>
 ;; Version: 0.2
 ;; Package-Version: 20160416.559
+;; Package-Commit: 6fa45e5af8a8bd3af6c1154cde3540e32c4206ee
 ;; URL: https://github.com/channikhabra/css-comb.el
 
 ;;; Commentary:

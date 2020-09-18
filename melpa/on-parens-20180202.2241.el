@@ -5,6 +5,7 @@
 ;; Author:  William G Hatch
 ;; Keywords: evil, smartparens
 ;; Package-Version: 20180202.2241
+;; Package-Commit: 7a41bc02bcffd265f8a69ed4b4e0df3c3009aaa4
 ;; Package-Requires: ((dash "2.10.0") (emacs "24") (evil "1.1.6") (smartparens "1.6.3"))
 
 ;; This program is free software; you can redistribute it and/or modify

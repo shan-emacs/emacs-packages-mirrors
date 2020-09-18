@@ -5,6 +5,7 @@
 ;;
 ;; URL: http://github.com/djohnson/inverse-acme-theme
 ;; Package-Version: 20170823.254
+;; Package-Commit: 74d6f3e2f6534371509dd2d77006435156c276d6
 ;; Version: 1.0
 ;; Package-Requires: ((autothemer "0.2") (cl-lib "0.5"))
 

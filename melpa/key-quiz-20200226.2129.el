@@ -5,6 +5,7 @@
 ;; Author: Federico Tedin <federicotedin@gmail.com>
 ;; Homepage: https://github.com/federicotdn/key-quiz
 ;; Keywords: games
+;; Package-Commit: 1ee67f3f8977d95785e021f7896685de1979137e
 ;; Package-Version: 20200226.2129
 ;; Package-X-Original-Version: 0.1
 ;; Package-Requires: ((emacs "26"))

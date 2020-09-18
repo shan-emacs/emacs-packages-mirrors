@@ -5,6 +5,7 @@
 ;; Author: Oleh Krehel <ohwoeowho@gmail.com>
 ;; URL: https://github.com/abo-abo/helm-j-cheatsheet
 ;; Package-Version: 20170217.829
+;; Package-Commit: 6c47e7162b9ba2de4b41221d01180146973d860b
 ;; Version: 0.2
 ;; Package-Requires: ((helm "1.5.3"))
 

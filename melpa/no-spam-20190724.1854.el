@@ -5,6 +5,7 @@
 ;; Author: Daniel Phan <daniel.phan36@gmail.com>
 ;; Version: 0.0.1
 ;; Package-Version: 20190724.1854
+;; Package-Commit: 860860e4a0d59bd15c8e092dc42f5f7f769a428e
 ;; Package-Requires: ((emacs "25.1"))
 ;; Homepage: https://github.com/mamapanda/no-spam
 ;; Keywords: keyboard, tools

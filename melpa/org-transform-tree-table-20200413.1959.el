@@ -5,6 +5,7 @@
 ;; Author: Johan Lindstrom <buzzwordninja not_this_bit@googlemail.com>
 ;; URL: https://github.com/jplindstrom/emacs-org-transform-tree-table
 ;; Package-Version: 20200413.1959
+;; Package-Commit: d84e7fb87bf2d5fc2be252500de0cddf20facf4f
 ;; Version: 0.1.2
 ;; Package-Requires: ((dash "2.10.0") (s "1.3.0"))
 ;; Keywords: org-mode table org-table tree csv convert

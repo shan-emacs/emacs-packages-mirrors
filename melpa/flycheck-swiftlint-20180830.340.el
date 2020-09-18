@@ -6,6 +6,7 @@
 ;; Maintainer: James Nguyen <james@jojojames.com>
 ;; URL: https://github.com/jojojames/flycheck-swiftlint
 ;; Package-Version: 20180830.340
+;; Package-Commit: 8861ddbd9c1c2a951630d9ea29162ad0916580cb
 ;; Version: 1.0
 ;; Package-Requires: ((emacs "25.1") (flycheck "0.25"))
 ;; Keywords: languages swiftlint swift emacs

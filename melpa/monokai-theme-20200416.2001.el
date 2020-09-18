@@ -5,6 +5,7 @@
 ;; Author: Kelvin Smith <oneKelvinSmith@gmail.com>
 ;; URL: http://github.com/oneKelvinSmith/monokai-emacs
 ;; Package-Version: 20200416.2001
+;; Package-Commit: 4281fc13dadef98942c8d43024de024f2392fec5
 ;; Version: 3.5.3
 
 ;; This program is free software; you can redistribute it and/or modify

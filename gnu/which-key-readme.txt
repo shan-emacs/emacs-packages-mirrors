@@ -1,7 +1,17 @@
 * which-key
-  [[http://melpa.org/#/which-key][http://melpa.org/packages/which-key-badge.svg]] [[http://stable.melpa.org/#/which-key][file:http://stable.melpa.org/packages/which-key-badge.svg]] [[https://travis-ci.org/justbur/emacs-which-key][file:https://travis-ci.org/justbur/emacs-which-key.svg?branch=master]]
+  [[http://melpa.org/#/which-key][http://melpa.org/packages/which-key-badge.svg]]
+  [[http://stable.melpa.org/#/which-key][file:http://stable.melpa.org/packages/which-key-badge.svg]]
 
 ** Recent Changes
+
+*** 2020-08-28: Added =which-key-add-keymap-based-replacements=
+    This function provides an alternative interface allowing replacements to be
+    stored directly in keymaps, allowing one to avoid using
+    =which-key-replacement-alist=, which may cause performance issues when it
+    gets very big.
+*** 2019-08-01: Added =which-key-show-early-on-C-h=
+    Allows one to trigger =which-key= on demand, rather than automatically. See
+    the docstring and [[#manual-activation][Manual Activation]].
 
 *** 2017-12-13: Added =which-key-enable-extended-define-key=
     Allows for a concise syntax to specify replacement text using =define-key=
@@ -24,6 +34,8 @@
 ** Table of Contents                                                  :TOC_3:
 - [[#which-key][which-key]]
   - [[#recent-changes][Recent Changes]]
+    - [[#2020-08-28-added-which-key-add-keymap-based-replacements][2020-08-28: Added =which-key-add-keymap-based-replacements=]]
+    - [[#2019-08-01-added-which-key-show-early-on-c-h][2019-08-01: Added =which-key-show-early-on-C-h=]]
     - [[#2017-12-13-added-which-key-enable-extended-define-key][2017-12-13: Added =which-key-enable-extended-define-key=]]
     - [[#2017-11-13-added-which-key-show-major-mode][2017-11-13: Added =which-key-show-major-mode=]]
   - [[#introduction][Introduction]]
@@ -35,6 +47,7 @@
     - [[#side-window-right-option][Side Window Right Option]]
     - [[#side-window-right-then-bottom][Side Window Right then Bottom]]
     - [[#minibuffer-option][Minibuffer Option]]
+  - [[#manual-activation][Manual Activation]]
   - [[#additional-commands][Additional Commands]]
   - [[#special-features-and-configuration-options][Special Features and Configuration Options]]
     - [[#popup-type-options][Popup Type Options]]
@@ -49,6 +62,7 @@
     - [[#god-mode][God-mode]]
   - [[#more-examples][More Examples]]
     - [[#nice-display-with-split-frame][Nice Display with Split Frame]]
+  - [[#known-issues][Known Issues]]
   - [[#thanks][Thanks]]
 
 ** Install
@@ -128,6 +142,25 @@
     variable =max-mini-window-height=. Also, the paging commands do not work
     reliably with the minibuffer option. Use the side window on the bottom
     option if you need paging.
+
+** Manual Activation
+   #+NAME: #manual-activation
+   If you only want the =which-key= popup when you need it, you can try a setup
+   along the following lines
+
+   #+BEGIN_SRC emacs-lisp
+     ;; Allow C-h to trigger which-key before it is done automatically
+     (setq which-key-show-early-on-C-h t)
+     ;; make sure which-key doesn't show normally but refreshes quickly after it is
+     ;; triggered.
+     (setq which-key-idle-delay 10000)
+     (setq which-key-idle-secondary-delay 0.05)
+     (which-key-mode)
+   #+END_SRC
+
+   This will prevent which-key from showing automatically, and allow you to use
+   =C-h= in the middle of a key sequence to show the =which-key= buffer and keep
+   it open for the remainder of the key sequence.
 
 ** Additional Commands
    - =which-key-show-top-level= will show most key bindings without a prefix. It
@@ -228,23 +261,50 @@
     idea of behind each alist is that you specify a selection string in the
     =car= of each cons cell and the replacement string in the =cdr=.
 
-**** Automatic
+**** Automatic ("keymap-based") replacement
      A newer option is to set =which-key-enable-extended-define-key= which
-     advises =define-key= to allow which-key to pre-process its arguments. The
-     statement
+     advises =define-key= to allow which-key to pre-process its arguments. With
+     this option enabled, the statement
 
      #+BEGIN_SRC emacs-lisp
-     (define-key some-map "f" '("foo" . long-name-for-command-foo))
+     (define-key some-map "f" '("foo" . command-foo))
      #+END_SRC
 
-     is valid in Emacs. Setting this variable makes which-key automatically
-     replace the corresponding command name with the text in the string. A nice
-     example is in naming prefixes. The following binds "b" to =nil= and names
-     the binding as a prefix.
+     will both bind the command =command-foo= to "f" in =some-map= and tell
+     which-key to use the string "foo" for this command. This also works with
+     naming prefixes if you use =nil= for the command. The following binds "b"
+     to =nil= and names the binding as a prefix.
 
      #+BEGIN_SRC emacs-lisp
      (define-key some-map "b" '("bar-prefix"))
      #+END_SRC
+
+     If you do not want to enable the advise on =define-key=, you may also use
+     =which-key-add-keymap-based-replacements=. The first example can be
+     alternatively written as
+
+     #+BEGIN_SRC emacs-lisp
+     (define-key some-map "f" 'command-foo)
+     (define-key some-map "b" some-prefix-map)
+     (which-key-add-keymap-based-replacements some-map
+       "f" '("foo" . long-name-for-command-foo)
+       ;; or
+       ;; "f" "foo"
+       "b" '("bar-prefix")
+       ;; or
+       ;; "b" "bar-prefix"
+     )
+     #+END_SRC
+
+     Note that =which-key-add-keymap-based-replacements= will not bind a
+     command, so =define-key= must still be used.
+
+     There are other methods of telling which-key to replace command names,
+     which are described next. The keymap-based replacements should be the most
+     performant since they use built-in functionality of emacs. However, the
+     alternatives can be more flexible in telling which-key how and when to
+     replace text. They can be used simultaneously, but which-key will give
+     precedence to the keymap-based replacement when it exists.
 
 **** "Key-Based" replacement
      Using this method, the description of a key is replaced using a string that
@@ -447,7 +507,7 @@
       ;; prefixes). Descriptions that are longer are truncated and have ".." added.
       (setq which-key-max-description-length 27)
 
-      ;; Use additonal padding between columns of keys. This variable specifies the
+      ;; Use additional padding between columns of keys. This variable specifies the
       ;; number of spaces to add to the left of each column.
       (setq which-key-add-column-padding 0)
 
@@ -508,7 +568,9 @@
 
     #+CAPTION: which-key in a frame with 2 vertical splits
     [[./img/which-key-bottom-split.png]]
-
+** Known Issues
+   - A few users have reported crashes related to which-key popups when quitting
+     a key sequence with =C-g=. A possible fix is discussed in [[https://github.com/justbur/emacs-which-key/issues/130][this issue]].
 ** Thanks
    Special thanks to
    - [[https://github.com/bmag][@bmag]] for helping with the initial development and finding many bugs.

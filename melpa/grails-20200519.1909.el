@@ -5,6 +5,7 @@
 ;; Authors: Alessandro Miliucci <lifeisfoo@gmail.com>
 ;; Version: 0.4.1
 ;; Package-Version: 20200519.1909
+;; Package-Commit: d47273a619d6731683afe60636259b02e2c78a2e
 ;; URL: https://github.com/lifeisfoo/emacs-grails
 ;; Package-Requires: ((emacs "24"))
 

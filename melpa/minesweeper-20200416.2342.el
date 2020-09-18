@@ -5,6 +5,7 @@
 ;; Author: Zachary Kanfer <zkanfer@gmail.com>
 ;; Version: 2012.07.02
 ;; Package-Version: 20200416.2342
+;; Package-Commit: d4248e3c9b3e9e7277cb9e6d081330611898f334
 ;; URL: https://hg.sr.ht/~zck/minesweeper
 
 ;; This file is not part of GNU Emacs

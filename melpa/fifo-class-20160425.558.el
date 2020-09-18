@@ -4,6 +4,7 @@
 ;; Author: Mola-T <Mola@molamola.xyz>
 ;; URL: https://github.com/mola-T/fifo-class
 ;; Package-Version: 20160425.558
+;; Package-Commit: 8fe4cf690727f4ac7b67f29c55f845df023c3f21
 ;; Version: 1.0
 ;; Keywords: lisp
 ;;

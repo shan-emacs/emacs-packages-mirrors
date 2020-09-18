@@ -3,6 +3,7 @@
 ;; Author: Masahiro Hayashi <mhayashi1120@gmail.com>
 ;; Keywords: extensions, multimedia
 ;; Package-Version: 20150430.544
+;; Package-Commit: b68094625d963056ad64e0e44af0e2266b2eadc7
 ;; URL: https://github.com/mhayashi1120/Emacs-image-diredx
 ;; Emacs: GNU Emacs 23 or later
 ;; Version: 0.7.2

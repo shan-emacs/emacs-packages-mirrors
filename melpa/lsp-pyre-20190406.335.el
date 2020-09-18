@@ -5,6 +5,7 @@
 ;; Author: John Allen <oss@porcnick.com>
 ;; Version: 1.0
 ;; Package-Version: 20190406.335
+;; Package-Commit: e177b8f5efd1a955b5753aeb5d1894e6d21be35a
 ;; Package-Requires: ((lsp-mode "6.0"))
 ;; URL: https://github.com/jra3/lsp-pyre
 

@@ -3,6 +3,7 @@
 ;; Created: Dec 15 23:42:04 2010
 ;; Version: 0.7.0
 ;; Package-Version: 20181204.839
+;; Package-Commit: d03803f2c06749c430443a3d24e039cbafc9c58f
 ;; URL: https://github.com/antonj/Highlight-Indentation-for-Emacs
 ;;
 ;; This program is free software; you can redistribute it and/or

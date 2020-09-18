@@ -3,6 +3,7 @@
 ;; Author: myuhe <yuhei.maeda_at_gmail.com>
 ;; URL: https://github.com/myuhe/inlineR.el
 ;; Package-Version: 20191017.1920
+;; Package-Commit: bf6450a3540aa3538546d312324c41befd0a4e54
 ;; Version: 0.2
 ;; Maintainer: myuhe
 ;; Copyright (C) :2010,2011,2012 myuhe all rights reserved.

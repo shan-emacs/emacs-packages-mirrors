@@ -1,0 +1,2 @@
+
+(ess-view-data . [(20200902 44) ((emacs (26 1)) (ess (18 10 1))) "View Data" single ((:commit . "99ddbceaa54941a5e8438eadb0210fd16470e581") (:keywords "tools") (:authors ("Shuguang Sun" . "shuguang79@qq.com")) (:maintainer "Shuguang Sun" . "shuguang79@qq.com") (:url . "https://github.com/ShuguangSun/ess-view-data"))])

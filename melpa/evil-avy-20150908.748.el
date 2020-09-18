@@ -5,6 +5,7 @@
 ;; Author: Yufan Lou <loganlyf@gmail.com>
 ;; URL: https://github.com/louy2/evil-avy
 ;; Package-Version: 20150908.748
+;; Package-Commit: 2dd955cc3ecaa7ddeb67b295298abdc6d16dd3a5
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "24.1") (cl-lib "0.5") (avy "0.3.0") (evil "1.2.3"))
 ;; Keywords: point, location, evil, vim

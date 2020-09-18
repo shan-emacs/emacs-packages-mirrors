@@ -7,6 +7,7 @@
 ;; Package-Version: 20171020.1019
 ;; Package-X-Original-Version: 20171020.51809
 ;; Keywords: local, docs
+;; Package-Commit: 15691b32431b50f9106cb9fa50ee7244957a8ac8
 
 ;; This file is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

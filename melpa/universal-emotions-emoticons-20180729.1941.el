@@ -5,6 +5,7 @@
 ;; Author: Grant Rettke <gcr@wisdomandwonder.com>
 ;; Version: 1.0
 ;; Package-Version: 20180729.1941
+;; Package-Commit: 9cedd09ee65cb9fa71f27b0ab46a8353bdc00902
 ;; Maintainer: <gcr@wisdomandwonder.com>
 ;; Keywords: convenience, docs, languages
 ;; URL: https://github.com/grettke/universal-emotions-emoticons

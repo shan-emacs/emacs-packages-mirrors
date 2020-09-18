@@ -5,6 +5,7 @@
 ;; Author: Wojciech Siewierski <wojciech dot siewierski at onet dot pl>
 ;; URL: https://github.com/vifon/dired-rifle.el
 ;; Package-Version: 20200308.2358
+;; Package-Commit: 99e4110c80d65ca43e2b0ec078e3202995e392d7
 ;; Keywords: files, convenience
 ;; Version: 0.9
 

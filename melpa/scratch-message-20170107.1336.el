@@ -6,6 +6,7 @@
 ;; Maintainer: Sylvain Rousseau <thisirs at gmail dot com>
 ;; URL: https://github.com/thisirs/scratch-message.git
 ;; Package-Version: 20170107.1336
+;; Package-Commit: 3ecc7f5e3b8a597ebd1492fd426d3720a7f34302
 ;; Keywords: util scratch
 
 ;; This program is free software; you can redistribute it and/or modify

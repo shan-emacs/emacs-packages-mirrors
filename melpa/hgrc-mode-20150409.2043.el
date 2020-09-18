@@ -5,6 +5,7 @@
 ;; Author: Omair Majid <omair.majid@gmail.com>
 ;; URL: http://github.com/omajid/hgrc-mode
 ;; Package-Version: 20150409.2043
+;; Package-Commit: 314e8320b82cc1ce74b1bd372f296252e7a23090
 ;; Keywords: convenience vc hg
 ;; Version: 0.1.20150403
 

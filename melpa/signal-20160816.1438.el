@@ -4,6 +4,7 @@
 ;; Author: Mola-T <Mola@molamola.xyz>
 ;; URL: https://github.com/mola-T/signal
 ;; Package-Version: 20160816.1438
+;; Package-Commit: aa58327e2297df921d72a0370468b48663efd438
 ;; Version: 1.0
 ;; Package-Requires: ((emacs "24") (cl-lib "0.5"))
 ;; Keywords: internal, lisp, processes, tools

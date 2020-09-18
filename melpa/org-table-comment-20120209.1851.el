@@ -7,6 +7,7 @@
 ;; Created: Wed Jan 12 14:51:05 2011 (-0600)
 ;; Version: 0.2
 ;; Package-Version: 20120209.1851
+;; Package-Commit: 33b9966c33ecbc3e27cca67c2f2cdea04364d74e
 ;; Last-Updated: Thu Feb  9 12:46:30 2012 (-0600)
 ;;           By: Matthew L. Fidler
 ;;     Update #: 449

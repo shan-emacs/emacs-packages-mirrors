@@ -6,6 +6,7 @@
 ;; Maintainer: Gergely Polonkai <gergely@polonkai.eu>
 ;; Version: 0.0.1
 ;; Package-Version: 20161020.1138
+;; Package-Commit: 653108769279499d84a79267c90e640d98823872
 ;; Created: 20th October 2016
 ;; Keywords: calendar
 

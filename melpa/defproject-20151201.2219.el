@@ -5,6 +5,7 @@
 ;; Author:  <kotfic@gmail.com>
 ;; Version: 0.1.0
 ;; Package-Version: 20151201.2219
+;; Package-Commit: 674d48a5e34cb4bba76faa38ee901322ec649086
 ;; Package-Requires: ((emacs "24"))
 ;; Keywords: convenience
 ;; URL: https://github.com/kotfic/defproject

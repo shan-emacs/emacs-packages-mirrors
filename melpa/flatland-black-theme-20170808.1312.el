@@ -3,6 +3,7 @@
 ;;; Author: Jason Milkins
 ;;; Version: 20141116
 ;; Package-Version: 20170808.1312
+;; Package-Commit: 348c5d5fe615e6ea13cadc17f046e506e789ce07
 ;;; Url: https://github.com/emacsfodder/flatland-black-theme
 ;;; Package-Requires: ((emacs "24.0"))
 ;;

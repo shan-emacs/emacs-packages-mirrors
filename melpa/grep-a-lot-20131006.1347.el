@@ -5,6 +5,7 @@
 ;; Author: Avi Rozen <avi.rozen@gmail.com>
 ;; Keywords: tools, convenience, search
 ;; Package-Version: 20131006.1347
+;; Package-Commit: 9f9f645b9e308a0d887b66864ff97d0fca1ba4ad
 ;; URL: https://github.com/ZungBang/emacs-grep-a-lot
 ;; Version: 1.0.7
 

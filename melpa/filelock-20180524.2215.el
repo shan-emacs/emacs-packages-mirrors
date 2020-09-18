@@ -7,6 +7,7 @@
 ;; Created: Thu May 24 13:39:36 2018 (-0700)
 ;; Version: 0.1
 ;; Package-Version: 20180524.2215
+;; Package-Commit: 17a5ca6e0dee14d2e7d92c84be91143bca9d9663
 ;; Package-Requires: ((emacs "24") (cl-lib "0") (f "0"))
 ;; URL: https://github.com/DarwinAwardWinner/emacs-filelock
 ;; Keywords: extensions, files, tools

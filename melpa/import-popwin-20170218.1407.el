@@ -5,6 +5,7 @@
 ;; Author: Syohei YOSHIDA <syohex@gmail.com>
 ;; URL: https://github.com/syohex/emacs-import-popwin
 ;; Package-Version: 20170218.1407
+;; Package-Commit: bb05a9e226f8c63fe7b18a3e92010357049ab5ba
 ;; Version: 0.10
 ;; Package-Requires: ((emacs "24.3") (popwin "0.6"))
 

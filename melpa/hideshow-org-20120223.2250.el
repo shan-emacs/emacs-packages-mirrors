@@ -5,6 +5,7 @@
 ;; Author: Shane Celis <shane (at) gnufoo (dot) org>
 ;; Keywords: C C++ java lisp tools editing comments blocks hiding outlines org-mode
 ;; Package-Version: 20120223.2250
+;; Package-Commit: 16419e52e6cdd2f46f755144c0ab11ce00d1a626
 ;; This file is not part of GNU Emacs.
 ;;
 ;; hideshow-org.el free software; you can redistribute it and/or modify

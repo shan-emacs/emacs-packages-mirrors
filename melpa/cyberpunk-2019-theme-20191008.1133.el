@@ -19,6 +19,7 @@
 ;; Author: Alex Lynham <alex@lynh.am>
 ;; Version: 0.0.1
 ;; Package-Version: 20191008.1133
+;; Package-Commit: 7e40c37210c363b2819fd9bb98a73101d7a3c206
 ;; Package-Requires: ((emacs "24.1"))
 ;; Keywords: cyberpunk, theme, themes
 ;; URL: https://github.com/the-frey/cyberpunk-2019

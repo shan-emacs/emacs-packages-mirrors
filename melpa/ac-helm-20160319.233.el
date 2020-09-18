@@ -8,6 +8,7 @@
 ;; Maintainer: Yasuyuki Oka <yasuyk@gmail.com>
 ;; Version: 2.2
 ;; Package-Version: 20160319.233
+;; Package-Commit: baf2b1e04bcffa835084389c0fab415f26efbf32
 ;; Package-Requires: ((helm "1.6.3")(auto-complete "1.4.0")(popup "0.5.0") (cl-lib "0.5"))
 ;; Keywords: completion, convenience, helm
 

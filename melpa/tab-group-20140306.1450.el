@@ -3,6 +3,7 @@
 ;; Author: INA Lintaro <tarao.gnn at gmail.com>
 ;; URL: http://github.com/tarao/tab-group-el
 ;; Package-Version: 20140306.1450
+;; Package-Commit: 5a290ec2608e4100fb188fd60ecb77affcc3465b
 ;; Version: 0.1
 ;; Keywords: convenience, tabs
 

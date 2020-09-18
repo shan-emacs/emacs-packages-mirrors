@@ -5,6 +5,7 @@
 ;; Author: justin talbott <justin@waymondo.com>
 ;; Keywords: convenience, tools, extensions
 ;; Package-Version: 20170717.1849
+;; Package-Commit: 52b5d4c6c73bd0fc833a0dcb4e803a5287d8cae8
 ;; URL: https://github.com/waymondo/ace-jump-zap
 ;; Version: 0.1.2
 ;; Package-Requires: ((ace-jump-mode "1.0") (dash "2.10.0"))

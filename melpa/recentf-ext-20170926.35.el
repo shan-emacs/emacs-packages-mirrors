@@ -7,6 +7,7 @@
 ;; Author: rubikitch <rubikitch@ruby-lang.org>
 ;; Keywords: convenience, files
 ;; Package-Version: 20170926.35
+;; Package-Commit: 450de5f8544ed6414e88d4924d7daa5caa55b7fe
 ;; URL: http://www.emacswiki.org/cgi-bin/wiki/download/recentf-ext.el
 
 ;; This file is free software; you can redistribute it and/or modify

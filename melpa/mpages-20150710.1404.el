@@ -6,6 +6,7 @@
 ;; Created: 20 Aug 2014
 ;; Version: 20141120
 ;; Package-Version: 20150710.1404
+;; Package-Commit: 39a72a0931ab1cdbfdf0ab9f412dc12d43a3829f
 ;; URL: https://github.com/slevin/mpages
 
 ;;; Commentary:

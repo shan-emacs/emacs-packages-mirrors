@@ -5,6 +5,7 @@
 ;; Author: Stéphane Champailler <schampailler@skynet.be>
 ;; Version: 1.2
 ;; Package-Version: 20191202.1637
+;; Package-Commit: 5e47ff27cfa2f7c06081be2ffefe91a731efd012
 ;; Package-Requires: ((emacs "25.1"))
 ;; Keywords: multimedia
 ;; URL: https://github.com/wiz21b/FlamesOfFreedom

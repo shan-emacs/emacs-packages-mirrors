@@ -9,6 +9,7 @@
 ;; Created:         July 1, 2001
 ;; Keywords:        files
 ;; Package-Version: 20180227.45
+;; Package-Commit: 20cb59bedc3532a712fe7feeff3660ebd72a8107
 ;; URL: https://github.com/ajsquared/bar-cursor
 ;; Version: 2.0
 

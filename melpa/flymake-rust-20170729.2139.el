@@ -3,6 +3,7 @@
 ;;; Author: Joao Oliveira <joaoxsouls@gmail.com>
 ;;; URL: https://github.com/joaoxsouls/flymake-rust
 ;; Package-Version: 20170729.2139
+;; Package-Commit: 2f42d1f2dad73ec9de460eda6176e3ab25c446f0
 ;;; Version: DEV
 ;;; Package-Requires: ((flymake-easy "0.1"))
 

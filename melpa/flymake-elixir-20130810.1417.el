@@ -6,6 +6,7 @@
 ;;; Created: 10 Apr 2013
 ;; Version: 0.5
 ;; Package-Version: 20130810.1417
+;; Package-Commit: 3810566cffe35d04cc3f01e27fe397d68d52f802
 ;;; Package-Pequires: ((flymake-easy "0.1"))
 ;;
 ;; This file is not part of GNU Emacs.

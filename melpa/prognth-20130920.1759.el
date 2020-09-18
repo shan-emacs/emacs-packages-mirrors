@@ -6,6 +6,7 @@
 ;; Maintainer: Matus Goljer <matus.goljer@gmail.com>
 ;; Keywords: lisp
 ;; Package-Version: 20130920.1759
+;; Package-Commit: 2f1ca4d34b1fd581163e1df122c85418137e8e62
 ;; Version: 1.0
 ;; Created: 20th Sep 2013
 

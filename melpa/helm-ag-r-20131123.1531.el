@@ -5,6 +5,7 @@
 ;; Author: Yuta Yamada <cokesboy"at"gmail.com>
 ;; URL: https://github.com/yuutayamada/helm-ag-r
 ;; Package-Version: 20131123.1531
+;; Package-Commit: 67de4ebafe9b088db950eefa5ef590a6d78b4ac8
 ;; Version: 0.0.1
 ;; Package-Requires: ((helm "1.0"))
 ;; Keywords: Searching

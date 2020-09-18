@@ -3,6 +3,7 @@
 ;; Maintainer: Adam Porter <adam@alphapapa.net>
 ;; Version: 2.0
 ;; Package-Version: 20190720.2003
+;; Package-Commit: 7eb7cf0c4a6ee537ec462f5ec90f00d12e3ca9c2
 ;; URL: https://github.com/alphapapa/navi
 ;; Package-Requires: ((outshine "2.0") (outorg "2.0"))
 

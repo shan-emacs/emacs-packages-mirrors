@@ -6,6 +6,7 @@
 ;; Package: helm-purpose
 ;; Version: 0.1
 ;; Package-Version: 20170114.1636
+;; Package-Commit: 9ff4c21c1e9ebc7afb851b738f815df7343bb287
 ;; Homepage: https://github.com/bmag/helm-purpose
 ;; Package-Requires: ((emacs "24") (helm "1.9.2") (window-purpose "1.4"))
 

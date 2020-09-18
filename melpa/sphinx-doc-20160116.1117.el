@@ -5,6 +5,7 @@
 ;; Author: Vineet Naik <naikvin@gmail.com>
 ;; URL: https://github.com/naiquevin/sphinx-doc.el
 ;; Package-Version: 20160116.1117
+;; Package-Commit: f39da2e6cae55d5d7c7ce887e69755b7529bcd67
 ;; Version: 0.3.0
 ;; Keywords: Sphinx, Python
 ;; Package-Requires: ((s "1.9.0") (cl-lib "0.5") (dash "2.10.0"))

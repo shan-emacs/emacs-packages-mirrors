@@ -7,6 +7,7 @@
 ;; Created: 27th October 2013
 ;; Keywords: go, repl
 ;; Package-Version: 20151123.1927
+;; Package-Commit: 94d7f3e99104e06167967c98fdc201049c433c2d
 ;; Package-Requires: ((go-mode "1.0.0"))
 
 ;; This file is NOT part of GNU Emacs.

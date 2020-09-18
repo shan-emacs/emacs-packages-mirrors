@@ -5,6 +5,7 @@
 ;; Author: Michael Schuldt <mbschuldt@gmail.com>
 ;; Version: 1.5.3
 ;; Package-Version: 20190601.1004
+;; Package-Commit: f70b6c42452e47c0c6b3ebd4c90e555a9bedeec7
 ;; URL: https://github.com/mschuldt/bart-mode
 ;; Package-Requires: ((emacs "24.3"))
 ;; Keywords: convenience transit

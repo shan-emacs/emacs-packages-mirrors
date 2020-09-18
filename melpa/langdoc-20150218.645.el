@@ -5,6 +5,7 @@
 ;; Author: Tomoya Tanjo <ttanjo@gmail.com>
 ;; URL: https://github.com/tom-tan/langdoc/
 ;; Package-Version: 20150218.645
+;; Package-Commit: 2c7223bacb116992d700ecb19a60df5c09c63424
 ;; Package-Requires: ((cl-lib "0.2"))
 ;; Keywords: convenience, eldoc
 

@@ -5,6 +5,7 @@
 ;; Author: Daniel Lawrence <dannyla@linux.com>
 ;; URL: https://github.com/daniellawrence/flymake-vala
 ;; Package-Version: 20150326.531
+;; Package-Commit: c3674f461fc84fb0300cd3a562fb903a59782745
 ;; Version: DEV
 ;; Keywords: convenience, vala
 ;; Package-Requires: ((flymake-easy "0.1"))

@@ -5,6 +5,7 @@
 ;; Author: John Louis Del Rosario <john2x@gmail.com>
 ;; URL: https://github.com/john2x/flatui-theme.el
 ;; Package-Version: 20160619.127
+;; Package-Commit: 9c15db5526c15c8dba55023f5698372b19c2a780
 ;; Version: 0.2
 
 ;; This program is free software; you can redistribute it and/or modify

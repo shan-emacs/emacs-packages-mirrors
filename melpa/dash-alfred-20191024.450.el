@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/xuchunyang/dash-alfred.el
 ;; Package-Requires: ((emacs "25.1"))
 ;; Package-Version: 20191024.450
+;; Package-Commit: fcd21bd6c7eb5cd31377be970406ff3d2454bd5c
 ;; Keywords: docs
 ;; Version: 0
 ;; Created: 2019-07-06

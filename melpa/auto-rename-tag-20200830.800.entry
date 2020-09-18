@@ -1,0 +1,2 @@
+
+(auto-rename-tag . [(20200830 800) ((emacs (24 4))) "Automatically rename paired HTML/XML tag" single ((:commit . "416a146d4386943c751a44c1484b0f5dedb23307") (:authors ("Shen, Jen-Chieh" . "jcs090218@gmail.com")) (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com") (:url . "https://github.com/jcs-elpa/auto-rename-tag"))])

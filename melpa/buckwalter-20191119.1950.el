@@ -5,6 +5,7 @@
 ;; Author: Joe HAKIM RAHME <joehakimrahme@gmail.com>
 ;; Version: 20171126.1
 ;; Package-Version: 20191119.1950
+;; Package-Commit: 1ef6f210f38c0686bc5b445b9704190f168f30ea
 ;; Keywords: arabic, transliteration, i18n
 ;; URL: https://github.com/joehakimrahme/buckwalter-arabic
 

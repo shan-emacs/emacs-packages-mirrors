@@ -8,6 +8,7 @@
 ;; Maintainer: Akinori MUSHA <knu@iDaemons.org>
 ;; URL: https://github.com/knu/minibuffer-complete-cycle
 ;; Package-Version: 20130813.1645
+;; Package-Commit: 3df80135887d0169e02294a948711f6dfeca4a6f
 ;; Created: 15 Oct 1997
 ;; Version: 1.25.20130814
 ;; Keywords: completion

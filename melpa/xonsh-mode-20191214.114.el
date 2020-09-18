@@ -5,6 +5,7 @@
 ;; Author: Sean Farley <sean@farley.io>
 ;; URL: https://github.com/seanfarley/xonsh-mode
 ;; Package-Version: 20191214.114
+;; Package-Commit: 01819823822b6ebe01c02af548276cb2deb343f4
 ;; Keywords: languages
 ;; Version: 0
 ;; Package-Requires: ((emacs "24.3"))

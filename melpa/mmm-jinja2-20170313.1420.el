@@ -5,6 +5,7 @@
 ;; Author: Ben Hayden <hayden767@gmail.com>
 ;; URL: https://github.com/glynnforrest/mmm-jinja2
 ;; Package-Version: 20170313.1420
+;; Package-Commit: c8cb763174fa2fb61b9a0e5e0ff8cb0210f8492f
 ;; Version: 0.1
 ;; Package-Requires: ((mmm-mode "0.5.4"))
 

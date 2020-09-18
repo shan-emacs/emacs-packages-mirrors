@@ -5,6 +5,7 @@
 ;; Author: Takafumi Arakaki <aka.tkf at gmail.com>
 ;; Package-Requires: ((jedi "0.1.2") (direx "0.1alpha"))
 ;; Package-Version: 20140310.936
+;; Package-Commit: 7a2e677400717ed12b959cb5988e7b3fb1c12117
 ;; Version: 0.0.1alpha0
 
 ;; This file is NOT part of GNU Emacs.

@@ -6,6 +6,7 @@
 ;; Created  : 6 June 2015
 ;; URL      : https://gitlab.com/jcpetkovich/shrink-whitespace.el
 ;; Package-Version: 20181003.321
+;; Package-Commit: 0407b89c142bd17e65edb666f35e2c6755bd0867
 ;; Version  : 0.0.4
 ;; Keywords : convenience
 

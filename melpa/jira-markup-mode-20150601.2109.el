@@ -6,6 +6,7 @@
 ;; Created: July 15, 2012
 ;; Version: 0.0.1
 ;; Package-Version: 20150601.2109
+;; Package-Commit: 4fc534c47df26a2f402bf835ebe2ed89474a4062
 ;; Keywords: jira, markup
 ;; URL: https://github.com/mnuessler/jira-markup-mode
 

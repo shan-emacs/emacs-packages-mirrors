@@ -6,6 +6,7 @@
 ;; Author: Geoff Jacobsen <geoffjacobsen@gmail.com>
 ;; URL: http://github.com/jacott/handlebars-sgml-mode
 ;; Package-Version: 20130623.2333
+;; Package-Commit: c76df93a9a8c1b1b3efdcc4add32bf93304192a4
 ;; Version: 0.1.1
 
 

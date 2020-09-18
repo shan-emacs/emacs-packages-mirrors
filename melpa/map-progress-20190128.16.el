@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/tarsius/map-progress
 ;; Keywords: convenience
 ;; Package-Version: 20190128.16
+;; Package-Commit: 1fb916159cd054c233ce3c80d9d01adfae640297
 
 ;; Package-Requires: ((cl-lib "0.6.1"))
 

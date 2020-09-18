@@ -4,6 +4,7 @@
 ;;
 ;; Author: Kyung Mo Kweon<kkweon@gmail.com> and contributors
 ;; URL: https://github.com/kkweon/emacs-css-autoprefixer
+;; Package-Commit: 386a5defc8543a3b87820f1761c075c7d1d93b38
 ;; Package-Version: 20180311.1600
 ;; Package-X-Original-Version: 20180310.839
 ;; Package-Requires: ((emacs "24"))

@@ -5,6 +5,7 @@
 ;; Author: Francesc Rocher <francesc.rocher@gmail.com>
 ;; URL: http://github.com/rocher/elscreen-fr
 ;; Package-Version: 20160920.953
+;; Package-Commit: 6dc77e1d3f17b3f76da5ccf92b715572aa55fb85
 ;; Version: 0.0.3
 ;; Package-Requires: ((elscreen "0") (seq "1.11"))
 

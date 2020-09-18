@@ -5,6 +5,7 @@
 ;; Author: Ian Price <ianprice90@googlemail.com>
 ;; Keywords: tools, macros
 ;; Package-Version: 20151126.1134
+;; Package-Commit: bb10aa8f26bb7e9b1d5746934c94edb00402940c
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24") (cl-lib "0.5"))
 ;; URL: https://github.com/ijp/mbe.el

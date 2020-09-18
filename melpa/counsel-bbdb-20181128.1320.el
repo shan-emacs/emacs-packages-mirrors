@@ -4,6 +4,7 @@
 ;;
 ;; Version: 0.0.4
 ;; Package-Version: 20181128.1320
+;; Package-Commit: df2890deb73b09f8055243bd91942ea887d9b7a1
 ;; Author: Chen Bin <chenbin.sh AT gmail>
 ;; URL: https://github.com/redguard/counsel-bbdb
 ;; Package-Requires: ((ivy "0.8.0") (emacs "24.3"))

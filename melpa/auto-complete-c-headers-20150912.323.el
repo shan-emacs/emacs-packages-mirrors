@@ -5,6 +5,7 @@
 ;; Author: Masafumi Oyamada <stillpedant@gmail.com>
 ;; Package-Requires: ((auto-complete "1.4"))
 ;; Package-Version: 20150912.323
+;; Package-Commit: 52fef720c6f274ad8de52bef39a343421006c511
 ;; Keywords: c
 
 ;; This program is free software; you can redistribute it and/or modify

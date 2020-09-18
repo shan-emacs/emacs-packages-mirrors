@@ -6,6 +6,7 @@
 ;; Created: 06 Jan 2015
 ;; Version: 0.1
 ;; Package-Version: 20150111.426
+;; Package-Commit: d4a5034ca8ea0c962ad6e92c86c0fa2a74d2964b
 ;; Keywords: emulations
 ;; URL: https://github.com/jmickelin/vim-empty-lines-mode
 ;; Package-Requires: ((emacs "23"))

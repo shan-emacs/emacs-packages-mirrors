@@ -5,6 +5,7 @@
 ;; Author: Tianxiang Xiong <tianxiang.xiong@gmail.com>
 ;; Keywords: convenience, tools
 ;; Package-Version: 20190816.1121
+;; Package-Commit: c3b8a15d72dddfbc390ab6a454bd7e4c765a2c95
 ;; Package-Requires: ((cider "0.22.0") (hydra "0.13.0"))
 ;; URL: https://github.com/clojure-emacs/cider-hydra
 ;; Version: 0.2.0-snapshot

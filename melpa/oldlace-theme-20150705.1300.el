@@ -6,6 +6,7 @@
 ;; https://github.com/mswift42/oldlace-theme.git
 ;; Version: 0.1
 ;; Package-Version: 20150705.1300
+;; Package-Commit: 5c6f437203b0783b36a7aff4a578de4a0c8c4ee6
 ;; Package-Requires: ((emacs "24"))
 ;; Created with emacs-theme-generator, https://github.com/mswift42/theme-creator.
 

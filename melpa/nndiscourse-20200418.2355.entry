@@ -1,2 +1,0 @@
-
-(nndiscourse . [(20200418 2355) ((emacs (25 1)) (dash (2 16)) (dash-functional (1 2 0)) (anaphora (1 0 4)) (rbenv (0 0 3)) (json-rpc (20200417))) "Gnus backend for Discourse" tar ((:commit . "103eb5c13ad2d154c9386b2aa9dbea532435ee7a") (:keywords "news") (:url . "https://github.com/dickmao/nndiscourse"))])

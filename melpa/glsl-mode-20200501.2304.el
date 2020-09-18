@@ -7,6 +7,7 @@
 ;;          Jim Hourihan <jimhourihan ~at~ gmail.com> (updated for 4.6, etc)
 ;; Keywords: languages OpenGL GPU SPIR-V Vulkan
 ;; Package-Version: 20200501.2304
+;; Package-Commit: b07112016436d9634cd4ef747f9af6b01366d136
 ;; Version: 2.4
 ;; X-URL: https://github.com/jimhourihan/glsl-mode
 ;;

@@ -5,6 +5,7 @@
 ;; Author: Artur Malabarba <bruce.connor.am@gmail.com>
 ;; URL: http://github.com/Bruce-Connor/audio-notes-mode
 ;; Package-Version: 20170611.2159
+;; Package-Commit: fa38350829c7e97257efc746a010471d33748a68
 ;; Version: 1.1.1
 ;; Keywords: hypermedia convenience
 ;; ShortName: anm

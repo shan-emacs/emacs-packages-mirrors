@@ -5,6 +5,7 @@
 ;; Author:   Kevin Mahoney
 ;; URL:      https://github.com/KMahoney/kpm-list/
 ;; Package-Version: 20170924.1352
+;; Package-Commit: e0f5112e5ce8ec1b603f4428fa51681c68bb28f5
 ;; Version:  1.0
 
 ;; This file is NOT part of GNU Emacs.

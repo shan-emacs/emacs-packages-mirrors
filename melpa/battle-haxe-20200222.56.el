@@ -5,6 +5,7 @@
 ;; Author: Alon Tzarafi  <alontzarafi@gmail.com>
 ;; URL: https://github.com/AlonTzarafi/battle-haxe
 ;; Package-Version: 20200222.56
+;; Package-Commit: 64d20c9ea3fd503fdefafda122e7095c192e72a3
 ;; Version: 1.0
 ;; Package-Requires: ((emacs "25") (company "0.9.9") (helm "3.0") (async "1.9.3") (cl-lib "0.5") (dash "2.12.0") (dash-functional "1.2.0") (s "1.10.0") (f "0.19.0"))
 ;; Keywords: programming, languages, completion

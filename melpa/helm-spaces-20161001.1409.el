@@ -5,6 +5,7 @@
 ;; Author: Yasuyuki Oka <yasuyk@gmail.com>
 ;; Version: 0.4
 ;; Package-Version: 20161001.1409
+;; Package-Commit: 877e2b5178926308d6a7c2a37477bb12c33a96d4
 ;; URL: https://github.com/yasuyk/helm-spaces
 ;; Package-Requires: ((helm-core "2.2") (spaces "0.1.0"))
 ;; Keywords: helm frames convenience

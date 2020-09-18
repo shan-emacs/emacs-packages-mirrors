@@ -4,6 +4,7 @@
 ;; Author: Vladimir Kazanov <vkazanov@inbox.ru>
 ;; Version: 0.1.0
 ;; Package-Version: 20171225.1736
+;; Package-Commit: 21929c997a05968f9eefe52b85a76ceaab3b0d81
 ;; Package-Requires: ((emacs "25") (yasnippet "0.8.0"))
 ;; Keywords: Python, Languages, Tools
 ;; URL: https://github.com/vkazanov/elpygen

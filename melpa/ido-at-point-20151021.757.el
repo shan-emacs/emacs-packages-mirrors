@@ -5,6 +5,7 @@
 ;; Author: katspaugh
 ;; Keywords: convenience, abbrev
 ;; Package-Version: 20151021.757
+;; Package-Commit: e5907bbe8a3d148d07698b76bd994dc3076e16ee
 ;; URL: https://github.com/katspaugh/ido-at-point
 ;; Version: 0.0.5
 ;; Package-Requires: ((emacs "24"))

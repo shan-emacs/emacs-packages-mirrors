@@ -6,6 +6,7 @@
 ;; Author: Luis Lloret
 ;; URL: https://github.com/llloret/gitolite-emacs
 ;; Package-Version: 20170714.1310
+;; Package-Commit: 9136a9b737e0a5b6471a91571d104c487c43f35b
 ;; Keywords: git, gitolite, languages
 ;; Version: 0.3
 ;; Package-Requires: ((emacs "24.3"))

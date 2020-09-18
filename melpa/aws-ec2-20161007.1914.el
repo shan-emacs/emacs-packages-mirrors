@@ -5,6 +5,7 @@
 ;; Author: Yuki Inoue <inouetakahiroki _at_ gmail.com>
 ;; URL: https://github.com/Yuki-Inoue/aws.el
 ;; Package-Version: 20161007.1914
+;; Package-Commit: 5601d4f268fc34b86a02ca90cde7d3771619a368
 ;; Version: 0.0.3
 ;; Package-Requires: ((emacs "24.4") (dash "2.12.1") (tblui "0.1.0"))
 

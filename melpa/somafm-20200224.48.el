@@ -3,6 +3,7 @@
 ;; Author: Arte Ebrahimi <>
 ;; Keywords: multimedia
 ;; Package-Version: 20200224.48
+;; Package-Commit: 9fdb75e150e78170b3ca7863a8a0638c6ecc0fc0
 ;; Package-Requires: ((emacs "26.1") (dash "2.12.0") (request "0.3.2") (cl-lib "0.6.1"))
 ;; URL: https://github.com/artenator/somafm.el
 ;; Version: 0.1.0

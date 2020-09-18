@@ -9,6 +9,7 @@
 ;; Modified: April 01, 2019
 ;; Version: 0.2
 ;; Package-Version: 20200128.1354
+;; Package-Commit: 8969679f60db0aa918d35f40d959c0a9c723b111
 ;; Keywords: languages
 ;; Homepage: https://github.com/fkie-cad/bap-mode
 ;;

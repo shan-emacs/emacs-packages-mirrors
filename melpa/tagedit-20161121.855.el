@@ -5,6 +5,7 @@
 ;; Author: Magnar Sveen <magnars@gmail.com>
 ;; Version: 1.4.0
 ;; Package-Version: 20161121.855
+;; Package-Commit: b3a70101a0dcf85498c92b7fcfa7fdbac869746c
 ;; Keywords: convenience
 ;; Package-Requires: ((s "1.3.1") (dash "1.0.3"))
 

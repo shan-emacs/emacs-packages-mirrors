@@ -5,6 +5,7 @@
 ;; Author: Hans Sjunnesson <hans.sjunnesson@gmail.com>
 ;; Keywords: math
 ;; Package-Version: 20190805.1007
+;; Package-Commit: a172712d5045834f5434cca2843a7c3506805db8
 ;; Version: 1.2
 
 ;; This program is free software; you can redistribute it and/or modify

@@ -8,6 +8,7 @@
 ;; Maintainer: Matt Curtis <matt.r.curtis@gmail.com>
 ;; Version: 0.3
 ;; Package-Version: 20160512.1723
+;; Package-Commit: 96bef1ffbc89ea12d13311c9fa239c5c3e864890
 ;; Package-Requires ((emacs "24.3"))
 ;; Keywords: csv
 ;; URL: https://github.com/mrc/el-csv

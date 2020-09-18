@@ -6,6 +6,7 @@
 ;; Maintainer:    Kazuo YAGI <kazuo.yagi@gmail.com>
 ;; URL:           http://github.com/kyagi/shell-pop-el
 ;; Package-Version: 20200315.1139
+;; Package-Commit: 4b4394037940a890a313d715d203d9ead2d156a6
 ;; Version:       0.64
 ;; Created:       2009-05-31 23:57:08
 ;; Keywords:      shell, terminal, tools

@@ -5,6 +5,7 @@
 ;; Author: Chunyang Xu <mail@xuchunyang.me>
 ;; URL: https://github.com/xuchunyang/region-state.el
 ;; Package-Version: 20181205.1746
+;; Package-Commit: 8c636b655eef45e0015684699737d31e15450000
 ;; Keywords: convenience
 ;; Version: 0.1
 

@@ -5,6 +5,7 @@
 ;; Author: Filipe Silva <filipe.silva@gmail.com>
 ;; URL: https://github.com/ninrod/exato
 ;; Package-Version: 20180305.1042
+;; Package-Commit: aee7af7b7a0e7551478f453d1de7d5b9cb2e06c4
 ;; Version: 0.0.1
 ;; Package-Requires: ((evil "1.2.13") (emacs "24"))
 

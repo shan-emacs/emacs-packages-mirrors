@@ -3,6 +3,7 @@
 ;; Author: Lassi Kortela <lassi@lassi.io>
 ;; URL: https://github.com/lassik/editorconfig-emacs-domain-specific
 ;; Package-Version: 20180505.924
+;; Package-Commit: e9824160fb2e466afa755240ee3ab7cc5657fb04
 ;; Version: 0.1.0
 ;; Package-Requires: ((cl-lib "0.5") (editorconfig "0.6.0"))
 ;; Keywords: editorconfig util

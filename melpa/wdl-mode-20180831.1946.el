@@ -5,6 +5,7 @@
 ;; Author: Xiaowei Zhan <zhanxw@gmail.com>
 ;; URL: http://github.com/zhanxw/wdl-mode
 ;; Package-Version: 20180831.1946
+;; Package-Commit: cef86e5afc136ae5ad9324cd6e6d6f860b889bcf
 ;; Version: 20170709
 ;; Created: 14 Jul 2010
 ;; Keywords: languages

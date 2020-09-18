@@ -3,6 +3,7 @@
 ;; Author: Sebastian Wålinder <s.walinder@gmail.com>
 ;; URL: https://github.com/walseb/ellocate
 ;; Package-Version: 20200112.1931
+;; Package-Commit: 81405082f68f0577c9f176d3d4f034a7142aba59
 ;; Version: 1.0
 ;; Package-Requires: ((emacs "25.1") (s "1.12.0") (f "0.20.0"))
 ;; Keywords: matching

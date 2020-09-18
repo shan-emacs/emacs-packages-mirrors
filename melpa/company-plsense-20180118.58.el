@@ -5,6 +5,7 @@
 ;; Author: Troy Hinckley <troy.hinckley@gmail.com>
 ;; URL: https://github.com/CeleritasCelery/company-plsense
 ;; Package-Version: 20180118.58
+;; Package-Commit: b48e3181e08ec597269621d621aa06636f02d883
 ;; Version: 0.2.0
 ;; Package-Requires: ((company "0.9.3") (cl-lib "0.5.0") (dash "2.12.0") (s "1.12") (emacs "24"))
 

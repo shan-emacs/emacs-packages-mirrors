@@ -3,6 +3,7 @@
 ;; Author: tty-tourist <andreasrasholm@protonmail.com>
 ;; URL: https://github.com/tty-tourist/org-tracktable
 ;; Package-Version: 20161118.1329
+;; Package-Commit: 8e0e60a582a034bd66d5efb72d513140b7d4d90a
 ;; Created: 2015-11-03
 ;; Keywords: org, writing
 ;; Package-Requires: ((emacs "24")(cl-lib "0.5"))

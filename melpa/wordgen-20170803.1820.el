@@ -2,6 +2,7 @@
 
 ;; Author: Fanael Linithien <fanael4@gmail.com>
 ;; URL: https://github.com/Fanael/wordgen.el
+;; Package-Commit: aacad928ae99a953e034a831dfd0ebdf7d52ac1d
 ;; Package-Version: 20170803.1820
 ;; Package-X-Original-Version: 0.1.4
 ;; Package-Requires: ((emacs "24") (cl-lib "0.5"))

@@ -3,6 +3,7 @@
 ;;; Author: Jason Milkins
 ;;; Version: 20141116
 ;; Package-Version: 20170808.1320
+;; Package-Commit: 9e46fbfb562b6e26c6e3d6d618b044b3694da4c8
 ;;
 ;;; Url: https://github.com/emacsfodder/tmtheme-to-deftheme
 ;;; Package-Requires: ((emacs "24.0"))

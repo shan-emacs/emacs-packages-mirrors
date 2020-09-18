@@ -6,6 +6,7 @@
 ;; Created: 12 Dec 2016
 ;; Version: 0.0.1
 ;; Package-Version: 20161212.1508
+;; Package-Commit: 4eabc6937b0e83062ffce9de0d42110224063a6c
 ;; Homepage: https://github.com/zonuexe/untitled-new-buffer.el
 ;; Keywords: files convenience
 ;; Package-Requires: ((emacs "24.4") (magic-filetype "0.2.0"))

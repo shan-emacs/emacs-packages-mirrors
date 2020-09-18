@@ -3,6 +3,7 @@
 ;; Copyright (c) 2016 Tomas Vojtisek
 ;; URL: https://github.com/TheSuspiciousWombat/SusColors-emacs
 ;; Package-Version: 20190713.1009
+;; Package-Commit: b4a979ee23e26e255b9a63525b0a28e810fab9ae
 
 ;;; Commentary:
 

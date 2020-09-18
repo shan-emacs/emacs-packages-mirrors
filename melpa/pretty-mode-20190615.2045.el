@@ -11,6 +11,7 @@
 ;; Maintainer: Grant Rettke <grant@wisdomandwonder.com>
 ;; URL: https://github.com/akatov/pretty-mode
 ;; Package-Version: 20190615.2045
+;; Package-Commit: 5154355e90fdd70d3647257280a89eeb725ef084
 ;; Keywords: pretty, unicode, symbols
 ;; Version: 2.0.3
 

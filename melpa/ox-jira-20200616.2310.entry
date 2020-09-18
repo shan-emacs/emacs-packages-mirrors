@@ -1,0 +1,2 @@
+
+(ox-jira . [(20200616 2310) ((org (8 3))) "JIRA Backend for Org Export Engine" single ((:commit . "e9a47ef51862f11a5c006cf9e8c5f4ec5517aced") (:keywords "outlines" "hypermedia" "wp") (:authors ("Stig Brautaset" . "stig@brautaset.org")) (:maintainer "Stig Brautaset" . "stig@brautaset.org") (:url . "https://github.com/stig/ox-jira.el"))])

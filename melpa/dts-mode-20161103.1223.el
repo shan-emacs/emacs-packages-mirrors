@@ -4,6 +4,7 @@
 
 ;; Version: 0.1.0
 ;; Package-Version: 20161103.1223
+;; Package-Commit: 9ee0854446dcc6c53d2b8d2941051768dba50344
 ;; Author: Ben Gamari <ben@smart-cactus.org>
 ;; Keywords: languages
 

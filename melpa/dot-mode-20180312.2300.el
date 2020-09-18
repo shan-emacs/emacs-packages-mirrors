@@ -7,6 +7,7 @@
 ;; Maintainer: Robert Wyrick <rob@wyrick.org>
 ;; Keywords: convenience
 ;; Package-Version: 20180312.2300
+;; Package-Commit: 6ca22b73bcdae2363ee9641b822a60685df16a3e
 ;; Version: 1.13
 ;; URL: https://github.com/wyrickre/dot-mode
 ;; Package-Requires: ((emacs "24.3"))

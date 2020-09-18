@@ -5,6 +5,7 @@
 ;; Author: steckerhalter
 ;; URL: https://github.com/quelpa/quelpa-use-package
 ;; Package-Version: 20200307.805
+;; Package-Commit: 00ce667293c7cd5dc79d4b6077785fcc57455775
 ;; Version: 0.0.1
 ;; Package-Requires: ((emacs "25.1") (quelpa "0") (use-package "2"))
 ;; Keywords: package management elpa use-package

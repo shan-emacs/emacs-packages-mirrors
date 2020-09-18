@@ -5,6 +5,7 @@
 ;; Author: Jeff Gran <jeff@jeffgran.com>
 ;; URL: https://github.com/jeffgran/jg-quicknav
 ;; Package-Version: 20170809.130
+;; Package-Commit: c8d53e774d63e68a944092c08a026b57da741038
 ;; Created: 3 Mar 2013
 ;; Keywords: navigation
 ;; Version: 1.4.0

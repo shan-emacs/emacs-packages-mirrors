@@ -6,6 +6,7 @@
 ;; Maintainer: Dan Sutton  <danielsutton01@gmail.com>
 ;; URL: https://github.com/dpsutton/resize-mode
 ;; Package-Version: 20180918.538
+;; Package-Commit: 72018aa4d2401b60120588199d4cedd0dc1fbcfb
 
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "24") (cl-lib "0.5"))

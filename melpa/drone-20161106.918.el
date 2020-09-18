@@ -5,6 +5,7 @@
 ;; Author: Oliver Marks <oly@digitaloctave.com>
 ;; URL: https://github.com/olymk2/emacs-drone
 ;; Package-Version: 20161106.918
+;; Package-Commit: 1d4ee037ad3208847a4235426edf0c4a3e7b1899
 ;; Keywords: Drone Tests Ci
 ;; Version: 0.1
 ;; Created 29 October 2016

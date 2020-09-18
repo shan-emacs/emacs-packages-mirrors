@@ -5,6 +5,7 @@
 ;; Author: Austin Bingham <austin@sixty-north.com>
 ;; Version: 0.1
 ;; Package-Version: 20180220.854
+;; Package-Commit: 04dbe37fa35d0b24c791421785d2c97a8cbfe2cc
 ;; URL: https://github.com/sixty-north/emacs-wilt
 ;; Package-Requires: ((emacs "24.3") (dash "2.12.0") (s "1.10.0"))
 ;;

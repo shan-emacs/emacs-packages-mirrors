@@ -5,6 +5,7 @@
 ;; Author: Junpeng Qiu <qjpchmail@gmail.com>
 ;; Keywords: extensions
 ;; Package-Version: 20170328.1948
+;; Package-Commit: d2937a3d91e014f8028a1f33d21c18cc0b065a64
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "24.4") (org "8.2.10"))
 

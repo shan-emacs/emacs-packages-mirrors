@@ -4,6 +4,7 @@
 
 ;; Version: 0.0.6
 ;; Package-Version: 20151110.1142
+;; Package-Commit: ce8543d7877c736c574a17b49874c9dcdc7a06d6
 ;; Author: François-Xavier Bois <fxbois AT Google Mail Service>
 ;; Maintainer: François-Xavier Bois
 ;; Created: Sept 2013

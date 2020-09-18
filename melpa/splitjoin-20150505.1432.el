@@ -5,6 +5,7 @@
 ;; Author: Syohei YOSHIDA <syohex@gmail.com>
 ;; URL: https://github.com/syohex/emacs-splitjoin
 ;; Package-Version: 20150505.1432
+;; Package-Commit: e2945ee269e6e90f0243d6f2a33e067bb0a2873c
 ;; Version: 0.01
 ;; Package-Requires: ((cl-lib "0.5"))
 

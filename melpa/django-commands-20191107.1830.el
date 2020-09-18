@@ -4,6 +4,7 @@
 
 ;; Author: Andrii Kolomoiets <andreyk.mad@gmail.com>
 ;; Keywords: tools
+;; Package-Commit: bef7ca848d6d1721ebb22b181c50dcfbef16e434
 ;; URL: https://github.com/muffinmad/emacs-django-commands
 ;; Package-Version: 20191107.1830
 ;; Package-X-Original-Version: 1.3.3

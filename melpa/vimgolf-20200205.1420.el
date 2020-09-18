@@ -6,6 +6,7 @@
 ;; Created: 2011-11-02
 ;; Version: 0.10.4-SNAPSHOT
 ;; Package-Version: 20200205.1420
+;; Package-Commit: f565447ed294898588a19438d56c116555d8c628
 ;; Keywords: games vimgolf vim
 ;; URL: https://github.com/timvisher/vimgolf.el
 

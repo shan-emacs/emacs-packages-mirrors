@@ -21,6 +21,7 @@
 
 ;; Version: 1.0
 ;; Package-Version: 20190318.1744
+;; Package-Commit: 50cefe5a37196ed1af3d330d6871c3b37fa90d41
 ;; Author: Adrien Brochard
 ;; Keywords: snippet org-mode yasnippet tools
 ;; URL: https://github.com/abrochard/org-sync-snippets

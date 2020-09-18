@@ -9,6 +9,7 @@
 ;; Original Created: 11 January 2015
 ;; Version: 0.2
 ;; Package-Version: 20171015.1749
+;; Package-Commit: a262c12c3bcd0807718c4edcaf2b054e30ef0e26
 ;; Package-Requires: ((company "0.9.4") (glsl-mode "2.0") (emacs "24.4"))
 ;; URL: https://github.com/guidoschmidt/company-glsl
 

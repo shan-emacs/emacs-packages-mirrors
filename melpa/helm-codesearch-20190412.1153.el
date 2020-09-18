@@ -5,6 +5,7 @@
 ;; Author: Youngjoo Lee <youngker@gmail.com>
 ;; Version: 0.5.0
 ;; Package-Version: 20190412.1153
+;; Package-Commit: 72f1d1de746115ab7e861178b49fa3c0b6b58d90
 ;; Keywords: tools
 ;; Package-Requires: ((emacs "25.1") (s "1.11.0") (dash "2.12.0") (helm "1.7.7") (cl-lib "0.5"))
 

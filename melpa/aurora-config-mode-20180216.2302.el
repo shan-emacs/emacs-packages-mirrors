@@ -6,6 +6,7 @@
 ;; Author: Berk D. Demir <bdd@mindcast.org>
 ;; URL: https://github.com/bdd/aurora-config.el
 ;; Package-Version: 20180216.2302
+;; Package-Commit: 8273ec7937a21b469b9dbb6c11714255b890f410
 ;; Version: 0.0.2
 ;; Created: May 2014
 ;; Keywords: languages, configuration

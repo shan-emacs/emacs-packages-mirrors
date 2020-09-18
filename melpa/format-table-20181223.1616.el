@@ -5,6 +5,7 @@
 ;; Author:  Jason Duncan <jasond496@msn.com>
 ;; Version: 0.0.1
 ;; Package-Version: 20181223.1616
+;; Package-Commit: dfcae3a867e574577fc09a43b045889ff155b58f
 ;; Keywords: data
 ;; URL: https://github.com/functionreturnfunction/format-table
 ;; Package-Requires: ((emacs "25") (dash "2.14.1"))

@@ -5,6 +5,7 @@
 ;; Author: Dimitris Alikaniotis <da352 [at] cam.ac.uk>
 ;; Keywords: citations, reference, bibtex, reftex
 ;; Package-Version: 20151011.1916
+;; Package-Commit: 7b99ad30e56937adb7e6349777e5a2045597d564
 ;; URL: http://github.com/dimalik/empos/
 ;; Version: 0.1
 ;;

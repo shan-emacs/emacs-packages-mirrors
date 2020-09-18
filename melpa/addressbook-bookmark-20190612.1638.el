@@ -7,6 +7,7 @@
 ;; Compatibility: GNU Emacs 24.1+
 ;; Package-Requires: ((emacs "24"))
 ;; Package-Version: 20190612.1638
+;; Package-Commit: d8e502fc2f3d3ab1508ce9e50ebf8a9addc6e5b3
 
 ;; This file is NOT part of GNU Emacs.
 

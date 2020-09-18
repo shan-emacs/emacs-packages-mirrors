@@ -4,6 +4,7 @@
 ;;
 ;; Version: 0.3.0
 ;; Package-Version: 20170821.1320
+;; Package-Commit: f8406f77bf83b66306ced693a5e4aaf606f46762
 ;; Author: Raghav Kumar Gautam <raghav@apache.org>
 ;; Keywords: tramp, emacs, hdfs, hadoop, webhdfs, rest
 ;; Package-Requires: ((emacs "24.4"))

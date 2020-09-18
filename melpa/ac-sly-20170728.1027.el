@@ -3,6 +3,7 @@
 ;; Author: Damian T. Dobroczy\'nski <qoocku@gmail.com>
 ;; URL: https://github.com/qoocku/ac-sly
 ;; Package-Version: 20170728.1027
+;; Package-Commit: bf69c687c4ecf1994349d20c182e9b567399912e
 ;; Version: DEV
 ;; Package-Requires: ((sly "1.0.0-alpha") (auto-complete "1.4") (cl-lib "0.5"))
 

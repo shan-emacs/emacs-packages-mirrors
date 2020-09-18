@@ -5,6 +5,7 @@
 ;; Author: Marian Schubert <marian.schubert@gmail.com>
 ;; Keywords: clj-refactor discover convenience
 ;; Package-Version: 20150328.1459
+;; Package-Commit: 3fbd5c1162739e606d7cf5d4f5d7426547d99647
 ;; Package-Requires: ((clj-refactor "0.14.0") (discover "0.3"))
 
 ;; Version: 0.1

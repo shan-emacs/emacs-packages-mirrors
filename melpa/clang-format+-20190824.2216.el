@@ -5,6 +5,7 @@
 ;; Authors: Valeriy Savchenko <sinmipt@gmail.com>
 ;; URL: https://github.com/SavchenkoValeriy/emacs-clang-format-plus
 ;; Package-Version: 20190824.2216
+;; Package-Commit: ddd4bfe1a13c2fd494ce339a320a51124c1d2f68
 ;; Version: 1.0.0
 ;; Package-Requires: ((emacs "25.1") (clang-format "20180406.1514"))
 ;; Keywords: c c++ clang-format

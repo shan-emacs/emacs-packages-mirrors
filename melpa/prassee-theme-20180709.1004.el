@@ -5,6 +5,7 @@
 ;; Author: Prassee  <prassee.sathian@gmail.com>
 ;; Keywords: dark high-contrast  faces
 ;; Package-Version: 20180709.1004
+;; Package-Commit: 81126f69cdbaab836c00ae7a49aaf89d4229fde1
 ;; URL: https://github.com/prassee/prassee-emacs-theme
 ;; Package-Requires: ((emacs "24"))
 ;; Version: 1.2

@@ -5,6 +5,7 @@
 ;; Author: Vincent Dumas <vincekd@gmail.com>
 ;; URL: https://github.com/vincekd/comment-tags
 ;; Package-Version: 20170910.1735
+;; Package-Commit: 7d914097f0a03484af71e621db533737fc692f58
 ;; Keywords: convenience, comments, tags
 ;; Version: 0.2
 ;; Package-Requires: ((emacs "24.5"))

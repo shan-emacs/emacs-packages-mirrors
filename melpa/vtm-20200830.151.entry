@@ -1,0 +1,2 @@
+
+(vtm . [(20200830 151) ((emacs (27 1)) (toml (0))) "Manages vterm buffers with configuration files" single ((:commit . "c0fd146ec80ce8f63615f8189b003ce5b8e83ae2") (:keywords "convenience") (:url . "https://github.com/laishulu/emacs-vterm-manager"))])

@@ -1,0 +1,2 @@
+
+(commify . [(20200905 1256) ((s (1 9 0))) "Toggle grouping commas in numbers" single ((:commit . "2245c319c369d6b511e205e990659039088e65a5") (:keywords "convenience" "editing" "numbers" "grouping" "commas") (:authors ("Daniel E. Doherty" . "ded-commify@ddoherty.net")) (:maintainer "Daniel E. Doherty" . "ded-commify@ddoherty.net") (:url . "https://github.com/ddoherty03/commify"))])

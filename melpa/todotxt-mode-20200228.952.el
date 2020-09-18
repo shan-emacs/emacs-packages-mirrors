@@ -5,6 +5,7 @@
 ;; Author: Adolfo Villafiorita <adolfo.villafiorita@me.com>
 ;; Keywords: wp, files
 ;; Package-Version: 20200228.952
+;; Package-Commit: 8b616ce1cf3e18a60757450a0acf22996abb9b79
 
 ;; This code is NOT part of GNU Emacs and is distributed under the conditions
 ;; of the MIT License

@@ -3,6 +3,7 @@
 ;; Author: Fanael Linithien <fanael4@gmail.com>
 ;; URL: https://github.com/Fanael/highlight-blocks
 ;; Package-Version: 20190318.1557
+;; Package-Commit: 33cf3d36662faa36c86c8d53e4d5a3922efa3eb8
 ;; Version: 0.1.17
 ;; Package-Requires: ((emacs "24"))
 

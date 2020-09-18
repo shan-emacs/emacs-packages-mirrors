@@ -5,6 +5,7 @@
 ;; Author: Steve Purcell <steve@sanityinc.com>
 ;; Keywords: languages
 ;; Package-Version: 20200327.2329
+;; Package-Commit: 9e6351dc97a6f58f221d6e1baa7bab292309c437
 ;; URL: https://github.com/purcell/sqlformat
 ;; Package-Requires: ((emacs "24.3") (reformatter "0.3"))
 ;; Version: 0

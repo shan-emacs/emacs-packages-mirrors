@@ -5,6 +5,7 @@
 ;; Author: Martin Rykfors <martinrykfors@gmail.com>
 ;; Version: 0.4.1
 ;; Package-Version: 20160831.1447
+;; Package-Commit: b3f6ef15c8a13870475d5af159fa24b30f97dea0
 ;; URL: https://github.com/MartinRykfors/key-leap
 ;; Keywords: point, convenience
 ;; Package-Requires: ((emacs "24.3"))

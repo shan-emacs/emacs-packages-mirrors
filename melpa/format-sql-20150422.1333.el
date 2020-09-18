@@ -5,6 +5,7 @@
 ;; Author: Friedrich Paetzke <paetzke@fastmail.fm>
 ;; URL: https://github.com/paetzke/format-sql.el
 ;; Package-Version: 20150422.1333
+;; Package-Commit: 97f475c245cd6c81a72a265678e2087cee66ac7b
 ;; Version: 0.4
 
 ;;; Commentary:

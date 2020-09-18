@@ -5,6 +5,7 @@
 ;; Author: Dave Justice
 ;; URL: https://github.com/meandavejustice/node-resolver.el
 ;; Package-Version: 20140930.1723
+;; Package-Commit: ef9d0486907a746a80b02ffc6208a09c168a9f7c
 ;; Version: 0.1.0
 ;; Created: 2014-09-29
 ;; Keywords: convenience, nodejs, javascript, npm

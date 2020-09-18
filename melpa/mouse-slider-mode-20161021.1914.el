@@ -5,6 +5,7 @@
 ;; Author: Christopher Wellons <mosquitopsu@gmail.com>
 ;; URL: https://github.com/skeeto/mouse-slider-mode
 ;; Package-Version: 20161021.1914
+;; Package-Commit: b3c19cd231edecce76787c5a9bbe5e4046d91f88
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24.3") (cl-lib "0.3"))
 

@@ -4,6 +4,7 @@
 
 ;; Author: Aki Syunsuke <sunny.day.dev@gmail.com>
 ;; URL: https://github.com/aki-s/elscreen-tab
+;; Package-Commit: da79fb0b9ead2402662ff8e163039635aaae2413
 ;; Package-Version: 20190203.1619
 ;; Package-X-Original-Version: 1.0.0
 ;; Package-Requires: ((emacs "26") (elscreen "20180321") (dash "2.14.1"))

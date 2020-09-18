@@ -3,6 +3,7 @@
 ;; Author: 10sr <8.slashes@gmail.com>
 ;; URL: https://github.com/10sr/editorconfig-generate-el
 ;; Package-Version: 20190513.433
+;; Package-Commit: 47a31f928f46d2a0188db8e2cffa5d6354a81573
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "24"))
 ;; Keywords: tools

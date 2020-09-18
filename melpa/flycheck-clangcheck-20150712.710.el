@@ -3,6 +3,7 @@
 ;; Author: kumar8600 <kumar8600@gmail.com>
 ;; URL: https://github.com/kumar8600/flycheck-clangcheck
 ;; Package-Version: 20150712.710
+;; Package-Commit: 24a9424c484420073a24443a829fd5779752362b
 ;; Version: 0.21
 ;; Package-Requires: ((cl-lib "0.5") (seq "1.7") (flycheck "0.17"))
 		   

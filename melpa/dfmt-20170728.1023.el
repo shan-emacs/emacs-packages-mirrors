@@ -5,6 +5,7 @@
 ;; Maintainer: Kirill Babikhin <qsimpleq>
 ;; Keywords: tools, convenience, languages, Dlang
 ;; Package-Version: 20170728.1023
+;; Package-Commit: 21b9094e907b7ac53f5ecb4ff4539613a9d12434
 ;; URL: https://github.com/qsimpleq/elisp-dfmt
 ;; Version: 0.1.0
 ;; License: GPL v2, or any later version

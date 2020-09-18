@@ -7,6 +7,7 @@
 ;; Author: Tomoya Otake <tomoya.ton@gmail.com>
 ;; Version: 1.1
 ;; Package-Version: 20150312.1103
+;; Package-Commit: c4ae86ac1acfc572b81f3d78764bd9a54034c331
 
 ;; This file is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published

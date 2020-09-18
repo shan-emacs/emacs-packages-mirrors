@@ -5,6 +5,7 @@
 ;; Author: Syohei YOSHIDA <syohex@gmail.com>
 ;; URL: https://github.com/syohex/emacs-gom-mode
 ;; Package-Version: 20131008.253
+;; Package-Commit: 972e33df1d38ff323bc97de87477305826013701
 ;; Version: 0.01
 
 ;; This program is free software; you can redistribute it and/or modify

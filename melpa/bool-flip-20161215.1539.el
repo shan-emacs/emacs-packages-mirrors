@@ -5,6 +5,7 @@
 ;; Author: Michael Brandt <michaelbrandt5@gmail.com>
 ;; URL: http://github.com/michaeljb/bool-flip/
 ;; Package-Version: 20161215.1539
+;; Package-Commit: f58a9a7b9ab875bcfbd57c8262697ae404eb4485
 ;; Package-Requires: ((emacs "24.3"))
 ;; Version: 1.0.1
 ;; Keywords: boolean, convenience, usability

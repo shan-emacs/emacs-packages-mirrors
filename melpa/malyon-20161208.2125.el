@@ -4,6 +4,7 @@
 ;; Maintainer: Christopher Madsen <cjm@cjmweb.net>, Erik Selberg <erik@selberg.org>
 ;; Version: 20161204
 ;; Package-Version: 20161208.2125
+;; Package-Commit: 0d9882650720b4a791556f5e2d917388965d6fc0
 ;; Package-Requires: ((cl-lib "0.5"))
 ;; Keywords: games, emulations
 ;; URL: https://github.com/speedenator/malyon

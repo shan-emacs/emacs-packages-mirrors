@@ -5,6 +5,7 @@
 ;; Author: James P. Ascher <jpa4q@virginia.edu>
 ;; Keywords: diary, encryption
 ;; Package-Version: 20151216.1657
+;; Package-Commit: 0c86fb6150ad8ed14f94def3504f5a68f4147283
 ;; URL: https://github.com/cacology/private-diary
 
 ;; Version: 1.0

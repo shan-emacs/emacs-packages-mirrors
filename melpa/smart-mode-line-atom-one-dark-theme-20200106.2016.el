@@ -6,6 +6,7 @@
 ;; Maintainer: Davide Restivo <davide.restivo@yahoo.it>
 ;; Version: 0.2
 ;; Package-Version: 20200106.2016
+;; Package-Commit: e281b52b164a477fcdb6a468976e8a1bdde1ca26
 ;; URL: https://github.com/daviderestivo/smart-mode-line-atom-one-dark-theme
 ;; Package-Requires: ((emacs "24.3") (smart-mode-line "2.10"))
 ;; Keywords: mode-line themes faces

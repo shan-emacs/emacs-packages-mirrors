@@ -5,6 +5,7 @@
 ;; Author: Bernhard Specht <bernhard@specht.net>
 ;; Keywords: lisp
 ;; Package-Version: 20170128.2251
+;; Package-Commit: 7e37ea35064ff31c9945f0198a653647d408c936
 ;; Version: 0.0.5
 ;; Package-Requires: ((request "0.2.0") (cl-lib "0.5"))
 

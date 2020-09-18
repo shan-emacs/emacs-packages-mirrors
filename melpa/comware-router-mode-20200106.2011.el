@@ -7,6 +7,7 @@
 ;; Created: 25 Jul 2019
 ;; Version: 0.5
 ;; Package-Version: 20200106.2011
+;; Package-Commit: e6e2d9ca71a7a46c0e4ebeb30e4994c2a8b5fe0d
 ;; URL: https://github.com/daviderestivo/comware-router-mode
 ;; Package-Requires: ((dash "2.16.0") (emacs "24.3"))
 ;; Keywords: convenience faces

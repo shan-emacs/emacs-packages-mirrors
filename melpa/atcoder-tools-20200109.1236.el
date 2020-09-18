@@ -5,6 +5,7 @@
 ;; Author: Seong Yong-ju <sei40kr@gmail.com>
 ;; Keywords: extensions, tools
 ;; Package-Version: 20200109.1236
+;; Package-Commit: cfe61ed18ea9b3b1bfb6f9e7d80a47599680cd1f
 ;; URL: https://github.com/sei40kr/atcoder-tools
 ;; Package-Requires: ((emacs "26") (f "0.20") (s "1.12"))
 ;; Version: 0.5.0

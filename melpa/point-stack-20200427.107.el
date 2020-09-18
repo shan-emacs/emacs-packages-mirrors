@@ -7,6 +7,7 @@
 ;;         Dmitry Gutov <dgutov@yandex.ru>
 ;; Version: 1.1
 ;; Package-Version: 20200427.107
+;; Package-Commit: cddcea2c91038710c245819b3cda2dd739726134
 
 ;; Permission is hereby granted, free of charge, to any person
 ;; obtaining a copy of this software and associated documentation

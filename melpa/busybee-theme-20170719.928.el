@@ -2,6 +2,7 @@
 ;; Author: martin haesler
 ;; URL: http://github.com/mswift42/busybee-theme
 ;; Package-Version: 20170719.928
+;; Package-Commit: 66b2315b030582d0ebee605cf455d386d8c30fcd
 ;;; Version: 0.1
 
 ;; original busybee theme by Patrick Anderson

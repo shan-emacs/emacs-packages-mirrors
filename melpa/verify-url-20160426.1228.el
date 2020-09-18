@@ -6,6 +6,7 @@
 ;; Created: 2015-12-21
 ;; Version: 0.1
 ;; Package-Version: 20160426.1228
+;; Package-Commit: d6f3623cda8cd526a2d198619b137059cb1ba1ab
 ;; Keywords: convenience, usability, url
 ;; Package-Requires: ((cl-lib "0.5"))
 ;; URL: https://github.com/lujun9972/verify-url

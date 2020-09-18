@@ -4,6 +4,7 @@
 
 ;; Keywords: ocaml languages
 ;; Package-Version: 20190726.1452
+;; Package-Commit: 9e26c0a2699b7076cebc04ece59fb354eb84c11c
 ;; URL: http://www.typerex.org/ocp-indent.html
 
 ;; All rights reserved.This file is distributed under the terms of the

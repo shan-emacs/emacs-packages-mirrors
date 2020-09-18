@@ -5,6 +5,7 @@
 ;; Author: Mario Rodas <marsam@users.noreply.github.com>
 ;; URL: https://github.com/emacs-pe/gh-md.el
 ;; Package-Version: 20151207.1740
+;; Package-Commit: 693cb0dcadff70e813e1a9d303d227aff7898557
 ;; Keywords: convenience
 ;; Version: 0.1.1
 ;; Package-Requires: ((emacs "24"))

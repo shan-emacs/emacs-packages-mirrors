@@ -6,6 +6,7 @@
 ;; Author: Junpeng Qiu <qjpchmail@gmail.com>, 任文山 (Ren Wenshan)
 ;; URL: https://github.com/cute-jumper/emacs-firefox-controller
 ;; Package-Version: 20160320.1847
+;; Package-Commit: a8af8cbf70afaf6b89a26d6ac69af8e92afc181f
 ;; Version: 0.1
 ;; Package-Requires: ((moz "0") (popwin "1.0.0") (cl-lib "0.5"))
 ;; Keywords: extensions

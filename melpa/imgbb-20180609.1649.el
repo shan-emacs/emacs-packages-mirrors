@@ -4,6 +4,7 @@
 ;;
 ;; Author: Peter <craven@gmx.net>
 ;; URL: https://github.com/ecraven/imgbb.el
+;; Package-Commit: a524a46263835aa474f908827ebab4e8fa586001
 ;; Package-Version: 20180609.1649
 ;; Package-X-Original-Version: 20180518
 ;; Package-Requires: ((emacs "24") (request "0.3.0"))

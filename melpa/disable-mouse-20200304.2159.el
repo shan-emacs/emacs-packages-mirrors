@@ -4,6 +4,7 @@
 
 ;; Author: Steve Purcell <steve@sanityinc.com>
 ;; URL: https://github.com/purcell/disable-mouse
+;; Package-Commit: a8318f5f21716316053cc092ab9abb43cb681fe0
 ;; Package-Version: 20200304.2159
 ;; Package-X-Original-Version: 0
 ;; Package-Requires: ((emacs "24.1"))

@@ -5,6 +5,7 @@
 
 ;; Version: 1.3
 ;; Package-Version: 20180227.46
+;; Package-Commit: 6c2264aa6c5d9a72caeae67ebaa4472090e70350
 ;; Keywords: convenience, faces, frames
 ;; Author: Matthew Kennedy <mkennedy@killr.ath.cx>
 ;; Author: Andrew Johnson <andrew@andrewjamesjohnson.com>

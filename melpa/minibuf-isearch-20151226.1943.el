@@ -5,6 +5,7 @@
 ;; Filename: minibuf-isearch.el
 ;; Version: 1.7.1
 ;; Package-Version: 20151226.1943
+;; Package-Commit: 2846c6ac369ee623dad4cd3c8a7a6d9078965516
 ;; Author: Keiichiro Nagano <knagano@sodan.org>,
 ;;         Hideyuki SHIRAI  <shirai@meadowy.org>
 ;; Maintenance: Keiichiro Nagano <knagano@sodan.org>

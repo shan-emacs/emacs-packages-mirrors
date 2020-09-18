@@ -53,7 +53,7 @@ of Swiper at point hides the contents of the buffer.
 (require 'ivy-posframe)
 Different command can use different display function.
 (setq ivy-posframe-display-functions-alist
-      '((swiper          . nil)
+      '((swiper          . ivy-display-function-fallback)
         (complete-symbol . ivy-posframe-display-at-point)
         (counsel-M-x     . ivy-posframe-display-at-window-bottom-left)
         (t               . ivy-posframe-display)))
@@ -73,7 +73,7 @@ Different command can use different display function.
                                   (t      . 40)))
 
 (setq ivy-posframe-display-functions-alist
-      '((swiper          . nil)
+      '((swiper          . ivy-display-function-fallback)
         (complete-symbol . ivy-posframe-display-at-point)
         (counsel-M-x     . ivy-posframe-display-at-window-bottom-left)
         (t               . ivy-posframe-display)))

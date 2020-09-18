@@ -5,6 +5,7 @@
 ;; Author: Ozan Sener <ozan@ozansener.com>
 ;; Keywords: themes
 ;; Package-Version: 20140104.1859
+;; Package-Commit: 89b1d778a1f8b385775c122f2bd1c62f0fbf931a
 ;; URL: http://github.com/osener/emacs-afternoon-theme
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24.1"))

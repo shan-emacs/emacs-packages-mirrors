@@ -6,6 +6,7 @@
 ;; Created: 19 Aug 2014
 ;; Version: 0.1
 ;; Package-Version: 20170904.2309
+;; Package-Commit: cdee5a631ceed9337579d4090e0acf8140747f80
 ;; URL: https://github.com/dgtized/occur-context-resize.el
 ;; Keywords: matching
 

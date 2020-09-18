@@ -3,6 +3,7 @@
 ;; Copyright (C) 2018 Daniel Ma <github.com/danielma>
 ;; Author: Daniel Ma
 ;; URL: http://github.com/danielma/magit-org-todos
+;; Package-Commit: 9ffa3efb098434d837cab4bacd1601fdfc6fe999
 ;; Created: 2018
 ;; Version: 0.1.3
 ;; Keywords: org-mode magit tools

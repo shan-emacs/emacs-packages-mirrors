@@ -5,6 +5,7 @@
 ;; Author: Samuel Laurén <samuel.lauren@iki.fi>
 ;; Keywords: colors
 ;; Package-Version: 20160302.1154
+;; Package-Commit: 4f4f46676a461ebc881487fb70c8c181e323db5e
 ;; Version: 0.1.0
 ;; URL: https://bitbucket.org/Soft/zenity-color-picker.el
 ;; Package-Requires: ((emacs "24.4"))

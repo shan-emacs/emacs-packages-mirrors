@@ -5,6 +5,7 @@
 ;; Author: Jason Terk <jason@goterkyourself.com>
 ;; Version: 1.0
 ;; Package-Version: 20181218.410
+;; Package-Commit: 466e7c0c789ec3e5e8a276c8f6754f91bb584c3e
 ;; Keywords: sql, impala
 ;; URL: https://github.com/jterk/sql-impala
 

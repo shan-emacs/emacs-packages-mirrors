@@ -28,6 +28,7 @@
 ;; Author: Akinori MUSHA <knu@iDaemons.org>
 ;; URL: https://github.com/knu/replace-with-inflections.el
 ;; Package-Version: 20180831.635
+;; Package-Commit: d9201e047856492f282da65459b28aba25998dbb
 ;; Created: 7 Seq 2017
 ;; Version: 0.3.1
 ;; Package-Requires: ((cl-lib "0.5") (string-inflection "1.0.10") (inflections "1.1"))

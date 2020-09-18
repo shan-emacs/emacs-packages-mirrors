@@ -5,6 +5,7 @@
 ;; Author: Magnar Sveen <magnars@gmail.com>
 ;; Version: 0.2.0
 ;; Package-Version: 20150707.1544
+;; Package-Commit: 52c543a4b9808c0d15b565fcdf646c9779de33e8
 ;; Keywords: convenience, extensions
 ;; Package-Requires: ((expand-region "0.7"))
 

@@ -23,12 +23,12 @@
 
             <div class="container">
 <h2 class="package">ediprolog</h2><dl><dt>Description</dt><dd>Emacs Does Interactive Prolog</dd>
-<dt>Latest</dt> <dd><a href="ediprolog-1.2.el">ediprolog-1.2.el</a>, 2017-Jun-11, 25.2&nbsp;KiB</dd>
+<dt>Latest</dt> <dd><a href="ediprolog-2.1.el">ediprolog-2.1.el</a>, 2020-Aug-14, 26.4&nbsp;KiB</dd>
 <dt>Home page</dt> <dd><a href="https://www.metalevel.at/ediprolog/">https://www.metalevel.at/ediprolog/</a></dd>
 <dt>Browse ELPA's repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/tree/packages/ediprolog">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=tree;f=packages/ediprolog">Gitweb</a></dd>
 </dl><p>To install this package, run in Emacs:</p>
                        <pre>M-x <span class="kw">package-install</span> RET <span class="kw">ediprolog</span> RET</pre><h2>Full description</h2><pre>
-These definitions let you interact with SWI-Prolog in all buffers.
+These definitions let you interact with Prolog in all buffers.
 You can consult Prolog programs and evaluate embedded queries.
 
 Installation
@@ -43,6 +43,10 @@ Restart Emacs and customize ediprolog with
 
     M-x customize-group RET ediprolog RET
 
+The two most important configuration options are:
+
+   - `ediprolog-system', either 'scryer or 'swi
+   - `ediprolog-program', the path of the Prolog executable.
 
 Usage
 =====
@@ -60,10 +64,10 @@ whitespace. An example of a query is (without leading ";;"):
 If you press F10 when point is on that query, you get:
 
   %?- member(X, [a,b,c]).
-  %@ X = a ;
-  %@ X = b ;
-  %@ X = c ;
-  %@ false.
+  %@    X = a
+  %@ ;  X = b
+  %@ ;  X = c
+  %@ ;  false.
 
 When waiting for output of the Prolog process, you can press C-g to
 unblock Emacs and continue with other work. To resume interaction
@@ -90,9 +94,11 @@ processes simultaneously. Revert with M-x ediprolog-unlocalize RET.
   C-u F10       first consult buffer, then evaluate query (if any)
   C-u C-u F10   like C-u F10, with a new process
 
-Tested with SWI-Prolog 7.3.21 + Emacs 22.1, 23.4, 24.5, 25.1 and 26.0
+Tested with Scryer Prolog 0.8.119 and SWI-Prolog 8.1.24,
+using Emacs versions 26.1 and 27.0.50.
 </pre>
 <h2>Old versions</h2><table>
+<tr><td><a href="ediprolog-1.2.el">ediprolog-1.2.el</a></td><td>2017-Jun-11</td><td>25.2&nbsp;KiB</td>
 <tr><td><a href="ediprolog-1.1.el">ediprolog-1.1.el</a></td><td>2015-Sep-24</td><td>24.2&nbsp;KiB</td>
 <tr><td><a href="ediprolog-1.0.el">ediprolog-1.0.el</a></td><td>2012-Nov-29</td><td>24.0&nbsp;KiB</td>
 </table>

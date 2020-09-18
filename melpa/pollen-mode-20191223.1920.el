@@ -6,6 +6,7 @@
 ;; Created: 11 June 2016
 ;; Keywords: languages, pollen, pollenpub
 ;; Package-Version: 20191223.1920
+;; Package-Commit: d0a33591498013886c2c4676e204cd684954e82a
 ;; License: LGPL
 ;; Version: 1.0
 ;; Package-Requires: ((emacs "24.3") (cl-lib "0.5"))

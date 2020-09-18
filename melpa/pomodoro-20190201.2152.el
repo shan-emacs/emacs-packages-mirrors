@@ -5,6 +5,7 @@
 ;; Created: Aug 25, 2010
 ;; Version: 0.2
 ;; Package-Version: 20190201.2152
+;; Package-Commit: 6cd665ceeaca1f70954aa4caef6f085179f94c69
 
 ;; This file is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

@@ -5,6 +5,7 @@
 ;; Author: Hiroaki Otsu <ootsuhiroaki@gmail.com>
 ;; Keywords: convenience
 ;; Package-Version: 20200410.1901
+;; Package-Commit: 3c52a7b11c8275fdb2e4cf98f68f2a48ad09a3ae
 ;; URL: https://github.com/aki2o/owdriver
 ;; Version: 0.2.0
 ;; Package-Requires: ((smartrep "0.0.3") (log4e "0.2.0") (yaxception "0.2.0"))

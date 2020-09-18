@@ -68,6 +68,7 @@ MISCELLANEOUS
 - extra-menu ()                                 OK shelve, addremove
 - extra-dir-menu ()                             OK extra-status-menu same as extra-menu
 - conflicted-files (dir)                        OK with no respect to DIR
+- repository-url (file-or-dir)                  OK
 
 VC backend to work with hg repositories through hg command server.
 https://www.mercurial-scm.org/wiki/CommandServer

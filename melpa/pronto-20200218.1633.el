@@ -5,6 +5,7 @@
 ;; Author: Julian Rubisch <julian@julianrubisch.at>
 ;; Version: 1.0
 ;; Package-Version: 20200218.1633
+;; Package-Commit: c2a2ec718c08de1fd2e681970456786cf4eac8fe
 ;; Keywords: processes, tools
 ;; URL: https://github.com/julianrubisch/pronto.el
 ;; Package-Requires: ((emacs "24"))

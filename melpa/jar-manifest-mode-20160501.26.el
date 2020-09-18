@@ -5,6 +5,7 @@
 ;; Author: Omair Majid <omair.majid@gmail.com>
 ;; URL: http://github.com/omajid/jar-manifest-mode
 ;; Package-Version: 20160501.26
+;; Package-Commit: 270dae14c481300f75ed96dad3a5ae42ca928a1d
 ;; Version: 0.0.1
 ;; Keywords: convenience languages
 

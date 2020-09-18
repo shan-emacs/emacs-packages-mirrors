@@ -3,6 +3,7 @@
 ;; Author: Anton Johansson <anton.johansson@gmail.com> - http://antonj.se
 ;; URL: https://github.com/antonj/scss-mode
 ;; Package-Version: 20180123.1708
+;; Package-Commit: cf58dbec5394280503eb5502938f3b5445d1b53d
 ;; Created: Sep 1 23:11:26 2010
 ;; Version: 0.5.0
 ;; Keywords: scss css mode

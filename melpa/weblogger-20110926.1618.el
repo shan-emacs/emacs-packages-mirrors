@@ -8,6 +8,7 @@
 ;; Created: 2002 Oct 11
 ;; Keywords: weblog blogger cms movable type openweblog blog
 ;; Package-Version: 20110926.1618
+;; Package-Commit: b3dd4aead9d3a87e6d85e7fef4f4f3bd40d87b53
 ;; URL: http://launchpad.net/weblogger-el
 ;; Version: 1.4.6
 ;; Last Modified: <2011-09-26 12:16:48 mah>

@@ -6,6 +6,7 @@
 ;; Author: TSUCHIYA Masatoshi <tsuchiya@namazu.org>
 ;; Keywords: shell
 ;; Package-Version: 20090830.1040
+;; Package-Commit: 7e22125f746ce9ffbe9b0282d62f4b4bbbe672bd
 ;; Version: $Revision: 2.2 $
 
 ;; This program is free software; you can redistribute it and/or modify

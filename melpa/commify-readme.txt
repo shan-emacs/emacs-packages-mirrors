@@ -14,6 +14,12 @@ commify-toggle works on floating or scientific numbers as well, but it only
 ever affects the digits before the decimal point.  Afterwards, the cursor
 will be placed immediately after the affected number.
 
+Commify now optionally works with hexadecimal, octal, and binary numbers,
+with variables for independently setting the group char and group size for
+those bases.  They are recognized by prefixes "0x", "0o", and "0b",
+respectively, but these can also be set.  See the README at the github page
+for details.
+
 You can configure these variables:
   - commify-group-char (default ",") to the char used for grouping
   - commify-group-size (default 3) to number of digits per group

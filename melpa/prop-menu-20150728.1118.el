@@ -5,6 +5,7 @@
 ;; Author: David Christiansen <david@davidchristiansen.dk>
 ;; URL: https://github.com/david-christiansen/prop-menu-el
 ;; Package-Version: 20150728.1118
+;; Package-Commit: 50b102c1c0935fd3e0c465feed7f27d66b21cdf3
 ;; Package-Requires:  ((emacs "24.3") (cl-lib "0.5"))
 ;; Version: 0.1.2
 ;; Keywords: convenience

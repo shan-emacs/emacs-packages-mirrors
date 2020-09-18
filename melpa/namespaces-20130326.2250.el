@@ -3,6 +3,7 @@
 ;; Author: Chris Barrett
 ;; URL: https://github.com/chrisbarrett/elisp-namespaces
 ;; Package-Version: 20130326.2250
+;; Package-Commit: 3d02525d9b9a5ae6e7be3adefd880121436e6270
 ;; Version: 1.2.2
 ;;
 

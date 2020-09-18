@@ -5,6 +5,7 @@
 ;; Author: Thomas Winant <dewinant@gmail.com>
 ;; URL: https://github.com/mrBliss/snapshot-timemachine
 ;; Package-Version: 20161221.929
+;; Package-Commit: 99efcebab309b11ed512a8dc62555d3834df5efb
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24.4"))
 ;; Created: Apr 4 2015

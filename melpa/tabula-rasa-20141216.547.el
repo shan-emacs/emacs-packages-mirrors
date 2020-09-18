@@ -5,6 +5,7 @@
 ;; Author: Ido Magal <misc@satans.church>
 ;; Version: 20141215.2119
 ;; Package-Version: 20141216.547
+;; Package-Commit: e85fff9de18dc31bc6a7aca726e34a95cc5459f5
 ;; version func: (insert (format-time-string "%Y%m%d.%H%M" (current-time)))
 ;; Keywords: distraction free, writing
 ;; URL: https://github.com/idomagal/Tabula-Rasa/blob/master/tabula-rasa.el

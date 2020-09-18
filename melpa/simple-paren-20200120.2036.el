@@ -2,6 +2,7 @@
 
 ;; Version: 0.1
 ;; Package-Version: 20200120.2036
+;; Package-Commit: 2a4ba8f99f39abf17976db8118e32b80eff0798b
 
 ;; Copyright (C) 2016-2019  Andreas Röhler, Steve Purcell
 ;; See also http://www.unicode.org/L2/L2013/13046-BidiBrackets.txt

@@ -3,6 +3,7 @@
 ;; Author: Fox Kiester <noct@openmailbox.org>
 ;; URL: https://github.com/noctuid/emacs-sentence-navigation
 ;; Package-Version: 20180408.1619
+;; Package-Commit: 7c5d2edeaed01196aec25031782e89adeaa089f0
 ;; Keywords: sentence evil
 ;; Package-Requires: ((ample-regexps "0.1") (cl-lib "0.5") (emacs "24.4"))
 ;; Version: 0.1

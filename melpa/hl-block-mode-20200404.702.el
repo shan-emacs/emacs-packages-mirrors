@@ -6,6 +6,7 @@
 
 ;; URL: https://github.com/ideasman42/emacs-hl-block-mode
 ;; Package-Version: 20200404.702
+;; Package-Commit: 6dc75e71b0b179d7c087cf7de51823f5810d671a
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "26.0"))
 

@@ -5,6 +5,7 @@
 ;; Author: Arthur Andersen <leoc.git@gmail.com>
 ;; URL: http://github.com/leoc/elmine
 ;; Package-Version: 20200520.1237
+;; Package-Commit: c78cc8705c2dffbf649b858f02b5028225943482
 ;; Version: 0.3.1
 ;; Keywords: tools
 ;; Package-Requires: ((s "1.10.0"))

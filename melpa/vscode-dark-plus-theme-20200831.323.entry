@@ -1,0 +1,2 @@
+
+(vscode-dark-plus-theme . [(20200831 323) nil "Default Visual Studio Code Dark+ theme" single ((:commit . "1e694e1704e6bf55726040953ed5cf703f02c16d") (:authors ("Ian Y.E. Pan")) (:maintainer "Ian Y.E. Pan") (:url . "https://github.com/ianpan870102/vscode-dark-plus-emacs-theme"))])

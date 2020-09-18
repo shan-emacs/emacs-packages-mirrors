@@ -1,4 +1,5 @@
 ;;; niceify-info.el --- improve usability of Info pages
+;; Package-Commit: 38df5062bc3b99d1074cab3e788b5ed66732111c
 
 ;; Package-Version: 20160416.1244
 ;; Package-X-Original-Version: 20160415.001

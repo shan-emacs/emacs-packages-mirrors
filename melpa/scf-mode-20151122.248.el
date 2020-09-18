@@ -18,6 +18,7 @@
 ;; Created: Sat Oct  1 03:07:18 2011 (+0800)
 ;; Version: 0.1
 ;; Package-Version: 20151122.248
+;; Package-Commit: dbfcdcd89034f208d65e181af58e0d73ad09f8b2
 ;; Last-Updated: Tue Oct  4 13:39:53 2011 (+0800)
 ;;           By: Le Wang
 ;;     Update #: 25

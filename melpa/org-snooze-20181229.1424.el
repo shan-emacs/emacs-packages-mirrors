@@ -4,6 +4,7 @@
 ;; Author: Bill Xue
 ;; URL: https://github.com/xueeinstein/org-snooze.el
 ;; Package-Version: 20181229.1424
+;; Package-Commit: 8799adc14a20f3489063d279ff69312de3180bf9
 ;; Created: 2018
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24.4"))

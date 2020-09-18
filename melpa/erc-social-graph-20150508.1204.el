@@ -4,6 +4,7 @@
 
 ;; Url: https://github.com/vibhavp/erc-social-graph
 ;; Package-Version: 20150508.1204
+;; Package-Commit: e6ef3416a1c5064054bf054d9f0c1c7bf54a9cd0
 ;; Author: Vibhav Pant <vibhavp@gmail.com>
 ;; Version: 1.0
 ;; Keywords: erc graph

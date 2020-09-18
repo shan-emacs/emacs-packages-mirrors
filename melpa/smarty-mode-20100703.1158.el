@@ -5,6 +5,7 @@
 ;; Maintainer: Benj Carson
 ;; Keywords: smarty php languages templates
 ;; Package-Version: 20100703.1158
+;; Package-Commit: 3dfdfe1571f5e9ef55a29c51e5a80046d4cb7568
 ;; Created: 2003-08-23
 ;; Modified: 2003-09-06
 ;; X-URL:   none yet

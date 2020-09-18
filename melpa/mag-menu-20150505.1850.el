@@ -4,6 +4,7 @@
 ;; Created: 02 Jan 2013
 ;; Keywords: convenience
 ;; Package-Version: 20150505.1850
+;; Package-Commit: 9b9277021cd09fb1dba64b1d2a00705d20914bd6
 ;; Version: 0.1.0
 ;; URL: https://github.com/chumpage/mag-menu
 ;; Package-Requires: ((splitter "0.1.0"))

@@ -7,6 +7,7 @@
 ;; Created: 24 Mar 2013
 ;; Version: 0.1
 ;; Package-Version: 20130325.1407
+;; Package-Commit: 301302f480617091cf3ab6989caac385d52543dc
 ;; Package-Requires: ((dash "1.1.0"))
 ;; Keywords: extensions, data structure
 ;; URL: https://github.com/Fuco1/interval-tree

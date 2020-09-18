@@ -5,6 +5,7 @@
 ;; Author: Chunyang Xu <xuchunyang56@gmail.com>
 ;; Version: 0.2
 ;; Package-Version: 20150516.848
+;; Package-Commit: 060f0e6801c82c40c06961dc0528a00e18947a8c
 ;; Package-Requires: ((emacs "24.4"))
 ;; Keywords: repeat, convenience
 ;; Created: 2015-05-02

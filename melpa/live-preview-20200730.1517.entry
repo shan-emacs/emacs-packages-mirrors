@@ -1,0 +1,2 @@
+
+(live-preview . [(20200730 1517) ((emacs (24 4))) "Live preview by any shell command while editing" single ((:commit . "b099cd4d9d4b30d432ffd2ca76f8db1b4c13cd08") (:keywords "languages" "util") (:authors ("Lassi Kortela" . "lassi@lassi.io")) (:maintainer "Lassi Kortela" . "lassi@lassi.io") (:url . "https://github.com/lassik/emacs-live-preview"))])

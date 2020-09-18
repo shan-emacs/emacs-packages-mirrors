@@ -5,6 +5,7 @@
 ;; Author: Aaron Jensen <aaronjensen@gmail.com>
 ;; URL: https://github.com/aaronjensen/contextual-menubar
 ;; Package-Version: 20180205.709
+;; Package-Commit: f76f55232ac07df76ef9a334a0c527dfab97c40b
 ;; Version: 1.0.0
 
 ;;; Commentary:

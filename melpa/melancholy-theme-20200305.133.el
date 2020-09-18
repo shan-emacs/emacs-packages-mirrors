@@ -4,6 +4,7 @@
 
 ;; Author: Sod Oscarfono <sod@oscarfono.com>
 ;; URL: http://github.com/techquila/melancholy-theme
+;; Package-Commit: ffed56cb756f8acba93ce7edc664c950d75927d9
 ;; Package-Version: 20200305.133
 ;; Package-X-Original-Version: 20190620.1001
 ;; Version: 2.0

@@ -5,6 +5,7 @@
 ;; Author: Jeremiah Dodds <jeremiah.dodds@gmail.com>
 ;; Version: 1.0.0
 ;; Package-Version: 20190330.1117
+;; Package-Commit: 5ef06684cb2b17b090ee1f303c2b789fa71bc106
 ;; Package-Requires: ((emacs "24.3"))
 ;; URL: https://github.com/jdodds/poe-lootfilter-mode
 ;; Keywords: languages, games

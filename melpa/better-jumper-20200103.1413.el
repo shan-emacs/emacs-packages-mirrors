@@ -6,6 +6,7 @@
 ;; Modified: March 26, 2019
 ;; Version: 1.0.0
 ;; Package-Version: 20200103.1413
+;; Package-Commit: 6d240032ca213ccb3347e25f26c29b6822bf03a7
 ;; Keywords: convenience, jump, history, evil
 ;; Homepage: https://github.com/gilbertw1/better-jumper
 ;; Package-Requires: ((emacs "25.1"))

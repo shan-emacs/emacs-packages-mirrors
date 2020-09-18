@@ -5,6 +5,7 @@
 ;; Author: edkolev <evgenysw@gmail.com>
 ;; URL: http://github.com/edkolev/evil-expat
 ;; Package-Version: 20190521.714
+;; Package-Commit: f4fcd0aa3edc359adb5c986b5dd9188d220d84e2
 ;; Package-Requires: ((emacs "24.3") (evil "1.0.0"))
 ;; Version: 0.0.1
 ;; Keywords: emulations, evil, vim

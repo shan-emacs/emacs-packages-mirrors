@@ -6,6 +6,7 @@
 ;; Maintainer: Steven Rémot
 ;; Version: 0.3.0
 ;; Package-Version: 20151027.736
+;; Package-Commit: 925b79930a3f4377b0fb2a36b3c6d5566d4b9a8e
 ;; Keywords: php, hoa
 ;; URL: https://github.com/hoaproject/Contributions-Emacs-Pp
 ;; Package-Requires: ((emacs "24.1") (names "20150723.0"))

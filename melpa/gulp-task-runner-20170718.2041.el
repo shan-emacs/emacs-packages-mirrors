@@ -5,6 +5,7 @@
 ;; Author: Nicolas Petton <nicolas@petton.fr>
 ;; Keywords: convenience, javascript
 ;; Package-Version: 20170718.2041
+;; Package-Commit: 877990e956b1d71e2d9c7c3e5a129ad199b9debb
 ;; Version: 1.0
 ;; Package: gulp-task-runner
 

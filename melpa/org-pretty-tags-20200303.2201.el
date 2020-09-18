@@ -11,6 +11,7 @@
 ;; Created: [2019-01-06]
 ;; Version: 0.2.2
 ;; Package-Version: 20200303.2201
+;; Package-Commit: 40fd72f3e701e31813f383fb429d30bb88cee769
 ;; Package-Requires: ((emacs "25"))
 ;; Keywords: reading, outlines
 ;; URL: https://gitlab.com/marcowahl/org-pretty-tags

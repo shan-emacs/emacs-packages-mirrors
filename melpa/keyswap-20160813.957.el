@@ -26,6 +26,7 @@
 ;; Maintainer: Matthew Malcomson <hardenedapple@gmail.com>
 ;; Created: 23 Jul 2016
 ;; Keywords: convenience
+;; Package-Commit: cd682a7c4a8d64d6bae6a005db5045232e5e7b95
 ;; Version: 0.1.1
 ;; Package-Version: 20160813.957
 ;; Package-X-Original-Version: 20160730.1620

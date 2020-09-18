@@ -5,6 +5,7 @@
 ;; Author: Stig Brautaset
 ;; Keywords: literate programming, reproducible research, mac
 ;; Package-Version: 20190709.1607
+;; Package-Commit: 2b07b77b75bd02f2102f62e6d52ffdd0f921439a
 ;; Homepage: http://github.com/stig/ob-applescript.el
 ;; Version: 0.01
 

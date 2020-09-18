@@ -6,6 +6,7 @@
 ;; Homepage: http://github.com/rolandwalker/ignoramus
 ;; URL: http://raw.githubusercontent.com/rolandwalker/ignoramus/master/ignoramus.el
 ;; Package-Version: 20160414.1409
+;; Package-Commit: b37dc7c07edd9d152436f9019c14df158b599be3
 ;; Version: 0.7.4
 ;; Last-Updated: 14 Apr 2016
 ;; EmacsWiki: Ignoramus

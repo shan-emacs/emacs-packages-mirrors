@@ -7,6 +7,7 @@
 ;; Author: Brian Malehorn <bmalehorn@gmail.com>
 ;; Version: 0.0.5
 ;; Package-Version: 20180611.44
+;; Package-Commit: b94ea8cce89cf0e753b2ab915202d49ffc470fb6
 ;; Package-Requires: ((emacs "24"))
 ;; Keywords: click router
 ;; URL: https://github.com/bmalehorn/click-mode

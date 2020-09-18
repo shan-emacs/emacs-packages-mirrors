@@ -5,6 +5,7 @@
 ;; Author: Dan LaManna <dan.lamanna@gmail.com>
 ;; Version: 1.0
 ;; Package-Version: 20140710.104
+;; Package-Commit: db10efcfc8bed369a516bbf7526ede41f98cb95a
 ;; Keywords: xml,phi,i2b2,deidi2b2
 
 ;; This program is free software; you can redistribute it and/or modify

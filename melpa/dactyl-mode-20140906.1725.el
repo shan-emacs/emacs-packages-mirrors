@@ -10,6 +10,7 @@
 ;;          Alpha Tan <alphatan.zh@gmail.com>
 ;; URL: https://github.com/luxbock/dactyl-mode
 ;; Package-Version: 20140906.1725
+;; Package-Commit: cc55fe6b987271d9647492b8df4c812d884f661f
 ;; Version: 0.0.1
 ;; Keywords: languages, vim
 ;; Package-Requires: ()

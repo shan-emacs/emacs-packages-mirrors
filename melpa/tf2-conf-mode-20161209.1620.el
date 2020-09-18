@@ -5,6 +5,7 @@
 ;; Author: Guillermo Robles <guillerobles1995@gmail.com>
 ;; URL: https://github.com/wynro/emacs-tf2-conf-mode
 ;; Package-Version: 20161209.1620
+;; Package-Commit: 536950f64c071ffd8495fb2c7ac7c63a11e25f93
 ;; Keywords: languages
 ;; Version: 1.0
 

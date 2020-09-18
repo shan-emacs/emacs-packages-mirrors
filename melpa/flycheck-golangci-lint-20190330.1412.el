@@ -5,6 +5,7 @@
 ;; Author: Wei Jian Gan <weijiangan@outlook.com>
 ;; Keywords: convenience, tools, go
 ;; Package-Version: 20190330.1412
+;; Package-Commit: 8e446c68311048f0b87febf8ef0379e29d358851
 ;; URL: https://github.com/weijiangan/flycheck-golangci-lint
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "24") (flycheck "0.22"))

@@ -4,6 +4,7 @@
 ;; Author: Dave Pearson <davep@davep.org>
 ;; Version: 2.1
 ;; Package-Version: 20170809.1524
+;; Package-Commit: 7a5a41905000ce2ec1fd72509a5567e5fd9f47e5
 ;; Keywords: convenience, web, text
 ;; URL: https://github.com/davep/obfusurl.el
 ;; Package-Requires: ((cl-lib "0.5"))

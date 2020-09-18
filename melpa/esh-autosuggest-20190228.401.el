@@ -4,6 +4,7 @@
 ;; Author: Diego A. Mundo <diegoamundo@gmail.com>
 ;; URL: http://github.com/dieggsy/esh-autosuggest
 ;; Package-Version: 20190228.401
+;; Package-Commit: 972094808d231a86dc6e43862191167b1997d840
 ;; Git-Repository: git://github.com/dieggsy/esh-autosuggest.git
 ;; Created: 2017-10-28
 ;; Version: 2.0.1

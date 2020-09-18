@@ -3,6 +3,7 @@
 ;; Author: Brian Mastenbrook <brian@mastenbrook.net>
 ;; Keywords: themes
 ;; Package-Version: 20151031.235
+;; Package-Commit: bec6ab14336c0611e85f45486276004f16d20607
 ;; URL: https://github.com/bmastenbrook/termbright-theme-el
 ;; Version: 1.0
 ;; Package-Requires: ((emacs "24.1"))

@@ -1,0 +1,2 @@
+
+(goldendict . [(20200731 1119) ((emacs (24 4)) (cl-lib (0 5))) "query word smartly with goldendict.el" single ((:commit . "ad5212f6ade58c193287851a46c3f9378fe2f059") (:keywords "dict" "goldendict") (:url . "https://github.com/stardiviner/goldendict.el"))])

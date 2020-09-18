@@ -3,6 +3,7 @@
 ;; Author: Masahiro Hayashi <mhayashi1120@gmail.com>
 ;; URL: https://github.com/mhayashi1120/Emacs-slideview
 ;; Package-Version: 20150324.2240
+;; Package-Commit: b6d170bda139aedf81b47dc55cbd1a3af512fb4c
 ;; Keywords: files
 ;; Emacs: GNU Emacs 22 or later
 ;; Version: 0.7.3

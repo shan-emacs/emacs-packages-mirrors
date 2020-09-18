@@ -5,6 +5,7 @@
 ;; Author: chuntaro <chuntaro@sakura-games.jp>
 ;; URL: https://github.com/chuntaro/emacs-async-await
 ;; Package-Version: 20200117.828
+;; Package-Commit: deef2bb343463f5196545f1dd8c2a32d0cb3b146
 ;; Package-Requires: ((emacs "25.1") (promise "1.1") (iter2 "0.9.10"))
 ;; Version: 1.1
 ;; Keywords: async await convenience

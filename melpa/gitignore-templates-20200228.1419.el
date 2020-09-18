@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/xuchunyang/gitignore-templates.el
 ;; Keywords: tools
 ;; Package-Version: 20200228.1419
+;; Package-Commit: b147d1930645dda76dbd48fb6f4f7f790353de26
 ;; Package-Requires: ((emacs "24.3"))
 ;; Version: 1.0
 

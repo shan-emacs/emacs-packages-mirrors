@@ -3,6 +3,7 @@
 ;; Author: Wataru MIYAGUNI <gonngo@gmail.com>
 ;; URL: https://github.com/gongo/org-redmine
 ;; Package-Version: 20160711.1114
+;; Package-Commit: e77d013bc3784947c46a5c53f03cd7d3c68552fc
 ;; Keywords: redmine org
 ;; Version: 0.1.0
 

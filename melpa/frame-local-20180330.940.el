@@ -5,6 +5,7 @@
 ;; Author: Sebastien Chapuis <sebastien@chapu.is>
 ;; URL: https://github.com/sebastiencs/frame-local
 ;; Package-Version: 20180330.940
+;; Package-Commit: 7ee1106c3bcd4022f48421f8cb1ef4f995da816e
 ;; Keywords: frames, tools, local, lisp
 ;; Package-Requires: ((emacs "25.1"))
 ;; Version: 0.0.1

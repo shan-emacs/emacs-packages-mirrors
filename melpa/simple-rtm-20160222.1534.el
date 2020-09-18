@@ -6,6 +6,7 @@
 ;; Created: April 3, 2011
 ;; Version: 0.3
 ;; Package-Version: 20160222.1534
+;; Package-Commit: 8c7cd96cf66ef112be5c363e3378e304f8f83999
 ;; Package-Requires: ((rtm "0.1")(dash "2.0.0"))
 ;; Keywords: remember the milk productivity todo
 

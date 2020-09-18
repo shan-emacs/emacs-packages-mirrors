@@ -5,6 +5,7 @@
 ;; Author: mooz <stillpedant@gmail.com>
 ;; Version: 0.0.1
 ;; Package-Version: 20130216.1304
+;; Package-Commit: 155bfced6c9afc8072a0133d3d1baa54c6d67430
 ;; Keywords: lemon
 
 ;; This program is free software; you can redistribute it and/or modify

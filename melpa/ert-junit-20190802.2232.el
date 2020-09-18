@@ -7,6 +7,7 @@
 ;; Created: Jul 24 2014
 ;; Keywords: tools test unittest ert
 ;; Package-Version: 20190802.2232
+;; Package-Commit: 65f91c35b088b87943dbbbe7e1ce354bc9bc0992
 ;; Version: 0.4.1
 ;; Package-Requires: ((ert "0") (emacs "23.4"))
 ;; URL: http://bitbucket.org/olanilsson/ert-junit

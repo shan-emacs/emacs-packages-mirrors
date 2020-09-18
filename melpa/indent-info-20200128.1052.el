@@ -6,6 +6,7 @@
 ;; Author: Terje Larsen <terlar@gmail.com>
 ;; URL: https://github.com/terlar/indent-info.el
 ;; Package-Version: 20200128.1052
+;; Package-Commit: 9548f14e7f0f7220d6cd1b8e88756b89fc57c471
 ;; Keywords: convenience, tools
 ;; Version: 0.2.0
 ;; Package-Requires: ((emacs "24.3"))

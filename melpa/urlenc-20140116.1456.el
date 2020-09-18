@@ -5,6 +5,7 @@
 ;; Author: Taiki SUGAWARA <buzz.taiki@gmail.com>
 ;; Keywords: url
 ;; Package-Version: 20140116.1456
+;; Package-Commit: 835a6dcb783bbe84714bae87a3464aa0b128bfac
 ;; URL: https://github.com/buzztaiki/urlenc-el
 
 ;; This program is free software; you can redistribute it and/or modify

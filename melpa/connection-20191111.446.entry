@@ -1,2 +1,2 @@
 
-(connection . [(20191111 446) nil "TCP-based client connection" single ((:commit . "c9cad101100975e88873636bfd426b7a19304ebd") (:keywords "network") (:authors ("Torsten Hilbrich" . "torsten.hilbrich@gmx.net")) (:maintainer "Torsten Hilbrich" . "torsten.hilbrich@gmx.net"))])
+(connection . [(20191111 446) nil "TCP-based client connection" single ((:commit . "46ee5d9ba15cac7282ed73c8b4c272a969c6159e") (:keywords "network") (:authors ("Torsten Hilbrich" . "torsten.hilbrich@gmx.net")) (:maintainer "Torsten Hilbrich" . "torsten.hilbrich@gmx.net"))])

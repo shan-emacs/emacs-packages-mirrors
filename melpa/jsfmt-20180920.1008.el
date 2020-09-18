@@ -5,6 +5,7 @@
 ;; Author: Brett Langdon <brett@blangdon.com>
 ;; URL: https://github.com/brettlangdon/jsfmt.el
 ;; Package-Version: 20180920.1008
+;; Package-Commit: ca141a135c7700eaedef92561d334e1fb7dc28a1
 ;; Version: 0.2.0
 
 ;; License that can be found in the LICENSE section in README.

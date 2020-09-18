@@ -7,6 +7,7 @@
 ;; Created: 3 Aug 2012
 ;; Version: 0.5.2
 ;; Package-Version: 20141231.2001
+;; Package-Commit: 483188dac4bc6b409b985c9dae45f3324a425efd
 ;; Url: http://github.com/nicferrier/emacs-web
 ;; Keywords: lisp, http, hypermedia
 ;; Package-requires: ((dash "2.9.0")(s "1.5.0"))

@@ -6,6 +6,7 @@
 ;; Author: Christian Hopps <chopps@gmail.com>
 ;; URL: https://github.com/choppsv1/emacs-mandm-theme.git
 ;; Package-Version: 20191112.1832
+;; Package-Commit: 4e6ce4f222c1fa175d56e926628f37caa5f398ce
 
 ;; Author: Bozhidar Batsov <bozhidar@batsov.com>
 ;; URL: http://github.com/bbatsov/zenburn

@@ -5,6 +5,7 @@
 ;; Author: Craig Andera
 ;; Keywords: languages
 ;; Package-Version: 20171224.1353
+;; Package-Commit: 0313492e7da152f0aa73ddf96c0287ded8f51253
 ;; Version: 0.0.1
 
 ;; Licensed under the Apache License, Version 2.0 (the "License");

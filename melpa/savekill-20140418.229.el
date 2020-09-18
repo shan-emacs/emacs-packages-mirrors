@@ -1,6 +1,7 @@
 ;;; savekill.el --- Save kill ring to disk
 ;; Version: 20140418.2152
 ;; Package-Version: 20140418.229
+;; Package-Commit: 67fc94e3d8fe8ce3ca16f90518f6a46479b63e34
 
 ;; Time-stamp: <2014-04-18 11:29:02 rubikitch>
 

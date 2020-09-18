@@ -5,6 +5,7 @@
 ;; Author: Nathan Kot <nk@nathankot.com>
 ;; URL: https://github.com/nathankot/company-sourcekit
 ;; Package-Version: 20170126.1153
+;; Package-Commit: abf9bc5a0102eb666d3aa6d6bf22f6efcc852781
 ;; Keywords: abbrev
 ;; Version: 0.2.0
 ;; Package-Requires: ((emacs "24.3") (company "0.8.12") (dash "2.12.1") (dash-functional "1.2.0") (sourcekit "0.2.0"))

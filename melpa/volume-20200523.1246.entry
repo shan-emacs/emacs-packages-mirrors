@@ -1,0 +1,2 @@
+
+(volume . [(20200523 1246) nil "tweak your sound card volume from Emacs" single ((:commit . "bd0ca8430098164740f111ac2bd2582d7f628b79") (:authors ("Daniel Brockman" . "daniel@brockman.se")) (:maintainer "Daniel Brockman" . "daniel@brockman.se") (:url . "http://www.brockman.se/software/volume-el/"))])

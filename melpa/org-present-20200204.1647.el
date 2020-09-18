@@ -5,6 +5,7 @@
 ;; Author: Ric Lister
 ;; Package-Requires: ((org "7"))
 ;; Package-Version: 20200204.1647
+;; Package-Commit: 9709ca2d04a59959354222ac4d3f8b750785739a
 ;; URL: https://github.com/rlister/org-present
 ;;
 ;; This file is not part of GNU Emacs.

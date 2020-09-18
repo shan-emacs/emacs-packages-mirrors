@@ -1,2 +1,0 @@
-
-(liberime . [(20200511 46) ((emacs (25 1))) "Rime elisp binding" tar ((:commit . "a631d3d575b5ffa2dc9a3a950c53f425c21380c1") (:keywords "convenience" "chinese" "input-method" "rime") (:authors ("A.I.")) (:maintainer "A.I.") (:url . "https://github.com/merrickluo/liberime"))])

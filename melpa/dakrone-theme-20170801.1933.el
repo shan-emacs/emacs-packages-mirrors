@@ -4,6 +4,7 @@
 ;; Author: Lee Hinman <lee _AT_ writequit.org>
 ;; URL: https://github.com/dakrone/dakrone-theme
 ;; Package-Version: 20170801.1933
+;; Package-Commit: 232ad1be5f3572dcbdf528f1655109aa355a6937
 ;; Version: 0.0.2
 ;; Keywords: color themes
 ;; This file is not part of GNU Emacs.

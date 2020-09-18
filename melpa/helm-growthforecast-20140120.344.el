@@ -5,6 +5,7 @@
 ;; Author: Daichi Hirata <daichi.hirat@gmail.com>
 ;; URL: https://github.com/daic-h/helm-growthforecast
 ;; Package-Version: 20140120.344
+;; Package-Commit: 0f94ac090d6c354058ad89a86e5c18385c136d9b
 ;; Package-Requires: ((helm "1.5.9"))
 
 ;; This program is free software; you can redistribute it and/or modify

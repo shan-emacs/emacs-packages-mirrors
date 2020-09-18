@@ -5,6 +5,7 @@
 ;; Author: Graham Clark <grclark@gmail.com>
 ;; URL: https://github.com/gcla/helm-filesets
 ;; Package-Version: 20140929.1835
+;; Package-Commit: b352910af4c3099267a8aa0169c7f743b35bb1fa
 ;; Version: 0.1
 ;; Keywords: filesets
 ;; Package-Requires: ((helm "1.6.3") (filesets+ "0"))

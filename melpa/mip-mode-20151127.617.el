@@ -5,6 +5,7 @@
 ;; Author: Eeli Reilin <gaudecker@fea.st>
 ;; Keywords: workspaces workspace project projects mip-mode
 ;; Package-Version: 20151127.617
+;; Package-Commit: 7c88c383b4c7ed0a4c1dc397735f365c1fcb461c
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

@@ -5,6 +5,7 @@
 ;; Author: Stephen Whipple <shw@wicdmedia.org>
 ;; URL: https://github.com/thwg/goose-theme
 ;; Package-Version: 20160828.1245
+;; Package-Commit: acd017b50ab25a75fd1331eb3de66467e2042e9c
 ;; Version: 2.0.0
 ;; Package-Requires: ((emacs "24.1"))
 

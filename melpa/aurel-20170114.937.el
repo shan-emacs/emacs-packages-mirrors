@@ -6,6 +6,7 @@
 ;; Created: 6 Feb 2014
 ;; Version: 0.9
 ;; Package-Version: 20170114.937
+;; Package-Commit: fc7ad208f43f8525f84a18941c9b55f956df8961
 ;; URL: https://github.com/alezost/aurel
 ;; Keywords: tools
 ;; Package-Requires: ((emacs "24.3") (bui "1.1.0") (dash "2.11.0"))

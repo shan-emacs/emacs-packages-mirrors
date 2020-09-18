@@ -8,6 +8,7 @@
 ;; Created: 13th October 2011
 ;; Version: 1.0.0
 ;; Package-Version: 20150219.2204
+;; Package-Commit: 841a7b5a6cdb0c11a812df924d2c6a7d364fd455
 ;; Keywords: lisp, rcirc, irc, notify, growl
 
 ;; This file is NOT part of GNU Emacs.

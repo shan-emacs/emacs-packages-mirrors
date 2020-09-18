@@ -7,6 +7,7 @@
 ;; Created: 2019-11-07
 ;; URL: https://github.com/flexibeast/ebuku
 ;; Package-Version: 20200427.1143
+;; Package-Commit: 9e1878810eaaaa55885d4cbcd6968566e4e3f7a8
 ;; Keywords: bookmarks,buku,data,web,www
 ;; Version: 0
 ;; Package-Requires: ((emacs "25.1"))

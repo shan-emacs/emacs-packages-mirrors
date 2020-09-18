@@ -4,6 +4,7 @@
 
 ;; Version: 0.1.1
 ;; Package-Version: 20170111.6
+;; Package-Commit: 73d6163568c7d32952175e663318b872f995a4e5
 ;; Keywords: frame, movement
 ;; Author: Wong Liang Zan <zan@liangzan.net>
 ;; URL: http://github.com/liangzan/frame-tag.el

@@ -7,6 +7,7 @@
 ;; Created: 2016-02-03
 ;; Version: 1.0.0
 ;; Package-Version: 20160404.1032
+;; Package-Commit: c114fd8006762f891bc120a7c0ea213872e7ab31
 ;; Keywords: database, org-mode
 ;; URL:
 ;; Package-Requires:

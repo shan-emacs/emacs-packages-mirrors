@@ -1,0 +1,2 @@
+
+(etc-sudoers-mode . [(20200608 1555) nil "Edit Sudo security policies" single ((:commit . "52d5be9214185cfbba56e0b39bc4af474fc95f45") (:keywords "languages") (:authors ("Peter Oliver" . "git@mavit.org.uk")) (:maintainer "Peter Oliver" . "git@mavit.org.uk") (:url . "https://gitlab.com/mavit/etc-sudoers-mode/"))])

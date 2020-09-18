@@ -5,6 +5,7 @@
 ;; Author: Justine Tunney <jart@google.com>
 ;; Version: 2.0
 ;; Package-Version: 20170816.1918
+;; Package-Commit: f59db386d7d0693935d0bf52babcd2c203c06d04
 ;; License: Apache 2.0
 ;; URL: http://github.com/jart/js2-closure
 ;; Package-Requires: ((js2-mode "20150909"))

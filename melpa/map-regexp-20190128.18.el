@@ -5,6 +5,7 @@
 ;; Author: Jonas Bernoulli <jonas@bernoul.li>
 ;; Keywords: convenience
 ;; Package-Version: 20190128.18
+;; Package-Commit: ae2d1c22f786ad987aef3e319925e80160a887a0
 ;; Homepage: https://github.com/tarsius/map-regexp
 
 ;; Package-Requires: ((cl-lib "0.6.1"))

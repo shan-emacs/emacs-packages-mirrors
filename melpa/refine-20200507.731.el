@@ -7,6 +7,7 @@
 ;; Author: Wilfred Hughes <me@wilfred.me.uk>
 ;; Version: 0.4
 ;; Package-Version: 20200507.731
+;; Package-Commit: d72fa50910b86217a35bb1b7e56adea206052021
 ;; Keywords: convenience
 ;; Package-Requires: ((emacs "24.3") (s "1.11.0") (dash "2.12.0") (list-utils "0.4.4") (loop "1.2"))
 

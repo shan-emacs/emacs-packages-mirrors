@@ -5,6 +5,7 @@
 ;; Author:  Atila Neves <atila.neves@gmail.com>
 ;; Version: 0.6
 ;; Package-Version: 20200515.951
+;; Package-Commit: a8f9e83848b513f810170988679a9ef455025975
 ;; Package-Requires: ((emacs "24.4") (cl-lib "0.5") (seq "1.11") (levenshtein "0") (s "1.11.0"))
 ;; Keywords: languages
 ;; URL: http://github.com/atilaneves/cmake-ide

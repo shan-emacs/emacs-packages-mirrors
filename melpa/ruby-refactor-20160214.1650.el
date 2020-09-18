@@ -5,6 +5,7 @@
 ;; Authors: Andrew J Vargo <ajvargo@gmail.com>, Jeff Morgan <jeff.morgan@leandog.com>
 ;; Keywords: refactor ruby
 ;; Package-Version: 20160214.1650
+;; Package-Commit: e6b7125878a08518bffec6942df0c606f748e9ee
 ;; Version: 0.1
 ;; URL: https://github.com/ajvargo/ruby-refactor
 ;; Package-Requires: ((ruby-mode "1.2"))

@@ -5,6 +5,7 @@
 ;; Author: Marten Lienen <marten.lienen@gmail.com>
 ;; Keywords: xresources, theme
 ;; Package-Version: 20190108.1851
+;; Package-Commit: 5239acb51aa2dfa89a207e57012108d8fcf60562
 ;; Version: 1.0.0
 
 ;; This file is not part of GNU Emacs.

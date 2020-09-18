@@ -5,6 +5,7 @@
 ;; Author: Austin Bingham <austin.bingham@gmail.com>
 ;; Keywords: tools
 ;; Package-Version: 20180909.1225
+;; Package-Commit: 25bfee8f676e4ecbb645e4f30b47083410a00c58
 ;; Version: 0.0.1
 ;; URL: https://github.com/abingham/emacs-ivy-ycmd
 ;; Package-Requires: ((ycmd "1.3") (emacs "24") (ivy "0.10.0") (dash "2.14.1"))

@@ -5,6 +5,7 @@
 ;; Author: Yuki INOUE <inouetakahiroki at gmail.com>
 ;; Package-Requires: ((emacs "24.3"))
 ;; Package-Version: 20160328.1725
+;; Package-Commit: f327c6f852592229a755ec6de0c62c6aeafd6659
 ;; URL: https://github.com/Yuki-Inoue/command-queue
 ;; Version: 0.0.1
 

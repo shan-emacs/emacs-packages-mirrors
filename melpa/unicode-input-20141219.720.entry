@@ -1,2 +1,0 @@
-
-(unicode-input . [(20141219 720) nil "Support for unicode character input" single ((:commit . "e76ccb549e6a2a66c373da927eb65d69353e07db") (:keywords "unicode" "input") (:authors ("m00nlight" . "dot_wangyushi@yeah.net")) (:maintainer "m00nlight" . "dot_wangyushi@yeah.net"))])

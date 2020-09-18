@@ -5,6 +5,7 @@
 ;; Author: Kaushal Modi <kaushal.modi@gmail.com>
 ;; URL: https://github.com/kaushalmodi/ox-minutes
 ;; Package-Version: 20180202.1734
+;; Package-Commit: 27c29f3fdb9181322ae56f8bace8d95e621230e5
 ;; Version: 0.1
 ;; Keywords: org, exporter, notes
 ;; Package-Requires: ((emacs "24.4"))

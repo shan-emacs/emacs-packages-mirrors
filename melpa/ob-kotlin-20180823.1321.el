@@ -5,6 +5,7 @@
 ;; Author: ZHOU Feng <zf.pascal@gmail.com>
 ;; URL: http://github.com/zweifisch/ob-kotlin
 ;; Package-Version: 20180823.1321
+;; Package-Commit: 96e420cbd2e9ea8a77043e5dcaebdfc6da17492a
 ;; Keywords: org babel kotlin
 ;; Version: 0.0.1
 ;; Created: 12th Mar 2015

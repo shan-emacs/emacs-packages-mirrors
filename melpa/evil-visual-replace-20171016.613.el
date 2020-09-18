@@ -5,6 +5,7 @@
 ;; Author: Troy Pracy
 ;; URL: https://github.com/troyp/evil-visual-replace
 ;; Package-Version: 20171016.613
+;; Package-Commit: 163fc827a1ffc106475da470c37fb26f4cc9b008
 ;; Version: 0.0.5
 ;; Keywords: evil search replace regexp block rectangular region visual
 ;; Package-Requires: ((evil "1.0.0"))

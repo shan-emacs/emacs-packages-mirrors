@@ -5,6 +5,7 @@
 ;; Author: Aaron Bieber <aaron@aaronbieber.com>
 ;; Version: 1.0
 ;; Package-Version: 20161213.1235
+;; Package-Commit: 05563b94537b6eb22aeddedef2a6e59e3f88d073
 ;; Package-Requires: ((emacs "24.4"))
 ;; Keywords: menu tools
 ;; URL: https://github.com/aaronbieber/tiny-menu.el

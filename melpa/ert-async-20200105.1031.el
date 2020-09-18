@@ -6,6 +6,7 @@
 ;; Maintainer: Johan Andersson <johan.rejeep@gmail.com>
 ;; Version: 0.1.2
 ;; Package-Version: 20200105.1031
+;; Package-Commit: 948cf2faa10e085bda3739034ca5ea1912893433
 ;; Keywords: lisp test
 ;; URL: http://github.com/rejeep/ert-async.el
 ;; Package-Requires: ((emacs "24.1"))

@@ -5,6 +5,7 @@
 ;; Author: Vilibald Wanča <vilibald@wvi.cz>
 ;; URL: http://github.com/w-vi/apib-mode
 ;; Package-Version: 20200101.1017
+;; Package-Commit: c6dd05201f6eb9295736d8668a79a7510d11159e
 ;; Package-Requires: ((markdown-mode "2.1"))
 ;; Version: 0.4
 ;; Keywords: tools, api-blueprint

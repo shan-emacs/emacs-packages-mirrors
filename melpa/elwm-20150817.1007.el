@@ -7,6 +7,7 @@
 ;; Created: 6 Apr 2013
 ;; Keywords: docs
 ;; Package-Version: 20150817.1007
+;; Package-Commit: c33b183f006ad476c3a44dab316f580f8b369930
 ;; Version: 0.0.2
 ;; Package-Requires: ((dash "1.1.0"))
 ;; URL: https://github.com/Fuco1/elwm

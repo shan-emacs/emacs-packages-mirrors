@@ -6,6 +6,7 @@
 ;; Maintainer: James Nguyen <james@jojojames.com>
 ;; URL: https://github.com/jojojames/flycheck-xcode
 ;; Package-Version: 20180122.651
+;; Package-Commit: b76f872c8985801951a095b8b3c1572b94189f9e
 ;; Version: 1.0
 ;; Package-Requires: ((emacs "25.1") (flycheck "0.25"))
 ;; Keywords: languages xcode

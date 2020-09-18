@@ -5,6 +5,7 @@
 ;; Author: Damien Cassou <damien@cassou.me>
 ;; URL: https://github.com/DamienCassou/json-navigator
 ;; Package-Version: 20191213.755
+;; Package-Commit: afd902e0b5cde37fad4786515a695d17f1625286
 ;; Version: 0.1.1
 ;; Package-Requires: ((emacs "25.1") (hierarchy "0.6.0"))
 

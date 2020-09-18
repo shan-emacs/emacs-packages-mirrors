@@ -6,6 +6,7 @@
 ;; Created: 2019/10/11
 ;; Version: 0.1.2
 ;; Package-Version: 20200317.642
+;; Package-Commit: c75da1fdc1dfbd5d9aa274dc4e90ff631ea08e70
 ;; Package-Requires: ((emacs "24.4") (dash "2.1") (request "0.2"))
 ;; URL: https://github.com/twlz0ne/playonline.el
 ;; Keywords: tools

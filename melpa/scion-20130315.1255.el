@@ -6,6 +6,7 @@
 ;;
 ;; URL: https://code.google.com/p/scion-lib/
 ;; Package-Version: 20130315.1255
+;; Package-Commit: 99b4589175665687181a932cd836850205625f71
 ;;
 ;; This program is free software; you can redistribute it and/or
 ;; modify it under the terms of the GNU General Public License as

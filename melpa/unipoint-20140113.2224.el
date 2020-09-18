@@ -7,6 +7,7 @@
 ;; Author: Andrew Gwozdziewycz <git@apgwoz.com>
 ;; URL : https://github.com/apgwoz/unipoint
 ;; Package-Version: 20140113.2224
+;; Package-Commit: 5da04aebac35a5c9e1d8704f2231808d42f4b36a
 
 ;; This is free software; you can redistribute it and/or modify it under the
 ;; terms of the GNU General Public License as published by the Free Software

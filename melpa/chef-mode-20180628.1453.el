@@ -6,6 +6,7 @@
 ;; Created: 28 Aug 2011
 ;; Version: 0.1
 ;; Package-Version: 20180628.1453
+;; Package-Commit: 048d691cb63981ae235763d4a6ced4af5c729924
 ;; Keywords: chef knife
 
 ;; This file is NOT part of GNU Emacs.

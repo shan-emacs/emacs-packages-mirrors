@@ -7,6 +7,7 @@
 ;; Created: 22 Jan 2013
 ;; Version: 0.4
 ;; Package-Version: 20160202.1948
+;; Package-Commit: edf188ca2f85349e971b83f164c6484264e79426
 ;; Keywords: convenience
 ;; URL: https://github.com/Fuco1/letcheck
 

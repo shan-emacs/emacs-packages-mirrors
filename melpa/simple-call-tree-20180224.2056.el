@@ -8,6 +8,7 @@
 ;; Created: 2012-11-01 21:28:07
 ;; Version: 20151116.1603
 ;; Package-Version: 20180224.2056
+;; Package-Commit: 20059eb5549408def76aeb03d0d20839903dedef
 ;; Package-Requires: ((emacs "24.3") (anaphora "1.0.0"))
 ;; Last-Updated: Mon Nov 16 16:03:18 2015
 ;;           By: Joe Bloggs

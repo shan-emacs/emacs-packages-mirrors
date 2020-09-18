@@ -5,6 +5,7 @@
 ;; Author: Yann Hodique <yann.hodique@gmail.com>
 ;; Keywords: lisp, tool
 ;; Package-Version: 20120225.2055
+;; Package-Commit: 824acb89d2cc18cb47281a4fbddd81ad244a2052
 ;; Version: 0.1
 ;; Package-Requires: ((eieio "1.3"))
 

@@ -5,6 +5,7 @@
 ;; Author: daichi.hirata <hirata.daichi at gmail.com>
 ;; Version: 0.1.0
 ;; Package-Version: 20160909.836
+;; Package-Commit: 091b5ac4fc310773253efb317e3dbe8e46959ba6
 ;; Keywords: window, layout
 ;; URL: https://github.com/daichirata/emacs-rotate
 

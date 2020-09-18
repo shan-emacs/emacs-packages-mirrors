@@ -5,6 +5,7 @@
 ;; Author: Rémy Ferré <dev@remyferre.net>
 ;; Version: 1.3.0
 ;; Package-Version: 20190105.1653
+;; Package-Commit: 3dfdd58495c46a37708344a57c5c52beca6b2c1c
 ;; URL: https://github.com/remyferre/comment-dwim-2
 ;; Keywords: convenience
 

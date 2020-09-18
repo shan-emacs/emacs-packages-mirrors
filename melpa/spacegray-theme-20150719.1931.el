@@ -5,6 +5,7 @@
 ;; Author: Bruce Williams <brwcodes@gmail.com>
 ;; Keywords: themes
 ;; Package-Version: 20150719.1931
+;; Package-Commit: 9826265c2bceb2ebc1c5e16a45021da0253ace97
 ;; URL: http://github.com/bruce/emacs-spacegray-theme
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24.1"))

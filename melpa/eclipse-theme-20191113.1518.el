@@ -5,6 +5,7 @@
 ;; Author: Oleh Krehel <ohwoeowho@gmail.com>
 ;; URL: https://github.com/abo-abo/eclipse-theme
 ;; Package-Version: 20191113.1518
+;; Package-Commit: dcf97865512ed450f9d5137c1a05e12edb5b7f80
 ;; Version: 0.1.0
 ;; Keywords: themes
 

@@ -4,6 +4,7 @@
 
 ;; Author: Pascal van Kooten <kootenpv@gmail.com>
 ;; Keywords: themes
+;; Package-Commit: d10197b4dd7af02cd14aeab2573c273a294798c3
 ;; Package-Version: 20161023.905
 ;; Package-X-Original-Version: 20140104.1059
 ;; URL: http://github.com/kootenpv/emacs-kooten-theme

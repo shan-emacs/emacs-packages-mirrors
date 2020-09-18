@@ -3,6 +3,7 @@
 ;; Author: Yu Yang <yy2012cn@NOSPAM.gmail.com>
 ;; URL: https://github.com/yuyang0/url-shortener
 ;; Package-Version: 20170805.242
+;; Package-Commit: 06db8270213b9e352d6c335b0663059a1353d05e
 ;; Version: 0.3
 ;;
 ;; This file is free software: you can redistribute it and/or modify

@@ -5,6 +5,7 @@
 ;; Author: Jens K. Loewe <git@tuxproject.de>
 ;; URL: https://bitbucket.org/tux_/logpad.el
 ;; Package-Version: 20190927.2043
+;; Package-Commit: ff80fd198b196c4db9ca88ae8cf858cae491e121
 ;; Keywords: files outlines notepad
 ;; Version: 1.0.1
 

@@ -5,6 +5,7 @@
 ;; Author: M.Riehl <max@flatmap.ninja>, P.Haun <bomgar85@googlemail.com>
 ;; Version: 0.1
 ;; Package-Version: 20170426.733
+;; Package-Commit: 22d7b87e0eaf0330f2b2283872f8dc08a3258771
 ;; Package-Requires: ()
 ;; Keywords: play, scala
 ;; URL: https://github.com/brocode/play-routes-mode/

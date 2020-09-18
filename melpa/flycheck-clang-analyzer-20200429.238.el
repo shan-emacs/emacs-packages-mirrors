@@ -6,6 +6,7 @@
 ;; Maintainer: Alex Murray <murray.alex@gmail.com>
 ;; URL: https://github.com/alexmurray/flycheck-clang-analyzer
 ;; Package-Version: 20200429.238
+;; Package-Commit: 0c9b6e4626cd5376037464f8d6b8c64aa32768ee
 ;; Version: 0.8
 ;; Package-Requires: ((flycheck "0.24") (emacs "24.4"))
 

@@ -5,6 +5,7 @@
 ;; Author: montag451
 ;; URL: https://github.com/montag451/lxc-tramp
 ;; Package-Version: 20200414.1445
+;; Package-Commit: 1585e55a5deb89e2f4e30a0ad9e0f121d1e0ebcb
 ;; Keywords: lxc, convenience
 ;; Version: 1.0.0
 ;; Package-Requires: ((emacs "24") (cl-lib "0.6"))

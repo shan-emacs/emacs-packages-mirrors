@@ -5,6 +5,7 @@
 ;; Author: Tsunenobu Kai <kai2nenobu@gmail.com>
 ;; URL: https://github.com/kai2nenobu/emacs-dokuwiki-mode
 ;; Package-Version: 20170223.1301
+;; Package-Commit: e4e116f6fcc373e3f5937c1a7daa5c2c9c6d3fa1
 ;; Version: 0.1.1
 ;; Keywords: hypermedia text DokuWiki
 

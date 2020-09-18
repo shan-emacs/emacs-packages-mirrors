@@ -6,6 +6,7 @@
 
 ;; Package-Requires: ((emacs "24.4") (s "1.11.0") (shell-split-string "20151224.208"))
 ;; Package-Version: 20161203.2133
+;; Package-Commit: e0e874fc0e1ad6d291e39ed76023445297ad438a
 
 ;; This program is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

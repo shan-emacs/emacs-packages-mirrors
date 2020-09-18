@@ -5,6 +5,7 @@
 ;; Author: Felix Chern <idryman@gmail.com>
 ;; URL: https://github.com/dryman/smart-window.el
 ;; Package-Version: 20160717.130
+;; Package-Commit: 5996461b7cbc5ab4509ac48537916eb29a8e4c16
 ;; Version: 0.6
 ;; Created: Feb 12 2013
 ;; Keywords: window

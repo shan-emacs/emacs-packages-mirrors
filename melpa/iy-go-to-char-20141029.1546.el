@@ -4,6 +4,7 @@
 ;; Author: Ian Yang <doit dot ian (at) gmail dot com>
 ;; Keywords: navigation, search
 ;; Package-Version: 20141029.1546
+;; Package-Commit: 04ab4f5f3a241cbbc9b8c178a22b412a62f632f9
 ;; Filename: iy-go-to-char.el
 ;; Description: Go to char
 ;; Created: 2009-08-23 01:27:34

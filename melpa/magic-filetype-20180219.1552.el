@@ -7,6 +7,7 @@
 ;; Created: 9 Aug 2015
 ;; Version: 0.2.0
 ;; Package-Version: 20180219.1552
+;; Package-Commit: 019494add5ff02dd36cb3f500142fc51125522cc
 ;; Keywords: emulations vim ft file magic-mode
 ;; Homepage: https://github.com/zonuexe/magic-filetype.el
 ;; Package-Requires: ((emacs "24") (s "1.9.0"))

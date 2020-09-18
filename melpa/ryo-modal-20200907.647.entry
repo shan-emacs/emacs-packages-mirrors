@@ -1,0 +1,2 @@
+
+(ryo-modal . [(20200907 647) ((emacs (25 1))) "Roll your own modal mode" single ((:commit . "5f8ce6b7c5aab5efabf1f7af1e3a1d2155b0407c") (:keywords "convenience" "modal" "keys") (:authors ("Erik Sjöstrand" . "sjostrand.erik@gmail.com")) (:maintainer "Erik Sjöstrand" . "sjostrand.erik@gmail.com") (:url . "http://github.com/Kungsgeten/ryo-modal"))])

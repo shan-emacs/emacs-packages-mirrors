@@ -8,6 +8,7 @@
 ;; Kyewords: converience, eshell
 ;; Version: 0.2
 ;; Package-Version: 20150927.724
+;; Package-Commit: c6a8b81a16576df9875e721fbbfe6690d04e7e43
 ;; X-URL: http://github.com/coldnew/eshell-autojump
 
 ;; This program is free software: you can redistribute it and/or modify it

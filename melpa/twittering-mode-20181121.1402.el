@@ -13,6 +13,7 @@
 ;; Created: Sep 4, 2007
 ;; Version: HEAD
 ;; Package-Version: 20181121.1402
+;; Package-Commit: 114891e8fdb4f06b1326a6cf795e49c205cf9e29
 ;; Identity: $Id: fb19946d706684ccd33bcd810e98638d7374964c $
 ;; Keywords: twitter web
 ;; URL: http://twmode.sf.net/

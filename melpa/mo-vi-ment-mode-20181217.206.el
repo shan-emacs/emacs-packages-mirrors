@@ -5,6 +5,7 @@
 ;; Author: Ajay MT <ajay.tatachar@gmail.com> (http://ajaymt.github.com)
 ;; Keywords: convenience
 ;; Package-Version: 20181217.206
+;; Package-Commit: e8b525ffc5faa31d36ecc5496b40f0f5c3603c08
 ;; Version: 1.0
 
 ;; This program is free software; you can redistribute it and/or modify

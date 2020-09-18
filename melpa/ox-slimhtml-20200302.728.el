@@ -6,6 +6,7 @@
 ;; Package-Version: 20200302.728
 ;; Package-X-Original-Version: 0.4.5
 ;; Keywords: files
+;; Package-Commit: 6f774398d189430593c93e503bf0f3cd0e8bcc25
 ;; Homepage: http://bald.cat/slimhtml
 ;; Package-Requires: ((emacs "24") (cl-lib "0.6"))
 

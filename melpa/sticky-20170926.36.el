@@ -1,6 +1,7 @@
 ;;; sticky.el --- Sticky key for capital letters
 ;; Version: 20101130.252
 ;; Package-Version: 20170926.36
+;; Package-Commit: fec4e1af38f17f5cd80eca361d8e8ef8772db366
 ;; $Id: sticky.el,v 1.8 2010/10/31 16:09:21 rubikitch Exp $
 
 ;; Copyright (C) 2009  rubikitch

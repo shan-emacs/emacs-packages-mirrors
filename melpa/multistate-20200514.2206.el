@@ -4,6 +4,7 @@
 ;; Maintainer: Matsievskiy S.V.
 ;; Keywords: convenience
 ;; Package-Version: 20200514.2206
+;; Package-Commit: eadd0df2745bf10500a9ad4ee8f66f3cb470bef0
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "25.1") (cl-lib "0.5") (ht "2.3"))
 ;; Homepage: https://gitlab.com/matsievskiysv/multistate

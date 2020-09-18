@@ -5,6 +5,7 @@
 ;; Author: Jacob First <jacob.first@member.fsf.org>
 ;; Version: 0.1
 ;; Package-Version: 20200517.2039
+;; Package-Commit: 05fb8f8f81838b5888fdec8b3947096dd2222e61
 ;; Package-Requires: ((emacs "26.3"))
 ;; Keywords: convenience
 ;; URL: https://github.com/fishyfriend/owcmd

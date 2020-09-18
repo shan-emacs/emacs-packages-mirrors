@@ -7,6 +7,7 @@
 ;; Author: k.sugita
 ;; Keywords: faces, editing, emulating
 ;; Package-Version: 20150825.827
+;; Package-Commit: 6ee8ed051405653bd9b7332d7e9fbb591d954051
 ;; Version: 2.00
 ;;
 ;; This file is free software; you can redistribute it and/or modify

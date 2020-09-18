@@ -8,6 +8,7 @@
 ;; Maintainer: Colin Woodbury <colin@kadena.io>
 ;; Keywords: pact, lisp, languages, blockchain, smartcontracts, tools, mode
 ;; Package-Version: 20191117.2337
+;; Package-Commit: 220bf985cb31d60f47042d5f424de8b9a589e544
 ;; Version: 0.0.5-git
 ;; URL: https://github.com/kadena-io/pact-mode
 ;; Package-Requires: ((emacs "24.3"))

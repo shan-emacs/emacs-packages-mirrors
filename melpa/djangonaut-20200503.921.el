@@ -5,6 +5,7 @@
 ;; Author: Artem Malyshev <proofit404@gmail.com>
 ;; URL: https://github.com/proofit404/djangonaut
 ;; Package-Version: 20200503.921
+;; Package-Commit: 75f642114e3997308a1e7e67c3025738cecee0fe
 ;; Version: 0.0.1
 ;; Package-Requires: ((emacs "25.2") (magit-popup "2.6.0") (pythonic "0.1.0") (f "0.20.0") (s "1.12.0"))
 

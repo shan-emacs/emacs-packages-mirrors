@@ -6,6 +6,7 @@
 ;;
 ;; Version: 0.1
 ;; Package-Version: 20160627.842
+;; Package-Commit: 58096ce1a25615d2bae806c3775bae3e2775019d
 ;; Package-Requires: ((emacs "24"))
 ;; Created with emacs-theme-generator, https://github.com/mswift42/theme-creator.
 

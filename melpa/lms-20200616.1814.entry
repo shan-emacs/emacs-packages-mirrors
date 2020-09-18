@@ -1,0 +1,2 @@
+
+(lms . [(20200616 1814) ((emacs (25 1))) "Squeezebox / Logitech Media Server frontend" single ((:commit . "8090ba32866033c3ab580190cc79cac61463a180") (:keywords "multimedia") (:authors ("Iñigo Serna" . "inigoserna@gmx.com")) (:maintainer "Iñigo Serna" . "inigoserna@gmx.com") (:url . "https://hg.serna.eu/emacs/lms"))])

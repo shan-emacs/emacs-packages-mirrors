@@ -5,6 +5,7 @@
 ;; Author: Martin Pohlack martinp (at) gmx.de
 ;; URL: https://github.com/martinp26/cycbuf
 ;; Package-Version: 20131203.2037
+;; Package-Commit: 1079b41c3eb27d65b66d4399959bb6253f84858e
 ;; Version: 0.5.3
 ;; Keywords: files, convenience, buffer switching
 ;; Time-stamp: <2013-12-03 martinp>

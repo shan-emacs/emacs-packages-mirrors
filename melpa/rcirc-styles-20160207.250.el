@@ -4,6 +4,7 @@
 ;; Package-X-Original-Version: 20160206.001
 ;; Copyright 2016 Aaron Miller <me@aaron-miller.me>
 ;; Package-Requires: ((cl-lib "0.5"))
+;; Package-Commit: f313bf6a7470bed314b27c7a40558cb787d7bc67
 
 ;; This program is free software; you can redistribute it and/or
 ;; modify it under the terms of the GNU General Public License as

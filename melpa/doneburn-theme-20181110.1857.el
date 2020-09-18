@@ -5,6 +5,7 @@
 ;; Author: Manuel Uberti <manuel.uberti@inventati.org>
 ;; Keywords: faces themes
 ;; Package-Version: 20181110.1857
+;; Package-Commit: da4fa915a2a659001eea04498d790cdd8cac1fce
 ;; URL: http://github.com/manuel-uberti/doneburn-emacs
 ;; Version: 1.0
 

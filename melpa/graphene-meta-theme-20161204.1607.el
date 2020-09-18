@@ -5,6 +5,7 @@
 ;; Author: Robert Dallas Gray <mail@robertdallasgray.com>
 ;; URL: https://github.com/rdallasgray/graphene
 ;; Package-Version: 20161204.1607
+;; Package-Commit: 62cc73fee31f1bd9474027b83a249feee050271e
 ;; Version: 0.0.5
 ;; Keywords: defaults
 

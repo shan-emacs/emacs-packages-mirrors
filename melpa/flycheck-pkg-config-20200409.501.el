@@ -5,6 +5,7 @@
 ;; Author: Wilfred Hughes <me@wilfred.me.uk>
 ;; Keywords: flycheck
 ;; Package-Version: 20200409.501
+;; Package-Commit: b76b24ea1f4800f5fb96ce9c6c4788e0e63133d3
 ;; Version: 0.3
 ;; Package-Requires: ((dash "2.8.0") (s "1.9.0") (flycheck "29"))
 

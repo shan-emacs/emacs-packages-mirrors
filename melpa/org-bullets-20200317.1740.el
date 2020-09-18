@@ -2,6 +2,7 @@
 
 ;; Version: 0.3.0
 ;; Package-Version: 20200317.1740
+;; Package-Commit: 767f55feb58b840a5a04eabfc3fbbf0d257c4792
 ;; Author: sabof
 ;; Maintainer: D. Williams <d.williams@posteo.net>
 ;; Homepage: https://github.com/integral-dw/org-bullets

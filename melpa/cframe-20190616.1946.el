@@ -4,6 +4,7 @@
 
 ;; Version: 0.2
 ;; Package-Version: 20190616.1946
+;; Package-Commit: 38026cbd004231c5525bea31723ced39311bb408
 ;; Author: Paul Landes
 ;; Maintainer: Paul Landes
 ;; Keywords: frame customize

@@ -5,6 +5,7 @@
 ;; Author: Derek Feichtinger <derek.feichtinger@psi.ch>
 ;; Keywords: org
 ;; Package-Version: 20180626.2052
+;; Package-Commit: 99d0c25d56dbf75ce894a84e776ba4459208dbc2
 ;; Homepage: https://github.com/dfeich/org8-wikiexporters
 ;; Package-Requires: ((org "8") (cl-lib "0.5"))
 ;; Version: 0.1.20131124

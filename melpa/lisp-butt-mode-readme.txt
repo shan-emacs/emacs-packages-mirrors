@@ -8,6 +8,8 @@ gets displayed nicely as (pun intended):
 
 	).)
 
+Also closing brackets are respected.
+
 There is a global `lisp-butt-global-mode' and a local `lisp-butt-mode'
 variant.
 

@@ -4,6 +4,7 @@
 ;;         Max Mikhanosha
 ;; Package-Requires: ((sly "0") (cl-lib "0.5"))
 ;; Package-Version: 20171020.1516
+;; Package-Commit: b9cd52d1cf927bf7e08582d46ab0bcf1d4fb5048
 ;; Keywords: sly
 ;; URL: https://github.com/PuercoPop/sly-repl-ansi-color
 ;; Version: 0.1

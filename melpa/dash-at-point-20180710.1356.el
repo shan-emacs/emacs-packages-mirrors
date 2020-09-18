@@ -5,6 +5,7 @@
 ;; Created: 17 Feb 2013
 ;; Version: 0.0.5
 ;; Package-Version: 20180710.1356
+;; Package-Commit: 4d795a23a8428c421d5107f1b005c9d8e0d1816c
 ;; URL: https://github.com/stanaka/dash-at-point
 ;;
 ;; This file is NOT part of GNU Emacs.

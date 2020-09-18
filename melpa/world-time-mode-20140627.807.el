@@ -5,6 +5,7 @@
 ;; Author: Nic Ferrier <nferrier@ferrier.me.uk>
 ;; Keywords: tools, calendar
 ;; Package-Version: 20140627.807
+;; Package-Commit: ce7a3b45c87eb24cfe61eee453175d64f741d7cc
 ;; Version: 0.0.6
 
 ;; This program is free software; you can redistribute it and/or modify

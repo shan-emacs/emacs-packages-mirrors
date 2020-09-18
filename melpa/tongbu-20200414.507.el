@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/xuchunyang/tongbu.el
 ;; Package-Requires: ((emacs "25.1") (web-server "0.1.2"))
 ;; Package-Version: 20200414.507
+;; Package-Commit: 6f6e5c5446f0c5735357ab520b249ab97295653e
 ;; Keywords: tools
 ;; Version: 0
 

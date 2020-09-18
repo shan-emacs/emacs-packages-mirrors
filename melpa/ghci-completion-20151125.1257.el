@@ -5,6 +5,7 @@
 ;; Author: Oleksandr Manzyuk <manzyuk@gmail.com>
 ;; Version: 0.1.3
 ;; Package-Version: 20151125.1257
+;; Package-Commit: c47e23d585d2a3c7b13aac163693fdc4f2bb90e5
 ;; Keywords: convenience
 ;; Package-Requires: ((emacs "24.1") (cl-lib "0.5"))
 

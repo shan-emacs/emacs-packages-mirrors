@@ -5,6 +5,7 @@
 ;; Author: Kevin Brubeck Unhammer <unhammer@fsfe.org>
 ;; Version: 0.1.0
 ;; Package-Version: 20160704.740
+;; Package-Commit: a78a04c0d1398d00f75a1bd4799622a65bcb0f28
 ;; Package-Requires: ((emacs "24.1"))
 ;; Url: http://github.com/unhammer/unison.el
 ;; Keywords: sync

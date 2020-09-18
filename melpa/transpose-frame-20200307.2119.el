@@ -5,6 +5,7 @@
 ;; Author: S. Irie
 ;; Keywords: window
 ;; Package-Version: 20200307.2119
+;; Package-Commit: 12e523d70ff78cc8868097b56120848befab5dbc
 
 ;; This program is free software.
 

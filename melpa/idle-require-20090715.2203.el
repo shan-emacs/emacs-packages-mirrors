@@ -5,6 +5,7 @@
 ;; Author: Nikolaj Schumacher <bugs * nschum de>
 ;; Version: 1.0
 ;; Package-Version: 20090715.2203
+;; Package-Commit: 33592bb098223b4432d7a35a1d65ab83f47c1ec1
 ;; Keywords: internal
 ;; URL: http://nschum.de/src/emacs/idle-require/
 ;; Compatibility: GNU Emacs 21.x, GNU Emacs 22.x

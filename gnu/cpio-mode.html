@@ -1,0 +1,412 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        <title>GNU ELPA - cpio-mode</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <link rel="stylesheet" type="text/css" href="../layout.css">
+        <script src="../javascript/jquery.min.js" type="text/javascript"></script>
+        <script src="../javascript/jquery.filtertable.min.js" type="text/javascript"></script>
+        <script src="../javascript/package-search.js" type="text/javascript"></script>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="header small">
+                <div class="container">
+                    <h1><a href="index.html">GNU ELPA</a> - cpio-mode</h1>
+                </div>
+            </div>
+
+            <div class="container">
+<h2 class="package">cpio-mode</h2><dl><dt>Description</dt><dd>Handle cpio archives in the style of dired.</dd>
+<dt>Latest</dt> <dd><a href="cpio-mode-0.16.tar">cpio-mode-0.16.tar</a>, 2020-Aug-04,  420&nbsp;KiB</dd>
+<dt>Maintainer</dt> <dd>Douglas Lewan &lt;d.lewan2000@gmail.com></dd>
+<dt>Home page</dt> <dd><a href="http://elpa.gnu.org/packages/cpio-mode.html">http://elpa.gnu.org/packages/cpio-mode.html</a></dd>
+<dt>Browse repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/?h=externals/cpio-mode">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=shortlog;h=refs/heads/externals/cpio-mode">Gitweb</a></dd>
+</dl><p>To install this package, run in Emacs:</p>
+                       <pre>M-x <span class="kw">package-install</span> RET <span class="kw">cpio-mode</span> RET</pre><h2>Full description</h2><pre>
+# -*- mode: org; encoding: utf-8 -*-
+#	$Id: README,v 1.14 2019/01/07 07:44:34 doug Exp $	
+
+# 
+# Copyright © 2019 Free Software Foundation, Inc.
+# All rights reserved.
+# 
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see &lt;http://www.gnu.org/licenses/>.
+# 
+
+* Caveat
+This is currenty beta code.
+Please don't do anything critical with it.
+
+That said, the current version /does/ create a backup
+of every archive that it is applied to.
+It is your responsibility to remove those archives.
+They are marked with a date time stamp in the form YYYYmmddHHMMSS.mmm.
+* Intent
+
+The intents of cpio-mode are the following:
+• It should be as much like dired as possible.¹
+  (The current keymap effectively duplicated dired's.)
+• It should be easy to add new archive formats to it.
+  That is, in particular, it should admit, for any inode-like archive format,
+  an absract interface that leaves the the UI intact
+  and independent of the underlying format.
+  This should, for example, allow 
+  for converting between and among archive formats nearly trivially.
+
+It should also allow for dired-like functions.
+Specifically, those things that dired within emacs allows.
+That includes things like
+• Adding/deleting entries
+• Editing entries
+• Changing an entry's attributes (chown, chgrp, chmod, etc.).
+
+Note that, if you can write the archive,
+then all those operations will succeed in the archive.
+And they will be carried in the saved archive.
+They may, however, not apply to files extracted from the archive
+if you do not have sufficient permissions to perform those operations
+on the corresponding files.
+chown(1), for example, may require that you be root.
+________________
+¹Yes, this is a terrible requirement.
+ However, it does allow for incremental development relatively easily.
+
+* Adding a new archive type
+
+To add a new archive type a devloper should be able to do so
+merely by being able to parse an entry and
+write a parsed entry back to a file.
+ 
+Right now (2018 Jun 09), the cpio-mode package supports the above
+for the bin, crc, newc and odc formats of cpio archives.²
+However, the internal structure of cpio-mode implements
+all of the manipulation code in terms of parsed headers
+(which look much like inodes), so adding new formats should be
+relatively easy.
+See the documentation in cpio-mode.el
+for a slightly more detailed description of this structure.
+
+You should be able to add a new format if
+1. it has entry headers that have an inode-like format;
+2. the end of a [padded] entry header is the start of the entry contents.
+
+If you need to extend the inode-like format (for example the crc format),
+then you can simply add the extensions to the attributes
+of the entries in the catalog.
+This will likely require updating the various build-catalog functions
+and the make-header-string functions.
+________________
+² For archives without device entries, this means
+that hpbin and hpodc are also supported.
+
+* Other code
+
+Some more generic code is delivered with cpio-mode.
+
+** cpio-generic.el
+
+This file contains truly generic lisp code.
+For the most part, it employs the prefix cg-
+to keep its names distinct.
+Some names begin cpio-.
+
+** cpio-modes.el
+
+This file contains generic code pertaining to file modes,
+both numeric and symbolic.
+
+Constants corresponding to mode bits are named with lispish versions
+of the names given in /usr/include/linux/stat.h.
+The same goes for the predicates about a file's (entry's) type.
+
+Otherwise, the prefix cpio- is used.
+
+** cpio-affiliated-buffers.el
+
+This file contains a package called Affiliated Buffers
+that should be independent.
+(And one day it will be published that way.)
+
+The idea behind cpio-affiliated-buffers.el is
+that there's a reference buffer and that reference buffer can have
+buffers affiliated with it.
+Killing the reference buffer should kill all the affiliated buffers.
+An affiliated buffer can have buffers affiliated with it.
+Affiliated buffers don't typically have anything to do with each other,
+and cpio-affiliated-buffers.el includes no way to create such relationships.
+
+cpio-mode uses the following sort of structure of buffer affiliation:
+
+archive
+   ├─ cpio-dired buffer
+   ├─ entry
+   ├─ entry
+   └─ ...
+
+In theory it could be a full tree.
+For example, if one of the entries were itself a cpio archive,
+then its entries could also be included:
+
+archive
+   ├─ cpio-dired buffer
+   ├─ entry
+   ├─ an entry that is a cpio archive.
+   │    ├─ its cpio-dired-buffer
+   │    ├─ one of its entries
+   │    ├─ another such entry
+   │    └─ ...
+   ├─ entry
+   └─ ...
+
+* Testing
+
+cpio-mode includes a few ERT tests.
+All the testing is sunny day day testing.
+Rarely are any error conditions tested.
+
+** Dependencies
+For any testing to succeed set your umask to 022,
+otherwise all of the data in the tests are incorrect.
+
+Since the automated tests explicitly invoke cpio-mode 
+as does the function (cdmt-reset),
+you cannot use any automatic invocation of cpio-mode.
+One way of doing this is to invoke »emacs -Q«.
+(You'll also need »-eval "(setq load-path (add-to-list 'load-path \".\"))"«.
+until I figure out the right way to handle loading.)
+Thus, a good invocation is
+    »emacs -Q -eval "(setq load-path (add-to-list 'load-path \".\"))"«
+Some recommendations for automatic invocation of cpio-mode can be found
+in the comments near the top of cpio-mode.el.
+
+And, of course, you must run ./configure
+before trying to run automated tests.
+
+** Internals
+- cpio-generic-tests.el provides basic testing of some of the funciton
+  implemented in cpio-generic.el.
+
+- cpio-modes-test.el provides basic testing of some of the function
+  implemented in cpio-modes.el.
+
+- cab-test.el provides basic testing of cpio-affiliated-buffers.el.
+  (Yes, cpio-affiliated-buffers.el still has bugs.)
+
+- cpio-newc-test.el provides basic testing of some of the function
+  implemented in cpio-newc.el.
+
+The following files contain tests that exercise cpio function
+through the dired-style interface.
+    * cpio-dired-bin-test.el
+    * cpio-dired-crc-test.el
+    * cpio-dired-odc-test.el
+    * cpio-dired-test.el -- tests of the newc format.
+
+The general form of a check is the following:
+    1. Do something.
+    2. Compare the dired-style buffers.
+    3. Compare the archive buffers.
+    4. Compare the catalogs.
+Occasionally, there are other things, like checking for modification,
+or visibility of a window.
+Some tests use a "large" cpio archive (one with 26·5 = 130 entries).
+Those are not fast, so be patient if you're going to run them.
+
+All dired tests are based on cpio-dired-test.el and,
+yes, there's duplicated code.
+Some of this should be cleaned up once development seems stable.
+
+* Cruft
+
+There's a fair amount of cruft in the code at the moment.
+If I've done my job correctly, it is at least separate
+from the main body of code (like on a different page).
+Some is tools that have been built to help with development;
+some is just hacks.
+
+</pre>
+<h2>News</h2><pre>
+# -*- outline -*-
+
+# 
+# Copyright © 2019 Free Software Foundation, Inc.
+# All rights reserved.
+# 
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see &lt;http://www.gnu.org/licenses/>.
+# 
+
+* Version 0.16β
+** Copyright assignment to the FSF.
+
+* Version 0.15β
+** Killing the archive buffer now also kills all subordinates.
+** More work on meeting ELPA conventions.
+*** cpio.el is now cpio-mode.el
+*** removed cpio-mode-pkg.el
+
+
+* Version 0.14β
+** Since this is beta code, the archive file is backed up.
+The backup file has a timestamp.
+Since this is really only for beta code,
+the backup is not intelligent in any way.
+
+* Version 0.13̱β
+** Clean up for publication to elpa.
+
+* Version 0.12β
+** Initial beta release.
+
+* Version 0.11
+** Fixed a destructive-looking bug in cpio-affiliated-buffers.el.
+** Post-development cleaning up.
+
+* Version 0.10
+** Finds an appropriate major mode for an entry's contents.
+   It does this with (set-auto-mode).
+   So only entries for which (set-auto-mode) finds a mode get
+   a non-trivial mode.
+** New dired-like commands:
+    + cpio-entry-contents-revert-buffer (no key mapping)
+    + cpio-dired-do-touch ("T")
+** You can now edit and save an entry's contents.
+
+* Version 0.09
+** There's now a find-file-hook
+   and documentation on how to use/invoke cpio-mode.
+** Changing owner or group no longer removes marks
+   on the entries on which the change is being performed.
+** cpio-affiliated-buffers.el has had some fixes.
+   There were lots of issues around the kill-buffer-hook.
+   It seems correct now.
+   (Of course, bug reports are welcome.)
+   Affiliated buffer tests have been fleshed out some.
+** Byte compilation is cleaner.
+   Not entirely clean, but cleaner.
+** Some tests have had minor fixes.
+
+* Version 0.08
+** Binary format support.
+   As with the ODC format, hpbin = bin if the archive contains no devices,
+   and cpio-mode doesn't handle devices yet.
+
+* Version 0.07
+** Fontification (from dired).
+** Dired-like commands:
+   + cpio-dired-flag-backup-entries ("~")
+
+* Version 0.06
+** Support for the ODC archive format.
+   Note that hpodc = odc if the archive contains no devices,
+   and cpio-mode doesn't handle devices yet.
+   (And it may never.)
+
+* Version 0.05
+** Support for the CRC archive format.
+
+* Version 0.04
+** Some post-development clean-up.
+
+* Version 0.03
+** More dired-like commands:
+   + cpio-dired-flag-garbage-entries ("%&amp;")
+   + cpio-dired-goto-entry ("j")
+   + cpio-dired-mark-executables ("**")
+   + cpio-dired-mark-subdir-entries ("*s")
+   + cpio-dired-mark-symlinks ("*@")
+** Fixes to saving an archive.
+** Fixes to cpio-dired-do-chgrp/own/mod.
+** Automated test updates:
+*** Automated tests now also check the catalog.
+*** Automated tests that modify the catalog
+    now confirm that the archive can be unpacked by cpio(1)
+    after saving.
+*** Automated tests all pass.
+
+* Version 0.02
+** You can now save an archive.
+** More dired-like commands:
+   + cpio-dired-add-entry ("I")
+   + cpio-dired-display-entry ("f")
+   + cpio-dired-do-chgrp ("G")
+   + cpio-dired-do-chown ("O")
+   + cpio-dired-do-copy ("C")
+   + cpio-dired-do-delete ("D")
+   + cpio-dired-do-flagged-delete ("x")
+   + cpio-dired-do-query-replace-regexp ("Q")
+   + cpio-dired-do-rename ("R")
+   + cpio-dired-do-search ("A")
+   + cpio-dired-find-entry-other-window ("o")
+   + cpio-dired-flag-auto-save-entries ("#")
+   + cpio-dired-flag-entry-deletion ("d")
+   + cpio-dired-hide-details-mode  ("(")
+   + cpio-dired-kill ("C-x k")
+   + cpio-dired-mark-entries-regexp ("%m", "*%")
+   + cpio-dired-quit-window ("q")
+   + cpio-dired-save-archive ("C-x C-s")
+   + cpio-dired-summary ("?")
+   + cpio-dired-unmark ("u", "*u")
+   + cpio-dired-unmark-all-entries (M-xDEL "*?")
+   + cpio-dired-unmark-all-marks ("*!", "U")
+   + cpio-revert-buffer ("r")
+** Other interactive commands:
+   + cpio-dired-extract-all ("Xa")
+   + cpio-dired-extract-entries ("Xm")
+   + cpio-dired-view-archive ("C-cC-c")
+   + cpio-view-dired-style-buffer  ("C-cC-c" -- from archive buffer).
+** You can now edit and save entry contents.
+** Some automated testing of the dired-like interface.
+
+* Version 0.01
+** Basic function of cpio-mode, cpio-dired-mode, and
+   cpio-contents-entry-mode are in place.
+** You can extract selected entries (M-x cpio-dired-extract-entries),
+   or extract all entries (M-x cpio-dired-extract-all).
+** You can view an entry's contents and even edit the contents' buffer.
+   However, you cannot save it yet.
+** cpio-dired-mode has the following implemented commands:
+   + cpio-dired-display-entry ("C-o")
+   + cpio-dired-extract-all ("X a")
+   + cpio-dired-extract-entries ("X m")
+   + cpio-dired-find-entry ("f", "e", "C-j")
+   + cpio-dired-mark ("m", "* m")
+   + cpio-dired-mark-entries-regexp ("* %", "% m")
+   + cpio-dired-next-dirline (">")
+   + cpio-dired-next-line (SPC, "n", "C-n")
+   + cpio-dired-prev-dirline ("&lt;")
+   + cpio-dired-previous-line ("p", "C-p")
+   + cpio-dired-summary ("?") -- Don't trust this yet.
+   + cpio-dired-unmark ("u", "* u")
+   + cpio-dired-unmark-all-marks ("U", "* !")
+   + cpio-dired-view-archive ("C-cC-c")
+
+</pre>
+</body>

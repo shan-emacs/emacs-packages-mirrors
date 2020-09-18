@@ -5,6 +5,7 @@
 ;; Author: William Glass <william.glass@gmail.com>
 ;; Version: 1.2
 ;; Package-Version: 20131004.2330
+;; Package-Commit: 46d1c69ee0a1ca7c67b569b891a2f28fed89e7d5
 
 
 ;; This program is free software; you can redistribute it and/or modify

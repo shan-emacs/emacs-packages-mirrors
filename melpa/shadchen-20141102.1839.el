@@ -2,6 +2,7 @@
 
 ;; Version: 1.4
 ;; Package-Version: 20141102.1839
+;; Package-Commit: 35f2b9c304eec990c16efbd557198289dc7cbb1f
 ;; Author: Vincent Toups
 ;; Maintainer: Vincent Toups
 ;; Tags: pattern matching, functional programming

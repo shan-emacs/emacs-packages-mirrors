@@ -6,6 +6,7 @@
 ;; Package: buffer-watcher
 ;; Package-Requires: ((f "0.16.2") (cl-lib "0.5"))
 ;; Package-Version: 20170913.839
+;; Package-Commit: b32c67c8a5d724257d759f4c903d0dedc32246ef
 ;; Version: 0.1
 
 ;; This file is not part of GNU Emacs.

@@ -6,6 +6,7 @@
 ;; Maintainer: Aleksey Fedotov <lexa@cfotr.com>
 ;; Version: 1.1
 ;; Package-Version: 20170414.1246
+;; Package-Commit: cdc05f2d564409baac9ca15b1a2a0110a6ff12b7
 ;; Package-Requires: ((magit "2.1") (magit-popup "2.1") (p4 "12.0") (cl-lib "0.5"))
 ;; Keywords: vc tools
 ;; URL: https://github.com/qoocku/magit-p4

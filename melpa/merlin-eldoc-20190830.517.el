@@ -6,6 +6,7 @@
 ;; Created: 27 April 2018
 ;; Version: 1.3
 ;; Package-Version: 20190830.517
+;; Package-Commit: db7fab1eddfe34781b7e79694f8923b285698032
 ;; Keywords: merlin ocaml languages eldoc
 ;; Homepage: https://github.com/khady/merlin-eldoc
 ;; Package-Requires: ((emacs "24.4") (merlin "3.0"))

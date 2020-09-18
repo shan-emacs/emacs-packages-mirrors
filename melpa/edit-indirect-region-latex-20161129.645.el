@@ -2,6 +2,7 @@
 
 ;; Author: Hirotaka Niitsuma <hirotaka.niitsuma@gmail.com>
 ;; URL: https://github.com/niitsuma/edit-indirect-region-latex
+;; Package-Commit: 05043f2c0c9838947d3ca4b51b695deb7c47612e
 ;; Package-Version: 20161129.645
 ;; Package-X-Original-Version: 20161125.1740
 ;; Version: 0.0.3

@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/tarsius/vcomp
 ;; Keywords: versions
 ;; Package-Version: 20190128.20
+;; Package-Commit: f839b3b3257a564b19d7f9557dc8bcbbe0b95842
 
 ;; This file is not part of GNU Emacs.
 

@@ -5,6 +5,7 @@
 ;; Author: Sergey Kostyaev <feo.me@ya.ru>
 ;; Version: 0.1.0
 ;; Package-Version: 20190708.1325
+;; Package-Commit: 130079fcd29c3e2a72f8325f3041042bcc6286f1
 ;; Keywords: languages, tools
 ;;
 ;; This program is free software; you can redistribute it and/or modify

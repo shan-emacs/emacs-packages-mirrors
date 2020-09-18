@@ -6,6 +6,7 @@
 ;; Created: 26 Oct 2015
 ;; Version: 0.2.1
 ;; Package-Version: 20200321.737
+;; Package-Commit: 369304d6adb6875948c4534419c4f303ac23c4f6
 ;; Homepage: https://github.com/zonuexe/init-open-recentf.el
 ;; Keywords: files recentf after-init-hook
 ;; Package-Requires: ((emacs "24.4"))

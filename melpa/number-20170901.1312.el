@@ -1,5 +1,6 @@
 ;;; number.el --- Working with numbers at point.
 ;; Package-Version: 20170901.1312
+;; Package-Commit: bbc278d34dbcca83e70e3be855ec98b23debfb99
 
 ;; Copyright (c) 2014 Chris Done. All rights reserved.
 

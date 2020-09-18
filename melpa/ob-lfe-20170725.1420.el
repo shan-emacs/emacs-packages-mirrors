@@ -5,6 +5,7 @@
 ;; Author: ZHOU Feng <zf.pascal@gmail.com>
 ;; URL: http://github.com/zweifisch/ob-lfe
 ;; Package-Version: 20170725.1420
+;; Package-Commit: f7780f58e650b4d29dfd834c662b1d354b620a8e
 ;; Keywords: org babel lfe lisp erlang
 ;; Version: 0.0.1
 ;; Created: 1st July 2015

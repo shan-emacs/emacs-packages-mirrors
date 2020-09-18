@@ -5,6 +5,7 @@
 ;; Author: Sebastian Monia <smonia@outlook.com>
 ;; URL: https://github.com/sebasmonia/awscli-capf.git
 ;; Package-Version: 20190930.1517
+;; Package-Commit: eadfb26b35802ae8164565581e4a9c4d0280a7b5
 ;; Package-Requires: ((emacs "26"))
 ;; Version: 1.0
 ;; Keywords: tools convenience abbrev

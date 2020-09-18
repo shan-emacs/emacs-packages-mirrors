@@ -6,6 +6,7 @@
 ;; Maintainer: David Raymond Christiansen <david@davidchristiansen.dk>
 ;; Keywords: languages, helm
 ;; Package-Version: 20141202.1757
+;; Package-Commit: a2f45d6817974f318b55ad9b7fd19d5df132d47e
 ;; Package-Requires: ((helm "0.0.0") (idris-mode "0.9.14"))
 ;; Version: 0.0.1
 

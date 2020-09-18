@@ -5,6 +5,7 @@
 ;; Author: Louis Kottmann <louis.kottmann@gmail.com>
 ;; URL: https://github.com/louiskottmann/zygospore.el
 ;; Package-Version: 20140703.852
+;; Package-Commit: 1af5ee663f5a7aa08d96a77cacff834dcdf55ea8
 ;; Version: 0.0.2
 
 ;; This program is free software; you can redistribute it and-or modify

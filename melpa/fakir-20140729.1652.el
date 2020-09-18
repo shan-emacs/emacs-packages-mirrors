@@ -5,6 +5,7 @@
 ;; Maintainer: Nic Ferrier <nferrier@ferrier.me.uk>
 ;; URL: http://github.com/nicferrier/emacs-fakir
 ;; Package-Version: 20140729.1652
+;; Package-Commit: 1fca406ad7de80fece6319ff75d4230b648534b0
 ;; Created: 17th March 2012
 ;; Version: 0.1.9
 ;; Keywords: lisp, tools

@@ -1,0 +1,2 @@
+
+(better-scroll . [(20200821 535) ((emacs (24 3))) "Improve user experience when scrolling window" single ((:commit . "9dcfd7481aa0c37a1aa2b2f4b9098d3da0958d33") (:authors ("Shen, Jen-Chieh" . "jcs090218@gmail.com")) (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com") (:url . "https://github.com/jcs-elpa/better-scroll"))])

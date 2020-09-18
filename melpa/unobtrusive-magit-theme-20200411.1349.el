@@ -5,6 +5,7 @@
 ;; Author: Thomas A. Brown <tabsoftwareconsulting@gmail.com>
 ;; URL: https://github.com/tee3/unobtrusive-magit-theme
 ;; Package-Version: 20200411.1349
+;; Package-Commit: aede357009655d19d4468320b2b61b0f26a47593
 ;; Keywords: faces, vc, magit
 ;; Package-Requires: ((emacs "24.1"))
 ;; Version: 0.2

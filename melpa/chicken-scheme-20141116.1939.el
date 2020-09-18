@@ -4,6 +4,7 @@
 ;; Author: Daniel Leslie <dan@ironoxide.ca>
 ;; URL: http://github.com/dleslie/chicken-scheme
 ;; Package-Version: 20141116.1939
+;; Package-Commit: 19b0b08b5592063e852cae094b394c7d1f923639
 ;; Version: 1.3.0
 ;;
 ;; Licensed under the GPL3

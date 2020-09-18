@@ -6,6 +6,7 @@
 ;; Maintainer: James Nguyen <james@jojojames.com>
 ;; URL: https://github.com/jojojames/flycheck-jest
 ;; Package-Version: 20180411.328
+;; Package-Commit: 08f27c5ed97c83c445f99fab58f0b6c826f14449
 ;; Version: 1.0
 ;; Package-Requires: ((emacs "25.1") (flycheck "0.25"))
 ;; Keywords: languages jest

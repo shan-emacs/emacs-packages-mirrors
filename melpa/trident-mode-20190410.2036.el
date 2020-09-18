@@ -5,6 +5,7 @@
 ;; Author: John Mastro <john.b.mastro@gmail.com>
 ;; URL: https://github.com/johnmastro/trident-mode.el
 ;; Package-Version: 20190410.2036
+;; Package-Commit: 109a1bc10bd0c4b47679a6ca5c4cd27c7c8d4ccb
 ;; Version: 0.9.1
 ;; Keywords: languages, lisp, processes, tools
 ;; Package-Requires: ((emacs "24") (slime "20130526") (skewer-mode "1.5.0") (dash "1.0.3"))

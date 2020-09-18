@@ -5,6 +5,7 @@
 ;; Author: Zargener <zargener@gmail.com>
 ;; URL: http://github.com/zargener/emacs-password-genarator
 ;; Package-Version: 20150222.2040
+;; Package-Commit: 904cdb591a04305ba882ce19e1d117f5fa60f7d3
 ;; Version: 1.01
 
 ;;; Commentary:

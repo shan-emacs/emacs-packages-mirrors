@@ -1,2 +1,0 @@
-
-(flycheck-crystal . [(20180627 242) ((flycheck (30))) "Add support for Crystal to Flycheck" single ((:commit . "2428b016243e78a0312cf6b3ba6939e7169a1405") (:keywords "tools" "crystal") (:url . "https://github.com/crystal-lang-tools/emacs-crystal-mode"))])

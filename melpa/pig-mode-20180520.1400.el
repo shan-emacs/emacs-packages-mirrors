@@ -1,6 +1,7 @@
 ;;; pig-mode.el --- Major mode for Pig files
 ;; Version: 20130821.1454
 ;; Package-Version: 20180520.1400
+;; Package-Commit: 4c6c6e1b1bb719d8adc6c47cc24665f6fe558959
 
 ;; Software License Agreement (BSD License)
 ;;

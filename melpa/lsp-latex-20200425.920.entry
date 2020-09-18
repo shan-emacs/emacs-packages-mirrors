@@ -1,2 +1,0 @@
-
-(lsp-latex . [(20200425 920) ((emacs (25 1)) (lsp-mode (6 0))) "lsp-mode client for LaTeX, on texlab" single ((:commit . "5cd7b6bb35bc54f3e9341d6a64605a3bb50db0a0") (:keywords "languages" "tex") (:authors ("ROCKTAKEY" . "rocktakey@gmail.com")) (:maintainer "ROCKTAKEY" . "rocktakey@gmail.com") (:url . "https://github.com/ROCKTAKEY/lsp-latex"))])

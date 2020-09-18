@@ -3,6 +3,7 @@
 ;; Copyright (C) 2006-2018 Nick Psaris <nick.psaris@gmail.com>
 ;; Keywords: faces files q
 ;; Package-Version: 20181216.1747
+;; Package-Commit: 7a13fb68a0ad3d843c8cdc188cf0adb9723f42f7
 ;; Package-Requires: ((emacs "24"))
 ;; Created: 8 Jun 2015
 ;; Version: 0.1

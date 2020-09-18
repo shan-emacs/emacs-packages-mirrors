@@ -7,6 +7,7 @@
 ;; Created: 16 Feb 2013
 ;; Package-requires: ((dash "2.13.0") (cl-lib "0.5.0"))
 ;; Package-Version: 20161211.1126
+;; Package-Commit: f62a1201f21453e3aca93f48483e65ae8251432e
 ;; Version: 0.0.4
 ;; Keywords: fringe frames
 ;; URL: https://github.com/Fuco1/indicators.el

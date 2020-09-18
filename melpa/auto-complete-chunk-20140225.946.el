@@ -7,6 +7,7 @@
 ;; Created: Wed Dec 7 17:23:39 2011 +0100
 ;; Package-Requires: ((auto-complete "1.4"))
 ;; Package-Version: 20140225.946
+;; Package-Commit: a9aa77ffb84a1037984a7ce4dda25074272f13fe
 ;; Version: 0.1.0
 ;; URL: https://github.com/tkf/auto-complete-chunk
 ;;

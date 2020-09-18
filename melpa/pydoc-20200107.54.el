@@ -8,6 +8,7 @@
 ;; Created: 8 Mar 2015
 ;; Version: 0.2
 ;; Package-Version: 20200107.54
+;; Package-Commit: 1dfbab7800827adadb649d6e02c31dd9cd65f0d3
 ;; Keywords: pydoc, python
 ;; Homepage: https://github.com/statmobile/pydoc
 

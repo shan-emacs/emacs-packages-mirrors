@@ -4,6 +4,7 @@
 ;; Author: Stephen J. Eglen <sje30@cam.ac.uk>
 ;; Version: 0.2
 ;; Package-Version: 20200327.52
+;; Package-Commit: 10591342f1759e25756f5865371a53c132d8b0a0
 ;; Created: 23 Nov 2018
 ;; Keywords: mail
 ;; URL: http://github.com/sje30/yesterbox

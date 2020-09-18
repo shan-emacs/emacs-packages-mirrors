@@ -21,6 +21,7 @@
 
 ;; Version: 0.03
 ;; Package-Version: 20171024.1840
+;; Package-Commit: b4a8e6ba0bb027a77e4a0f701409f3e57bb2e4c0
 ;; Author: T.v.Dein <tlinden@cpan.org>
 ;; Keywords: files
 ;; URL: https://github.com/tlinden/config-general-mode

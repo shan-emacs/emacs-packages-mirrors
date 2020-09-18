@@ -5,6 +5,7 @@
 ;; Author: Chmouel Boudjnah <chmouel@chmouel.com>
 ;; URL: https://github.com/chmouel/gerrit-download.el
 ;; Package-Version: 20150714.1408
+;; Package-Commit: d568acc7c5935188c9bc19ba72719a6092d9f6fd
 ;; Version: 0.2.1
 ;; Keywords: tools gerrit git
 ;; Package-Requires: ((emacs "24.0") (magit "2.1.0"))

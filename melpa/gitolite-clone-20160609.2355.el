@@ -5,6 +5,7 @@
 ;; Author: Ivan Malison <IvanMalison@gmail.com>
 ;; Keywords: gitolite clone git
 ;; Package-Version: 20160609.2355
+;; Package-Commit: d8a4c2875c984e51137c980b5773f42703602721
 ;; URL: https://github.com/IvanMalison/gitolite-clone
 ;; Version: 0.1.0
 ;; Package-Requires: ((dash "2.10.0") (s "1.9.0") (pcache "0.3.1") (emacs "24"))

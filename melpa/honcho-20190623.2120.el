@@ -5,6 +5,7 @@
 ;; Author: Mario Rodas <marsam@users.noreply.github.com>
 ;; URL: https://github.com/emacs-pe/honcho.el
 ;; Package-Version: 20190623.2120
+;; Package-Commit: d5e6206dd23ff9305d976c52845c750a064aca4b
 ;; Keywords: convenience
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "25.1") (sudo-edit "0.1"))

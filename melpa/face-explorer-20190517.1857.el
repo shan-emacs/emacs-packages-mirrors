@@ -5,6 +5,7 @@
 ;; Author: Anders Lindgren
 ;; Keywords: faces
 ;; Package-Version: 20190517.1857
+;; Package-Commit: ad1300e13e5643e4c246cabfd91f833d39113052
 ;; Version: 0.0.4
 ;; Created: 2017-02-24 (Based code from e2ansi created 2014-12-09)
 ;; URL: https://github.com/Lindydancer/face-explorer

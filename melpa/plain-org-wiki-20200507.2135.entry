@@ -1,2 +1,0 @@
-
-(plain-org-wiki . [(20200507 2135) ((emacs (24 3)) (ivy (0 12 0))) "Simple jump-to-org-files in a directory package" single ((:commit . "99cd7f90e5c741cf3327f464852203baee7c488c") (:keywords "convenience") (:authors ("Oleh Krehel" . "ohwoeowho@gmail.com")) (:maintainer "Oleh Krehel" . "ohwoeowho@gmail.com") (:url . "https://github.com/abo-abo/plain-org-wiki"))])

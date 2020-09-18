@@ -5,6 +5,7 @@
 ;; Author: Takashi Masuda <masutaka.net@gmail.com>
 ;; URL: https://github.com/masutaka/emacs-helm-ghq
 ;; Package-Version: 20190526.1409
+;; Package-Commit: d0d6aa0f407388e7012f0443df8ae657ece01779
 ;; Version: 1.8.0
 ;; Package-Requires: ((emacs "24") (helm "2.2.0"))
 

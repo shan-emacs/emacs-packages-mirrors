@@ -3,6 +3,7 @@
 ;; Author: Masahiro Hayashi <mhayashi1120@gmail.com>
 ;; Keywords: data
 ;; Package-Version: 20151116.850
+;; Package-Commit: 08a779a821f8d32c1a1985d8d9eb6cf21646ce2e
 ;; URL: https://github.com/mhayashi1120/Emacs-esqlite
 ;; Emacs: GNU Emacs 24 or later
 ;; Package-Requires: ((esqlite "0.2.0") (helm "20131207.845"))

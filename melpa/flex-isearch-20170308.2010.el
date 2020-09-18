@@ -7,6 +7,7 @@
 ;; Contributors: Tomohiro Matsuyama, Le Wang
 ;; Keywords: convenience, search
 ;; Package-Version: 20170308.2010
+;; Package-Commit: b1f7e04de762282c276343cc2709af9ff4abc9d2
 ;; Version: 20130508
 ;; URL: https://bitbucket.org/jpkotta/flex-isearch
 

@@ -1,0 +1,2 @@
+
+(winds . [(20200817 2036) ((emacs (25 1))) "Window configuration switcher grouped by workspaces" single ((:commit . "b383004d190d4f18cd8ddb62135c60ae1944728b") (:keywords "convenience") (:authors ("Javier A. Pollak" . "javi.po.123@gmail.com")) (:maintainer "Javier A. Pollak" . "javi.po.123@gmail.com") (:url . "https://github.com/Javyre/winds.el"))])

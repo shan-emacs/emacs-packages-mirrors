@@ -5,6 +5,7 @@
 ;; Author: Marcwebbie <marcwebbie@gmail.com>
 ;;         Robert Zaremba <robert-zaremba@scale-it.pl>
 ;; Version: 1.1
+;; Package-Commit: 30fb54aa3c99f3c614ea9a92669d634df30c9439
 ;; Package-Version: 20200510.1006
 ;; Package-X-Original-Version: 20181006
 ;; Keywords: Python, Virtualenv, Tools

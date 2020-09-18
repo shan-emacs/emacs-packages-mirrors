@@ -1,0 +1,2 @@
+
+(posframe . [(20200915 921) ((emacs (26))) "Pop a posframe (just a frame) at point" single ((:commit . "5696463afe2b0bc7b9c2705663daf9afc7ef18ad") (:keywords "convenience" "tooltip") (:authors ("Feng Shu" . "tumashu@163.com")) (:maintainer "Feng Shu" . "tumashu@163.com") (:url . "https://github.com/tumashu/posframe"))])

@@ -5,6 +5,7 @@
 ;; Author: Frank Roland hatheroldev@fgmail.com>
 ;; Keywords: convenience
 ;; Package-Version: 20200420.1836
+;; Package-Commit: 74a046a5728919a4d1135ca62738326b0dde278c
 ;; Package-Requires: ((emacs "24.4") (multiple-cursors "1.2.1"))
 ;; Version: 0.0.1
 ;; URL: https://github.com/hatheroldev/mc-calc

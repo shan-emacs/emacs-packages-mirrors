@@ -5,6 +5,7 @@
 ;; Author: Sébastien Maret <sebastien.maret@icloud.com>
 ;; Package-Requires: ((polymode "0.1.5") (emacs "25"))
 ;; Package-Version: 20181022.649
+;; Package-Commit: d0c9e997e2aa0bcd9b8b7db082d69100448cb1b2
 ;; Keywords: languages, gildas
 ;; URL: https://github.com/smaret/gildas-mode
 ;; Version: 1.1

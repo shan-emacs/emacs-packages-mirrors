@@ -5,6 +5,7 @@
 ;; Author: Niels Widger <niels.widger@gmail.com>
 ;; URL: https://github.com/nwidger/flycheck-tcl
 ;; Package-Version: 20180327.1259
+;; Package-Commit: 7ca23f4673e178b9f5dcc8a82b86cf05b15d7236
 ;; Version: 0.4
 ;; Package-Requires: ((emacs "24.4") (flycheck "0.22"))
 

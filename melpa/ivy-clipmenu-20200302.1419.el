@@ -3,6 +3,7 @@
 ;; Author: William Carroll <wpcarro@gmail.com>
 ;; URL: https://github.com/wpcarro/ivy-clipmenu.el
 ;; Package-Version: 20200302.1419
+;; Package-Commit: ef25acf3f058fe1ede3a29fae2e9cdac8b08cd17
 ;; Version: 0.0.1
 ;; Package-Requires: ((emacs "26.1") (f "0.20.0") (s "1.12.0") (dash "2.16.0") (ivy "0.13.0"))
 

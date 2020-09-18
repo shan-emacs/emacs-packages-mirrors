@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/WammKD/emacs-klere-theme
 ;; Version: 0.1
 ;; Package-Version: 20180415.1823
+;; Package-Commit: c064f9e5c44173c239fce239a62c8d5e61827672
 ;; Package-Requires: ((emacs "24"))
 ;; Started with emacs-theme-generator, https://github.com/mswift42/theme-creator.
 

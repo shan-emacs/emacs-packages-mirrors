@@ -5,6 +5,7 @@
 ;; Author: Tobias Svensson <tob@tobiassvensson.co.uk>
 ;; URL: http://github.com/endofunky/bundler.el
 ;; Package-Version: 20200129.1338
+;; Package-Commit: 43efb6be4ed118b06d787ce7fbcffd68a31732a7
 ;; Keywords: bundler ruby
 ;; Created: 31 Dec 2011
 ;; Version: 1.1.1

@@ -4,6 +4,7 @@
 ;; Author: Jeremy Whitlock <jwhitlock@apache.org
 ;; Version: 0.2
 ;; Package-Version: 20181022.1602
+;; Package-Commit: 5c8610d0b45a536b8f7f9777297c86362685a357
 ;; Keywords: themes atom dark
 ;; URL: https://github.com/whitlockjc/atom-dark-theme-emacs
 ;;

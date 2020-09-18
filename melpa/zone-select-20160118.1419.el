@@ -6,6 +6,7 @@
 ;; Created: 2016-01-02
 ;; Version: 1.160116
 ;; Package-Version: 20160118.1419
+;; Package-Commit: bf30da12f1625fe6563448fccf3c506acad10af7
 ;; Package-Requires: ((emacs "24.3") (dash "2.8"))
 ;; Keywords: games
 ;; URL: https://github.com/kawabata/zone-select

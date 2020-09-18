@@ -7,6 +7,7 @@
 ;;          Simon Zelazny <zelazny@mailbox.org>
 ;; Version: 0.4.0
 ;; Package-Version: 20181213.1045
+;; Package-Commit: dede0f8ecb72156fa6ae81198ea570ead02997ff
 ;; URL: https://github.com/pzel/commentary-theme
 ;; Package-Requires: ((emacs "24"))
 

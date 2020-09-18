@@ -5,6 +5,7 @@
 ;; Author: Ryan Pavlik <rpavlik@gmail.com>
 ;; URL: https://github.com/rpav/buffer-buttons
 ;; Package-Version: 20150106.1439
+;; Package-Commit: 2feb8494fa7863b98256bc85da670d74a3a8a975
 ;; Version: 1.0
 
 ;; This program is free software: you can redistribute it and/or modify

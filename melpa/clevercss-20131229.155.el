@@ -5,6 +5,7 @@
 ;; Created: Apr 2010
 ;; Keywords: languages css
 ;; Package-Version: 20131229.155
+;; Package-Commit: b8a3c0dd674367c62b1a1ffec84d88fe0c0219bc
 
 ;; This program is free software; you can redistribute it and/or
 ;; modify it under the terms of the GNU General Public License as

@@ -5,6 +5,7 @@
 ;; Author: coldnew <coldnew.tw@gmail.com>
 ;; Keywords: html presentation
 ;; Package-Version: 20131228.606
+;; Package-Commit: 4703dfbd9d79161509def673d2c1e118d722a58f
 ;; X-URL: http://github.com/coldnew/org-html5slide
 ;; Package-Requires: ((org "8.0"))
 ;; Version: 0.1

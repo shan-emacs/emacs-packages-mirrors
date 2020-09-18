@@ -5,6 +5,7 @@
 ;; Author:: drymer <drymer [ AT ] autistici.org>
 ;; Package-Requires: ((emacs "25.1"))
 ;; Package-Version: 20180527.743
+;; Package-Commit: 2ef72b81d9aa24ea782b71a061a3abdad6cae162
 ;; Version: 0.1
 
 ;; Keywords:: languages terminals

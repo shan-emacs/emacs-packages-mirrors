@@ -5,6 +5,7 @@
 ;; Author: Wilfred Hughes <me@wilfred.me.uk>
 ;; Version: 1.1
 ;; Package-Version: 20170216.2346
+;; Package-Commit: 6faea67be8661faf8152217869d16e993cc2bc49
 ;; Package-Requires: ((flycheck "30") (emacs "24"))
 
 ;; This program is free software; you can redistribute it and/or modify

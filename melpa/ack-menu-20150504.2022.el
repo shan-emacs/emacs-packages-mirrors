@@ -7,6 +7,7 @@
 ;; Created: 06 Jan 2013
 ;; Version: 0.1.0
 ;; Package-Version: 20150504.2022
+;; Package-Commit: f77be93a4697926ecf3195a355eb69580f695f4d
 ;; Keywords: tools matching convenience
 ;; URL: https://github.com/chumpage/ack-menu
 ;; Package-Requires: ((mag-menu "0.1.0"))

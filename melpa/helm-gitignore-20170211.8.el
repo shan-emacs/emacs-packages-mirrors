@@ -3,6 +3,7 @@
 ;; Author: Juan Placencia
 ;; Version: 0.2.0
 ;; Package-Version: 20170211.8
+;; Package-Commit: 2a2e7da7855a6db0ab3bb6a6a087863d7abd4391
 ;; Keywords: helm gitignore gitignore.io
 ;; Homepage: https://github.com/jupl/helm-gitignore
 ;; Package-Requires: ((gitignore-mode "1.1.0") (helm "1.7.0") (request "0.1.0") (cl-lib "0.5"))

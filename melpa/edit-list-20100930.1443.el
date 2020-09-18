@@ -6,6 +6,7 @@
 ;; Date: Mon 31-Mar-2008
 ;; Version: 0.3
 ;; Package-Version: 20100930.1443
+;; Package-Commit: f460d3f9e208a4e606fe6ded307f1b011916ca71
 ;; URL: http://mwolson.org/static/dist/elisp/edit-list.el
 
 ;; This file is not part of GNU Emacs.

@@ -5,6 +5,7 @@
 ;; Author: Shihpin Tseng <deftsp@gmail.com>
 ;; URL: https://github.com/deftsp/mobdebug-mode
 ;; Package-Version: 20140110.346
+;; Package-Commit: e1d483bc4e341c762bc5c0a8c52306a8d01ea0da
 ;; Package-Requires: ((lua-mode "20130419") (emacs "24"))
 ;; Keywords:
 

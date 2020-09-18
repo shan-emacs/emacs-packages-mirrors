@@ -7,6 +7,7 @@
 
 ;; Package-Requires: ((emacs "24.4") (dash "2.10.0"))
 ;; Package-Version: 20200329.1558
+;; Package-Commit: a5377e4317365a3d5442e06d5c255d4a7c7618db
 ;; URL: https://github.com/magit/ssh-agency
 ;; Version: 0.4.1
 

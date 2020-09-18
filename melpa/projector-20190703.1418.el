@@ -5,6 +5,7 @@
 ;; Author: Justin Talbott <justin@waymondo.com>
 ;; URL: https://github.com/waymondo/projector.el
 ;; Package-Version: 20190703.1418
+;; Package-Commit: bad51a81fbcae9aabe47dafc2499ba27cd7308be
 ;; Version: 0.3.1
 ;; Package-Requires: ((alert "1.1") (projectile "0.11.0") (cl-lib "0.5"))
 ;; License: GNU General Public License version 3, or (at your option) any later version

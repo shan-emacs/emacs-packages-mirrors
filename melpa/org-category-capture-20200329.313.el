@@ -5,6 +5,7 @@
 ;; Author: Ivan Malison <IvanMalison@gmail.com>
 ;; Keywords: org-mode todo tools outlines
 ;; Package-Version: 20200329.313
+;; Package-Commit: 96a57a43555e24e5e0d81e79f0fbb47001c41bac
 ;; URL: https://github.com/IvanMalison/org-projectile
 ;; Version: 0.0.1
 ;; Package-Requires: ((org "9.0.0") (emacs "24"))

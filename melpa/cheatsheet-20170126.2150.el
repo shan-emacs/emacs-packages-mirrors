@@ -5,6 +5,7 @@
 ;; Author: Shirin Nikita <shirin.nikita@gmail.com> and contributors
 ;; URL: http://github.com/darksmile/cheatsheet/
 ;; Package-Version: 20170126.2150
+;; Package-Commit: e4f8e0110167ea16a17a74517d1f10cb7ff805b8
 ;; Package-Requires: ((emacs "24") (cl-lib "0.5"))
 ;; Version: 1.0
 ;; Keywords: convenience, usability

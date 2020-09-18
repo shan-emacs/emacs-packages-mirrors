@@ -4,6 +4,7 @@
 ;;; Maintainer: Helmut Eller <heller@common-lisp.net>
 ;;; Version: 0.13+ (sorta)
 ;; Package-Version: 20130731.2142
+;; Package-Commit: 4f6516ec3946d95dcef49abb6703cc89ecb5183d
 ;;; Keywords: data comm database postgresql
 ;;;
 ;;; Copyright: (C) 1999-2005  Eric Marsden

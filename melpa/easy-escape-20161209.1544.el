@@ -4,6 +4,7 @@
 ;; Author: Clément Pit--Claudel <clement.pitclaudel@live.com>
 ;; Version: 0.1
 ;; Package-Version: 20161209.1544
+;; Package-Commit: a6449f22cb97160ee1c90121968de89e193268df
 ;; Keywords: convenience, lisp, tools
 ;; URL: https://github.com/cpitclaudel/easy-escape
 

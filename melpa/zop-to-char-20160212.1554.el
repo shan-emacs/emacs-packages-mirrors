@@ -5,6 +5,7 @@
 ;; X-URL: https://github.com/thierryvolpiatto/zop-to-char
 ;; Package-Requires: ((cl-lib "0.5"))
 ;; Package-Version: 20160212.1554
+;; Package-Commit: 00152aa666354b27e56e20565f186b363afa0dce
 ;; Version: 1.0
 
 ;; Compatibility: GNU Emacs 23.1+

@@ -5,6 +5,7 @@
 ;; Author: Sylvain Benner <sylvain.benner@gmail.com>
 ;; Keywords: convenience editing evil smartparens lisp mnemonic
 ;; Package-Version: 20160404.248
+;; Package-Commit: 3c65fecd9917a41eaf6460f22187e2323821f3ce
 ;; Created: 9 Oct 2014
 ;; Version: 8.2
 ;; Package-Requires: ((evil "1.0.9") (bind-map "0") (smartparens "1.6.1"))

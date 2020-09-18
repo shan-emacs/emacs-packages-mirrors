@@ -15,6 +15,7 @@
 
 ;; URL: https://godoc.org/golang.org/x/tools/cmd/vet
 ;; Package-Version: 20170808.1724
+;; Package-Commit: 1c05817cf8b96589076c7ac4e52ee58a860a0cbf
 
 ;;; Commentary:
 

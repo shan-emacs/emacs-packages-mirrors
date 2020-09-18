@@ -6,6 +6,7 @@
 ;; Maintainer: Glenn Hutchings <zondo42@gmail.com>
 ;; Keywords:   tools
 ;; Package-Version: 20150729.940
+;; Package-Commit: 74b6b93b097d595a001c019e3b762abfc60f821a
 ;; Version:    0.4
 ;;
 ;; This file is not a part of GNU Emacs.

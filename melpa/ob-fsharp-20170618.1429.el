@@ -4,6 +4,7 @@
 ;; Author: Jürgen Hötzel <juergen@archlinux.org>
 ;; Url: https://github.com/juergenhoetzel/ob-fsharp
 ;; Package-Version: 20170618.1429
+;; Package-Commit: 0b2fdd9bb4f38af8b5cf4914627af52f5b43d9f7
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "25") (fsharp-mode "1.9.8"))
 ;; Keywords: literate programming, reproducible research

@@ -5,6 +5,7 @@
 ;; Author: Kostafey <kostafey@gmail.com>
 ;; URL: https://github.com/kostafey/sphinx-frontend
 ;; Package-Version: 20161025.758
+;; Package-Commit: 0cbb03361c245382d3e679dded30c4fc1713c252
 ;; Keywords: compile, sphinx, reStructuredText
 ;; Version: 0.1
 

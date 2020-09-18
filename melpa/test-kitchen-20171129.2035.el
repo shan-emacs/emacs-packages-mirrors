@@ -4,6 +4,7 @@
 ;; Author: JJ Asghar
 ;; URL: http://github.com/jjasghar/test-kitchen-el
 ;; Package-Version: 20171129.2035
+;; Package-Commit: 0fc0ca4808425f03fbeb8125246043723e2a179a
 ;; Created: 2015
 ;; Version: 0.4.0
 ;; Keywords: chef ruby test-kitchen

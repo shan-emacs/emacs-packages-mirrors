@@ -16,6 +16,7 @@
 
 ;; Author: Danny McClanahan <danieldmcclanahan@gmail.com>
 ;; Version: 2015.09.12
+;; Package-Commit: f30f0472e465cc8d433d2473e9d3b8dfe2c94491
 ;; Package-Requires: ((cl-lib "0.5"))
 ;; Package-Version: 20170728.1824
 ;; Package-X-Original-Version: 0.1

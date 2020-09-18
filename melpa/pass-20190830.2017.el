@@ -6,6 +6,7 @@
 ;;         Damien Cassou <damien@cassou.me>
 ;; Version: 2.0
 ;; Package-Version: 20190830.2017
+;; Package-Commit: 919d8e3826d556433ab67d4ee21a509d209d1baa
 ;; GIT: https://github.com/NicolasPetton/pass
 ;; Package-Requires: ((emacs "25") (password-store "2.1.0") (password-store-otp "0.1.5") (f "0.17"))
 ;; Created: 09 Jun 2015

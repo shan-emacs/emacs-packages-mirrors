@@ -5,6 +5,7 @@
 ;; Author: Topi Kettunen <topi@kettunen.io>
 ;; URL: https://github.com/topikettunen/brutal
 ;; Package-Version: 20200415.602
+;; Package-Commit: ee63563b7cb07aeec342722ae684426cb0465a98
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24.1"))
 

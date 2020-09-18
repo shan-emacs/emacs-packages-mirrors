@@ -2,6 +2,7 @@
 ;;
 ;; Version: 0.1
 ;; Package-Version: 20170821.1732
+;; Package-Commit: 1e993cc29cbc31e06fe1e335dec198e21972fa55
 ;; Copyright (C) 2014 Brandon W Maister
 ;; Author: Brandon W Maister <quodlibetor@gmail.com>
 ;; URL: https://www.github.com/quodlibetor/py-gnitset

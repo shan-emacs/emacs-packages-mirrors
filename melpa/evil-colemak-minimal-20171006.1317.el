@@ -3,6 +3,7 @@
 ;; Author: Bryan Allred <bryan@revolvingcow.com>
 ;; Version: 1.1.0
 ;; Package-Version: 20171006.1317
+;; Package-Commit: 6d98b6da60f414524a0d718f76024c26dce742b3
 ;; Package-Requires: ((emacs "24") (evil "1.2.12"))
 ;; Keywords: colemak evil
 ;; URL: https://github.com/bmallred/evil-colemak-minimal

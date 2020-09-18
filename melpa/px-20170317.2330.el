@@ -6,6 +6,7 @@
 ;; Author: Aurélien Aptel <aurelien.aptel@gmail.com>
 ;; URL: http://github.com/aaptel/preview-latex
 ;; Package-Version: 20170317.2330
+;; Package-Commit: 0c52f7933eab3ca1642ab0df151db9950430c9e2
 ;; Version: 1.1
 
 

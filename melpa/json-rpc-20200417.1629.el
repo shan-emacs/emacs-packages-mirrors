@@ -5,6 +5,7 @@
 ;; Author: Christopher Wellons <wellons@nullprogram.com>
 ;; URL: https://github.com/skeeto/elisp-json-rpc
 ;; Package-Version: 20200417.1629
+;; Package-Commit: 81a5a520072e20d18aeab2aac4d66c046b031e56
 ;; Version: 0.0.1
 ;; Package-Requires: ((emacs "24.1") (cl-lib "0.5"))
 

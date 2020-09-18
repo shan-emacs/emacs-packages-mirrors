@@ -6,6 +6,7 @@
 ;; Created: 16 May 2016
 ;; Version: 0.0.1
 ;; Package-Version: 20160612.1715
+;; Package-Commit: e6427538b547cbe02e1bd6ed4b765c73620bdae8
 ;; Package-Requires: ()
 ;; Keywords: datetime calendar
 ;; Homepage: https://github.com/zonuexe/emacs-datetime

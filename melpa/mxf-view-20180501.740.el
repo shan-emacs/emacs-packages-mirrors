@@ -6,6 +6,7 @@
 ;; Package: mxf-view
 ;; Package-Requires: ((emacs "25"))
 ;; Package-Version: 20180501.740
+;; Package-Commit: 6ca3cc93d995fac5fc4d72275e1e984e9857ffcb
 ;; Version: 0.2
 ;; Keywords: data multimedia
 ;; URL: https://github.com/t-suwa/mxf-view

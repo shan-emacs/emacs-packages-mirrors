@@ -5,6 +5,7 @@
 ;; Author: Damien Cassou <damien@cassou.me>, Nicolas Petton <nicolas@petton.fr>
 ;; Url: https://gitlab.petton.fr/DamienCassou/desktop-environment
 ;; Package-Version: 20200225.1042
+;; Package-Commit: dbcf3d9411d53908de09ab0d34932d19c8117144
 ;; Package-requires: ((emacs "25.1"))
 ;; Version: 0.3.0
 

@@ -6,6 +6,7 @@
 ;; Maintainer: Xu FaSheng
 ;; Version: 0.1
 ;; Package-Version: 20190616.303
+;; Package-Commit: b694ba91a45d0762bd032ff1bb4109e4c62ca686
 ;; URL: https://github.com/fasheng/dired-toggle
 ;; Keywords: dired, sidebar
 ;; Compatibility: GNU Emacs: 24.x

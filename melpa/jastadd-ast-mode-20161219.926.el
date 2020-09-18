@@ -4,6 +4,7 @@
 
 ;; Author: Rudi Schlatte <rudi@constantly.at>
 ;; URL: https://github.com/rudi/jastadd-ast-mode
+;; Package-Commit: a29fdb470cbf0a398164950a3b0d2217de48e0c0
 ;; Package-Version: 20161219.926
 ;; Package-X-Original-Version: 0.1
 ;; Package-Requires: ((emacs "24"))

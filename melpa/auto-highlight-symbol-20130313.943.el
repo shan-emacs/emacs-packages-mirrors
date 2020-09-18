@@ -7,6 +7,7 @@
 ;; Adapted-By: Gennadiy Zlobin <gennad.zlobin@NOSPAM.gmail.com>
 ;; Version: 1.55
 ;; Package-Version: 20130313.943
+;; Package-Commit: 26573de912d760e04321b350897aea70958cee8b
 ;; Keywords: highlight face match convenience
 ;; URL: http://github.com/gennad/auto-highlight-symbol/raw/master/auto-highlight-symbol.el
 ;; Compatibility: GNU Emacs 22.3 23.x 24.x later

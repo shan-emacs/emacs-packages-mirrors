@@ -4,6 +4,7 @@
 ;; Maintainer: Vitalie Spinu
 ;; Version: 0.2.2
 ;; Package-Version: 20200316.1316
+;; Package-Commit: 9e9b5164c68955974fd5f5d220aec5af9b5ba3ae
 ;; Package-Requires: ((emacs "25") (polymode "0.2.2") (slim-mode "1.1"))
 ;; URL: https://github.com/polymode/poly-slim
 ;; Keywords: emacs

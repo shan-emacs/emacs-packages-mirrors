@@ -5,6 +5,7 @@
 ;; Author: Jakob L. Kreuze <zerodaysfordays@sdf.lonestar.org>
 ;; Version: 0.1
 ;; Package-Version: 20191225.2120
+;; Package-Commit: 51c0a2cb9dfc9526cd47e71313f5a745c99cadcc
 ;; Package-Requires: ((emacs "24.3"))
 ;; Keywords: languages
 ;; URL: https://git.sr.ht/~jakob/myrddin-mode

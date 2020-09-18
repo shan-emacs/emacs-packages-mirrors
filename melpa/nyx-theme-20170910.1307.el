@@ -6,6 +6,7 @@
 ;; Maintainer: Guido Schmidt <guido.schmidt.2912@gmail.com>
 ;; URL: https://github.com/GuidoSchmidt/emacs-nyx-theme
 ;; Package-Version: 20170910.1307
+;; Package-Commit: afe2b8c3b5421b4c292d182dcf77079b278e93d8
 ;; Version: 0.1
 ;; Keywords: themes, dark-theme
 ;; Package-Requires: ((emacs "24"))

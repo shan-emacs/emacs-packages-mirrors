@@ -5,6 +5,7 @@
 ;; Author: Yann Hodique <yann.hodique@gmail.com>
 ;; Keywords: git tools
 ;; Package-Version: 20191230.1944
+;; Package-Commit: 57f3a5158bbc7bfd169ee136fde351cce999e0ca
 ;; Version: 0.5.3
 ;; URL: https://github.com/sigma/magit-gh-pulls
 ;; Package-Requires: ((emacs "24.4") (gh "0.9.1") (magit "2.12.0") (pcache "0.2.3") (s "1.6.1"))

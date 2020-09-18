@@ -8,6 +8,7 @@
 ;; Adapted-By: Yesudeep Mangalapilly, Yuichi TANIKAWA, Mike Nichols
 ;; Keywords: railscasts color theme
 ;; Package-Version: 20150219.1525
+;; Package-Commit: 1340c3f6c2717761cab95617cf8dcbd962b1095b
 ;; URL: https://github.com/mikenichols/railscasts-theme
 ;; Requires: GNU Emacs 24
 

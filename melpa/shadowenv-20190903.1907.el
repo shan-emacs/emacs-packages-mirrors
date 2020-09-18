@@ -3,6 +3,7 @@
 ;; Author: Dante Catalfamo <dante.catalfamo@shopify.com>
 ;; Version: 0.11.1
 ;; Package-Version: 20190903.1907
+;; Package-Commit: 5f24c90bb8e7333ee4315619672dc2ec69d198be
 ;; Package-Requires: ((emacs "24.3"))
 ;; Keywords: shadowenv, tools
 ;; URL: https://github.com/Shopify/shadowenv.el

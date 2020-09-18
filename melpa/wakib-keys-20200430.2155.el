@@ -3,6 +3,7 @@
 ;; Author: Abdulla Bubshait
 ;; URL: https://github.com/darkstego/wakib-keys/
 ;; Package-Version: 20200430.2155
+;; Package-Commit: d958150c053dae57445be37cda1c2b50efcbaac3
 ;; Created: 6 April 2018
 ;; Keywords: convenience, keybindings, keys
 ;; License: GPL v3

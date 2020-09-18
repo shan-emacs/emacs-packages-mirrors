@@ -2,6 +2,7 @@
 ;;; Author: Jasonm23 <jasonm23@gmail.com>
 ;;; Url: https://github.com/jasonm23/emacs-waher-theme
 ;; Package-Version: 20141115.1230
+;; Package-Commit: 60d31519fcfd8e797723d47961b255ae2f2e2c0a
 ;;; Version: 20141115.2020
 ;;; Package-Requires: ((emacs "24.1"))
 ;;

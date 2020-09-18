@@ -5,6 +5,7 @@
 ;; Author: Anders Lindgren
 ;; Keywords: languages, faces
 ;; Package-Version: 20141021.1822
+;; Package-Commit: 34b457d577f97ca94b8792d025f9a909c7610612
 ;; Created: 2013-11-26
 ;; Version: 0.0.4
 ;; URL: https://github.com/Lindydancer/objc-font-lock

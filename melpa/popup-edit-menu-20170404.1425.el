@@ -5,6 +5,7 @@
 ;; Author: Debugfan Chin <debugfanchin@gmail.com>
 ;; Keywords: lisp, pop-up, context, edit, menu
 ;; Package-Version: 20170404.1425
+;; Package-Commit: 925600a6e29183841199e866cf55e566a6a1b002
 ;; Package-Requires: ((emacs "24"))
 ;; Version: 0.0.3
 

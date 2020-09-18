@@ -8,6 +8,7 @@
 ;; Modified: September 21, 2019
 ;; Version: 1.0.2
 ;; Package-Version: 20190922.115
+;; Package-Commit: 88888825b5b27b300683e662fa3be88d954b1cea
 ;; Keywords: frames mode-line
 ;; URL: https://github.com/hlissner/emacs-hide-mode-line
 ;; Package-Requires: ((emacs "24.4"))

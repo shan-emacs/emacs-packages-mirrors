@@ -5,6 +5,7 @@
 ;; Author: Sergei Nosov <sergei.nosov [at] gmail.com>
 ;; Version: 1.1
 ;; Package-Version: 20141009.1024
+;; Package-Commit: 9798ef1d0eaa24e4fe66f8aa6022a8c62714cc89
 ;; Keywords: dummyparens auto-pair wrapping
 ;; URL: https://github.com/snosov1/dummyparens
 

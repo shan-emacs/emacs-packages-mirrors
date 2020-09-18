@@ -3,6 +3,7 @@
 ;; Author: martin haesler
 ;; URL: http://github.com/mswift42/mustang-theme
 ;; Package-Version: 20170719.946
+;; Package-Commit: dda6d04803f1c9b196b620ef564e7768fee15de2
 ;;; Version: 0.3
 
 ;; original vim theme by Henrique C.Alves

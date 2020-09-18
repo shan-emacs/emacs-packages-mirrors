@@ -5,6 +5,7 @@
 ;; Author: Ben Yelsey <ben.yelsey@gmail.com>
 ;; Version: 0.2.0
 ;; Package-Version: 20150716.233
+;; Package-Commit: 4e199a90f89b335cccda1518aa0963e0a1d4fbab
 ;; Keywords: python
 ;; Homepage: https://github.com/inlinestyle/cinspect-mode
 

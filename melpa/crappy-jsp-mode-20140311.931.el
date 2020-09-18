@@ -6,6 +6,7 @@
 ;;          Jostein Holje <jostein.holje@gmail.com>
 ;; Keywords: jsp major mode
 ;; Package-Version: 20140311.931
+;; Package-Commit: 6c45ab92b452411cc0fab9bcee2f456276b4fc40
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

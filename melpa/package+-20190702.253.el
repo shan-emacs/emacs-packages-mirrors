@@ -6,6 +6,7 @@
 ;; Created: 2013-07-25
 ;; Keywords: extensions, tools
 ;; Package-Version: 20190702.253
+;; Package-Commit: 3d108ff6af00d2fe978787217a13660af057cafc
 ;; Package-Requires: ((emacs "24.3"))
 ;; URL: https://github.com/zenspider/package
 ;; Compatibility: GNU Emacs: 24.3?, 24.4+

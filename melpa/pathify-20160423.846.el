@@ -6,6 +6,7 @@
 ;; Created: 19 May 2015
 ;; Version: 0.1
 ;; Package-Version: 20160423.846
+;; Package-Commit: 401b184c743694a60b3bc4273fc43de05cd5ac4b
 ;; URL: https://gitlab.com/alezost-emacs/pathify
 ;; URL: https://github.com/alezost/pathify.el
 ;; Keywords: convenience

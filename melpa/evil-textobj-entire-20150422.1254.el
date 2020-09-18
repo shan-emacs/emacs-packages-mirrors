@@ -5,6 +5,7 @@
 ;; Author: supermomonga
 ;; Keywords: convenience, emulations
 ;; Package-Version: 20150422.1254
+;; Package-Commit: 5b3a98f3a69edc3a788f539f6ffef4a0ef5e853d
 ;; Created: 2015-03-28
 ;; Version: 0.0.1
 ;; Package-Requires: ((emacs "24") (evil "1.0.0"))

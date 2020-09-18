@@ -1,5 +1,6 @@
 ;;; elisp-depend.el --- Parse depend libraries of elisp file.
 ;; Package-Version: 20190325.1114
+;; Package-Commit: 6679da9a6be5a845bb4804224c8394a9bc62168f
 
 ;; Copyright (C) 2009  Andy Stewart
 ;; Copyright (C) 2010-2012 Tom Breton

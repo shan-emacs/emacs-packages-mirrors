@@ -1,0 +1,2 @@
+
+(auctex-cluttex . [(20200531 402) ((emacs (24 4)) (auctex (12 2))) "ClutTeX support for AUCTeX" single ((:commit . "f330f0983dd3c147a2f3f18f39109cdffe6d8ff2") (:keywords "tex") (:authors ("Masahiro Nakamura" . "tsuucat@icloud.com")) (:maintainer "Masahiro Nakamura" . "tsuucat@icloud.com") (:url . "https://github.com/tsuu32/auctex-cluttex"))])

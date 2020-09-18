@@ -15,6 +15,7 @@
 ;;
 ;; Version: 0.6
 ;; Package-Version: 20170808.1716
+;; Package-Commit: 34027915de6496460d8e68b5991dd24d47d54859
 ;; Author: Sasha Kovar <sasha-emacs@arcocene.org>
 ;; Url: http://github.com/abend/wavefront-obj-mode
 ;;

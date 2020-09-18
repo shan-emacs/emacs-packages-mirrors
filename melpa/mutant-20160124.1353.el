@@ -5,6 +5,7 @@
 ;; Author: Pedro Lambert
 ;; URL: http://github.com/p-lambert/mutant.el
 ;; Package-Version: 20160124.1353
+;; Package-Commit: de9cdefe48c880128a8f62c6699d7416e9c8ced1
 ;; Version: 1.0
 ;; Keywords: mutant, testing
 ;; Package-Requires: ((emacs "24.4") (dash "2.1.0"))

@@ -6,6 +6,7 @@
 ;; Maintainer: Matúš Goljer <matus.goljer@gmail.com>
 ;; Version: 0.0.1
 ;; Package-Version: 20190919.841
+;; Package-Commit: 224b24950d3ae57cd16d7417c07fda337fe0ea09
 ;; Created: 28th February 2015
 ;; Package-requires: ((dash "2.10.0") (cl-lib "0.5"))
 ;; Keywords: files

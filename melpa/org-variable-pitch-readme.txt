@@ -10,14 +10,3 @@ Have this file somewhere in the load path, then:
 
   (require 'org-variable-pitch)
   (add-hook 'org-mode-hook 'org-variable-pitch-minor-mode)
-
-Configurables:
-
-  - ‘org-variable-pitch-fixed-font’: The font used for parts of the
-    buffer to be kept in fixed-width font.
-
-  - ‘org-variable-pitch-fixed-faces’: List of org-mode faces to
-    keep monospace.
-
-
-

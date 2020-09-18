@@ -29,6 +29,7 @@
 ;; Author: Justin Lilly <justin@justinlilly.com>
 ;; URL: https://github.com/sprintly/sprintly-mode
 ;; Package-Version: 20121006.534
+;; Package-Commit: 6695892bae5860b5268bf3ae62be990ee9b63c11
 ;; Version: 0.0.4
 ;; Package-Requires: ((furl "0.0.2"))
 

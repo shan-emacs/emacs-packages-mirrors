@@ -5,6 +5,7 @@
 ;; Author: Donald Ephraim Curtis <dcurtis@milkbox.net>
 ;; URL: http://github.com/milkypostman/hl-sentence
 ;; Package-Version: 20171018.1519
+;; Package-Commit: 86ae38d3103bd20da5485cbdd59dfbd396c45ee4
 ;; Version: 3
 ;; Keywords: highlighting
 

@@ -5,6 +5,7 @@
 ;; Author: Ivan Malison <IvanMalison@gmail.com>
 ;; Keywords: frames
 ;; Package-Version: 20190710.2030
+;; Package-Commit: ae2366969927c9f89ea07c999bef382b0b47cac1
 ;; URL: https://github.com/IvanMalison/frame-mode
 ;; Version: 0.0.0
 ;; Package-Requires: ((s "1.9.0") (emacs "24.4"))

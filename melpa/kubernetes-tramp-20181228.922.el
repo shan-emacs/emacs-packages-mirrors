@@ -5,6 +5,7 @@
 ;; Author: Giovanni Ruggiero <giovanni.ruggiero+github@gmail.com>
 ;; URL: https://github.com/gruggiero/kubernetes-tramp
 ;; Package-Version: 20181228.922
+;; Package-Commit: 8713571b66940f8f3f496b55baa23cdf1df7a869
 ;; Keywords: kubernetes, convenience
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24") (cl-lib "0.5"))

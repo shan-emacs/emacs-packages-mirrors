@@ -6,6 +6,7 @@
 ;; Created: 28 Aug 2017
 ;; Version: 0.2.0
 ;; Package-Version: 20181212.1825
+;; Package-Commit: 017e0e70f07d6b25e37d5c5f4d271a914b677631
 ;; Keywords: processes php
 ;; URL: https://github.com/emacs-php/php-runtime.el
 ;; Package-Requires: ((emacs "25") (cl-lib "0.5") (f "0.20") (s "1.7"))

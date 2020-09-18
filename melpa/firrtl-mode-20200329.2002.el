@@ -5,6 +5,7 @@
 ;; Created: April 20, 2017
 ;; URL: https://github.com/ibm/firrtl-mode
 ;; Package-Version: 20200329.2002
+;; Package-Commit: fa40141411a876ce7a1a9d6d3fe47134bc1fa954
 ;; Keywords: languages, firrtl
 ;; Version: 0.3.1
 ;; Package-Requires: ((emacs "24.3"))

@@ -5,6 +5,7 @@
 ;; Author: Kevin Brubeck Unhammer <unhammer@fsfe.org>
 ;; Version: 0.3.0
 ;; Package-Version: 20200513.1038
+;; Package-Commit: a7b131c5acd10df2949ef4f799af08ded013bc35
 ;; URL: https://github.com/unhammer/gnus-recent
 ;; Package-Requires: ((emacs "25.3.2"))
 ;; Keywords: convenience, mail

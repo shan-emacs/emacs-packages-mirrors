@@ -4,6 +4,7 @@
 ;; Author:  François Févotte <fevotte@gmail.com>
 ;; URL:     https://github.com/ffevotte/isend-mode.el
 ;; Package-Version: 20190201.832
+;; Package-Commit: 38ace354d579eb364d4f95b9ea16081c171ea604
 ;; Version: 0.2
 
 ;; This file is NOT part of Emacs.

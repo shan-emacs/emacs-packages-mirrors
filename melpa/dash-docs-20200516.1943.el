@@ -8,6 +8,7 @@
 ;;
 ;; URL: http://github.com/areina/helm-dash
 ;; Package-Version: 20200516.1943
+;; Package-Commit: dafc8fc9f1ddb2e4e39e0b8d066c42d5d7ce8d06
 ;; Version: 1.4.0
 ;; Package-Requires: ((emacs "24.4") (cl-lib "0.5") (async "1.9.3"))
 ;; Keywords: docs

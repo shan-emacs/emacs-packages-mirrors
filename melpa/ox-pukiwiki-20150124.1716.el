@@ -5,6 +5,7 @@
 ;; Author: Yasushi SHOJI <yasushi.shoji@gmail.com>
 ;; URL: https://github.com/yashi/org-pukiwiki
 ;; Package-Version: 20150124.1716
+;; Package-Commit: bdbde2c294f5d3de11f08a3fe19f01175d2e011a
 ;; Package-Requires: ((org "8.1"))
 ;; Keywords: org, pukiwiki
 

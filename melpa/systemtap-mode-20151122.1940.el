@@ -8,6 +8,7 @@
 ;; Maintainer: ruediger@c-plusplus.de
 ;; Keywords:   tools languages
 ;; Package-Version: 20151122.1940
+;; Package-Commit: 1a968c2b1f3a054bebf91ac49739d3a81ce050a9
 ;; Version:    0.02
 ;; URL:        https://github.com/ruediger/systemtap-mode
 

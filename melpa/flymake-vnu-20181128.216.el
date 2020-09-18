@@ -6,6 +6,7 @@
 ;; Maintainer: Stefan Kuznetsov <skuznetsov@posteo.net>
 ;; URL: https://github.com/theneosloth/flymake-vnu
 ;; Package-Version: 20181128.216
+;; Package-Commit: 7c4ab9d12611756ad5a80d866890b2f9b73fb611
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "26.1"))
 ;; Keywords: languages

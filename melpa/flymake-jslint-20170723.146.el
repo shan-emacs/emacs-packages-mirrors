@@ -7,6 +7,7 @@
 ;; Package-Version: 20170723.146
 ;; Package-X-Original-Version: 0
 ;; Package-Requires: ((flymake-easy "0.1"))
+;; Package-Commit: 8edb82be605542b0ef62d38d818adcdde335eecb
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

@@ -4,6 +4,7 @@
 ;; Author: David Thompson
 ;; Version: 0.2
 ;; Package-Version: 20200430.1625
+;; Package-Commit: 95a411f6d4bb5eec4ef8fdbba9f038ddf60da81f
 ;; Keywords: dired, launch
 ;; URL: https://github.com/thomp/dired-launch
 

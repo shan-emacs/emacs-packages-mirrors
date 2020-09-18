@@ -6,6 +6,7 @@
 ;; Maintainer: Sylvain Rousseau <thisirs at gmail dot com>
 ;; Keywords: erc convenience
 ;; Package-Version: 20170107.1339
+;; Package-Commit: d026a016dcb9d63d9ac66d30627a92a8f1681bbd
 ;; URL: https://github.com/thisirs/erc-colorize.git
 
 ;; This program is free software; you can redistribute it and/or modify

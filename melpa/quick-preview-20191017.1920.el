@@ -3,6 +3,7 @@
 ;; Author: myuhe <yuhei.maeda_at_gmail.com>
 ;; URL: https://github.com/myuhe/quick-preview.el
 ;; Package-Version: 20191017.1920
+;; Package-Commit: a312ab5539b9a362da9d305e4da814e17c5721c9
 ;; Version: 0.1
 ;; Maintainer: myuhe
 ;; Copyright (C) :2015 myuhe all rights reserved.

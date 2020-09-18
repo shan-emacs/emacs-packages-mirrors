@@ -5,6 +5,7 @@
 ;; Author: Yasuhito Takamiya <yasuhito@gmail.com>
 ;; URL: https://github.com/yasuhito/orgbox
 ;; Package-Version: 20180827.218
+;; Package-Commit: 3982f56efd67ec016389cad82ce5a44f619b36a9
 ;; Keywords: org
 ;; Version: 0.5.0
 ;; Package-Requires: ((org "8.0") (cl-lib "0.5"))

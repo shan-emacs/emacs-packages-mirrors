@@ -3,6 +3,7 @@
 ;; Author: Iskander Sharipov <quasilyte@gmail.com>
 ;; URL: https://github.com/Quasilyte/benchstat.el
 ;; Package-Version: 20171014.312
+;; Package-Commit: a5b67cf7972ca2bbc9f5bc6a0f521ab02b76d4f0
 ;; Version: 1.0.1
 ;; Keywords: lisp
 

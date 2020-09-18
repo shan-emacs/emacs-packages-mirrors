@@ -5,6 +5,7 @@
 ;; Author: David Christiansen <david@davidchristiansen.dk>
 ;; Version: 0.9
 ;; Package-Version: 20170816.1842
+;; Package-Commit: c2e21ee72c3768e9152aff6baf12a19cde1d0c53
 ;; Package-Requires: ((emacs "24"))
 ;; Keywords: languages
 ;; Homepage: https://github.com/david-christiansen/emacs-old-norse-input

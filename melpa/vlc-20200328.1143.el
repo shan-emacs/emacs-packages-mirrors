@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/xuchunyang/vlc.el
 ;; Package-Requires: ((emacs "25.1"))
 ;; Package-Version: 20200328.1143
+;; Package-Commit: 932840f874e7510ee86e796bb5dc20d44514e31a
 ;; Keywords: tools
 ;; Version: 0
 

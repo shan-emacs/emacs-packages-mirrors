@@ -1,2 +1,2 @@
 
-(fix-word . [(20190713 1338) ((emacs (24 1)) (cl-lib (0 5))) "Convenient word transformation" single ((:commit . "8d023f13710a90ae4da644d5485bf2be2646b6a1") (:keywords "word" "convenience") (:authors ("Mark Karpov" . "markkarpov92@gmail.com")) (:maintainer "Mark Karpov" . "markkarpov92@gmail.com") (:url . "https://github.com/mrkkrp/fix-word"))])
+(fix-word . [(20190713 1338) ((emacs (24 1)) (cl-lib (0 5))) "Convenient word transformation" single ((:commit . "46487e5279a3079730e2d7146ace7c8ad42371ac") (:keywords "word" "convenience") (:authors ("Mark Karpov" . "markkarpov92@gmail.com")) (:maintainer "Mark Karpov" . "markkarpov92@gmail.com") (:url . "https://github.com/mrkkrp/fix-word"))])

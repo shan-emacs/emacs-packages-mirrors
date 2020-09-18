@@ -7,6 +7,7 @@
 ;; Maintainer: Pierre Neidhardt <mail@ambrevar.xyz>
 ;; URL: https://github.com/emacs-helm/helm-pass
 ;; Package-Version: 20190315.1335
+;; Package-Commit: ed5798f2d83937575e8f23fde33323bca9e85131
 ;; Version: 0.3
 ;; Package-Requires: ((emacs "25") (helm "0") (password-store "0") (auth-source-pass "4.0.0"))
 

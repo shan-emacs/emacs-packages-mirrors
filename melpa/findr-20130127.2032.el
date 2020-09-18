@@ -6,6 +6,7 @@
 ;; Maintainer: David Bakhash <cadet@bu.edu>
 ;; Version: 0.9.11
 ;; Package-Version: 20130127.2032
+;; Package-Commit: 1ddbc0464bb05dcda392b62666ad17239a2152d3
 ;; Created: Tue Jul 27 12:49:22 EST 1999
 ;; Keywords: files
 

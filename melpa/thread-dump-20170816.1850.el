@@ -16,6 +16,7 @@
 ;; Author: Dmitry Neverov
 ;; URL: http://github.com/nd/thread-dump.el
 ;; Package-Version: 20170816.1850
+;; Package-Commit: 204c9600242756d4b514bb5ff6293e052bf4b49d
 ;; Version: 1.0
 ;;
 ;; Code goes here

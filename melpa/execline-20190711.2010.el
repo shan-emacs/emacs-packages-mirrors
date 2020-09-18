@@ -5,6 +5,7 @@
 ;; Author: Dmitry Bogatov <KAction@debian.org>
 ;; Keywords: tools, unix, languages
 ;; Package-Version: 20190711.2010
+;; Package-Commit: c75dd9b2c54d8e59fc35fd4bd98d8e213948a3f5
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "26.1") (s "1.6.0"))
 ;; License: GPL v3

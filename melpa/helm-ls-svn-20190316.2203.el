@@ -6,6 +6,7 @@
 ;; Created: Wed Jun 10 20:58:26 CST 2015
 ;; Version: 0.2.3
 ;; Package-Version: 20190316.2203
+;; Package-Commit: a6043e1187282f649e2cb9f0e722a42daf41294b
 ;; URL: https://svn.macports.org/repository/macports/users/chunyang/helm-ls-svn.el/helm-ls-svn.el
 ;; Package-Requires: ((emacs "24.1") (helm "1.7.0") (cl-lib "0.5"))
 ;; Keywords: helm svn

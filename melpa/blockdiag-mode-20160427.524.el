@@ -5,6 +5,7 @@
 ;; Author: xcezx <main.xcezx@gmail.com>
 ;; URL: https://github.com/xcezx/xdiag-mode
 ;; Package-Version: 20160427.524
+;; Package-Commit: f3b21ba433d60327cebd103ae4492200750e24a9
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "24.3"))
 

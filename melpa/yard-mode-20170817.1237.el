@@ -5,6 +5,7 @@
 ;; Author: Kyle Hargraves
 ;; URL: https://github.com/pd/yard-mode.el
 ;; Package-Version: 20170817.1237
+;; Package-Commit: ba74a47463b0320ae152bd42a7dd7aeecd7b5748
 ;; Version: 0.1
 
 ;; This file is not part of GNU Emacs.

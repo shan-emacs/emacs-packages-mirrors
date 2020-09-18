@@ -7,6 +7,7 @@
 ;; Created: :2013-03-02
 ;; Version: 0.0.1
 ;; Package-Version: 20150106.1306
+;; Package-Commit: d425925e3afffcbe2ff74edc80b714e4319d4c94
 ;; Keywords: convenience, e2wm
 ;; URL: https://github.com/myuhe/e2wm-svg-clock.el
 ;; Package-Requires: ((e2wm "20130225.1602")  (svg-clock "0.4"))

@@ -3,6 +3,7 @@
 ;; Author: Masahiro Hayashi <mhayashi1120@gmail.com>
 ;; Keywords: data
 ;; Package-Version: 20160128.1008
+;; Package-Commit: d087075cb1a46c2c85cd075220e09b2eaef9b86e
 ;; URL: https://github.com/mhayashi1120/Emacs-kaesar
 ;; Emacs: GNU Emacs 23 or later
 ;; Version: 0.9.3

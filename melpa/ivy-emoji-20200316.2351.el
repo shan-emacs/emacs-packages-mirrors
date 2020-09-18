@@ -5,6 +5,7 @@
 ;; Author: Gabriele Bozzola <sbozzolator@gmail.com>
 ;; URL: https://github.com/sbozzolo/ivy-emoji.git
 ;; Package-Version: 20200316.2351
+;; Package-Commit: a1b7d32048278afd9b06536a8af96f533639d146
 ;; Version: 0.2
 ;; Package-Requires: ((emacs "26.1") (ivy "0.13.0"))
 ;; Keywords: emoji ivy convenience

@@ -1,2 +1,0 @@
-
-(language-id . [(20200520 1001) ((emacs (24)) (cl-lib (0 5))) "Library to work with programming language identifiers" single ((:commit . "5024ebc9adc8f5ea82803bf76fffb6eee5829b0a") (:keywords "languages" "util") (:authors ("Lassi Kortela" . "lassi@lassi.io")) (:maintainer "Lassi Kortela" . "lassi@lassi.io") (:url . "https://github.com/lassik/emacs-language-id"))])

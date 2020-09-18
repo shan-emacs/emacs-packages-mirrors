@@ -1,2 +1,0 @@
-
-(flow-minor-mode . [(20191214 1309) ((emacs (25 1))) "Flow type mode based on web-mode." single ((:commit . "5db3936d9eba8ccb2beca476afc84675b7b161ca") (:url . "https://github.com/an-sh/flow-minor-mode"))])

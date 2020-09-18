@@ -5,6 +5,7 @@
 ;; Author: Olexandr Sydorchuck  <olexandr.syd@gmail.com>
 ;; Version: 0.1.7
 ;; Package-Version: 20151208.2113
+;; Package-Commit: b0f3e7e1a3fe49e88b6eb6432377232fc715f221
 ;; Keywords: html, css, less, auto-complete
 ;; Package-Requires: ((web-completion-data "0.1"))
 ;; URL: https://github.com/osv/ac-html-csswatcher

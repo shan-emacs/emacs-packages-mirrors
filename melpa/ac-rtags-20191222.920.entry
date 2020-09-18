@@ -1,2 +1,2 @@
 
-(ac-rtags . [(20191222 920) ((auto-complete (1 4 0)) (rtags (2 10))) "auto-complete back-end for RTags" single ((:commit . "ed229d2e4070cc07ba76e537e8f5f93835ff0710") (:authors ("Jan Erik Hanssen" . "jhanssen@gmail.com") ("Anders Bakken" . "agbakken@gmail.com")) (:maintainer "Jan Erik Hanssen" . "jhanssen@gmail.com") (:url . "https://github.com/Andersbakken/rtags"))])
+(ac-rtags . [(20191222 920) ((auto-complete (1 4 0)) (rtags (2 10))) "auto-complete back-end for RTags" single ((:commit . "c0637f235e43863b8c52735ad00db2c7cdf93cc0") (:authors ("Jan Erik Hanssen" . "jhanssen@gmail.com") ("Anders Bakken" . "agbakken@gmail.com")) (:maintainer "Jan Erik Hanssen" . "jhanssen@gmail.com") (:url . "https://github.com/Andersbakken/rtags"))])

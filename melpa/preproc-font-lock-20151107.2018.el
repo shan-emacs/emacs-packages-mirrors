@@ -5,6 +5,7 @@
 ;; Author: Anders Lindgren
 ;; Keywords: c, languages, faces
 ;; Package-Version: 20151107.2018
+;; Package-Commit: 565fda9f5fdeb0598986174a07e9fb09f7604397
 ;; Created: 2003-??-??
 ;; Version: 0.0.5
 ;; URL: https://github.com/Lindydancer/preproc-font-lock

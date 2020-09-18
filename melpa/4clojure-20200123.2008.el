@@ -6,6 +6,7 @@
 ;; Maintainer: Sasha Kovar <sasha-git@arcocene.org>
 ;; Keywords: languages, data
 ;; Package-Version: 20200123.2008
+;; Package-Commit: 557eecb5da50fedd92840021c8b08d87dfdc782b
 ;; Version: 0.2.1
 ;; Package-Requires: ((request "0.2.0"))
 ;; Homepage: https://github.com/abend/4clojure.el

@@ -5,6 +5,7 @@
 ;; Author: David Landry <davidlandry93@gmail.com>
 ;; Keywords: helm, ROS
 ;; Package-Version: 20160812.1752
+;; Package-Commit: 92b0b215f6a017f0f57f1af15466cc0b2a5a0135
 ;; Version: 0.1.0
 ;; Package-Requires: ((helm "1.9.9") (xterm-color "1.0") (cl-lib "0.5"))
 ;; URL: https://www.github.com/davidlandry93/helm-ros

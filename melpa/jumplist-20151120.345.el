@@ -6,6 +6,7 @@
 ;; Maintainer: ganmacs <ganmacs_at_gmail.com>
 ;; URL: https://github.com/ganmacs/jumplist
 ;; Package-Version: 20151120.345
+;; Package-Commit: c482d137d95bc5e1bcd790cdbde25b7f729b2502
 ;; Version: 0.0.2
 ;; Package-Requires: ((cl-lib "0.5"))
 ;; Keywords: jumplist vim

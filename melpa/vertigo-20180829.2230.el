@@ -3,6 +3,7 @@
 ;; Author: Fox Kiester <noct@posteo.net>
 ;; URL: https://github.com/noctuid/vertigo.el
 ;; Package-Version: 20180829.2230
+;; Package-Commit: 6303d17270ea92290a6960890bca515274f1682b
 ;; Created: September 18, 2015
 ;; Keywords: vim, vertigo
 ;; Package-Requires: ((dash "2.11.0"))

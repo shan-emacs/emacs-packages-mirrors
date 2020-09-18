@@ -5,6 +5,7 @@
 ;; Author: Sylvain Benner <sylvain.benner@gmail.com>
 ;; Keywords: convenience editing evil
 ;; Package-Version: 20180910.1234
+;; Package-Commit: f4e9116bfbaac8c9d210c17ad488e0982291245f
 ;; Created: 22 Oct 2014
 ;; Version: 3.15
 ;; Package-Requires: ((emacs "24") (evil "1.0.9") (cl-lib "0.5"))

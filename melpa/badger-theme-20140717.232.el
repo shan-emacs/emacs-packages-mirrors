@@ -5,6 +5,7 @@
 ;; Author: Cody Canning <cocanning11@gmail.com>
 ;; URL: https://github.com/ccann/badger-theme
 ;; Package-Version: 20140717.232
+;; Package-Commit: 493d672d5a5478976da7d5ca752008cc7837c57f
 ;; Version: 1.0.0
 
 ;; This program is free software; you can redistribute it and/or modify

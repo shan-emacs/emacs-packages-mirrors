@@ -5,6 +5,7 @@
 ;; Author: yewton
 ;; URL: https://github.com/yewton/sudden-death.el
 ;; Package-Version: 20180217.23
+;; Package-Commit: 791a63d3f4df192e71f4232a9a4c5588f4b43dfb
 ;; Version: 0.2.1
 
 ;; This file is free software; you can redistribute it and/or modify

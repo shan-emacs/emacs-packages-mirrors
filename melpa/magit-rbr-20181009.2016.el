@@ -6,6 +6,7 @@
 ;; Maintainer: Anatoly Fayngelerin <fanatoly+magitrbr@gmail.com>
 ;; Keywords: git magit rbr tools
 ;; Package-Version: 20181009.2016
+;; Package-Commit: 029203b3e48537205052a058e964f058cd802c3c
 ;; Homepage: https://github.com/fanatoly/magit-rbr
 ;; Package-Requires: ((magit "2.13.0") (emacs "24.3"))
 ;; This file is not part of GNU Emacs.

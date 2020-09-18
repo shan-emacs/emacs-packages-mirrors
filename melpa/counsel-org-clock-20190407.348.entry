@@ -1,2 +1,0 @@
-
-(counsel-org-clock . [(20190407 348) ((emacs (24 3)) (ivy (0 10 0)) (dash (2 0))) "Counsel commands for org-clock" single ((:commit . "ddf6b89652e4dbc0be5e8719213e7673c83959f1") (:authors ("Akira Komamura" . "akira.komamura@gmail.com")) (:maintainer "Akira Komamura" . "akira.komamura@gmail.com") (:url . "https://github.com/akirak/counsel-org-clock"))])

@@ -5,6 +5,7 @@
 ;; Author: Nicolas Hafner <shinmera@tymoon.eu>
 ;; URL: http://github.com/shirakumo/markless.el/
 ;; Package-Version: 20190306.1002
+;; Package-Commit: 75fdef45df96978e9326ea4d9bf4e534a250c4c0
 ;; Package-Requires: ((emacs "24.4"))
 ;; Version: 1.0
 ;; Keywords: languages, wp

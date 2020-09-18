@@ -4,6 +4,7 @@
 
 ;; Version: 0.1
 ;; Package-Version: 20160211.1543
+;; Package-Commit: 510b5a3f57ee4b2855422d88d359a28922c1ab70
 ;; Keywords: compilation, ant, java
 
 ;; This file is NOT part of GNU Emacs

@@ -3,6 +3,7 @@
 ;; SPDX-License-Identifier: ISC
 ;; Author: Lassi Kortela <lassi@lassi.io>
 ;; URL: https://github.com/lassik/emacs-ascii-table
+;; Package-Commit: 572b62c8305b8c26082a17e15bc2f53066ddcb5a
 ;; Package-Requires: ((emacs "24.3") (cl-lib "0.5"))
 ;; Package-Version: 20200329.1744
 ;; Package-X-Original-Version: 0.1.0

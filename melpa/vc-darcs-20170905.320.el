@@ -7,6 +7,7 @@
 ;;         Juliusz Chroboczek <jch@pps.univ-paris-diderot.fr>
 ;; Maintainer: Libor Čapák <capak@inputwish.com>
 ;; Keywords: vc
+;; Package-Commit: 390fb1ebdda1ffac45b9be02626dde3b6d95ac11
 ;; Package-Version: 20170905.320
 ;; Package-X-Original-Version: 20170409.1521
 ;; Package-X-Original-Version: 20141122.1326

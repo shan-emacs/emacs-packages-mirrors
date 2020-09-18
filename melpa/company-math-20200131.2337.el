@@ -4,6 +4,7 @@
 ;; Author: Vitalie Spinu <spinuvit@gmail.com>
 ;; URL: https://github.com/vspinu/company-math
 ;; Package-Version: 20200131.2337
+;; Package-Commit: a796053590012e6a15c8b527b521ffc15d137bd0
 ;; Keywords:  Unicode, symbols, completion
 ;; Version: 1.4
 ;; Package-Requires: ((company "0.8.0") (math-symbol-lists "1.3"))

@@ -2,6 +2,7 @@
 
 ;;; Version: 1.0
 ;; Package-Version: 20180429.2010
+;; Package-Commit: 30132cd3fee7d3d91a9f04709d49ca0dcb96d565
 ;;; Author: Sean McAfee
 ;;; Url: https://github.com/grimnebulin/emacs-hmac
 ;;; Package-Requires: ((cl-lib "0.5") (emacs "25"))

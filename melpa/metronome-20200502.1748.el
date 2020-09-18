@@ -4,6 +4,7 @@
 
 ;; Version: 0.1
 ;; Package-Version: 20200502.1748
+;; Package-Commit: 18257ecdd7b3d816104e83a5f0f96e676cc9fbfc
 ;; Package-Requires: ((emacs "25.1"))
 ;; URL: https://gitlab.com/jagrg/metronome
 ;; Author: Jonathan Gregory <jgrg at autistici dot org>

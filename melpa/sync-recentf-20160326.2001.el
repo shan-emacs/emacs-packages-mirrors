@@ -6,6 +6,7 @@
 ;; Created: 24 Mar 2014
 ;; Version: 1.0
 ;; Package-Version: 20160326.2001
+;; Package-Commit: 0052561d5c5b5c2684faedc3eead776aec06c3ed
 ;; Keywords: recentf
 ;; X-URL: https://github.com/ffevotte/sync-recentf
 

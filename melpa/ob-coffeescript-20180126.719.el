@@ -5,6 +5,7 @@
 ;; Author: Brantou <brantou89@gmail.com>
 ;; URL: https://github.com/brantou/ob-coffeescript
 ;; Package-Version: 20180126.719
+;; Package-Commit: 5a5bb04aea9c2a6eab5b05f90f5c7cb6de7b4261
 ;; Keywords: coffee-script, literate programming, reproducible research
 ;; Homepage: http://orgmode.org
 ;; Version:  1.0.0

@@ -6,6 +6,7 @@
 ;;
 ;; Version: 3.0.1
 ;; Package-Version: 20191128.2309
+;; Package-Commit: 36577e72aa4fbfa7f1abad01842359209f543751
 ;; Package-Requires: ((emacs "24"))
 ;; Keywords: convenience
 ;; Maintainer: marcowahlsoft@gmail.com

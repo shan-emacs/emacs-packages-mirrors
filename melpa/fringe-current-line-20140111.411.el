@@ -6,6 +6,7 @@
 ;; Github: http://github.com/kyanagi/fringe-current-line
 ;; URL: http://github.com/kyanagi/fringe-current-line/raw/master/fringe-current-line.el
 ;; Package-Version: 20140111.411
+;; Package-Commit: 0ef000bac76abae30601222e6f06c7d133ab4942
 ;;
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the MIT License.

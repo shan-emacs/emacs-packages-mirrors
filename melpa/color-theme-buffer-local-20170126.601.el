@@ -3,6 +3,7 @@
 ;;; Name: color-theme-buffer-local
 ;;; Version: 0.0.3
 ;; Package-Version: 20170126.601
+;; Package-Commit: e606dec66f16a06140b9aad625a4fd52bca4f936
 ;;; Author: Victor Borja <vic.borja@gmail.com>
 ;;; URL: http://github.com/vic/color-theme-buffer-local
 ;;; Description: Set color-theme by buffer.

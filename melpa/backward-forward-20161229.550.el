@@ -4,6 +4,7 @@
 
 ;; Author: Currell Berry <currellberry@gmail.com>
 ;; Keywords: navigation convenience backward forward
+;; Package-Commit: 58489957a62a0da25dfb5df902624d2548d800b4
 ;; Homepage: https://gitlab.com/vancan1ty/emacs-backward-forward/tree/master
 ;; Version: 0.1
 ;; Package-Version: 20161229.550

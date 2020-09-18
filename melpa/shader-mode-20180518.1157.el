@@ -3,6 +3,7 @@
 ;; Author: midnightSuyama <midnightSuyama@gmail.com>
 ;; URL: https://github.com/midnightSuyama/shader-mode
 ;; Package-Version: 20180518.1157
+;; Package-Commit: d7dc8d0d6fe8914e8b6d5cf2081ad61e6952359c
 ;; Package-Requires: ((emacs "24"))
 ;; Version: 0.2.4
 

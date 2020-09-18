@@ -5,6 +5,7 @@
 ;; Maintainer: Kris Jenkins <krisajenkins@gmail.com>
 ;; Keywords: helm spotify
 ;; Package-Version: 20160905.2147
+;; Package-Commit: f7a62d1ff88e3127de9be7cd3e818b0a92268ab3
 ;; URL: https://github.com/krisajenkins/helm-spotify
 ;; Created: 14th October 2013
 ;; Version: 0.1.1

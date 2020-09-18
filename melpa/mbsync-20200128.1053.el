@@ -5,6 +5,7 @@
 ;; Author: Dimitri Fontaine <dim@tapoueh.org>
 ;; Version: 0.1.2
 ;; Package-Version: 20200128.1053
+;; Package-Commit: d3c81da81ce5b154c0d048047a47277338721a70
 ;; URL: https://github.com/dimitri/mbsync-el
 
 ;; This file is NOT part of GNU Emacs.

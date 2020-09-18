@@ -5,6 +5,7 @@
 ;; Author: Edward O'Connor <ted@oconnor.cx>
 ;; Keywords: comm, processes, tools
 ;; Package-Version: 20140416.1748
+;; Package-Commit: 3b3189a8b201c8d36fed6e61496274e530dd40bd
 
 ;; This file is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

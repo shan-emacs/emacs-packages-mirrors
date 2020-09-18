@@ -6,6 +6,7 @@
 ;; Created:  2014-09-06
 ;; Version: 0.6.0
 ;; Package-Version: 20171016.2140
+;; Package-Commit: 904549c8fd6ac3cf22b5d7111ca8944e179cffea
 ;; Keywords: convenience, editing, tools
 
 ;; This program is free software; you can redistribute it and/or modify

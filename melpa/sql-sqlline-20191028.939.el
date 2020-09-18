@@ -5,6 +5,7 @@
 
 ;; Version: 1.0.1
 ;; Package-Version: 20191028.939
+;; Package-Commit: 990c79b7ebbf8ecb1e1161c9a942973efd8e2833
 ;; Keywords: languages
 ;; Package-Requires: ((emacs "24.4"))
 ;; Homepage: https://gitlab.com/matteo.redaelli/sql-sqlline

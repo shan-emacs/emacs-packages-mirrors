@@ -6,6 +6,7 @@
 
 ;; Version: 0.13.0
 ;; Package-Version: 20191108.615
+;; Package-Commit: f4c763016620a4ddb41698bb8aa02b18e07ac509
 
 ;; Package-Requires: ((kubernetes "0.13.0") (evil "1.2.12"))
 

@@ -5,6 +5,7 @@
 ;; Author: Clément Pit-Claudel <clement.pitclaudel@live.com>
 ;; Version: 0.2.1
 ;; Package-Version: 20200416.307
+;; Package-Commit: eb9baf1d2bf6a073d24ccb717025baa693e98f3e
 ;; Package-Requires: ((emacs "24.3") (let-alist "1.0.4") (seq "1.11") (dash "2.12.1"))
 ;; Keywords: bib, tex, convenience, hypermedia
 ;; URL: https://github.com/cpitclaudel/biblio.el

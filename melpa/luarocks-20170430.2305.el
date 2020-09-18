@@ -5,6 +5,7 @@
 ;; Author: Mario Rodas <marsam@users.noreply.github.com>
 ;; URL: https://github.com/emacs-pe/luarocks.el
 ;; Package-Version: 20170430.2305
+;; Package-Commit: cee27ba0716edf338077387969883226dd2b7484
 ;; Keywords: convenience
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24") (cl-lib "0.5"))

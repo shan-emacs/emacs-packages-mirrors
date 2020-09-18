@@ -6,6 +6,7 @@
 ;; Mantainer: Roman Gonzalez <romanandreg@gmail.com>
 ;; Keywords: paredit, evil
 ;; Package-Version: 20150413.2048
+;; Package-Commit: e058fbdcf9dbf7ad6cc77f0172d7517ef233d55f
 ;;
 ;; This file is NOT part of GNU Emacs.
 ;;

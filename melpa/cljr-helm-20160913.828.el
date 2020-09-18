@@ -5,6 +5,7 @@
 ;; Author   : Phil Jackson <phil@shellarchive.co.uk>
 ;; URL      : https://github.com/philjackson/cljr-helm
 ;; Package-Version: 20160913.828
+;; Package-Commit: f2fc7b698a56e4a44d5dfbc6a55d77a93c0fa9a4
 ;; Version  : 0.9
 ;; Keywords : helm, clojure, refactor
 ;; Package-Requires: ((clj-refactor "0.13.0") (helm-core "1.7.7") (cl-lib "0.5"))

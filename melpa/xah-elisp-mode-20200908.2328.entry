@@ -1,0 +1,2 @@
+
+(xah-elisp-mode . [(20200908 2328) ((emacs (24 3))) "Major mode for editing emacs lisp." single ((:commit . "7f4b09ce5a9f8a8aaccdd0e122a0f6bda9b4c2e9") (:keywords "lisp" "languages") (:authors ("Xah Lee ( http://xahlee.info/ )")) (:maintainer "Xah Lee ( http://xahlee.info/ )") (:url . "http://ergoemacs.org/emacs/xah-elisp-mode.html"))])

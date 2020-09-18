@@ -6,6 +6,7 @@
 ;; Maintainer: Alexey Kutepov <reximkut@gmail.com>
 ;; URL: https://github.com/morganey-lang/morganey-mode
 ;; Package-Version: 20170118.934
+;; Package-Commit: 5cf3870432a2aeb69d373abe63b3be1f325f6d21
 ;; Version: 0.0.1
 ;; Package-Requires: ((emacs "24.4"))
 

@@ -5,6 +5,7 @@
 ;; Author: Peter Vasil <mail@petervasil.net>
 ;; Version: 0.3
 ;; Package-Version: 20171004.2008
+;; Package-Commit: 2269375dfa452b88b5170d1a5d5849ebb2c1e413
 ;; Package-Requires: ((emacs "24") (smex "3.0") (helm "1.7.7"))
 ;; Keywords: convenience
 

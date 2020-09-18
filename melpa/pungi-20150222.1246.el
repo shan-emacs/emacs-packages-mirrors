@@ -5,6 +5,7 @@
 ;; Author: Matthew Russell <matthew.russell@horizon5.org>
 ;; Version: 1.1
 ;; Package-Version: 20150222.1246
+;; Package-Commit: a2d4d439ea371be0b064a12248288903b8a521a0
 ;; Keywords: convenience
 ;; Package-Requires: ((jedi "0.2.0alpha2") (pyvenv "1.5"))
 

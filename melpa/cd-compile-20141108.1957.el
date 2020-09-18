@@ -5,6 +5,7 @@
 ;; Author: Jamie Nicol <jamie@thenicols.net>
 ;; Version: 0.1
 ;; Package-Version: 20141108.1957
+;; Package-Commit: 10284ccae86afda4a37b09ba90acd1e2efedec9f
 
 ;;; Commentary:
 

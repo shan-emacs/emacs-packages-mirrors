@@ -5,6 +5,7 @@
 ;; Author: Mats Lidell <mats.lidell@lidells.se>
 ;; Version: 0.9
 ;; Package-Version: 20190421.1521
+;; Package-Commit: fff970f49c77abfc69e37817f25a939818420971
 ;; Keywords: calendar, swedish, localization
 ;; URL: https://github.com/matsl/sv-kalender-namnsdagar
 

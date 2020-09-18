@@ -5,6 +5,7 @@
 ;; Author: Cody Reichert
 ;; URL: http://github.com/CodyReichert/shakespeare-mode
 ;; Package-Version: 20180704.2138
+;; Package-Commit: c442eeea9d585e1b1fbb8813e33d47feec348a57
 ;; Keywords: shakespeare hamlet lucius julius mode
 ;; Version: DEV
 ;;

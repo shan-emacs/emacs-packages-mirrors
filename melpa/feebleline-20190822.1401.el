@@ -6,6 +6,7 @@
 ;; Author: Benjamin Lindqvist <benjamin.lindqvist@gmail.com>
 ;; Maintainer: Benjamin Lindqvist <benjamin.lindqvist@gmail.com>
 ;; URL: https://github.com/tautologyclub/feebleline
+;; Package-Commit: b2f2db25cac77817bf0c49ea2cea6383556faea0
 ;; Package-Version: 20190822.1401
 ;; Package-X-Original-Version: 2.0
 ;; Version: 2.0

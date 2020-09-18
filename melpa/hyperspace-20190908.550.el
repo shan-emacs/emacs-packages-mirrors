@@ -5,6 +5,7 @@
 ;; Author: Ian Eure <ian@retrospec.tv>
 ;; URL: https://github.com/ieure/hyperspace-el
 ;; Package-Version: 20190908.550
+;; Package-Commit: a7ea085baf4a51cac0513cb57216677722938781
 ;; Version: 0.8.5
 ;; Package-Requires: ((emacs "25") (s "1.12.0"))
 ;; Keywords: tools, convenience

@@ -6,6 +6,7 @@
 ;; Maintainer: 7696122
 ;; Created: Sat Nov  2 12:17:13 2013 (+0900)
 ;; Version: 0.0.4
+;; Package-Commit: b49ca4393d2f3cc6014174950059b36a5cb22949
 ;; Package-Version: 20170401.842
 ;; Package-X-Original-Version: 20150819.907
 ;; Package-Requires: ((evil "1.0.8"))

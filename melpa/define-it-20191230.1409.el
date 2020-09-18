@@ -8,6 +8,7 @@
 ;; Keyword: dictionary explanation search wiki
 ;; Version: 0.2.4
 ;; Package-Version: 20191230.1409
+;; Package-Commit: 4e769b94c4ec81d9c1eac9dda0e22c869a07aa7c
 ;; Package-Requires: ((emacs "25.1") (s "1.12.0") (request "0.3.0") (popup "0.5.3") (pos-tip "0.4.6") (google-translate "0.11.18") (wiki-summary "0.1"))
 ;; URL: https://github.com/jcs090218/define-it
 

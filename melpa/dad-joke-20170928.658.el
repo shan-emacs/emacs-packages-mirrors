@@ -4,6 +4,7 @@
 ;; Author: Dave Pearson <davep@davep.org>
 ;; Version: 1.4
 ;; Package-Version: 20170928.658
+;; Package-Commit: bee47e7b746b403228fa7d7361cb095de19ac9ba
 ;; Keywords: games
 ;; URL: https://github.com/davep/dad-joke.el
 ;; Package-Requires: ((emacs "24"))

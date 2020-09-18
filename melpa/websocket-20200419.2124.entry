@@ -1,2 +1,2 @@
 
-(websocket . [(20200419 2124) ((cl-lib (0 5))) "Emacs WebSocket client and server" single ((:commit . "078f83902c0846c00ed8e3b6c5add7ff9b98d8f9") (:keywords "communication" "websocket" "server") (:authors ("Andrew Hyatt" . "ahyatt@gmail.com")) (:maintainer "Andrew Hyatt" . "ahyatt@gmail.com") (:url . "https://github.com/ahyatt/emacs-websocket"))])
+(websocket . [(20200419 2124) ((cl-lib (0 5))) "Emacs WebSocket client and server" single ((:commit . "55681147816744e05311347ce30b06f037ef24bd") (:keywords "communication" "websocket" "server") (:authors ("Andrew Hyatt" . "ahyatt@gmail.com")) (:maintainer "Andrew Hyatt" . "ahyatt@gmail.com") (:url . "https://github.com/ahyatt/emacs-websocket"))])

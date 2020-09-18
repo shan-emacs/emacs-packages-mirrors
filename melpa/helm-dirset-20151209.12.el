@@ -19,6 +19,7 @@
 
 ;; Version: 0.1.0
 ;; Package-Version: 20151209.12
+;; Package-Commit: eb30810cd26e1ee73d84a863e6b2667700e9aead
 ;; Author: k1LoW (Kenichirou Oyama), <k1lowxb [at] gmail [dot] com> <k1low [at] 101000lab [dot] org>
 ;; Keywords: files, directories
 ;; URL: http://101000lab.org

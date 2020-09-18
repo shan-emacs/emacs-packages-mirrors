@@ -6,6 +6,7 @@
 ;; Homepage: http://github.com/rolandwalker/button-lock
 ;; URL: http://raw.githubusercontent.com/rolandwalker/button-lock/master/button-lock.el
 ;; Package-Version: 20200309.1323
+;; Package-Commit: 9afe0f4d05910b0cccc94cb6d4d880119f3b0528
 ;; Version: 1.0.2
 ;; Last-Updated: 21 Feb 2015
 ;; EmacsWiki: ButtonLockMode

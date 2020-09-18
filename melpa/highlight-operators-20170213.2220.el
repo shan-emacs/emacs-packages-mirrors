@@ -6,6 +6,7 @@
 ;; Maintainer: Jonathan Kotta <jpkotta@gmail.com>
 ;; Version: 0.1
 ;; Package-Version: 20170213.2220
+;; Package-Commit: 7696b43419505d6e3511ad2781f9f1dd3c55ef8c
 
 ;; This file is not part of GNU Emacs.
 

@@ -5,6 +5,7 @@
 ;; Author: Shen Chao <scturtle@gmail.com>
 ;; URL: https://github.com/scturtle/flycheck-ghcmod
 ;; Package-Version: 20150114.632
+;; Package-Commit: 6bb7b7d879f05bbae54e99eb04806c877adf3ccc
 ;; Keywords: convenience languages tools
 ;; Package-Requires: ((flycheck "0.21-cvs1") (dash "2.0"))
 ;; Version: DEV

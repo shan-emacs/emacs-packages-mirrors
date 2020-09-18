@@ -5,6 +5,7 @@
 ;; Author: Dmytro Koval
 ;; URL: https://github.com/dawidof/emacs-monokai-theme
 ;; Package-Version: 20170630.2048
+;; Package-Commit: f342b6afc31f929be0626eca2d696ee9fab78011
 ;; Version: 0.105
 ;; Package-Requires: ((emacs "24"))
 ;; Created with emacs-theme-generator, https://github.com/mswift42/theme-creator.

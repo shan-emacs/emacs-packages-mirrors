@@ -7,6 +7,7 @@
 ;; Created: 25 Feb 2017
 ;; Version: 0.4.0
 ;; Package-Version: 20190831.118
+;; Package-Commit: 75bf6d3310eae24889589a09e96a4a855e1a11c4
 ;; Package-Requires: ((emacs "24.4") (magit "2.10.3") (dash "2.13.0"))
 ;; Keywords: magit git lfs tools vc
 ;; URL: https://github.com/ailrun/magit-lfs

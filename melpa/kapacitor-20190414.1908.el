@@ -5,6 +5,7 @@
 ;; Author: Manoj Kumar Manikchand <manojm.321@gmail.com>
 ;; URL: http://github.com/Manoj321/kapacitor-el
 ;; Package-Version: 20190414.1908
+;; Package-Commit: e3300d8b4017a2f66b0d929cb85bcc7ee2612072
 ;; Keywords: kapacitor, emacs, magit, tools
 ;; Package-Requires: ((emacs "25.1") (magit "2.13.0") (magit-popup "2.12.4"))
 ;; Version: 0.0.1

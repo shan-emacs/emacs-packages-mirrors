@@ -7,6 +7,7 @@
 ;; Created: 2007-09-14
 ;; Keywords: convenience
 ;; Package-Version: 20200507.1529
+;; Package-Commit: f376bdb882047347345d5f0e3ec3fcef63ee93ba
 
 ;; URL: https://github.com/andre-r/centered-cursor-mode.el
 ;; Compatibility: tested with GNU Emacs 24, 26, 27

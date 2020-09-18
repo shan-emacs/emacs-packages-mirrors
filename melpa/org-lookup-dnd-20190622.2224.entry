@@ -1,2 +1,0 @@
-
-(org-lookup-dnd . [(20190622 2224) ((emacs (24 4)) (org-pdfview (0 1))) "Reference the index of a D&D handbook pdf" single ((:commit . "bba86a9b9979bd79e9bfaf4a7b472682b9435490") (:authors ("Malte Lau Petersen" . "maltelau@protonmail.com")) (:maintainer "Malte Lau Petersen" . "maltelau@protonmail.com") (:url . "https://gitlab.com/maltelau/org-lookup-dnd"))])

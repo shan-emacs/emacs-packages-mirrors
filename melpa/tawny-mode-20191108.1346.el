@@ -8,6 +8,7 @@
 ;; Maintainer: Phillip Lord <phillip.lord@newcastle.ac.uk>
 ;; Version: 1.5.0
 ;; Package-Version: 20191108.1346
+;; Package-Commit: 8dfb4f92db2d8598ba809636a82d210c378b4845
 ;; Package-Requires: ((cider "0.12")(emacs "25"))
 
 ;; The contents of this file are subject to the GPL License, Version 3.0.

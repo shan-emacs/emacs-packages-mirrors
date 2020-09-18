@@ -3,6 +3,7 @@
 ;; Author: Nathaniel Flath
 ;; Version: 0.1
 ;; Package-Version: 20111019.2300
+;; Package-Commit: 7499586b6c8224df9f5c5bc4dec96b008258d580
 
 ;; This program is free software; you can redistribute it and/or
 ;; modify it under the terms of the GNU General Public License as

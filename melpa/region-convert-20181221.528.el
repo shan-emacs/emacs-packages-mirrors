@@ -6,6 +6,7 @@
 ;; Created: 19 Nov 2016
 ;; Version: 0.2.0
 ;; Package-Version: 20181221.528
+;; Package-Commit: a50a0828a989fc1788a32946249a3758793156b3
 ;; Package-Requires: ()
 ;; Keywords: region convenience
 ;; Homepage: https://github.com/zonuexe/right-click-context

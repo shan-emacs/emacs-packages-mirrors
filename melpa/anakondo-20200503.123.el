@@ -5,6 +5,7 @@
 ;; Author: Didier A. <didibus@users.noreply.github.com>
 ;; URL: https://github.com/didibus/anakondo
 ;; Package-Version: 20200503.123
+;; Package-Commit: ba6b56c18f2b0ae035b448813b27114d19fb821c
 ;; Version: 0.2.1
 ;; Package-Requires: ((emacs "26.3") (projectile "2.1.0") (clojure-mode "5.11.0"))
 ;; Keywords: clojure, clojurescript, cljc, clj-kondo, completion, languages, tools

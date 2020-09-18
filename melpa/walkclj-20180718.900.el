@@ -6,6 +6,7 @@
 ;; Created: Mi Jul 18 09:39:10 2018 (+0200)
 ;; Version: 0.1.0
 ;; Package-Version: 20180718.900
+;; Package-Commit: 2e54fa813b11d1a87c890cdf117f30165a193024
 ;; Package-Requires: ((emacs "25") (parseclj "0.1.0") (treepy "0.1.0"))
 ;; Last-Updated: Mi Jul 18 10:58:11 2018 (+0200)
 ;;           By: Arne Brasseur

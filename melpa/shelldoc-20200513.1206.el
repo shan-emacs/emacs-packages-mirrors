@@ -3,6 +3,7 @@
 ;; Author: Masahiro Hayashi <mhayashi1120@gmail.com>
 ;; Keywords: applications
 ;; Package-Version: 20200513.1206
+;; Package-Commit: fa69f67b6229fad3f31d936955ca8d1982009b77
 ;; URL: http://github.com/mhayashi1120/Emacs-shelldoc
 ;; Version: 0.1.3
 ;; Package-Requires: ((cl-lib "0.3") (s "1.9.0"))

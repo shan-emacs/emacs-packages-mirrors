@@ -1,2 +1,0 @@
-
-(labburn-theme . [(20200309 1556) nil "A lab color space zenburn theme." single ((:commit . "d11537a2060df7e992217ede8f65d6c11de49458") (:keywords "theme" "zenburn") (:authors ("Johannes Goslar")) (:maintainer "Johannes Goslar") (:url . "https://github.com/ksjogo/labburn-theme"))])

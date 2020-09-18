@@ -5,6 +5,7 @@
 ;; Author: Junpeng Qiu <qjpchmail@gmail.com>
 ;; URL: https://github.com/cute-jumper/ace-jump-helm-line
 ;; Package-Version: 20160918.1836
+;; Package-Commit: 1483055255df3f8ae349f7520f05b1e43ea3ed37
 ;; Keywords: extensions
 ;; Version: 0.4.0
 ;; Package-Requires: ((avy "0.4.0") (helm "1.6.3"))

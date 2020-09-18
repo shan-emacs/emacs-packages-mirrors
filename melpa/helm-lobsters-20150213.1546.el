@@ -5,6 +5,7 @@
 ;; Author: Julien BLANCHARD <julien@sideburns.eu>
 ;; URL: https://github.com/julienXX/helm-lobste.rs
 ;; Package-Version: 20150213.1546
+;; Package-Commit: 53c5b42baf72776dcba891fc3d7cd7d47721e9b0
 ;; Version: 0.10
 ;; Package-Requires: ((helm "1.0") (cl-lib "0.5"))
 

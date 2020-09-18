@@ -5,6 +5,7 @@
 ;; Author: Bernhard Specht <bernhard@specht.net>
 ;; Keywords: lisp
 ;; Package-Version: 20170709.2355
+;; Package-Commit: 92d258e8ec98598d847ecab82903f9224c7c2050
 ;; Version: 0.0.1
 ;; Package-Requires: ((emacs "24.3")(request "0.2.0"))
 

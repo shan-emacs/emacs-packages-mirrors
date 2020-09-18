@@ -5,6 +5,7 @@
 ;; Maintainer: Thomas Hisch <t.hisch@gmail.com>
 ;; URL: https://github.com/thisch/python-cell.el
 ;; Package-Version: 20200314.1147
+;; Package-Commit: 4f0778b05bfb936861449bcb998ed620cd9b31ad
 ;; Version: 1.0
 ;; Package-Requires: ((emacs "25.1"))
 ;; Created: 2013-07-05

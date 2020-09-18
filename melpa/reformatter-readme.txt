@@ -3,9 +3,11 @@ to reformat the current buffer using a command-line program,
 together with an optional minor mode which can apply this command
 automatically on save.
 
-In its initial release it supports only reformatters which read
-from stdin and write to stdout, but a more versatile interface will
-be provided as development continues.
+By default, reformatter.el expects programs to read from stdin and
+write to stdout, and you should prefer this mode of operation where
+possible.  If this isn't possible with your particular formatting
+program, refer to the options for `reformatter-define', and see the
+examples in the package's tests.
 
 As an example, let's define a reformat command that applies the
 "dhall format" command.  We'll assume here that we've already defined a

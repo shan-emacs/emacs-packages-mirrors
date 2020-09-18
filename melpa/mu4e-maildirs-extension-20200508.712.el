@@ -7,6 +7,7 @@
 ;; Filename: mu4e-maildirs-extension.el
 ;; Version: 0.1
 ;; Package-Version: 20200508.712
+;; Package-Commit: 4d2ece2226fa69a0e0bb23517a418145b92bd573
 ;; Author: Andreu Gil Pàmies <agpchil@gmail.com>
 ;; Created: 22-07-2013
 ;; Description: Show mu4e maildirs summary in mu4e-main-view with unread and

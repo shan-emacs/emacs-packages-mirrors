@@ -5,6 +5,7 @@
 ;; Author: Zhang Kai Yu <yeannylam@gmail.com>
 ;; Keywords: korean, roman
 ;; Package-Version: 20150827.2340
+;; Package-Commit: 90402b6ae40383e75d8ba97d66eee93eebf40f70
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

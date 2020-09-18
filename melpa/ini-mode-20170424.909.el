@@ -5,6 +5,7 @@
 ;; Author: Anders Lindgren
 ;; Keywords: languages, faces
 ;; Package-Version: 20170424.909
+;; Package-Commit: 2194cfa2fd13196a37350ec20b3f00dcf6162b7c
 ;; Version: 0.0.6
 ;; Created: 2014-03-19
 ;; URL: https://github.com/Lindydancer/ini-mode

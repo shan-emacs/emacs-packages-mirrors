@@ -4,6 +4,7 @@
 ;; Author: Jay Bosamiya <jaybosamiya@gmail.com>
 ;; URL: https://github.com/jaybosamiya/vale-mode.el
 ;; Package-Version: 20190725.125
+;; Package-Commit: 48bbc4b4ee5bf0b1b73e52705c0fbc112b255cd0
 
 ;; Created: 7 June 2019
 ;; Version: 0.1

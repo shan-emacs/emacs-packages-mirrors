@@ -5,6 +5,7 @@
 ;; Author: Austin Bingham <austin.bingham@gmail.com>
 ;; Version: 0.2
 ;; Package-Version: 20151113.1953
+;; Package-Commit: 775a92bb7b6b0fcc5b38c0b5198a9d0a1bef788a
 ;; URL: https://github.com/abingham/therapy
 ;; Package-Requires: ((emacs "24"))
 ;;

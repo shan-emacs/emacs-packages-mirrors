@@ -4,6 +4,7 @@
 ;; Author: Sod Oscarfono <sod@oscarfono.com>
 ;; URL: https://github.com/techquila/nz-holidays
 ;; Package-Version: 20190415.703
+;; Package-Commit: afc875cf40789fa45a4a811685b0a7c4f239392f
 ;; Version: 0.0.4
 ;; Keywords: calendar
 

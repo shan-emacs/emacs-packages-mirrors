@@ -5,6 +5,7 @@
 ;; Author: Sebastian Weddmark Olsson
 ;; URL: github.com/sebastiw/distel-completion
 ;; Package-Version: 20180827.1344
+;; Package-Commit: acc4c0a5521904203d797fe96b08e5fae4233c7e
 ;; Version: 1.0.0
 ;; Package-Requires: ((distel-completion-lib "1.0.0"))
 ;; Keywords: Erlang Distel company

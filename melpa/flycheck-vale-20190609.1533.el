@@ -4,6 +4,7 @@
 ;; Author: Austin Bingham <austin.bingham@gmail.com>
 ;; Version: 0.1
 ;; Package-Version: 20190609.1533
+;; Package-Commit: f08249535348d046d0974b9c20fe1b7dd3cd2660
 ;; URL: https://github.com/abingham/flycheck-vale
 ;; Package-Requires: ((emacs "24.4") (flycheck "0.22") (let-alist "1.0.4"))
 ;;

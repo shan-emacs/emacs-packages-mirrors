@@ -18,6 +18,7 @@
 ;; Author: Christophe Rhodes <christophe@rhodes.io>
 ;; URL: https://github.com/csrhodes/gift-mode
 ;; Package-Version: 20180530.1235
+;; Package-Commit: b0441ae6e02f343be3b611a2d4b40495ecd932f0
 ;; Version: 0.1
 
 ;;; Commentary:

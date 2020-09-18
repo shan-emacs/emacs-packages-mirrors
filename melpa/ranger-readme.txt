@@ -21,6 +21,8 @@ KNOWN ISSUES
  - current tab
  - history
  - current-file
+ - cloasing last ranger does not clear variables
+ - multiple ranger windows
 
 HISTORY
 

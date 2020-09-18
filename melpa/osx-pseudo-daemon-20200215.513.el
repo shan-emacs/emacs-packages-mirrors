@@ -3,6 +3,7 @@
 ;; Author: Ryan C. Thompson
 ;; URL: https://github.com/DarwinAwardWinner/osx-pseudo-daemon
 ;; Package-Version: 20200215.513
+;; Package-Commit: 703ee41303dc251b7672b7cba5aeb6aa54a76c90
 ;; Version: 2.2
 ;; Created: 2013-09-20
 ;; Keywords: convenience osx

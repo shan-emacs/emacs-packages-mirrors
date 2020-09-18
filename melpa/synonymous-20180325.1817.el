@@ -6,6 +6,7 @@
 ;;         Snippets adapted from FlySpell, authored by Manuel Serrano <Manuel.Serrano@inria.fr>
 ;; URL: http://github.com/toroidal-code/synonymous.el
 ;; Package-Version: 20180325.1817
+;; Package-Commit: 2cb9a674d84fddf3f1b00c9d6b13a853576acb87
 ;; Version: 1.0
 ;; Package-Requires: ((emacs "24") (cl-lib "0.5") (request "0.2.0"))
 ;; Keywords: Utility

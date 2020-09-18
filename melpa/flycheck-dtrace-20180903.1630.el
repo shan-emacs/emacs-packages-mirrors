@@ -5,6 +5,7 @@
 ;; Author: Jürgen Hötzel <juergen@hoetzel.info>
 ;; Keywords: languages, convenience, tools
 ;; Package-Version: 20180903.1630
+;; Package-Commit: 951fab3a15c11d92b9fac1ea4791a80dfe034a00
 ;; Package-Requires: ((emacs "25.1") (flycheck "0.22"))
 
 ;; This file is not part of GNU Emacs.

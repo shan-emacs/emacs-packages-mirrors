@@ -5,6 +5,7 @@
 ;; Author: Roman Scherer <roman@burningswell.com>
 ;; Version: 0.1.1
 ;; Package-Version: 20131217.1512
+;; Package-Commit: 11b5172e081ad8079fc78758bef6f306f82ae32b
 ;; Package-Requires: ((sql "3.0"))
 ;; Keywords: sql hive
 

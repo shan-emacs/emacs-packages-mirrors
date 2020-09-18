@@ -5,6 +5,7 @@
 ;; Author: Andrzej Pronobis
 ;; URL: https://github.com/pronobis/helm-flyspell
 ;; Package-Version: 20170210.1901
+;; Package-Commit: 8d4d947c687cb650cb149aa2271ad5201ea92594
 ;; Keywords: convenience
 ;; Package-Requires: ((helm "1.6.5"))
 

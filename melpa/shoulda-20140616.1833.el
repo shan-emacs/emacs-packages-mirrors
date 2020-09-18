@@ -5,6 +5,7 @@
 ;; Author: Marcwebbie <marcwebbie@gmail.com>
 ;; Version: 0.1
 ;; Package-Version: 20140616.1833
+;; Package-Commit: fbe8eb8efc6cfcca1713283a290882cfcdc8725e
 ;; Keywords: ruby tests shoulda
 ;; Package-Requires: ((cl-lib "0.5"))
 

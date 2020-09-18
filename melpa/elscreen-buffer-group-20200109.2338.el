@@ -6,6 +6,7 @@
 ;;	Author: Ryan C. Thompson
 ;; URL: https://github.com/jeffgran/elscreen-buffer-group
 ;; Package-Version: 20200109.2338
+;; Package-Commit: b48e71d4782adfeb2958f227d78c04164d26e4bd
 ;; Created: 7 Nov 2012
 ;; Keywords: buffer
 ;; Version: 1.0.1

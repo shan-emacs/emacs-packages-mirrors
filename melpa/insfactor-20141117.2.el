@@ -5,6 +5,7 @@
 ;; Author: John D. Hume <duelin.markers@gmail.com>
 ;; URL: http://github.com/duelinmarkers/insfactor.el
 ;; Package-Version: 20141117.2
+;; Package-Commit: 7ef5446cebb08a17d4106d2e6f3c053e49e1e829
 ;; Version: 0.2.0
 ;; Keywords: clojure
 

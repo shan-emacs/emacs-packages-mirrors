@@ -6,6 +6,7 @@
 
 ;; URL: https://github.com/ideasman42/emacs-scroll-on-drag
 ;; Package-Version: 20200411.1050
+;; Package-Commit: 42d96a60a207cd73e7a58111358deb05f084c59e
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "26.2"))
 

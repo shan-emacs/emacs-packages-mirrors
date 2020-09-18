@@ -6,6 +6,7 @@
 ;; Created: 2000-??-??
 ;; Version: 0.1.1
 ;; Package-Version: 20150202.2251
+;; Package-Commit: c7a3afecd470859b2e60aa7c554d6e4d436df7fa
 ;; URL: https://github.com/Lindydancer/multicolumn
 
 ;; This program is free software: you can redistribute it and/or modify

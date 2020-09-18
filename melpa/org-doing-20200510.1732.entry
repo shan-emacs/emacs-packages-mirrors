@@ -1,2 +1,0 @@
-
-(org-doing . [(20200510 1732) nil "Keep track of what you're doing" tar ((:commit . "df916bb13577f4de9d58332453cb8bf51eac37ba") (:keywords "tools" "org") (:authors ("Rudolf Olah")) (:maintainer "Rudolf Olah") (:url . "https://github.com/rudolfolah/org-doing"))])

@@ -3,6 +3,7 @@
 ;; Author: Nik Clayton nik@ngo.org.uk
 ;; URL: http://github.com/nikclayton/ob-html-chrome
 ;; Package-Version: 20181219.1042
+;; Package-Commit: 7af6e4a24ed0aaf67751bdf752c7ca0ba02bb8d4
 ;; Version: 1.1
 ;; Package-Requires: ((emacs "24.4") (f "0.20.0") (s "1.7.0"))
 ;; Keywords: languages, org, org-babel, chrome, html

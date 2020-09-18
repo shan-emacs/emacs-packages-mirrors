@@ -25,7 +25,7 @@ The doom-modeline offers:
 - An indicator for unread emails with mu4e-alert
 - An indicator for unread emails with gnus (basically builtin)
 - An indicator for irc notifications with circe, rcirc or erc.
-- An indicator for buffer position which is compatible with nyan-mode
+- An indicator for buffer position which is compatible with nyan-mode or poke-line
 - An indicator for party parrot
 - An indicator for PDF page number with pdf-tools
 - An indicator for markdown/org preivews with grip
@@ -45,4 +45,4 @@ In `init.el`,
 or
 (use-package doom-modeline
   :ensure t
-  :hook (after-init . doom-modeline-mode))
+  :hook (window-setup . doom-modeline-mode))

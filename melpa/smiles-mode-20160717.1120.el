@@ -3,6 +3,7 @@
 
 ;; Keywords: SMILES
 ;; Package-Version: 20160717.1120
+;; Package-Commit: fbb381758adcb000a0c304be1b797f985f00e2de
 ;; Version: 0.0.1
 ;; Author: John Kitchin [jkitchin@andrew.cmu.edu]
 

@@ -4,7 +4,7 @@ A company back-end for PHP.
           '(lambda ()
             (require 'company-php)
             (company-mode t)
-            (add-to-list 'company-backends 'company-ac-php-backend )))
+            (add-to-list 'company-backends 'company-ac-php-backend)))
 
 Many options available under Help:Customize
 Options specific to ac-php are in

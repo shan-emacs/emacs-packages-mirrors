@@ -1,2 +1,2 @@
 
-(dictionary . [(20191111 446) ((connection (1 11)) (link (1 11))) "Client for rfc2229 dictionary servers" single ((:commit . "c9cad101100975e88873636bfd426b7a19304ebd") (:keywords "interface" "dictionary") (:authors ("Torsten Hilbrich" . "torsten.hilbrich@gmx.net")) (:maintainer "Torsten Hilbrich" . "torsten.hilbrich@gmx.net"))])
+(dictionary . [(20191111 446) ((connection (1 11)) (link (1 11))) "Client for rfc2229 dictionary servers" single ((:commit . "46ee5d9ba15cac7282ed73c8b4c272a969c6159e") (:keywords "interface" "dictionary") (:authors ("Torsten Hilbrich" . "torsten.hilbrich@gmx.net")) (:maintainer "Torsten Hilbrich" . "torsten.hilbrich@gmx.net"))])

@@ -6,6 +6,7 @@
 ;; Created: Thu Sep 10 01:04:58 2013 (-0400)
 ;; Version: 20140914.1533
 ;; Package-Version: 20150315.1100
+;; Package-Commit: 0927d1474049a193f9f366bde5eb1887b9ba20ed
 ;; X-Original-Version: 0.0.3
 ;; URL: https://github.com/juanjux/emacs-professional-theme
 ;; Keywords: theme, light, professional

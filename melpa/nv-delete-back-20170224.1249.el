@@ -5,6 +5,7 @@
 ;; Author: Nicolas Vaughan <n.vaughan [at] oxon.org>
 ;; Keywords: lisp
 ;; Package-Version: 20170224.1249
+;; Package-Commit: b17cb826f14c18c2875d112574edb5e4f46f5296
 ;; Version: 0.0.3
 ;; Package-Requires: ((emacs "24"))
 

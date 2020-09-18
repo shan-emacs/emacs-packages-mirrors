@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/tarsius/morlock
 ;; Keywords: convenience
 ;; Package-Version: 20180318.2023
+;; Package-Commit: b883d48024ddfffebe2d0dd69f5ed54c617f8834
 
 ;; This file is not part of GNU Emacs.
 

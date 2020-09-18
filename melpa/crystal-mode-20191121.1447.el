@@ -6,6 +6,7 @@
 ;;          crystal-lang-tools
 ;; URL: https://github.com/crystal-lang-tools/emacs-crystal-mode
 ;; Package-Version: 20191121.1447
+;; Package-Commit: f9e4db16ff9fdc6a296363aa35d19cfb4926e472
 ;; Created: Tue Jun 23 2015
 ;; Keywords: languages crystal
 ;; Version: 0.2.0

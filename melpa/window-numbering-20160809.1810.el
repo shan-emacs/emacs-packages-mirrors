@@ -5,6 +5,7 @@
 ;; Author: Nikolaj Schumacher <bugs * nschum de>
 ;; Version: 1.1.2
 ;; Package-Version: 20160809.1810
+;; Package-Commit: 10809b3993a97c7b544240bf5d7ce9b1110a1b89
 ;; Keywords: faces, matching
 ;; URL: http://nschum.de/src/emacs/window-numbering-mode/
 ;; Compatibility: GNU Emacs 22.x, GNU Emacs 23.x, GNU Emacs 24.x

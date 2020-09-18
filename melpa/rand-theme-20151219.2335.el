@@ -7,6 +7,7 @@
 ;; Created: Tue Oct 20 22:21:57 2015 (-0700)
 ;; Version: 0.1
 ;; Package-Version: 20151219.2335
+;; Package-Commit: 65a00e5c5150f857aa96803b68f50bc8da0215b7
 ;; Package-Requires: ((cl-lib "0.5"))
 ;; URL: https://github.com/gopar/rand-theme
 ;; Keywords:

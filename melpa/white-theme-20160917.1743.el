@@ -5,6 +5,7 @@
 ;; Author: Anler Hernandez Peral <inbox@anler.me>
 ;; Keywords: color, theme, minimal, basic, simple, white
 ;; Package-Version: 20160917.1743
+;; Package-Commit: e9e6d5b9d43da6eb15e86f5fbc8b1ba83abe8c78
 ;; URL: http://github.com/anler/white-theme.el
 ;; Package-Requires: ((emacs "24"))
 

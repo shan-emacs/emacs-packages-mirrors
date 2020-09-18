@@ -7,6 +7,7 @@
 ;; Created: 2010-6-19
 ;; Version: 1.4
 ;; Package-Version: 20200108.1841
+;; Package-Commit: 79107d1130e8be3e1db4619373b98045b4fd9033
 ;; Last-Updated: 2019-06-28
 ;; URL: https://github.com/bnbeckwith/wc-mode
 ;; Package-Requires: ((emacs "24.1"))

@@ -4,6 +4,7 @@
 
 ;; Version: 1.4
 ;; Package-Version: 20131023.1713
+;; Package-Commit: e6050093c076308184566fa1d1012423d6934773
 ;; Author: Jorgen Schaefer <forcer@forcix.cx>
 ;; URL: https://github.com/jorgenschaefer/winpoint
 ;; Keywords: convenience

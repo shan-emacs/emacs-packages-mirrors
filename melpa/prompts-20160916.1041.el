@@ -17,6 +17,7 @@
 ;; Author: Ben Moon <guiltydolphin@gmail.com>
 ;; URL: https://github.com/guiltydolphin/prompts.el
 ;; Package-Version: 20160916.1041
+;; Package-Commit: 1cd5e732ff2a86b47836eb7252e5b59cd4b6ab26
 ;; Git-Repository: git://github.com/guiltydolphin/prompts.el.git
 ;; Created: 2016-09-12
 ;; Version: 0.1.0

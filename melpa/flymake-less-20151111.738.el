@@ -6,6 +6,7 @@
 ;; Package-Version: 20151111.738
 ;; Package-X-Original-Version: 0
 ;; Keywords: languages
+;; Package-Commit: 32d3c28a9a5c52b82d1741ff9d715013b6498421
 ;; Package-Requires: ((less-css-mode "0.15") (flymake-easy "0.1"))
 
 ;; This program is free software; you can redistribute it and/or modify

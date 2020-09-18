@@ -4,6 +4,7 @@
 ;; Created: 24 Mai 2016
 ;; Version: 0.1.0
 ;; Package-Version: 20170621.1221
+;; Package-Commit: 73b6724e0a26c4528d93768191c8aa59e6bce2e5
 ;; Package-Requires: ((emacs "24.4"))
 ;; Keywords: header-line, mode-line
 ;; URL: https://github.com/ksjogo/mini-header-line

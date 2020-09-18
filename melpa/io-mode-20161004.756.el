@@ -4,6 +4,7 @@
 
 ;; Version: 20100405
 ;; Package-Version: 20161004.756
+;; Package-Commit: fd65ae769093defcf554d6d637eba6e6dfc29f56
 ;; Keywords: languages, io
 ;; Author: Sergei Lebedev <superbobry@gmail.com>
 ;; URL: https://github.com/superbobry/io-mode

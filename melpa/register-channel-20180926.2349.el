@@ -5,6 +5,7 @@
 ;; Author: Yang Zhao <YangZhao11@users.noreply.github.com>
 ;; Keywords: convenience
 ;; Package-Version: 20180926.2349
+;; Package-Commit: 9272923757402d177a0b2deab1d9c3c74601c48e
 
 ;; Permission is hereby granted, free of charge, to any person obtaining a copy
 ;; of this software and associated documentation files (the "Software"), to deal

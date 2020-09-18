@@ -4,6 +4,7 @@
 
 ;; Author: Dimitar Dimitrov <mail.mitko@gmail.com>
 ;; URL: https://github.com/drdv/jemdoc-mode
+;; Package-Commit: 529b4d4681e1198b9892f340fdd6c3f1592a047a
 ;; Package-Version: 20170704.2027
 ;; Package-X-Original-Version: 20170609.1
 ;; Package-Requires: ((emacs "24.3"))

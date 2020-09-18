@@ -23,5 +23,7 @@ Bugs / to-do list
   Just highlight the "x" as a variable binding.
 * Customize fill-column to some acceptable value so that auto-filled
   comments are filled at a standard place > 70.  I use 89 myself.
+* It appears as though some code matches only some of the graphic-character
+  BNF when it should match all graphic chars.
 
 

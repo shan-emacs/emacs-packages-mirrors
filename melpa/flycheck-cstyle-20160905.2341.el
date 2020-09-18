@@ -6,6 +6,7 @@
 ;; Maintainer: Alex Murray <murray.alex@gmail.com>
 ;; URL: https://github.com/alexmurray/flycheck-cstyle
 ;; Package-Version: 20160905.2341
+;; Package-Commit: 207285140a353d08cf1fc450cacab158bc98ba82
 ;; Version: 0.1
 ;; Package-Requires: ((flycheck "0.24") (emacs "24.4"))
 

@@ -5,6 +5,7 @@
 ;; Author: tm8st <tm8st@hotmail.co.jp>
 ;; Version: 0.0.4
 ;; Package-Version: 20130217.1043
+;; Package-Commit: d3e0cbe3f4f5ca311e3298e684901d6fea3ad973
 ;; Keywords: convenience, tools
 
 ;; This file is free software; you can redistribute it and/or modify

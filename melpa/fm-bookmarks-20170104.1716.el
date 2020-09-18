@@ -3,6 +3,7 @@
 ;; Author: Ono Hiroko <azazabc123@gmail.com>
 ;; Keywords: files, convenience
 ;; Package-Version: 20170104.1716
+;; Package-Commit: 11dacfd16a926bfecba96a94c6b13e162c7717f7
 ;; Package-Requires: ((emacs "24.3") (cl-lib "0.5"))
 ;; X-URL: http://github.com/kuanyui/fm-bookmarks.el
 ;; Version: 0.1

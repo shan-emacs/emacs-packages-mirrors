@@ -6,6 +6,7 @@
 ;; Maintainer: Kris Jenkins <krisajenkins@gmail.com>
 ;; Keywords: org babel mongo mongodb
 ;; Package-Version: 20170720.1919
+;; Package-Commit: 371bf19c7c10eab2f86424f8db8ab685997eb5aa
 ;; URL: https://github.com/krisajenkins/ob-mongo
 ;; Created: 17th July 2013
 ;; Version: 0.1.0

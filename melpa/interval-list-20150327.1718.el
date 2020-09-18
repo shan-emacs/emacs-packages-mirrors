@@ -7,6 +7,7 @@
 ;; Created: 7 Dec 2013
 ;; Version: 0.1
 ;; Package-Version: 20150327.1718
+;; Package-Commit: 38af7ecf0a493ad8f487074938a2a115f3531177
 ;; Package-Requires: ((dash "2.4.0") (cl-lib "0.5") (emacs "24.4"))
 ;; Keywords: extensions, data structure
 ;; URL: https://github.com/Fuco1/interval-list

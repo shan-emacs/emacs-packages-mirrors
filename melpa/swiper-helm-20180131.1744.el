@@ -5,6 +5,7 @@
 ;; Author: Oleh Krehel <ohwoeowho@gmail.com>
 ;; URL: https://github.com/abo-abo/swiper-helm
 ;; Package-Version: 20180131.1744
+;; Package-Commit: 93fb6db87bc6a5967898b5fd3286954cc72a0008
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "24.1") (swiper "0.1.0") (helm "1.5.3"))
 ;; Keywords: matching

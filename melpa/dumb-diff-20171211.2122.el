@@ -3,6 +3,7 @@
 ;; Author: jack angers
 ;; Version: 0.1.0
 ;; Package-Version: 20171211.2122
+;; Package-Commit: 1a2331d283049b71a07c1b06b1e0627a950d55f4
 ;; Package-Requires: ((emacs "24.3"))
 ;; Keywords: programming, diff
 

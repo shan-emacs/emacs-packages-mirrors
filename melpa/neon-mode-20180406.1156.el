@@ -6,6 +6,7 @@
 ;; Maintainer: Matúš Goljer <matus.goljer@gmail.com>
 ;; Version: 1.1.0
 ;; Package-Version: 20180406.1156
+;; Package-Commit: 99d15e46beaf1e7d71e39a00cce810df1f33229d
 ;; Created: 26th March 2015
 ;; Keywords: conf
 

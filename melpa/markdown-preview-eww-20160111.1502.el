@@ -5,6 +5,7 @@
 ;; Author: niku <niku@niku.name>
 ;; URL: https://github.com/niku/markdown-preview-eww
 ;; Package-Version: 20160111.1502
+;; Package-Commit: 5853f836425c877c8a956501f0adda137ef1d3b7
 ;; Version: 0.0.1
 ;; Package-Requires: ((emacs "24.4"))
 

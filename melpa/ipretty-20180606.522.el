@@ -5,6 +5,7 @@
 ;; Author: steckerhalter
 ;; URL: https://framagit.org/steckerhalter/ipretty
 ;; Package-Version: 20180606.522
+;; Package-Commit: 042f5cc4e6f81d59115e8335c582bb5c571c2585
 ;; Keywords: pretty-print elisp buffer
 ;; License: GPLv3, see https://framagit.org/ipretty/LICENSE
 

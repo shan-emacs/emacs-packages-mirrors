@@ -5,6 +5,7 @@
 ;; Author: Correl Roush <correl@gmail.com>
 ;; URL: http://github.com/correl/kerl.el/
 ;; Package-Version: 20150424.2005
+;; Package-Commit: 1732ee26213f021bf040919c45ad276aafcaae14
 ;; Version: 0.1
 ;; Created: 2015-04-21
 ;; Keywords: tools

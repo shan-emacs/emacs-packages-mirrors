@@ -5,6 +5,7 @@
 ;; Author: Alessandro Piras <laynor@gmail.com>
 ;; Keywords: tools, convenience
 ;; Package-Version: 20151123.1302
+;; Package-Commit: 500127f0172ac7a1eec627e026b59136580a74ac
 ;; Package-Requires: ((s "1.6.0"))
 ;; Version: 0.2
 

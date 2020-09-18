@@ -1,6 +1,7 @@
 ;;; auto-auto-indent.el --- Indents code as you type
 ;;; Version: 0.1
 ;; Package-Version: 20131106.1903
+;; Package-Commit: 0139378577f936d34b20276af6f022fb457af490
 ;;; Author: sabof
 ;;; URL: https://github.com/sabof/auto-auto-indent
 ;;; Package-Requires: ((es-lib "0.1") (cl-lib "1.0"))

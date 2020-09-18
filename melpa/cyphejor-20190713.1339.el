@@ -5,6 +5,7 @@
 ;; Author: Mark Karpov <markkarpov92@gmail.com>
 ;; URL: https://github.com/mrkkrp/cyphejor
 ;; Package-Version: 20190713.1339
+;; Package-Commit: 763531d077d02a4a45c58332b8a8b8300c090678
 ;; Version: 0.1.2
 ;; Package-Requires: ((emacs "24.4"))
 ;; Keywords: mode-line major-mode

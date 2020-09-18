@@ -5,6 +5,7 @@
 ;; Author: Andreas Stallinger <astallinger@sourcetrail.com>
 ;; Keywords: external, tool
 ;; Package-Version: 20170410.2137
+;; Package-Commit: b8d5557aa565ae979622312576db20515f65f977
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24.4"))
 

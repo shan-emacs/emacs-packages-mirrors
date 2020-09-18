@@ -2,6 +2,7 @@
 
 ;; Author: Fanael Linithien <fanael4@gmail.com>
 ;; URL: https://github.com/Fanael/persistent-scratch
+;; Package-Commit: fd690e138459e0b490f1fda469811a9cbcb34df7
 ;; Package-Version: 20190922.1046
 ;; Package-X-Original-Version: 0.3.4
 ;; Package-Requires: ((emacs "24"))

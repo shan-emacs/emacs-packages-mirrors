@@ -6,6 +6,7 @@
 ;; Created: 2001/01/18
 ;; Keywords: convenience lisp customization keyboard keys
 ;; Package-Version: 20090428.1931
+;; Package-Commit: dff2be9f58d12d8c6a490ad0c1b2b10b55528dc0
 ;; Version: 1.15
 ;; $Revision: 1.15 $ $Date: 2001-11-28 15:22:58-05 $
 

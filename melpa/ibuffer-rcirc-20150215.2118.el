@@ -5,6 +5,7 @@
 ;; Author: Fabián Ezequiel Gallina <fgallina@gnu.org>
 ;; Keywords: buffer, convenience, comm
 ;; Package-Version: 20150215.2118
+;; Package-Commit: 8a4409b1c679d65c819dee4085faf929840e79f8
 ;; Package-Requires: ((cl-lib "0.2"))
 ;; X-URL: https://github.com/fgallina/ibuffer-rcirc
 ;; URL: https://github.com/fgallina/ibuffer-rcirc

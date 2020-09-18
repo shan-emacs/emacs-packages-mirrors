@@ -6,6 +6,7 @@
 ;; Created: 14 March 2010 AM 03:36 JST
 ;; Keywords: convenience emulations frames
 ;; Package-Version: 20130322.414
+;; Package-Commit: 02320f28abb5cae28b3a18f6b9ce93129bdbfc45
 ;; Revision: $Id: f928a049e0d4d960a3962f9b86508dc1d5f66aa1 $
 ;; URL: http://www.emacswiki.org/emacs/download/smooth-scroll.el
 ;; GitHub: http://github.com/k-talo/smooth-scroll.el

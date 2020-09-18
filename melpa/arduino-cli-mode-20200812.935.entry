@@ -1,0 +1,2 @@
+
+(arduino-cli-mode . [(20200812 935) ((emacs (25 1))) "Arduino-CLI command wrapper" single ((:commit . "80c5aa6a29a192f9a9d3ba3d7fb7446b1281051a") (:keywords "extensions" "processes" "arduino") (:authors ("Love Lagerkvist")) (:maintainer "Love Lagerkvist") (:url . "https://github.com/motform/arduino-cli-mode"))])

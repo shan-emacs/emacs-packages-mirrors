@@ -13,6 +13,7 @@
 ;;
 ;; Version: 0.0.1
 ;; Package-Version: 20130527.821
+;; Package-Commit: f2faebf610c917f7091f7ec0cd97645629c4f819
 ;;          See `php-boris-version'
 ;; Keywords: php, commint, repl, boris
 

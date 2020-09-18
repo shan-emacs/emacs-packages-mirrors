@@ -5,6 +5,7 @@
 ;; Author: Alexey Veretennikov <alexey dot veretennikov at gmail dot com>
 ;; Keywords: themes
 ;; Package-Version: 20160117.1321
+;; Package-Commit: db74eefebbc89d3c62575f8f50b319e87b4a3470
 ;; URL: http://github.com/fourier/borland-blue-theme
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24.1"))

@@ -6,6 +6,7 @@
 ;; Author: Tim Visher <tim.visher@gmail.com>
 ;; Package-Requires: ((cl-lib "0.5") (s "1.9.0"))
 ;; Package-Version: 20180105.2154
+;; Package-Commit: a9327150293e370e500ba55bddfe5fc435c6bf9b
 ;; Keywords: org, wp, mediawiki
 ;; Homepage: https://github.com/tomalexander/orgmode-mediawiki
 

@@ -30,6 +30,7 @@
 
 ;; Version: 0.3.1
 ;; Package-Version: 20200208.1423
+;; Package-Commit: a587c423041b2fcb065fd5b6a03b2899b764e462
 ;; Author: Aad Versteden <madnificent@gmail.com>
 ;; Keywords: ember ember.js emberjs
 ;; License: MIT

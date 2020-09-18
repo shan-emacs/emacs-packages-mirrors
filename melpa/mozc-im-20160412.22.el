@@ -5,6 +5,7 @@
 ;; Author: Daisuke Kobayashi <d5884jp@gmail.com>
 ;; Version: 0.1
 ;; Package-Version: 20160412.22
+;; Package-Commit: df614a1076c28a11551fb3e822868bae47e855a5
 ;; Keywords: i18n, extentions
 ;; Package-Requires: ((mozc "0"))
 

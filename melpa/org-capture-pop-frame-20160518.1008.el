@@ -6,6 +6,7 @@
 ;; Author: Feng Shu <tumashu@163.com>
 ;; URL: https://github.com/tumashu/org-capture-pop-frame.git
 ;; Package-Version: 20160518.1008
+;; Package-Commit: b16fd712de62cf0d1f9befd03be6ab5983cb3301
 ;; Version: 0.0.1
 ;; Package-Requires: ((emacs "24.4"))
 

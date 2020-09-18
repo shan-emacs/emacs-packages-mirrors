@@ -5,6 +5,7 @@
 ;; Author: ongaeshi <ongaeshi0621@gmail.com>
 ;; URL: https://github.com/ongaeshi/emacs-vim-region
 ;; Package-Version: 20140329.1624
+;; Package-Commit: 7c4a99ce3678fee40c83ab88e8ad075d2a935fdf
 ;; Version: 0.5
 ;; Package-Requires: ((expand-region "20140127"))
 

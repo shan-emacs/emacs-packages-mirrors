@@ -5,6 +5,7 @@
 ;; Author: Lars Tveito <larstvei@ifi.uio.no>
 ;; URL: http://github.com/larstvei/try
 ;; Package-Version: 20181204.236
+;; Package-Commit: 8831ded1784df43a2bd56c25ad3d0650cdb9df1d
 ;; Created: 13th November 2014
 ;; Keywords: packages
 ;; Version: 0.0.1

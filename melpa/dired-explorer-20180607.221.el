@@ -6,6 +6,7 @@
 ;; Contributions: syohex, Steve Purcell
 ;; Keywords: dired explorer
 ;; Package-Version: 20180607.221
+;; Package-Commit: 3ade0a31b5340271d05e9bf443f2504960f6c6dd
 ;; Package-Requires: ((cl-lib "0.5"))
 ;; Version: 0.6
 ;; for Emacs 24.5.1 - 26.1

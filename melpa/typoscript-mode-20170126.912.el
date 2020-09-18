@@ -7,6 +7,7 @@
 ;; Created: July 2009
 ;; Version: 0.2
 ;; Package-Version: 20170126.912
+;; Package-Commit: 44e7567e921573c4f33c537b827f71fb1f565c32
 ;; Package-Requires: ((emacs "24.4") (use-package "0"))
 ;; Keywords: typo3, typoscript
 ;; URL: https://github.com/ksjogo/typoscript-mode

@@ -5,6 +5,7 @@
 ;; Author: Adam Schwalm <adamschwalm@gmail.com>
 ;; Version: 0.1.0
 ;; Package-Version: 20180809.1612
+;; Package-Commit: c3a7e31564256b9755b1ab9fb40d32ad78cd1ad2
 ;; URL: https://github.com/ALSchwalm/elvish-mode
 ;; Package-Requires: ((emacs "24.3"))
 

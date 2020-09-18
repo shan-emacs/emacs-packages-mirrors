@@ -6,6 +6,7 @@
 ;; Maintainer: Thorsten Jolitz <tjolitz AT gmail DOT com>
 ;; Version: 0.9.1
 ;; Package-Version: 20180619.1819
+;; Package-Commit: 2a5f07417b696cf7541d435c43bafcc64817636b
 ;; Keywords: outlines
 
 ;; This file is not part of GNU Emacs.

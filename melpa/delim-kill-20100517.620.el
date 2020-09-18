@@ -6,6 +6,7 @@
 ;; Created: 2010-05
 ;; Keywords: convenience, languages
 ;; Package-Version: 20100517.620
+;; Package-Commit: 1dbe47344f2d2cbc8c54beedf0cf0bf10fd203c1
 ;; URL: <http://github.com/thomas11/delim-kill/tree/master>
 
 ;; This file is not part of GNU Emacs.

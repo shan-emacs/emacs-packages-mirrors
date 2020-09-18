@@ -5,6 +5,7 @@
 ;; Author: Eric Hansen <hansen.c.eric@gmail.com>
 ;; Version: 1.0.0
 ;; Package-Version: 20160513.853
+;; Package-Commit: 739f26204ad2ba76c25f45e8eab1e5216f7c3518
 ;; Package-Requires: ((helm "1.9.5") (phpunit "0.7.0"))
 ;; Keywords: phpunit helm php
 ;; URL: https://github.com/eric-hansen/phpunit-helm

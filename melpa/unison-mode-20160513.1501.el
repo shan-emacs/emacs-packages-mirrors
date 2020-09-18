@@ -5,6 +5,7 @@
 ;; Author: Karl Fogelmark <karlfogel@gmail.com>
 ;; URL: https://github.com/impaktor/unison-mode
 ;; Package-Version: 20160513.1501
+;; Package-Commit: 0bd6a65c0d12f87fcf7bdff15fe54444959b93bf
 ;; Version: 0.1
 ;; Keywords: symchronization, unison
 

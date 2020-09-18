@@ -5,6 +5,7 @@
 ;; Author: Friedrich Paetzke <f.paetzke@gmail.com>
 ;; URL: http://paetzke.me/project/py-autopep8.el
 ;; Package-Version: 20160925.1052
+;; Package-Commit: 68e12d8788c91c7ec53a68acf1d23adb2ffa4788
 ;; Version: 2016.1
 
 ;;; Commentary:

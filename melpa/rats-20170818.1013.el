@@ -6,6 +6,7 @@
 ;; Created: 2016-03-05
 ;; Version: 0.1.0
 ;; Package-Version: 20170818.1013
+;; Package-Commit: a6d55aebcc54f669c6c6ffedf84364c4097903cc
 ;; Keywords: go
 ;; Package-Requires: ((s "1.10.0") (go-mode "1.3.1") (cl-lib "0.5"))
 

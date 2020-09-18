@@ -2,6 +2,7 @@
 
 ;; URL: https://github.com/VersBinarii/freeradius-mode
 ;; Package-Version: 20190401.1743
+;; Package-Commit: cf8bf0359cf6c77848facbd24b764b3e111b4c2d
 ;; Version: 1.0.0
 ;; Package-Requires: ((emacs "24.4"))
 

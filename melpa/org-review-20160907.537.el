@@ -5,6 +5,7 @@
 ;; Author: Alan Schmitt <alan.schmitt@polytechnique.org>
 ;; URL: https://github.com/brabalan/org-review
 ;; Package-Version: 20160907.537
+;; Package-Commit: 058e75b7f28d2ad2390290fe17a63d98ef5ab763
 ;; Version: 0.3
 ;; Keywords: org review
 

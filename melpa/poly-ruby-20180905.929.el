@@ -28,6 +28,7 @@
 ;; Author: Akinori MUSHA <knu@iDaemons.org>
 ;; URL: https://github.com/knu/poly-ruby.el
 ;; Package-Version: 20180905.929
+;; Package-Commit: 794ebb926ace23e9c1398da934701951432dcea2
 ;; Created: 12 May 2017
 ;; Version: 0.3.1
 ;; Package-Requires: ((emacs "25") (polymode "0.1.2"))

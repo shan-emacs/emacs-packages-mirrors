@@ -7,6 +7,7 @@
 ;; Author: Justin Gordon <justin.gordon@gmail.com>
 ;; Keywords: org, jekyll
 ;; Package-Version: 20180831.1732
+;; Package-Commit: ff7b81733354c2b427293e531bb51647fa84fc88
 ;; Version: 0.1
 
 ;; This is free software; you can redistribute it and/or modify it

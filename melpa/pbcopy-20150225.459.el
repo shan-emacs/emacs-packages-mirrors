@@ -4,6 +4,7 @@
 
 ;; Author: Daniel Nelson
 ;; URL: https://github.com/jkp/pbcopy.el
+;; Package-Commit: 338f7245746b5de1bb96c5cc2b32bfd9b5d83272
 ;; Package-Version: 20150225.459
 ;; Package-X-Original-Version: 0.1.0
 ;; Keywords: mac, osx, pbcopy

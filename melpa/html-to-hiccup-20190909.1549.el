@@ -5,6 +5,7 @@
 ;; Author: Arne Brasseur <arne@arnebrasseur.net>
 ;; URL: https://github.com/plexus/html-to-hiccup
 ;; Package-Version: 20190909.1549
+;; Package-Commit: 50a52e2b0d13d865187acdf775b8203d5003f2f1
 ;; Version: 1.0
 ;; Created: 27 October 2016
 ;; Keywords: HTML Hiccup Clojure

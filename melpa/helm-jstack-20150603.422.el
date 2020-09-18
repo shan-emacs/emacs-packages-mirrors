@@ -5,6 +5,7 @@
 ;; Author: Raghav Kumar Gautam <rgautam@apache.com>
 ;; Keywords: Java, Jps, Jstack, JVM, Emacs, Elisp, Helm
 ;; Package-Version: 20150603.422
+;; Package-Commit: 2064f7215dcf4ccbd6a7b8784223251507746da4
 ;; Package-Requires: ((emacs "24") (helm "1.7.0") (cl-lib "0.5"))
 
 ;; This program is free software; you can redistribute it and/or modify

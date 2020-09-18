@@ -5,6 +5,7 @@
 ;; Author: Johann Klähn <kljohann@gmail.com>
 ;; URL: https://github.com/kljohann/mpv.el
 ;; Package-Version: 20200315.2158
+;; Package-Commit: 2d40c4550558eb1bf35a69446777c4e9cae7a623
 ;; Version: 0.1.0
 ;; Keywords: tools, multimedia
 ;; Package-Requires: ((cl-lib "0.5") (emacs "24") (json "1.3") (org "8.0"))

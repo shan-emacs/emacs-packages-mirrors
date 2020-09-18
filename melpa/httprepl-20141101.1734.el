@@ -3,6 +3,7 @@
 ;; Author: Greg Sexton <gregsexton@gmail.com>
 ;; Version: 1.0
 ;; Package-Version: 20141101.1734
+;; Package-Commit: cfa3693267a8ed1c96a86a126823f37dbfe077d8
 ;; Keywords: http, repl
 ;; URL: https://github.com/gregsexton/httprepl.el
 ;; Package-Requires: ((s "1.9.0") (dash "2.5.0") (emacs "24"))

@@ -6,6 +6,7 @@
 ;; Author: rubikitch <rubikitch@ruby-lang.org>
 ;; Keywords: lisp
 ;; Package-Version: 20170126.1215
+;; Package-Commit: d128becf660fe3f30178eb1b05cd266741f4784a
 ;; URL: http://www.emacswiki.org/cgi-bin/wiki/download/time-ext.el
 
 ;; This file is free software; you can redistribute it and/or modify

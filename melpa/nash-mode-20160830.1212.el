@@ -7,6 +7,7 @@
 ;; Author: Tiago Natel de Moura
 ;; Version: 0.1
 ;; Package-Version: 20160830.1212
+;; Package-Commit: 2cd96535eb7d669a94306183e95ee37333872c1a
 ;; Keywords: nash languages
 ;; URL: https://github.com/tiago4orion/nash-mode.el
 

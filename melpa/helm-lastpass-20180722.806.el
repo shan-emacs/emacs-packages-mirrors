@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/xuchunyang/helm-lastpass
 ;; Package-Requires: ((emacs "25.1") (helm "2.0") (csv "2.1"))
 ;; Package-Version: 20180722.806
+;; Package-Commit: 82e1ffb6ae77d9d9e29c398eb013cd20ce963f77
 ;; Version: 0
 
 ;; This program is free software; you can redistribute it and/or modify

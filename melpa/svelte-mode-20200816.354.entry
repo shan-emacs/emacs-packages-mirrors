@@ -1,0 +1,2 @@
+
+(svelte-mode . [(20200816 354) ((emacs (26 1))) "Emacs major mode for Svelte" single ((:commit . "5db0451429d4bf68f5dd131837faa6eb601a631d") (:keywords "wp" "languages") (:authors ("Leaf" . "leafvocation@gmail.com")) (:maintainer "Leaf" . "leafvocation@gmail.com") (:url . "https://github.com/leafOfTree/svelte-mode"))])

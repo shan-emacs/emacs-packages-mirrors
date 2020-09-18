@@ -3,9 +3,12 @@ of the features of the Doom One theme.
 
 Features offered:
 * Beautiful dark color scheme inspired by the Doom One theme
-* Custom fringe bitmaps for diff-hl, flycheck, and flymake
+* Custom fringe bitmaps for line continuations, visual-line-mode, diff-hl, flycheck, and flymake
 * Custom configuration for neotree
 * Lightweight with no dependencies
+
+To replace default line continuation/line wrap fringe bitmaps:
+(mood-one-theme-arrow-fringe-bmp-enable)
 
 To enable custom configuration for `neotree':
 (eval-after-load 'neotree #'mood-one-theme-neotree-configuration-enable)

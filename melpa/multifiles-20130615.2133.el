@@ -5,6 +5,7 @@
 ;; Author: Magnar Sveen <magnars@gmail.com>
 ;; Keywords: multiple files
 ;; Package-Version: 20130615.2133
+;; Package-Commit: dddfe64b8e1c1cd1f9ccc1f03405477fc0d53897
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

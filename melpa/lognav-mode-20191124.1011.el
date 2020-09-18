@@ -5,6 +5,7 @@
 ;; Author: Shawn Ellis <shawn.ellis17@gmail.com>
 ;; Version: 0.0.8
 ;; Package-Version: 20191124.1011
+;; Package-Commit: 7eb9cd2af5b47116fe475870b41dded55052c14c
 ;; Package-Requires: ((emacs "24.3"))
 ;; URL: https://hg.osdn.net/view/lognav-mode/lognav-mode
 ;; Keywords: log error lognav-mode convenience

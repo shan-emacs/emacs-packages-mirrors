@@ -3,6 +3,7 @@
 ;; Author: ncaq <ncaq@ncaq.net>
 ;; Version: 0.0.0
 ;; Package-Version: 20180401.1427
+;; Package-Commit: cd344b6c2cb6a8fcf061af2c85441644a4e7a006
 ;; Package-Requires: ((emacs "24")(f "0.19.0"))
 ;; URL: https://github.com/ncaq/symbolword-mode
 

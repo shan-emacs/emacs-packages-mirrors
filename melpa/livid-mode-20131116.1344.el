@@ -5,6 +5,7 @@
 ;; Author: Murphy McMahon
 ;; URL: https://github.com/pandeiro/livid-mode
 ;; Package-Version: 20131116.1344
+;; Package-Commit: dfe5212fa64738bc4138bfebf349fbc8bc237c26
 ;; Version: 0.1.0
 ;; Package-Requires: ((skewer-mode "1.5.3") (s "1.8.0"))
 

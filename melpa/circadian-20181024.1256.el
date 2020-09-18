@@ -6,6 +6,7 @@
 ;; Maintainer: Guido Schmidt <git@guidoschmidt.cc>
 ;; URL: https://github.com/GuidoSchmidt/circadian
 ;; Package-Version: 20181024.1256
+;; Package-Commit: 414127acad8e2e0092ca60918e6a7cb89da6e28a
 ;; Version: 0.3.3
 ;; Keywords: themes
 ;; Package-Requires: ((emacs "24.4"))

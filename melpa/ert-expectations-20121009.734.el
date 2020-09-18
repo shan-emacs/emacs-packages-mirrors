@@ -9,6 +9,7 @@
 ;; Created: 2012-09-24 16:20:43
 ;; Version: 0.2
 ;; Package-Version: 20121009.734
+;; Package-Commit: aed70e002c4305b66aed7f6d0d48e9addd2dc1e6
 ;; URL: http://www.emacswiki.org/emacs/download/ert-expectations.el
 ;; Keywords: test unittest ert expectations
 ;; Compatibility: GNU Emacs 24.2.2

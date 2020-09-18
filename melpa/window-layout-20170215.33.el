@@ -5,6 +5,7 @@
 ;; Author: SAKURAI Masashi <m.sakurai atmark kiwanami.net>
 ;; Version: 1.4
 ;; Package-Version: 20170215.33
+;; Package-Commit: cd2e4f967b610c2bbef53182829e47250d027056
 ;; Keywords: window, layout
 
 ;; This program is free software; you can redistribute it and/or modify

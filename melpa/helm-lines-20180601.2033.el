@@ -5,6 +5,7 @@
 ;; Author: @torgeir
 ;; Version: 1.3.0
 ;; Package-Version: 20180601.2033
+;; Package-Commit: 3bfe15a60c6405682085ab289de3eb364624c4e9
 ;; Keywords: files helm ag pt vc git lines complete tools languages
 ;; Package-Requires: ((emacs "24.4") (helm "1.9.8"))
 ;; URL: https://github.com/torgeir/helm-lines.el/

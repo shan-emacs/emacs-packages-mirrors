@@ -5,6 +5,7 @@
 ;; Author: John Louis Del Rosario <john2x@gmail.com>
 ;; URL: https://github.com/john2x/plan9-theme.el
 ;; Package-Version: 20180804.1441
+;; Package-Commit: c2da2fcb241e9800d931a1ff19ecd9fd84d30382
 ;; Version: 0.2
 
 ;; This program is free software; you can redistribute it and/or modify

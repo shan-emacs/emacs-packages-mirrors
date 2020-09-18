@@ -8,6 +8,7 @@
 ;; Keyword: keybindings
 ;; Version: 0.0.2
 ;; Package-Version: 20190517.511
+;; Package-Commit: 35c62dd95c580fad49f84c5270cd69810455fedd
 ;; Package-Requires: ((emacs "24.4"))
 ;; URL: https://github.com/jcs090218/htmltagwrap
 

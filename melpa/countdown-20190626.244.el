@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/xuchunyang/countdown.el
 ;; Package-Requires: ((emacs "25.1") (stream "2.2.4"))
 ;; Package-Version: 20190626.244
+;; Package-Commit: 139dea91fc818d65944aca5f16c9626abbdfbf04
 ;; Keywords: tools
 ;; Version: 0
 

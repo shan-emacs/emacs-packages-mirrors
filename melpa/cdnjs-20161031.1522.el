@@ -5,6 +5,7 @@
 ;; Author: Yasuyuki Oka <yasuyk@gmail.com>
 ;; Version: 0.2.1
 ;; Package-Version: 20161031.1522
+;; Package-Commit: ce19880d3ec3d81e6c665d0b1dfea99cc7a3f908
 ;; URL: https://github.com/yasuyk/cdnjs.el
 ;; Package-Requires: ((dash "2.13.0") (deferred "0.4") (f "0.17.2") (pkg-info "0.5"))
 ;; Keywords: tools

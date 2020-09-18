@@ -5,6 +5,7 @@
 ;; Maintainer: Eric Hansen <hansen.c.eric@gmail.com>
 ;; Keywords: tools convenience comm
 ;; Package-Version: 20170319.1251
+;; Package-Commit: 5aead55b6f8636140945714d8c332b287ab9ef10
 ;; URL: https://github.com/eric-hansen/helm-sql-connect
 ;; Created: 1st March 2017
 ;; Version: 0.0.1

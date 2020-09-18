@@ -5,7 +5,7 @@ found in GNU/Emacs.
 Implements Syntax highlighting, Indentation, Movement, Shell
 interaction, Shell completion, Shell virtualenv support, Shell
 package support, Shell syntax highlighting, Pdb tracking, Symbol
-completion, Skeletons, FFAP, Code Check, Eldoc, Imenu.
+completion, Skeletons, FFAP, Code Check, ElDoc, Imenu.
 
 Syntax highlighting: Fontification of code is provided and supports
 python's triple quoted strings properly.
@@ -187,7 +187,7 @@ running.
 Code check: Check the current file for errors with `python-check'
 using the program defined in `python-check-command'.
 
-Eldoc: returns documentation for object at point by using the
+ElDoc: returns documentation for object at point by using the
 inferior python subprocess to inspect its documentation.  As you
 might guessed you should run `python-shell-send-buffer' from time
 to time to get better results too.

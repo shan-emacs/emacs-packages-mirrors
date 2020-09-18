@@ -5,6 +5,7 @@
 ;; Author: Andrew Myers <am2605@gmail.com>
 ;; URL: https://github.com/am2605/cfml-mode
 ;; Package-Version: 20190617.1130
+;; Package-Commit: b06d7cee2af0ed5d55a94f0db80fc1f429a1829a
 ;; Version: 1.2.0
 ;; Package-Requires: ((emacs "25"))
 

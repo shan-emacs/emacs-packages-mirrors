@@ -5,6 +5,7 @@
 ;; Author: Jason Milkins <jasonm23@gmail.com>
 ;; URL: https://github.com/jasonm23/emacs-select-themes
 ;; Package-Version: 20160221.106
+;; Package-Commit: 236f54287519a3ea6dd7b3992d053e4f4ff5d0fe
 ;; Version: 0.1.3
 
 ;; This program is free software; you can redistribute it and/or modify

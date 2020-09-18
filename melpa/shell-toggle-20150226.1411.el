@@ -9,6 +9,7 @@
 ;;;         Akinori MUSHA <knu@iDaemons.org>
 ;;; URL: https://github.com/knu/shell-toggle.el
 ;; Package-Version: 20150226.1411
+;; Package-Commit: 0d01bd9a780fdb7fe6609c552523f4498649a3b9
 ;;; Version: 1.3.1
 ;;; Keywords: processes
 ;;;

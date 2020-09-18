@@ -6,6 +6,7 @@
 ;; Created: 2017-08-18
 ;; Version: 0.2-pre
 ;; Package-Version: 20190720.1957
+;; Package-Commit: f794e3e619e1f6cad25bbfd5fe019a7e62820bf4
 ;; Keywords: pocket
 ;; Package-Requires: ((emacs "25.1") (request "0.2") (dash "2.13.0") (kv "0.0.19") (s "1.12.0"))
 ;; URL: https://github.com/alphapapa/pocket-lib.el

@@ -6,6 +6,7 @@
 ;; Maintainer: Mariano Montone <marianomontone@gmail.com>
 ;; URL: http://www.github.com/mmontone/template-overlays
 ;; Package-Version: 20180706.1132
+;; Package-Commit: d32db58c044b2aca3720879003f55b1d57208b07
 ;; Version: 0.0.1
 ;; Package-Requires: ((emacs "24.4") (ov "1.0.6"))
 ;; Keywords: faces, convenience, templates, overlays

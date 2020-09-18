@@ -5,6 +5,7 @@
 ;; Author: Oliver Marks <oly@digitaloctave.com>
 ;; URL: https://gitlab.com/olymk2/digitalocean-api
 ;; Package-Version: 20180610.746
+;; Package-Commit: b125c9882eded7d73ec109d152b26625f333440b
 ;; Keywords: Processes tools
 ;; Version: 0.1
 ;; Created 01 July 2018

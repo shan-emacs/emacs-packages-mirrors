@@ -6,6 +6,7 @@
 ;; Created: 2013-08-04
 ;; Keywords: formatting indentation
 ;; Package-Version: 20140714.2149
+;; Package-Commit: 4669115f02d9c6fee067cc5369bb38c0f9db88b2
 ;; Version: 0.2.0
 
 ;; This file is not part of GNU Emacs.

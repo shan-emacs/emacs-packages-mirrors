@@ -6,6 +6,7 @@
 ;; Created: 21 August 2013
 ;; Version: 0.4
 ;; Package-Version: 20170814.1321
+;; Package-Commit: f5dbd2d3e5e62e6b7e7cc1a98fc4d0cd411e5afa
 ;; Package-Requires: ((dash "1.2.0") (s "1.11.0"))
 
 ;;; Commentary:

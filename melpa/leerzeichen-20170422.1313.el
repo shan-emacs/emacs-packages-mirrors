@@ -5,6 +5,7 @@
 ;; Author: Felix Geller <fgeller@gmail.com>
 ;; Keywords: whitespace characters
 ;; Package-Version: 20170422.1313
+;; Package-Commit: 5acf9855ecb2b2cd5da4402bb48df149e7525cc5
 ;; URL: http://github.com/fgeller/leerzeichen.el
 
 ;; This file is not part of GNU Emacs.

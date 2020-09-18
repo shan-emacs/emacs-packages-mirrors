@@ -5,6 +5,7 @@
 ;; Author: Syohei YOSHIDA <syohex@gmail.com>
 ;; URL: https://github.com/syohex/emacs-helm-ack
 ;; Package-Version: 20141030.1226
+;; Package-Commit: 889bc225318d14c6e3be80e73b1d9d6fb30e48c3
 ;; Version: 0.13
 ;; Package-Requires: ((helm "1.0") (cl-lib "0.5"))
 

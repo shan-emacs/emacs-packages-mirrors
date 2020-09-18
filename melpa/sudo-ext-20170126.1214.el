@@ -6,6 +6,7 @@
 ;; Author: rubikitch <rubikitch@ruby-lang.org>
 ;; Keywords: unix
 ;; Package-Version: 20170126.1214
+;; Package-Commit: 9d4580f304121ce7b8104bd4bd3b64e4dfa3c9b3
 ;; URL: http://www.emacswiki.org/cgi-bin/wiki/download/sudo-ext.el
 
 ;; This file is free software; you can redistribute it and/or modify

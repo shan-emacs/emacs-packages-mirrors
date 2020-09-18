@@ -5,6 +5,7 @@
 ;; Author: Christopher Shea <cmshea@gmail.com>
 ;; Version: 0.1.1
 ;; Package-Version: 20160816.1421
+;; Package-Commit: 7a0743e0d31bcb36ab1bb2e351f3e7139c422ac5
 ;; Keywords: anybar
 
 ;; This Source Code Form is subject to the terms of the Mozilla Public

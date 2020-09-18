@@ -4,6 +4,7 @@
 ;; author: chee <chee@snake.dog>
 ;; keywords: lisp, helm, popup, frame
 ;; Package-Version: 20180604.1005
+;; Package-Commit: 485e2a534b0de5e8dbeb144a9a60ceca00215a4a
 ;; version: 0.4.8
 ;; package-requires: ((emacs "24.4"))
 

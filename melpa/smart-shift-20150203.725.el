@@ -6,6 +6,7 @@
 ;; Maintainer: Bin Huang <huangbin88@foxmail.com>
 ;; URL: https://github.com/hbin/smart-shift
 ;; Package-Version: 20150203.725
+;; Package-Commit: a26ab2b240137e62ec4bce1698ed9c5f7b6d13ae
 ;; Created: 5th Jun 2014
 ;; Version: 0.3
 ;; Keywords: convenience, tools

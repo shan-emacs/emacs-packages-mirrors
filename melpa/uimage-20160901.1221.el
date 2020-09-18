@@ -5,6 +5,7 @@
 ;; Author: DarkSun <lujun9972@gmail.com>
 ;; Keywords: lisp, url, image
 ;; Package-Version: 20160901.1221
+;; Package-Commit: 9893d09160ef7e8c0ecdcd74fca99ffeb5f9d70d
 
 ;; This file is NOT part of GNU Emacs.
 

@@ -5,6 +5,7 @@
 ;; Author: Valentin Ignatev <valentignatev@gmail.com>
 ;; URL: https://github.com/valignatev/heaven-and-hell
 ;; Package-Version: 20190713.1830
+;; Package-Commit: e1febfd60d060c110a1e43c5f093cd8537251308
 ;; Version: 0.0.1
 ;; Package-Requires: ((emacs "24.4"))
 ;; Keywords: faces

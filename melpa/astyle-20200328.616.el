@@ -5,6 +5,7 @@
 ;; Author: Petter Storvik
 ;; URL: https://github.com/storvik/emacs-astyle
 ;; Package-Version: 20200328.616
+;; Package-Commit: 04ff2941f08c4b731fe6a18ee1697436d1ca1cc0
 ;; Version: 0.1.0
 ;; Created: 2019-03-16
 ;; Package-Requires: ((emacs "24.4") (reformatter "0.3"))

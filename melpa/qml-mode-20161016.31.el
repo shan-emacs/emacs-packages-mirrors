@@ -7,6 +7,7 @@
 ;; Author: Yen-Chin Lee <coldnew.tw@gmail.com>
 ;; URL: https://github.com/coldnew/qml-mode
 ;; Package-Version: 20161016.31
+;; Package-Commit: 6c5f33ba88ae010bf201a80ee8095e20a724558c
 ;; Version: 0.4
 ;; Keywords: qml, qt, qt declarative
 

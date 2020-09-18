@@ -5,6 +5,7 @@
 ;; Author: Kirill Ignatiev <github.com/ikirill>
 ;; Version: 0.1
 ;; Package-Version: 20150113.2211
+;; Package-Commit: 0b461ef4754a469610dba71874a34b6da42176bf
 ;; Keywords: faces
 ;; URL: https://github.com/ikirill/propfont-mixed
 ;; Package-Requires: ((emacs "24") (cl-lib "0.5"))

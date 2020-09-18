@@ -7,6 +7,7 @@
 ;;         Erik Timan <dev@timan.info>
 ;; URL: http://github.com/olcai/occidental-theme
 ;; Package-Version: 20130312.1958
+;; Package-Commit: fd2db7256d4f78c43d99c3cddb1c39106d479816
 ;; Version: 1.0
 
 ;; This file is NOT part of GNU Emacs.

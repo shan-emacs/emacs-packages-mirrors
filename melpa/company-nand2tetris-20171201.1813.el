@@ -8,6 +8,7 @@
 
 ;; Keywords: nand2tetris, hdl, company
 ;; Package-Version: 20171201.1813
+;; Package-Commit: 33acee34d24b1c6a87db833b7d23449cf858f64f
 ;; Homepage: http://www.github.com/CestDiego/nand2tetris.el/
 ;; Version: 1.1.0
 ;; Package-Requires: ((nand2tetris "1.1.0") (company "0.5") (cl-lib "0.5.0"))

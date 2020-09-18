@@ -3,6 +3,7 @@
 ;; Author: Oleh Krehel <ohwoeowho@gmail.com>
 ;; URL: https://github.com/abo-abo/auto-yasnippet
 ;; Package-Version: 20191015.942
+;; Package-Commit: db9e0dd4335b2202cd5dac95bbbc87a1032d9bbe
 ;; Version: 0.3
 ;; Package-Requires: ((yasnippet "0.13.0"))
 

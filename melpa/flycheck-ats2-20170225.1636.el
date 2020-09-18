@@ -5,6 +5,7 @@
 ;; Author: Mark Laws <mdl@60hz.org>
 ;; URL: http://github.com/drvink/flycheck-ats2
 ;; Package-Version: 20170225.1636
+;; Package-Commit: 9f77add8408462af35bdddf87e37a661880255e3
 ;; Keywords: convenience, tools, languages
 ;; Version: 1.0
 ;; Package-Requires: ((emacs "24.1") (flycheck "0.22"))

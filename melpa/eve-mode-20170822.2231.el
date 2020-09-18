@@ -6,6 +6,7 @@
 ;; Modified: 22 Aug 2017
 ;; Version: 0.1.3
 ;; Package-Version: 20170822.2231
+;; Package-Commit: a4661114d9c18725691b76321d72167ca5a9070a
 ;; Package-Requires: ((emacs "25") (polymode "1.0") (markdown-mode "2.0"))
 ;; Keywords: languages wp tools
 ;; URL: https://github.com/witheve/emacs-eve-mode

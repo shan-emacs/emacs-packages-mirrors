@@ -4,6 +4,7 @@
 
 ;; Author: Lowe Thiderman <lowe.thiderman@gmail.com>
 ;; URL: https://github.com/thiderman/makefile-executor.el
+;; Package-Commit: 9a7d78f814a4b372d8f8179819cb1b37b83b1973
 ;; Package-Version: 20180720.832
 ;; Package-X-Original-Version: 20170613
 ;; Version: 0.1.0

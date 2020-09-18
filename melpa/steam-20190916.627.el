@@ -6,6 +6,7 @@
 ;; Author: Erik Sjöstrand
 ;; URL: http://github.com/Kungsgeten/steam.el
 ;; Package-Version: 20190916.627
+;; Package-Commit: f32951f4e0a4bc92813d0121d9df0257101b8992
 ;; Version: 1.00
 ;; Keywords: games
 ;; Package-Requires: ((cl-lib "0.5"))

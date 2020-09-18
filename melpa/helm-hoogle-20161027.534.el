@@ -6,6 +6,7 @@
 ;; Created: 13 Jan 2013
 ;; Version: 1.0
 ;; Package-Version: 20161027.534
+;; Package-Commit: 73969a9d46d2121a849a01a9f7ed3636d01f7bbc
 ;; Keywords: haskell programming hoogle
 ;; X-URL: https://github.com/jwiegley/haskell-config
 ;; Package-Requires: ((helm "1.6.2") (emacs "24.4"))

@@ -5,6 +5,7 @@
 ;; Author: Ole Arndt <anwyn@sugarshark.com>
 ;; Keywords: convenience, lisp, abbrev
 ;; Package-Version: 20200424.1045
+;; Package-Commit: cec203c45ebd678b05341d1cdbe420ad07a1b8e0
 ;; Version: 1.3
 ;; Package-Requires: ((emacs "24.4") (slime "2.13") (company "0.9.0"))
 ;;

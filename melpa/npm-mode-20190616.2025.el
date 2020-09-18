@@ -2,6 +2,7 @@
 
 ;; Version: 0.6.0
 ;; Package-Version: 20190616.2025
+;; Package-Commit: 3ee7c0bad5b7a041d4739ef3aaa06a3dc764e5eb
 ;; Author: Allen Gooch <allen.gooch@gmail.com>
 ;; Url: https://github.com/mojochao/npm-mode
 ;; Keywords: convenience, project, javascript, node, npm

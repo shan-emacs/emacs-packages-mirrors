@@ -5,6 +5,7 @@
 ;; Author: Xah Lee ( http://xahlee.info/ )
 ;; Version: 4.3.20190314133732
 ;; Package-Version: 20190314.2039
+;; Package-Commit: a39f1ff9a7cf56e92b56c6f179741569b9172a48
 ;; Created: 02 April 2012
 ;; Package-Requires: ((emacs "24.1"))
 ;; Keywords: convenience, extensions, files, tools, unix

@@ -5,6 +5,7 @@
 ;; Author: Artur Malabarba <bruce.connor.am@gmail.com>
 ;; URL: http://github.com/Bruce-Connor/gmail-message-mode
 ;; Package-Version: 20160627.1847
+;; Package-Commit: ec36672a9dc93c09ebe2f77597b498d11883d008
 ;; Version: 1.4
 ;; Package-Requires: ((ham-mode "1.0"))
 ;; Keywords: mail convenience emulation

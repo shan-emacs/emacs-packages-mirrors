@@ -5,6 +5,7 @@
 ;; Author: Felipe Lema <felipelema@mortemale.org>
 ;; Keywords: convenience, matching, tools
 ;; Package-Version: 20200520.1816
+;; Package-Commit: f3c93828ab08895bf7eac8a2d3bfd949303a6d1f
 ;; Package-Requires: ((emacs "26.1"))
 ;; URL: https://launchpad.net/global-tags.el
 ;; Version: 0.1

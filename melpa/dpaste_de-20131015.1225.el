@@ -6,6 +6,7 @@
 ;; Created: 18 Mar 2013
 ;; Version: 0.2
 ;; Package-Version: 20131015.1225
+;; Package-Commit: f0c39e8864299f735642f7d9fa490689398ce39d
 ;; Package-Requires: ((web "0.3.7"))
 ;; Keywords: pastebin
 

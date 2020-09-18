@@ -6,6 +6,7 @@
 ;;	Pavel Matcula <dev.plvlml@gmail.com>
 ;; URL:      https://github.com/dgutov/highlight-escape-sequences
 ;; Package-Version: 20171117.1237
+;; Package-Commit: 08d846a7aa748209d65fecead2b6a766c3e5cb41
 ;; Keywords: convenience
 ;; Version:  0.4
 

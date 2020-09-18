@@ -5,6 +5,7 @@
 ;; Author: gucong <gucong43216@gmail.com>
 ;; Version: 0.1.0
 ;; Package-Version: 20170807.2128
+;; Package-Commit: b56815bbb163d642e97fa73093b5a7e87cc32574
 ;; Url: https://github.com/gucong/emacs-chinese-conv
 ;; Package-Requires: ((cl-lib "0.5"))
 

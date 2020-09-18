@@ -11,6 +11,7 @@
 ;; Created: 2004
 ;; Version: 1.0.3
 ;; Package-Version: 20170801.151
+;; Package-Commit: d41722de646ffeb3f70d26e4a86a5a1ba5c6be87
 ;; Last-Updated: 2014-11-06 21:24:03
 ;;           By: Nik Nyby
 ;; URL: https://github.com/nikolas/window-number

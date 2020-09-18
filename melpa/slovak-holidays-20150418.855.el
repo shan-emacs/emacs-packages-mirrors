@@ -6,6 +6,7 @@
 ;; Maintainer: Matúš Goljer <matus.goljer@gmail.com>
 ;; Version: 0.0.1
 ;; Package-Version: 20150418.855
+;; Package-Commit: effb16dfcd14797bf7448f5113085479db339c02
 ;; Created: 10th September 2014
 ;; Keywords: calendar
 

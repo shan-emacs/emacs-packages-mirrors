@@ -1,5 +1,6 @@
 ;;; cmm-mode.el --- Major mode for C-- source code
 ;; Package-Version: 20150225.746
+;; Package-Commit: c3ad514dff3eb30434f6b20d953276d4c00de1ee
 
 ;; Copyright (c) 2012, Johan Tibell
 ;; All rights reserved.

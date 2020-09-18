@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/chmouel/openstack-cgit-browse-file
 ;; Version: 0.1
 ;; Package-Version: 20130819.927
+;; Package-Commit: 244219288b9aef41155044697bb114b7af83ab8f
 ;; Keywords: convenience vc git cgit gerrit openstack
 
 ;;; Installation:

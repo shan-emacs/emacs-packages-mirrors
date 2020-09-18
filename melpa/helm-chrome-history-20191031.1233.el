@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/xuchunyang/helm-chrome-history
 ;; Package-Requires: ((emacs "25.1") (helm-core "3.0"))
 ;; Package-Version: 20191031.1233
+;; Package-Commit: f9002d4c12df65a99830376b126dbbeae3ef2148
 ;; Keywords: tools
 ;; Version: 0
 

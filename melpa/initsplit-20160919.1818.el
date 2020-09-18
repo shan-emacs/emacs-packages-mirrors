@@ -9,6 +9,7 @@
 ;; Updated:  18 Mar 2015
 ;; Version: 1.8
 ;; Package-Version: 20160919.1818
+;; Package-Commit: c941d436eb2b10b01c76a582c5a2b23fb30751aa
 ;; Keywords: lisp
 ;; X-URL: http://www.gci-net.com/users/j/johnw/emacs.html
 

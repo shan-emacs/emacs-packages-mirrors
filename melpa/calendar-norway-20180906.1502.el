@@ -5,6 +5,7 @@
 ;; Author: Kevin Brubeck Unhammer <unhammer@fsfe.org>
 ;; Version: 0.9.4
 ;; Package-Version: 20180906.1502
+;; Package-Commit: 8d1fda8268caa74ba5e712c7675ed3c34e46e2d4
 ;; Keywords: calendar norwegian localization
 
 ;; Based on http://bigwalter.net/daniel/elisp/sv-kalender.el v.1.8

@@ -2,6 +2,7 @@
 ;; Author: Nick Parker
 ;; Version: 1.0.1
 ;; Package-Version: 20120622.1437
+;; Package-Commit: a7226cbce0bca2501d69a620cb2aeabfc396c232
 ;;
 ;; Ported theme to Emacs 24 color theme Nick Parker <nickp@developernotes.com>
 ;; original from https://github.com/irfn/zen-and-art

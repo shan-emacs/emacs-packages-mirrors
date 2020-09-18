@@ -2,6 +2,7 @@
 
 ;; Version: 0.4
 ;; Package-Version: 20200417.301
+;; Package-Commit: fd4cb7035ff649378cc968b1ec2c386b5c565706
 ;; This file is not part of GNU Emacs.
 
 ;; Copyright (C) 2016-2017 Zachary Kanfer

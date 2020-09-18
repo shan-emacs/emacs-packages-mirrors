@@ -23,7 +23,7 @@
 
             <div class="container">
 <h2 class="package">relint</h2><dl><dt>Description</dt><dd>Elisp regexp mistake finder</dd>
-<dt>Latest</dt> <dd><a href="relint-1.17.tar">relint-1.17.tar</a>, 2020-May-10,  190&nbsp;KiB</dd>
+<dt>Latest</dt> <dd><a href="relint-1.18.tar">relint-1.18.tar</a>, 2020-Jun-20,  190&nbsp;KiB</dd>
 <dt>Home page</dt> <dd><a href="https://github.com/mattiase/relint">https://github.com/mattiase/relint</a></dd>
 <dt>Browse ELPA's repository</dt> <dd><a href="http://git.savannah.gnu.org/cgit/emacs/elpa.git/?h=externals/relint">CGit</a> or <a href="http://git.savannah.gnu.org/gitweb/?p=emacs/elpa.git;a=shortlog;h=refs/heads/externals/relint">Gitweb</a></dd>
 </dl><p>To install this package, run in Emacs:</p>
@@ -244,6 +244,23 @@ skip-syntax-backward.
     In general, A?, where A matches the empty string, can be
     simplified to just A.
 
+  - Ineffective string escape '\X'
+
+    A backslash precedes a character that does not need escaping in a
+    string literal (any string, not just regexps), like in "hot\-dog".
+
+    If the backslash should be part of the string then it probably
+    needs to be doubled; otherwise, it is pointless and should be
+    removed to avoid confusion.
+
+    In Emacs versions older than 27.1, a left round or square bracket,
+    '(' or '[', at the very start of a line in a multi-line string
+    could sometimes fool the Emacs-Lisp mode into believing it to be
+    the start of a function, thus people sometimes precede such
+    brackets with an otherwise unnecessary backslash. However, there
+    is usually no reason to put backslashes before brackets in strings
+    in general.
+
   - Suspect range '+-X' or 'X-+'
 
     A character range with '+' as one of its endpoints is more often an
@@ -375,6 +392,7 @@ skip-syntax-backward.
 
 </pre>
 <h2>Old versions</h2><table>
+<tr><td><a href="relint-1.17.tar">relint-1.17.tar</a></td><td>2020-May-10</td><td> 190&nbsp;KiB</td>
 <tr><td><a href="relint-1.16.tar">relint-1.16.tar</a></td><td>2020-May-03</td><td> 180&nbsp;KiB</td>
 <tr><td><a href="relint-1.15.tar">relint-1.15.tar</a></td><td>2020-Mar-05</td><td> 170&nbsp;KiB</td>
 <tr><td><a href="relint-1.14.tar">relint-1.14.tar</a></td><td>2020-Mar-01</td><td> 150&nbsp;KiB</td>
@@ -389,6 +407,10 @@ skip-syntax-backward.
 <tr><td><a href="relint-1.5.el">relint-1.5.el</a></td><td>2019-Mar-26</td><td>40.2&nbsp;KiB</td>
 </table>
 <h2>News</h2><pre>
+Version 1.18:
+- New check for ineffective backslashes in all strings (not just regexps)
+- Warnings emitted in order of their position in file or buffer
+- Performance improvements
 Version 1.17:
 - Fixed message display on Emacs 26
 Version 1.16:

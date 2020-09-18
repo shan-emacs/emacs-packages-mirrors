@@ -5,6 +5,7 @@
 ;; Author: Juan Karlo Licudine <accidentalrebel@gmail.com>
 ;; URL: http://www.github.com/accidentalrebel/emacs-dokuwiki
 ;; Package-Version: 20180102.59
+;; Package-Commit: 594c4d4904dcc2796bbbd2c0845d9e7c09ccf6f7
 ;; Version: 1.0.0
 ;; Keywords: convenience
 ;; Package-Requires: ((emacs "24.3") (xml-rpc "1.6.8"))

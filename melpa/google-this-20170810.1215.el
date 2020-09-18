@@ -5,6 +5,7 @@
 ;; Author: Artur Malabarba <bruce.connor.am@gmail.com>
 ;; URL: http://github.com/Malabarba/emacs-google-this
 ;; Package-Version: 20170810.1215
+;; Package-Commit: 8a2e3ca5da6a8c89bfe99a21486c6c7db125dc84
 ;; Version: 1.10
 ;; Package-Requires: ((emacs "24.1"))
 ;; Keywords: convenience hypermedia

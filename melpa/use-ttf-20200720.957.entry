@@ -1,0 +1,2 @@
+
+(use-ttf . [(20200720 957) ((emacs (24 4)) (s (1 12 0))) "Keep font consistency across different OSs" single ((:commit . "e09f7d08b462984da6bf53b523b4fcd6826a6a5d") (:authors ("Shen, Jen-Chieh" . "jcs090218@gmail.com")) (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com") (:url . "https://github.com/jcs-elpa/use-ttf"))])

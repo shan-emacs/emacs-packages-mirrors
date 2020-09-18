@@ -5,6 +5,7 @@
 ;; Author: Zhang Kai Yu <yeannylam@gmail.com>
 ;; Keywords: scratch
 ;; Package-Version: 20151006.416
+;; Package-Commit: 9441afe6396ca38f08029123fab5d87429cbf315
 ;; Package-Requires: ((dash "2.11.0") (f "0.17.0"))
 
 ;; This program is free software; you can redistribute it and/or modify

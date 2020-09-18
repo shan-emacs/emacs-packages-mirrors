@@ -8,6 +8,7 @@
 ;; Maintainer: friedman@splode.com
 ;; Version: 1.2
 ;; Package-Version: 20120904.2042
+;; Package-Commit: 812e27409d01c38d74906a1816640506d6e7e3ef
 ;; Keywords: unix, comm
 ;; Created: 1996-07-03
 

@@ -5,6 +5,7 @@
 ;; Author:  <nuckollsp at gmail.com>
 ;; Version: 0.1
 ;; Package-Version: 20200123.2045
+;; Package-Commit: 4373f930ab1a8d3a2a90e68540967702313b2ce9
 ;; URL: https://github.com/yourfin/evil-better-visual-line
 ;; Package-Requires: ((evil "1.2.13"))
 ;; Keywords: evil, vim, motion

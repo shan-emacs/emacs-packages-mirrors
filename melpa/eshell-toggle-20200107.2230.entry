@@ -1,2 +1,0 @@
-
-(eshell-toggle . [(20200107 2230) ((emacs (25 1)) (dash (2 11 0))) "Show/hide eshell under active window." single ((:commit . "ddfbe0a693497c4d4bc5494a19970ba4f6ab9033") (:keywords "processes") (:authors ("Dmitry Cherkassov" . "dcherkassov@gmail.com")) (:maintainer "Dmitry Cherkassov" . "dcherkassov@gmail.com") (:url . "https://github.com/4da/eshell-toggle"))])

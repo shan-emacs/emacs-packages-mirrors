@@ -5,6 +5,7 @@
 ;; Authors: Valeriy Savchenko <sinmipt@gmail.com>
 ;; URL: http://github.com/SavchenkoValeriy/emacs-chocolate-theme
 ;; Package-Version: 20191021.1346
+;; Package-Commit: 1c6cd8d2fdc939bd4d26117d61e57c11cfe26512
 ;; Version: 0.2.0
 ;; Package-Requires: ((emacs "24.1") (autothemer "0.2"))
 

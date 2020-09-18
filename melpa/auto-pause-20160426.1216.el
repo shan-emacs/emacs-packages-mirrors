@@ -6,6 +6,7 @@
 ;; Created: 2016-02-23
 ;; Version: 0.1
 ;; Package-Version: 20160426.1216
+;; Package-Commit: a4d778de774ca3895542cb559a953e0d98657338
 ;; Keywords: convenience, menu
 ;; Package-Requires: ((emacs "24.4"))
 ;; URL: https://github.com/lujun9972/auto-pause

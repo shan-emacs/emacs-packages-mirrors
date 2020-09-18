@@ -1,0 +1,2 @@
+
+(osa-chrome . [(20200627 1344) ((emacs (25 1)) (osa (1 0))) "Google Chrome remote tab control" tar ((:commit . "07894b9cb40171702b4c89b75542af1f1ac1403c") (:keywords "comm") (:authors ("xristos" . "xristos@sdf.org")) (:maintainer "xristos" . "xristos@sdf.org") (:url . "https://github.com/atomontage/osa-chrome"))])

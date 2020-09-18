@@ -1,2 +1,2 @@
 
-(page-break-lines . [(20200305 244) ((emacs (24 4))) "Display ^L page breaks as tidy horizontal lines" single ((:commit . "314b397910b3d16bb7cbcc25098696348e678080") (:keywords "convenience" "faces") (:authors ("Steve Purcell" . "steve@sanityinc.com")) (:maintainer "Steve Purcell" . "steve@sanityinc.com") (:url . "https://github.com/purcell/page-break-lines"))])
+(page-break-lines . [(20200305 244) ((emacs (24 4))) "Display ^L page breaks as tidy horizontal lines" single ((:commit . "f8c4cd7fc67638ae4113551dcffdf87fcd252d9b") (:keywords "convenience" "faces") (:authors ("Steve Purcell" . "steve@sanityinc.com")) (:maintainer "Steve Purcell" . "steve@sanityinc.com") (:url . "https://github.com/purcell/page-break-lines"))])

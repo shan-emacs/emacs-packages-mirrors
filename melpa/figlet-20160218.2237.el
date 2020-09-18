@@ -6,6 +6,7 @@
 ;; Author: Philip Jackson <phil@shellarchive.co.uk>
 ;; Version: 0.5
 ;; Package-Version: 20160218.2237
+;; Package-Commit: 19a38783a90e151faf047ff233a21a729db0cea9
 
 ;; This file is not currently part of GNU Emacs.
 

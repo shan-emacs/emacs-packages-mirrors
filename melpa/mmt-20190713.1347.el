@@ -5,6 +5,7 @@
 ;; Author: Mark Karpov <markkarpov92@gmail.com>
 ;; URL: https://github.com/mrkkrp/mmt
 ;; Package-Version: 20190713.1347
+;; Package-Commit: d7729563e656a3e8adef6bce60348861ba183c09
 ;; Version: 0.2.0
 ;; Package-Requires: ((emacs "24.1") (cl-lib "0.3"))
 ;; Keywords: macro, emacs-lisp

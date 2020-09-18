@@ -5,6 +5,7 @@
 ;; Author: Sebastian Wiesner <swiesner@lunaryorn.com>
 ;; URL: https://github.com/flycheck/flycheck-cask
 ;; Package-Version: 20191030.2253
+;; Package-Commit: 3457ae553c4feaf8168008f063d78fdde8fb5f94
 ;; Keywords: tools, convenience
 ;; Version: 0.5-cvs
 ;; Package-Requires: ((emacs "24.3") (flycheck "0.14") (dash "2.4.0"))

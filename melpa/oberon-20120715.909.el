@@ -6,6 +6,7 @@
 ;; Maintainer: Karl Landström <karl@karllandstrom.se>
 ;; Version: 2.0 Beta 1
 ;; Package-Version: 20120715.909
+;; Package-Commit: fb57d18ce13835a8a69b6bafecdd9193ca9a59a3
 ;; Keywords: oberon oberon-2 languages oop
 
 ;; This file is free software; you can redistribute it and/or modify

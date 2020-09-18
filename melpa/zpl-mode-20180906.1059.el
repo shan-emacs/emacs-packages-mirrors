@@ -2,6 +2,7 @@
 
 ;; URL: https://github.com/ax487/zpl-mode.git
 ;; Package-Version: 20180906.1059
+;; Package-Commit: 35e7e23c6baf31b5e65dd7405c8ab9b13c70637e
 ;; Version: 20180712
 ;; Package-Requires: ((emacs "24.3"))
 

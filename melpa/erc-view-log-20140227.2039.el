@@ -7,6 +7,7 @@
 ;;         Thomas Riccardi <riccardi.thomas@gmail.com>
 ;; URL: http://github.com/Niluge-KiWi/erc-view-log/raw/master/erc-view-log.el
 ;; Package-Version: 20140227.2039
+;; Package-Commit: c5a25f0cbca84ed2e4f72068c02b66bd0ea3b266
 ;; Homepage: http://github.com/Niluge-KiWi/erc-view-log/
 ;; Keywords: ERC viewer logs colors
 

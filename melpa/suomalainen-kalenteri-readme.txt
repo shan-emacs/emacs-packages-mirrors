@@ -1,7 +1,7 @@
 Finnish national and Christian holidays for Emacs calendar.
 
 Holidays follow the calendar published by Helsinki university's
-almanakkatoimisto <http://almanakka.helsinki.fi/>.
+almanakkatoimisto <https://almanakka.helsinki.fi>.
 
-License: This program is placed in the public domain. The calendar
-content (i.e., holidays) is free.
+License: Creative Commons CC0 (public domain dedication):
+https://creativecommons.org/publicdomain/zero/1.0/legalcode

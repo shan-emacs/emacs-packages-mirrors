@@ -7,6 +7,7 @@
 ;; Package-Version: 20190420.851
 ;; Package-X-Original-Version: 1.0.0
 ;; Keywords: ietf, rfc
+;; Package-Commit: ae157549eae5ec78dcbf215c2f48cb662b73abd0
 ;; URL: https://github.com/choppsv1/ietf-docs
 
 ;; This file is NOT part of GNU Emacs.

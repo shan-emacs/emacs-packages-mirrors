@@ -6,6 +6,7 @@
 ;; Homepage: http://github.com/nivekuil/corral
 ;; Version: 0.3.0
 ;; Package-Version: 20160502.701
+;; Package-Commit: e7ab6aa118e46b93d4933d1364bc273f57cd6911
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

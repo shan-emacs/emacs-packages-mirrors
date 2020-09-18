@@ -5,6 +5,7 @@
 ;; Author: Rich Alesi
 ;; URL: https://github.com/ralesi/ahk-mode
 ;; Package-Version: 20200412.1832
+;; Package-Commit: 729007b5f22a49f5187ff47fca18c0d674e73047
 ;; Version: 1.5.6
 ;; Keywords: ahk, AutoHotkey, hotkey, keyboard shortcut, automation
 ;; Package-Requires: ((emacs "24.3"))

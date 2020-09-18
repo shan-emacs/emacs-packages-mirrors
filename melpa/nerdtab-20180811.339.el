@@ -18,6 +18,7 @@
 ;; Author: Yuan Fu <casouri@gmail.com>
 ;; URL: https://github.com/casouri/nerdtab
 ;; Package-Version: 20180811.339
+;; Package-Commit: 74ccc14d7956712e477a34b4a733284e8b3832a6
 ;; Version: 1.2.3
 ;; Keywords: convenience
 ;; Package-Requires: ((emacs "24.5"))

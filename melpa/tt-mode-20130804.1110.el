@@ -1,5 +1,6 @@
 ;;; tt-mode.el --- Emacs major mode for editing Template Toolkit files.
 ;; Package-Version: 20130804.1110
+;; Package-Commit: 85ed3832e7eef391f7879d9990d59c7a3493c15e
 ;;
 ;; Copyright (c) 2002 Dave Cross, all rights reserved.
 ;;

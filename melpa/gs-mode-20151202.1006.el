@@ -4,6 +4,7 @@
 ;; Created: 2 Oct 2003
 ;; Keywords: GrADS script major-mode
 ;; Package-Version: 20151202.1006
+;; Package-Commit: 1a13051db21b999c7682a015b33a03096ff9d891
 ;; Version: 0.1
 
 ;; Copyright (C) Joe Wielgosz <joew@cola.iges.org>

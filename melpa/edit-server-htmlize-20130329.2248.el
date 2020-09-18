@@ -6,6 +6,7 @@
 ;; Maintainer: Roland McGrath <roland@hack.frob.com>
 ;; Version: 0.4
 ;; Package-Version: 20130329.2248
+;; Package-Commit: e7f8dadfabe869c77ca241cd6fbd4c52bd908392
 ;; URL: https://github.com/frobtech/edit-server-htmlize
 ;; Package-Requires: ((edit-server "1.9"))
 

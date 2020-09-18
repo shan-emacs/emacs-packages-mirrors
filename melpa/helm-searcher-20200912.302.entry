@@ -1,0 +1,2 @@
+
+(helm-searcher . [(20200912 302) ((emacs (25 1)) (helm (2 0)) (searcher (0 1 8)) (s (1 12 0)) (f (0 20 0))) "Helm interface to use searcher" single ((:commit . "96d62785d80f40e68769b530e049c134bf036ef0") (:authors ("Shen, Jen-Chieh" . "jcs090218@gmail.com")) (:maintainer "Shen, Jen-Chieh" . "jcs090218@gmail.com") (:url . "https://github.com/jcs-elpa/helm-searcher"))])

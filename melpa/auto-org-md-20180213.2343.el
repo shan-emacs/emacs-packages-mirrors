@@ -7,6 +7,7 @@
 ;; Updated: 2018-02-14
 ;; Version: 1.2
 ;; Package-Version: 20180213.2343
+;; Package-Commit: 9318338bdb7fe8bd698d88f3af89b2d6413efdd2
 
 ;; Keywords: org, markdown
 ;; Package-Requires: ((emacs "24.4"))

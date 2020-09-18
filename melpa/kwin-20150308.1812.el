@@ -21,6 +21,7 @@
 ;; Author: Simon Hafner
 ;; URL: http://github.com/reactormonk/kwin-minor-mode
 ;; Package-Version: 20150308.1812
+;; Package-Commit: d4f8f3593598b71ee596e0a87b2c1d6a912a9566
 ;; Version: 0.1
 
 

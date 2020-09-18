@@ -1,5 +1,6 @@
 ;;; vc-osc.el --- non-resident support for osc version-control
 ;; Package-Version: 20190402.2349
+;; Package-Commit: bf5a515ed85f7d7cdfe66ed5bf4ef7554f8561e5
 
 ;; Copyright (C) 2012 Adam Spiers <aspiers@suse.com>
 

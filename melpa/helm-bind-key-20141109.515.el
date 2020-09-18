@@ -4,6 +4,7 @@
 ;; Author: Yuhei Maeda <yuhei.maeda_at_gmail.com>
 ;; Maintainer: myuhe
 ;; Version: 0.1
+;; Package-Commit: 9da6ad8b7530e72fb4ac67be8c6a482898dddc25
 ;; Package-Version: 20141109.515
 ;; Package-X-Original-version: 0.1
 ;; Package-Requires: ((bind-key "1.0") (helm "1.6.4"))

@@ -5,6 +5,7 @@
 ;; Author: Roman Scherer <roman@burningswell.com>
 ;; Version: 0.1.0
 ;; Package-Version: 20131217.1511
+;; Package-Commit: 3c9647b425c5c13c30bf0cba483646af18196588
 ;; Package-Requires: ((sql "3.0"))
 ;; Keywords: sql vertica
 

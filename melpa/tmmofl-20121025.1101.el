@@ -8,6 +8,7 @@
 ;; Maintainer: Phillip Lord <p.lord@hgmp.mrc.ac.uk>
 ;; Keywords: minor mode, font lock, toggling.
 ;; Package-Version: 20121025.1101
+;; Package-Commit: 532aa6978e994e2b069ffe37aaf9a0011a07dadc
 
 ;; COPYRIGHT NOTICE
 ;;

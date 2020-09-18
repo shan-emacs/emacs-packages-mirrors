@@ -8,5 +8,6 @@ play any tracks --- you need players for this.  In fact, it doesn't
 even know how to find any tracks to consider playing --- for this,
 you need sources.
 
-A sample configuration is offered in emms-setup.el, so you might
-just want to use that file.
+A sample configuration is offered in emms-setup.el, and the
+Friendly Manual in the doc/ directory is both detailed, and kept up
+to date.

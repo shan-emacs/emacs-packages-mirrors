@@ -8,6 +8,7 @@
 ;; Package-Version: 20200329.2005
 ;; Package-X-Original-Version: 0.1
 ;; Package-Requires: ((emacs "26"))
+;; Package-Commit: 78956f0e5bb9c4d35989657a55929e8e3f5691e6
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

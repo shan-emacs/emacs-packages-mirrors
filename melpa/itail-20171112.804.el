@@ -5,6 +5,7 @@
 ;; Author: atom smith
 ;; URL: https://github.com/re5et/itail
 ;; Package-Version: 20171112.804
+;; Package-Commit: 6e43c20da03be3b9c6ece93b7dc3495975ec1888
 ;; Created: 26 Dec 2012
 ;; Version: 0.0.8
 ;; Keywords: tail

@@ -5,6 +5,7 @@
 ;; Author: Syohei YOSHIDA <syohex@gmail.com>
 ;; URL: https://github.com/syohex/emacs-go-add-tags
 ;; Package-Version: 20161123.1227
+;; Package-Commit: 54879945e46a0884c5f93d7fd6c866a9cdf401ac
 ;; Version: 0.04
 ;; Package-Requires: ((emacs "24.3") (s "1.11.0"))
 

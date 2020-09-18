@@ -5,6 +5,7 @@
 ;; Author: Yi Tang <yi.tang.uk@me.com>
 ;; Keywords: English vocabulary 
 ;; Package-Version: 20161101.1645
+;; Package-Commit: 51573beec8cd8308477b0faf453aad93e17f57c5
 ;; Created: 28th March 2015
 ;; Package-Requires: ((popup "0.5.2"))
 ;; URL: https://github.com/yitang/voca-builder

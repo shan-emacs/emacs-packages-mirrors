@@ -7,6 +7,7 @@
 ;; Created: Tue Oct  5 12:19:45 2010 (-0500)
 ;; Version: 0.6
 ;; Package-Version: 20131203.1351
+;; Package-Commit: c09bb2b46d65afbd1d0febc6fded7495be7a3037
 ;; Package-Requires: ((fold-dwim "1.2"))
 ;; Last-Updated: Fri Dec  2 08:57:02 2011 (-0600)
 ;;           By: Matthew L. Fidler

@@ -5,6 +5,7 @@
 ;; Author: Oleh Krehel <ohwoeowho@gmail.com>
 ;; URL: https://github.com/abo-abo/netherlands-holidays
 ;; Package-Version: 20150202.1617
+;; Package-Commit: 26236178cdd650df9958bf5a086e184096559f00
 ;; Version: 1.0.0
 ;; Keywords: calendar
 

@@ -5,6 +5,7 @@
 ;; Author: ZHOU Feng <zf.pascal@gmail.com>
 ;; URL: http://github.com/zweifisch/ob-elixir
 ;; Package-Version: 20170725.1419
+;; Package-Commit: 8990a8178b2f7bd93504a9ab136622aab6e82e32
 ;; Keywords: org babel elixir
 ;; Version: 0.0.1
 ;; Created: 28th Sep 2015

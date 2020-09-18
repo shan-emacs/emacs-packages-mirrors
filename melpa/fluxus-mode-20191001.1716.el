@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/defaultxr/fluxus-mode
 ;; Version: 0.5
 ;; Package-Version: 20191001.1716
+;; Package-Commit: 3d05fa15f141ac3e936f908097bb7eb6295cc367
 ;; Package-Requires: ((osc "0.1") (emacs "24.4"))
 ;; Keywords: languages
 

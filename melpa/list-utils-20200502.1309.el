@@ -6,6 +6,7 @@
 ;; Homepage: http://github.com/rolandwalker/list-utils
 ;; URL: http://raw.githubusercontent.com/rolandwalker/list-utils/master/list-utils.el
 ;; Package-Version: 20200502.1309
+;; Package-Commit: 9bb2487c83ec46a0b6e6c4158af69334ac797b82
 ;; Version: 0.4.6
 ;; Last-Updated:  2 May 2020
 ;; EmacsWiki: ListUtils

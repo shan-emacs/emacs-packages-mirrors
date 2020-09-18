@@ -5,6 +5,7 @@
 ;; Author: Masashı Mıyaura
 ;; URL: https://github.com/masasam/emacs-counsel-tramp
 ;; Package-Version: 20190616.122
+;; Package-Commit: 719b38ba2242cc1c6d1d79cab106c8c8b1afa775
 ;; Version: 0.7.5
 ;; Package-Requires: ((emacs "24.3") (counsel "0.10"))
 

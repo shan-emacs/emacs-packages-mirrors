@@ -5,6 +5,7 @@
 ;; Author: Tony Wang <wwwjfy@gmail.com>
 ;; Keywords: Fish, shell
 ;; Package-Version: 20200213.2137
+;; Package-Commit: db257db81058b0b12f788c324c264cc59b9a5bf4
 ;; Package-Requires: ((emacs "24"))
 
 ;; This program is free software; you can redistribute it and/or modify

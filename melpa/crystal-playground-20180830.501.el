@@ -5,6 +5,7 @@
 ;; Author: Jason Howell
 ;; URL: https://github.com/jasonrobot/crystal-playground
 ;; Package-Version: 20180830.501
+;; Package-Commit: fb3691b1281207b459c5be50015a626f356dc40d
 ;; Version: 0.1
 ;; Keywords: tools, crystal
 ;; Package-Requires: ((emacs "25") (crystal-mode "0.1.2"))

@@ -4,6 +4,7 @@
 ;; Author: Diego A. Mundo <diegoamundo@gmail.com>
 ;; URL: http://github.com/dieggsy/difflib.el
 ;; Package-Version: 20171227.1518
+;; Package-Commit: b08850251812d71e62fd6956081299590acdf37b
 ;; Git-Repository: git://github.com/dieggsy/difflib.el
 ;; Created: 2017-10-28
 ;; Version: 0.3.7

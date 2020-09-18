@@ -5,6 +5,7 @@
 ;; Author: Andreas Klein <git@kungi.org>
 ;; Keywords: irc chat network weechat
 ;; Package-Version: 20160416.1248
+;; Package-Commit: a8fd557c8f335322f132c1c6c08b6741d6394e2e
 ;; URL: https://github.com/kungi/weechat-alert
 ;; Version: 0.0.1
 ;; Package-Requires: ((weechat "0.3.1") (cl-lib "0.5") (alert "1.2"))

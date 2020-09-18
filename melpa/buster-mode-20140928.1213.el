@@ -6,6 +6,7 @@
 ;;          Christian Johansen <christian@cjohansen.no>
 ;; Keywords: buster testing javascript
 ;; Package-Version: 20140928.1213
+;; Package-Commit: de6958ef8369400922618b8d1e99abfa91b97ac5
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/xuchunyang/lolcat.el
 ;; Package-Requires: ((emacs "24.3"))
 ;; Package-Version: 20190527.1145
+;; Package-Commit: 4855e587a3b9681c077dac4b9f166dd860f439a4
 ;; Version: 0
 
 ;; This program is free software; you can redistribute it and/or modify

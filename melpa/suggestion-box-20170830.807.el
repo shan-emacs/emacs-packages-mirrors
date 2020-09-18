@@ -5,6 +5,7 @@
 ;; Author: Yuta Yamada <cokesboy"at"gmail.com>
 ;; Keywords: convenience
 ;; Package-Version: 20170830.807
+;; Package-Commit: 50af0776c8caf3c79c4d37fd51cbf304ea34b68e
 ;; Version: 0.0.1
 ;; Package-Requires: ((emacs "25.1") (popup "0.5.3"))
 

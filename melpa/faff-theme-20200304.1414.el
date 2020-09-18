@@ -5,6 +5,7 @@
 ;; Author: James Ferguson <(concat "wjcferguson" at-sign "gmail.com")>
 ;; URL: https://github.com/WJCFerguson/emacs-faff-theme
 ;; Package-Version: 20200304.1414
+;; Package-Commit: 3a2f4b567de490ee7af32ecca46de741e7fd7d6a
 ;; Version: 2.6
 ;; Keywords: color theme
 

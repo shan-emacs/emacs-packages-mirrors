@@ -7,6 +7,7 @@
 ;; Author: Kenji.I (Kenji Imakado) <ken.imakaado@gmail.com>
 ;; Version: 0.6.7
 ;; Package-Version: 20200520.1519
+;; Package-Commit: 89cc8561e7e57e9d1070ee3641df019c7f49c5dd
 ;; Package-Requires: ((emacs "25.1") (helm "1.7.7") (yasnippet "0.8.0"))
 ;; Keywords: convenience, emulation
 

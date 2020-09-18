@@ -5,6 +5,7 @@
 ;; Author: Göktuğ Kayaalp <self@gkayaalp.com>
 ;; Version: 0.2.0
 ;; Package-Version: 20190124.1828
+;; Package-Commit: 37620eeccd150a73ae52fd0987ff3832291b68db
 ;; Keywords: tools
 ;; URL: https://dev.gkayaalp.com/elisp/index.html#bibliothek-el
 ;; Package-Requires: ((emacs "24.4") (pdf-tools "0.70") (a "0.1.0alpha4"))

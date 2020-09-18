@@ -5,6 +5,7 @@
 ;; Author: Vasilij Schneidermann <mail@vasilij.de>
 ;; URL: https://depp.brause.cc/firestarter
 ;; Package-Version: 20200506.1311
+;; Package-Commit: 5b117bf8d290af5c104d88c413f40e84da0c4ce8
 ;; Version: 0.2.5
 ;; Keywords: convenience
 

@@ -7,6 +7,7 @@
 ;; Created: 2013-01-31 16:05:17
 ;; Keywords: matching all search replace anything helm helm-swoop occur
 ;; Package-Version: 20200315.1443
+;; Package-Commit: c865c62506af2c9edc7705a7c24dc8b70d5d4de2
 ;; Version: 0.5
 ;; URL: https://github.com/rubikitch/all-ext
 ;; Package-Requires: ((emacs "24.4") (all "1.0"))

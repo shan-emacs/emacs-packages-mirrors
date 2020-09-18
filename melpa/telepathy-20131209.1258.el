@@ -5,6 +5,7 @@
 ;; Author: Nicolas Petton <petton.nicolas@gmail.com>
 ;; Keywords: telepathy tools
 ;; Package-Version: 20131209.1258
+;; Package-Commit: 211d785b02a29ddc254422fdcc3db45262582f8c
 ;; Package: telepathy
 ;; Version: 0.1
 

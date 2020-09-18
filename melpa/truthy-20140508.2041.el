@@ -6,6 +6,7 @@
 ;; Homepage: http://github.com/rolandwalker/truthy
 ;; URL: http://raw.githubusercontent.com/rolandwalker/truthy/master/truthy.el
 ;; Package-Version: 20140508.2041
+;; Package-Commit: 8ed8d07772aa8457554547eb17e264b5df2b4a69
 ;; Version: 0.2.8
 ;; Last-Updated:  1 Nov 2013
 ;; Package-Requires: ((list-utils "0.4.2"))

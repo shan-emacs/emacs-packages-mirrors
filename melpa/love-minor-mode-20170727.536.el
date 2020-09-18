@@ -5,6 +5,7 @@
 ;; Author: Eric James Michael Ritz
 ;; URL: https://github.com/ejmr/love-minor-mode
 ;; Package-Version: 20170727.536
+;; Package-Commit: 3ca8f3405338f2d6f4fbcdd5e89342a46378543a
 ;; Version: 1.2
 ;; Package-Requires: ((lua-mode "20130419"))
 ;;

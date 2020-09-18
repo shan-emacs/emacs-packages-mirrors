@@ -6,6 +6,7 @@
 
 ;; Package-Requires: ((emacs "25"))
 ;; Package-Version: 20191204.1558
+;; Package-Commit: e326a45b60e0fd4ca057f1d1dc3e99a516a5aa2f
 ;; Version: 0.0.2
 ;; URL: https://github.com/mallt/org-clock-today-mode
 

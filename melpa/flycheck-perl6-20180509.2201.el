@@ -5,6 +5,7 @@
 ;; Author: Hinrik Örn Sigurðsson <hinrik.sig@gmail.com>
 ;; URL: https://github.com/hinrik/flycheck-perl6
 ;; Package-Version: 20180509.2201
+;; Package-Commit: b804702305d7a6e26f762ff98cfdeec2e9dd4cb7
 ;; Keywords: tools, convenience
 ;; Version: 0.1-git
 ;; Package-Requires: ((emacs "24.3") (flycheck "0.22"))

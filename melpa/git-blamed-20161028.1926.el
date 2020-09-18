@@ -8,6 +8,7 @@
 ;; License:    GPL
 ;; Keywords:   git, version control, release management
 ;; Package-Version: 20161028.1926
+;; Package-Commit: cef196abf398e2dd11f775d1e6cd8690567408aa
 ;;
 ;; Compatibility: Emacs21, Emacs22 and EmacsCVS
 ;;                Git 1.5 and up

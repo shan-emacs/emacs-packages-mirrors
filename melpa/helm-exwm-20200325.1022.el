@@ -5,6 +5,7 @@
 ;; Author: Pierre Neidhardt <mail@ambrevar.xyz>
 ;; URL: https://github.com/emacs-helm/helm-exwm
 ;; Package-Version: 20200325.1022
+;; Package-Commit: 00ddb4d2a127087a0b99f0a440562bd54408572d
 ;; Version: 0.0.2
 ;; Package-Requires: ((emacs "25.2") (helm "2.8.5") (exwm "0.15"))
 ;; Keywords: helm, exwm

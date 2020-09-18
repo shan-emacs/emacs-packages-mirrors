@@ -1,4 +1,4 @@
-These definitions let you interact with SWI-Prolog in all buffers.
+These definitions let you interact with Prolog in all buffers.
 You can consult Prolog programs and evaluate embedded queries.
 
 Installation
@@ -13,6 +13,10 @@ Restart Emacs and customize ediprolog with
 
     M-x customize-group RET ediprolog RET
 
+The two most important configuration options are:
+
+   - `ediprolog-system', either 'scryer or 'swi
+   - `ediprolog-program', the path of the Prolog executable.
 
 Usage
 =====
@@ -30,10 +34,10 @@ whitespace. An example of a query is (without leading ";;"):
 If you press F10 when point is on that query, you get:
 
   %?- member(X, [a,b,c]).
-  %@ X = a ;
-  %@ X = b ;
-  %@ X = c ;
-  %@ false.
+  %@    X = a
+  %@ ;  X = b
+  %@ ;  X = c
+  %@ ;  false.
 
 When waiting for output of the Prolog process, you can press C-g to
 unblock Emacs and continue with other work. To resume interaction
@@ -60,4 +64,5 @@ processes simultaneously. Revert with M-x ediprolog-unlocalize RET.
   C-u F10       first consult buffer, then evaluate query (if any)
   C-u C-u F10   like C-u F10, with a new process
 
-Tested with SWI-Prolog 7.3.21 + Emacs 22.1, 23.4, 24.5, 25.1 and 26.0
+Tested with Scryer Prolog 0.8.119 and SWI-Prolog 8.1.24,
+using Emacs versions 26.1 and 27.0.50.

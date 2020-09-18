@@ -6,6 +6,7 @@
 ;; Author: Frank Singleton <b17flyboy@gmail.com>
 ;; Version: 0.1.1
 ;; Package-Version: 20170826.1157
+;; Package-Commit: 65d3e0563abe6ff9577202cf2278074d4130fbdd
 ;; Keywords: comm, hardware
 ;; URL: https://bitbucket.org/pymaximus/catmacs
 ;; Package-Requires: ((emacs "24"))

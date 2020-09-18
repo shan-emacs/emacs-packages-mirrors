@@ -7,6 +7,7 @@
 ;; Author: rubikitch <rubikitch@ruby-lang.org>
 ;; Keywords: lisp
 ;; Package-Version: 20140206.1214
+;; Package-Commit: 6cb763a37e2b8af505bff2bcd11fd49c9ea04d66
 ;; URL: http://www.emacswiki.org/cgi-bin/wiki/download/save-load-path.el
 
 ;; This file is free software; you can redistribute it and/or modify

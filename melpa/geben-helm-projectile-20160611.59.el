@@ -6,6 +6,7 @@
 ;; Maintainer: Matthew Carter <m@ahungry.com>
 ;; URL: https://github.com/ahungry/geben-helm-projectile
 ;; Package-Version: 20160611.59
+;; Package-Commit: 31ce0faca5dcc71924884f03fd5a7a25d00ccd9b
 ;; Version: 0.0.3
 ;; Keywords: ahungry emacs geben helm projectile debug
 ;; Package-Requires: ((emacs "24") (geben "0.26") (helm-projectile "0.13.0"))

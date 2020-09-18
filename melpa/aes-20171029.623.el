@@ -7,6 +7,7 @@
 ;; Created: 15 Feb 2008
 ;; Version: 0.9
 ;; Package-Version: 20171029.623
+;; Package-Commit: b7d5da89c3443292e4f0b1c9d254d459933cf5af
 ;; Keywords: data, tools
 ;; URL: https://github.com/Sauermann/emacs-aes
 

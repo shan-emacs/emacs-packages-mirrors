@@ -8,6 +8,7 @@
 ;; Created: Dec 29 2012
 ;; Keywords: convenience
 ;; Package-Version: 20160305.1301
+;; Package-Commit: a49a06746d4df6bcfceec3c48dece065d635f9f9
 ;; Homepage: https://github.com/michael-heerdegen/interaction-log.el
 ;; Version: 1.2
 ;; Package-Requires: ((cl-lib "0"))

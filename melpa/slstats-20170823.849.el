@@ -4,6 +4,7 @@
 ;; Author: Dave Pearson <davep@davep.org>
 ;; Version: 1.10
 ;; Package-Version: 20170823.849
+;; Package-Commit: e9696066abf3f2b7b818a57c062530dfd9377033
 ;; Keywords: games
 ;; URL: https://github.com/davep/slstats.el
 ;; Package-Requires: ((cl-lib "0.5") (emacs "24"))

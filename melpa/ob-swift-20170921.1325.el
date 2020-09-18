@@ -5,6 +5,7 @@
 ;; Author: Feng Zhou <zf.pascal@gmail.com>
 ;; URL: http://github.com/zweifisch/ob-swift
 ;; Package-Version: 20170921.1325
+;; Package-Commit: ed478ddbbe41ce5373efde06b4dd0c3663c9055f
 ;; Keywords: org babel swift
 ;; Version: 0.0.1
 ;; Created: 4th Dec 2015

@@ -9,6 +9,7 @@
 ;; Maintainer: Alex Schroeder
 ;; Version: 1.4
 ;; Package-Version: 20180301.2308
+;; Package-Commit: e59040aefc92dd9b3134eb623624307fb9e4327b
 ;; Keywords: xml, dom
 ;; Package-Requires: ((cl-lib "0.5"))
 ;; URL: http://www.github.com/kensanata/doom.el/

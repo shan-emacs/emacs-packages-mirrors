@@ -6,6 +6,7 @@
 ;; Homepage: https://github.com/tumashu/org-picklink
 ;; Version: 0.1.0
 ;; Package-Version: 20191203.59
+;; Package-Commit: f79040ed988bdeec63b098b187e00f2b80d3d570
 ;; Package-Requires: ((emacs "24.4"))
 ;; Keywords: convenience
 
